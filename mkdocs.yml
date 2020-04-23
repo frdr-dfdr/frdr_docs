@@ -1,0 +1,66 @@
+site_name: FRDR Documentation
+site_url: http://127.0.0.1:8000/
+theme:
+    name: mkdocs
+    custom_dir: 'frdr_theme'
+nav:
+    - English:
+        - "Home": en/home.md
+        - "Searching for Datasets": en/searching.md
+        - "Before Depositing": en/before_depositing.md
+        - "Depositing Data": en/depositing_data.md
+        - "After Depositing": en/after_depositing.md
+        - "Terms of Service": en/terms_of_service.md
+        - "Advanced": en/advanced.md
+        - "FAQ": en/faq.md
+        - "Change Log": en/change_log.md
+        - "FAIR Principles": en/fair_principles.md
+        - "Style Guide": en/style_guide.md
+        - "Contact Us": en/contact_support.md
+        - "About": en/about.md
+    - French:
+        - Accueil: fr/accueil.md
+        - "Recherche de jeux de données": fr/recherche.md
+        - "Avant de déposer": fr/avant_d'utiliser.md
+        - "Déposer les données": fr/deposer_les_donnees.md
+        - "Après le dépôt": fr/après_le_dépôt.md
+        - "Conditions d'utilisation": fr/conditions_d'utilisation.md
+        - "Avancée": fr/avancee.md
+        - "FAQ": fr/faq.md
+        - "Principes FAIR": fr/principes_fair.md
+        - "Guide de style": fr/guide_de_style.md
+        - "Contactez nous": fr/contactez_nous.md
+        - "À propos": fr/a_propos.md
+
+extra_css:
+    - css/bootstrap-theme.min.css
+extra:
+    repo_url: https://www.frdr-dfdr.ca/repo/
+    prefix: "/"
+    default_page_en: en/home/
+    default_page_fr: fr/accueil/
+    language_map:
+        en:
+            "Searching for Datasets": fr/recherche/
+            "Before Depositing": fr/avant_d'utiliser/
+            "Depositing Data": fr/deposer_les_donnees/
+            "After Depositing": fr/après_le_dépôt/
+            "Terms of Service": fr/conditions_d'utilisation/
+            "FAQ": fr/faq/
+            "FAIR Principles": fr/principes_fair/
+            "Style Guide": fr/guide_de_style/
+            "Contact Us": fr/contactez_nous/
+            "About": fr/a_propos/
+            "Advanced": fr/avancee/
+        fr:
+            "Recherche de jeux de données": en/searching/
+            "Avant de déposer": en/before_depositing/
+            "Déposer les données": en/depositing_data/
+            "Après le dépôt": en/after_depositing/
+            "Conditions d'utilisation": en/terms_of_service/
+            "FAQ": en/faq/
+            "Principes FAIR": en/fair_principles/
+            "Guide de style": en/style_guide/
+            "Contactez nous": en/contact_support/
+            "À propos": en/about/
+            "Avancée": en/advanced/
