@@ -114,7 +114,7 @@ Special thanks to **Keith Jeffrey**, the former Project Manager, who has since r
 
 ## Geodisy Project
 
-Details here about the project.
+FRDR’s Geodisy map search (beta) is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Research data can be hard to find, and even harder when looking for data about a specific area or place. Geodisy changes that, giving users a window into the world of research data with map-based tools familiar to everyone. Geodisy currently sources data from [Scholars Portal Dataverse](https://dataverse.scholarsportal.info/), which houses material from institutions across Canada. FRDR’s Geodisy will continue to expand upon its collection to include more institutional sources.
 
 
 ## Security and Privacy
