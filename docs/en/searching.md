@@ -21,11 +21,7 @@ Note that accented characters are distinguished from unaccented characters. That
 
 Clicking on the advanced search link will allow you to specify more parameters, via drop down menus, including: title, author, description, or subject keyword.
 
-### 3. Map Search (beta)
-
-This feature is currently under development.
-
-### 4. Using Search syntax
+### 3. Using Search syntax
 
 Searchers can also specify more complex searches using a subset of the [ElasticSearch string query syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax) The syntax is powerful, but unforgiving.
 
@@ -49,6 +45,12 @@ http://dublincore.org/documents/dcmi-terms#contributor: Smit*
 ```
 
 This would include any (fully specified) custom metadata fields created for a particular storage group in FRDR. It should be remembered that different repositories expose different metadata fields for harvesting, that there is some disagreement between repositories on how fields should be used, and also that many fields are left unpopulated.
+
+### 4. Map Search (beta)
+
+FRDR’s Geodisy map search is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Currently in beta, the map search only indexes selected datasets from Scholars Portal Dataverse with location metadata and/or geospatial files. You can find more information on Geodisy and how to use it in the [FAQ](https://github.com/ubc-library/geodisy/blob/master/Documentation/factsheet.md). Go directly to the map search at [https://geo.frdr.ca/].
+
+This feature is currently under development.
 
 ## Viewing or downloading
 On the search results page each matching dataset discovered is shown with:
