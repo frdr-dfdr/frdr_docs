@@ -112,6 +112,10 @@ Special thanks to **Keith Jeffrey**, the former Project Manager, who has since r
 * April 2017: Beta testing was started and the project was put in limited production mode with a small number of research groups.
 * August 2019: CANARIE announced $2M of funding to CARL Portage, of which a portion is going towards moving FRDR into full production.
 
+## Geodisy Project
+
+Details here about the project.
+
 
 ## Security and Privacy
 
