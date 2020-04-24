@@ -8,7 +8,7 @@ You can filter and refine results by:
 * Subject
 * Source repository
 
-There are three ways to Search:
+There are many ways to Search:
 
 ### 1. Basic search
 
