@@ -21,7 +21,11 @@ Note that accented characters are distinguished from unaccented characters. That
 
 Clicking on the advanced search link will allow you to specify more parameters, via drop down menus, including: title, author, description, or subject keyword.
 
-### 3. Using Search syntax
+### 3. Map Search (beta)
+
+This feature is currently under development.
+
+### 4. Using Search syntax
 
 Searchers can also specify more complex searches using a subset of the [ElasticSearch string query syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax) The syntax is powerful, but unforgiving.
 
