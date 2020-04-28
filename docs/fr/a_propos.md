@@ -79,12 +79,21 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 Le **gestionnaire de services** pour le DFDR relève du gestionnaire de service de Portage, Lee Wilson.
 
-Le **comité directeur du projet** comprend des représentants de Calcul Canada et de l'Association des bibliothèques de recherche du Canada:
+Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'Association des bibliothèques de recherche du Canada (ABRC), la Fédération du Calcul Canada, l'équipe de développement du DFDR, les points central du DFDR, la NOIRN et la communauté des utilisateurs finals via le président du Comité consultatif des usagers. Membrariat actuel :
 
-* Dugan O'Neil, AVP Research, Simon Fraser University et représentant Compute Canada</li>
-* Jeff Moon, directeur, réseau Portage</li>
-* Umar Qasim, Digital Preservation Officer, University of Alberta</li>
-* Jason Hlady, Manager, Research Computing, University of Saskatchewan</li>
+**Président:**
+* **Jeff Moon**, Directeur, Portage
+
+**Adhésion:**
+* **Susan Haigh**, Directrice générale, CARL
+* **Lee Wilson**, Gestionnaire de services, Portage
+* **Greg Lukeman**, PDG, ACENET
+* **Suzanne Talon**, PDG, Calcul Québec
+* **John Simpson**, Président, Conseil de leadership scientifique / Spécialiste en sciences humaines et sciences sociales
+* **Jason Hlady**, Directeur adjoint, Research and Library Technology, Université de Saskatchewan
+* **Dugan O'Neil**, Vice-président associé de Recherche, Université Simon Fraser
+* **John Morton**, Directeur de la technologie, SHARCNET
+* **Jay Brodeur**, Directeur adjoint, Services d’études numériques, Université McMaster
 
 **L'équipe de projet de développement de logiciels** comprend l'équipe de base de la University of Saskatchewan :
 
