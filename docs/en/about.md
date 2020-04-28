@@ -82,9 +82,11 @@ The platform's federated search tool will provide a focal point to discover and 
 The **Steering Committee** comprises representatives from the Canadian Association of Research Libraries’ (CARL) Portage Network, the Compute Canada Federation (CCF), the FRDR development team, FRDR host sites, NDRIO, and the end user community via the User Advisory Committee Chair. Current membership includes:
 
 **Chair:**
+
 * **Jeff Moon**, Director, Portage
 
 **Membership:**
+
 * **Susan Haigh**, Executive Director, CARL
 * **Lee Wilson**, Service Manager, Portage
 * **Greg Lukeman**, CEO, ACENET
