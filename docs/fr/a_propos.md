@@ -82,9 +82,11 @@ Le **gestionnaire de services** pour le DFDR relève du gestionnaire de service 
 Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'Association des bibliothèques de recherche du Canada (ABRC), la Fédération du Calcul Canada, l'équipe de développement du DFDR, les points central du DFDR, la NOIRN et la communauté des utilisateurs finals via le président du Comité consultatif des usagers. Membrariat actuel :
 
 **Président:**
+
 * **Jeff Moon**, Directeur, Portage
 
 **Adhésion:**
+
 * **Susan Haigh**, Directrice générale, CARL
 * **Lee Wilson**, Gestionnaire de services, Portage
 * **Greg Lukeman**, PDG, ACENET
