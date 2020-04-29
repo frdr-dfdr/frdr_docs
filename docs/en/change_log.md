@@ -1,5 +1,14 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-04-29**:
+
+* Added Globus metadata to OAI endpoint FRDR schema
+* Split dataset license information into dc.rights and dc.rights.uri
+* Funder name is now required if either award number or award title are supplied
+* Map search beta link has been added to the FRDR home page
+* Added user documentation and updated user interface for map search
+* Added new repositories to FRDR discovery: Data Ontario, Cape Breton University Dataverse, Concordia University Dataverse, Dalhousie University Dataverse, École nationale d’administration publique Dataverse, HEC Montréal Dataverse, Institut national de la recherche scientifique Dataverse, Memorial University Dataverse, Royal Military College Dataverse, Université du Québec à Trois-Rivières Dataverse, Université TÉLUQ Dataverse, St. Francis Xavier University Dataverse
+
 **2020-03-25**:
 
 * Added sharing of submissions with collaborators, allowing multiple people to work on the submission metadata and also upload files
