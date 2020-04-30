@@ -4,15 +4,15 @@ Une fois connecté au DFDR, vous avez accès au Tableau de bord de publication d
 Vous pouvez initier une nouvelle soumission en tout temps.
 
 ## Aperçu des étapes de dépôt
-Voici les étapes requises pour initier une soumission dans le DFDR :
+Voici les étapes requises pour initier une soumission dans le DFDR:
 
-* [Choisissez un groupe de stockage pour la soumission](deposer_les_donnees.md#groupes-de-stockage-dans-le-dfdr)
-* [Sélectionnez la licence de droit des données](deposer_les_donnees.md#licences-dutilisation-des-donnees)
-* [Ajout de collaborateurs](deposer_les_donnees.md#ajout-de-collaborateurs)
-* [Entrez les métadonnées relatives à vos données](deposer_les_donnees.md#entrer-des-metadonnees)
-* [Précisez une période d’embargo (le cas échéant)](deposer_les_donnees.md#preciser-une-periode-dembargo)
-* [Transférez le jeu de données dans le DFDR](deposer_les_donnees.md#transfert-de-jeux-de-donnees)
-* [Évaluez et finalisez la soumission](deposer_les_donnees.md#finaliser-la-soumission)
+* [Choisissez un groupe de stockage pour la soumission](déposer_les_données.md#groupes-de-stockage-dans-le-dfdr)
+* [Sélectionnez la licence de droit des données](déposer_les_données.md#licences-dutilisation-des-donnees)
+* [Ajout de collaborateurs](déposer_les_données.md#ajout-de-collaborateurs)
+* [Entrez les métadonnées relatives à vos données](déposer_les_données.md#entrer-des-metadonnees)
+* [Précisez une période d’embargo (le cas échéant)](déposer_les_données.md#preciser-une-periode-dembargo)
+* [Transférez le jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
+* [Évaluez et finalisez la soumission](déposer_les_données.md#finaliser-la-soumission)
 
 Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’information entrée et y revenir plus tard. Un [Digital Object Identifier (DOI)](https://www.doi.org/) est assigné à la soumission dès que vous initiez un dépôt de jeu de données. Les DOI de tous les dépôts en cours s’affichent dans la liste des soumissions en cours. Ceci vous permet de partager le DOI de votre jeu de données avec un organisme subventionnaire ou un éditeur immédiatement. Veuillez noter que le lien vers le DOI ne sera pas actif tant que le dépôt ne sera pas approuvé par un curateur. Une fois la soumission terminée, vous ne pourrez plus apporter de modification aux données et aux métadonnées. Tout changement aux données ou aux métadonnées après la soumission devra être apporté en communiquant avec un curateur à [curators@frdr.ca](mailto:curators@frdr.ca).
 
