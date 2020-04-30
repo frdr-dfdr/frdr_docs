@@ -23,7 +23,7 @@ nav:
         - Accueil: fr/accueil.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Avant de déposer": fr/avant_d'utiliser.md
-        - "Déposer les données": fr/deposer_les_donnees.md
+        - "Déposer les données": fr/déposer_les_données.md
         - "Après le dépôt": fr/après_le_dépôt.md
         - "Conditions d'utilisation": fr/conditions_d'utilisation.md
         - "Politique de confidentialité": fr/politique_de_confidentialité.md
@@ -45,7 +45,7 @@ extra:
         en:
             "Searching for Datasets": fr/recherche/
             "Before Depositing": fr/avant_d'utiliser/
-            "Depositing Data": fr/deposer_les_donnees/
+            "Depositing Data": fr/déposer_les_données/
             "After Depositing": fr/après_le_dépôt/
             "Terms of Service": fr/conditions_d'utilisation/
             "Privacy Policy": fr/politique_de_confidentialité/
