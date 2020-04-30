@@ -126,21 +126,3 @@ Special thanks to **Keith Jeffrey**, the former Project Manager, who has since r
 
 FRDR’s Geodisy map search (beta) is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Research data can be hard to find, and even harder when looking for data about a specific area or place. Geodisy changes that, giving users a window into the world of research data with map-based tools familiar to everyone. Geodisy currently sources data from [Scholars Portal Dataverse](https://dataverse.scholarsportal.info/), which houses material from institutions across Canada. FRDR’s Geodisy will continue to expand upon its collection to include more institutional sources.
 
-
-## Security and Privacy
-
-See our [Privacy Policy](privacy_policy.md).
-
-Data submitted to FRDR is housed on Compute Canada managed infrastructure at the University of Victoria, BC or at the University of Waterloo, ON. Research data submitted to FRDR does not leave Canada.
-
-The metadata related to datasets is housed in a database the University of Victoria. Most of that metadata is shared with Globus, running on Amazon Web Services services in the USA, to be indexed and made available for discovering datasets. Certain metadata fields, for example, submitter contact information, are not shared with Globus.
-
-**Globus**
-
-FRDR makes extensive use of tools operated by [Globus](https://www.globus.org/). Globus is a non-profit project out of the University of Chicago and Argonne National Laboratory. Globus is a partner in the delivery of the FRDR service and provided the following statement:
-
-
-> The Globus service is hosted on infrastructure provided by Amazon Web Services. The system components are encapsulated in Virtual Private Clouds (VPCs) and use security groups, which allow for the provisioning of logically isolated sections of the Amazon cloud.
-> Globus Connect Server is installed on file systems owned and controlled by the institution or researcher, such as campus storage resources or personal computers, creating a Globus endpoint. Files managed by Globus are accessible only to authorized users, as defined by the permissions set by the endpoint administrator. The endpoint administrator can further control access by configuring Globus to explicitly deny or restrict access to specific parts of the filesystem. All communication with the Globus service is SSL protected and encrypted, and data transfer is optionally encrypted by the user.  Research data never flow through Globus, but are transferred directly between the source and destination systems. 
-> Globus Auth provides  identity and access management by brokering authentication and authorization between identity providers, resource services, and clients. Users authenticate via Globus Auth using their existing  credentials from a trusted identity provider, e.g. their campus username and password. Because Globus Auth acts as an identity broker and uses federated login, institutional credentials are not sent to Globus.
-

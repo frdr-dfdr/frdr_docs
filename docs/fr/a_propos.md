@@ -114,18 +114,3 @@ Le projet de développement de logiciels a été lancé en janvier 2016, à la s
 
 Le test alpha des interfaces utilisateur a débuté en fin 2016 grâce à la contribution du code d'interface de découverte développé par la University of British Columbia. Les tests bêta ont débuté en avril 2017 et le projet est maintenant en mode de production limitée avec un petit nombre de groupes de recherche. 
 
-
-## Sécurité et confidentialité
-
-Voir notre [politique de confidentialité](/docs/fr/politique_de_confidentialité/)
-
-Des données soumises au DFDR est hébergée par l'infrastructure gérée par Calcul Canada soit à la University of Victoria ou à la University of Waterloo.
-Les métadonnées relatives aux ensembles de données sont stockées dans une base de données à Victoria. La plupart de ces métadonnées sont partagées avec Globus, s'exécutant sur les services Amazon Web Services aux États-Unis pour être indexées et rendues disponibles pour la découverte d’ensembles de données. Certains champs de métadonnées ne sont pas partagés avec Globus.
-
-**Globus**
-
-Le dépôt fédéré de données de recherche font souvent appel aux outils exploités par [Globus](https://www.globus.org/). Globus est un projet à but non lucratif de la University of Chicago et du Argonne National Laboratory. Globus est un partenaire dans la livraison du service DFDR et a fourni la déclaration suivante (en anglais seulement):
-
-> The Globus service is hosted on infrastructure provided by Amazon Web Services. The system components are encapsulated in Virtual Private Clouds (VPCs) and use security groups, which allow for the provisioning of logically isolated sections of the Amazon cloud.
-> Globus Connect Server is installed on file systems owned and controlled by the institution or researcher, such as campus storage resources or personal computers, creating a Globus “endpoint.” Files managed by Globus are accessible only to authorized users, as defined by the permissions set by the endpoint administrator. The endpoint administrator can further control access by configuring Globus to explicitly deny or restrict access to specific parts of the filesystem. All communication with the Globus service is SSL protected and encrypted, and data transfer is optionally encrypted by the user.  Research data never flow through Globus, but are transferred directly between the source and destination systems. 
-> Globus Auth provides  identity and access management by brokering authentication and authorization between identity providers, resource services, and clients. Users authenticate via Globus Auth using their existing  credentials from a trusted identity provider, e.g. their campus username and password. Because Globus Auth acts as an identity broker and uses federated login, institutional credentials are not sent to Globus.
