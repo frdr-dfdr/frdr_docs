@@ -117,7 +117,7 @@ Le test alpha des interfaces utilisateur a débuté en fin 2016 grâce à la con
 
 ## Sécurité et confidentialité
 
-Voir notre [politique de confidentialité](/docs/en/terms_of_service/#70-privacy-policy) (en anglais seulement).
+Voir notre [politique de confidentialité](/docs/fr/politique_de_confidentialité/)
 
 Des données soumises au DFDR est hébergée par l'infrastructure gérée par Calcul Canada soit à la University of Victoria ou à la University of Waterloo.
 Les métadonnées relatives aux ensembles de données sont stockées dans une base de données à Victoria. La plupart de ces métadonnées sont partagées avec Globus, s'exécutant sur les services Amazon Web Services aux États-Unis pour être indexées et rendues disponibles pour la découverte d’ensembles de données. Certains champs de métadonnées ne sont pas partagés avec Globus.

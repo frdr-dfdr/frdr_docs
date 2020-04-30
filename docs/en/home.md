@@ -83,4 +83,4 @@ The Federated Research Data Repository has partnered with [Globus](https://www.g
 * Logins to FRDR are managed using a Globus ID. A login is required to ensure that a person is eligible to deposit data into FRDR, to determine whether a person qualifies for access to data that has been embargoed, or to perform any curation activities.  **_A Globus ID is required to login to FRDR_**.
 *  FRDR uses the Globus Search Platform to enable advanced searches. **_Searching for data in FRDR does not require a login_**.
 
-Globus services are currently run in the USA on Amazon services. The research data itself remains stored in Canada. Only public metadata is copied to Globus. See our [Privacy Statement](terms_of_service.md#70-privacy-policy) for more information.
+Globus services are currently run in the USA on Amazon services. The research data itself remains stored in Canada. Only public metadata is copied to Globus. See our [Privacy Statement](privacy_policy.md) for more information.

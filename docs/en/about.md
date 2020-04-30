@@ -129,7 +129,7 @@ FRDR’s Geodisy map search (beta) is an open source discovery tool that allows 
 
 ## Security and Privacy
 
-See our [Privacy Policy](terms_of_service.md#70-privacy-policy).
+See our [Privacy Policy](privacy_policy.md).
 
 Data submitted to FRDR is housed on Compute Canada managed infrastructure at the University of Victoria, BC or at the University of Waterloo, ON. Research data submitted to FRDR does not leave Canada.
 
