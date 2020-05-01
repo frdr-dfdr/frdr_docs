@@ -10,7 +10,7 @@ nav:
         - "Before Depositing": en/before_depositing.md
         - "Depositing Data": en/depositing_data.md
         - "After Depositing": en/after_depositing.md
-        - "Terms of Service": en/terms_of_use.md
+        - "Terms of Use": en/terms_of_use.md
         - "Privacy Policy": en/privacy_policy.md
         - "Advanced": en/advanced.md
         - "FAQ": en/faq.md
@@ -47,7 +47,7 @@ extra:
             "Before Depositing": fr/avant_d'utiliser/
             "Depositing Data": fr/déposer_les_données/
             "After Depositing": fr/après_le_dépôt/
-            "Terms of Service": fr/conditions_d'utilisation/
+            "Terms of Use": fr/conditions_d'utilisation/
             "Privacy Policy": fr/politique_de_confidentialité/
             "FAQ": fr/faq/
             "FAIR Principles": fr/principes_fair/
