@@ -101,6 +101,7 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 
 ## Development and Operations Team
 
+* **Lee Wilson**, Service Manager, Portage Network
 * **Kelly Stathis**, Discovery and Metadata Coordinator, Portage Network
 * **Erin Clary**, Curation Coordinator, Portage Network
 * **Beth Knazook**, Preservation Coordinator, Portage Network
