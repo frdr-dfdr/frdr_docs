@@ -105,6 +105,7 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 * **Erin Clary**, Curation Coordinator, Portage Network
 * **Beth Knazook**, Preservation Coordinator, Portage Network
 * **Melanie Parlette-Stewart**, Training Coordinator, Portage Network
+* **Mark Goodwin**, Geospatial Metadata Coordinator, University of British Columbia
 * **Alex Garnett**, Research Data Management & Systems Librarian, Simon Fraser University
 * **Neha Milan**, Operations Lead, University of Saskatchewan
 * **Todd Trann**, Technical Lead, University of Saskatchewan
@@ -112,7 +113,6 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 * **Adam McKenzie**, Research Data Management Analyst, University of Saskatchewan
 * **Joel Farthing**, Developer, University of Saskatchewan
 * **Paul Dante**, Developer, University of British Columbia
-* **Mark Goodwin**, Metadata Editor, University of British Columbia
 
 Special thanks to **Keith Jeffrey**, the former Project Manager, who has since retired. 
 
