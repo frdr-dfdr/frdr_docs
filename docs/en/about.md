@@ -97,23 +97,24 @@ The **Steering Committee** comprises representatives from the Canadian Associati
 * **John Morton**, Director of Technology, SHARCNET
 * **Jay Brodeur**, Associate Director, Digital Scholarship Services, McMaster University
 
-## Development and Operations
+Special thanks to **Umar Qasim**, University of Alberta, who was part of the original steering committee.
 
-The **development and operations team** consists of the core team from the University of Saskatchewan:
+## Development and Operations Team
 
-* **Todd Trann**, Lead Developer
-* **Mike Winter**, Senior Developer
-* **Adam McKenzie**, Research Data Management Analyst
-* **Joel Farthing**, Developer
-* **Neha Milan**, Operations Lead
-
-and
-
+* **Kelly Stathis**, Discovery and Metadata Coordinator, Portage Network
+* **Erin Clary**, Curation Coordinator, Portage Network
+* **Beth Knazook**, Preservation Coordinator, Portage Network
+* **Melanie Parlette-Stewart**, Training Coordinator, Portage Network
 * **Alex Garnett**, Research Data Management & Systems Librarian, Simon Fraser University
+* **Todd Trann**, Technical Lead, University of Saskatchewan
+* **Mike Winter**, Senior Developer, University of Saskatchewan
+* **Adam McKenzie**, Research Data Management Analyst, University of Saskatchewan
+* **Joel Farthing**, Developer, University of Saskatchewan
+* **Neha Milan**, Operations Lead, University of Saskatchewan
+* **Paul Dante**, Developer, University of British Columbia
+* **Mark Goodwin**, Metadata Editor, University of British Columbia
 
-
-Special thanks to **Keith Jeffrey**, the former Project Manager, who has since retired. Special thanks to **Umar Qasim**, University of Alberta, who was part of the original steering committee.
-
+Special thanks to **Keith Jeffrey**, the former Project Manager, who has since retired. 
 
 ## Project Timeline
 
