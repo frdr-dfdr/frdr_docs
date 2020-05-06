@@ -106,11 +106,11 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 * **Beth Knazook**, Preservation Coordinator, Portage Network
 * **Melanie Parlette-Stewart**, Training Coordinator, Portage Network
 * **Alex Garnett**, Research Data Management & Systems Librarian, Simon Fraser University
+* **Neha Milan**, Operations Lead, University of Saskatchewan
 * **Todd Trann**, Technical Lead, University of Saskatchewan
 * **Mike Winter**, Senior Developer, University of Saskatchewan
 * **Adam McKenzie**, Research Data Management Analyst, University of Saskatchewan
 * **Joel Farthing**, Developer, University of Saskatchewan
-* **Neha Milan**, Operations Lead, University of Saskatchewan
 * **Paul Dante**, Developer, University of British Columbia
 * **Mark Goodwin**, Metadata Editor, University of British Columbia
 
