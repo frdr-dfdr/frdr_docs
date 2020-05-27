@@ -1,5 +1,15 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-05-27**:
+
+* New feature: automated submission file format identification and per-format curation guides for curators.
+* Received new hardware for one hosting site (SFU)
+* Fixed metadata for some items where multiple metadata values were not properly delimited
+* Moved map search over to the bilingual domain geo.frdr-dfdr.ca
+* Added FRDR logo to map search page
+* Improved FRDR infrastructure monitoring to give the support team better insight into potential problems
+
+
 **2020-04-29**:
 
 * Added Globus metadata to OAI endpoint FRDR schema
