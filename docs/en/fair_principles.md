@@ -29,7 +29,7 @@ DOIs are indexed by aggregators such as re3data, and DOIs can be used as an entr
 
 **A1.1 the protocol is open, free, and universally implementable.**
 
-DOIs and OAI are open standards. Additionally, the code for FRDR's harvester is openly available: [https://github.com/usask-rc/frdr_harvest](https://github.com/usask-rc/frdr_harvest)
+DOIs and OAI are open standards. Additionally, the code for FRDR's harvester is openly available: [https://github.com/frdr-dfdr/frdr_harvest](https://github.com/frdr-dfdr/frdr_harvest)
 
 **A1.2 the protocol allows for an authentication and authorization procedure, where necessary.**
 

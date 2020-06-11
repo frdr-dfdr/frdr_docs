@@ -26,7 +26,7 @@ Les DOI sont indexés par des agrégateurs tels que re3data et les DOI peuvent �
 
 **A1.1 Le protocole est ouvert, gratuit et implémentable de manière universelle.**
 
-DOI et OAI sont des normes ouvertes. En outre, le code du moissonneur du DFDR est disponible publiquement : [https://github.com/usask-rc/frdr_harvest](https://github.com/usask-rc/frdr_harvest).
+DOI et OAI sont des normes ouvertes. En outre, le code du moissonneur du DFDR est disponible publiquement : [https://github.com/frdr-dfdr/frdr_harvest](https://github.com/frdr-dfdr/frdr_harvest).
 
 **A1.2 Le protocole permet une procédure d’authentification et d’autorisation, lorsque requis.**
 
