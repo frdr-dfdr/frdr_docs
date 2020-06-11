@@ -22,7 +22,7 @@ Note that data deposited to the Demo Version of FRDR will still be discoverable 
 ## FRDR in Limited Production
 Anyone can use FRDR now to **_search_** for research datasets that have been deposited into FRDR or deposited into any of the many data repositories whose contents FRDR also indexes.
 
-At this time, however, FRDR is in limited production and accepting data **_deposits_** only from invited research groups. The limited production period lets CARL and Compute Canada launch this important service for researchers and institutions in Canada on a limited scale, prior to hiring and training sufficient staff to appropriately support researchers across Canada.
+At this time, however, FRDR is in limited production and accepting data **_deposits_** by request from research groups. The limited production period lets CARL and Compute Canada launch this important service for researchers and institutions in Canada on a limited scale, prior to hiring and training sufficient staff to appropriately support researchers across Canada.
 
 
 ## Pour notre communauté francophone:

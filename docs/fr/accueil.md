@@ -6,7 +6,7 @@ Bienvenue sur le site du Dépôt fédéré de données de recherche (DFDR), une 
 
 Le DFDR est maintenant accessible à quiconque souhaite rechercher des ensembles de données de recherche déposés dans la plateforme ou dans l’un des nombreux dépôts de données indexés dans le DFDR.
 
-Toutefois, à l’heure actuelle, le DFDR est en mode de production limitée et n’accepte le dépôt de données que de groupes de recherche invités. Cette période de production limitée permet à l’ABRC et à Calcul Canada de procéder à un lancement à petite échelle de ce service d’importance pour les chercheurs et les établissements au pays, dans l’attente d’embaucher et de former suffisamment de personnel pour bien appuyer la communauté de la recherche au Canada.
+Toutefois, à l’heure actuelle, le DFDR est en mode de production limitée et accepte le dépôt de données sur demande de groupes de recherche. Cette période de production limitée permet à l’ABRC et à Calcul Canada de procéder à un lancement à petite échelle de ce service d’importance pour les chercheurs et les établissements au pays, dans l’attente d’embaucher et de former suffisamment de personnel pour bien appuyer la communauté de la recherche au Canada.
 
 La documentation en ligne du DFDR et l’ébauche des conditions d’utilisation sont en cours de traduction en vue de leur finalisation.
 
