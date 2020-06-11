@@ -6,9 +6,7 @@ Bienvenue sur le site du Dépôt fédéré de données de recherche (DFDR), une 
 
 Le DFDR est maintenant accessible à quiconque souhaite rechercher des ensembles de données de recherche déposés dans la plateforme ou dans l’un des nombreux dépôts de données indexés dans le DFDR.
 
-Toutefois, à l’heure actuelle, le DFDR est en mode de production limitée et accepte le dépôt de données sur demande de groupes de recherche. Cette période de production limitée permet à l’ABRC et à Calcul Canada de procéder à un lancement à petite échelle de ce service d’importance pour les chercheurs et les établissements au pays, dans l’attente d’embaucher et de former suffisamment de personnel pour bien appuyer la communauté de la recherche au Canada.
-
-La documentation en ligne du DFDR et l’ébauche des conditions d’utilisation sont en cours de traduction en vue de leur finalisation.
+Toutefois, à l'heure actuelle, le DFDR est en mode de production limitée, le dépôt de données étant actuellement proposé comme un service "sur demande uniquement", sous réserve de la disponibilité et de la capacité des ressources.  Cette période de production limitée permet à l’ABRC et à Calcul Canada de procéder à un lancement à petite échelle de ce service d’importance pour les chercheurs et les établissements au pays, dans l’attente d’embaucher et de former suffisamment de personnel pour bien appuyer la communauté de la recherche au Canada.
 
 
 ## Pour notre communauté francophone:
@@ -20,8 +18,6 @@ Le DFDR contient déjà des interfaces bilingues pour les fonctions de recherche
 À la suite de notre partenariat, Globus a pris la décision, pour la première fois, d'internationaliser ses pages Web de connexion et de consentement.
 Globus a également travaillé avec nous pour ajouter l'internationalisation à sa fonction de recherche.
 Globus effectue actuellement des changements substantiels dans son interface Globus Transfer, y compris l'internationalisation, qui devraient entrer en vigueur plus tard cette année. Ces changements profiteront aussi une communauté plus large qui utilise Globus Transfer au-delà du DFDR.
-
-La documentation en ligne du DFDR et l’ébauche des termes d'utilisation sont actuellement en cours de traduction en vue de leur finalisation.
 
 
 ##Caractéristiques du DFDR

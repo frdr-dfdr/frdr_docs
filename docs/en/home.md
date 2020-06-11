@@ -22,7 +22,7 @@ Note that data deposited to the Demo Version of FRDR will still be discoverable 
 ## FRDR in Limited Production
 Anyone can use FRDR now to **_search_** for research datasets that have been deposited into FRDR or deposited into any of the many data repositories whose contents FRDR also indexes.
 
-At this time, however, FRDR is in limited production and accepting data **_deposits_** by request from research groups. The limited production period lets CARL and Compute Canada launch this important service for researchers and institutions in Canada on a limited scale, prior to hiring and training sufficient staff to appropriately support researchers across Canada.
+At this time, however, FRDR is in Limited Production with data deposit currently being offered as a 'by request only' service, subject to resource availability and capacity. The Limited Production period lets CARL and Compute Canada launch this important service for researchers and institutions in Canada on a limited scale, prior to hiring and training sufficient staff to appropriately support researchers across Canada.
 
 
 ## Pour notre communauté francophone:
@@ -34,9 +34,6 @@ Le DFDR contient déjà des interfaces bilingues pour les fonctions de recherche
 À la suite de notre partenariat, Globus a pris la décision, pour la première fois, d'internationaliser ses pages Web de connexion et de consentement.
 Globus a également travaillé avec nous pour ajouter l'internationalisation à sa fonction de recherche.
 Globus effectue actuellement des changements substantiels dans son interface Globus Transfer, y compris l'internationalisation, qui devraient entrer en vigueur plus tard cette année. Ces changements profiteront aussi une communauté plus large qui utilise Globus Transfer au-delà du DFDR.
-
-La documentation en ligne du DFDR et l’ébauche des termes d'utilisation sont actuellement en cours de traduction en vue de leur finalisation.
-
 
 ## FRDR Features
 

@@ -60,7 +60,7 @@ The platform's federated search tool will provide a focal point to discover and 
 <div class="endflex"></div>
 
 ## Screencast
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/-Mf7AlqV9KE" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 
 ## Features
@@ -106,6 +106,7 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 * **Erin Clary**, Curation Coordinator, Portage Network
 * **Beth Knazook**, Preservation Coordinator, Portage Network
 * **Melanie Parlette-Stewart**, Training Coordinator, Portage Network
+* **Caitilín O’Hare**, Communications Officer, Portage Network
 * **Mark Goodwin**, Geospatial Metadata Coordinator, University of British Columbia
 * **Alex Garnett**, Research Data Management & Systems Librarian, Simon Fraser University
 * **Neha Milan**, Operations Lead, University of Saskatchewan
