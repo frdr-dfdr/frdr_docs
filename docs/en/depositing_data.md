@@ -47,6 +47,8 @@ Adding collaborators is a great way for multiple people to enter metadata and up
 
 To add a collaborator, start or resume a submission from the Data Publication Dashboard. Navigate to the Collaborate step, enter their email address, and click on the "Invite" button. They will receive an email notification with a link to accept your invitation.
 
+By default they will be able to edit metadata and upload files. You can change their permissions by changing the check boxes below their email address.
+
 <img src="/docs/img/screenshots/depositing_data/InviteAdd.png" alt="Screenshot" class="screenshot"/>
 
 Collaborators can also accept your invitation from their own Data Publication Dashboard by logging in and clicking "Accept" next to the dataset title. You will receive an email when your invitation has been accepted or rejected.
