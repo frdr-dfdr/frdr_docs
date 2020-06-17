@@ -28,32 +28,6 @@
               <div class="navbar-brand demo-text" style="display:none;font-size:24px;padding-top:25px;color:#537eec;font-weight:400;"> DEMO </div>
             </div>
 
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="/repo/PublishDashboard?locale=en">Deposit Data</a></li>
-              <li class="dropdown open">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="/repo/profile">Profile</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="/repo/logout">Log Out</a></li>
-                </ul>
-              </li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown open">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="/docs/en/before_depositing/">Get An Account</a></li>
-                  <li><a href="/docs/en/terms_of_use/">Terms Of Service</a></li>
-                  <li><a href="/docs/en/home/">Documentation</a></li>
-                  <li><a href="/docs/en/contact_support/">Contact Us</a></li>
-                  <li><a href="/docs/en/about/">About</a></li>
-                </ul>
-              </li>
-            </ul>
-
-
             <div class="navbar-collapse collapse" id="navbar-collapse-1" uib-collapse="isCollapsed" style="height: 0px;" aria-expanded="false" aria-hidden="true">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
@@ -74,6 +48,26 @@
                     <li>
                     <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
                     </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/repo/profile">Profile</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/repo/logout">Log Out</a></li>
+                      </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="/docs/en/before_depositing/">Get An Account</a></li>
+                      <li><a href="/docs/en/terms_of_use/">Terms Of Service</a></li>
+                      <li><a href="/docs/en/home/">Documentation</a></li>
+                      <li><a href="/docs/en/contact_support/">Contact Us</a></li>
+                      <li><a href="/docs/en/about/">About</a></li>
+                    </ul>
+                  </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
