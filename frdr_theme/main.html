@@ -46,12 +46,22 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                   <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        {% if '/en/' in page.canonical_url %}Help{% else %}Aide{% endif %}
+                        <span class="caret"></span>
+                    </a>
                     <ul class="dropdown-menu" role="menu">
+                      {% if '/en/' in page.canonical_url %}
                       <li><a href="/docs/en/before_depositing/">Get An Account</a></li>
                       <li><a href="/docs/en/terms_of_use/">Terms Of Service</a></li>
                       <li><a href="/docs/en/home/">Documentation</a></li>
                       <li><a href="/docs/en/contact_support/">Contact Us</a></li>
+                      {% else %}
+                      <li><a href="/docs/fr/avant_d'utiliser/">Obtenez un compte</a></li>
+                      <li><a href="/docs/fr/conditions_d'utilisation/">Conditions d'utilisation</a></li>
+                      <li><a href="/docs/fr/accueil/">Documentation</a></li>
+                      <li><a href="/docs/fr/contactez_nous/">Contactez nous</a></li>
+                      {% endif %}
                     </ul>
                   </li>
                 </ul>
