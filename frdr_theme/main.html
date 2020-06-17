@@ -52,7 +52,6 @@
                       <li><a href="/docs/en/terms_of_use/">Terms Of Service</a></li>
                       <li><a href="/docs/en/home/">Documentation</a></li>
                       <li><a href="/docs/en/contact_support/">Contact Us</a></li>
-                      <li><a href="/docs/en/about/">About</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -61,11 +60,15 @@
                     <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
                     </li>
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}<span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="/repo/profile">Profile</a></li>
+                        <li><a href="/repo/profile">{% if '/en/' in page.canonical_url %}Profile{% else %}Profil{% endif %}</a></li>
+
+{% if '/en/' in page.canonical_url %}{% else %}{% endif %}
                         <li role="separator" class="divider"></li>
-                        <li><a href="/repo/logout">Log Out</a></li>
+                        <li>
+                            <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
+                        </li>
                       </ul>
                     </li>
                 </ul>
