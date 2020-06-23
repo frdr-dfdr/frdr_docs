@@ -5,7 +5,7 @@ Bienvenue sur le site du Dépôt fédéré de données de recherche (DFDR), une 
 
 **Version de démonstration du DFDR**
 
-Cette [version de démonstration du DFDR](https://demo.frdr-dfdr.ca/repo/?locale=fr) sert uniquement à des fins d’essai et de démonstration. Elle permet des démonstrations de dépôt, de recherche et de préservation. Toutefois, elle ne retient aucune donnée pour une durée quelconque.
+Cette <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noopener noreferrer">version de démonstration du DFDR</a> sert uniquement à des fins d’essai et de démonstration. Elle permet des démonstrations de dépôt, de recherche et de préservation. Toutefois, elle ne retient aucune donnée pour une durée quelconque.
 
 Dans la mesure du possible, cette version de démonstration compile les caractéristiques et les capacités de la version de production; elle peut donc être utile pour expliquer ou apprendre à connaître le DFDR.
 
