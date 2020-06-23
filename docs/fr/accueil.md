@@ -1,6 +1,23 @@
 Bienvenue sur le site du Dépôt fédéré de données de recherche (DFDR), une plateforme dédiée à la communauté de recherche au Canada. Le DFDR permet de déposer et de partager des données de recherche et facilite la découverte des données de recherche hébergées au sein de dépôts canadiens.
 
 <hr/>
+<div class="demo-text" style="display:none">
+
+**Version de démonstration du DFDR**
+
+Cette [version de démonstration du DFDR](https://demo.frdr-dfdr.ca/) sert uniquement à des fins d’essai et de démonstration. Elle permet des démonstrations de dépôt, de recherche et de préservation. Toutefois, elle ne retient aucune donnée pour une durée quelconque.
+
+Dans la mesure du possible, cette version de démonstration compile les caractéristiques et les capacités de la version de production; elle peut donc être utile pour expliquer ou apprendre à connaître le DFDR.
+
+La version de démonstration comporte le mot «Demo» dans la bannière supérieure.
+
+Si vous ne voulez PAS la version de démonstration, cliquez le lien à la version de production du DFDR. Cependant, puisque la version de production crée des identifiants numériques d’objet (DOI) permanents et enregistrés ainsi que des copies de préservation, elle doit uniquement être utilisée pour faire de vrais dépôts de données — elle ne doit pas être utilisée pour des démonstrations ou des essais.
+
+Notez que les données déposées dans la version de démonstration du DFDR peuvent quand même être découvertes et téléchargées par d’autres utilisateurs de la version de démonstration du DFDR. Les dépôts dans la version de démonstration sont indexés séparément de la version de production. C’est une mesure nécessaire pour pouvoir démontrer la fonctionnalité. Par conséquent, toutes les données déposées dans la version de démonstration devraient être partageables et ne pas être sensibles.
+
+**Les dépôts dans la version de démonstration du DFDR seront supprimés périodiquement sans préavis.**
+
+</div>
 
 ## Le DFDR en mode de production limitée
 

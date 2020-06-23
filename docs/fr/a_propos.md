@@ -97,20 +97,31 @@ Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'A
 * **John Morton**, Directeur de la technologie, SHARCNET
 * **Jay Brodeur**, Directeur adjoint, Services d’études numériques, Université McMaster
 
-**L'équipe de projet de développement de logiciels** comprend l'équipe de base de la University of Saskatchewan :
+Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisait partie des membres originaux du comité directeur.
 
-* Todd Trann, Lead Developer
-* Mike Winter, Senior Developer
-* Adam McKenzie, Research Data Management Analyst
+## Équipe de développement et des opérations
+* **Lee Wilson**, gestionnaire de services, Réseau Portage
+* **Kelly Stathis**, coordonnatrice de la découverte et des métadonnées, Réseau Portage
+* **Erin Clary**, coordonnatrice de la curation, Réseau Portage
+* **Beth Knazook**, coordonnatrice de la préservation, Réseau Portage
+* **Melanie Parlette-Stewart**, coordonnatrice de la formation, Réseau Portage
+* **Caitilín O’Hare**, agente des communications, Réseau Portage
+* **Mark Goodwin**, coordonnateur des métadonnées géospatiales, Université de la Colombie-Britannique
+* **Alex Garnett**, bibliothécaire de données de recherche et systèmes, Université Simon Fraser
+* **Neha Milan**, directrice des opérations, Université de la Saskatchewan
+* **Todd Trann**, directeur technique, Université de la Saskatchewan
+* **Mike Winter**, développeur principal, Université de la Saskatchewan
+* **Adam McKenzie**, analyste de gestion des données de recherche, Université de la Saskatchewan
+* **Joel Farthing**, développeur, Université de la Saskatchewan
+* **Paul Dante**, développeur, Université de la Colombie-Britannique
 
-et Alex Garnett, Research Data Management & Systems Librarian, Simon Fraser University
+Remerciement spécial à Keith Jeffrey, ancien gestionnaire de projet, maintenant retraité.
 
-Nous remercions spécialement Keith Jeffrey qui est maintenant à la retraite.
+## Chronologie du projet
+* Janvier 2016 : début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.
+* Septembre 2016 : lancement des essais alpha des interfaces des utilisateurs grâce à la contribution de code d’interface pour la découverte développé par l’Université de la Colombie-Britannique.
+* Avril 2017 : lancement des essais bêta et mise du projet en mode de production limitée avec un nombre restreint de groupes de recherche.
+* Août 2019 : CANARIE annonce un financement de 2 millions $ au Réseau Portage de l’ABRC, dont une partie sera consacrée à la mise en production intégrale du DFDR.
 
-
-## Phases De Développement
-
-Le projet de développement de logiciels a été lancé en janvier 2016, à la suite d'un projet pilote antérieur qui avait identifié l'évolutivité et la préservation comme des éléments clés du service requis.
-
-Le test alpha des interfaces utilisateur a débuté en fin 2016 grâce à la contribution du code d'interface de découverte développé par la University of British Columbia. Les tests bêta ont débuté en avril 2017 et le projet est maintenant en mode de production limitée avec un petit nombre de groupes de recherche. 
-
+## Projet Geodisy
+La carte de recherche (bêta) Geodisy du DFDR est un outil de découverte en libre accès permettant aux utilisateurs de trouver des données ouvertes de chercheurs canadiens en utilisant la carte interactive. Les données de recherche peuvent être difficiles à trouver, surtout les données sur une région ou un lieu particulier. Voilà la force de Geodisy qui offre aux utilisateurs une fenêtre sur un monde de données de recherche avec des outils cartographiques familiers. Geodisy puise actuellement des données de la plateforme Scholars Portal Dataverse, qui héberge du contenu provenant de divers établissements partout au Canada. Avec son outil Geodisy, le DFDR poursuivra l’agrandissement de ses collections en y ajoutant plus de sources institutionnelles.
