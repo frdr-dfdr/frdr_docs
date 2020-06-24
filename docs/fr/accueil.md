@@ -11,7 +11,7 @@ Dans la mesure du possible, cette version de démonstration compile les caracté
 
 La version de démonstration comporte le mot «Demo» dans la bannière supérieure.
 
-Si vous ne voulez PAS la version de démonstration, cliquez le lien à la version de production du DFDR. Cependant, puisque la version de production crée des identifiants numériques d’objet (DOI) permanents et enregistrés ainsi que des copies de préservation, elle doit uniquement être utilisée pour faire de vrais dépôts de données — elle ne doit pas être utilisée pour des démonstrations ou des essais.
+Si vous ne voulez PAS la version de démonstration, cliquez le lien à [la version de production du DFDR](https://www.frdr-dfdr.ca/repo/?locale=fr). Cependant, puisque la version de production crée des identifiants numériques d’objet (DOI) permanents et enregistrés ainsi que des copies de préservation, elle doit uniquement être utilisée pour faire de vrais dépôts de données — elle ne doit pas être utilisée pour des démonstrations ou des essais.
 
 Notez que les données déposées dans la version de démonstration du DFDR peuvent quand même être découvertes et téléchargées par d’autres utilisateurs de la version de démonstration du DFDR. Les dépôts dans la version de démonstration sont indexés séparément de la version de production. C’est une mesure nécessaire pour pouvoir démontrer la fonctionnalité. Par conséquent, toutes les données déposées dans la version de démonstration devraient être partageables et ne pas être sensibles.
 
