@@ -1,5 +1,12 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-06-24**:
+
+* Updated the display of DOIs in multiple areas to make it uniform.
+* Added permissions for sharing submissions with collaborators. Users can now specify if the collaborator can edit metadata, upload files and submit the dataset.
+* The publication dashboard has been reformatted for large and small displays.
+
+
 **2020-05-27**:
 
 * New feature: automated submission file format identification and per-format curation guides for curators.
