@@ -5,6 +5,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Updated the display of DOIs in multiple areas to make it uniform.
 * Added permissions for sharing submissions with collaborators. Users can now specify if the collaborator can edit metadata, upload files and submit the dataset.
 * The publication dashboard has been reformatted for large and small displays.
+* Added new repositories to FRDR discovery: DataStream and UBC cIRcle BIRS Workshop Lecture Videos
 
 
 **2020-05-27**:
