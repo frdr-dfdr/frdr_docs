@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-07-29**:
+
+* Truncated the listing of files for datasets with very large numbers of files or folders.
+* Added new repositories to FRDR discovery: Canadian Integrated Ocean Observing System (CIOOS), Cape Breton University Dataverse, Dalhousie University Dataverse, École nationale d’administration publique Dataverse, HEC Montréal Dataverse, Institut national de la recherche scientifique Dataverse, Université TÉLUQ Dataverse, University of Northern British Columbia Dataverse
+
+
 **2020-06-24**:
 
 * Updated the display of DOIs in multiple areas to make it uniform.
@@ -25,7 +31,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Funder name is now required if either award number or award title are supplied
 * Map search beta link has been added to the FRDR home page
 * Added user documentation and updated user interface for map search
-* Added new repositories to FRDR discovery: Data Ontario, Cape Breton University Dataverse, Concordia University Dataverse, Dalhousie University Dataverse, École nationale d’administration publique Dataverse, HEC Montréal Dataverse, Institut national de la recherche scientifique Dataverse, Memorial University Dataverse, Royal Military College Dataverse, Université du Québec à Trois-Rivières Dataverse, Université TÉLUQ Dataverse, St. Francis Xavier University Dataverse
+* Added new repositories to FRDR discovery: Data Ontario, Concordia University Dataverse, Memorial University Dataverse, Royal Military College Dataverse, Université du Québec à Trois-Rivières Dataverse
 
 **2020-03-25**:
 
