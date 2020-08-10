@@ -93,7 +93,7 @@ The **Steering Committee** comprises representatives from the Canadian Associati
 * **Suzanne Talon**, CEO, Calcul Québec
 * **John Simpson**, Chair, Science Leadership Council / Humanities & Social Sciences Specialist
 * **Jason Hlady**, Associate Director, Research and Library Technology, University of Saskatchewan
-* **Dugan O'Neil**, AVP Research, Simon Fraser University
+* **Dugan O'Neil**, VPR/international pro tem, Simon Fraser University
 * **John Morton**, Director of Technology, SHARCNET
 * **Jay Brodeur**, Associate Director, Digital Scholarship Services, McMaster University
 
