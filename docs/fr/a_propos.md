@@ -60,11 +60,11 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 <div class="endflex"></div>
 
-## Démonstration Du Dfdr
+## Démonstration du Dfdr
 <p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 
-## Caractéristiques Principales Du Dfdr
+## Caractéristiques principales du Dfdr
 
 * **Modèle de stockage fédéré:** les établissements individuels et les organismes peuvent stocker leurs données et collections en reliant leur stockage local au DFDR.</li>
 * **Modèle de soutien fédéré:** les chercheurs peuvent obtenir du soutien directement sur les campus.</li>
