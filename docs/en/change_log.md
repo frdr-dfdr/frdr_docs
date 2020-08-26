@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-08-26**:
+
+* Implemented a quota tracking and enforcement system.
+* Added new repositories to FRDR discovery: Brandon University Dataverse.
+* New user form for applying to deposit.
+
 **2020-07-29**:
 
 * Truncated the listing of files for datasets with very large numbers of files or folders.
