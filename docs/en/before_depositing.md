@@ -1,6 +1,9 @@
 ﻿Preparation is needed before starting a dataset submission to FRDR. To deposit data, you must 1) [Get a Globus Account](before_depositing.md#1-getting-a-globus-account), 2) [Download Globus Connect Software](before_depositing.md#2-getting-globus-connect-software), and 3) [Get authorization to submit data](before_depositing.md#3-getting-authorization-to-submit).
 
 ## 1. Getting a Globus Account
+
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
 There are four different options that you can use to obtain a Globus Account:
 
 * [ORCID Account](before_depositing.md#use-an-orcid-account)

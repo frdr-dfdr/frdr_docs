@@ -2,6 +2,8 @@ Quelques étapes préalables sont requises avant de soumettre un jeu de données
 
 ## 1. Obtenir un compte Globus
 
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
 Vous avez quatre options pour obtenir un compte Globus :
 * Compte ORCiD
 * Calcul Canada

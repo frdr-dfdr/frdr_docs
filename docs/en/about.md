@@ -1,4 +1,6 @@
-﻿[Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has finished Beta and is now in Limited Production.
+﻿<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+[Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has finished Beta and is now in Limited Production.
 
 The Limited Production version of FRDR will have many of the features and user interface design expected for full launch. Data deposit is currently being offered as a 'by request only' service, subject to resource availability and capacity. If you have a dataset you would like to deposit, please contact support@frdr-dfdr.ca to request permission to deposit.
 
@@ -58,10 +60,6 @@ The platform's federated search tool will provide a focal point to discover and 
 </div>
 
 <div class="endflex"></div>
-
-## Screencast
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-
 
 ## Features
 

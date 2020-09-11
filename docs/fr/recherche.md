@@ -61,6 +61,8 @@ Les pages d’accueil varient pour chaque dépôt, mais comprennent généraleme
 
 Les jeux de données déposés directement dans le DFDR pourront être assortis de métadonnées plus riches que ce qui est affiché sur la page de recherche. Pour obtenir les métadonnées complètes, cliquez sur le bouton « Affichage détaillé » au bas de la page d’accueil du DFDR.
 
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/PvmFxQyMPlQ?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=2&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
 Pour accéder aux fichiers de données déposés directement dans le DFDR, veuillez consulter la section de la page d’accueil du jeu de données intitulée « Fichiers dans le jeu de données ». On peut y consulter les fichiers et dossiers du répertoire principal et développer les dossiers à l’aide de l’icône « + ». Certains fichiers sont accessibles, et peuvent être prévisualisés, dans votre navigateur web. Le type de fichier que l’on peut prévisualiser dépend des capacités et des paramètres de votre navigateur web. Les petits fichiers peuvent être téléchargés par votre navigateur. Cependant, les fichiers volumineux (de plus de 10 Go) doivent être téléchargés à l’aide de Globus Connect. Les jeux de données comprenant de nombreux fichiers ou ayant une arborescence importante devraient être téléchargés à l’aide de Globus Connect plutôt que de télécharger les fichiers un à un.
 
 ## Trier les résultats de recherche

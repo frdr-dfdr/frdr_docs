@@ -1,3 +1,5 @@
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
 [Portage](https://portagenetwork.ca/fr/), [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) et [l'Association des bibliothèques de recherche du Canada](http://www.carl-abrc.ca/fr/a-propos-de-labrc/) (ABRC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ils se réjouissent d'annoncer que le service du dépôt fédéré de données de recherche (DFDR) a maintenant terminé la phase bêta et entrera en production limitée.
 
 La version de production limitée du DFDR aura la même conception d'interface utilisateur et plusieurs des fonctionnalités attendues pour le lancement complet. Le dépôt de données est actuellement proposé comme un service "sur demande uniquement", sous réserve de la disponibilité et de la capacité des ressources. Si vous souhaitez déposer un ensemble de données, veuillez contacter support@frdr-dfdr.ca pour demander l'autorisation de déposer.
@@ -59,10 +61,6 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 </div>
 
 <div class="endflex"></div>
-
-## Démonstration du Dfdr
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-
 
 ## Caractéristiques principales du Dfdr
 

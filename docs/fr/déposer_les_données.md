@@ -115,6 +115,9 @@ La présente section couvre les activités suivantes :
 * Si tous les fichiers ont été téléversés, vous pourrez passer à l’étape suivante.
 
 ##### Téléverser des dossiers ou plusieurs fichiers à l’aide de la fonction glisser-déposer
+
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/U4Qaia4KZAU/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=1&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=2&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
 * Pour téléverser un dossier, démarrer votre gestionnaire de fichiers.
 * Localisez les fichiers ou les dossiers que vous souhaitez téléverser.
 * Glissez-les dans votre navigateur web dans la zone de pointillés avec le texte « Faites glisser et déposez les fichiers ici » pour démarrer le téléversement.
