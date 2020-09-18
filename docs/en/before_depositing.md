@@ -61,7 +61,7 @@ If the data is on your institutional or laboratory server, contact your network 
 ## 3. Getting Authorization to Submit
 Since users can choose which Globus account they will use (e.g., affiliated with Google, Compute Canada, etc.), that choice needs to be passed on to the FRDR operations staff so they can assign authorization to deposit data to FRDR.
 
-1. After you have signed into FRDR, find your email / account listed under "Primary Identity" on the [account page here](https://globus.frdr.ca/globus-app/account). It could be like any of the following:
+1. After you have signed into FRDR, find your email / account listed under "Primary Identity" on the [account page here](https://globus.frdr.ca/globus-app/account?locale=en-us). It could be like any of the following:
 2. username@computecanada.ca
 3. 0000-0002-1342-3550@ORCID.org
 4. username@globusid.org
