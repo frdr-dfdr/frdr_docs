@@ -14,47 +14,47 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 ## Partenaires
 <div class="group">
 <div class="half">
-<a href="https://www.carl-abrc.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="Stacked_Colour_tagline_L" width="300" height="117" /></a>
+<a href="https://www.carl-abrc.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
 </div>
 
 <div class="half">
-<a href="http://www.portagenetwork.ca/fr/" target="_blank" rel="noopener noreferrer"><img class=" logo wp-image-127 alignnone" src="/docs/img/brochure/portage_logo_tagline_rgb_bilingual.png" alt="Portage_logo_Tagline_rgb_bilingual" width="291" height="100" /></a>
+<a href="http://www.portagenetwork.ca/fr/" target="_blank" rel="noopener noreferrer"><img class=" logo wp-image-127 alignnone" src="/docs/img/brochure/portage_logo_tagline_rgb_bilingual.png" alt="Portage Logo" width="291" height="100" /></a>
 </div>
 </div>
 
-
-<div class="group">
-<div class="half">
-<a href="https://www.computecanada.ca/?lang=fr" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-146" src="/docs/img/brochure/cc-logo-bi1.png" alt="CC LOGO BI" width="259" height="150" /></a>
-</div>
-<div class="half">
-<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="" width="300" height="62" /></a>
-</div>
-</div>
 
 <div class="group">
 <div class="half">
-<a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-309 size-medium" src="/docs/img/brochure/UofS.jpg" alt="" width="300" height="93" /></a>
+<a href="https://www.computecanada.ca/?lang=fr" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-146" src="/docs/img/brochure/cc-logo-bi1.png" alt="CC LOGO" width="259" height="150" /></a>
 </div>
-
 <div class="half">
-<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="" width="300" height="150" /></a>
+<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
 </div>
 </div>
 
 <div class="group">
 <div class="half">
-<a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="" width="300" height="71" /></a>
+<a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-309 size-medium" src="/docs/img/brochure/UofS.jpg" alt="USask Logo" width="300" height="93" /></a>
 </div>
 
 <div class="half">
-<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="" width="300" height="71" /></a>
+<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
 </div>
 </div>
 
 <div class="group">
 <div class="half">
-<a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="" width="300" height="109" /></a>
+<a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
+</div>
+
+<div class="half">
+<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
+</div>
+</div>
+
+<div class="group">
+<div class="half">
+<a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto" width="300" height="109" /></a>
 </div>
 </div>
 
