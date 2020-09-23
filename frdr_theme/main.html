@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="{% if '/en/' in page.canonical_url %}{{ config.extra.prefix }}img/sitelogo_en.png{% else %}{{ config.extra.prefix }}img/sitelogo_fr.png{% endif %}" alt="FRDR-DFDR"></span></a>
+              <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img class="site-logo" src="{% if '/en/' in page.canonical_url %}{{ config.extra.prefix }}img/sitelogo_en.png{% else %}{{ config.extra.prefix }}img/sitelogo_fr.png{% endif %}" alt="FRDR-DFDR"></span></a>
               <div class="navbar-brand demo-text" style="display:none;"> DEMO </div>
             </div>
 
