@@ -326,12 +326,8 @@ ul .dropdown-menu {
   background-color: #9B9B9B;
   min-height: 30px;
   font-size:14px;
-  color:#e0e0e0;
+  color:white;
   padding: 20px;
-}
-
-.frdr-jumbo-footer a {
-  color: white;
 }
 
 .frdr-jumbo-footer a:hover {
