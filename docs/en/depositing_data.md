@@ -181,14 +181,14 @@ Globus moves files and directories between two endpoints: the **source endpoint*
 10. The status of the transfer will be indicated on the left hand side under activity, but the transfer will proceed independently and you can close that window and return to FRDR to verify and complete your submission. <br/><img src="/docs/img/screenshots/depositing_data/Activity.png" alt="Screenshot" class="screenshot"/>
 
 #### Check status of transfer
-1. Go to the [Activity page](https://globus.frdr.ca/activity).
+1. Go to the [Activity page](https://globus.frdr.ca/activity?locale=en-us).
 2. Click on the transfer in the list (its title will be the label if you gave it one).
 3. This page will give you the current status of the transfer (i.e., the number of files transferred, how much data has been transferred, or whether an error has occurred ).
 4. For a timeline click on the "Event Log" tab.<br/><img src="/docs/img/screenshots/depositing_data/EventLog.png" alt="Screenshot" class="screenshot"/>
 
 #### Canceling an in-progress transfer
 
-1. Go to the [Activity page](https://globus.frdr.ca/activity).
+1. Go to the [Activity page](https://globus.frdr.ca/activity?locale=en-us).
 2. In the list of transfers, find the correct transfer based on the label
 3. Click on the X button <br/><img src="/docs/img/screenshots/depositing_data/CancelTransfer.png" alt="Screenshot" class="screenshot"/>
 4. Click on the red terminate transfer button.

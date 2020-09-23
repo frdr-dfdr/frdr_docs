@@ -162,13 +162,13 @@ La présente section couvre les activités suivantes :
 10.	Le statut du transfert sera indiqué à gauche sous « Activity », mais le transfert se poursuivra indépendamment. Vous pouvez fermer cette fenêtre et revenir au DFDR pour vérifier et compléter votre soumission.<br/><img src="/docs/img/screenshots/depositing_data/Activity.png" alt="Screenshot" class="screenshot"/>
 
 #### Vérifier l'état du transfert
-1. Rendez-vous <a href="https://globus.frdr.ca/activity">à la page d'activité.</a>.
+1. Rendez-vous <a href="https://globus.frdr.ca/activity?locale=fr-ca">à la page d'activité.</a>.
 2. Cliquez sur le transfert dans la liste (si vous lui avez attribué un titre, celui-ci sera étiqueté comme tel).
 3. Cette page vous indiquera l'état actuel du transfert (c'est-à-dire le nombre de fichiers transférés, la quantité de données transférée ou si une erreur s'est produite).
 4. Pour une chronologie, cliquez sur l'onglet « Event Log ».<br/><img src="/docs/img/screenshots/depositing_data/EventLog.png" alt="Screenshot" class="screenshot"/>
 
 #### Annuler un transfert en cours
-1. Rendez-vous <a href="https://globus.frdr.ca/activity">à la page d'activité.</a>.
+1. Rendez-vous <a href="https://globus.frdr.ca/activity?locale=fr-ca">à la page d'activité.</a>.
 2. Localisez le transfert que vous voulez annulez dans la liste des transferts, en fonction de l'étiquette.
 3. Cliquez sur le bouton X<br/><img src="/docs/img/screenshots/depositing_data/CancelTransfer.png" alt="Screenshot" class="screenshot"/>
 4. Cliquez sur le bouton rouge de terminaison du transfert.

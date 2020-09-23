@@ -35,7 +35,7 @@ nav:
         - "À propos": fr/a_propos.md
 
 extra_css:
-    - css/bootstrap-theme.min.css
+    - css/docs-theme.css
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
     prefix: "/"

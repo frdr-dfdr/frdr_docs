@@ -62,7 +62,7 @@ Si les données se trouvent sur le serveur de votre institution ou de votre labo
 
 Puisque les usagers peuvent choisir le compte Globus qu’ils souhaitent utiliser (y compris les comptes affiliés à Google, Calcul Canada, etc.), ce choix doit être communiqué à l’équipe opérationnelle du DFDR pour assigner les autorisations de dépôt des données dans le DFDR.
 
-1. Une fois dans le DFDR, trouvez votre adresse de courriel ou votre compte sous « Identité primaire » [sur la page de compte ici](https://globus.frdr.ca/globus-app/account). Il peut s’agir de l’une ou l’autre des options suivantes :
+1. Une fois dans le DFDR, trouvez votre adresse de courriel ou votre compte sous « Identité primaire » [sur la page de compte ici](https://globus.frdr.ca/globus-app/account?locale=fr-ca). Il peut s’agir de l’une ou l’autre des options suivantes :
 2. usager@calculcanada.ca
 3. 0000-0002-1342-3550@ORCID.org
 4. usager@globusid.org
