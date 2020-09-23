@@ -139,7 +139,9 @@ This section covers the following activities:
 
 ### Using Globus to Upload Dataset
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/U4Qaia4KZAU/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=1&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=2&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe src="" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+<a href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank"><b>Watch Video:</b> Get Started with FRDR: Upload a Dataset</a>
 
 This section covers the following activities:
 
