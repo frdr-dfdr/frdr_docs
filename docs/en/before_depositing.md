@@ -4,6 +4,8 @@
 
 <p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
+<a href="https://www.youtube.com/watch?v=Amj-RpT_y2c&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3" target="_blank"><b>Watch Video:</b>Get Started with FRDR: Get a Globus Account</a>
+
 There are four different options that you can use to obtain a Globus Account:
 
 * [ORCID Account](before_depositing.md#use-an-orcid-account)
