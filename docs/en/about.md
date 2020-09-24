@@ -1,4 +1,4 @@
-﻿<a href="https://www.youtube.com/watch?v=w2DYtEGLNO8&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank"><b>Watch Video:</b> What is FRDR and Why Should I Use It</a>
+﻿<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 [Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has finished Beta and is now in Limited Production.
 
