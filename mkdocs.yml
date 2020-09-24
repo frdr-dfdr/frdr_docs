@@ -22,7 +22,7 @@ nav:
     - French:
         - Accueil: fr/accueil.md
         - "Recherche de jeux de données": fr/recherche.md
-        - "Avant de déposer": fr/avant_d'utiliser.md
+        - "Avant de déposer": fr/avant_de_déposer.md
         - "Déposer les données": fr/déposer_les_données.md
         - "Après le dépôt": fr/après_le_dépôt.md
         - "Conditions d'utilisation": fr/conditions_d'utilisation.md
@@ -44,7 +44,7 @@ extra:
     language_map:
         en:
             "Searching for Datasets": fr/recherche/
-            "Before Depositing": fr/avant_d'utiliser/
+            "Before Depositing": fr/avant_de_déposer/
             "Depositing Data": fr/déposer_les_données/
             "After Depositing": fr/après_le_dépôt/
             "Terms of Use": fr/conditions_d'utilisation/
