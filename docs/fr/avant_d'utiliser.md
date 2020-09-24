@@ -1,5 +1,5 @@
 
-Des préparatifs s’imposent avant de pouvoir commencer la soumission d’un ensemble de données au DFDR. La présente section porte sur les sujets suivants : 1) Qui peut déposer des données dans le DFDR; 2) Créer un compte Globus; 3) Obtenir l’autorisation de soumettre des données et 4) Acquérir le logiciel Globus Connect.
+Des préparatifs s’imposent avant de pouvoir commencer la soumission d’un ensemble de données au DFDR. La présente section porte sur les sujets suivants : [1) Qui peut déposer des données dans le DFDR;](avant_de_déposer.md#1-qui-peut-deposer-dans-le-dfdr) [2) Créer un compte Globus;](avant_de_déposer.md#2-creer-un-compte-globus) [3) Obtenir l’autorisation de soumettre des données](avant_de_déposer.md#3-obtenir-lautorisation-de-soumettre-des-donnees) et 4) [Acquérir le logiciel Globus Connect.](avant_de_déposer.md#4-obtenir-le-logiciel-de-connexion-de-globus)
 
 ## 1. Qui peut déposer dans le DFDR?
 
