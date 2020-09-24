@@ -44,17 +44,17 @@ L’ajout de collaborateurs est une excellente façon pour plusieurs personnes d
 
 <img src="/docs/img/screenshots/deposer_les_donees/MonProfil.png" alt="Screenshot" class="screenshot"/>
 
-Pour ajouter un collaborateur, amorcez ou reprenez une présentation au tableau de bord lié à la publication de données. Avancez jusqu’à ce que vous atteigniez l’étape de collaboration, entrez son adresse de courriel, puis cliquez sur le bouton « invite » [« Inviter »]. Le collaborateur recevra par courriel un avis contenant un lien, sur lequel il pourra cliquer pour accepter votre invitation.
+Pour ajouter un collaborateur, amorcez ou reprenez une présentation au tableau de bord lié à la publication de données. Avancez jusqu’à ce que vous atteigniez l’étape de collaboration, entrez son adresse de courriel, puis cliquez sur le bouton « Inviter ». Le collaborateur recevra par courriel un avis contenant un lien, sur lequel il pourra cliquer pour accepter votre invitation.
 
 <img src="/docs/img/screenshots/deposer_les_donees/InviterAjouter.png" alt="Screenshot" class="screenshot"/>
 
-Il pourra également accepter votre invitation à partir de son propre tableau de bord lié à la publication de données en ouvrant une session, puis en cliquant sur « Accept » [« Accepter »] à côté du titre de l’ensemble de données. Vous recevrez un courriel lorsque votre invitation aura été acceptée ou rejetée.
+Il pourra également accepter votre invitation à partir de son propre tableau de bord lié à la publication de données en ouvrant une session, puis en cliquant sur « Accepter » à côté du titre de l’ensemble de données. Vous recevrez un courriel lorsque votre invitation aura été acceptée ou rejetée.
 
 <img src="/docs/img/screenshots/deposer_les_donees/InviterAccepter.png" alt="Screenshot" class="screenshot"/>
 
 Après avoir accepté l’invitation, le collaborateur pourra reprendre la présentation à partir du tableau de bord lié à la publication de données et la modifier. Bien que plusieurs collaborateurs puissent travailler à la même présentation, les métadonnées devraient être ajoutées ou modifiées par une seule personne à la fois. La dernière personne à sauvegarder la présentation remplacera les changements apportés aux métadonnées par d’autres.
 
-Vous pouvez inviter ou retirer des collaborateurs à tout moment pendant le processus de présentation. Pour ce faire, cliquez sur le bouton « Collaborate » [« Collaborer »] en haut de la page après avoir repris une présentation en cours. Veuillez noter que les collaborateurs ne peuvent pas inviter d’autres personnes à contribuer. Seul le créateur de la présentation initiale peut ajouter et retirer des personnes à l’onglet « Collaborate » [« Collaborer »].
+Vous pouvez inviter ou retirer des collaborateurs à tout moment pendant le processus de présentation. Pour ce faire, cliquez sur le bouton « Collaborer » en haut de la page après avoir repris une présentation en cours. Veuillez noter que les collaborateurs ne peuvent pas inviter d’autres personnes à contribuer. Seul le créateur de la présentation initiale peut ajouter et retirer des personnes à l’onglet « Collaborer ».
 
 <img src="/docs/img/screenshots/deposer_les_donees/InviterRetour.png" alt="Screenshot" class="screenshot"/>
 
