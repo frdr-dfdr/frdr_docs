@@ -159,3 +159,5 @@ This Privacy Policy applies only to the Site and the Service. The Service Host m
 Should you have any questions or concerns about the collection, use, or disclosure of Personal Information as regards FRDR, or about this Privacy Policy please contact our privacy officer at <a href="mailto:privacy@frdr-dfdr.ca">privacy@frdr-dfdr.ca</a>
 
 The Service Host reserves the right to suspend use by any party (Submitter or User) if that party engages in, or is suspected of engaging in, activities that violate applicable information access and privacy laws.
+
+Last Revised: 2020-09-24

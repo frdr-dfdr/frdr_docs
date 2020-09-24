@@ -165,3 +165,5 @@ La présente Politique de confidentialité s’applique uniquement au site et au
 Si vous avez des questions ou des préoccupations au sujet de la collecte, de l’utilisation ou de la divulgation de renseignements personnels concernant le DFDR, ou au sujet de la présente Politique sur la protection des renseignements personnels, veuillez communiquer avec notre responsable de la protection des renseignements personnels à <a href="mailto:privacy@frdr-dfdr.ca">privacy@frdr-dfdr.ca</a>.
 
 L’hébergeur du service se réserve le droit de suspendre l’utilisation par toute partie (déposant ou utilisateur) du site ou du service si celle-ci se livre ou est soupçonnée de se livrer à des activités qui violent les lois applicables en matière d’accès à l’information et de protection de la vie privée.
+
+Dernière mise à jour : 2020-09-24
