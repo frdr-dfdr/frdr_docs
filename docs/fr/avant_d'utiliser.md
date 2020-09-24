@@ -1,74 +1,36 @@
-Quelques étapes préalables sont requises avant de soumettre un jeu de données dans le DFDR. Pour déposer des données, vous devez 1) [obtenir un compte Globus](avant_d'utiliser.md#1-obtenir-un-compte-globus), 2) [télécharger le logiciel de connexion de Globus et](avant_d'utiliser.md#2-obtenir-le-logiciel-de-connexion-de-globus) 3) [obtenir l’autorisation de déposer des données](avant_d'utiliser.md#3-obtenir-lautorisation-de-deposer-des-donnees).
 
-## 1. Obtenir un compte Globus
+Des préparatifs s’imposent avant de pouvoir commencer la soumission d’un ensemble de données au DFDR. La présente section porte sur les sujets suivants : 1) Qui peut déposer des données dans le DFDR; 2) Créer un compte Globus; 3) Obtenir l’autorisation de soumettre des données et 4) Acquérir le logiciel Globus Connect.
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+## 1. Qui peut déposer dans le DFDR?
 
-Vous avez quatre options pour obtenir un compte Globus :
-* Compte ORCiD
-* Calcul Canada
-* Globus ID
-* Compte Google
+N’importe qui peut utiliser le DFDR pour faire des recherches et télécharger des ensembles de données. Il n’est pas nécessaire d’avoir un compte Globus affilié à un établissement d’enseignement postsecondaire canadien pour télécharger des ensembles de données dans le DFDR à l’aide de Globus.
 
-### Utiliser un compte ORCiD
-[ORCiD](https://orcid.org/) offre aux chercheuses et chercheurs un identifiant international unique pour l’attribution automatique.
-Si vous avez déjà un compte ORCiD, vous pouvez l’utiliser pour vous connecter au DFDR en quelques simples étapes et sans changements supplémentaires.
+Les membres du corps professoral ou les bibliothécaires, ou leurs représentants désignés, d’un établissement d’enseignement postsecondaire canadien peuvent déposer des données dans le DFDR. Les membres du corps professoral peuvent parrainer des collaborateurs externes, des étudiants des cycles supérieurs, des employés non chercheurs, des boursiers postdoctoraux, des assistants de recherche, des chercheurs, des étudiants de premier cycle et des professeurs invités pour qu’ils présentent des données en leur nom. Les demandes de dépôt d’autres catégories de « chercheurs canadiens » (p. ex., le gouvernement ou les ONG) qui ne sont pas parrainés par un membre du corps professoral seront examinées au cas par cas.
 
-1. Cliquez sur « Se connecter » dans le coin supérieur droit de l’interface DFDR.
-2. Cliquez sur le bouton « Autoriser » pour permettre à notre partenaire [Globus](https://www.globus.org/) de vous aider à gérer votre compte.
-3. Cliquez sur « Se connecter à l’aide de ORCiD » dans le coin inférieur droit de l’écran.
-4. Vous pouvez soit créer un nouveau compte ORCiD ou cliquer sur le lien « Se connecter ».
-5. Entrez votre adresse de courriel ou votre numéro ORCiD ainsi que votre mot de passe, puis cliquez sur le bouton « Autoriser ».
-6. À la page demandant si vous souhaitez « Lier à un compte Globus existant? », cliquez sur le bouton « Non merci, continuer ».
-7. Vous serez redirigé vers le DFDR et vous serez connecté avec votre compte ORCiD.
+Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veuillez écrire à [support@frdr-dfdr.ca](support@frdr-dfdr.ca).
 
-### Utiliser votre compte Calcul Canada
-Si vous avez déjà un compte Calcul Canada, vous pouvez l’utiliser pour vous connecter au DFDR en quelques simples étapes et sans changements supplémentaires.
+## 2. Créer un compte Globus
 
-1. Cliquez sur « Se connecter » dans le coin supérieur droit de l’interface DFDR.
-2. Cliquez sur le bouton « Autoriser » pour permettre à notre partenaire [Globus](https://www.globus.org/) de vous aider à gérer votre compte.
-3. Cliquez sur le menu déroulant « Choisissez votre organisation » pour trouver Calcul Canada (vous pouvez commencer à écrire le nom pour accélérer le processus), puis cliquez sur le bouton « Continuer ».
-4. Utilisez le même nom d’usager et mot de passe que pour vous connecter à [la base de données de Calcul Canada](https://ccdb.computecanada.ca/security/login), puis cliquez sur « Se connecter ».
-5. À la page demandant si vous souhaitez « Lier à un compte Globus existant? », cliquez sur le bouton « Non merci, continuer ».
-6. Vous serez redirigé vers le DFDR et vous serez connecté avec votre compte Calcul Canada.
+Vous pouvez utiliser quatre options pour créer un compte Globus : 1) par une ouverture de session institutionnelle à partir d’un établissement postsecondaire canadien, 2) par le biais d’un compte de Calcul Canada, 3) au moyen d’un ID ORCID ou 4) par l’inscription directe pour obtenir un ID Globus. Vous pouvez également ouvrir un compte au moyen de Google; toutefois, ce n'est pas la méthode privilégiée et celle-ci exigera une vérification supplémentaire. **Afin de faciliter la vérification, nous vous invitons fortement à utiliser l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.**
 
-### Utiliser Globus ID
-Si vous avez déjà un Globus ID, vous pouvez l’utiliser pour vous connecter au DFDR en quelques simples étapes et sans changements supplémentaires.
+[Cliquez ici](https://www.frdr-dfdr.ca/repo/PublishDashboard) pour ouvrir une session avec un compte existant ou pour créer un nouveau compte. Vous devrez sélectionner votre établissement ou Calcul Canada dans la liste déroulante. Si votre établissement ne figure pas dans la liste déroulante, vous devrez choisir une autre option. Si vous voulez utiliser votre ID ORCID, celui-ci doit être associé à l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.
 
-1. Cliquez sur « Se connecter » dans le coin supérieur droit de l’interface DFDR.
-2. Cliquez sur le bouton « Autoriser » pour permettre à notre partenaire [Globus](https://www.globus.org/) de vous aider à gérer votre compte s’il apparaît.
-3. Cliquez sur le lien « Globus ID pour vous connecter » sous le menu déroulant « Choisissez votre organisation ».
-4. Entrez votre nom d’usager et mot de passe Globus ID, puis cliquez sur « Se connecter ».
-5. Vous serez redirigé vers le DFDR et vous serez connecté avec votre compte Globus.
+Si aucune des options ci-dessus ne vous convient, [cliquez ici pour créer un compte](https://www.globusid.org/create) directement auprès de Globus à l’aide de votre adresse électronique institutionnelle et retournez à la [page d’ouverture de session du DFDR](https://www.frdr-dfdr.ca/repo/PublishDashboard) lorsque vous avez un compte.
 
-### Utiliser votre compte Google
-Si vous avez déjà un compte Google, vous pouvez l’utiliser pour vous connecter au DFDR en quelques simples étapes et sans changements supplémentaires.
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
-1. Cliquez sur « Se connecter » dans le coin supérieur droit de l’interface DFDR.
-2. Cliquez sur le bouton « Autoriser » pour permettre à notre partenaire [Globus](https://www.globus.org/) de vous aider à gérer votre compte.
-3. Cliquez sur « Se connecter à l’aide de Google » dans le coin inférieur gauche de l’écran.
-4. Entrez votre adresse de courriel, puis cliquez sur le bouton « Suivant ». Entrez votre mot de passe Google, puis cliquez sur le bouton « Se connecter ».
-5. À la page demandant si vous souhaitez « Lier à un compte Globus existant? », cliquez sur le bouton « Non merci, continuer ».
-6. Vous serez redirigé vers le DFDR et vous serez connecté avec votre compte Google.
+## 3. Obtenir l’autorisation de soumettre des données
 
-## 2. Obtenir le logiciel de connexion de Globus
-Déposer des données dans le DFDR requiert le [logiciel de connexion de Globus.](https://www.globus.org/globus-connect)
+La première fois que vous ouvrirez une session dans le DFDR, vous serez dirigé vers un formulaire Web vous demandant de fournir des renseignements sur votre service (facultatif), votre rôle au sein de votre organisme et votre commanditaire du corps professoral (s’il y a lieu). Cela nous aidera à vérifier que vous êtes admissible au dépôt dans le DFDR. Après avoir soumis votre demande, vous recevrez un courriel de bienvenue vous informant que le personnel du DFDR vérifie votre demande d’ouverture de compte. Ce processus peut prendre jusqu’à deux jours ouvrables. Si votre demande est approuvée, nous vous enverrons par courrier une invitation à déposer des données. **Si vous ne recevez aucun de ces courriels, veuillez consulter votre dossier de pourriels.**
 
-Si vos données se trouvent sur votre ordinateur ou sur un disque dur externe, suivez les étapes indiquées sur le site web de Globus pour télécharger, installer et configurer [Globus Connect Personal](https://www.globus.org/globus-connect-personal) sur votre machine.
+Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-Si les données se trouvent sur le serveur de votre institution ou de votre laboratoire, contactez votre administrateur réseau ou système pour obtenir le nom Globus Endpoint du serveur que vous utilisez. Le Globus Connect Endpoint est l’emplacement physique où vos fichiers sont actuellement hébergés. Si votre institution ou votre laboratoire n’a pas installé Globus Endpoint sur les serveurs, demandez à l’administrateur de contacter [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+## 4. Obtenir le logiciel de connexion de Globus
 
-## 3. Obtenir l’autorisation de déposer des données
+Déposer des données dans le DFDR requiert le logiciel de connexion de Globus.
 
-Puisque les usagers peuvent choisir le compte Globus qu’ils souhaitent utiliser (y compris les comptes affiliés à Google, Calcul Canada, etc.), ce choix doit être communiqué à l’équipe opérationnelle du DFDR pour assigner les autorisations de dépôt des données dans le DFDR.
+Si vos données se trouvent sur votre ordinateur ou sur un lecteur de disque dur externe, suivez les étapes indiquées sur le site web de Globus pour télécharger, installer et configurer Globus Connect Personal sur votre machine.
 
-1. Une fois dans le DFDR, trouvez votre adresse de courriel ou votre compte sous « Identité primaire » [sur la page de compte ici](https://globus.frdr.ca/globus-app/account?locale=fr-ca). Il peut s’agir de l’une ou l’autre des options suivantes :
-2. usager@calculcanada.ca
-3. 0000-0002-1342-3550@ORCID.org
-4. usager@globusid.org
-5. usager@gmail.com
-6. [Cliquez ici pour envoyer un courriel à support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) en incluant le nom du compte que vous venez de trouver. Incluez également le nom de tout groupe de stockage particulier pour lequel vous demandez l’autorisation de dépôt.
-7. Si l’autorisation est accordée, vous recevrez un courriel de « noreply@globusonline.org » vous invitant à rejoindre le groupe avec l’objet « Invitation à joindre FRDR Depositors - Déposants DFDR » et un message comme l’exemple suivant :
-8. ```ccrdmdev vous invite à rejoindre le groupe « FRDR Depositors - Déposants DFDR ». D’autres renseignements pourraient être requis. Cliquez ici pour vous abonner.```
-9. Après avoir cliqué sur le lien « Cliquez ici pour vous abonner », vous pourrez déposer du contenu dans le DFDR.
+Si les données se trouvent sur le serveur de votre institution ou de votre laboratoire, contactez votre administrateur de réseau ou de systèmepour obtenir le nom Globus Endpoint du serveur que vous utilisez. Le Globus Connect Endpoint est l'emplacement physique où vos fichiers sont actuellement hébergés. Si votre institution ou votre laboratoire n'a pas installé Globus Endpoint sur les serveurs, demandez à l'administrateur de contacter [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/NJYTl3yhRl4/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>

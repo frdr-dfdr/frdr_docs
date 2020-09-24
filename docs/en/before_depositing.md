@@ -13,7 +13,7 @@ If you are unsure whether you are eligible to deposit in FRDR, please contact [s
 
 <a href="https://www.youtube.com/watch?v=Amj-RpT_y2c&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3" target="_blank"><b>Watch Video:</b>Get Started with FRDR: Get a Globus Account</a>
 
-There are four options that you can use to obtain a Globus Account: 1) using an institutional log in from a Canadian postsecondary institution, 2) a Compute Canada account, 3) an ORCiD, or 4) signing up directly for a Globus ID. You may also sign up for an account using Google; however, this is not preferred and will require additional verification. *In order to facilitate verification, we strongly encourage you to use an email address from a Canadian postsecondary institution.*
+There are four options that you can use to obtain a Globus Account: 1) using an institutional log in from a Canadian postsecondary institution, 2) a Compute Canada account, 3) an ORCiD, or 4) signing up directly for a Globus ID. You may also sign up for an account using Google; however, this is not preferred and will require additional verification. **In order to facilitate verification, we strongly encourage you to use an email address from a Canadian postsecondary institution.**
 
 [Click here](https://www.frdr-dfdr.ca/repo/PublishDashboard) to log in with an existing account, or to create a new account. You will need to select your institution or Compute Canada from the drop down list. If your institution does not appear in the drop down list, you will have to select a different option. If you want to use your ORCiD, it must be affiliated with an email address from a Canadian postsecondary institution.
 
@@ -21,7 +21,7 @@ If none of the above options work for you, [click here to create an account](htt
 
 ## 3. Getting Authorization to Submit
 
-The first time you log into FRDR, you will be taken to a web form asking you to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us to verify that you are eligible to deposit in FRDR. After you submit your application, you will receive a welcome email letting you know that your account is being verified by FRDR staff. This process may take up to two business days. If you are approved, we will email you an invitation to deposit. *If you do not receive either of these emails, please check your spam folder.*
+The first time you log into FRDR, you will be taken to a web form asking you to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us to verify that you are eligible to deposit in FRDR. After you submit your application, you will receive a welcome email letting you know that your account is being verified by FRDR staff. This process may take up to two business days. If you are approved, we will email you an invitation to deposit. **If you do not receive either of these emails, please check your spam folder.**
 
 If you are unsure whether you are eligible to deposit in FRDR, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca)
 
