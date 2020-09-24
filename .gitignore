@@ -2,3 +2,4 @@ logs/
 site/
 mkdocs.yml
 *.swp
+*.swo

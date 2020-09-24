@@ -143,7 +143,7 @@ La présente section couvre les activités suivantes :
 
 1. Sous l’onglet « Transfert des données » cliquez sur le bouton « transfert de fichiers Globus » pour accéder à la page de transfert de fichiers Globus.  <br/> <img src="/docs/img/screenshots/deposer_les_donees/GlobusFileTransferButton.png" alt="Screenshot" class="screenshot"/>
 
-2. Cliquez sur le lien « Transfer or Sync to » situé à droite de l'écran.<br/><img src="/docs/img/screenshots/deposer_les_donees/TransferToButton.png" alt="Screenshot" class="screenshot"/>
+2. Cliquez sur le lien «  Transfert ou sync à... » situé à droite de l'écran.<br/><img src="/docs/img/screenshots/deposer_les_donees/TransferToButton.png" alt="Screenshot" class="screenshot"/>
 
 3. Le DFDR est à gauche, nous devons choisir une source pour les fichiers à droite. Cliquez sur la zone de texte en haut à droite (à côté de la loupe) pour rechercher le point d’extrémité où se trouvent vos fichiers actuellement.<br/><img src="/docs/img/screenshots/deposer_les_donees/ChooseEndpointTextbox.png" alt="Screenshot" class="screenshot"/>
 
@@ -151,7 +151,7 @@ La présente section couvre les activités suivantes :
 
 5. Sélectionnez les fichiers nécessaires pour votre jeu de données. Vous pouvez appuyer sur Maj ou Ctrl pour choisir des fichiers séparés.<br/><img src="/docs/img/screenshots/deposer_les_donees/FileHighlighted.png" alt="Screenshot" class="screenshot"/></li>
 
-6. Cliquez sur le bouton « Transfer & Sync Options » en bas au centre de l'écran.<br/><img src="/docs/img/screenshots/deposer_les_donees/TransferAndSyncButton.png" alt="Screenshot" class="screenshot"/>
+6. Cliquez sur le bouton « Transfert & options de sync.  » en bas au centre de l'écran.<br/><img src="/docs/img/screenshots/deposer_les_donees/TransferAndSyncButton.png" alt="Screenshot" class="screenshot"/>
 
 7. Étiquetez ce transfert : entrez un nom de transfert qui vous permettra de le reconnaître facilement.<br/><img src="/docs/img/screenshots/deposer_les_donees/TransferAndSync.png" alt="Screenshot" class="screenshot"/>
 
@@ -159,13 +159,13 @@ La présente section couvre les activités suivantes :
 
 9. Initiez le transfert en cliquant sur le bouton bleu de démarrage en bas de la page. Vous pouvez initier autant de transferts que nécessaire lors d’une même session. Ceci pourrait être requis si, par exemple, vous souhaitez transférer des fichiers dans différents dossiers ou points d’extrémité de la source.<br/><img src="/docs/img/screenshots/deposer_les_donees/StartTransfer.png" alt="Screenshot" class="screenshot"/>
 
-10.	Le statut du transfert sera indiqué à gauche sous « Activity », mais le transfert se poursuivra indépendamment. Vous pouvez fermer cette fenêtre et revenir au DFDR pour vérifier et compléter votre soumission.<br/><img src="/docs/img/screenshots/deposer_les_donees/Activity.png" alt="Screenshot" class="screenshot"/>
+10.	Le statut du transfert sera indiqué à gauche sous « Activité  », mais le transfert se poursuivra indépendamment. Vous pouvez fermer cette fenêtre et revenir au DFDR pour vérifier et compléter votre soumission.<br/><img src="/docs/img/screenshots/deposer_les_donees/Activity.png" alt="Screenshot" class="screenshot"/>
 
 #### Vérifier l'état du transfert
 1. Rendez-vous <a href="https://globus.frdr.ca/activity?locale=fr-ca">à la page d'activité.</a>.
 2. Cliquez sur le transfert dans la liste (si vous lui avez attribué un titre, celui-ci sera étiqueté comme tel).
 3. Cette page vous indiquera l'état actuel du transfert (c'est-à-dire le nombre de fichiers transférés, la quantité de données transférée ou si une erreur s'est produite).
-4. Pour une chronologie, cliquez sur l'onglet « Event Log ».<br/><img src="/docs/img/screenshots/deposer_les_donees/EventLog.png" alt="Screenshot" class="screenshot"/>
+4. Pour une chronologie, cliquez sur l'onglet « Journal des événements  ».<br/><img src="/docs/img/screenshots/deposer_les_donees/EventLog.png" alt="Screenshot" class="screenshot"/>
 
 #### Annuler un transfert en cours
 1. Rendez-vous <a href="https://globus.frdr.ca/activity?locale=fr-ca">à la page d'activité.</a>.
@@ -183,7 +183,7 @@ La présente section couvre les activités suivantes :
 
 4. Localisez le fichier ou le répertoire que vous souhaitez supprimer. Cliquez une fois sur le fichier ou le répertoire pour le mettre en surbrillance.
 
-5. Cliquez sur le bouton « Delete Selected » sur le côté droit de l'écran (ou au centre si la source et la destination sont toutes les deux ouvertes) et confirmez-le en cliquant sur le bouton « Delete » de l'écran résultant.  <br/>
+5. Cliquez sur le bouton « Supprimer la sélection » sur le côté droit de l'écran (ou au centre si la source et la destination sont toutes les deux ouvertes) et confirmez-le en cliquant sur le bouton « Supprimer » de l'écran résultant.  <br/>
 <img src="/docs/img/screenshots/deposer_les_donees/DeleteSelected.png" alt="Screenshot" class="screenshot"/>
 
 6. Répétez jusqu’à ce que tous les fichiers ou répertoires soient supprimés.
