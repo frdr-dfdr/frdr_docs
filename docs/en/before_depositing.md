@@ -29,7 +29,7 @@ If you are unsure whether you are eligible to deposit in FRDR, please contact [s
 
 Depositing data in FRDR requires the use of [Globus Connect software](https://www.globus.org/globus-connect).
 
-<a href="https://www.youtube.com/watch?v=NJYTl3yhRl4&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=5" target="_blank"><b>Watch Video:</b>Get Started with FRDR: Get a Globus Account</a>
+<a href="https://www.youtube.com/watch?v=NJYTl3yhRl4&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=5" target="_blank"><b>Watch Video:</b>Download and Install Globus Connect Personal</a>
 
 If the data is on a computer or an external hard drive, follow the steps provided on the Globus website to download, install, and configure [Globus Connect Personal](https://www.globus.org/globus-connect-personal) on your machine.
 
