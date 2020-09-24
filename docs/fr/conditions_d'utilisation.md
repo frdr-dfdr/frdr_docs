@@ -217,3 +217,5 @@ Si vous avez des questions ou des préoccupations au sujet de la collecte, de l�
 ### 9.8 Droits patrimoniaux
 
 Vous reconnaissez et acceptez que tous les droits, titres et intérêts relatifs aux sites, au service, à toutes les données supplémentaires ajoutées par l’hébergeur du service au contenu et à tous marque de commerce, logiciel de recherche, guide d’utilisateur, documentation et autres droits de propriété intellectuelle créés par ou pour le compte de l’hébergeur du service concernant le site ou le service, notamment la soumission du contenu, demeurent la propriété exclusive de l’hébergeur du service et de ses titulaires de licence.
+
+Derrière révision: 2020-04-17

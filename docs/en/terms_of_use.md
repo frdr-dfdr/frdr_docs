@@ -215,3 +215,5 @@ If you have any questions or concerns about the collection, use, or disclosure o
 ### 9.8 Proprietary Rights
 
 You acknowledge and agree that the all rights, title and interest in and to the Sites, Service, any additional data added by the Service Host to the Content and any trademarks, search software, user guides, documentation and other intellectual property that is created by or on behalf the Service Host relating to the Site or Service, including the submission of Content, is owned solely by the Service Host and their licensees.
+
+Last Revised: 2020-04-17
