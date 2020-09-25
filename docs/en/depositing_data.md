@@ -192,7 +192,7 @@ Globus moves files and directories between two endpoints: the **source endpoint*
 
 4. Start typing the name of the Globus endpoint containing your files. This could be the name you gave your notebook or desktop, a Compute Canada hosting site (e.g. Cedar, Graham, Niagra or Beluga) or another Globus endpoint location (e.g. a lab or institutional server)<br/> <a href="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" alt="Screenshot of Globus Web UI showing results of search for collection" class="screenshot"/> </a>
 
-5. Find and select the files necessary for your dataset. You can Shift-click or Ctrl-click to build your selection of files.<br/><img src="/docs/img/screenshots/depositing_data/FileHighlighted.png" alt="Screenshot of Globus Web UI showing files highlighted and ready for transfer" class="screenshot"/>
+5. Find and select the files necessary for your dataset. You can Shift-click or Ctrl-click to build your selection of files.<br/> <a href="/docs/img/screenshots/depositing_data/ProfilePage.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/FileHighlighted.png" alt="Screenshot of Globus Web UI showing files highlighted and ready for transfer" class="screenshot"/> </a>
 
 6. Click on the Transfer and Sync Options button at the bottom middle of the screen.<br/> <a href="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" alt="Screenshot of Globus Web UI with Transfer & Sync Options highlighted at bottom of screen" class="screenshot"/> </a>
 
