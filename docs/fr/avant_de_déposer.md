@@ -11,13 +11,13 @@ Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veui
 
 ## 2. Créer un compte Globus
 
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
 Vous pouvez utiliser quatre options pour créer un compte Globus : 1) par une ouverture de session institutionnelle à partir d’un établissement postsecondaire canadien, 2) par le biais d’un compte de Calcul Canada, 3) au moyen d’un ID ORCID ou 4) par l’inscription directe pour obtenir un ID Globus. Vous pouvez également ouvrir un compte au moyen de Google; toutefois, ce n'est pas la méthode privilégiée et celle-ci exigera une vérification supplémentaire. **Afin de faciliter la vérification, nous vous invitons fortement à utiliser l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.**
 
-[Cliquez ici](https://www.frdr-dfdr.ca/repo/PublishDashboard) pour ouvrir une session avec un compte existant ou pour créer un nouveau compte. Vous devrez sélectionner votre établissement ou Calcul Canada dans la liste déroulante. Si votre établissement ne figure pas dans la liste déroulante, vous devrez choisir une autre option. Si vous voulez utiliser votre ID ORCID, celui-ci doit être associé à l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.
+[Cliquez ici](https://www.frdr-dfdr.ca/repo/PublishDashboard?locale=fr) pour ouvrir une session avec un compte existant ou pour créer un nouveau compte. Vous devrez sélectionner votre établissement ou Calcul Canada dans la liste déroulante. Si votre établissement ne figure pas dans la liste déroulante, vous devrez choisir une autre option. Si vous voulez utiliser votre ID ORCID, celui-ci doit être associé à l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.
 
-Si aucune des options ci-dessus ne vous convient, [cliquez ici pour créer un compte](https://www.globusid.org/create) directement auprès de Globus à l’aide de votre adresse électronique institutionnelle et retournez à la [page d’ouverture de session du DFDR](https://www.frdr-dfdr.ca/repo/PublishDashboard) lorsque vous avez un compte.
-
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+Si aucune des options ci-dessus ne vous convient, [cliquez ici pour créer un compte](https://www.globusid.org/create) directement auprès de Globus à l’aide de votre adresse électronique institutionnelle et retournez à la [page d’ouverture de session du DFDR](https://www.frdr-dfdr.ca/repo/PublishDashboard?locale=fr) lorsque vous avez un compte.
 
 ## 3. Obtenir l’autorisation de soumettre des données
 
