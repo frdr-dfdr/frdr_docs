@@ -37,7 +37,7 @@ ul .dropdown-menu {
 
 .navbar-inverse .navbar-nav > li > a:hover, 
 .navbar-inverse .navbar-nav > li > a:active {
-    color: #2191C5 !important;
+    color: #B1DDFD !important;
 }
 .navbar-inverse .navbar-nav > .open > a, 
 .navbar-inverse .navbar-nav > .open > a:hover, 
@@ -136,7 +136,7 @@ ul .dropdown-menu {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #999999;
+    color: #FAFAFA;
     font-weight: 300;
     line-height: 23px;
     font-size: 15px;
@@ -323,7 +323,7 @@ ul .dropdown-menu {
 
 .frdr-jumbo-footer {
   margin-top:50px;
-  background-color: #9B9B9B;
+  background-color: #424242;
   min-height: 30px;
   font-size:14px;
   color:white;
