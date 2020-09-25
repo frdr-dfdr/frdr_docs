@@ -1,4 +1,4 @@
-Des préparatifs s’imposent avant de pouvoir commencer la soumission d’un ensemble de données au DFDR. La présente section porte sur les sujets suivants : [1) Qui peut déposer des données dans le DFDR;](1-qui-peut-déposer-des-données-dans-le-dfdr) [2) Créer un compte Globus;]() [3) Obtenir l’autorisation de soumettre des données]() et [4) Acquérir le logiciel Globus Connect.]()
+Des préparatifs s’imposent avant de pouvoir commencer la soumission d’un ensemble de données au DFDR. La présente section porte sur les sujets suivants : [1) Qui peut déposer des données dans le DFDR;](1-qui-peut-deposer-dans-le-dfdr) [2) Créer un compte Globus;]() [3) Obtenir l’autorisation de soumettre des données]() et [4) Acquérir le logiciel Globus Connect.]()
 
 ## 1. Qui peut déposer dans le DFDR?
 N’importe qui peut utiliser le DFDR pour faire des recherches et télécharger des ensembles de données. Il n’est pas nécessaire d’avoir un compte Globus affilié à un établissement d’enseignement postsecondaire canadien pour télécharger des ensembles de données dans le DFDR à l’aide de Globus.
