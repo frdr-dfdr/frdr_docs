@@ -43,7 +43,9 @@ Note that a Curator may ask why you are unable to make use of the default licens
 ## Add Collaborators
 Adding collaborators is a great way for multiple people to enter metadata and upload files for a submission. You can only invite someone to contribute to a submission if they have logged into FRDR at least once. You will need the email address they used to register with FRDR, which they can find on their profile page.
 
-<img src="/docs/img/screenshots/depositing_data/ProfilePage.png" alt="Screenshot" class="screenshot"/>
+<a href="/docs/img/screenshots/depositing_data/ProfilePage.png" data-toggle="lightbox">
+    <img src="/docs/img/screenshots/depositing_data/ProfilePage.png" alt="Screenshot" class="screenshot"/>
+</a>
 
 To add a collaborator, start or resume a submission from the Data Publication Dashboard. Navigate to the Collaborate step, enter their email address, and click on the "Invite" button. They will receive an email notification with a link to accept your invitation.
 
