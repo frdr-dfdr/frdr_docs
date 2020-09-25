@@ -187,4 +187,10 @@
     _gaTracker('create', googleanalytics_tracking_id, {'cookieDomain': googleanalytics_cookie_domain });
     _gaTracker('send', 'pageview');    
  </script>
+ <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+ </script>
 </html>
