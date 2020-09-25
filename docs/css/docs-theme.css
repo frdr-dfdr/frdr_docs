@@ -205,6 +205,7 @@ ul .dropdown-menu {
 
 .frdr-sidebar > ul > li:hover {
     background-color: #9B9B9B;
+    color: #0A0A0A; 
 }
 
 .frdr-sidebar > ul > li > a {
