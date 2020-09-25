@@ -63,7 +63,6 @@ Après avoir accepté l’invitation, le collaborateur pourra reprendre la prés
 Vous pouvez inviter ou retirer des collaborateurs à tout moment pendant le processus de présentation. Pour ce faire, cliquez sur le bouton « Collaborer » en haut de la page après avoir repris une présentation en cours. Veuillez noter que les collaborateurs ne peuvent pas inviter d’autres personnes à contribuer. Seul le créateur de la présentation initiale peut ajouter et retirer des personnes à l’onglet « Collaborer ».
 
 <a href="/docs/img/screenshots/deposer_les_donees/InviterRetour.png" class="screenshot-lightbox">
-</a>
     <img src="/docs/img/screenshots/deposer_les_donees/InviterRetour.png" alt="Screenshot" class="screenshot"/>
 </a>
 
