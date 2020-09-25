@@ -1,5 +1,5 @@
 ﻿
-Preparation is needed before starting a dataset submission to FRDR. This section will cover the following topics: [1) Who can deposit in FRDR](before_depositing.md#1-who-can-deposit-in-frdr), [2) Getting a Globus Account](before_depositing.md#2-getting-a-globus-account), [3) Getting authorization to submit data](before_depositing.md#3-getting-authorization-to-submit-data), and [4) Getting Globus Connect Software](before_depositing.md#4-getting-globus-connect-software).
+Preparation is needed before starting a dataset submission to FRDR. This section will cover the following topics: [1) Who can deposit in FRDR](before_depositing.md#1-who-can-deposit-in-frdr), [2) Getting a Globus Account](before_depositing.md#2-getting-a-globus-account), [3) Getting authorization to submit data](before_depositing.md#3-getting-authorization-to-submit), and [4) Getting Globus Connect Software](before_depositing.md#4-getting-globus-connect-software).
 
 ## 1. Who can deposit in FRDR?
 
