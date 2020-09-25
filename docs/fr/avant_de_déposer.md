@@ -7,7 +7,7 @@ N’importe qui peut utiliser le DFDR pour faire des recherches et télécharger
 
 Les membres du corps professoral ou les bibliothécaires, ou leurs représentants désignés, d’un établissement d’enseignement postsecondaire canadien peuvent déposer des données dans le DFDR. Les membres du corps professoral peuvent parrainer des collaborateurs externes, des étudiants des cycles supérieurs, des employés non chercheurs, des boursiers postdoctoraux, des assistants de recherche, des chercheurs, des étudiants de premier cycle et des professeurs invités pour qu’ils présentent des données en leur nom. Les demandes de dépôt d’autres catégories de « chercheurs canadiens » (p. ex., le gouvernement ou les ONG) qui ne sont pas parrainés par un membre du corps professoral seront examinées au cas par cas.
 
-Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veuillez écrire à [support@frdr-dfdr.ca](support@frdr-dfdr.ca).
+Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## 2. Créer un compte Globus
 
