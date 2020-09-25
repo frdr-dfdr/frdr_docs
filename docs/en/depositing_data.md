@@ -43,7 +43,7 @@ Note that a Curator may ask why you are unable to make use of the default licens
 ## Add Collaborators
 Adding collaborators is a great way for multiple people to enter metadata and upload files for a submission. You can only invite someone to contribute to a submission if they have logged into FRDR at least once. You will need the email address they used to register with FRDR, which they can find on their profile page.
 
-<a href="/docs/img/screenshots/depositing_data/ProfilePage.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/ProfilePage.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/ProfilePage.png" alt="Screenshot showing Profile page under Account at top of page and where email is on the profile page" class="screenshot"/>
 </a>
 
@@ -51,13 +51,13 @@ To add a collaborator, start or resume a submission from the Data Publication Da
 
 By default they will be able to edit metadata and upload files. You can change their permissions by changing the check boxes below their email address.
 
-<a href="/docs/img/screenshots/depositing_data/InviteAdd.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/InviteAdd.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/InviteAdd.png" alt="Screenshot" class="screenshot"/>
 </a>
 
 Collaborators can also accept your invitation from their own Data Publication Dashboard by logging in and clicking "Accept" next to the dataset title. You will receive an email when your invitation has been accepted or rejected.
 
-<a href="/docs/img/screenshots/depositing_data/InviteAccept.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/InviteAccept.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/InviteAccept.png" alt="Screenshot" class="screenshot"/>
 </a>
 
@@ -65,7 +65,7 @@ After accepting the invitation, collaborators will be able to resume the submiss
 
 You can invite additional collaborators or remove collaborators at any point during the submission process. To do so, click on the "Collaborate" button at the top of the page after resuming an in-progress submission. Please note that collaborators cannot invite additional people to collaborate, only the original submission creator can add and remove people via the Collaborate tab.
 
-<a href="/docs/img/screenshots/depositing_data/InviteReturn.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/InviteReturn.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/InviteReturn.png" alt="Screenshot" class="screenshot"/>
 </a>
 
@@ -108,25 +108,25 @@ This section covers the following activities:
 * Click on the open button to start uploading the file
 * You can choose more than one file by clicking on the first file, holding the shift key and clicking on the last file you want to upload. If you need to upload several different files, skipping ones in between, hold the ctrl key on Windows or the command key on Mac and click on the files you wish to upload.
 
-<a href="/docs/img/screenshots/depositing_data/ClickToUpload.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/ClickToUpload.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/ClickToUpload.png" alt="Screenshot" style="max-width: 160px"/>
 </a>
 
 * There will first be a progress bar for the upload. This may be very fast if the file is small.
 
-<a href="/docs/img/screenshots/depositing_data/Uploading.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/Uploading.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/Uploading.png" alt="Screenshot" class="screenshot"/>
 </a>
 
 * Then there will be a spinning icon if the file has been uploaded successfully and the system is now processing the file.
 
-<a href="/docs/img/screenshots/depositing_data/UploadProcessing.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/UploadProcessing.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/UploadProcessing.png" alt="Screenshot" class="screenshot"/>
 </a>
 
 * The spinning icon will disappear and then a delete icon will be showing after the file name when the file has been completely uploaded. 
 
-<a href="/docs/img/screenshots/depositing_data/UploadFinished.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/UploadFinished.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/UploadFinished.png" alt="Screenshot" class="screenshot"/>
 </a>
 
@@ -137,25 +137,25 @@ This section covers the following activities:
 
 * Drag them onto your web browser into the dotted area with the text "Drag and drop files here" to begin uploading them.
 
-<a href="/docs/img/screenshots/depositing_data/DragAndDrop.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/DragAndDrop.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/DragAndDrop.png" alt="Screenshot" class="screenshot"/>
 </a>
 
 * There will first be a progress bar for the uploading of each file. This may be very fast if the file is small.
 
-<a href="/docs/img/screenshots/depositing_data/Uploading.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/Uploading.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/Uploading.png" alt="Screenshot" class="screenshot"/>
 </a>
 
 * Then there will be a spinning icon if the file has been uploaded successfully and the system is now processing the file.
 
-<a href="/docs/img/screenshots/depositing_data/UploadProcessing.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/UploadProcessing.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/UploadProcessing.png" alt="Screenshot" class="screenshot"/>
 </a>
 
 * The spinning icon will disappear and then a delete icon will be showing after the file name when the file has been completely uploaded. 
 
-<a href="/docs/img/screenshots/depositing_data/UploadFinished.png" data-toggle="lightbox">
+<a href="/docs/img/screenshots/depositing_data/UploadFinished.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/UploadFinished.png" alt="Screenshot" class="screenshot"/>
 </a>
 
@@ -184,37 +184,37 @@ Globus moves files and directories between two endpoints: the **source endpoint*
 
 #### How to transfer files using Globus
 
-1. On the "Transfer Data" tab, click "Globus File Transfer" button to access the Globus file transfer page<br/><img src="/docs/img/screenshots/depositing_data/GlobusFileTransferButton.png" alt="Screenshot" class="screenshot"/>
+1. On the "Transfer Data" tab, click "Globus File Transfer" button to access the Globus file transfer page<br/> <a href="/docs/img/screenshots/depositing_data/GlobusFileTransferButton.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/GlobusFileTransferButton.png" alt="Screenshot" class="screenshot"/> </a>
 
-2. Click on the "Transfer or Sync to" link on the right side of the screen. <br/> <a href="/docs/img/screenshots/depositing_data/TransferToButton.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferToButton.png" alt="Screenshot" class="screenshot"/> </a>
+2. Click on the "Transfer or Sync to" link on the right side of the screen. <br/> <a href="/docs/img/screenshots/depositing_data/TransferToButton.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferToButton.png" alt="Screenshot" class="screenshot"/> </a>
 
-3. FRDR is on the left, we need to choose a source for files on the right. Click on the top right textbox by the magnifying glass to search for an endpoint to find files. <br/> <a href="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" alt="Screenshot" class="screenshot"/> </a>
+3. FRDR is on the left, we need to choose a source for files on the right. Click on the top right textbox by the magnifying glass to search for an endpoint to find files. <br/> <a href="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" alt="Screenshot" class="screenshot"/> </a>
 
-4. Start typing the name of the Globus endpoint containing your files. This could be the name you gave your notebook or desktop, a Compute Canada hosting site (e.g. Cedar, Graham, Niagra or Beluga) or another Globus endpoint location (e.g. a lab or institutional server)<br/> <a href="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" alt="Screenshot" class="screenshot"/> </a>
+4. Start typing the name of the Globus endpoint containing your files. This could be the name you gave your notebook or desktop, a Compute Canada hosting site (e.g. Cedar, Graham, Niagra or Beluga) or another Globus endpoint location (e.g. a lab or institutional server)<br/> <a href="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" alt="Screenshot" class="screenshot"/> </a>
 
 5. Find and select the files necessary for your dataset. You can Shift-click or Ctrl-click to build your selection of files.<br/><img src="/docs/img/screenshots/depositing_data/FileHighlighted.png" alt="Screenshot" class="screenshot"/>
 
-6. Click on the Transfer and Sync Options button at the bottom middle of the screen.<br/> <a href="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" alt="Screenshot" class="screenshot"/> </a>
+6. Click on the Transfer and Sync Options button at the bottom middle of the screen.<br/> <a href="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" alt="Screenshot" class="screenshot"/> </a>
 
-7. Label this Transfer: enter a name for the transfer activity that will make it easy to identify.<br/> <a href="/docs/img/screenshots/depositing_data/TransferAndSync.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferAndSync.png" alt="Screenshot" class="screenshot"/> </a>
+7. Label this Transfer: enter a name for the transfer activity that will make it easy to identify.<br/> <a href="/docs/img/screenshots/depositing_data/TransferAndSync.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferAndSync.png" alt="Screenshot" class="screenshot"/> </a>
 
 8. Select Transfer Settings: provides various options to control file checking and security. In many cases, the default settings will be appropriate. Contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if you require assistance understanding which additional transfer settings may be needed for your dataset.
 
-9.  Initiate the transfer by clicking on the blue start button at the bottom of the page. You can initiate as many transfers as needed during a single session. This may be required if, for example, you want to transfer files that live in different folders or source endpoints. <br/> <a href="/docs/img/screenshots/depositing_data/StartTransfer.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/StartTransfer.png" alt="Screenshot" class="screenshot"/> </a>
+9.  Initiate the transfer by clicking on the blue start button at the bottom of the page. You can initiate as many transfers as needed during a single session. This may be required if, for example, you want to transfer files that live in different folders or source endpoints. <br/> <a href="/docs/img/screenshots/depositing_data/StartTransfer.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/StartTransfer.png" alt="Screenshot" class="screenshot"/> </a>
 
-10. The status of the transfer will be indicated on the left hand side under activity, but the transfer will proceed independently and you can close that window and return to FRDR to verify and complete your submission. <br/> <a href="/docs/img/screenshots/depositing_data/Activity.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/Activity.png" alt="Screenshot" class="screenshot"/> </a>
+10. The status of the transfer will be indicated on the left hand side under activity, but the transfer will proceed independently and you can close that window and return to FRDR to verify and complete your submission. <br/> <a href="/docs/img/screenshots/depositing_data/Activity.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/Activity.png" alt="Screenshot" class="screenshot"/> </a>
 
 #### Check status of transfer
 1. Go to the [Activity page](https://globus.frdr.ca/activity?locale=en-us).
 2. Click on the transfer in the list (its title will be the label if you gave it one).
 3. This page will give you the current status of the transfer (i.e., the number of files transferred, how much data has been transferred, or whether an error has occurred ).
-4. For a timeline click on the "Event Log" tab.<br/> <a href="/docs/img/screenshots/depositing_data/EventLog.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/EventLog.png" alt="Screenshot" class="screenshot"/> </a>
+4. For a timeline click on the "Event Log" tab.<br/> <a href="/docs/img/screenshots/depositing_data/EventLog.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/EventLog.png" alt="Screenshot" class="screenshot"/> </a>
 
 #### Canceling an in-progress transfer
 
 1. Go to the [Activity page](https://globus.frdr.ca/activity?locale=en-us).
 2. In the list of transfers, find the correct transfer based on the label
-3. Click on the X button <br/> <a href="/docs/img/screenshots/depositing_data/CancelTransfer.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/CancelTransfer.png" alt="Screenshot" class="screenshot"/> </a>
+3. Click on the X button <br/> <a href="/docs/img/screenshots/depositing_data/CancelTransfer.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/CancelTransfer.png" alt="Screenshot" class="screenshot"/> </a>
 4. Click on the red terminate transfer button.
 
 #### Deleting a file that has already been transferred
@@ -222,7 +222,7 @@ Globus moves files and directories between two endpoints: the **source endpoint*
 2. Click on the "Transfer Data" tab (if not already on it.)
 3. Click the "Transfer Dataset" button to open the transfer window.
 4. Locate the file or directory that you want to delete. Click once on the file or directory to highlight it.
-5. Click the “Delete Selected” button on the right hand side of the screen (or middle if both the source and destination are open) and confirm it by clicking on the delete button on the resulting screen.  <br/> <a href="/docs/img/screenshots/depositing_data/DeleteSelected.png" data-toggle="lightbox"> <img src="/docs/img/screenshots/depositing_data/DeleteSelected.png" alt="Screenshot" class="screenshot"/> </a>
+5. Click the “Delete Selected” button on the right hand side of the screen (or middle if both the source and destination are open) and confirm it by clicking on the delete button on the resulting screen.  <br/> <a href="/docs/img/screenshots/depositing_data/DeleteSelected.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/DeleteSelected.png" alt="Screenshot" class="screenshot"/> </a>
 6. Repeat as needed until all of the files or folders have been deleted.
 
 Submitting a dataset is not an instantaneous process. Several of the steps can take a significant amount of time:

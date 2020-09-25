@@ -188,9 +188,13 @@
     _gaTracker('send', 'pageview');    
  </script>
  <script>
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    $(document).ready(function() {
+    // Always show a way for the user to close the lightbox.
+    $(".screenshot-lightbox").click(function(event) {
         event.preventDefault();
-        $(this).ekkoLightbox();
+        $(this).ekkoLightbox({
+            alwaysShowClose: true
+        });
     });
  </script>
 </html>
