@@ -1,4 +1,4 @@
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" cc_load_policy="2"></iframe></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 [Portage](https://portagenetwork.ca/fr/), [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) et [l'Association des bibliothèques de recherche du Canada](http://www.carl-abrc.ca/fr/a-propos-de-labrc/) (ABRC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ils se réjouissent d'annoncer que le service du dépôt fédéré de données de recherche (DFDR) a maintenant terminé la phase bêta et entrera en production limitée.
 
