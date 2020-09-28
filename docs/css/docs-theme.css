@@ -203,6 +203,12 @@ ul .dropdown-menu {
     font-size: 16px;
 }
 
+.frdr-sidebar > ul > li > a:hover,
+.frdr-sidebar > ul > li > a:focus {
+    background-color: #424242;
+    color: #B1DDFD; 
+} 
+
 .frdr-sidebar > ul > li:hover {
     background-color: #9B9B9B;
     color: #0A0A0A; 
@@ -251,8 +257,8 @@ ul .dropdown-menu {
 }
 
 .frdr-sidebar > ul > li.current > ul > li > a:hover {
-    color: #B1DDFD;
-    background-color: #424242;
+    color: #FFFFFF;
+    background-color: ##2882bb;
 }
 
 .frdr-sidebar > ul > li.current > ul {
