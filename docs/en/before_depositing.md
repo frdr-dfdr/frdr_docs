@@ -1,5 +1,5 @@
 ﻿
-Preparation is needed before starting a dataset submission to FRDR. This section will cover the following topics: [1) Who can deposit in FRDR](before_depositing.md#1-who-can-deposit-in-frdr), [2) Getting a Globus Account](before_depositing.md#2-getting-a-globus-account), [3) Getting authorization to submit data](before_depositing.md#3-getting-authorization-to-submit-data), and [4) Getting Globus Connect Software](before_depositing.md#4-getting-globus-connect-software).
+Preparation is needed before starting a dataset submission to FRDR. This section will cover the following topics: [1) Who can deposit in FRDR](before_depositing.md#1-who-can-deposit-in-frdr), [2) Getting a Globus Account](before_depositing.md#2-getting-a-globus-account), [3) Getting authorization to submit data](before_depositing.md#3-getting-authorization-to-submit), and [4) Getting Globus Connect Software](before_depositing.md#4-getting-globus-connect-software).
 
 ## 1. Who can deposit in FRDR?
 
@@ -15,9 +15,9 @@ If you are unsure whether you are eligible to deposit in FRDR, please contact [s
 
 There are four options that you can use to obtain a Globus Account: 1) using an institutional log in from a Canadian postsecondary institution, 2) a Compute Canada account, 3) an ORCiD, or 4) signing up directly for a Globus ID. You may also sign up for an account using Google; however, this is not preferred and will require additional verification. **In order to facilitate verification, we strongly encourage you to use an email address from a Canadian postsecondary institution.**
 
-[Click here](https://www.frdr-dfdr.ca/repo/PublishDashboard) to log in with an existing account, or to create a new account. You will need to select your institution or Compute Canada from the drop down list. If your institution does not appear in the drop down list, you will have to select a different option. If you want to use your ORCiD, it must be affiliated with an email address from a Canadian postsecondary institution.
+[Click here](/repo/PublishDashboard) to log in with an existing account, or to create a new account. You will need to select your institution or Compute Canada from the drop down list. If your institution does not appear in the drop down list, you will have to select a different option. If you want to use your ORCiD, it must be affiliated with an email address from a Canadian postsecondary institution.
 
-If none of the above options work for you, [click here to create an account](https://www.globusid.org/create) directly with Globus using your institutional email address and return to the FRDR [log in](https://www.frdr-dfdr.ca/repo/PublishDashboard) page when you have an account.
+If none of the above options work for you, [click here to create an account](https://www.globusid.org/create) directly with Globus using your institutional email address and return to the FRDR [log in](/repo/PublishDashboard) page when you have an account.
 
 ## 3. Getting Authorization to Submit
 

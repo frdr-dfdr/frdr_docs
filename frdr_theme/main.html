@@ -13,7 +13,8 @@
         <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/jquery/jquery-ui-1.10.3.custom.min.js"></script>
         <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/bootstrap/bootstrap.min.js"></script>
         <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/frdr-site.js"></script>
-        <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/utils.js"></script>
+        <script type="text/javascript" src="{{ config.extra.repo_url }}/utils.js"></script>
+        <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/ekko-lightbox/5.1.1/ekko-lightbox.js"></script>
     </head>
     <body id="content" onload="checkForHashOnLoad(-64)">
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -185,5 +186,16 @@
  <script>
     _gaTracker('create', googleanalytics_tracking_id, {'cookieDomain': googleanalytics_cookie_domain });
     _gaTracker('send', 'pageview');    
+ </script>
+ <script>
+    $(document).ready(function() {
+        // Always show a way for the user to close the lightbox.
+        $(".screenshot-lightbox").click(function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox({
+                alwaysShowClose: true
+            });
+        });
+    });
  </script>
 </html>
