@@ -245,6 +245,7 @@ ul .dropdown-menu {
 
 .frdr-sidebar > ul > li.current > a:hover {
   color: #9AD4FF;
+  background-color: #5b5b5b;
   text-decoration: underline;
 }
 
