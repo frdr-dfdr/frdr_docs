@@ -236,14 +236,16 @@ ul .dropdown-menu {
 }
 
 .frdr-sidebar > ul > li.current > a {
-  color: #000000;
+  color: #FFFFFF;
+  background-color: #5b5b5b;
   border-top-color: #9E9E9E;
   border-top-style: solid;
   border-top-width: 1px;
 }
 
 .frdr-sidebar > ul > li.current > a:hover {
-  color: #FFFFFF;
+  color: #9AD4FF;
+  text-decoration: underline;
 }
 
 .frdr-sidebar > ul > li.current > ul > li {
@@ -261,7 +263,7 @@ ul .dropdown-menu {
 
 .frdr-sidebar > ul > li.current > ul > li > a:hover {
     color: #FFFFFF;
-    background-color: ##5b5b5b;
+    background-color: #5b5b5b;
     text-decoration: underline;
 }
 
