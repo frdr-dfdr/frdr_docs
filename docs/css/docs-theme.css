@@ -205,8 +205,10 @@ ul .dropdown-menu {
 
 .frdr-sidebar > ul > li > a:hover,
 .frdr-sidebar > ul > li > a:focus {
-    background-color: #424242;
-    color: #B1DDFD; 
+    background-color: #e0e0e0;
+    color: black;
+    text-decoration: underline; 
+    
 } 
 
 .frdr-sidebar > ul > li:hover {
@@ -220,6 +222,7 @@ ul .dropdown-menu {
     height: 100%;
     width: 100%;
     padding-left: 10px;
+    background-color: #5b5b5b;
 }
 
 .frdr-sidebar > ul > li.current {
@@ -258,7 +261,8 @@ ul .dropdown-menu {
 
 .frdr-sidebar > ul > li.current > ul > li > a:hover {
     color: #FFFFFF;
-    background-color: ##2882bb;
+    background-color: ##5b5b5b;
+    text-decoration: underline;
 }
 
 .frdr-sidebar > ul > li.current > ul {
@@ -273,8 +277,8 @@ ul .dropdown-menu {
 }
 
 .frdr-sidebar > ul > li > a:hover {
-    color: #FFFFFF;
-    background-color: #9B9B9B;
+    color: black;
+    background-color: #e0e0e0;
 }
 
 #sitelogo {
