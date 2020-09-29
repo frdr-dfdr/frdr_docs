@@ -236,16 +236,16 @@ ul .dropdown-menu {
 }
 
 .frdr-sidebar > ul > li.current > a {
-  color: #FFFFFF;
-  background-color: #5b5b5b;
+  color: black;
+  background-color: #ffffff;
   border-top-color: #9E9E9E;
   border-top-style: solid;
   border-top-width: 1px;
 }
 
 .frdr-sidebar > ul > li.current > a:hover {
-  color: #9AD4FF;
-  background-color: #5b5b5b;
+  color: #3D92D0;
+  background-color: #ffffff;
   text-decoration: underline;
 }
 
