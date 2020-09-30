@@ -11,7 +11,7 @@ If you are unsure whether you are eligible to deposit in FRDR, please contact [s
 
 ## 2. Getting a Globus Account
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c/" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c/&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 There are four options that you can use to obtain a Globus Account: 1) using an institutional log in from a Canadian postsecondary institution, 2) a Compute Canada account, 3) an ORCiD, or 4) signing up directly for a Globus ID. You may also sign up for an account using Google; however, this is not preferred and will require additional verification. **In order to facilitate verification, we strongly encourage you to use an email address from a Canadian postsecondary institution.**
 
@@ -29,7 +29,7 @@ If you are unsure whether you are eligible to deposit in FRDR, please contact [s
 
 Depositing data in FRDR requires the use of [Globus Connect software](https://www.globus.org/globus-connect).
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/NJYTl3yhRl4/" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/NJYTl3yhRl4/&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 If the data is on a computer or an external hard drive, follow the steps provided on the Globus website to download, install, and configure [Globus Connect Personal](https://www.globus.org/globus-connect-personal) on your machine.
 

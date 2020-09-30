@@ -163,7 +163,7 @@ This section covers the following activities:
 
 ### Using Globus to Upload Dataset
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/U4Qaia4KZAU/" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/U4Qaia4KZAU/&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 This section covers the following activities:
 

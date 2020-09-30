@@ -71,7 +71,7 @@ Landing pages vary between repositories, but generally will include:
 
 Datasets deposited directly into FRDR may have significantly more metadata than what is initially displayed. To access the full metadata record, click on "Show full record" at the bottom of the FRDR landing page.
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/PvmFxQyMPlQ/" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/PvmFxQyMPlQ/&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 To access the data files directly deposited in FRDR, see the section of the dataset's landing page labelled "Files in Dataset." One can view top-level files and folders, as well as expand folders using the "+" icon. Some files can be accessed, even previewed, using a web browser. Which file types are viewable depends on your browser's capabilities and settings. Smaller files can be downloaded by your browser. However, very large files (greater than 10 GB) will have to be downloaded using Globus Connect. Datasets with many files or a large folder structure should be downloaded using Globus Connect rather than downloading the files one by one.
 
