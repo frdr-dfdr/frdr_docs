@@ -5,7 +5,6 @@ theme:
     custom_dir: 'frdr_theme'
 nav:
     - English:
-        - "Home": en/home.md
         - "Searching for Datasets": en/searching.md
         - "Before Depositing": en/before_depositing.md
         - "Depositing Data": en/depositing_data.md
@@ -20,7 +19,6 @@ nav:
         - "Contact Us": en/contact_support.md
         - "About": en/about.md
     - French:
-        - Accueil: fr/accueil.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Avant de déposer": fr/avant_de_déposer.md
         - "Déposer les données": fr/déposer_les_données.md
@@ -39,8 +37,8 @@ extra_css:
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
     prefix: "/"
-    default_page_en: en/home/
-    default_page_fr: fr/accueil/
+    default_page_en: en/about/
+    default_page_fr: fr/a_propos/
     language_map:
         en:
             "Searching for Datasets": fr/recherche/
