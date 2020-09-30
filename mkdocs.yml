@@ -5,6 +5,7 @@ theme:
     custom_dir: 'frdr_theme'
 nav:
     - English:
+        - "About": en/about.md
         - "Searching for Datasets": en/searching.md
         - "Before Depositing": en/before_depositing.md
         - "Depositing Data": en/depositing_data.md
@@ -17,8 +18,8 @@ nav:
         - "FAIR Principles": en/fair_principles.md
         - "Style Guide": en/style_guide.md
         - "Contact Us": en/contact_support.md
-        - "About": en/about.md
     - French:
+        - "À propos": fr/a_propos.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Avant de déposer": fr/avant_de_déposer.md
         - "Déposer les données": fr/déposer_les_données.md
@@ -30,7 +31,6 @@ nav:
         - "Principes FAIR": fr/principes_fair.md
         - "Guide de style": fr/guide_de_style.md
         - "Contactez nous": fr/contactez_nous.md
-        - "À propos": fr/a_propos.md
 
 extra_css:
     - css/docs-theme.css
