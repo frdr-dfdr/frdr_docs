@@ -101,7 +101,7 @@
             {% for nav_item in nav %}
                 {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
                     {% for nav_item in nav_item.children %}
-                        <li class="{% if nav_item.active%}current{%endif%}">
+                        <li class="{% if nav_item.active%}current{%endif%}" id="current">
                             <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
                             {% if nav_item.active %}
                             <ul>

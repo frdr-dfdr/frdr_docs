@@ -6,7 +6,7 @@
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:active {
     color: #424242 !important;
     background-color: #ffffff;

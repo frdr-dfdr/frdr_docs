@@ -475,3 +475,7 @@ div.file > .size {
 .subclause-number {
     margin-right: 0.5em;
 }
+
+#current {
+  border-bottom: 5px solid black;
+}
