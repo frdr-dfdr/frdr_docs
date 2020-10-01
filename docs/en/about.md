@@ -1,5 +1,4 @@
-﻿<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-
+﻿
 [Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has finished Beta and is now in Limited Production.
 
 The Limited Production version of FRDR will have many of the features and user interface design expected for full launch. Data deposit is currently being offered as a 'by request only' service, subject to resource availability and capacity. If you have a dataset you would like to deposit, please contact support@frdr-dfdr.ca to request permission to deposit.
@@ -10,6 +9,8 @@ A <a href="https://demo.frdr-dfdr.ca/repo/?locale=en" target="_blank" rel="noope
 FRDR will address a longstanding gap in Canada's research infrastructure by providing a single platform from which research data can be **ingested, curated, preserved, discovered, cited and shared**.
 
 The platform's federated search tool will provide a focal point to discover and access Canadian research data, while the range of services provided by FRDR will help researchers store and manage their data, preserve their research for future use, and comply with institutional and funding agency data management requirements.
+
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 ## Partners
 
@@ -61,16 +62,46 @@ The platform's federated search tool will provide a focal point to discover and 
 
 <div class="endflex"></div>
 
-## Features
+## FRDR Features
 
-* **Federated storage model**: Individual institutions or organizations can store data and collections locally by connecting their storage into FRDR.
-* **Federated support model**: Portage works with data professionals in academic institutions across Canada to provide on-campus support for researchers.
-* **Scalable model**: Scalable systems accommodate growth in the adoption of FRDR by researchers and in the amount of data they store.
-* **National data discovery**: Data collections hosted in FRDR and in other Canadian data repositories are discoverable through a single federated search tool.
-* **Data preservation**: FRDR can automatically create archival packages, with metadata and alternate formats for data that are suitable for long-term preservation.
-* **Access control mechanisms**: FRDR supports control over who can discover and access each dataset, including support for embargo periods.
-* **Dataset registration**: DOIs are automatically issued and registered to datasets, with licensing arranged through DataCite Canada.
+### Repository Services
+* Repository platform
+    * Fast and efficient data upload and download for large datasets through Globus File Transfer, as well as web browser transfers for smaller datasets
+    * A fully-bilingual user interface and robust documentation available in English and French
+    * DOI registration for datasets provides a persistent identifier that can be used for data citation
+    * Support for multiple authentication providers, including Compute Canada, ORCID, and a growing list of Canadian postsecondary institutions
+    * Optional embargoes on data and metadata records
+    * Allows multiple people to collaborate on a submission
+    * Support for Special Collections by research groups with organizational branding and links to external web content
+    * A responsive support service with business hours coverage across Canada ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
+    * Planned feature extension, scheduled releases, and updates
 
+* Managed Storage Services
+    * Managed repository storage spread across multiple Compute Canada Federation hosting sites
+    * Secure repository storage for a minimum of 10 years after deposit
+    * Regular backups and geographically distributed storage for research data
+    * On-site system administration and ongoing hardware maintenance
+
+* Curation Services (provided in coordination with researchers, data management support staff, and local institutional research data management contacts)
+    * Create and review documentation and metadata to explain and contextualize data
+    * Perform quality assurance through metadata inspection, file audit, and code review
+    * Link research data documentation to author PIDs (e.g., ORCIDs) and, where relevant, grant information
+    * Link research data documentation to other research products, e.g., data management plans, data papers, journal articles
+
+### Discovery Services
+* Metadata harvesting and indexing of Canadian research data repositories, including datasets hosted in FRDR’s repository platform
+* Discovery interface with text-based search functionality supported by Globus search
+* Openly available OAI-PMH feed of harvested metadata
+* [Geodisy](https://geo.frdr-dfdr.ca/): geospatial search interface using GeoBlacklight (currently in beta)
+
+### Preservation Services
+* Preservation processing of research data via parallelized Archivematica instances:
+    * Checksum generation
+    * File identification, characterization, and validation
+    * Format conversion of files via policy registry to future-friendly formats
+    * Archival Information Package (AIP) creation
+* Long-term preservation storage:
+    * Transfer of AIPs to partnering Preservation Service Providers
 
 ## Governance
 

@@ -1,5 +1,3 @@
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-
 [Portage](https://portagenetwork.ca/fr/), [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) et [l'Association des bibliothèques de recherche du Canada](http://www.carl-abrc.ca/fr/a-propos-de-labrc/) (ABRC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ils se réjouissent d'annoncer que le service du dépôt fédéré de données de recherche (DFDR) a maintenant terminé la phase bêta et entrera en production limitée.
 
 La version de production limitée du DFDR aura la même conception d'interface utilisateur et plusieurs des fonctionnalités attendues pour le lancement complet. Le dépôt de données est actuellement proposé comme un service "sur demande uniquement", sous réserve de la disponibilité et de la capacité des ressources. Si vous souhaitez déposer un ensemble de données, veuillez contacter support@frdr-dfdr.ca pour demander l'autorisation de déposer.
@@ -11,6 +9,8 @@ Une <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noo
 Le DFDR comblera une importante lacune dans l’infrastructure canadienne de recherche en fournissant une plateforme unique à partir de laquelle les données de recherche peuvent être <strong>chargées</strong>, <strong>organisées</strong>, <strong>préservées</strong>, <strong>explorées, citées</strong> et <strong>partagées</strong>.
 
 Un outil de recherche fédéré fournira un point focal pour découvrir et accéder aux données de recherche canadiennes, tandis que la gamme de services fournis par DFDR aidera les chercheurs à stocker et à gérer leurs données, à préserver leur recherche pour une utilisation ultérieure, et à se conformer aux exigences de gestion de données des institutions et des organismes de financement.
+
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 
 ## Partenaires
@@ -62,15 +62,48 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 <div class="endflex"></div>
 
-## Caractéristiques principales du Dfdr
+## Caractéristiques du DFDR
 
-* **Modèle de stockage fédéré:** les établissements individuels et les organismes peuvent stocker leurs données et collections en reliant leur stockage local au DFDR.</li>
-* **Modèle de soutien fédéré:** les chercheurs peuvent obtenir du soutien directement sur les campus.</li>
-* **Modèle évolutif:** le système peut évoluer afin de s’adapter à la croissance du nombre d’utilisateurs et de la quantité de données stockées.</li>
-* **Exploration des données à l’échelle nationale:** les collections de données qui sont hébergées dans le DFDR et d'autres dépôts existants peuvent toutes être explorées par un seul outil de recherche fédéré.</li>
-* **Préservation des données:** le DFDR peut créer automatiquement des paquets archivables, avec des métadonnées et des formats alternatifs pour les données qui conviennent à la préservation à long terme.</li>
-* **Mécanismes de contrôle d’accès:** la solution permet de contrôler de manière précis qui peut découvrir et accéder chaque jeu de données, et de plus, elle accepte les embargos.</li>
-* **Enregistrement des ensembles de données:** des DOI peuvent être automatiquement émis et enregistrés pour chaque ensemble de données, les licences étant fournies par DataCite Canada.</li>
+###Services de dépôt
+
+* Plateforme de dépôt
+    * Téléchargement et téléversement rapides et efficaces de grands ensembles de données par l’intermédiaire de Globus File Transfer et transferts au moyen du navigateur Web pour de petits ensembles de données.
+    * Interface utilisateur entièrement bilingue et documentation solide disponibles en français et en anglais.
+    * L’enregistrement des identifiants numériques d’objet (DOI) pour les ensembles de données offre un identificateur permanent qui peut être utilisé pour la citation de données
+    * Soutien pour de multiples fournisseurs d’authentification, y compris Calcul Canada, ORCID et un nombre croissant d’établissements postsecondaires du Canada.
+    * Embargos facultatifs sur les dossiers de données et de métadonnées.
+    * Possibilité de collaboration de plusieurs personnes à une soumission.
+    * Soutien pour les collections spéciales assuré par des groupes de recherche ayant une image de marque organisationnelle; liens vers du contenu Web externe.
+    * Service de soutien adapté offert partout au Canada selon les heures d’ouverture déterminées (support@frdr-dfdr.ca).
+    * Extension des fonctionnalités planifiée, lancement de versions planifié et mises à jour.
+
+* Services de stockage géré
+    * Stockage dans un dépôt géré dans plusieurs sites d’hébergement de la Fédération de Calcul Canada.
+    * Stockage dans un dépôt sécurisé pendant au moins 10 ans.
+    * Sauvegardes régulières et stockage de données de recherche réparti géographiquement.
+    * Administration du système sur place et entretien continu de l’équipement.
+
+* Services de curation (offerts en coordination avec les chercheurs, le personnel de soutien à la gestion des données et les personnes-ressources locales pour la gestion des données de recherche institutionnelle)
+    * Créer et examiner la documentation et les métadonnées pour expliquer et contextualiser les données.
+    * Veiller à l’assurance de la qualité grâce à l’inspection des métadonnées, à la vérification des fichiers et à l’examen des codes.
+    * Établir un lien entre la documentation sur les données de recherche et les données d’identification permanente (PID) des auteurs (p. ex., ORCID) et, le cas échéant, les renseignements sur la subvention.
+    * Établir un lien entre la documentation sur les données de recherche et d’autres produits de recherche, p. ex., les plans de gestion des données, les publications de données brutes et les articles de revues.
+
+### Services de recherche
+* Emploi de l’outil de moissonnage de métadonnées et indexation des dépôts de données de recherche au Canada, y compris les ensembles de données hébergés dans la plateforme de dépôt du DFDR.
+* Interface d’exploration avec fonctionnalité de recherche textuelle prise en charge par la Globus Search.
+* Fil de métadonnées recueillies du protocole OAI-PMH librement accessible.
+* [Geodisy](https://geo.frdr-dfdr.ca/) : interface de recherche géospatiale à l’aide de l’outil GeoBlacklight (actuellement en version beta)
+
+### Services de préservation
+* Traitement de préservation des données de recherche à l’aide de logiciels parallèles d’Archivematica :
+    * Génération de la somme de contrôle.
+    * Identification, caractérisation et validation de fichiers.
+    * Conversion du format des fichiers grâce au registre des politiques en formats applicable à l’avenir.
+    * Création d’une Trousse d’information sur l’archivage (TIA).
+
+* Préservation de longue durée :
+    * Transfert des TIA aux fournisseurs de services de préservation partenaires
 
 
 ## Gouvernance

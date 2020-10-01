@@ -1,5 +1,14 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-09-30**:
+
+* Item landing pages by default will now use the item UUID instead of the item DOI text.  Existing links that use item DOI text will continue to work and DOIs will continue to resolve properly.
+* Fixed a problem with adding multiple funders to a submission
+* Changed the default cutoff to 50 items per directory for dataset file listing, so that web browsers won’t timeout trying to display item landing pages for large datasets
+* A file containing the selected dataset license will be placed within the dataset after publication
+* Improvements to accessibility and mobile usability have been made to multiple areas of the site, and will continue into the next update
+
+
 **2020-08-26**:
 
 * Implemented a quota tracking and enforcement system.
