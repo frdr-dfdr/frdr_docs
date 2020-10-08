@@ -92,7 +92,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
 
 ### API de recherche
 
-L’outil de découverte du DFDR se base sur la plateforme de recherche de Globus, une application dorsale elle-même basée sur ElasticSearch. Le moissonneur du DFDR parcourt les flux de divers dépôts au Canada, y compris le DFDR lui-même, et crée des entrées dans l’index de recherche du DFDR.
+L’outil de découverte du DFDR se base sur la [plateforme de recherche de Globus](https://docs.globus.org/api/search/), une application dorsale elle-même basée sur ElasticSearch. Le moissonneur du DFDR parcourt les flux de divers dépôts au Canada, y compris le DFDR lui-même, et crée des entrées dans l’index de recherche du DFDR.
 
 L’API de recherche comporte deux formes. Les requêtes simples (par exemple celles qui ne définissent pas les facettes) peuvent être simplement envoyées à l’aide du formulaire GET. Les requêtes plus complexes peuvent être envoyées à l’aide du formulaire POST pour affiner les exigences de recherche. Dans les deux cas, la forme des résultats est la même.
 
@@ -100,7 +100,7 @@ L’API de recherche comporte deux formes. Les requêtes simples (par exemple ce
 
 *Méthode GET*
 
-URL : https://search.api.globus.org/v1/search/frdr-test?q=term
+URL : https://search.api.globus.org/v1/index/frdr-test/search?q=term
 
 Paramètres de la requête :
 
@@ -114,7 +114,7 @@ L’index de recherche précis est dans l’adresse URL ci-dessus. « frdr-tes
 
 *Méthode POST*
 
-URL : https://search.api.globus.org/v1/search/**frdr-test**
+URL : https://search.api.globus.org/v1/index/frdr-test
 
 Paramètre de la requête : Aucun
 
