@@ -38,10 +38,11 @@
                     <a href="." class="dropdown-toggle" data-toggle="dropdown">{% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-			{% if '/fr/' in page.canonical_url %}
+			{% if '/en/' in page.canonical_url %}
+                        <li><a href="/docs/fr/">Français</a></li>
+			{% else %}
                         <li><a href="/docs/en/">English</a></li>
 			{% endif %}
-                        <li><a href="{% if '/fr/' in page.canonical_url %}.{% elif config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
                     </ul>
                 </ul>
 
