@@ -97,7 +97,7 @@ This documentation is for users who want to develop applications or web sites th
 
 ### Search API
 
-FRDR discovery uses Globus Search Platform for its back end, which itself is based on Elasticsearch. The FRDR harvester consumes feeds from various repositories across Canada, including the FRDR repository itself, and creates entries in the FRDR search index.
+FRDR discovery uses [Globus Search Platform](https://docs.globus.org/api/search/) for its back end, which itself is based on Elasticsearch. The FRDR harvester consumes feeds from various repositories across Canada, including the FRDR repository itself, and creates entries in the FRDR search index.
 
 The Search API has two forms. Simple queries (for example, those not defining facets) may be accessed using the GET form for ease. More complicated queries may use the POST form to specify richer requirements. In either case, the result format is the same.
 
@@ -105,7 +105,7 @@ The Search API has two forms. Simple queries (for example, those not defining fa
 
 *GET Method*
 
-URL: https://search.api.globus.org/v1/search/frdr-test?q=term
+URL: https://search.api.globus.org/v1/index/frdr-test/search?q=term
 
 Query Parameters:
 
@@ -119,7 +119,7 @@ The particular search index is in the URL above.  "frdr-test" is for testing, an
 
 *POST Method*
 
-URL: https://search.api.globus.org/v1/search/**frdr-test**
+URL: https://search.api.globus.org/v1/index/frdr-test
 
 Query Parameters: None
 

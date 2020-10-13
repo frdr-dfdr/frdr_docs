@@ -8,6 +8,16 @@ h2, h3 {
     color: #2882bb !important;
 }
 
+/* Pseudo element to fix anchors being hidden under navbar */
+h2::before, h3::before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 a {
     color: #000066;
 }
