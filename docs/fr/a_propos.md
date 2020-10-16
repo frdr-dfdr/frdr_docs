@@ -10,7 +10,7 @@ Le DFDR comblera une importante lacune dans l’infrastructure canadienne de rec
 
 Un outil de recherche fédéré fournira un point focal pour découvrir et accéder aux données de recherche canadiennes, tandis que la gamme de services fournis par DFDR aidera les chercheurs à stocker et à gérer leurs données, à préserver leur recherche pour une utilisation ultérieure, et à se conformer aux exigences de gestion de données des institutions et des organismes de financement.
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8?&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe title="En quoi consiste le DFDR et comment faut-il utiliser ce dépôt?" src="https://www.youtube.com/embed/w2DYtEGLNO8?&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 
 ## Partenaires
