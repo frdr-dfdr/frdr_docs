@@ -7,6 +7,7 @@ nav:
     - English:
         - "About": en/about.md
         - "Searching for Datasets": en/searching.md
+        - "Preparing Your Data": en/preparing_your_data.md
         - "Before Depositing": en/before_depositing.md
         - "Depositing Data": en/depositing_data.md
         - "After Depositing": en/after_depositing.md
@@ -21,6 +22,7 @@ nav:
     - French:
         - "À propos": fr/a_propos.md
         - "Recherche de jeux de données": fr/recherche.md
+        - "Préparation de vos données": fr/préparation_de_vos_données.md
         - "Avant de déposer": fr/avant_de_déposer.md
         - "Déposer les données": fr/déposer_les_données.md
         - "Après le dépôt": fr/après_le_dépôt.md
@@ -41,7 +43,9 @@ extra:
     default_page_fr: fr/a_propos/
     language_map:
         en:
+            "About": fr/a_propos/
             "Searching for Datasets": fr/recherche/
+            "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
             "Depositing Data": fr/déposer_les_données/
             "After Depositing": fr/après_le_dépôt/
@@ -51,10 +55,11 @@ extra:
             "FAIR Principles": fr/principes_fair/
             "Style Guide": fr/guide_de_style/
             "Contact Us": fr/contactez_nous/
-            "About": fr/a_propos/
             "Advanced": fr/avancee/
         fr:
+            "À propos": en/about/
             "Recherche de jeux de données": en/searching/
+            "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
             "Déposer les données": en/depositing_data/
             "Après le dépôt": en/after_depositing/
@@ -64,5 +69,4 @@ extra:
             "Principes FAIR": en/fair_principles/
             "Guide de style": en/style_guide/
             "Contactez nous": en/contact_support/
-            "À propos": en/about/
             "Avancée": en/advanced/
