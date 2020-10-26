@@ -353,13 +353,11 @@ ul .dropdown-menu {
   color:#0A0A0A;
   padding: 20px;
 }
-
+.frdr-jumbo-footer a{
+   font-weight: bold;
+}
 .frdr-jumbo-footer a:hover {
   color: white;
-}
-
-.frdr-jumbo-footer a {
-  color: #0A0A0A;
 }
 
 .list-group {
