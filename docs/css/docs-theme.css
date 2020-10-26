@@ -354,14 +354,17 @@ ul .dropdown-menu {
   padding: 20px;
 }
 .frdr-jumbo-footer a{
-   font-weight: bold;
+   font-weight: bold
 }
+
 .frdr-jumbo-footer a:visited{
-  color:884488;
+  color:884488 !important;
 }
+
 .frdr-jumbo-footer a:hover {
-  color: white;
+  color: white !important;
 }
+
 
 .list-group {
   border-radius: 4px;
