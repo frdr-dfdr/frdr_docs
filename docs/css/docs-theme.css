@@ -356,6 +356,9 @@ ul .dropdown-menu {
 .frdr-jumbo-footer a{
    font-weight: bold;
 }
+.frdr-jumbo-footer a:visited{
+  color:884488;
+}
 .frdr-jumbo-footer a:hover {
   color: white;
 }
