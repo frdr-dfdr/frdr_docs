@@ -6,20 +6,20 @@ Vous pouvez initier une nouvelle soumission en tout temps.
 ## Aperçu des étapes de dépôt
 Voici les étapes requises pour initier une soumission dans le DFDR:
 
-* [Choisissez un groupe de stockage pour la soumission](déposer_les_données.md#groupes-de-stockage-dans-le-dfdr)
+* [Choisissez un groupe de stockage pour la soumission](déposer_les_données.md#selection-dun-groupe-de-stockage)
 * [Sélectionnez la licence de droit des données](déposer_les_données.md#licences-dutilisation-des-donnees)
 * [Ajout de collaborateurs](déposer_les_données.md#ajout-de-collaborateurs)
-* [Entrez les métadonnées relatives à vos données](déposer_les_données.md#entrer-des-metadonnees)
+* [Entrez les métadonnées relatives à vos données](déposer_les_données.md#saisie-de-metadonnees)
 * [Précisez une période d’embargo (le cas échéant)](déposer_les_données.md#preciser-une-periode-dembargo)
 * [Transférez le jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
 * [Évaluez et finalisez la soumission](déposer_les_données.md#finaliser-la-soumission)
 
 Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’information entrée et y revenir plus tard. Un [Digital Object Identifier (DOI)](https://www.doi.org/) est assigné à la soumission dès que vous initiez un dépôt de jeu de données. Les DOI de tous les dépôts en cours s’affichent dans la liste des soumissions en cours. Ceci vous permet de partager le DOI de votre jeu de données avec un organisme subventionnaire ou un éditeur immédiatement. Veuillez noter que le lien vers le DOI ne sera pas actif tant que le dépôt ne sera pas approuvé par un curateur. Une fois la soumission terminée, vous ne pourrez plus apporter de modification aux données et aux métadonnées. Tout changement aux données ou aux métadonnées après la soumission devra être apporté en communiquant avec un curateur à [curators@frdr.ca](mailto:curators@frdr.ca).
 
-## Groupes de stockage dans le DFDR
-Les jeux de données déposés dans le DFDR sont stockés sur des serveurs canadiens et sont généralement déposés dans le groupe de stockage par défaut. Le groupe par défaut est présélectionné lorsque vous initiez la soumission des données.
+## Sélection d’un groupe de stockage
+Les ensembles de données du DFDR sont organisés en collections, appelées groupes de stockage. Il existe deux types de groupes de stockage : le groupe de stockage par défaut et les groupes de stockage spéciaux. Le groupe par défaut, **General/Général**, sera présélectionné au commencement d’un dépôt de données.
 
-Vous pouvez également créer des groupes de stockage spéciaux. Les établissements, les groupes de recherche et des projets spéciaux peuvent opter pour ce type de groupe afin d’élaborer des gabarits de dépôt personnalisés qui pourraient, par exemple, contenir des champs de métadonnées déjà remplis ou utiliser un schéma de métadonnées autre que les normes par défaut Dublin Core/DataCite. Les groupes de stockage spéciaux ne sont visibles qu’aux usagers autorisés à y déposer. Si vous désirez un groupe de stockage spécial ou si vous croyez que vous devriez avoir accès à un groupe de stockage spécial existant, veuillez communiquer avec [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Les groupes de stockage spéciaux permettent aux établissements, aux groupes de recherche ou aux projets spéciaux de créer une collection pour leurs ensembles de données dans le DFDR. Chaque groupe de stockage spécial apparaîtra comme dépôt dans la liste des [dépôts de données de recherche au Canada](/discover/html/repository-list.html?lang=fr) indexés par le DFDR. Les groupes de stockage spéciaux peuvent utiliser un modèle de dépôt personnalisé qui pourrait, par exemple, remplir à l’avance des éléments de métadonnées ou utiliser des champs de métadonnées supplémentaires autres que les éléments Dublin Core ou DataCite par défaut. L’option de dépôt dans des groupes de stockage spéciaux sera limitée aux utilisateurs autorisés. Si vous souhaitez avoir accès à un groupe de stockage spécial, ou si vous croyez que vous devriez avoir accès à un groupe de stockage spécial existant, veuillez communiquer avec [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## Licences d’utilisation des données
 
@@ -74,23 +74,42 @@ Le nom et l’adresse courriel de l’administrateur du jeu de données sont req
 
 Vous pouvez également préciser des directives sur le moment ou les raisons où les usagers devraient utiliser le formulaire de contact public.
 
-## Entrer des métadonnées
-Les métadonnées, telles que le titre, les auteurs et leur affiliation, les mots-clés, les dates et les descriptions, sont utilisées pour décrire votre jeu de données. Les métadonnées aident les autres usagers à découvrir et à réutiliser les données. Un formulaire de soumission des métadonnées est fourni et les champs marqués d’un astérisque sont requis. Plus vous fournissez de métadonnées, plus simple il sera pour les usagers de découvrir et de réutiliser vos données. En plaçant le curseur sur le nom du champ de métadonnées, vous obtiendrez de l’information additionnelle sur le champ.
+## Saisie de métadonnées
+Les métadonnées, comme le titre, les auteurs et leurs affiliations, les mots-clés, les dates et la description, sont utilisées pour décrire votre ensemble de données. Les métadonnées aident d’autres personnes à découvrir et à réutiliser les données. Plus vous fournissez de métadonnées, plus il sera facile pour quelqu’un d’autre de les découvrir et de les réutiliser. 
 
-Il est possible de téléverser un fichier contenant une partie ou l’entièreté des métadonnées de vos soumissions de jeux de données plutôt que de les entrer manuellement. Il s’agit d’une façon simple de populer les champs communs (p. ex. éditeur ou auteurs) pour différents jeux de données, tout en saisissant manuellement les champs uniques (p. ex. titre). Le fichier contenant vos métadonnées peut être créé avec un éditeur ou un script pourrait être rédigé pour générer un fichier de métadonnées. Pour de plus amples renseignements, consultez la section [Téléversement des métadonnées](avancee.md#televersement-de-metadonnees) de la section Avancée.
+Un formulaire de soumission de métadonnées est fourni pour vous guider dans le processus de saisie des métadonnées. Veuillez consulter la section [Description de vos données](description_de_vos_données.md) pour obtenir des renseignements détaillés sur la façon de remplir le contenu de chaque champ. Lorsque vous travaillez au formulaire de soumission, vous pouvez afficher plus d’information sur chaque champ de métadonnées en plaçant le pointeur de votre souris sur l’étiquette.
 
-## Préciser une période d’embargo
-Si un jeu de données doit être protégé pour une période de temps, qu’il s’agisse de restrictions provenant de l’éditeur ou d’un organisme subventionnaire, vous pouvez préciser un embargo et indiquer la date à laquelle les données deviendront accessibles automatiquement. Une demande d’embargo doit être approuvée par un curateur.
+Vous pouvez naviguer vers l’avant et vers l’arrière dans le formulaire de soumission des métadonnées en utilisant les boutons au bas ou en haut de la page. Lorsque vous naviguez vers un autre écran dans le formulaire de soumission des métadonnées, les métadonnées de votre page actuelle seront automatiquement sauvegardées. 
 
-Les déposants recevront un avis un mois avant l’expiration de l’embargo. Cela comprendra l’option de demander une extension. En cas de non-réponse à cet avis, le jeu de données sous embargo deviendra automatiquement public.
+# Navbar
 
-Les déposants peuvent choisir si les métadonnées seront :
+# Buttons
 
-1. Découvrables dans le DFDR ou autres moteurs de recherche sur le web (l’option par défaut)
-2. Non découvrables dans les résultats de recherche, mais consultables si l’usager a le lien
-3. Consultable uniquement par le déposant
+Les **champs obligatoires** sont marqués d’un astérisque.
 
-Note : Les DOI sont réservés au moment d’initier la soumission et peuvent être partagés avec les éditeurs et les bureaux de recherche en tout temps.
+Certains champs de métadonnées sont **reproductibles**. Pour ces champs, vous pouvez ajouter des entrées en cliquant sur Ajouter et supprimer des entrées en cliquant sur Supprimer l’entrée.
+
+# Add more
+
+D’autres champs permettent d’ajouter plusieurs valeurs dans le champ en saisissant un point-virgule (;) ou en appuyant sur la touche Entrée. Par exemple, vous pouvez ajouter plusieurs affiliations pour le même auteur :
+
+# Tags
+
+## Indication d’une période d’embargo
+Si un ensemble de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.
+
+Un embargo empêchera toujours la consultation ou le téléchargement de vos fichiers de données, mais vous pouvez choisir si les métadonnées qui décrivent votre ensemble de données (titre, auteurs, description, etc.) sont accessibles au public ou non. Sous Advanced → Metadata Access, vous pouvez choisir si les métadonnées sont :
+
+* *Interrogeables et visualisables* : Votre ensemble de données sera accessible dans le DFDR et d’autres outils de recherche sur le Web. Le DOI mènera à votre page de renvoi des données, et les métadonnées qui décrivent votre ensemble de données seront visibles. Vos fichiers de données ne seront ni visibles ni téléchargeables. Il s’agit de l’option par défaut.
+
+* *Visualisables avec un lien* : Votre ensemble de données ne sera pas repérable dans les résultats de recherche. Votre page de renvoi des données et les métadonnées qui décrivent votre ensemble de données ne seront accessibles qu’en utilisant le DOI ou l’URL de la page de renvoi. Vos fichiers de données ne seront ni visibles ni téléchargeables.
+
+* *Visualisables uniquement pour moi* : Votre ensemble de données ne sera pas repérable dans les résultats de recherche. Votre page de renvoi des données et les métadonnées qui décrivent votre ensemble de données ne sont pas publiques et ne peuvent être consultées que par vous et vos collaborateurs, lorsque vous ouvrez une session dans le DFDR. Vos fichiers de données ne seront ni visibles ni téléchargeables.
+
+Les auteurs recevront un avis un mois avant l’expiration de l’embargo. Il est possible de demander une prolongation. Le défaut de répondre entraîne la diffusion automatique de l’ensemble de données sous embargo à la date spécifiée.
+
+Le DFDR permet des embargos pouvant aller jusqu’à un an. Toutes les autres demandes d’embargo doivent être approuvées par le gestionnaire de services du DFDR. Veuillez communiquer avec [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) si vous avez besoin de demander un embargo prolongé.
+
 
 ## Transfert de jeux de données
 ### Téléversement à partir d’un navigateur (petits jeux de données)
@@ -222,10 +241,13 @@ Soumettre un jeu de données n’est pas un processus instantané. Plusieurs des
 
 Lorsque possible, nous vous suggérons de conserver une copie de vos données après les avoir soumis. Même si le DFDR crée automatiquement des copies de sauvegarde de tous les jeux de données, ce processus peut prendre jusqu’à 24 heures.
 
-## Finaliser la soumission
-Une fois le transfert complété, vous avez l’occasion d’évaluer les métadonnées de la soumission avant de soumettre le jeu de données pour publication. Vous pouvez également passer en revue la liste de fichiers du jeu de données. Vous n’avez qu’à retourner à l’un des onglets pour apporter des changements aux métadonnées ou aux fichiers de données.
+## Finaliser de la soumission
+Une fois le transfert des données terminé, vous pourrez examiner les métadonnées et la liste des fichiers avant de soumettre l’ensemble de données pour publication. Revenez à l’un des onglets précédents si vous souhaitez apporter des modifications aux métadonnées ou aux fichiers de données. Une fois que vous avez terminé la soumission, les modifications aux métadonnées et aux fichiers ne peuvent être apportées que par un responsable de l’intendance.
 
-Il s’agit de votre dernière chance de modifier les métadonnées ou les fichiers de données. Lorsque la soumission est terminée, tout changement aux métadonnées devra être apporté par un curateur.
+Pour soumettre l’ensemble de données, cliquez sur le bouton Finish [Terminer]. Votre soumission sera examinée par un responsable de l’intendance avant d’être publiée dans le DFDR. Une fois que le responsable de l’intendance aura terminé l’examen de votre soumission, vous serez avisé par courriel et l’état passera à Complete [Terminé] dans votre tableau de bord de publication.
 
-La dernière étape pour soumettre un jeu de données est de cliquer sur Finaliser la soumission. Cela placera votre soumission en attente d’examen par un curateur. Vous recevrez un courriel vous avisant que le curateur a terminé d’évaluer la soumission et vous pouvez suivre le statut de la soumission dans le Tableau de bord de publication des données.
+Nous recommandons que toute publication ou référence à votre ensemble de données inclue le DOI.
 
+## DOI
+
+Les DOI sont réservés au début du processus de soumission. Vous pouvez transmettre votre DOI à des éditeurs de revues ou des bureaux de recherche à tout moment; toutefois, le DOI ne sera pas un lien actif enregistré jusqu’à ce que votre ensemble de données soit examiné par les responsables de l’intendance du DFDR et approuvé pour publication.
