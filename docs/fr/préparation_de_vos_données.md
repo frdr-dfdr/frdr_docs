@@ -12,36 +12,36 @@ Vous pouvez télécharger une version de vos scripts d’analyse en même temps 
 
 Exemple a)
 
-├── Code
-│   ├── traitement_donnees_brutes.r
-│   ├── analyse_1.r
-│   ├── analyse_2.r
-├── Données
-│   ├── Donnees_brutes
-│   │   ├── fichier_a.raw
-│   │   └── fichier_b.raw
-│   └── Donnees_traitees
-│   ├── fichier_a.csv
-│   └── fichier_b.csv
-├── Résultats
-│   ├── Figures
-│   └── Modèles
-└── Lisez-moi.txt
+	├── Code
+	│   ├── traitement_donnees_brutes.r
+	│   ├── analyse_1.r
+	│   ├── analyse_2.r
+	├── Données
+	│   ├── Donnees_brutes
+	│   │   ├── fichier_a.raw
+	│   │   └── fichier_b.raw
+	│   └── Donnees_traitees
+	│   ├── fichier_a.csv
+	│   └── fichier_b.csv
+	├── Résultats
+	│   ├── Figures
+	│   └── Modèles
+	└── Lisez-moi.txt
 
 Exemple b)
 
-├── Documentation
-│   ├── site_information.csv
-│   ├── site_1.shp
-│   └── site_2.shp
-├── Données
-│   ├── annee_01
-│   │   ├── site_1.csv
-│   │   └── site_2.csv
-│   └── annee_02
-│   ├── site_1.csv
-│   └── site_2.csv
-└── Lisez-moi.txt
+	├── Documentation
+	│   ├── site_information.csv
+	│   ├── site_1.shp
+	│   └── site_2.shp
+	├── Données
+	│   ├── annee_01
+	│   │   ├── site_1.csv
+	│   │   └── site_2.csv
+	│   └── annee_02
+	│   ├── site_1.csv
+	│   └── site_2.csv
+	└── Lisez-moi.txt
 
 ### Conseils pour l’appellation de fichiers
 Nommez vos fichiers de façon logique et descriptive, afin que vous et d’autres chercheurs puissiez les comprendre en un coup d’œil. Gardez les noms de fichiers brefs et envisagez d’y inclure des renseignements sur le projet, le contenu, la date ou le numéro de version. Utilisez des caractères alphanumériques et évitez les espaces, les accents et les caractères spéciaux (%^& * ’). Votre convention d ’ appellation doit être décrite dans votre fichier Lisez-moi.
@@ -118,9 +118,9 @@ Veuillez examiner votre ensemble de données avant de le soumettre pour examen. 
 
 * Si vos fichiers sont dans un format exclusif, *avez-vous inclus des renseignements sur le logiciel utilisé pour générer les fichiers* et des recommandations pour visualiser le contenu?
 
-* *Avez-vous indiqué les sources tierces* qui vous ont fourni des données ou des codes pour vos analyses? Voir la section [Utilisation secondaire des données ou du code.](#utilisation-secondaire-des-données-ou-du-code)
+* *Avez-vous indiqué les sources tierces* qui vous ont fourni des données ou des codes pour vos analyses? Voir la section [Utilisation secondaire des données ou du code.](#utilisation-secondaire-des-donnees-ou-du-code)
 
-* *Avez-vous confirmé qu’aucun de vos dossiers ne contient de renseignements protégés ou à diffusion restreinte?* Voir la section [Données à diffusion restreinte.](#données-à-diffusion-restreinte.)
+* *Avez-vous confirmé qu’aucun de vos dossiers ne contient de renseignements protégés ou à diffusion restreinte?* Voir la section [Données à diffusion restreinte.](#donnees-a-diffusion-restreinte)
 
 Les responsables de l’intendance du DFDR collaboreront avec vous pour examiner vos données au moment de leur soumission afin d’assurer la qualité des métadonnées dans le dépôt et d’améliorer la repérabilité et l’accessibilité de vos données. Les responsables de l’intendance sont habituellement des bibliothécaires employés par des établissements de recherche partout au pays. Il peut aussi s’agir de gestionnaires de données intégrés à des groupes de recherche qui ont accepté de travailler avec le réseau Portage de l’ABRC et qui ont obtenu des autorisations spéciales dans le système du DFDR.
 
@@ -142,26 +142,26 @@ Sachez que nous ne sommes pas en mesure de restreindre l’accès aux données p
 
 Voici quelques types courants de données à diffusion restreinte :
 
-    Données sur les participants humains
+#### Données sur les participants humains
 
-    Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile : [Can I Share My Data? ([traduction]]() Puis-je partager mes données?). Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [De-identification Guidance ([traduction] Conseils sur la dépersonnalisation).]()
+Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile : [Can I Share My Data? ([traduction]]() Puis-je partager mes données?). Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [De-identification Guidance ([traduction] Conseils sur la dépersonnalisation).]()
 
-    Données appartenant aux Autochtones
+#### Données appartenant aux Autochtones
 
-    Les dirigeants des communautés autochtones sont les mieux placés pour évaluer les avantages et les risques liés au partage du savoir autochtone, ainsi que les données recueillies auprès des peuples autochtones, ou relatives aux terres, à l’eau ou à la glace autochtones. Ces données ne peuvent être partagées dans le DFDR que si les dirigeants communautaires ont convenu que le partage est approprié. Veuillez consulter votre comité d’éthique de la recherche ou, pour de plus amples renseignements, consultez :
+Les dirigeants des communautés autochtones sont les mieux placés pour évaluer les avantages et les risques liés au partage du savoir autochtone, ainsi que les données recueillies auprès des peuples autochtones, ou relatives aux terres, à l’eau ou à la glace autochtones. Ces données ne peuvent être partagées dans le DFDR que si les dirigeants communautaires ont convenu que le partage est approprié. Veuillez consulter votre comité d’éthique de la recherche ou, pour de plus amples renseignements, consultez :
 
-    * Les principes de [propriété, contrôle, accès et possession (PCAP®) des Premières Nations.](https://fnigc.ca/fr/pcap)
+* Les principes de [propriété, contrôle, accès et possession (PCAP®) des Premières Nations.](https://fnigc.ca/fr/pcap)
 
-    * Centre de gouvernance de l’information des Premières Nations (CGIPN). [Stratégie de gouvernance des données des Premières Nations.](https://fnigc.ca/sites/default/files/docs/fnigc_fndgs_fr_final.pdf) 31 mars 2020.
+* Centre de gouvernance de l’information des Premières Nations (CGIPN). [Stratégie de gouvernance des données des Premières Nations.](https://fnigc.ca/sites/default/files/docs/fnigc_fndgs_fr_final.pdf) 31 mars 2020.
 
-    * Inuit Tapiriit Kanatami et Institut de recherche du Nunavut. [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers (en anglais).](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
+* Inuit Tapiriit Kanatami et Institut de recherche du Nunavut. [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers (en anglais).](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
 
-    * Inuit Tapiriit Kanatami. [Stratégie nationale inuite sur la recherche.](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_French_low_res.pdf)
+* Inuit Tapiriit Kanatami. [Stratégie nationale inuite sur la recherche.](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_French_low_res.pdf)
 
-    * Organisation nationale de la santé autochtone. [Principles of Ethical Métis Research (en anglais).](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf)
+* Organisation nationale de la santé autochtone. [Principles of Ethical Métis Research (en anglais).](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf)
 
-    * Global Indigenous Data Alliance. [CARE Principles for Indigenous Data Governance (en anglais).](https://www.gida-global.org/care)
+* Global Indigenous Data Alliance. [CARE Principles for Indigenous Data Governance (en anglais).](https://www.gida-global.org/care)
 
-    Renseignements sur l’emplacement
+#### Renseignements sur l’emplacement
 
-    Vous devrez peut-être supprimer ou rendre approximatifs les renseignements sur l’emplacement si vos données ont été recueillies dans des aires protégées, des sites archéologiques sensibles ou des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu, pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi supprimer ou rendre approximatives les données sur la présence d’espèces vulnérables. Veuillez consulter la [Liste rouge des espèces menacées](https://www.iucnredlist.org/) de l’UICN (en anglais) pour connaître la situation d’une espèce et les risques et menaces connus. Le [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data (en anglais)](https://doi.org/10.15468/doc-5jp4-5g10) du Système mondial d’information sur la biodiversité comprend une matrice pour évaluer le risque de préjudice et des directives pour généraliser l’information spatiale. 
+Vous devrez peut-être supprimer ou rendre approximatifs les renseignements sur l’emplacement si vos données ont été recueillies dans des aires protégées, des sites archéologiques sensibles ou des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu, pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi supprimer ou rendre approximatives les données sur la présence d’espèces vulnérables. Veuillez consulter la [Liste rouge des espèces menacées](https://www.iucnredlist.org/) de l’UICN (en anglais) pour connaître la situation d’une espèce et les risques et menaces connus. Le [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data (en anglais)](https://doi.org/10.15468/doc-5jp4-5g10) du Système mondial d’information sur la biodiversité comprend une matrice pour évaluer le risque de préjudice et des directives pour généraliser l’information spatiale. 
