@@ -1,5 +1,15 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-10-28**:
+
+* Allow submitters to see the list of files for datasets that are published but still under embargo
+* Added more descriptive labels to the deposit progress bar for "required metadata", "recommended metadata" and "geographic metadata"
+* Improved navigation in documentation
+* Continued work on accessibility compliance for public facing web pages
+* Improved the messaging shown to users when FRDR is under maintenance
+* Re-enabled statistics for files downloaded via Globus (HTTPS downloads are not yet counted in these stats)
+
+
 **2020-09-30**:
 
 * Item landing pages by default will now use the item UUID instead of the item DOI text.  Existing links that use item DOI text will continue to work and DOIs will continue to resolve properly.
