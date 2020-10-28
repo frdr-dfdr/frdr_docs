@@ -8,7 +8,7 @@ You may choose to upload a version of your analysis scripts alongside your data,
 ### Structure your files
 When you deposit your data in FRDR, your file structure (how you have arranged your data into directories or folders) is retained. Consider arranging these files by type, date, or analysis to make them easier to understand. For example:
 
-#### Example a)
+**Example a)**
 
 	├── Code
 	│   ├── process_raw_data.r
@@ -26,7 +26,7 @@ When you deposit your data in FRDR, your file structure (how you have arranged y
 	│   └── Models
 	└── README.txt
 
-#### Example b)
+**Example b)**
 
 	├── Documentation
 	│   ├── site_information.csv
@@ -68,6 +68,26 @@ FRDR is able to accept and ensure bit-level preservation for a variety of file f
 * Compressed file archive formats: TAR.GZ, 7Z, ZIP
 
 For more information on preservation formats, see guidelines from [UK Data Service](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats), [Cornell](https://guides.library.cornell.edu/ecommons/formats), [University of Edinburgh](https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats).
+
+## Documenting your submission
+
+Data will only be useful (and beneficial) in the long-term if they are thoroughly described. To ensure your data are interpreted correctly, it is important to include a codebook and/or a README file with your data, and to document your data collection methods. For this reason, a FRDR curator will ask that a README file be provided with your submission. You may use the [FRDR README template](/docs/txt/README.txt). 
+
+Tips for writing READMEs:
+
+* Name your file README.txt.
+* Include a point of contact in your README file.
+* List any restrictions on secondary use of your data in the README file.
+* For quantitative datasets, define all variables and allowable values. When applicable, include units of measure, and define the code you used for missing or null values.
+* Include a brief description of your study, the methods you used to collect your data, and any steps you took to process the data you are depositing.
+* If you removed variables from your raw dataset to create a public use copy for archiving, consider including a list of the variables that were removed so the changes made to your raw dataset are transparent. You might also choose to provide summary statistics or frequency counts for any variable that was removed. 
+* The names of equipment or instruments used to collect data, and software or statistical packages that were used to process the data should be listed in the README. If possible, include the version of software you used. 
+* If your data files were derived from external sources, provide attribution to those sources in your README file.
+* Consider adding information about associated papers, study protocols, or supplementary materials that will provide further context for your data.
+* If your file formats are not plain text, consider including a recommendation for software that can be used to view or analyze the files. 
+
+Further guidance is available in UBC’s ‘[Quick Guide: Creating a README for your dataset](https://researchdata-06oct2014.sites.olt.ubc.ca/files/2020/04/QuickGuide_UBC_readme_v1.0_20200427.pdf)’ and Cornell University’s ‘[Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)’. 
+
 
 ## Reviewing your data
 Please look your dataset over before you submit it for review. Some things you may wish to consider:

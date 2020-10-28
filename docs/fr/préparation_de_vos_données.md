@@ -10,7 +10,7 @@ Vous pouvez télécharger une version de vos scripts d’analyse en même temps 
 
  Lorsque vous déposez vos données dans le DFDR, la structure de vos fichiers (la façon dont vous avez organisé vos données dans des répertoires ou des dossiers) est conservée. Envisagez de classer ces fichiers par type, date ou analyse pour en faciliter la compréhension. Par exemple : 
 
-Exemple a)
+**Exemple a)**
 
 	├── Code
 	│   ├── traitement_donnees_brutes.r
@@ -28,7 +28,7 @@ Exemple a)
 	│   └── Modèles
 	└── Lisez-moi.txt
 
-Exemple b)
+**Exemple b)**
 
 	├── Documentation
 	│   ├── site_information.csv
@@ -80,7 +80,7 @@ Pour plus d’informations sur les formats de préservation, voir les lignes dir
 
 ## Documentation de votre soumission
 
-Les données ne seront utiles (et bénéfiques) à long terme que si elles sont décrites en détail. Pour vous assurer d’une interprétation correcte de vos données, il est important d’inclure un manuel de codes et/ou un fichier Lisez-moi à vos données et de documenter vos méthodes de collecte. Pour cette raison, un responsable de l’intendance du DFDR vous demandera d’ajouter un fichier Lisez-moi à votre soumission. Vous pouvez utiliser le modèle de fichier Lisez-moi du DFDR.
+Les données ne seront utiles (et bénéfiques) à long terme que si elles sont décrites en détail. Pour vous assurer d’une interprétation correcte de vos données, il est important d’inclure un manuel de codes et/ou un fichier Lisez-moi à vos données et de documenter vos méthodes de collecte. Pour cette raison, un responsable de l’intendance du DFDR vous demandera d’ajouter un fichier Lisez-moi à votre soumission. Vous pouvez utiliser le [modèle de fichier Lisez-moi du DFDR](/docs/txt/README-fr.txt).
 
 Conseils pour la rédaction de fichiers Lisez-moi :
 
@@ -164,4 +164,4 @@ Les dirigeants des communautés autochtones sont les mieux placés pour évaluer
 
 #### Renseignements sur l’emplacement
 
-Vous devrez peut-être supprimer ou rendre approximatifs les renseignements sur l’emplacement si vos données ont été recueillies dans des aires protégées, des sites archéologiques sensibles ou des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu, pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi supprimer ou rendre approximatives les données sur la présence d’espèces vulnérables. Veuillez consulter la [Liste rouge des espèces menacées](https://www.iucnredlist.org/) de l’UICN (en anglais) pour connaître la situation d’une espèce et les risques et menaces connus. Le [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data (en anglais)](https://doi.org/10.15468/doc-5jp4-5g10) du Système mondial d’information sur la biodiversité comprend une matrice pour évaluer le risque de préjudice et des directives pour généraliser l’information spatiale. 
+Vous devrez peut-être supprimer ou rendre approximatifs les renseignements sur l’emplacement si vos données ont été recueillies dans des aires protégées, des sites archéologiques sensibles ou des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu, pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi supprimer ou rendre approximatives les données sur la présence d’espèces vulnérables. Veuillez consulter la [Liste rouge des espèces menacées](https://www.iucnredlist.org/fr/) de l’UICN (en anglais) pour connaître la situation d’une espèce et les risques et menaces connus. Le [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data (en anglais)](https://doi.org/10.15468/doc-5jp4-5g10) du Système mondial d’information sur la biodiversité comprend une matrice pour évaluer le risque de préjudice et des directives pour généraliser l’information spatiale. 
