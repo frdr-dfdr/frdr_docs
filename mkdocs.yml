@@ -9,6 +9,7 @@ nav:
         - "Searching for Datasets": en/searching.md
         - "Preparing Your Data": en/preparing_your_data.md
         - "Before Depositing": en/before_depositing.md
+        - "Describing Your Data": en/describing_your_data.md
         - "Depositing Data": en/depositing_data.md
         - "After Depositing": en/after_depositing.md
         - "Terms of Use": en/terms_of_use.md
@@ -24,6 +25,7 @@ nav:
         - "Recherche de jeux de données": fr/recherche.md
         - "Préparation de vos données": fr/préparation_de_vos_données.md
         - "Avant de déposer": fr/avant_de_déposer.md
+        - "Description de vos données": fr/description_de_vos_données.md
         - "Déposer les données": fr/déposer_les_données.md
         - "Après le dépôt": fr/après_le_dépôt.md
         - "Conditions d'utilisation": fr/conditions_d'utilisation.md
@@ -47,6 +49,7 @@ extra:
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
+            "Describing Your Data": fr/description_de_vos_données/
             "Depositing Data": fr/déposer_les_données/
             "After Depositing": fr/après_le_dépôt/
             "Terms of Use": fr/conditions_d'utilisation/
@@ -61,6 +64,7 @@ extra:
             "Recherche de jeux de données": en/searching/
             "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
+            "Description de vos données": en/describing_your_data/
             "Déposer les données": en/depositing_data/
             "Après le dépôt": en/after_depositing/
             "Conditions d'utilisation": en/terms_of_use/

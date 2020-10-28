@@ -7,7 +7,7 @@ A new submission can be initiated at any time.
 ## Overview of Depositing
 Steps involved in making a submission in FRDR:
 
-* [Choose a storage group for submission](#storage-groups-in-frdr)
+* [Choose a storage group for submission](#selecting-a-storage-group)
 * [Select a data publication license](#data-usage-licenses)
 * [Add Collaborators to contribute to submission](#add-collaborators)
 * [Enter metadata for your data](#entering-metadata)
@@ -18,10 +18,10 @@ Steps involved in making a submission in FRDR:
 You can stop the submission process, save your work, and resume your submission at any time. A [Digital Object Identifier (DOI)](https://www.doi.org/) is assigned as soon as you start a dataset deposit. The DOIs for all in-progress deposits will be shown in your list of incomplete deposits. This will enable you to share a DOI for your dataset with a funder or publisher immediately. Please note that the links for the DOIs will not work until after a data deposit is approved by a curator. 
 Once submitted, you will not be able to make changes to the data or metadata. Any change to data or metadata after submitting will need to be done by contacting a curator at [curators@frdr.ca](mailto:curators@frdr.ca).
 
-## Storage Groups in FRDR
-Datasets deposited into FRDR are stored on Canadian servers and in general will be deposited into the Default Storage Group. The default group will be preselected upon initiating a data deposit.
+## Selecting a Storage Group
+Datasets in FRDR are organized in collections, known as Storage Groups. There are two types of Storage Groups: the Default Storage Group and Special Storage Groups. The default group, **General / Général**, will be preselected upon initiating a data deposit.
 
-There is also an option to create Special Storage Groups. Institutions, research groups, or special projects may want to do so in order to create a personalized deposit template which could, for example, pre-fill metadata elements or make use of metadata standards other than the default Dublin Core/DataCite standards. Special Storage Groups will only be visible to users who are authorized for depositing to them. If you would like a Special Storage Group, or believe you should have access to an existing Special Storage Group, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Special Storage Groups allow institutions, research groups, or special projects to create a collection for their datasets in FRDR. Each Special Storage Group will appear as a repository in the list of [Canadian Research Data Repositories](/discover/html/repository-list.html?lang=en) indexed by FRDR. Special Storage Groups may be able to use a personalized deposit template which could, for example, pre-fill metadata elements or make use of additional metadata fields other than the default Dublin Core/DataCite elements. The option to deposit to Special Storage Groups will be limited to authorized users. If you would like a Special Storage Group, or believe you should have access to an existing Special Storage Group, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## Data usage licenses
 Users submitting a dataset will have a choice of licensing terms regarding the use of their data by others. The license terms will be displayed on the landing page of FRDR datasets and included in the metadata record.
@@ -78,22 +78,47 @@ A contact name and email address for the dataset administrator is required for e
 You may optionally supply instructions on when or why people should use the public contact form.
 
 ## Entering metadata
-Metadata, such as title, authors and their affiliations, keywords, dates, and description, are used to describe your dataset. Metadata helps others to discover and reuse the data. A metadata submission form is provided and fields marked with an asterisk are required. The more metadata that you provide, the easier it will be for someone else to discover and reuse the data. By hovering your mouse pointer over the label for any metadata field, you can view more information about the field.
+Metadata, such as title, authors and their affiliations, keywords, dates, and description, are used to describe your dataset. Metadata helps others to discover and reuse the data. The more metadata that you provide, the easier it will be for someone else to discover and reuse the data. 
 
-It is possible to upload a file containing some or all of the metadata for your dataset submissions instead of entering it manually. This is an easy way to populate the fields that might be common (e.g., publisher or authors) to a number of datasets, while entering the unique fields by hand (e.g., title). The file containing your metadata could be created with an editor or a script could be written to generate the metadata file. For more information see [Metadata Uploading](advanced.md#metadata-uploading) in the Advanced section.
+A metadata submission form is provided to guide you through the process of entering metadata. Please refer to the section [Describing your data](describing_your_data.md) for detailed information on how to fill out the contents of each field. While working in the submission form, you can view more information about each metadata field by hovering your mouse pointer over the label.
+
+You can navigate forward and backwards through the metadata submission form by using the buttons at the bottom or top of the page. When you navigate to another screen within the metadata submission form, the metadata from your current page will be automatically saved.
+
+
+<a href="/docs/img/screenshots/depositing_data/Navbar.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/depositing_data/Navbar.png" alt="Screenshot showing menu bar at top of submitting that lets you save metadata when switching to different tabs" class="screenshot"/>
+</a>
+
+<a href="/docs/img/screenshots/depositing_data/PrevSaveNext.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/depositing_data/PrevSaveNext.png" alt="Screenshot buttons at bottom of submitting that lets you save metadata" class="screenshot"/>
+</a>
+
+**Required fields** are marked with an asterisk.
+
+Some metadata fields are **repeatable**. For these fields, you can add additional entries by clicking “Add More” and remove entries by clicking “Remove Entry”.
+
+<a href="/docs/img/screenshots/depositing_data/RepeatableMetadata.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/depositing_data/RepeatableMetadata.png" alt="Screenshot showing Contributors field that lets you add more contributors with add more button" class="screenshot"/>
+</a>
+
+Other fields will allow you to add multiple values within the field by entering a semicolon (;) or pressing the Enter key. For example, you can add multiple author affiliations for the same author:
+
+<a href="/docs/img/screenshots/depositing_data/Tags.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/depositing_data/Tags.png" alt="Screenshot with author affiliations tag that can have none, one or multiple entries" class="screenshot"/>
+</a>
 
 ## Specifying an embargo period
-If a dataset needs to be protected for a period of time, perhaps due to restrictions from a publisher or funding agency, you can set an embargo and specify the date on which the data will automatically become accessible. An embargo request needs to be approved by a curator.
+If a dataset needs to be protected for a period of time, perhaps due to restrictions from a publisher or funding agency, you can set an embargo and specify the date on which the data will automatically become accessible. During the embargo period, your data files will not be visible or available for download.
 
-Submitters will receive a notification one month before the embargo expires. This includes an option to request an extension. Failure to respond results in the automatic release of the embargoed dataset.
+An embargo will always protect your data files from view and download, but you can choose whether the metadata that describes your dataset (title, authors, description, etc.) is publicly accessible or not. Under Advanced → Metadata Access, you can choose whether the metadata is:
 
-Submitters can choose whether the metadata record is:
+* *Searchable and Viewable*: Your dataset will be discoverable in FRDR and other web search results. Your DOI will lead to your data landing page, and the metadata that describes your dataset will be visible. Your data files will not be visible or downloadable. This is the default option.
+* *Viewable with a link*: Your dataset will not be discoverable in search results. Your data landing page and the metadata that describe your dataset can only be accessed by using the DOI or landing page URL.  Your data files will not be visible or downloadable.
+* *Viewable only to me*: Your dataset will not be discoverable in search results. Your data landing page and the metadata that describes your dataset are not public and can only be viewed by you and your collaborators when you log in to FRDR. Your data files will not be visible or downloadable.
 
-1. Discoverable in FRDR and other web search results (this is the default option)
-2. Not discoverable in search results and viewable only if you have the link
-3. Viewable only by the submitter
+Submitters will receive a notification one month before the embargo expires. This includes an option to request an extension. Failure to respond results in the automatic release of the embargoed dataset on the specified date.
 
-Note: DOIs are reserved at the beginning of a submission and may be shared with journal publishers or research offices at any point.
+FRDR allows embargoes of up to one year. All other embargo requests must be approved by FRDR’s service manager. Please contact  [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if you need to request an extended embargo.
 
 ## Transferring the dataset
 ### Using Browser Upload (Small datasets)
@@ -234,8 +259,12 @@ Submitting a dataset is not an instantaneous process. Several of the steps can t
 If possible, it is a good idea to retain a copy of your data after submitting. While FRDR does automatically create backups for all datasets, this process may take up to 24 hours to complete.
 
 ## Finalizing the Submission
-After the transfer is complete, you have an opportunity to review the submission metadata before submitting the dataset for publication. You can also review the list of files in the dataset. Simply return to any of the previous tabs if you want to make changes to the metadata or data files. 
+After the data transfer is complete, you have an opportunity to review the metadata and list of files before submitting the dataset for publication. Return to any of the previous tabs if you want to make changes to the metadata or data files. Once you finalize the submission, changes to metadata and files can only be done by a curator.
 
-This is your last chance to alter the metadata or the data files. Once you finalize the submission, changes to metadata must be done with a curator. 
+To submit the dataset, click the “Finish” button. Your submission will be reviewed by a curator before it is published in FRDR. Once a curator has finished reviewing your submission, you will be notified by email and the status will update to ‘Complete’ in your Publication Dashboard.
 
-Your final step for submitting a dataset is to click to finalize the submission. This will schedule your submission to be reviewed by a curator. You will be notified via email when the curator has finished the review, or you can monitor the status in your Publication Dashboard.
+We recommend that any publication or reference to your dataset includes the DOI.
+
+## DOIs
+DOIs are reserved at the beginning of the submission process. You may share your DOI with journal publishers or research offices at any point; however, the DOI will not be a registered, active link until your dataset is reviewed by FRDR curators and approved for publication.
+
