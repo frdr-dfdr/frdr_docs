@@ -10,7 +10,7 @@ FRDR will address a longstanding gap in Canada's research infrastructure by prov
 
 The platform's federated search tool will provide a focal point to discover and access Canadian research data, while the range of services provided by FRDR will help researchers store and manage their data, preserve their research for future use, and comply with institutional and funding agency data management requirements.
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/w2DYtEGLNO8/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><iframe title="What is FRDR and Why Should I Use It" src="https://www.youtube.com/embed/w2DYtEGLNO8/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=en&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 ## Partners
 

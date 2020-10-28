@@ -347,20 +347,28 @@ ul .dropdown-menu {
 
 .frdr-jumbo-footer {
   margin-top:50px;
-  background-color: #9B9B9B;
+  background-color: #D1D1D1;
   min-height: 30px;
   font-size:14px;
   color:#0A0A0A;
   padding: 20px;
 }
+.frdr-jumbo-footer a{
+   font-weight: bold
+}
+
+.frdr-jumbo-footer a:link{
+  color:#34d;
+}
+
+.frdr-jumbo-footer a:visited{
+  color:#848;
+}
 
 .frdr-jumbo-footer a:hover {
-  color: white;
+  color: #b12;
 }
 
-.frdr-jumbo-footer a {
-  color: #0A0A0A;
-}
 
 .list-group {
   border-radius: 4px;
