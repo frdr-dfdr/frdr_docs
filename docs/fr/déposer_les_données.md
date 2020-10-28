@@ -10,9 +10,9 @@ Voici les étapes requises pour initier une soumission dans le DFDR:
 * [Sélectionnez la licence de droit des données](déposer_les_données.md#licences-dutilisation-des-donnees)
 * [Ajout de collaborateurs](déposer_les_données.md#ajout-de-collaborateurs)
 * [Entrez les métadonnées relatives à vos données](déposer_les_données.md#saisie-de-metadonnees)
-* [Précisez une période d’embargo (le cas échéant)](déposer_les_données.md#preciser-une-periode-dembargo)
+* [Précisez une période d’embargo (le cas échéant)](déposer_les_données.md#indication-dune-periode-dembargo)
 * [Transférez le jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
-* [Évaluez et finalisez la soumission](déposer_les_données.md#finaliser-la-soumission)
+* [Évaluez et finalisez la soumission](déposer_les_données.md#finaliser-de-la-soumission)
 
 Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’information entrée et y revenir plus tard. Un [Digital Object Identifier (DOI)](https://www.doi.org/) est assigné à la soumission dès que vous initiez un dépôt de jeu de données. Les DOI de tous les dépôts en cours s’affichent dans la liste des soumissions en cours. Ceci vous permet de partager le DOI de votre jeu de données avec un organisme subventionnaire ou un éditeur immédiatement. Veuillez noter que le lien vers le DOI ne sera pas actif tant que le dépôt ne sera pas approuvé par un curateur. Une fois la soumission terminée, vous ne pourrez plus apporter de modification aux données et aux métadonnées. Tout changement aux données ou aux métadonnées après la soumission devra être apporté en communiquant avec un curateur à [curators@frdr.ca](mailto:curators@frdr.ca).
 
@@ -81,19 +81,27 @@ Un formulaire de soumission de métadonnées est fourni pour vous guider dans le
 
 Vous pouvez naviguer vers l’avant et vers l’arrière dans le formulaire de soumission des métadonnées en utilisant les boutons au bas ou en haut de la page. Lorsque vous naviguez vers un autre écran dans le formulaire de soumission des métadonnées, les métadonnées de votre page actuelle seront automatiquement sauvegardées. 
 
-# Navbar
+<a href="/docs/img/screenshots/deposer_les_donees/Navbar.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/deposer_les_donees/Navbar.png" class="screenshot"/>
+</a>
 
-# Buttons
+<a href="/docs/img/screenshots/deposer_les_donees/PrecedentAnnulerSuivant.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/deposer_les_donees/PrecedentAnnulerSuivant.png" class="screenshot"/>
+</a>
 
 Les **champs obligatoires** sont marqués d’un astérisque.
 
 Certains champs de métadonnées sont **reproductibles**. Pour ces champs, vous pouvez ajouter des entrées en cliquant sur Ajouter et supprimer des entrées en cliquant sur Supprimer l’entrée.
 
-# Add more
+<a href="/docs/img/screenshots/deposer_les_donees/Repeatable.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/deposer_les_donees/Repeatable.png" class="screenshot"/>
+</a>
 
 D’autres champs permettent d’ajouter plusieurs valeurs dans le champ en saisissant un point-virgule (;) ou en appuyant sur la touche Entrée. Par exemple, vous pouvez ajouter plusieurs affiliations pour le même auteur :
 
-# Tags
+<a href="/docs/img/screenshots/deposer_les_donees/Tags.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/deposer_les_donees/Tags.png" class="screenshot"/>
+</a>
 
 ## Indication d’une période d’embargo
 Si un ensemble de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.

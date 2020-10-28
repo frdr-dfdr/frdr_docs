@@ -44,6 +44,11 @@
 
 	* *ID ORCID* : 0000-0001-1234-5678
 
+<a href="/docs/img/screenshots/description_de_vos_donnees/Auteur.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/description_de_vos_donnees/Auteur.png" alt="Screenshot showing given name, family name, author affiliations and orcid id filled in for deposit interface" class="screenshot"/>
+</a>
+
+
 **Coordonnées** : Indiquez le nom et l’adresse électronique de la personne avec qui communiquer au sujet de l’utilisation de cet ensemble de données. L’adresse électronique ne sera pas publiquement affichée; un formulaire sera plutôt affiché pour que les gens puissent le remplir s’ils souhaitent communiquer avec quelqu’un au sujet de l’utilisation de l’ensemble de données.  
 
 * Nom de la personne-ressource : Entrez le nom de famille et le prénom de la personne avec qui communiquer pour toute question au sujet de l’ensemble de données. 
