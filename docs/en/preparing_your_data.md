@@ -10,41 +10,42 @@ When you deposit your data in FRDR, your file structure (how you have arranged y
 
 #### Example a)
 
-├── Code
-│   ├── process_raw_data.r
-│   ├── analysis_1.r
-│   └── analysis_2.r
-├── Data
-│   ├── Raw_data
-│   │   ├── file_a.raw
-│   │   └── file_b.raw
-│   └── Processed_data
-│       ├── file_a.csv
-│       └── file_b.csv
-├── Outputs
-│   ├── Figures
-│   └── Models
-└── README.txt
+	├── Code
+	│   ├── process_raw_data.r
+	│   ├── analysis_1.r
+	│   └── analysis_2.r
+	├── Data
+	│   ├── Raw_data
+	│   │   ├── file_a.raw
+	│   │   └── file_b.raw
+	│   └── Processed_data
+	│       ├── file_a.csv
+	│       └── file_b.csv
+	├── Outputs
+	│   ├── Figures
+	│   └── Models
+	└── README.txt
 
 #### Example b)
 
-├── Documentation
-│   ├── site_information.csv
-│   ├── site_1.shp
-│   └── site_2.shp
-├── Data
-│   ├── year_01
-│   │   ├── site_1.csv
-│   │   └── site_2.csv
-│   └── year_02
-│       ├── site_1.csv
-│       └── site_2.csv
-└── README.txt
+	├── Documentation
+	│   ├── site_information.csv
+	│   ├── site_1.shp
+	│   └── site_2.shp
+	├── Data
+	│   ├── year_01
+	│   │   ├── site_1.csv
+	│   │   └── site_2.csv
+	│   └── year_02
+	│       ├── site_1.csv
+	│       └── site_2.csv
+	└── README.txt
 
 ### Tips for file naming
 Name your files in a logical and descriptive way, so that you and other researchers can understand them at a glance. Keep file names brief, and consider including information about the project, content, date or version number as part of the filename. Use alphanumeric characters, and avoid spaces or special characters (%^& * ’). Your naming convention should be described in your README.
 
 _Example:_ StanleyPark_Temperatures_20200801.csv
+
 _Example:_ AnalysisPoem_IV05_v03.txt
 
 For further advice, see [UBC’s File Naming Conventions.](https://researchdata.library.ubc.ca/plan/organize-your-data/)
@@ -96,26 +97,26 @@ Please be aware that we are unable to provide restricted access to data at this 
 
 Some common types of restricted data are:
 
-    Human Participant Data
+#### Human Participant Data
 
-    If your research involves human participants or contains human biological material, please confirm that you have consent to share your data, and prepare your data in compliance with any applicable legal or ethical guidelines. Learn more about potential restrictions and advice for processing human participant data for sharing in this helpful guide: [Can I Share My Data?]() If you need to anonymize or de-identify your data for deposit, please see the following [De-identification Guidance.]()
+If your research involves human participants or contains human biological material, please confirm that you have consent to share your data, and prepare your data in compliance with any applicable legal or ethical guidelines. Learn more about potential restrictions and advice for processing human participant data for sharing in this helpful guide: [Can I Share My Data?]() If you need to anonymize or de-identify your data for deposit, please see the following [De-identification Guidance.]()
 
-    Indigenous-owned Data
+#### Indigenous-owned Data
 
-    Indigenous community leaders are in the best position to assess the benefits and risks of sharing Indigenous knowledge, as well as data collected from Indigenous people, Indigenous lands, water, and ice. These data can only be shared in FRDR if community leaders have agreed that sharing is appropriate. Please consult with your Research Ethics Board or for more information, see:
+Indigenous community leaders are in the best position to assess the benefits and risks of sharing Indigenous knowledge, as well as data collected from Indigenous people, Indigenous lands, water, and ice. These data can only be shared in FRDR if community leaders have agreed that sharing is appropriate. Please consult with your Research Ethics Board or for more information, see:
 
-    * The First Nations Principles of [Ownership, Control, Access and Possession (OCAP™)](https://fnigc.ca/ocap)
+* The First Nations Principles of [Ownership, Control, Access and Possession (OCAP™)](https://fnigc.ca/ocap)
 
-    * First Nations Information Governance Centre (FNIGC). [A First Nations Data Governance Strategy](https://fnigc.inlibro.net/cgi-bin/koha/opac-retrieve-file.pl?id=9c677f3dcf8adbf18fcda96c6244c459). March 30, 2020.
+* First Nations Information Governance Centre (FNIGC). [A First Nations Data Governance Strategy](https://fnigc.inlibro.net/cgi-bin/koha/opac-retrieve-file.pl?id=9c677f3dcf8adbf18fcda96c6244c459). March 30, 2020.
 
-    * Inuit Tapiriiti Kanatami (ITK) and Nunavut Research Institute [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
+* Inuit Tapiriiti Kanatami (ITK) and Nunavut Research Institute [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
 
-    * ITK’s [National Inuit Strategy on Research](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_English_low_res.pdf)
+* ITK’s [National Inuit Strategy on Research](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_English_low_res.pdf)
 
-    * National Aboriginal Health Organization’s [Principles of Ethical Métis Research](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf)
+* National Aboriginal Health Organization’s [Principles of Ethical Métis Research](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf)
 
-    * Global Indigenous Data [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)
+* Global Indigenous Data [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)
 
-    Location information
+#### Location information
 
-    You may need to remove or coarsen location information if your data were collected from field sites in protected areas, sensitive archaeological sites, or private property where consent to reveal location was not obtained or could devalue property or cause stigmatization. You may also need to remove or coarsen occurrence data of vulnerable species. Please consult the IUCN [Red List of Threatened Species](https://www.iucnredlist.org/) for species status and known risks and threats to the species. The Global Biodiversity Information Facility’s [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data](https://doi.org/10.15468/doc-5jp4-5g10) includes a matrix for assessing risk of harm and guidance for generalizing spatial information.
+You may need to remove or coarsen location information if your data were collected from field sites in protected areas, sensitive archaeological sites, or private property where consent to reveal location was not obtained or could devalue property or cause stigmatization. You may also need to remove or coarsen occurrence data of vulnerable species. Please consult the IUCN [Red List of Threatened Species](https://www.iucnredlist.org/) for species status and known risks and threats to the species. The Global Biodiversity Information Facility’s [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data](https://doi.org/10.15468/doc-5jp4-5g10) includes a matrix for assessing risk of harm and guidance for generalizing spatial information.
