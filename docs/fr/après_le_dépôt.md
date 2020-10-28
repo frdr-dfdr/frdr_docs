@@ -4,7 +4,7 @@ Une fois votre demande approuvée, vous recevrez un courriel de confirmation, vo
 
 ## Organisation
 
-Toutes les données déposées dans le DFDR seront examinées par un membre de notre équipe d’organisation. Les responsables de l’intendance travaillent avec les dépositaires pour améliorer la repérabilité, l’accessibilité, l’interopérabilité et le caractère réutilisable (soit [FAIR](https://doi.org/10.1038/sdata.2016.18), en anglais) globaux de leurs ensembles de données. Notre équipe de l’organisation utilise les étapes du [Data Curation Network](https://datacurationnetwork.org/curator-resources/) comme cadre d’examen des nouveaux dépôts.
+Toutes les données déposées dans le DFDR seront examinées par un membre de notre équipe d’organisation. Les responsables de l’intendance travaillent avec les dépositaires pour améliorer la repérabilité, l’accessibilité, l’interopérabilité et le caractère réutilisable (soit [FAIR](https://doi.org/10.1038/sdata.2016.18), en anglais) globaux de leurs ensembles de données. Notre équipe de l’organisation utilise les étapes du [Data Curation Network](https://datacurationnetwork.org/outputs/workflows/) comme cadre d’examen des nouveaux dépôts.
 
 On s’attend à ce que les auteurs travaillent avec les responsables de l’intendance pendant le processus d’examen pour :
 

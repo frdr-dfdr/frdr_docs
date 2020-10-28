@@ -2,7 +2,7 @@
 When your submission has been approved, you will receive a confirmation email, your DOI will be registered, and your dataset will be queued for preservation processing. 
 
 ## Curation
-All data deposited in FRDR will undergo review by a member of our curation team. Curators work with depositors to enhance the overall findability, accessibility, interoperability and reusability (or [FAIR](https://doi.org/10.1038/sdata.2016.18)ness) of their datasets. Our curation team uses the Data Curation Network's [CURATED](https://datacurationnetwork.org/curator-resources/) steps as a framework for reviewing new deposits.
+All data deposited in FRDR will undergo review by a member of our curation team. Curators work with depositors to enhance the overall findability, accessibility, interoperability and reusability (or [FAIR](https://doi.org/10.1038/sdata.2016.18)ness) of their datasets. Our curation team uses the Data Curation Network's [CURATED](https://datacurationnetwork.org/outputs/workflows/) steps as a framework for reviewing new deposits.
 
 Submitters are expected to work with curators during the review process to:
 
