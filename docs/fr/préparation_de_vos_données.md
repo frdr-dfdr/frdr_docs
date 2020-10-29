@@ -144,7 +144,7 @@ Voici quelques types courants de données à diffusion restreinte :
 
 #### Données sur les participants humains
 
-Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile : [Can I Share My Data? ([traduction]]() Puis-je partager mes données?). Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [De-identification Guidance ([traduction] Conseils sur la dépersonnalisation).]()
+Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile : [Can I Share My Data? ([traduction] Puis-je partager mes données?)](https://doi.org/10.5281/zenodo.4046659). Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [De-identification Guidance ([traduction] Conseils sur la dépersonnalisation).](https://doi.org/10.5281/zenodo.4047175)
 
 #### Données appartenant aux Autochtones
 

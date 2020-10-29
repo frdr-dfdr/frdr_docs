@@ -8,6 +8,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Continued work on accessibility compliance for public facing web pages
 * Improved the messaging shown to users when FRDR is under maintenance
 * Re-enabled statistics for files downloaded via Globus (HTTPS downloads are not yet counted in these stats)
+* Add user dismissable notifications to dashboard and profile pages
 
 
 **2020-09-30**:
