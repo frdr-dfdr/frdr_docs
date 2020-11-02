@@ -16,7 +16,7 @@ Steps involved in making a submission in FRDR:
 * [Review and finalize the submission](#finalizing-the-submission)
 
 You can stop the submission process, save your work, and resume your submission at any time. A [Digital Object Identifier (DOI)](https://www.doi.org/) is assigned as soon as you start a dataset deposit. The DOIs for all in-progress deposits will be shown in your list of incomplete deposits. This will enable you to share a DOI for your dataset with a funder or publisher immediately. Please note that the links for the DOIs will not work until after a data deposit is approved by a curator. 
-Once submitted, you will not be able to make changes to the data or metadata. Any change to data or metadata after submitting will need to be done by contacting a curator at [curators@frdr.ca](mailto:curators@frdr.ca).
+Once submitted, you will not be able to make changes to the data or metadata. Any change to data or metadata after submitting will need to be done by contacting a curator at [curators@frdr-dfdr.ca](mailto:curators@frdr-dfdr.ca).
 
 ## Selecting a Storage Group
 Datasets in FRDR are organized in collections, known as Storage Groups. There are two types of Storage Groups: the Default Storage Group and Special Storage Groups. The default group, **General / Général**, will be preselected upon initiating a data deposit.
@@ -68,14 +68,6 @@ You can invite additional collaborators or remove collaborators at any point dur
 <a href="/docs/img/screenshots/depositing_data/InviteReturn.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/InviteReturn.png" alt="Screenshot showing Collaborate tab at the top of the screen during submitting to return to the Collaborate step" class="screenshot"/>
 </a>
-
-## Contact Information
-A contact name and email address for the dataset administrator is required for every submission.  This information is **not** shown publicly.  It is used for two purposes:
-
-* A curator, a system administrator, and/or the service manager may use this information to contact someone directly about the submission.
-* A web form is displayed to the public that allows them to send comments into the dataset administrator. When people fill in this form, their comments will be forwarded by the system to the supplied email address.
-
-You may optionally supply instructions on when or why people should use the public contact form.
 
 ## Entering metadata
 Metadata, such as title, authors and their affiliations, keywords, dates, and description, are used to describe your dataset. Metadata helps others to discover and reuse the data. The more metadata that you provide, the easier it will be for someone else to discover and reuse the data. 
