@@ -34,16 +34,13 @@ Pour demander de changer les métadonnées soumises, écrivez à [support@frdr-d
 ## 7. Puis-je déposer des données dans le DFDR et les faire héberger dans ma province/établissement?
 Oui, une caractéristique du DFDR est que le stockage des données peut être « fédéré ». Un établissement peut faire la demande d’héberger un groupe de stockage qui sera ajouté au DFDR. Les établissements n’ont pas besoin d’exécuter le DFDR localement; ils n’ont besoin que d’un point d’extrémité Globus. Si vous représentez un établissement et souhaitez héberger un groupe de stockage, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-## 8. Pour Chrome dit-il que le certificat de votre site web n’est pas sécurisé?
-Veuillez mettre à jour Chrome à la version 58 ou plus récente.
-
-## 9. Quelles sont les limites relativement à la préservation (archivage automatique des données déposées)?
+## 8. Quelles sont les limites relativement à la préservation (archivage automatique des données déposées)?
 Si votre jeu de données comporte soit plus de 25 000 fichiers ou s’il a une taille supérieure à 300 Go, il ne sera pas traité aux fins de préservation et l’AIP (Paquet d’information archivé) ne sera pas créé. L’installation d’[Archivematica](https://www.archivematica.org/fr/) que nous utilisons actuellement n’est pas en mesure de traiter les soumissions supérieures à ces deux conditions, mais nous prévoyons augmenter la capacité avec le temps.
 
-## 10. Pourquoi ne peut-on pas télécharger de fichiers via le protocole HTTP?
+## 9. Pourquoi ne peut-on pas télécharger de fichiers via le protocole HTTP?
 Il pourrait s’agir d’une des raisons suivantes : ***un navigateur ne peut télécharger un dossier ou une arborescence au moyen du protocole HTTP. La taille maximale des fichiers pour un téléchargement HTTP est de 10 Go***. * Différents navigateurs permettent de visualiser différents types de fichiers et chaque usager configure son navigateur différemment.
 
-## 11. Le référencement des jeux de données et la publication de la recherche.
+## 10. Le référencement des jeux de données et la publication de la recherche.
 Si vous avez des jeux de données liés ou des publications de tout type, vous pouvez les référencer avec les données que vous déposez dans le DFDR.
 
 Pour ce faire, utilisez le champ de métadonnées Identifiant connexe pour ajouter le ou les DOI des jeux de données connexes. Si vous êtes en train de soumettre plus d’un jeu de données, prenez note que les DOI sont assignés dès que vous initiez le dépôt d’un jeu de données. Ainsi, vous aurez accès aux DOI à ajouter aux champs Identifiant connexe de soumissions parallèles.
@@ -52,12 +49,12 @@ Si vous avez d’autres types de publications, par exemple des articles de revue
 
 Vous pouvez également communiquer avec un curateur à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour faire ajouter des métadonnées telles que l’identifiant connexe.
 
-## 12. Quels outils puis-je utiliser pour calculer la somme de contrôle?
+## 11. Quels outils puis-je utiliser pour calculer la somme de contrôle?
 Il existe un outil gratuit pour calculer les sommes de contrôle SHA-256 : [https://quickhash-gui.org/](https://quickhash-gui.org/)
 
-## 13. Puis-je obtenir un DOI avant de soumettre mon jeu de données?
+## 12. Puis-je obtenir un DOI avant de soumettre mon jeu de données?
 Oui, initiez le processus de dépôt du jeu de données, puis sélectionnez « Enregistrer et quitter ». Le DOI de votre dépôt en cours s’affichera dans la liste des soumissions en cours. Prenez note que le DOI ne sera pas actif tant que le dépôt ne sera pas approuvé pour publication.
 
-## 14. Combien de temps faut-il pour un dépôt complet?
+## 13. Combien de temps faut-il pour un dépôt complet?
 La session expire après 60 minutes, ce qui signifie que tant que vous passez à la page suivante en moins de 60 minutes, vous n’aurez pas de problème. Si vous avez besoin de plus de temps, enregistrez votre progrès et revenez plus tard lorsque votre texte sera prêt à être copié et collé.
 
