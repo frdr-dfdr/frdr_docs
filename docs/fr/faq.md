@@ -58,3 +58,6 @@ Oui, initiez le processus de dépôt du jeu de données, puis sélectionnez «�
 ## 13. Combien de temps faut-il pour un dépôt complet?
 La session expire après 60 minutes, ce qui signifie que tant que vous passez à la page suivante en moins de 60 minutes, vous n’aurez pas de problème. Si vous avez besoin de plus de temps, enregistrez votre progrès et revenez plus tard lorsque votre texte sera prêt à être copié et collé.
 
+### 14. Quels ensembles de données puis-je chercher dans Geodisy?
+Geodisy offre une fonctionnalité de recherche cartographique afin de compléter le service de repérage du DFDR. La recherche cartographique est actuellement en version bêta et indexe uniquement un petit sous-ensemble des ensembles de données disponibles au moyen de la fonction de recherche principale du DFDR. Tout le contenu de Geodisy est tiré de Scholars Portal Dataverse, et seuls les ensembles de données comprenant des métadonnées liées à des emplacements ou des fichiers géospatiaux peuvent être inclus. Le DFDR travaille activement à l’élargissement du contenu de la recherche cartographique. Pour une FAQ plus complète au sujet de Geodisy, cliquez [ici](https://github.com/ubc-library/geodisy/blob/master/Documentation/userguides/FAQ.md).
+
