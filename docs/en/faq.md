@@ -61,3 +61,6 @@ Yes, start the process to deposit your dataset, and then select "Save and exit.�
 
 ### 13. How long do I have to complete a deposit?
 Session timeout is 60 minutes, which means that as long as you are moving to the next screen in under 60 minutes, you will not have a problem. If you need to take longer than that, you should save your progress and come back to it after you have your text ready to copy and paste.
+
+### 14. What datasets can I search for in Geodisy?
+Geodisy provides map search functionality to supplement the FRDR discovery service. The map search is currently in beta and indexes only a small subset of the datasets available through FRDR’s main search. All of Geodisy’s contents are drawn from Scholars Portal Dataverse, and only datasets with location metadata and/or geospatial files are eligible for inclusion. FRDR is actively working toward expanding the contents of the map search. More FAQ information about Geodisy is available [here](https://github.com/ubc-library/geodisy/blob/master/Documentation/userguides/FAQ.md).
