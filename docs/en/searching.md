@@ -5,7 +5,7 @@ A Search box is available on many of the web pages in FRDR. Search by typing ter
 You can filter and refine results by:
 
 * Date range
-* Subject
+* Author
 * Source repository
 
 There are many ways to Search:
@@ -19,7 +19,7 @@ Note that accented characters are distinguished from unaccented characters. That
 
 ### 2. Advanced Search interface
 
-Clicking on the advanced search link will allow you to specify more parameters, via drop down menus, including: title, author, description, or subject keyword.
+Clicking on the advanced search link will allow you to specify more parameters, via drop down menus, including: title, author, description, or keyword.
 
 ### 3. Using Search syntax
 
