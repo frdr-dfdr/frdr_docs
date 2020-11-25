@@ -119,7 +119,7 @@ Some common types of restricted data are:
 
 #### Human Participant Data
 
-If your research involves human participants or contains human biological material, please confirm that you have consent to share your data, and prepare your data in compliance with any applicable legal or ethical guidelines. Learn more about potential restrictions and advice for processing human participant data for sharing in this helpful guide: [Can I Share My Data?]() If you need to anonymize or de-identify your data for deposit, please see the following [De-identification Guidance.]()
+If your research involves human participants or contains human biological material, please confirm that you have consent to share your data, and prepare your data in compliance with any applicable legal or ethical guidelines. Learn more about potential restrictions and advice for processing human participant data for sharing in this helpful guide: [Can I Share My Data?](https://doi.org/10.5281/zenodo.4041660) If you need to anonymize or de-identify your data for deposit, please see the following [De-identification Guidance.](https://doi.org/10.5281/zenodo.4042022)
 
 #### Indigenous-owned Data
 

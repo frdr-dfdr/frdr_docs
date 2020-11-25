@@ -14,7 +14,7 @@ Voici les étapes requises pour initier une soumission dans le DFDR:
 * [Transférez le jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
 * [Évaluez et finalisez la soumission](déposer_les_données.md#finaliser-de-la-soumission)
 
-Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’information entrée et y revenir plus tard. Un [Digital Object Identifier (DOI)](https://www.doi.org/) est assigné à la soumission dès que vous initiez un dépôt de jeu de données. Les DOI de tous les dépôts en cours s’affichent dans la liste des soumissions en cours. Ceci vous permet de partager le DOI de votre jeu de données avec un organisme subventionnaire ou un éditeur immédiatement. Veuillez noter que le lien vers le DOI ne sera pas actif tant que le dépôt ne sera pas approuvé par un curateur. Une fois la soumission terminée, vous ne pourrez plus apporter de modification aux données et aux métadonnées. Tout changement aux données ou aux métadonnées après la soumission devra être apporté en communiquant avec un curateur à [curators@frdr.ca](mailto:curators@frdr.ca).
+Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’information entrée et y revenir plus tard. Un [Digital Object Identifier (DOI)](https://www.doi.org/) est assigné à la soumission dès que vous initiez un dépôt de jeu de données. Les DOI de tous les dépôts en cours s’affichent dans la liste des soumissions en cours. Ceci vous permet de partager le DOI de votre jeu de données avec un organisme subventionnaire ou un éditeur immédiatement. Veuillez noter que le lien vers le DOI ne sera pas actif tant que le dépôt ne sera pas approuvé par un curateur. Une fois la soumission terminée, vous ne pourrez plus apporter de modification aux données et aux métadonnées. Tout changement aux données ou aux métadonnées après la soumission devra être apporté en communiquant avec un curateur à [curators@frdr-dfdr.ca](mailto:curators@frdr-dfdr.ca).
 
 ## Sélection d’un groupe de stockage
 Les ensembles de données du DFDR sont organisés en collections, appelées groupes de stockage. Il existe deux types de groupes de stockage : le groupe de stockage par défaut et les groupes de stockage spéciaux. Le groupe par défaut, **General/Général**, sera présélectionné au commencement d’un dépôt de données.
@@ -27,15 +27,15 @@ Les usagers qui soumettent des jeux de données peuvent choisir la licence d’u
 
 Les déposants doivent choisir une licence. Voici les options par défaut :
 
-* [Creative Commons Transfert dans le Domaine Public (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
-* [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+* [Creative Commons Transfert dans le Domaine Public (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/deed.fr)
+* [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr)
 
 Les licences suivantes peuvent également être choisies à partir de l’onglet « Montre plus » :
 
-* [Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
-* [Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
-* [Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-* [Creative Commons Attribution - Pas d’Utilisation Commerciale - Pas de Modification 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+* [Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
+* [Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.fr)
+* [Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)
+* [Creative Commons Attribution - Pas d’Utilisation Commerciale - Pas de Modification 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr)
 
 Prenez note qu’un curateur pourrait vous demander pourquoi vous n'avez pas sélectionné l’une des licences par défaut. Pour d’autres conditions de licence ou pour des conditions de licence personnalisées, écrivez à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
@@ -65,14 +65,6 @@ Vous pouvez inviter ou retirer des collaborateurs à tout moment pendant le proc
 <a href="/docs/img/screenshots/deposer_les_donees/InviterRetour.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/deposer_les_donees/InviterRetour.png" alt="Screenshot" class="screenshot"/>
 </a>
-
-## Coordonnées
-Le nom et l’adresse courriel de l’administrateur du jeu de données sont requis pour chaque soumission. Cette information n’est **pas** partagée publiquement. Elle est utilisée pour deux buts :
-
-* Un curateur, un administrateur système ou un gestionnaire de service peut l’utiliser pour contacter quelqu’un directement à propos de la soumission.
-* Un formulaire web est affiché au public permettant d’envoyer des commentaires à l’administrateur du jeu de données. Lorsque les usagers remplissent ce formulaire, les commentaires sont transférés par le système à l’adresse courriel fournie.
-
-Vous pouvez également préciser des directives sur le moment ou les raisons où les usagers devraient utiliser le formulaire de contact public.
 
 ## Saisie de métadonnées
 Les métadonnées, comme le titre, les auteurs et leurs affiliations, les mots-clés, les dates et la description, sont utilisées pour décrire votre ensemble de données. Les métadonnées aident d’autres personnes à découvrir et à réutiliser les données. Plus vous fournissez de métadonnées, plus il sera facile pour quelqu’un d’autre de les découvrir et de les réutiliser. 
