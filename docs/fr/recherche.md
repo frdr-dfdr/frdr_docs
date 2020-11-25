@@ -5,7 +5,7 @@ Une boîte de recherche est disponible sur plusieurs pages web du DFDR. Lancez u
 Vous pouvez filtrer et raffiner les résultants par :
 
 * Plage de date
-* Sujet
+* Auteur
 * Source
 
 Il existe trois façons de rechercher :
@@ -16,7 +16,7 @@ Entrez un ou plusieurs termes de recherche dans la boîte. Les résultats (au mo
 Prenez note que les caractères accentués sont considérés comme distincts des caractères non accentués. Ainsi, une recherche pour Quebec retournera des résultats différents qu’une recherche pour Québec.
 
 ### 2. Interface de recherche avancée
-Cliquez sur le lien Recherche avancée pour préciser plus de paramètres de recherche, au moyen de menus déroulants, y compris : le titre, l’auteur, la description ou le sujet.
+Cliquez sur le lien Recherche avancée pour préciser plus de paramètres de recherche, au moyen de menus déroulants, y compris : le titre, l’auteur, la description ou le mot-clé.
 
 ### 3. Recherche par syntaxe
 Les chercheurs peuvent préciser une requête plus complexe au moyen d’un sous-ensemble de commandes de la syntaxe d’[ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax). Cette syntaxe est puissante, mais ne laisse pas place à l’erreur.
