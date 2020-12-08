@@ -133,9 +133,14 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 * **Lee Wilson**, Service Manager, Portage Network
 * **Kelly Stathis**, Discovery and Metadata Coordinator, Portage Network
 * **Erin Clary**, Curation Coordinator, Portage Network
+* **Nichole DeMichelis**, Curation Officer, Portage Network
+* **Subhanya Sivajothy**, Curation Officer, Portage Network
+* **Yvette Rancourt**, Curation Officer, Portage Network
 * **Beth Knazook**, Preservation Coordinator, Portage Network
-* **Melanie Parlette-Stewart**, Training Coordinator, Portage Network
+* **Jennifer Abel**, Training Coordinator, Portage Network
 * **Caitilín O’Hare**, Communications Officer, Portage Network
+* **Victoria Smith**, Policy, Privacy, and Sensitive Data Coordinator, Portage Network
+* **Lucia Costanzo**, Researcher Intelligence and Assessment Coordinator, Portage Network
 * **Mark Goodwin**, Geospatial Metadata Coordinator, University of British Columbia
 * **Alex Garnett**, Research Data Management & Systems Librarian, Simon Fraser University
 * **Neha Milan**, Operations Lead, University of Saskatchewan
@@ -144,8 +149,9 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 * **Adam McKenzie**, Research Data Management Analyst, University of Saskatchewan
 * **Joel Farthing**, Developer, University of Saskatchewan
 * **Paul Dante**, Developer, University of British Columbia
+* **Jin Zhang**, Developer, Simon Fraser University
 
-Special thanks to **Keith Jeffrey**, the former Project Manager, who has since retired. 
+Special thanks to **Keith Jeffrey**, the former Project Manager, who has since retired. Special thanks to **Melanie Parlette-Stewart**, former Portage Training Coordinator, for her involvement in FRDR.
 
 ## Project Timeline
 
