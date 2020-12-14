@@ -6,7 +6,7 @@ Principal Investigators (PIs), or their appointed designates, from any and all d
 Please refer to the Data Submission Policy for more information
 
 ### 2. How can I measure the impact of my datasets?
-Various statistics are available for data submitted to FRDR, including the number of views and file downloads. To access these stats, navigate to the dataset landing page and click on the “View item statistics” button at the bottom of the record.
+Various statistics are available for data submitted to FRDR, including the number of views and file downloads. To access these stats, navigate to the dataset landing page and click the “View item statistics” button at the bottom of the record.
 
 ### 3. Why is there not a complete French language version?
 The fully French version is coming soon.
@@ -32,17 +32,16 @@ To request any change to data you submitted, send an email to [support@frdr-dfdr
 ### 6. How can I change the metadata for a dataset after I submit?
 To request any change to submitted metadata, send an email to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) and your message will be forwarded to an appropriate curator.
 
-### 7. Can I deposit data to FRDR and have it stored in my Province/institution?
+### 7. Can I deposit data to FRDR and have it stored in my province/institution?
 Yes, a design feature of FRDR is that data storage locations can be “federated.” An institution can apply to host a storage group that will be added to FRDR. The institution does not need to be running FRDR, just a Globus endpoint. If you are a representative of an institution and would like to apply to host a storage group, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ### 8. What limitations are there for preservation (automatic archiving of data submitted)?
-Currently, we can process submissions smaller than 4 TB. If you need a larger dataset preserved by [Archivematica](https://www.archivematica.org/en/) please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Currently, we can process submissions smaller than 25 TB. If you need a larger dataset preserved by [Archivematica](https://www.archivematica.org/en/) please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-### 9. Why can't I download a file via HTTP?
+### 9. Why can't I download a file via my web browser (using HTTP)?
 It might be for a few reasons:
 * A browser cannot download a folder or hierarchy via HTTP.
 * We have a maximum file size of 10 GB for HTTP download.
-* Different web browsers view certain file types differently, and people have different browser settings.
 
 ### 10. Cross-referencing of datasets and other research outputs.
 If you have several related datasets, or research outputs such as publications, you are able to cross reference these with the data you are adding to FRDR. 
