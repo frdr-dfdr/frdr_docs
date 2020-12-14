@@ -38,7 +38,7 @@ Oui, une caractéristique du DFDR est que le stockage des données peut être «
 Si votre jeu de données comporte soit plus de 25 000 fichiers ou s’il a une taille supérieure à 300 Go, il ne sera pas traité aux fins de préservation et l’AIP (Paquet d’information archivé) ne sera pas créé. L’installation d’[Archivematica](https://www.archivematica.org/fr/) que nous utilisons actuellement n’est pas en mesure de traiter les soumissions supérieures à ces deux conditions, mais nous prévoyons augmenter la capacité avec le temps.
 
 ## 9. Pourquoi ne peut-on pas télécharger de fichiers via le protocole HTTP?
-Il pourrait s’agir d’une des raisons suivantes : ***un navigateur ne peut télécharger un dossier ou une arborescence au moyen du protocole HTTP. La taille maximale des fichiers pour un téléchargement HTTP est de 10 Go***. * Différents navigateurs permettent de visualiser différents types de fichiers et chaque usager configure son navigateur différemment.
+Il pourrait s’agir d’une des raisons suivantes : ***un navigateur ne peut télécharger un dossier ou une arborescence au moyen du protocole HTTP. La taille maximale des fichiers pour un téléchargement HTTP est de 10 Go***. 
 
 ## 10. Le référencement des jeux de données et la publication de la recherche.
 Si vous avez des jeux de données liés ou des publications de tout type, vous pouvez les référencer avec les données que vous déposez dans le DFDR.
