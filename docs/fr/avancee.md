@@ -11,81 +11,6 @@ Le personnel du DFDR travaille à ajouter de nouveaux dépôts à l’index. Les
 
 [Communiquez avec nous](mailto:support@frdr-dfdr.ca?subject=query%20re%20harvesting%20a%20repository) pour discuter du moissonnage par le DFDR des métadonnées de votre dépôt.
 
-## Téléversement de métadonnées
-Il est possible de téléverser des fichiers contenant une partie ou l’entièreté des métadonnées du jeu de données déposé, plutôt que d’entrer les métadonnées dans un formulaire web. Le fichier contenant vos métadonnées peut être créé avec un éditeur ou un script pourrait être rédigé pour générer un fichier de métadonnées.
-Cliquez sur le bouton « Avancée » au bas de toutes les pages web d’entrée de métadonnées pour faire apparaître la boîte de dialogue.
-
-Cliquez sur le bouton « Télécharger le gabarit » pour obtenir un fichier à éditer et à utiliser comme gabarit pour la rédaction d’un script. Le gabarit contient l’entièreté des champs de métadonnées valides pour le groupe de stockage. Le fichier gabarit est sous format JSON. Vous voudrez probablement « Enregistrer et quitter » votre soumission pour y revenir plus tard.
-Pour fournir des métadonnées, éditez les valeurs des champs de métadonnées entre les guillemets (" ") ou ajoutez une ou plusieurs valeurs aux champs qui acceptent plus d’une valeur tel qu’indiqué par les crochets ([ ]).
-
-La plupart des champs de métadonnées proviennent de la norme [Dublin Core](<http://dublincore.org/documents/dces/>) ou [DataCite](https://schema.datacite.org/). D’autres champs additionnels pourraient être ajoutés au DFDR et peuvent être ignorés ou laissés vides. Certains groupes de stockage spéciaux du DFDR pourraient avoir des normes de métadonnées supplémentaires ajoutées. Pour toute question concernant les champs de métadonnées, écrivez à <support@frdr-dfdr.ca>.
-
-Si un champ a pour propriété «"required" :true», la valeur doit être fournie avant de déposer le jeu de données. Tous les champs, même les champs obligatoires, peuvent être omis du fichier lors du téléversement. Les champs obligatoires devront être saisis au moyen du formulaire web avant de déposer le jeu de données, mais il s’agit d’une façon simple de populer les champs communs (éditeur, auteurs, etc.) et de saisir les champs uniques manuellement (p. ex. le titre).
-
-Une fois le fichier de métadonnées créé, enregistrez-le, puis retournez à la boîte de dialogue « Avancé » et cliquez sur le bouton « Parcourir » pour trouver votre fichier. Cliquez sur le bouton « Téléverser » pour lire le fichier de métadonnées.
-
-Si un problème survient lors du téléversement ou du traitement du fichier de métadonnées, un message d’erreur s’affichera et les métadonnées contenues dans le fichier ne s’appliqueront pas au dépôt.
-
-Par exemple, le gabarit de fichier de métadonnées que vous avez téléchargé pour un groupe de stockage pourrait avoir cette apparence :
-
-```
-{
-    "dc": {
-        "title": {
-            "value": "",
-            "required": true
-        },
-        "description": {
-            "value": "",
-            "required": false
-        },
-        "subject": {
-            "value": [],
-            "required": false
-        },
-        "contributor": {"author": {
-            "value": [],
-            "required": true
-        }},
-        "date": {"issued": {
-            "value": "",
-            "required": true
-        }},
-        "publisher": {
-            "value": "",
-            "required": true
-        }
-    }
-}
-```
-
-Dans cet exemple, vous n’auriez qu’à éditer le fichier de gabarit avec les valeurs suivantes (ou écrire un script pour générer un fichier de métadonnées) pour le téléversement :
-
-```
-{
-    "dc": {
-        "title": {
-            "value": "Collection of repository crawls"
-        },
-        "description": {
-            "value": "A dataset collection of research data repository web site crawls."
-        },
-        "subject": {
-            "value": ["Research Data", "Web site"]
-        },
-        "contributor": {"author": {
-            "value": ["Tim Smith", "Jane Doe", "Susie Someone"]
-        }},
-        "date": {"issued": {
-            "value": "2017-04-21",
-        }},
-        "publisher": {
-            "value": "Compute Canada and CARL",
-            "required": true
-        }
-    }
-}
-```
 
 ## Pour les développeurs
 La présente documentation s’adresse aux utilisateurs qui souhaitent développer des applications ou des sites web faisant appel à la technologie du DFDR.
@@ -100,7 +25,7 @@ L’API de recherche comporte deux formes. Les requêtes simples (par exemple ce
 
 *Méthode GET*
 
-URL : https://search.api.globus.org/v1/index/frdr-test/search?q=term
+URL : https://search.api.globus.org/v1/index/frdr/search?q=term
 
 Paramètres de la requête :
 
@@ -108,13 +33,11 @@ Paramètres de la requête :
 * (optionnel) **offset** : Décalage de base zéro de l’ensemble de résultats; utilisé pour la recherche. Défaut 0, Maximum 10 000.
 * (optionnel) **limit**: Nombre maximal de résultats à retourner. Défaut 10.
 
-L’index de recherche précis est dans l’adresse URL ci-dessus. « frdr-test » est pour la phase de tests et « frdr », pour la phase de production.
-
 ----
 
 *Méthode POST*
 
-URL : https://search.api.globus.org/v1/index/frdr-test
+URL : https://search.api.globus.org/v1/index/frdr/search
 
 Paramètre de la requête : Aucun
 
@@ -139,7 +62,7 @@ Exemple de GSearchRequest :
 
 *Syntaxe de la requête*
 
-Deux formats de syntaxe pour les requêtes sont supportés : standard et avancé. Le format standard ne permet qu’un simple appariement textuel des requêtes. Toutes les requêtes seront traitées et les résultats qui correspondent le mieux au texte saisi seront retournés comme résultats. Ce format est généralement approprié dans les contextes où les usagers proposent leurs propres textes de requête. Le format avancé (utilisé lorsque les valeurs avancées sont configurées à "vrai") permet les plages, les expressions régulières, l’appariement de champs particuliers et d’autres modes plus sophistiqués. La syntaxe avancée est susceptible aux erreurs d’analyse syntaxique, telles que les plages mal formées ou les erreurs de nom de champs. Ainsi, cette méthode est appropriée lorsque les requêtes sont générées par machine ou si on aide un usager à construire une requête. La syntaxe est basée sur la syntaxe de la chaîne de caractères [ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax) avec les exceptions suivantes : 1. Lorsqu’un nom de champ est fourni sans se trouver dans un formulaire URI, il sera reconnu comme champ dans tout espace de nommage (préfixe URI) qui contient ce nom. Cette méthode est utile pour rechercher dans divers espaces de nommage lorsque ces espaces de nommage ont choisi des noms communs pour des champs sémantiquement similaires; cependant, cela peut porter à confusion lorsque les noms communs ne sont pas reconnus. Ce formulaire devrait donc être utilisé avec précaution. 2. Les caractères de remplacement dans les noms de champs ne sont pas pris en charge. Par exemple, la requête « book.*:(quick brown) » n’est pas permise. 3. Les termes de recherche « missing » et « exists » ne sont pas permis. 
+Deux formats de syntaxe pour les requêtes sont supportés : standard et avancé. Le format standard ne permet qu’un simple appariement textuel des requêtes. Toutes les requêtes seront traitées et les résultats qui correspondent le mieux au texte saisi seront retournés comme résultats. Ce format est généralement approprié dans les contextes où les usagers proposent leurs propres textes de requête. Le format avancé (utilisé lorsque les valeurs avancées sont configurées à "vrai") permet les plages, les expressions régulières, l’appariement de champs particuliers et d’autres modes plus sophistiqués. La syntaxe avancée est susceptible aux erreurs d’analyse syntaxique, telles que les plages mal formées ou les erreurs de nom de champs. Ainsi, cette méthode est appropriée lorsque les requêtes sont générées par machine ou si on aide un usager à construire une requête. La syntaxe est basée sur la syntaxe de la chaîne de caractères [Elastic search](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax) avec les exceptions suivantes : 1. Les caractères de remplacement dans les noms de champs ne sont pas pris en charge. Par exemple, la requête « book.*:(quick brown) » n’est pas permise. 2. Les termes de recherche « missing » et « exists » ne sont pas permis. 
 
 ### Dépôt d’éléments
 ** Note : Ces instructions sont pour Linux et Mac. Les instructions sous Windows sont en cours de développement. **
@@ -182,31 +105,7 @@ Exécutez le code client REST API pour la première fois :
 
 Vous devrez copier et coller l’adresse URL dans votre navigateur web. Assurez-vous de vous connecter à partir de votre navigateur avec le compte de l’usager qui déposera les données. Vous pouvez copier le jeton d’authentification à la ligne de commande. Vous obtiendrez un fichier JSON contenant les jetons d’authentification de votre répertoire principal (mode par défaut 0600).
 
-Pour déposer un élément, le flux binaire du jeu de données doit déjà exister sur un point d’extrémité Globus accessible à l’usager connecté. Les métadonnées de l’élément doivent également exister dans le système de fichiers local en format JSON. Le fichier peut contenir des métadonnées pour tout élément, dans tout schéma pris en charge. Voici un exemple et notez que la première ligne est toujours requise :
-
-```javascript
-{
-    "accept_license": true,
-    "dc.contributor.author": "Smith, Jane",
-    "datacite.creator.affiliation": "University of Somewhere",
-    "dc.rights": "Creative Commons Public Domain Dedication (CC0 1.0) https://creativecommons.org/publicdomain/zero/1.0/",
-    "dc.description": "Dataset description",
-    "dc.publisher": "University of Somewhere",
-    "dc.subject": ["keyword1", "keyword2"],
-    "dc.title": "My Dataset Title"
-}
-```
-
-Rappel : les spécifications JSON ne permettent pas les virgules de fin sur aucune ligne de donnée. Si vous ajoutez une virgule de fin, une erreur sera générée par le code client lors de la soumission de l’élément : "ValueError : Expecting property name enclosed in double quotes".
-Voici les choix actuellement valides pour dc.rights :
-
-```
-Creative Commons Public Domain Dedication (CC0 1.0) https://creativecommons.org/publicdomain/zero/1.0/
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/
-Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) https://creativecommons.org/licenses/by-nc/4.0/
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0/
-Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
-```
+Pour déposer un élément, le flux binaire du jeu de données doit déjà exister sur un point d’extrémité Globus accessible à l’usager connecté. Les métadonnées de l’élément doivent également exister dans le système de fichiers local en format JSON. 
 
 Vous devez déterminer dans quel groupe de stockage déposer les éléments. Vous pouvez obtenir la liste avec cette commande :
 
