@@ -1,5 +1,8 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-12-16**:
+* Added preferred language option to new user form and user profile
+
 **2020-11-25**:
 
 * Allow custom licenses for datasets, available by contacting a FRDR curator and explaining the use case
