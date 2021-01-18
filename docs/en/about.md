@@ -1,7 +1,5 @@
 ﻿
-[Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has finished Beta and is now in Limited Production.
-
-The Limited Production version of FRDR will have many of the features and user interface design expected for full launch. Data deposit is currently being offered as a 'by request only' service, subject to resource availability and capacity. If you have a dataset you would like to deposit, please contact support@frdr-dfdr.ca to request permission to deposit.
+[Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has now launched in full production. Anyone can now use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
 
 A <a href="https://demo.frdr-dfdr.ca/repo/?locale=en" target="_blank" rel="noopener noreferrer">demo version</a> of the FRDR site is available for training and testing purposes. The FRDR demo can be used to learn about the platform's search and data deposit features. As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered "test" data and will only be available temporarily.
 
@@ -81,6 +79,8 @@ The platform's federated search tool will provide a focal point to discover and 
     * Secure repository storage for a minimum of 10 years after deposit
     * Regular backups and geographically distributed storage for research data
     * On-site system administration and ongoing hardware maintenance
+    * Faculty members and their designates at Canadian post-secondary institutions will have access to a large, default allocation of repository storage. Additional storage may
+      be provided upon request.
 
 * Curation Services (provided in coordination with researchers, data management support staff, and local institutional research data management contacts)
     * Create and review documentation and metadata to explain and contextualize data
@@ -92,7 +92,7 @@ The platform's federated search tool will provide a focal point to discover and 
 * Metadata harvesting and indexing of Canadian research data repositories, including datasets hosted in FRDR’s repository platform
 * Discovery interface with text-based search functionality supported by Globus search
 * Openly available OAI-PMH feed of harvested metadata
-* [Geodisy](https://geo.frdr-dfdr.ca/): geospatial search interface using GeoBlacklight (currently in beta)
+* [Geodisy](https://geo.frdr-dfdr.ca/): Geospatial search interface using GeoBlacklight (currently in beta)
 
 ### Preservation Services
 * Preservation processing of research data via parallelized Archivematica instances:
@@ -159,8 +159,12 @@ Special thanks to **Keith Jeffrey**, the former Project Manager, who has since r
 * September 2016: Alpha testing of the user interfaces was started thanks to the contribution of discovery interface code developed by the University of British Columbia.
 * April 2017: Beta testing was started and the project was put in limited production mode with a small number of research groups.
 * August 2019: CANARIE announced $2M of funding to CARL Portage, of which a portion is going towards moving FRDR into full production.
+* September 2020: Funding in support of the development of FRDR is administered  through the New Digital Research Infrastructure Organization (NDRIO).
+* Feb 2021: FRDR’s repository services launched in full production!
+
 
 ## Geodisy Project
 
-FRDR’s Geodisy map search (beta) is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Research data can be hard to find, and even harder when looking for data about a specific area or place. Geodisy changes that, giving users a window into the world of research data with map-based tools familiar to everyone. Geodisy currently sources data from [Scholars Portal Dataverse](https://dataverse.scholarsportal.info/), which houses material from institutions across Canada. FRDR’s Geodisy will continue to expand upon its collection to include more institutional sources.
+FRDR’s Geodisy map search (beta) is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Research data
+can be hard to find, and even harder when looking for data about a specific area or place. Geodisy changes that, giving users a window into the world of research data with straightforward map-based tools. Currently in beta, the map search includes datasets from [repositories indexed by FRDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=en) with bounding box metadata. Dataverse repository datasets with location metadata and/or geospatial files are also included. FRDR’s Geodisy will continue to expand upon its collection to include more datasets from FRDR’s source list of institutional repositories
 
