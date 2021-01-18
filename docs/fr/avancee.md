@@ -1,16 +1,31 @@
-## Indexation des autres dépôts
-Le Dépôt fédéré des données de recherche (DFDR) est conçu pour indexer des dépôts de données de recherche au Canada. On compte normalement trois catégories : les dépôts de données hébergés dans les universités canadiennes servant de point de dépôt pour les chercheurs de ces établissements; les portails de données des gouvernements et administrations publiques; et les dépôts propres à certains domaines dans les grands centres de recherche indépendants, connus de la communauté de la recherche de ces domaines.
+## Ajout d’un dépôt au service de découverte du DFDR
+Le service de découverte du dépôt fédéré de données de recherche DFDR est conçu pour indexer les dépôts de données de recherche au Canada. Parmi les dépôts indexés par le DFDR, il y a notamment :
+* Des dépôts de données hébergées par des universités canadiennes servant de point de dépôt pour les chercheurs travaillant dans ces établissements ;
+* Des portails gouvernementaux ; et
+* Des dépôts propres à certains domaines hébergés par des centres de recherche généraux ou indépendants connus des chercheurs travaillant dans des domaines particuliers.
 
-Le personnel du DFDR travaille à ajouter de nouveaux dépôts à l’index. Les critères retenus en vue de la priorisation des dépôts comprennent :
+Le personnel du DFDR travaille à l’ajout de nouveaux dépôts indexés. Voici certains des critères qui rendent un dépôt plus susceptible d’être priorisé :
 
-* Le soutien pour l’un des formats d’API de métadonnées actuellement pris en charge par le moissonneur du DFDR. Actuellement, il s’agit d’OAI (normes de métadonnées DC, DDI et FGDC) et de CKAN; d’autres pourront s’ajouter.
-* Si un dépôt ne contient pas uniquement des données, par exemple quelques dépôts universitaires contiennent des thèses et la version préimpression d’articles, il devrait offrir la possibilité de lancer une requête uniquement pour les données de recherche.
-* La recherche plein texte ou par mots-clés et le repérage des jeux de données doit être supportée; même si le DFDR offre des options de recherche avancées, il est peu probablement que nous offrions l’indexation complexe de données de séquençage des gènes, ce qui a peu de valeur à l’extérieur d’une interface spécialisée.
-* Un contact fiable à l’établissement hôte pour résoudre des problèmes techniques et les problèmes de métadonnées.
+* La prise en charge de l’un des formats d’API de métadonnées actuellement mis en œuvre dans le moissonneur du DFDR. Pour l’instant, il s’agit de OAI-PMH, CKAN, CSW, MarkLogic, OpenDataSoft, Socrata et certains dépôts avec Google Sitemaps. La prise en charge de formats supplémentaires pourrait être ajoutée à l’avenir.
+* Si un dépôt contient autre chose en plus des données de recherche — par exemple, certains dépôts institutionnels universitaires contiennent également des thèses et des articles avant impression — il devrait disposer d’une méthode permettant d’interroger uniquement les données de recherche.
+* Un flux de travail plausible pour la recherche et l’extraction dans le dépôt d’ensembles de données en texte brut ou par mot-clé.
+* La présence d’une personne-ressource fiable au sein de l’établissement hôte pour résoudre les problèmes techniques ou les problèmes de métadonnées.
 
+Pour plus d’informations, veuillez consulter la politique sur le moissonnage de métadonnées.
 
-[Communiquez avec nous](mailto:support@frdr-dfdr.ca?subject=query%20re%20harvesting%20a%20repository) pour discuter du moissonnage par le DFDR des métadonnées de votre dépôt.
+Si vous souhaitez ajouter les métadonnées de votre dépôt au DFDR, veuillez communiquer à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20harvesting%20a%20repository) pour discuter du processus à suivre.
 
+## ProQuest Central Discovery Index
+Tous les ensembles de données moissonnées par le dépôt fédéré de données de recherche (DFDR) sont maintenant disponibles via le ProQuest Central Discovery Index (CDI). Voici les instructions pour rendre le DFDR découvrable dans les interfaces de ProQuest, y compris Summon, Primo et Alma. En suivant les instructions, vous rendrez toutes les données du DFDR – plus de 117,000 ensembles de données – visible pour vos utilisateurs.<br/>
+
+1. Naviguez au ProQuest Client Center de votre bibliothèque : https://clientcenter.serialssolutions.com/CC/Login/Default.aspx
+2. Rechercher Base de données > Nom contient > FRDR <br/>
+<img src="/docs/img/screenshots/feed_proquest/1.png" alt="ProQuest Client Center"/><br/>
+3. Ouvrez l'enregistrement trouvé (code : MFDEJ). Cliquez sur Modifier et activez l'inclusion dans vos abonnements ProQuest, par exemple Summon.
+<br/><img src="/docs/img/screenshots/feed_proquest/2.png" alt="ProQuest Subscription"/><br/>
+4. À ce point-ci, tous les enregistrements du DFDR seront visibles pour vos utilisateurs.
+
+Veuillez contacter [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20ProQuest%20Central%20Discovery%20Index) si vous avez besoins d’aide.
 
 ## Pour les développeurs
 La présente documentation s’adresse aux utilisateurs qui souhaitent développer des applications ou des sites web faisant appel à la technologie du DFDR.
