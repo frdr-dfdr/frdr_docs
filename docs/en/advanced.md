@@ -1,16 +1,32 @@
-## Indexing other repositories
+## Adding a repository to the FRDR Discovery Service
 
-The Federated Research Data Repository (FRDR) is designed to index research data repositories in Canada. These generally fall into three categories: data repositories hosted at Canadian universities which serve as a deposit point for researchers working at those institutions, government data portals, and domain-specific repositories hosted at larger or independent research centres which are known to researchers working in a given field.
+The Federated Research Data Repository (FRDR) Discovery Service is designed to index research data repositories in Canada. Repositories indexed by FRDR include: 
+* data repositories hosted at Canadian universities, which serve as a deposit point for researchers working at those institutions; 
+* government data portals; and 
+* domain-specific repositories hosted at larger or independent research centres, which are known to researchers working in a given field.
 
 The FRDR staff are working on adding new repositories to the index. Criteria which make a repository more likely to be prioritized include the following:
 
-* Support for one of the metadata API formats currently implemented in the FRDR harvester. Currently, this is OAI (DC, DDI, and FGDC metadata standards) and CKAN; more may be added in the future.
+* Support for one of the metadata API formats currently implemented in the FRDR harvester. Currently, this is OAI-PMH, CKAN, CSW, MarkLogic, OpenDataSoft, Socrata, and certain repositories with Google Sitemaps. Support for additional formats may be added in the future.
 * If a repository holds more than just research data -- for example, some university institutional repositories also hold theses and pre-print articles -- it should have some method of querying for only research data.
-* Plaintext/keyword search and retrieval of datasets from the repository must be a plausible workflow; although FRDR offers advanced search options, we are unlikely to make an effort to index complex gene sequencing data which has little value outside of a specialized interface.
-* Reliable point of contact at the host institution for resolving technical and/or metadata issues.
+* A plausible workflow for plaintext/keyword search and retrieval of datasets from the repository.
+* The existence of a reliable point of contact at the host institution for resolving technical and/or metadata issues.
 
+For more information, please see the Metadata Harvesting Policy.
+	
+If you would like to include your repository’s metadata in FRDR, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20re%20harvesting%20a%20repository) to discuss the process.
 
-[Contact us](mailto:support@frdr-dfdr.ca?subject=query%20re%20harvesting%20a%20repository) to discuss FRDR harvesting the metadata from a repository.
+## ProQuest Central Discovery Index
+All datasets harvested by the Federated Research Data Repository (FRDR) are now available via the ProQuest Central Discovery Index (CDI). Here are the instructions to make FRDR discoverable  in ProQuestinterfaces, including Summon, Primo, and Alma. By following the instructions, you will make all of FRDR's data—more than 117,000 datasets—visible for your users.
+1. Navigate to your library’s ProQuest Client Center: https://clientcenter.serialssolutions.com/CC/Login/Default.aspx
+2. Search for Database > Name Contains > FRDR
+<img src="/docs/img/screenshots/feed_proquest/1.png" alt="ProQuest Client Center"/><br/>
+3. Open the record found (code:MFDEJ). Click Edit and enable the inclusion in your ProQuest subscriptions, e.g. Summon.
+<img src="/docs/img/screenshots/feed_proquest/2.png" alt="ProQuest Subscription"/><br/>
+4. From that point on, all FRDR's records will be displayed for your users.
+
+Please contact support@frdr-dfdr.ca if you need assistance.
+
 
 ## For developers
 This documentation is for users who want to develop applications or web sites that use FRDR technology.
