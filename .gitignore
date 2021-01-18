@@ -3,3 +3,4 @@ site/
 mkdocs.yml
 *.swp
 *.swo
+.DS_Store
