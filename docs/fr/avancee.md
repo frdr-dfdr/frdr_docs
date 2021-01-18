@@ -1,5 +1,6 @@
 ## Ajout d’un dépôt au service de découverte du DFDR
-Le service de découverte du dépôt fédéré de données de recherche DFDR est conçu pour indexer les dépôts de données de recherche au Canada. Parmi les dépôts indexés par le DFDR, il y a notamment :
+Le service de découverte du dépôt fédéré de données de recherche DFDR est conçu pour indexer les dépôts de données de recherche au Canada. Parmi les dépôts indexés par le DFDR, il y a notamment:<br/>
+
 * Des dépôts de données hébergées par des universités canadiennes servant de point de dépôt pour les chercheurs travaillant dans ces établissements ;
 * Des portails gouvernementaux ; et
 * Des dépôts propres à certains domaines hébergés par des centres de recherche généraux ou indépendants connus des chercheurs travaillant dans des domaines particuliers.
