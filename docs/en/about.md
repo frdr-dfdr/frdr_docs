@@ -160,7 +160,7 @@ Special thanks to **Keith Jeffrey**, the former Project Manager, who has since r
 * April 2017: Beta testing was started and the project was put in limited production mode with a small number of research groups.
 * August 2019: CANARIE announced $2M of funding to CARL Portage, of which a portion is going towards moving FRDR into full production.
 * September 2020: Funding in support of the development of FRDR is administered  through the New Digital Research Infrastructure Organization (NDRIO).
-* Feb 2021: FRDR’s repository services launched in full production!
+* February 2021: FRDR’s repository services launched in full production!
 
 
 ## Geodisy Project
