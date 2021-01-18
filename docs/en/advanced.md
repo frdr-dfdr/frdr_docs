@@ -1,6 +1,7 @@
 ## Adding a repository to the FRDR Discovery Service
 
 The Federated Research Data Repository (FRDR) Discovery Service is designed to index research data repositories in Canada. Repositories indexed by FRDR include: 
+
 * data repositories hosted at Canadian universities, which serve as a deposit point for researchers working at those institutions; 
 * government data portals; and 
 * domain-specific repositories hosted at larger or independent research centres, which are known to researchers working in a given field.
@@ -18,12 +19,13 @@ If you would like to include your repository’s metadata in FRDR, please contac
 
 ## ProQuest Central Discovery Index
 All datasets harvested by the Federated Research Data Repository (FRDR) are now available via the ProQuest Central Discovery Index (CDI). Here are the instructions to make FRDR discoverable  in ProQuestinterfaces, including Summon, Primo, and Alma. By following the instructions, you will make all of FRDR's data—more than 117,000 datasets—visible for your users.
-1. Navigate to your library’s ProQuest Client Center: https://clientcenter.serialssolutions.com/CC/Login/Default.aspx
-2. Search for Database > Name Contains > FRDR
+
+1. Navigate to your library’s ProQuest Client Center: https://clientcenter.serialssolutions.com/CC/Login/Default.aspx <br/>
+2. Search for Database > Name Contains > FRDR <br/>
 <img src="/docs/img/screenshots/feed_proquest/1.png" alt="ProQuest Client Center"/><br/>
 3. Open the record found (code:MFDEJ). Click Edit and enable the inclusion in your ProQuest subscriptions, e.g. Summon.
-<img src="/docs/img/screenshots/feed_proquest/2.png" alt="ProQuest Subscription"/><br/>
-4. From that point on, all FRDR's records will be displayed for your users.
+<br/><img src="/docs/img/screenshots/feed_proquest/2.png" alt="ProQuest Subscription"/><br/>
+4. From that point on, all FRDR's records will be displayed for your users.<br/>
 
 Please contact support@frdr-dfdr.ca if you need assistance.
 
