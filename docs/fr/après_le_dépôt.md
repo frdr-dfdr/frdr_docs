@@ -19,7 +19,7 @@ Note : Les modifications suggérées par le responsable de l’intendance ne so
 
 ## Préservation
 
-La préservation comprend une série de mesures visant à assurer l’accessibilité à long terme des données. Les mesures prises dans le cadre du processus de traitement pour préservation du DFDR comprennent l’identification, la validation, la caractérisation et la normalisation des fichiers. Tous les ensembles de données soumis au DFDR font actuellement l’objet d’un traitement pour préservation.
+La préservation comprend une série de mesures visant à assurer l’accessibilité à long terme des données. Les mesures prises dans le cadre du processus de traitement pour préservation du DFDR comprennent l’identification, la validation, la caractérisation et la normalisation des fichiers. Tous les ensembles de données soumis au DFDR peuvent être choisis pour le traitement de conservation.
 
 Une fois qu’un ensemble de données est approuvé par un responsable de l’intendance, les [sommes de contrôle](https://fr.wikipedia.org/wiki/Somme_de_contr%C3%B4le) sont calculées pour chaque fichier de l’ensemble de données et enregistrées dans un fichier texte avec le nom de chaque fichier et des informations sur le type de fichier. Ce fichier texte est annexé à l’ensemble de données (Frdr-checksum-and-filetypes.md) et peut être téléchargé sur le DFDR afin que les chercheurs qui souhaitent réutiliser l’ensemble de données puissent en valider l’intégrité de façon indépendante. Les sommes de contrôle sont calculées à l’aide de l’algorithme [SHA-256](https://fr.wikipedia.org/wiki/SHA-2). Nous recommandons d’utiliser l’interface graphique [QuickHash GUI](https://www.quickhash-gui.org/) pour valider cet algorithme.
 
