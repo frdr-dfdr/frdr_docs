@@ -46,6 +46,7 @@ Currently, we can process submissions smaller than 25 TB. If you need a larger d
 
 ### 11. Why can't I download a file via my web browser (using HTTP)?
 It might be for a few reasons:
+
 * A browser cannot download a folder or hierarchy via HTTP.
 * We have a maximum file size of 10 GB for HTTP download.
 
