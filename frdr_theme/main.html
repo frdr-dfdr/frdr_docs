@@ -14,7 +14,7 @@
         <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/jquery/jquery-ui-1.10.3.custom.min.js"></script>
         <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/bootstrap/bootstrap.min.js"></script>
         <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/frdr-site.js"></script>
-        <script type="text/javascript" src="{{ config.extra.repo_url }}/utils.js"></script>
+        <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/utils.js"></script>
         <script type="text/javascript" src="{{ config.extra.repo_url }}/static/js/ekko-lightbox/5.1.1/ekko-lightbox.js"></script>
     </head>
     <body id="content" onload="checkForHashOnLoad(-64)">
@@ -61,11 +61,13 @@
                       {% if '/en/' in page.canonical_url %}
                       <li role="menuitem"><a href="/docs/en/before_depositing/">Get An Account</a></li>
                       <li role="menuitem"><a href="/docs/en/">Documentation</a></li>
+                      <li role="menuitem"><a href="/policies/en/">Policies</a></li>
                       <li role="menuitem"><a href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener">Video Tutorials</a></li>
                       <li role="menuitem"><a href="/docs/en/contact_support/">Contact Us</a></li>
                       {% else %}
                       <li role="menuitem"><a href="/docs/fr/avant_de_déposer/">Obtenez un compte</a></li>
                       <li role="menuitem"><a href="/docs/fr/">Documentation</a></li>
+                      <li role="menuitem"><a href="/policies/fr/">Politiques</a></li>
                       <li role="menuitem"><a href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener">Tutoriels vidéos</a></li>
                       <li role="menuitem"><a href="/docs/fr/contactez_nous/">Contactez nous</a></li>
                       {% endif %}
@@ -167,11 +169,11 @@
           {% if '/en/' in page.canonical_url %}
           &copy; 2017 - 2021 Canadian Association of Research Libraries and Compute Canada<br/>
           Compute Canada and CARL respect the privacy of individuals and will only collect, use, and disclose Personal Information in keeping with information access and privacy law.<br/>
-          <a href="{{ config.site_url }}en/privacy_policy/">Privacy Policy</a>
+          <a href="{{ config.site_url }}en/privacy/">Privacy Policy</a>
           {% else %}
           &copy; 2017 - 2021 Association des bibliothèques de recherche du Canada & Calcul Canada<br/>
           Calcul Canada et ABRC respectent la vie privée des personnes et ne collecteront, utiliseront et ne divulgueront les renseignements personnels que dans le respect des lois sur l'accès à l'information et la protection de la vie privée.<br/>
-          <a href="{{ config.site_url }}fr/politique_de_confidentialité/">Politique de confidentialité</a>
+          <a href="{{ config.site_url }}fr/confidentialité/">Politique de confidentialité</a>
           {% endif %}
         </footer>
         </div>
