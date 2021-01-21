@@ -65,9 +65,9 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 ###Services de dépôt
 
 * Plateforme de dépôt
-    * Téléchargement et téléversement rapides et efficaces de grands ensembles de données par l’intermédiaire de Globus File Transfer et transferts au moyen du navigateur Web pour de petits ensembles de données.
+    * Téléchargement et téléversement rapides et efficaces de grands jeux de données par l’intermédiaire de Globus File Transfer et transferts au moyen du navigateur Web pour de petits jeux de données.
     * Interface utilisateur entièrement bilingue et documentation solide disponibles en français et en anglais.
-    * L’enregistrement des identifiants numériques d’objet (DOI) pour les ensembles de données offre un identificateur permanent qui peut être utilisé pour la citation de données
+    * L’enregistrement des identifiants numériques d’objet (DOI) pour les jeux de données offre un identificateur permanent qui peut être utilisé pour la citation de données
     * Soutien pour de multiples fournisseurs d’authentification, y compris Calcul Canada, ORCID et un nombre croissant d’établissements postsecondaires du Canada.
     * Embargos facultatifs sur les dossiers de données et de métadonnées.
     * Possibilité de collaboration de plusieurs personnes à une soumission.
@@ -90,7 +90,7 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
     * Établir un lien entre la documentation sur les données de recherche et d’autres produits de recherche, p. ex., les plans de gestion des données, les publications de données brutes et les articles de revues.
 
 ### Services de recherche
-* Emploi de l’outil de moissonnage de métadonnées et indexation des dépôts de données de recherche au Canada, y compris les ensembles de données hébergés dans la plateforme de dépôt du DFDR.
+* Emploi de l’outil de moissonnage de métadonnées et indexation des dépôts de données de recherche au Canada, y compris les jeux de données hébergés dans la plateforme de dépôt du DFDR.
 * Interface d’exploration avec fonctionnalité de recherche textuelle prise en charge par la Globus Search.
 * Fil de métadonnées recueillies du protocole OAI-PMH librement accessible.
 * [Geodisy](https://geo.frdr-dfdr.ca/) : interface de recherche géospatiale à l’aide de l’outil GeoBlacklight (actuellement en version beta)
@@ -164,4 +164,4 @@ Remerciement spécial à **Keith Jeffrey**, ancien gestionnaire de projet, maint
 
 
 ## Projet Geodisy
-La recherche cartographique Geodisy du DFDR (bêta) est un outil de découverte à source ouverte qui permet aux utilisateurs de trouver des données ouvertes de chercheurs canadiens à l’aide d’une carte interactive. Les données de recherche peuvent être difficiles à trouver, et encore plus difficiles lorsqu’on cherche des données concernant une zone ou un endroit précis. Geodisy pallie cette difficulté en offrant aux utilisateurs une fenêtre sur le monde des données de recherche grâce à des outils cartographiques simples. Offerte actuellement en version bêta, la recherche cartographique comprend des ensembles de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) avec des métadonnées de cadres englobants. Des ensembles de données des dépôts Dataverse avec des métadonnées de localisation ou des fichiers géospatiaux sont également inclus. Le DFDR continuera d’élargir la collection de Geodisy pour inclure davantage d’ensembles de données provenant de la liste des dépôts institutionnels du DFDR.
+La recherche cartographique Geodisy du DFDR (bêta) est un outil de découverte à source ouverte qui permet aux utilisateurs de trouver des données ouvertes de chercheurs canadiens à l’aide d’une carte interactive. Les données de recherche peuvent être difficiles à trouver, et encore plus difficiles lorsqu’on cherche des données concernant une zone ou un endroit précis. Geodisy pallie cette difficulté en offrant aux utilisateurs une fenêtre sur le monde des données de recherche grâce à des outils cartographiques simples. Offerte actuellement en version bêta, la recherche cartographique comprend des jeux de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) avec des métadonnées de cadres englobants. Des jeux de données des dépôts Dataverse avec des métadonnées de localisation ou des fichiers géospatiaux sont également inclus. Le DFDR continuera d’élargir la collection de Geodisy pour inclure davantage d’jeux de données provenant de la liste des dépôts institutionnels du DFDR.
