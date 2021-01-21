@@ -2,7 +2,7 @@
 
 ### Choix des types de données à déposer
 
-Rassemblez vos fichiers de données, la documentation et toute information nécessaire pour réutiliser votre ensemble de données. Vous pouvez choisir de fournir des données traitées, des données brutes non traitées ou les deux, ainsi que les scripts, le code ou le logiciel nécessaires pour analyser de nouveau vos données.
+Rassemblez vos fichiers de données, la documentation et toute information nécessaire pour réutiliser votre jeu de données. Vous pouvez choisir de fournir des données traitées, des données brutes non traitées ou les deux, ainsi que les scripts, le code ou le logiciel nécessaires pour analyser de nouveau vos données.
 
 Vous pouvez télécharger une version de vos scripts d’analyse en même temps que vos données, mais nous vous recommandons de déposer le code source ou le logiciel dans des dépôts spécialisés comme GitHub, GitLab ou Bitbucket. Vous pouvez établir un lien direct avec les autres résultats de vos métadonnées du DFDR et les mentionner dans votre fichier Lisez-moi.
 
@@ -44,11 +44,11 @@ Vous pouvez télécharger une version de vos scripts d’analyse en même temps 
 	└── Lisez-moi.txt
 
 ### Conseils pour l’appellation de fichiers
-Nommez vos fichiers de façon logique et descriptive, afin que vous et d’autres chercheurs puissiez les comprendre en un coup d’œil. Gardez les noms de fichiers brefs et envisagez d’y inclure des renseignements sur le projet, le contenu, la date ou le numéro de version. Utilisez des caractères alphanumériques et évitez les espaces, les accents et les caractères spéciaux (%^& * ’). Votre convention d ’ appellation doit être décrite dans votre fichier Lisez-moi.
+Nommez vos fichiers de façon logique et descriptive, afin que vous et d’autres chercheurs puissiez les comprendre en un coup d’œil. Gardez les noms de fichiers brefs et envisagez d’y inclure des renseignements sur le projet, le contenu, la date ou le numéro de version. Utilisez des caractères alphanumériques et évitez les espaces, les accents et les caractères spéciaux (%^& * ’). Votre convention d’appellation doit être décrite dans votre fichier Lisez-moi.
 
-_Exemple_: MontRoyal_Temperatures_20200801.csv
+_Exemple : MontRoyal_Temperatures_20200801.csv
 
-_Exemple_: AnalysePoeme_IV05_v03.txt
+_Exemple : AnalysePoeme_IV05_v03.txt
 
 Pour de plus amples conseils, consultez les [conventions d’appellation de fichiers de l’UBC](https://researchdata.library.ubc.ca/plan/organize-your-data/) (en anglais).
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur les formats de préservation, voir les lignes dir
 
 ## Documentation de votre soumission
 
-Les données ne seront utiles (et bénéfiques) à long terme que si elles sont décrites en détail. Pour vous assurer d’une interprétation correcte de vos données, il est important d’inclure un manuel de codes et/ou un fichier Lisez-moi à vos données et de documenter vos méthodes de collecte. Pour cette raison, un responsable de l’intendance du DFDR vous demandera d’ajouter un fichier Lisez-moi à votre soumission. Vous pouvez utiliser le [modèle de fichier Lisez-moi du DFDR](/docs/txt/README-fr.txt).
+Les données ne seront utiles (et bénéfiques) à long terme que si elles sont décrites en détail. Pour vous assurer d’une interprétation correcte de vos données, il est important d’inclure un manuel de codes et/ou un fichier Lisez-moi à vos données et de documenter vos méthodes de collecte. Pour cette raison, un responsable de la curation du DFDR vous demandera d’ajouter un fichier Lisez-moi à votre soumission. Vous pouvez utiliser le [modèle de fichier Lisez-moi du DFDR](/docs/txt/README-fr.txt).
 
 Conseils pour la rédaction de fichiers Lisez-moi :
 
@@ -90,11 +90,11 @@ Conseils pour la rédaction de fichiers Lisez-moi :
 
 * Indiquez toute restriction sur l’utilisation secondaire de vos données dans le fichier Lisez-moi.
 
-* Pour les ensembles de données quantitatives, définissez toutes les variables et les valeurs admissibles. Le cas échéant, indiquez les unités de mesure et définissez le code que vous avez utilisé pour les valeurs manquantes ou nulles.
+* Pour les jeux de données quantitatives, définissez toutes les variables et les valeurs admissibles. Le cas échéant, indiquez les unités de mesure et définissez le code que vous avez utilisé pour les valeurs manquantes ou nulles.
 
 * Décrivez brièvement votre étude, les méthodes que vous avez utilisées pour recueillir vos données et les mesures que vous avez prises pour traiter les données que vous déposez.
 
-* Si vous avez supprimé des variables de votre ensemble de données brutes pour créer une copie à usage public à des fins d’archivage, envisagez d’inclure une liste des variables supprimées afin que les changements apportés à votre ensemble de données brutes soient transparents. Vous pouvez également fournir des statistiques sommaires ou un nombre d’occurrences pour toute variable supprimée.
+* Si vous avez supprimé des variables de votre jeu de données brutes pour créer une copie à usage public à des fins d’archivage, envisagez d’inclure une liste des variables supprimées afin que les changements apportés à votre jeux de données brutes soient transparents. Vous pouvez également fournir des statistiques sommaires ou un nombre d’occurrences pour toute variable supprimée.
 
 * Le nom de l’équipement ou des instruments utilisés pour recueillir les données, ainsi que les logiciels ou les progiciels statistiques qui ont été utilisés pour les traiter doivent être énumérés dans le fichier Lisez-moi. Si possible, indiquez la version du logiciel utilisé.
 
@@ -108,11 +108,11 @@ Vous trouverez d’autres conseils (en anglais) dans le [Quick Guide: Creating a
 
 ## Examen de vos données
 
-Veuillez examiner votre ensemble de données avant de le soumettre pour examen. Voici quelques points à prendre en considération : 
+Veuillez examiner votre jeu de données avant de le soumettre pour examen. Voici quelques points à prendre en considération : 
 
 * *Avez-vous fourni un fichier Lisez-moi, un manuel de code ou tout autre document nécessaire?* Parmi les documents supplémentaires utiles, notons une copie de votre plan de gestion des données, une copie non signée de tous les formulaires de consentement que vous avez fournis aux participants à l’étude, ou des renseignements sur les protocoles de l’étude, les rapports d’étude clinique ou les plans d’analyse statistique.
 
-* *Votre ensemble de données est-il complet?* Avez-vous inclus tous les fichiers que vous aviez l’intention de communiquer? Avez-vous retiré les fichiers superflus ou les fichiers que vous n’aviez pas l’intention de communiquer? Les fichiers que vous décrivez dans votre fichier Lisez-moi sont-ils inclus dans l’ensemble de données, et les fichiers de votre ensemble de données sont-ils décrits dans votre fichier Lisez-moi?
+* *Votre jeu de données est-il complet?* Avez-vous inclus tous les fichiers que vous aviez l’intention de communiquer? Avez-vous retiré les fichiers superflus ou les fichiers que vous n’aviez pas l’intention de communiquer? Les fichiers que vous décrivez dans votre fichier Lisez-moi sont-ils inclus dans le jeu de données, et les fichiers de votre jeu de données sont-ils décrits dans votre fichier Lisez-moi?
 
 * *Vos fichiers sont-ils complets?* Avez-vous défini les variables et les valeurs admissibles, inclus les unités de mesure et décrit les valeurs nulles, le cas échéant?
 
@@ -122,19 +122,19 @@ Veuillez examiner votre ensemble de données avant de le soumettre pour examen. 
 
 * *Avez-vous confirmé qu’aucun de vos dossiers ne contient de renseignements protégés ou à diffusion restreinte?* Voir la section [Données à diffusion restreinte.](#donnees-a-diffusion-restreinte)
 
-Les responsables de l’intendance du DFDR collaboreront avec vous pour examiner vos données au moment de leur soumission afin d’assurer la qualité des métadonnées dans le dépôt et d’améliorer la repérabilité et l’accessibilité de vos données. Les responsables de l’intendance sont habituellement des bibliothécaires employés par des établissements de recherche partout au pays. Il peut aussi s’agir de gestionnaires de données intégrés à des groupes de recherche qui ont accepté de travailler avec le réseau Portage de l’ABRC et qui ont obtenu des autorisations spéciales dans le système du DFDR.
+Les responsables de la curation du DFDR collaboreront avec vous pour examiner vos données au moment de leur soumission afin d’assurer la qualité des métadonnées dans le dépôt et d’améliorer la repérabilité et l’accessibilité de vos données. Les responsables de la curation sont habituellement des bibliothécaires employés par des établissements de recherche partout au pays. Il peut aussi s’agir de gestionnaires de données intégrés à des groupes de recherche qui ont accepté de travailler avec le réseau Portage de l’ABRC et qui ont obtenu des autorisations spéciales dans le système du DFDR.
 
 ### Utilisation secondaire des données ou du code
 
 Avez-vous obtenu des données ou des codes d’un tiers qui pourrait détenir des droits d’auteur ou des droits de propriété intellectuelle qui vous empêcheraient de les redistribuer?
 
-Si vous avez utilisé des données secondaires dans votre recherche, vous devrez confirmer que vous avez la permission de publier de nouveau ces données dans le DFDR avant que votre soumission puisse être approuvée par un responsable de l’intendance. Vous ne savez pas si vous avez besoin d’une permission? Les données qui ont été mises gratuitement à la disposition de la recherche ne sont pas nécessairement « gratuites ». Demandez-vous :
+Si vous avez utilisé des données secondaires dans votre recherche, vous devrez confirmer que vous avez la permission de publier de nouveau ces données dans le DFDR avant que votre soumission puisse être approuvée par un responsable de la curation. Vous ne savez pas si vous avez besoin d’une permission? Les données qui ont été mises gratuitement à la disposition de la recherche ne sont pas nécessairement « gratuites ». Demandez-vous :
 
 * Avez-vous dû ouvrir une session sur un site Web pour télécharger les données?
 
 * Avez-vous accepté des conditions d’utilisation précises, signé un accord d’utilisation des données ou conclu une entente avec le fournisseur de données qui vous empêcherait de publier ces données dans le DFDR?
 
-Si les données sont facilement accessibles à partir d’une autre source et que vous n’avez pas manipulé ou modifié les ensembles de données pour votre recherche, veuillez envisager d’établir un lien vers la source originale plutôt que de les publier de nouveau. Pour ce faire, utilisez le champ des identificateurs associés lorsque vous déposez vos données. Veuillez également inclure des citations complètes pour toutes les données ou tous les logiciels que vous avez réutilisés pour votre étude dans votre fichier Lisez-moi.
+Si les données sont facilement accessibles à partir d’une autre source et que vous n’avez pas manipulé ou modifié les jeux de données pour votre recherche, veuillez envisager d’établir un lien vers la source originale plutôt que de les publier de nouveau. Pour ce faire, utilisez le champ des identificateurs associés lorsque vous déposez vos données. Veuillez également inclure des citations complètes pour toutes les données ou tous les logiciels que vous avez réutilisés pour votre étude dans votre fichier Lisez-moi.
 
 ### Données à diffusion restreinte
 
