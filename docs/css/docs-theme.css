@@ -161,41 +161,6 @@ ul .dropdown-menu {
 
 .navbar-highlight {color:#2191C5}
 
-.frdr-jumbo-mid {
-    background-color: #424242;
-    background-image: url('/demo/frdr-jumbo-mid.jpg');
-    background-position: 0px 0px;
-    min-height: 300px;
-    margin-bottom: 3px;
-}
-
-#jumbo-mid-tagline {
-    color: white;
-    font-weight: 600;
-    font-size: 36px;
-    margin-top: 150px;
-}
-
-#jumbo-mid-tagline .tagtext {
-    padding: 5px 10px 5px 10px;
-    background-color: rgba(0,0,0,0.75);
-}
-#jumbo-mid-tagline .tagtext .redhighlight {
-    color:#FF0000;
-}
-
-#jumbo-mid-logo {
-    height: 140px;
-    float: right;
-}
-
-.frdr-jumbo-lower {
-    background-color: #5B5B5B;
-    min-height: 80px;
-    padding: 30px;
-    font-size:18px;
-}
-
 .frdr-sidebar {
     background-color: #5B5B5B;
     padding-left: 0px;
@@ -298,16 +263,6 @@ ul .dropdown-menu {
     height: 140px;
 }
 
-#data-deposit {
-    margin-top:5px;
-    white-space: nowrap;
-    clear:both;
-}
-
-@media only screen and (max-width : 1024px) {
-  #jumbo-mid-tagline { font-size: 28px; }
-}
-
 /* colors for mobile menu */
 @media only screen and (max-width : 768px) {
   .navbar-collapse li a { color:black ; background-color: white; }
@@ -323,26 +278,11 @@ ul .dropdown-menu {
   .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: white; }
   .navbar-inverse .navbar-nav > .dropdown > a .caret { border-top: 4px solid #424242; }
   #sitelogo {height: 110px; margin-right:-10px;}
-  #jumbo-mid-logo {height: 110px;}
-  #jumbo-mid-tagline { font-size: 24px; margin-top: 150px; margin-left:-10px;}
-  .frdr-jumbo-mid { min-height: 270px; }
 }
 
 @media only screen and (max-width : 500px) {
   .navbar-inverse .navbar-brand { font-size: 15px; }
   #sitelogo {height: 100px; margin-right:-35px;}
-  #jumbo-mid-tagline { font-size: 22px; margin-top: 150px; margin-left:-20px;}
-  .frdr-jumbo-mid { min-height: 240px; }
-}
-
-.advancedsearch {
-  float:right;
-  font-weight: normal;
-  font-size: 14px;
-}
-
-.advancedsearch a {
-  color: white !important;
 }
 
 .frdr-jumbo-footer {
@@ -367,26 +307,6 @@ ul .dropdown-menu {
 
 .frdr-jumbo-footer a:hover {
   color: #b12;
-}
-
-
-.list-group {
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
-}
-
-.list-group-item.active,
-.list-group-item.active:hover,
-.list-group-item.active:focus {
-  text-shadow: 0 -1px 0 #2882bb;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#79ad2a), to(#2882bb));
-  background-image: -webkit-linear-gradient(top, #79ad2a, 0%, #2882bb, 100%);
-  background-image: -moz-linear-gradient(top, #79ad2a 0%, #2882bb 100%);
-  background-image: linear-gradient(to bottom, #79ad2a 0%, #2882bb 100%);
-  background-repeat: repeat-x;
-  border-color: #2882bb;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3278b3', GradientType=0);
 }
 
 div.folder > span {
@@ -429,17 +349,6 @@ div.file > .size {
     padding-left: 40px;
 }
 
-.demo-text {
-    color: #0b9444;
-}
-
-.navbar-brand.demo-text {
-    font-size: 24px;
-    padding-top: 25px;
-    color: #537eec;
-    font-weight: 400;
-}
-
 .screenshot {
     border-color: #424242;
     border-radius: 5px;
@@ -465,7 +374,6 @@ div.file > .size {
     justify-content: center;
     margin-bottom: 30px;
 }
-
 
 .half {
     flex: 50%;
