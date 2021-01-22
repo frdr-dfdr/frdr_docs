@@ -4,15 +4,15 @@ Une fois connecté au DFDR, vous avez accès au Tableau de bord de publication d
 Vous pouvez initier une nouvelle soumission en tout temps.
 
 ## Aperçu des étapes de dépôt
-Voici les étapes requises pour initier une soumission dans le DFDR:
+Voici les étapes requises pour initier une soumission dans le DFDR :
 
-* [Choisissez un groupe de stockage pour la soumission](déposer_les_données.md#selection-dun-groupe-de-stockage)
-* [Sélectionnez la licence de droit des données](déposer_les_données.md#licences-dutilisation-des-donnees)
+* [Sélection d'un groupe de stockage pour la soumission](déposer_les_données.md#selection-dun-groupe-de-stockage)
+* [Sélection de la licence d'utilisation des données](déposer_les_données.md#licences-dutilisation-des-donnees)
 * [Ajout de collaborateurs](déposer_les_données.md#ajout-de-collaborateurs)
-* [Entrez les métadonnées relatives à vos données](déposer_les_données.md#saisie-de-metadonnees)
-* [Précisez une période d’embargo (le cas échéant)](déposer_les_données.md#indication-dune-periode-dembargo)
-* [Transférez le jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
-* [Évaluez et finalisez la soumission](déposer_les_données.md#finaliser-de-la-soumission)
+* [Saisie de métadonnées relatives à vos données](déposer_les_données.md#saisie-de-metadonnees)
+* [Indication d'une période d’embargo (le cas échéant)](déposer_les_données.md#indication-dune-periode-dembargo)
+* [Transfert de jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
+* [Finalisation de la soumission](déposer_les_données.md#finaliser-de-la-soumission)
 
 Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’information entrée et y revenir plus tard. Un [Digital Object Identifier (DOI)](https://www.doi.org/) est assigné à la soumission dès que vous initiez un dépôt de jeu de données. Les DOI de tous les dépôts en cours s’affichent dans la liste des soumissions en cours. Ceci vous permet de partager le DOI de votre jeu de données avec un organisme subventionnaire ou un éditeur immédiatement. Veuillez noter que le lien vers le DOI ne sera pas actif tant que le dépôt ne sera pas approuvé par un curateur. Une fois la soumission terminée, vous ne pourrez plus apporter de modification aux données et aux métadonnées. Tout changement aux données ou aux métadonnées après la soumission devra être apporté en communiquant avec un curateur à [curators@frdr-dfdr.ca](mailto:curators@frdr-dfdr.ca).
 
@@ -242,12 +242,12 @@ Soumettre un jeu de données n’est pas un processus instantané. Plusieurs des
 Lorsque possible, nous vous suggérons de conserver une copie de vos données après les avoir soumis. Même si le DFDR crée automatiquement des copies de sauvegarde de tous les jeux de données, ce processus peut prendre jusqu’à 24 heures.
 
 ## Finaliser de la soumission
-Une fois le transfert des données terminé, vous pourrez examiner les métadonnées et la liste des fichiers avant de soumettre l’ensemble de données pour publication. Revenez à l’un des onglets précédents si vous souhaitez apporter des modifications aux métadonnées ou aux fichiers de données. Une fois que vous avez terminé la soumission, les modifications aux métadonnées et aux fichiers ne peuvent être apportées que par un responsable de l’intendance.
+Une fois le transfert des données terminé, vous pourrez examiner les métadonnées et la liste des fichiers avant de soumettre le jeu de données pour publication. Revenez à l’un des onglets précédents si vous souhaitez apporter des modifications aux métadonnées ou aux fichiers de données. Une fois que vous avez terminé la soumission, les modifications aux métadonnées et aux fichiers ne peuvent être apportées que par un responsable de l’intendance.
 
-Pour soumettre l’ensemble de données, cliquez sur le bouton Finish [Terminer]. Votre soumission sera examinée par un responsable de l’intendance avant d’être publiée dans le DFDR. Une fois que le responsable de l’intendance aura terminé l’examen de votre soumission, vous serez avisé par courriel et l’état passera à Complete [Terminé] dans votre tableau de bord de publication.
+Pour soumettre le jeu de données, cliquez sur le bouton Terminer [Terminer]. Votre soumission sera examinée par un Curateur avant d’être publiée dans le DFDR. Une fois que le Curateur aura terminé l’examen de votre soumission, vous serez avisé par courriel et l’état passera à Terminé [Terminé] dans votre tableau de bord de publication.
 
-Nous recommandons que toute publication ou référence à votre ensemble de données inclue le DOI.
+Nous recommandons que toute publication ou référence à votre jeu de données inclue le DOI.
 
 ## DOI
 
-Les DOI sont réservés au début du processus de soumission. Vous pouvez transmettre votre DOI à des éditeurs de revues ou des bureaux de recherche à tout moment; toutefois, le DOI ne sera pas un lien actif enregistré jusqu’à ce que votre ensemble de données soit examiné par les responsables de l’intendance du DFDR et approuvé pour publication.
+Les DOI sont réservés au début du processus de soumission. Vous pouvez transmettre votre DOI à des éditeurs de revues ou des bureaux de recherche à tout moment; toutefois, le DOI ne sera pas un lien actif enregistré jusqu’à ce que votre jeu de données soit examiné par les responsables de la curation du DFDR et approuvé pour publication.
