@@ -5,7 +5,7 @@ Une boîte de recherche est disponible sur plusieurs pages web du DFDR. Lancez u
 Vous pouvez filtrer et raffiner les résultants par :
 
 * Plage de date
-* Author
+* Auteur
 * Source
 
 Il existe trois façons de rechercher :

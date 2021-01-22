@@ -1,6 +1,4 @@
-[Portage](https://portagenetwork.ca/fr/), [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) et [l'Association des bibliothèques de recherche du Canada](http://www.carl-abrc.ca/fr/a-propos-de-labrc/) (ABRC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ils se réjouissent d'annoncer que le service du dépôt fédéré de données de recherche (DFDR) a maintenant terminé la phase bêta et entrera en production limitée.
-
-La version de production limitée du DFDR aura la même conception d'interface utilisateur et plusieurs des fonctionnalités attendues pour le lancement complet. Le dépôt de données est actuellement proposé comme un service "sur demande uniquement", sous réserve de la disponibilité et de la capacité des ressources. Si vous souhaitez déposer un ensemble de données, veuillez contacter support@frdr-dfdr.ca pour demander l'autorisation de déposer.
+[Portage](https://portagenetwork.ca/fr/), [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) et [l'Association des bibliothèques de recherche du Canada](http://www.carl-abrc.ca/fr/a-propos-de-labrc/) (ABRC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ces organisations ont le plaisir d’annoncer que le service du Dépôt fédéré de données de recherche (DFDR) a été lancé en production intégrale. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens ; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
 
 Une <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noopener noreferrer">version de démonstration</a> du site Web DFDR est disponible à des fins de formation et de test. La démo DFDR peut être utilisé pour en apprendre davantage sur les fonctionnalités de recherche et de dépôt de données de la plate-forme. Autant que possible, la démo sera tenue à jour avec la dernière version de la plateforme DFDR. Veuillez noter que toutes les données déposées dans la démo seront considérées comme des données « test » et ne seront disponibles que temporairement.
 
@@ -67,9 +65,9 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 ###Services de dépôt
 
 * Plateforme de dépôt
-    * Téléchargement et téléversement rapides et efficaces de grands ensembles de données par l’intermédiaire de Globus File Transfer et transferts au moyen du navigateur Web pour de petits ensembles de données.
+    * Téléchargement et téléversement rapides et efficaces de grands jeux de données par l’intermédiaire de Globus File Transfer et transferts au moyen du navigateur Web pour de petits jeux de données.
     * Interface utilisateur entièrement bilingue et documentation solide disponibles en français et en anglais.
-    * L’enregistrement des identifiants numériques d’objet (DOI) pour les ensembles de données offre un identificateur permanent qui peut être utilisé pour la citation de données
+    * L’enregistrement des identifiants numériques d’objet (DOI) pour les jeux de données offre un identificateur permanent qui peut être utilisé pour la citation de données
     * Soutien pour de multiples fournisseurs d’authentification, y compris Calcul Canada, ORCID et un nombre croissant d’établissements postsecondaires du Canada.
     * Embargos facultatifs sur les dossiers de données et de métadonnées.
     * Possibilité de collaboration de plusieurs personnes à une soumission.
@@ -82,6 +80,8 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
     * Stockage dans un dépôt sécurisé pendant au moins 10 ans.
     * Sauvegardes régulières et stockage de données de recherche réparti géographiquement.
     * Administration du système sur place et entretien continu de l’équipement.
+    * Les membres du corps professoral et leurs représentants dans les établissements postsecondaires canadiens auront accès à un espace de stockage volumineux dans le dépôt par
+      défaut. De l’espace de stockage supplémentaire peut être fourni sur demande.
 
 * Services de curation (offerts en coordination avec les chercheurs, le personnel de soutien à la gestion des données et les personnes-ressources locales pour la gestion des données de recherche institutionnelle)
     * Créer et examiner la documentation et les métadonnées pour expliquer et contextualiser les données.
@@ -90,7 +90,7 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
     * Établir un lien entre la documentation sur les données de recherche et d’autres produits de recherche, p. ex., les plans de gestion des données, les publications de données brutes et les articles de revues.
 
 ### Services de recherche
-* Emploi de l’outil de moissonnage de métadonnées et indexation des dépôts de données de recherche au Canada, y compris les ensembles de données hébergés dans la plateforme de dépôt du DFDR.
+* Emploi de l’outil de moissonnage de métadonnées et indexation des dépôts de données de recherche au Canada, y compris les jeux de données hébergés dans la plateforme de dépôt du DFDR.
 * Interface d’exploration avec fonctionnalité de recherche textuelle prise en charge par la Globus Search.
 * Fil de métadonnées recueillies du protocole OAI-PMH librement accessible.
 * [Geodisy](https://geo.frdr-dfdr.ca/) : interface de recherche géospatiale à l’aide de l’outil GeoBlacklight (actuellement en version beta)
@@ -134,9 +134,14 @@ Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisai
 * **Lee Wilson**, gestionnaire de services, Réseau Portage
 * **Kelly Stathis**, coordonnatrice de la découverte et des métadonnées, Réseau Portage
 * **Erin Clary**, coordonnatrice de la curation, Réseau Portage
+* **Nichole DeMichelis**, agente de curation, Réseau Portage
+* **Subhanya Sivajothy**, agente de curation, Réseau Portage
+* **Yvette Rancourt**, agente de curation, Réseau Portage
 * **Beth Knazook**, coordonnatrice de la préservation, Réseau Portage
-* **Melanie Parlette-Stewart**, coordonnatrice de la formation, Réseau Portage
+* **Jennifer Abel**, coordonnatrice de la formation, Réseau Portage
 * **Caitilín O’Hare**, agente des communications, Réseau Portage
+* **Victoria Smith**, coordonnatrice des politiques, de la confidentialité et des données sensibles, Réseau Portage
+* **Lucia Costanzo**, coordonnatrice de l’évaluation de la recherche et l’intelligence, Réseau Portage
 * **Mark Goodwin**, coordonnateur des métadonnées géospatiales, Université de la Colombie-Britannique
 * **Alex Garnett**, bibliothécaire de données de recherche et systèmes, Université Simon Fraser
 * **Neha Milan**, directrice des opérations, Université de la Saskatchewan
@@ -145,14 +150,18 @@ Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisai
 * **Adam McKenzie**, analyste de gestion des données de recherche, Université de la Saskatchewan
 * **Joel Farthing**, développeur, Université de la Saskatchewan
 * **Paul Dante**, développeur, Université de la Colombie-Britannique
+* **Jin Zhang**, développeur, Université Simon Fraser
 
-Remerciement spécial à Keith Jeffrey, ancien gestionnaire de projet, maintenant retraité.
+Remerciement spécial à **Keith Jeffrey**, ancien gestionnaire de projet, maintenant retraité. Nous remercions tout particulièrement **Melanie Parlette-Stewart**, ancienne coordonnatrice de la formation chez Portage, pour sa participation dans le DFDR.
 
 ## Chronologie du projet
 * Janvier 2016 : début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.
 * Septembre 2016 : lancement des essais alpha des interfaces des utilisateurs grâce à la contribution de code d’interface pour la découverte développé par l’Université de la Colombie-Britannique.
 * Avril 2017 : lancement des essais bêta et mise du projet en mode de production limitée avec un nombre restreint de groupes de recherche.
 * Août 2019 : CANARIE annonce un financement de 2 millions $ au Réseau Portage de l’ABRC, dont une partie sera consacrée à la mise en production intégrale du DFDR.
+* Septembre 2020 : Le financement pour le développement du DFDR est administré par la Nouvelle organisation d’infrastructure de recherche numérique (NOIRN).
+* Févr. 2021 : Lancement des services de dépôt du DFDR en production intégrale!
+
 
 ## Projet Geodisy
-La carte de recherche (bêta) Geodisy du DFDR est un outil de découverte en libre accès permettant aux utilisateurs de trouver des données ouvertes de chercheurs canadiens en utilisant la carte interactive. Les données de recherche peuvent être difficiles à trouver, surtout les données sur une région ou un lieu particulier. Voilà la force de Geodisy qui offre aux utilisateurs une fenêtre sur un monde de données de recherche avec des outils cartographiques familiers. Geodisy puise actuellement des données de la plateforme [Scholars Portal Dataverse](https://dataverse.scholarsportal.info/fr/), qui héberge du contenu provenant de divers établissements partout au Canada. Avec son outil Geodisy, le DFDR poursuivra l’agrandissement de ses collections en y ajoutant plus de sources institutionnelles.
+La recherche cartographique Geodisy du DFDR (bêta) est un outil de découverte à source ouverte qui permet aux utilisateurs de trouver des données ouvertes de chercheurs canadiens à l’aide d’une carte interactive. Les données de recherche peuvent être difficiles à trouver, et encore plus difficiles lorsqu’on cherche des données concernant une zone ou un endroit précis. Geodisy pallie cette difficulté en offrant aux utilisateurs une fenêtre sur le monde des données de recherche grâce à des outils cartographiques simples. Offerte actuellement en version bêta, la recherche cartographique comprend des jeux de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) avec des métadonnées de cadres englobants. Des jeux de données des dépôts Dataverse avec des métadonnées de localisation ou des fichiers géospatiaux sont également inclus. Le DFDR continuera d’élargir la collection de Geodisy pour inclure davantage d’jeux de données provenant de la liste des dépôts institutionnels du DFDR.

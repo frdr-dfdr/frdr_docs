@@ -140,14 +140,9 @@
   .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: white; }
   .navbar-inverse .navbar-nav > .dropdown > a .caret { border-top: 4px solid #424242; }
   #sitelogo {height: 110px; margin-right:-10px;}
-  #jumbo-mid-logo {height: 110px;}
-  #jumbo-mid-tagline { font-size: 24px; margin-top: 150px; margin-left:-10px;}
-  .frdr-jumbo-mid { min-height: 270px; }
 }
 
 @media only screen and (max-width : 500px) {
   .navbar-inverse .navbar-brand { font-size: 15px; }
   #sitelogo {height: 100px; margin-right:-35px;}
-  #jumbo-mid-tagline { font-size: 22px; margin-top: 150px; margin-left:-20px;}
-  .frdr-jumbo-mid { min-height: 240px; }
 }

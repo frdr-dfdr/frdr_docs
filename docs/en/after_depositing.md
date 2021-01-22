@@ -18,7 +18,7 @@ Note: Curator suggested changes are only implemented with the approval of the su
 
 ## Preservation
 
-Preservation comprises a series of actions meant to ensure the long-term accessibility of data. Actions carried out as part of FRDR’s preservation processing workflow include: file identification, validation, characterization, and normalization. All datasets submitted to FRDR currently undergo preservation processing.
+Preservation comprises a series of actions meant to ensure the long-term accessibility of data. Actions carried out as part of FRDR’s preservation processing workflow include: file identification, validation, characterization, and normalization. All datasets submitted to FRDR may be selected for preservation processing.
 
 After a dataset is approved by a curator, [checksums](https://en.wikipedia.org/wiki/Checksum) are calculated for each file in the dataset and recorded in a text file along with the name of each file and information about the type of file. This text file is appended to the dataset (frdr-checksums-and-filetypes.md), and is available to download on FRDR so researchers who wish to reuse the dataset can independently validate the integrity of the datafiles. Checksums are calculated using the [SHA-256](https://en.wikipedia.org/wiki/SHA-2) algorithm. We recommend using [QuickHash GUI](https://www.quickhash-gui.org/) for validation of that algorithm.
 

@@ -1,5 +1,21 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2020-12-16**:
+
+* Added preferred language option to new user form and user profile
+
+**2020-11-25**:
+
+* Allow custom licenses for datasets, available by contacting a FRDR curator and explaining the use case
+* Fixed a bug on the edit profile page when a user did not have their primary institution set
+* Added French keywords to the discovery detailed metadata view
+* Added keywords as a selection to the advanced search page
+* Fixed access to dataset during curation process
+* Add searchable and sortable user profiles page
+* Improved GUI user accessibility functionality on public-facing pages, including improved colour contrasts
+* Modified the item landing page citation format to align with Datacite suggested citation format
+
+
 **2020-10-28**:
 
 * Allow submitters to see the list of files for datasets that are published but still under embargo
