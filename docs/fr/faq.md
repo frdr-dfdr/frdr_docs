@@ -5,18 +5,18 @@ Les chercheurs principaux de toutes les disciplines de recherche peuvent soumett
 
 Veuillez consulter la politique sur la soumission de données pour plus d’informations.
 
-## 2. Après que j’ai soumis mon ensemble de données, quand sera-t-il trouvable ?
-Après avoir soumis votre ensemble de données, vous devez compléter les étapes suivantes pour que votre ensemble de données soit trouvable:
+## 2. Après que j’ai soumis mon jeu de données, quand sera-t-il trouvable ?
+Après avoir soumis votre jeu de données, vous devez compléter les étapes suivantes pour que votre jeu de données soit trouvable:
 
-* Le transfert de vos fichiers de données au DFDR doit être terminé. Cette étape peut être longue pour les ensembles de données volumineux.
+* Le transfert de vos fichiers de données au DFDR doit être terminé. Cette étape peut être longue pour les jeux de données volumineux.
 * Après la soumission, les curateurs seront informés qu’ils doivent examiner et approuver votre soumission. Un curateur devrait communiquer avec vous dans un délai de 2 jours ouvrables après la soumission de vos données.
-* Vous recevrez un courriel confirmant l’approbation de votre ensemble de données.
-* Après l’approbation d’un ensemble de données, les métadonnées de votre ensemble de données doivent être indexées. Cette étape peut prendre jusqu’à 20 minutes.
+* Vous recevrez un courriel confirmant l’approbation de votre jeu de données.
+* Après l’approbation d’un jeu de données, les métadonnées de votre jeu de données doivent être indexées. Cette étape peut prendre jusqu’à 20 minutes.
 
 ## 3. Comment puis-je mesurer l’impact de mon jeu de données?
 Diverses statistiques sont disponibles relativement aux données soumises dans le DFDR, y compris le nombre de vue et de fichiers téléchargés. Pour accéder à ces statistiques, rendez-vous sur la page d’accueil du jeu de données, puis cliquez sur le bouton « Voir les statistiques » au bas de la notice.
 
-## 4. Comment puis-je changer les métadonnées de mon ensemble de données après l’avoir soumis ?
+## 4. Comment puis-je changer les métadonnées de mon jeu de données après l’avoir soumis ?
 Pour faire une demande de changement de métadonnées, envoyez un message à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) et votre message sera transféré au curateur approprié.
 
 ## 5. Comment puis-je ajouter ou modifier un fichier de données après la soumission?
@@ -42,7 +42,7 @@ Voici ce qui arrive lorsqu’un utilisateur atteint son quota pour une collectio
 Si vous avez atteint votre limite de quota ou si vous pensez qu’une augmentation de quota est nécessaire pour une collection, veuillez communiquer à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## 10. Quelles fonctions de conservation sont offertes (archivage automatique de données soumises)?
-Pour l’instant, nous pouvons traiter des soumissions inférieures à 25 To. Si vous devez conserver un ensemble de données plus volumineux, communiquez à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Pour l’instant, nous pouvons traiter des soumissions inférieures à 25 To. Si vous devez conserver un jeu de données plus volumineux, communiquez à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## 11. Pourquoi suis-je incapable de télécharger un fichier avec mon fureteur (via HTTP)?
 Il peut y avoir plusieurs raisons: 
@@ -50,17 +50,17 @@ Il peut y avoir plusieurs raisons:
 * un fureteur ne peut pas télécharger un dossier ou une hiérarchie via HTTP.
 * Nous avons une limite de 10 Go pour les téléchargements via HTTP.
 
-## 12. Puis-je obtenir un DOI avant de déposer mon ensemble de données?
-Une fois que vous avez entamé le processus de dépôt de votre ensemble de données, le DOI de votre dépôt en cours sera indiqué dans la liste des dépôts incomplets dans le tableau de bord de publication des données. Pour accéder au tableau de bord de publication des données à partir d’un dépôt en cours, cliquez sur « Enregistrer et quitter ». Veuillez noter que le DOI ne pourra pas être résolu tant que votre dépôt n’aura pas été approuvé pour la publication.
+## 12. Puis-je obtenir un DOI avant de déposer mon jeu de données?
+Une fois que vous avez entamé le processus de dépôt de votre jeu de données, le DOI de votre dépôt en cours sera indiqué dans la liste des dépôts incomplets dans le tableau de bord de publication des données. Pour accéder au tableau de bord de publication des données à partir d’un dépôt en cours, cliquez sur « Enregistrer et quitter ». Veuillez noter que le DOI ne pourra pas être résolu tant que votre dépôt n’aura pas été approuvé pour la publication.
 
-## 13. Comment puis-je lier mon ensemble de données à une publication, un ensemble de données ou un autre produit de recherche connexe?
-Si vous avez une publication, un ensemble de données ou un autre produit de recherche lié à votre ensemble de données, nous vous incitons à relier ces productions connexes lorsque vous soumettez vos données au DFDR.
+## 13. Comment puis-je lier mon jeu de données à une publication, un jeu de données ou un autre produit de recherche connexe?
+Si vous avez une publication, un jeu de données ou un autre produit de recherche lié à votre jeu de données, nous vous incitons à relier ces productions connexes lorsque vous soumettez vos données au DFDR.
 
 Pour relier des produits de recherche connexes, utilisez le champ de métadonnées « identifiant connexe » pour ajouter l’identifiant numérique d’objet (DOI) des éléments connexes. Pour chaque élément, entrez le DOI et sélectionnez le type de relation dans le menu défilant. De plus amples informations sur le champ « identifiant connexe » sont disponibles dans la [documentation sur le dépôt de données](https://www.frdr-dfdr.ca/docs/fr/d%C3%A9poser_les_donn%C3%A9es/).
 
-Si vous soumettez plusieurs ensembles de données connexes au DFDR, notez que les DOI sont réservés dès que vous commencez un dépôt d’ensemble de données. Par conséquent, vous devez utiliser les DOI comme identificateurs connexes pour les soumissions concomitantes.
+Si vous soumettez plusieurs jeux de données connexes au DFDR, notez que les DOI sont réservés dès que vous commencez un dépôt de jeu de données. Par conséquent, vous devez utiliser les DOI comme identificateurs connexes pour les soumissions concomitantes.
 
-Pour ajouter des identifiants connexes après la soumission de votre ensemble de données, veuillez communiquer avec un curateur à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Pour ajouter des identifiants connexes après la soumission de votre jeu de données, veuillez communiquer avec un curateur à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## 14. Quels outils puis-je utiliser pour calculer la somme de contrôle?
 Il existe un outil gratuit pour calculer les sommes de contrôle SHA-256 : [https://quickhash-gui.org/](https://quickhash-gui.org/)
@@ -69,10 +69,10 @@ Il existe un outil gratuit pour calculer les sommes de contrôle SHA-256 : [http
 La connexion au DFDR sera annulée après 60 minutes d’inactivité. Ainsi, si vous passez à l’écran suivant en moins de 60 minutes, vous resterez connecté. Si vous avez besoin de plus de temps, veuillez enregistrer votre progression et y revenir après avoir préparé votre texte pour le copier-coller.
 
 ## 16. Quels jeux de données puis-je chercher dans Geodisy?
-Geodisy offre une recherche cartographique complémentaire au service de découverte du DFDR. La recherche cartographique est actuellement en version bêta et indexe un sous-ensemble des jeux de données disponibles par le biais de la recherche principale du DFDR. Geodisy inclut les ensembles de données avec des métadonnées de délimitation valides de tous les dépôts moissonnés par le DFDR. Les ensembles de données du dépôt Dataverse moissonnés par le DFDR qui ont des métadonnées de localisation ou des fichiers géospatiaux sont également inclus si les métadonnées de localisation répondent aux critères d’inclusion de Geodisy ou si le logiciel de Geodisy peut interpréter le fichier géospatial. Les responsables du DFDR travaillent activement à élargir les capacités d’interprétation des métadonnées de localisation et des fichiers géospatiaux à tous les autres dépôts indexés en dehors de Dataverse. Pour une FAQ plus complète au sujet de Geodisy, cliquez [ici](https://github.com/ubc-library/geodisy/blob/master/Documentation/userguides/FAQ.md).
+Geodisy offre une recherche cartographique complémentaire au service de découverte du DFDR. La recherche cartographique est actuellement en version bêta et indexe un sous-jeu des jeux de données disponibles par le biais de la recherche principale du DFDR. Geodisy inclut les jeux de données avec des métadonnées de délimitation valides de tous les dépôts moissonnés par le DFDR. Les jeux de données du dépôt Dataverse moissonnés par le DFDR qui ont des métadonnées de localisation ou des fichiers géospatiaux sont également inclus si les métadonnées de localisation répondent aux critères d’inclusion de Geodisy ou si le logiciel de Geodisy peut interpréter le fichier géospatial. Les responsables du DFDR travaillent activement à élargir les capacités d’interprétation des métadonnées de localisation et des fichiers géospatiaux à tous les autres dépôts indexés en dehors de Dataverse. Pour une FAQ plus complète au sujet de Geodisy, cliquez [ici](https://github.com/ubc-library/geodisy/blob/master/Documentation/userguides/FAQ.md).
 
 
 ## 17. Est-il possible de téléverser un fichier de métadonnées au lieu de saisir l’information dans le formulaire de soumission?
-Oui. Si vous avez un grand nombre d’ensembles de données à téléverser dans le DFDR, vous pouvez soumettre les métadonnées pour chacun dans un fichier JSON destiné à un conservateur pour le téléversement. Le fichier contenant vos métadonnées peut être créé avec un éditeur ou un script peut être écrit pour générer le fichier de métadonnées.
+Oui. Si vous avez un grand nombre des jeux de données à téléverser dans le DFDR, vous pouvez soumettre les métadonnées pour chacun dans un fichier JSON destiné à un conservateur pour le téléversement. Le fichier contenant vos métadonnées peut être créé avec un éditeur ou un script peut être écrit pour générer le fichier de métadonnées.
 Veuillez communiquer avec un curateur à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour plus d’information sur le format nécessaire pour le téléversement de métadonnées.
 
