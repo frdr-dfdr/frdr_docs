@@ -17,7 +17,6 @@ nav:
         - "Change Log": en/change_log.md
         - "FAIR Principles": en/fair_principles.md
         - "Style Guide": en/style_guide.md
-        - "Contact Us": en/contact_support.md
     - French:
         - "À propos": fr/a_propos.md
         - "Recherche de jeux de données": fr/recherche.md
@@ -30,7 +29,6 @@ nav:
         - "FAQ": fr/faq.md
         - "Principes FAIR": fr/principes_fair.md
         - "Guide de style": fr/guide_de_style.md
-        - "Contactez nous": fr/contactez_nous.md
 
 extra_css:
     - css/docs-theme.css
@@ -51,7 +49,6 @@ extra:
             "FAQ": fr/faq/
             "FAIR Principles": fr/principes_fair/
             "Style Guide": fr/guide_de_style/
-            "Contact Us": fr/contactez_nous/
             "Advanced": fr/avancee/
         fr:
             "À propos": en/about/
@@ -64,5 +61,4 @@ extra:
             "FAQ": en/faq/
             "Principes FAIR": en/fair_principles/
             "Guide de style": en/style_guide/
-            "Contactez nous": en/contact_support/
             "Avancée": en/advanced/
