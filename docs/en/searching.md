@@ -26,7 +26,31 @@ This search returns datasets where the title includes the word “forest” or t
 
 The following fields are included in the metadata schema and may be searched using the **query syntax field name** indicated. These field names are case sensitive.
 
-%%%%%%%% Adam to include table here %%%%%%%%%%%%%%%%
+Field name         | Query syntax field name      | Notes
+-------------------|------------------------------|------
+ACCESS             | frdr_access                  |
+AUTHOR             | author                       | dc_contributor_author may also be used
+AUTHOR_AFFILIATION | datacite_creatorAffiliation  |
+CONTRIBUTOR        | dc_contributor               |
+SOURCE             | frdr_origin_id               |
+DESCRIPTION_EN     | description                  | dc_description_en may also be used
+DESCRIPTION_FR     | dc_description_fr            |
+ITEM_URL           | item_url                     |
+KEYWORD_EN         | keyword                      | frdr_keyword_en may also be used
+KEYWORD_FR         | frdr_keyword_en              |
+PUBLISHER          | dc_publisher                 |
+RIGHTS             | dc_rights                    |
+SERIES             | frdr_series                  |
+DATE               | date                         | dc_date may also be used
+SUBJECT_EN         | frdr_subject_en              |
+SUBJECT_FR         | frdr_subject_fr              |
+TITLE_EN           | title                        | dc_title_en may also be used
+TITLE_FR           | dc_title_fr                  |
+TYPE               | datacite_resourceTypeGeneral | This always has the value "Dataset".
+DATE_COLLECTED     | datacite_dateCollected       | For datasets deposited directly in FRDR only
+GEOLOCATION_PLACE  | datacite_geolocationPlace    |
+GEOLOCATION_BOX    | datacite_geolocationBox      |
+GEOLOCATION_POINT  | datacite_geolocationPoint    |
 
 #### Constructing search terms
 
