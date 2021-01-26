@@ -19,7 +19,15 @@ Note that accented characters are distinguished from unaccented characters. That
 
 ### 2. Advanced Search interface
 
-Clicking on the advanced search link will allow you to specify more parameters, via drop down menus, including: title, author, description, or keyword.
+The [Advanced Search interface](https://www.frdr-dfdr.ca/discover/html/adv-search.html?lang=en) supports the following functionality:
+
+* narrow results to a specific source repository
+* search within a specific field (Author, Date, Description, Keyword, Title)
+* construct boolean queries using AND, OR, and NOT (this is case sensitive)
+* specify “All of these words”, “Any of these words”, or “This exact phrase” for each search term
+
+The Advanced Search interface provides a graphical interface for generating select queries using the search query syntax described above. 
+
 
 ### 3. Using Search syntax
 
@@ -48,9 +56,7 @@ This would include any (fully specified) custom metadata fields created for a pa
 
 ### 4. Map Search (beta)
 
-FRDR’s Geodisy map search is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Currently in beta, the map search only indexes selected datasets from Scholars Portal Dataverse with location metadata and/or geospatial files. You can find more information on Geodisy and how to use it in the [FAQ](https://github.com/ubc-library/geodisy/blob/master/Documentation/factsheet.md). Go directly to the map search at [https://geo.frdr.ca/].
-
-This feature is currently under development.
+FRDR’s [Geodisy map search (beta)](https://geo.frdr-dfdr.ca/) is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Research data can be hard to find, and even harder when looking for data about a specific area or place. Geodisy changes that, giving users a window into the world of research data with straightforward map-based tools. Currently in beta, the map search includes datasets from [repositories indexed by FRDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=en) with bounding box metadata. Dataverse repository datasets with location metadata and/or geospatial files are also included. FRDR’s Geodisy will continue to expand upon its collection to include more datasets from FRDR’s source list of institutional repositories.
 
 ## Viewing or downloading
 On the search results page each matching dataset discovered is shown with:
