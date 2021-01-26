@@ -26,7 +26,31 @@ Cette recherche relève des jeux de données dont le titre contient le mot « 
 
 Les champs suivants sont inclus dans le schéma de métadonnées et peuvent être recherchés en utilisant le nom de champ dans la syntaxe de recherche indiquée. Ces noms de champ sont sensibles à la casse.
 
-&&&&&&&&& Adam, table to go here &&&&&&&&&&
+Field name         | Query syntax field name      | Notes[CO1]
+-------------------|------------------------------|----------------------------------------------
+ACCESS             | frdr_access                  |
+AUTHOR             | author                       | dc_contributor_author peut aussi être utilisé
+AUTHOR_AFFILIATION | datacite_creatorAffiliation  |
+CONTRIBUTOR        | dc_contributor               |
+SOURCE             | frdr_origin_id               |
+DESCRIPTION_EN     | description                  | dc_description_en peut aussi être utilisé
+DESCRIPTION_FR     | dc_description_fr            |
+ITEM_URL           | item_url                     |
+KEYWORD_EN         | keyword                      | frdr_keyword_en peut aussi être utilisé
+KEYWORD_FR         | frdr_keyword_en              |
+PUBLISHER          | dc_publisher                 |
+RIGHTS             | dc_rights                    |
+SERIES             | frdr_series                  |
+DATE               | date                         | dc_date peut aussi être utilisé
+SUBJECT_EN         | frdr_subject_en              |
+SUBJECT_FR         | frdr_subject_fr              |
+TITLE_EN           | title                        | dc_title_en peut aussi être utilisé
+TITLE_FR           | dc_title_fr                  |
+TYPE               | datacite_resourceTypeGeneral | Ceci a toujours la veleur « Dataset ».
+DATE_COLLECTED     | datacite_#dateCollected      | Pour les jeux de données déposés directement dans le DFDR uniquement
+GEOLOCATION_PLACE  | datacite_geolocationPlace    |
+GEOLOCATION_BOX    | datacite_geolocationBox      |
+GEOLOCATION_POINT  | datacite_geolocationPoint    |
 
 #### Créer des termes de recherche
 
