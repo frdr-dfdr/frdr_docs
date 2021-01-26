@@ -38,11 +38,11 @@
                     <a href="." class="dropdown-toggle" data-toggle="dropdown">{% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-			{% if '/en/' in page.canonical_url %}
+                        {% if '/en/' in page.canonical_url %}
                         <li><a href="/docs/fr/a_propos/">Français</a></li>
-			{% else %}
+                        {% else %}
                         <li><a href="/docs/en/about/">English</a></li>
-			{% endif %}
+                        {% endif %}
                     </ul>
                 </ul>
 
@@ -93,7 +93,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez-nous{% endif %}</a>
+                        <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez-nous{% endif %}</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
