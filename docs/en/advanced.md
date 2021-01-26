@@ -18,7 +18,7 @@ For more information, please see the Metadata Harvesting Policy.
 If you would like to include your repository’s metadata in FRDR, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20re%20harvesting%20a%20repository) to discuss the process.
 
 ## ProQuest Central Discovery Index
-All datasets harvested by the Federated Research Data Repository (FRDR) are now available via the ProQuest Central Discovery Index (CDI). Here are the instructions to make FRDR discoverable  in ProQuestinterfaces, including Summon, Primo, and Alma. By following the instructions, you will make all of FRDR's data—more than 117,000 datasets—visible for your users.
+All datasets harvested by the Federated Research Data Repository (FRDR) are now available via the ProQuest Central Discovery Index (CDI). Here are the instructions to make FRDR discoverable  in ProQuest interfaces, including Summon, Primo, and Alma. By following the instructions, you will make all of FRDR's data—more than 117,000 datasets—visible for your users.
 
 1. Navigate to your library’s ProQuest Client Center: https://clientcenter.serialssolutions.com/CC/Login/Default.aspx <br/>
 2. Search for Database > Name Contains > FRDR <br/>
