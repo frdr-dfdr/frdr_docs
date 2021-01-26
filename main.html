@@ -52,7 +52,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                    <a href="mailto:support@frdr-dfdr.ca">{% if '/en/' in page.canonical_url %}Feedback{% else %}Commentaires{% endif %}</a>
+                        <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez-nous{% endif %}</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
