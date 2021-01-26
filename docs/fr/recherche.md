@@ -16,7 +16,14 @@ Entrez un ou plusieurs termes de recherche dans la boîte. Les résultats (au mo
 Prenez note que les caractères accentués sont considérés comme distincts des caractères non accentués. Ainsi, une recherche pour Quebec retournera des résultats différents qu’une recherche pour Québec.
 
 ### 2. Interface de recherche avancée
-Cliquez sur le lien Recherche avancée pour préciser plus de paramètres de recherche, au moyen de menus déroulants, y compris : le titre, l’auteur, la description ou le mot-clé.
+L’interface de [recherche avancée](https://www.frdr-dfdr.ca/discover/html/adv-search.html?lang=fr) prend en charge les fonctionnalités suivantes :
+
+* restreindre les résultats à un dépôt source précis ;
+* chercher dans un champ particulier (Author, Date, Description, Keyword, Title) ;
+* construire des requêtes booléennes en utilisant AND, OR et NOT (les opérateurs sont sensibles à la casse) ;
+* préciser « Tous ces mots », « Un de ces mots » ou « Cette expression exacte » pour chaque terme de recherche.
+
+L’interface de recherche avancée fournit une interface graphique permettant de générer des requêtes sélectionnées en utilisant la syntaxe de requête de recherche décrite précédemment.
 
 ### 3. Recherche par syntaxe
 Les chercheurs peuvent préciser une requête plus complexe au moyen d’un sous-ensemble de commandes de la syntaxe d’[ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax). Cette syntaxe est puissante, mais ne laisse pas place à l’erreur.
@@ -85,3 +92,5 @@ Cette recherche pourra repérer un jeu de données du James Clerk Maxwell Telesc
 
 Les champs de métadonnées personnalisés ne sont pas accessibles à partir des menus déroulants de la page de Recherche avancée et ne sont pas accessibles comme facette de recherche. Cependant, tous les schémas de métadonnées personnalisés sont indexés dans le DFDR et disponibles pour la recherche.
 
+### 4. Recherche par carte (beta)
+La [recherche cartographique Geodisy (bêta)](https://geo.frdr-dfdr.ca/) du DFDR est un outil de découverte à code source ouvert qui permet aux utilisateurs de trouver des données ouvertes de chercheurs canadiens en utilisant une carte interactive. Les données de recherche sont parfois difficiles à trouver, et encore plus difficiles lorsqu’on cherche des données sur une région ou un lieu en particulier. Geodisy pallie cette difficulté en offrant aux utilisateurs une fenêtre sur le monde des données de recherche grâce à des outils cartographiques simples. Actuellement offerte en version bêta, la recherche cartographique inclut des jeux de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) avec des métadonnées de cadres englobants. Des jeux de données des dépôts Dataverse avec des métadonnées de localisation ou des fichiers géospatiaux sont également inclus. Le DFDR continuera d’élargir la collection de Geodisy pour inclure davantage des jeux de données provenant de la liste des dépôts institutionnels du DFDR.
