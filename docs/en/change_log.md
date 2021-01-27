@@ -1,5 +1,12 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-01-27**:
+
+* Renamed Category to Subject in detailed metadata view
+* Added new GeoSpatial fields to detailed metadata view
+* Added DateCollected field to detailed metadata view
+* Added list of contributors to detailed metadata view
+
 **2020-12-16**:
 
 * Added preferred language option to new user form and user profile
