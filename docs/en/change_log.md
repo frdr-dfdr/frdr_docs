@@ -6,7 +6,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Quota enforcement is now in place; the default allocation for new users is 1 TB
 * Fixed a problem with Google Dataset search indexing for datasets with custom licenses
 * Enforce 1-1-1 mapping between Funder name, award title and award name in submission
-* FRDR policies have been moved to a new location https://www.frdr-dfdr.ca/policies/ and all policies are now available in both French and English
+* FRDR policies have been moved to a new location [https://www.frdr-dfdr.ca/policies/](https://www.frdr-dfdr.ca/policies/) and all policies are now available in both French and English
 * Map based search is now getting metadata from all repositories that FRDR harvests
 * Fixed a bug where English keywords were missing for certain harvested repositories
 * Added a 30 day warning email to depositers for datasets coming out of embargo
