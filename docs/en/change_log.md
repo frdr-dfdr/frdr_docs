@@ -2,10 +2,22 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2021-01-27**:
 
-* Renamed Category to Subject in detailed metadata view
-* Added new GeoSpatial fields to detailed metadata view
-* Added DateCollected field to detailed metadata view
-* Added list of contributors to detailed metadata view
+* Installed and configured equipment at two hosting institutions: Simon Fraser and University of Waterloo
+* Quota enforcement is now in place; the default allocation for new users is 1 TB
+* Fixed a problem with Google Dataset search indexing for datasets with custom licenses
+* Enforce 1-1-1 mapping between Funder name, award title and award name in submission
+* FRDR policies have been moved to a new location https://www.frdr-dfdr.ca/policies/ and all policies are now available in both French and English
+* Map based search is now getting metadata from all repositories that FRDR harvests
+* Fixed a bug where English keywords were missing for certain harvested repositories
+* Added a 30 day warning email to depositers for datasets coming out of embargo
+* Updated the list of metadata contributor types
+* Updated the list of metadata relation types
+* Added a "Contact Us" form
+* Added a form for existing users to fill out their profile details
+* Curators can now view datasets before claiming them
+* Curators can now view other curator's tasks
+* Improved French and English wording and translations across the entire service, including user notification emails
+* Update detailed view in search results: Renamed Category to Subject, Added new GeoSpatial fields, Added DateCollected field, Added list of contributors
 
 **2020-12-16**:
 
