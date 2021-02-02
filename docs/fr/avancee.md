@@ -17,7 +17,7 @@ Pour plus d’informations, veuillez consulter la politique sur le moissonnage d
 Si vous souhaitez ajouter les métadonnées de votre dépôt au DFDR, veuillez communiquer à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20harvesting%20a%20repository) pour discuter du processus à suivre.
 
 ## ProQuest Central Discovery Index
-Tous les ensembles de données moissonnées par le dépôt fédéré de données de recherche (DFDR) sont maintenant disponibles via le ProQuest Central Discovery Index (CDI). Voici les instructions pour rendre le DFDR découvrable dans les interfaces de ProQuest, y compris Summon, Primo et Alma. En suivant les instructions, vous rendrez toutes les données du DFDR – plus de 117,000 ensembles de données – visible pour vos utilisateurs.<br/>
+Tous les jeux de données moissonnées par le dépôt fédéré de données de recherche (DFDR) sont maintenant disponibles via le ProQuest Central Discovery Index (CDI). Voici les instructions pour rendre le DFDR découvrable dans les interfaces de ProQuest, y compris Summon, Primo et Alma. En suivant les instructions, vous rendrez toutes les données du DFDR – plus de 117,000 ensembles de données – visible pour vos utilisateurs.<br/>
 
 1. Naviguez au ProQuest Client Center de votre bibliothèque : https://clientcenter.serialssolutions.com/CC/Login/Default.aspx
 2. Rechercher Base de données > Nom contient > FRDR <br/>
