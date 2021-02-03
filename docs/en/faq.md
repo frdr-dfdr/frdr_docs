@@ -76,3 +76,15 @@ Geodisy provides map search functionality to supplement the FRDR discovery servi
 Yes. If you have a large number of datasets to upload to FRDR, you may submit metadata for each in a JSON file for a curator for upload. The file containing your metadata could be created with an editor, or a script could be written to generate the metadata file.
 
 Please contact a curator at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) for information on the format required for metadata upload.
+
+### 18. Why can't I log in using my ORCID account?
+The common cause for not being able to log in with an ORCID account is an Adblocker Addon / Plugin that is blocking the ORCID or Globus website. The Adblocker either causes an error or it gets stuck logging in.
+
+To confirm this is the issue try disabling your Adblocker before logging in. To disable: click on your Adblocker icon in the top right corner of your browser then turn it off. Then try logging into FRDR with your ORCID account.
+
+If you are able to log in after disabling your Adblocker you will need to add Adblocker exceptions / whitelist to the following websites:
+
+* [globus.org](https://www.globus.org/)
+* [orcid.org](https://orcid.org/)
+* [globusid.org](https://globusid.org/)
+
