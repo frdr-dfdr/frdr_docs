@@ -76,3 +76,15 @@ Geodisy offre une recherche cartographique complémentaire au service de découv
 Oui. Si vous avez un grand nombre des jeux de données à téléverser dans le DFDR, vous pouvez soumettre les métadonnées pour chacun dans un fichier JSON destiné à un conservateur pour le téléversement. Le fichier contenant vos métadonnées peut être créé avec un éditeur ou un script peut être écrit pour générer le fichier de métadonnées.
 Veuillez communiquer avec un curateur à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour plus d’information sur le format nécessaire pour le téléversement de métadonnées.
 
+### 18. Pourquoi je n’arrive pas à ouvrir une session à l’aide de mon compte ORCID?
+La cause la plus fréquente de l’impossibilité d’ouvrir une session avec un compte ORCID est un bloqueur de publicités qui bloque le site Web d’ORCID ou de Globus. Le bloqueur de publicités cause une erreur ou bloque l’ouverture de la session.
+
+Pour confirmer qu’il s’agit de ce problème, essayez de désactiver votre bloqueur de publicités avant d’ouvrir une session. Pour ce faire, cliquez sur l’icône de votre bloqueur de publicités dans le coin supérieur droit de votre navigateur, puis désactivez-le. Essayez ensuite d’ouvrir une session dans le DFDR avec votre compte ORCID.
+
+Si vous êtes capable d’ouvrir une session après avoir désactivé votre bloqueur de publicités, vous devrez ajouter des exceptions pour les sites Web suivants ou inscrire ces sites sur la liste blanche de votre bloqueur de publicités :
+
+* [globus.org](https://www.globus.org/)
+* [orcid.org](https://orcid.org/)
+* [globusid.org](https://globusid.org/)
+
+
