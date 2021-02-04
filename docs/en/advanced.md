@@ -29,6 +29,7 @@ All datasets harvested by the Federated Research Data Repository (FRDR) are now 
 
 Please contact support@frdr-dfdr.ca if you need assistance.
 
+We are aware that Alma users are unable to add the FRDR collection at this time. More information and updated instructions will be added as soon as we have them.
 
 ## For developers
 This documentation is for users who want to develop applications or web sites that use FRDR technology.
