@@ -28,6 +28,8 @@ Tous les jeux de données moissonnées par le dépôt fédéré de données de r
 
 Veuillez contacter [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20ProQuest%20Central%20Discovery%20Index) si vous avez besoins d’aide.
 
+Nous sommes conscients que les utilisateurs d'Alma ne sont pas en mesure d'ajouter la collection du DFDR en ce moment. De plus amples informations et des instructions mises à jour seront ajoutées dès que possible.
+
 ## Pour les développeurs
 La présente documentation s’adresse aux utilisateurs qui souhaitent développer des applications ou des sites web faisant appel à la technologie du DFDR.
 
