@@ -1,5 +1,5 @@
 ---
-hidenav: true
+hidesidebar: true
 ---
 [Portage](https://portagenetwork.ca/fr/), [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) et [l'Association des bibliothèques de recherche du Canada](http://www.carl-abrc.ca/fr/a-propos-de-labrc/) (ABRC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ces organisations ont le plaisir d’annoncer que le service du Dépôt fédéré de données de recherche (DFDR) a été lancé en production intégrale. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens ; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
 

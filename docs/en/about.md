@@ -1,5 +1,5 @@
 ---
-hidenav: true
+hidesidebar: true
 ---
 [Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has now launched in full production. Anyone can now use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
 
