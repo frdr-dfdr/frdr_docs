@@ -5,24 +5,24 @@ theme:
     custom_dir: 'frdr_theme'
 nav:
     - English:
-        - "Searching for Datasets": en/searching.md
         - "Preparing Your Data": en/preparing_your_data.md
         - "Before Depositing": en/before_depositing.md
         - "Describing Your Data": en/describing_your_data.md
         - "Depositing Data": en/depositing_data.md
         - "After Depositing": en/after_depositing.md
+        - "Searching for Datasets": en/searching.md
         - "Advanced": en/advanced.md
         - "FAQ": en/faq.md
         - "Change Log": en/change_log.md
         - "FAIR Principles": en/fair_principles.md
         - "Style Guide": en/style_guide.md
     - French:
-        - "Recherche de jeux de données": fr/recherche.md
         - "Préparation de vos données": fr/préparation_de_vos_données.md
         - "Avant de déposer": fr/avant_de_déposer.md
         - "Description de vos données": fr/description_de_vos_données.md
         - "Déposer les données": fr/déposer_les_données.md
         - "Après le dépôt": fr/après_le_dépôt.md
+        - "Recherche de jeux de données": fr/recherche.md
         - "Avancée": fr/avancee.md
         - "FAQ": fr/faq.md
         - "Principes FAIR": fr/principes_fair.md
@@ -33,8 +33,8 @@ extra_css:
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
     prefix: "/"
-    default_page_en: en/searching/
-    default_page_fr: fr/recherche/
+    default_page_en: en/preparing_your_data/
+    default_page_fr: fr/préparation_de_vos_données/
     language_map:
         en:
             "About": fr/a_propos/
