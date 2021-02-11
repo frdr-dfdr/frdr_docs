@@ -5,7 +5,6 @@ theme:
     custom_dir: 'frdr_theme'
 nav:
     - English:
-        - "About": en/about.md
         - "Searching for Datasets": en/searching.md
         - "Preparing Your Data": en/preparing_your_data.md
         - "Before Depositing": en/before_depositing.md
@@ -18,7 +17,6 @@ nav:
         - "FAIR Principles": en/fair_principles.md
         - "Style Guide": en/style_guide.md
     - French:
-        - "À propos": fr/a_propos.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Préparation de vos données": fr/préparation_de_vos_données.md
         - "Avant de déposer": fr/avant_de_déposer.md
@@ -35,8 +33,8 @@ extra_css:
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
     prefix: "/"
-    default_page_en: en/about/
-    default_page_fr: fr/a_propos/
+    default_page_en: en/searching/
+    default_page_fr: fr/recherche/
     language_map:
         en:
             "About": fr/a_propos/

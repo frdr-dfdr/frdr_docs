@@ -12,7 +12,7 @@ Submitters are expected to work with curators during the review process to:
 * Replace any files with technical issues (e.g. files flagged by a malware scan or corrupted files).
 * Address any potential issues curators might flag related to intellectual property rights and secondary use of data, or potential sensitivities in the data related to privacy, Indigenous ownership, or location information.
 
-Curators may return a submission if they decide it needs additional preparation or does not meet the criteria for publication in FRDR as outlined above and in the FRDR [Terms of Use](terms_of_use.md). If curators do return a submission, they will provide comments indicating their reasons and suggest what a submitter can do to revise the dataset before resubmitting. 
+Curators may return a submission if they decide it needs additional preparation or does not meet the criteria for publication in FRDR as outlined above and in the FRDR [Terms of Use](/policies/en/terms_of_use/). If curators do return a submission, they will provide comments indicating their reasons and suggest what a submitter can do to revise the dataset before resubmitting. 
 
 Note: Curator suggested changes are only implemented with the approval of the submitter.
 

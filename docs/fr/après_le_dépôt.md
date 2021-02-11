@@ -14,7 +14,7 @@ On s’attend à ce que les auteurs travaillent avec les responsables de la cura
 * Remplacer tous les fichiers ayant des problèmes techniques (p. ex. les fichiers marqués par balayage de maliciel ou des fichiers corrompus).
 * Régler tout problème potentiel que les responsables de la curation pourraient signaler relativement aux droits de propriété intellectuelle et à l’utilisation secondaire des données, ou au caractère potentiellement sensible des données en matière de vie privée, de propriété autochtone ou d’information sur l’emplacement.
 
-Les responsables de la curation peuvent retourner une soumission s’ils décident qu’elle nécessite une préparation supplémentaire ou qu’elle ne répond pas aux critères de publication dans le DFDR décrits ci-dessus et dans les [conditions d’utilisation](conditions_d'utilisation.md) du DFDR. Si les responsables de la curation retournent une soumission, ils en donneront le motif et indiqueront ce que l’auteur peut faire pour réviser le jeu de données avant de la soumettre de nouveau. 
+Les responsables de la curation peuvent retourner une soumission s’ils décident qu’elle nécessite une préparation supplémentaire ou qu’elle ne répond pas aux critères de publication dans le DFDR décrits ci-dessus et dans les [conditions d’utilisation](/policies/fr/conditions_d'utilisation/) du DFDR. Si les responsables de la curation retournent une soumission, ils en donneront le motif et indiqueront ce que l’auteur peut faire pour réviser le jeu de données avant de la soumettre de nouveau. 
 Note : Les modifications suggérées par le responsable de la curation ne sont mises en œuvre qu’avec l’approbation de l’auteur de la soumission.
 
 ## Préservation

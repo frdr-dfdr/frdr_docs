@@ -98,8 +98,8 @@
           </div><!-- /.container-fluid -->
         </nav>
     <div class="container row">
+        {% if nav|length>1 and not page.meta.hidenav %}
         <div class="col-md-3 frdr-sidebar">
-        {% if nav|length>1 %}
             <ul>
             {% for nav_item in nav %}
                 {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
@@ -141,8 +141,10 @@
                 </li>
             {% endfor %}
             </ul>
-        {% endif %}
         </div>
+        {% else %}
+        <div class="col-md-3"></div>
+        {% endif %}
     <div class="col-md-9">
         <h1>{{ page.title }}</h1>
         {{ page.content }}
