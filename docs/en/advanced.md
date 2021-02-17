@@ -44,7 +44,7 @@ The Search API has two forms. Simple queries (for example, those not defining fa
 
 *GET Method*
 
-URL: https://search.api.globus.org/v1/index/frdr/search?q=term
+URL: https://search.api.globus.org/v1/index/ea384560-88cf-4e6e-b379-956793192fe8/search?q=term
 
 Query Parameters:
 
