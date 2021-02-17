@@ -13,6 +13,17 @@
 
 * “This file contains collated data of the AHR1 ligand binding domain subtypes, embryonic dioxin EC50 values, and 17 life history traits for 89 avian species. The traits included in this dataset are indicative of each species's developmental rate, fecundity, level of contaminant depuration into the egg, body size, longevity, migration strategy, range, habitat type, trophic level, and degree of sociality and sexual competition. Most birds in this dataset are North American species. These data are associated with the article, "Species traits predict the aryl hydrocarbon receptor 1 (AHR1) subtypes responsible for dioxin sensitivity in birds" by Bianchini and Morrissey (2020). The data were used to investigate the relationship between species traits, phylogeny, and AHR1 subtypes in birds.” (doi:10.20383/101.0257)
 
+**Keywords**: List subjects, keywords, classification codes, and/or key phrases describing the dataset. You may include any terms, which may be taken from a controlled vocabulary (e.g. [OCLC FAST](http://fast.oclc.org/searchfast/)). Geographic locations should be placed under Geographical Metadata.
+
+<ins>Examples:</ins>
+
+* Ornithology
+* Sterna paradisaea
+* Sea birds
+* Migration
+* rDNA
+* Breeding
+
 **Author**: Enter the name, affiliation(s), and ORCID iD for each author or researcher who produced the dataset. You may include multiple authors.
 
 * **Author**: Enter the Last Name and First Name.
@@ -63,17 +74,6 @@ The following licenses may also be selected by clicking the “More” button:
 Note that a Curator may ask why you are unable to make use of the default licenses. For other licensing terms not found here, or for customized data use licenses, contact support@frdr-dfdr.ca.
 
 ## Recommended Metadata
-
-**Keywords**: List subjects, keywords, classification codes, and/or key phrases describing the dataset. You may include any terms, which may be taken from a controlled vocabulary (e.g. [OCLC FAST](http://fast.oclc.org/searchfast/)). Geographic locations should be placed under Geographical Metadata.
-
-<ins>Examples:</ins>
-
-* Ornithology
-* Sterna paradisaea
-* Sea birds
-* Migration
-* rDNA
-* Breeding
 
 **Collection Period(s)**: The date or date range in which the data was collected. Enter Start and/or End dates in YYYY-MM-DD, YYYY-MM, or YYYY format.
 
