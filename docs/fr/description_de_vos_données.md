@@ -16,6 +16,7 @@
 **Mots-clés** : Énumérez les sujets, les mots-clés, les codes de classification ou les phrases clés décrivant le jeu de données. Vous pouvez inclure des termes tirés d’un vocabulaire contrôlé (p. ex. [le Répertoire de vedettes-matières de l’Université Laval](https://rvmweb.bibl.ulaval.ca/)). Les emplacements géographiques doivent se trouver dans les métadonnées géographiques. 
 
 <ins>Exemples</ins> :  
+
 * Ornithologie 
 * Sterna paradisaea 
 * Oiseaux de mer 
