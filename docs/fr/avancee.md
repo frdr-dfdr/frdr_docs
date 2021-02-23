@@ -12,7 +12,7 @@ Le personnel du DFDR travaille à l’ajout de nouveaux dépôts indexés. Voici
 * Un flux de travail plausible pour la recherche et l’extraction dans le dépôt d’ensembles de données en texte brut ou par mot-clé.
 * La présence d’une personne-ressource fiable au sein de l’établissement hôte pour résoudre les problèmes techniques ou les problèmes de métadonnées.
 
-Pour plus d’informations, veuillez consulter la politique sur le moissonnage de métadonnées.
+Pour plus d’informations, veuillez consulter la politique sur le [moissonnage de métadonnées](/policies/fr/moissonnage_métadonnées/).
 
 Si vous souhaitez ajouter les métadonnées de votre dépôt au DFDR, veuillez communiquer à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20harvesting%20a%20repository) pour discuter du processus à suivre.
 
