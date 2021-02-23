@@ -13,7 +13,7 @@ The FRDR staff are working on adding new repositories to the index. Criteria whi
 * A plausible workflow for plaintext/keyword search and retrieval of datasets from the repository.
 * The existence of a reliable point of contact at the host institution for resolving technical and/or metadata issues.
 
-For more information, please see the Metadata Harvesting Policy.
+For more information, please see the [Metadata Harvesting Policy](/policies/en/metadata_harvesting/).
 	
 If you would like to include your repository’s metadata in FRDR, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca?subject=query%20re%20harvesting%20a%20repository) to discuss the process.
 
