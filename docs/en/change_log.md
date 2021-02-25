@@ -1,5 +1,24 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-02-24**:
+
+* Advanced search for title, keyword or description will now search both French and English metadata fields
+* Improved the French wording for many emails to users
+* Allow checksums and filetypes file to be re-generated
+* Terms of Use and Privacy Policy must now be reviewed and explicitly accepted by new users before they are allowed to deposit
+* New “contact us” form was added to the top menu bar
+* Added an email notification to depositors when items are 30 days away from embargo date
+* Added CKAN and Socrata geofile processing to map-search pipeline, increasing number of previewable geospatial files
+* Curators are able to update user application status
+* Improved bulk metadata export and import for curators
+* Added the following metadata elements to FRDR OAI feed:
+    * datacite.creator.nameIdentifier
+    * datacite.fundingReference.funderName
+    * datacite.fundingReference.awardNumber
+    * datacite.fundingReference.awardTitle
+    * datacite.contributor.*
+    * datacite.relationtype.*
+
 **2021-01-27**:
 
 * Installed and configured equipment at two hosting institutions: Simon Fraser and University of Waterloo
