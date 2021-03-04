@@ -33,19 +33,19 @@ AUTHOR             | author                       | dc_contributor_author peut a
 AUTHOR_AFFILIATION | datacite_creatorAffiliation  |
 CONTRIBUTOR        | dc_contributor               |
 SOURCE             | frdr_origin_id               |
-DESCRIPTION_EN     | description                  | dc_description_en peut aussi être utilisé
-DESCRIPTION_FR     | dc_description_fr            |
+DESCRIPTION_EN     | dc_description_en            | description peut aussi être utilisé
+DESCRIPTION_FR     | dc_description_fr            | description peut aussi être utilisé
 ITEM_URL           | item_url                     |
-KEYWORD_EN         | keyword                      | frdr_keyword_en peut aussi être utilisé
-KEYWORD_FR         | frdr_keyword_en              |
+KEYWORD_EN         | frdr_keyword_en              | keyword peut aussi être utilisé
+KEYWORD_FR         | frdr_keyword_fr              | keyword peut aussi être utilisé
 PUBLISHER          | dc_publisher                 |
 RIGHTS             | dc_rights                    |
 SERIES             | frdr_series                  |
 DATE               | date                         | dc_date peut aussi être utilisé
 SUBJECT_EN         | frdr_subject_en              |
 SUBJECT_FR         | frdr_subject_fr              |
-TITLE_EN           | title                        | dc_title_en peut aussi être utilisé
-TITLE_FR           | dc_title_fr                  |
+TITLE_EN           | dc_title_en                  | title peut aussi être utilisé
+TITLE_FR           | dc_title_fr                  | title peut aussi être utilisé
 TYPE               | datacite_resourceTypeGeneral | Ceci a toujours la veleur « Dataset ».
 DATE_COLLECTED     | datacite_#dateCollected      | Pour les jeux de données déposés directement dans le DFDR uniquement
 GEOLOCATION_PLACE  | datacite_geolocationPlace    |
