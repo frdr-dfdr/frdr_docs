@@ -33,19 +33,19 @@ AUTHOR             | author                       | dc_contributor_author may al
 AUTHOR_AFFILIATION | datacite_creatorAffiliation  |
 CONTRIBUTOR        | dc_contributor               |
 SOURCE             | frdr_origin_id               |
-DESCRIPTION_EN     | description                  | dc_description_en may also be used
-DESCRIPTION_FR     | dc_description_fr            |
+DESCRIPTION_EN     | dc_description_en            | description may also be used
+DESCRIPTION_FR     | dc_description_fr            | description may also be used
 ITEM_URL           | item_url                     |
-KEYWORD_EN         | keyword                      | frdr_keyword_en may also be used
-KEYWORD_FR         | frdr_keyword_en              |
+KEYWORD_EN         | frdr_keyword_en              | keyword may also be used
+KEYWORD_FR         | frdr_keyword_fr              | keyword may also be used
 PUBLISHER          | dc_publisher                 |
 RIGHTS             | dc_rights                    |
 SERIES             | frdr_series                  |
 DATE               | date                         | dc_date may also be used
 SUBJECT_EN         | frdr_subject_en              |
 SUBJECT_FR         | frdr_subject_fr              |
-TITLE_EN           | title                        | dc_title_en may also be used
-TITLE_FR           | dc_title_fr                  |
+TITLE_EN           | dc_title_en                  | title may also be used
+TITLE_FR           | dc_title_fr                  | title may also be used
 TYPE               | datacite_resourceTypeGeneral | This always has the value "Dataset".
 DATE_COLLECTED     | datacite_dateCollected       | For datasets deposited directly in FRDR only
 GEOLOCATION_PLACE  | datacite_geolocationPlace    |
