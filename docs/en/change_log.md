@@ -1,5 +1,19 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-03-31**:
+
+* Added new repositories to FRDR discovery: Royal Roads University Dataverse and MacEwan University Dataverse
+* Fixed a problem in deleting files that were uploaded through drag and drop
+* Improved the wording at the top of item landing pages around embargo date and restrictions
+* Fixed a problem adding multiple funders to a dataset during submission.
+* Reconfigured the connection to DataCite so that FRDR can now maintain DOIs for items that were moved into it from another repository
+* Depositors are now warned if they specify metadata restrictions without supplying an embargo date
+* Fixed the display of some related identifier labels
+* Metadata dates are clearer around when a dataset becomes available taking into account embargo and embargo changes
+* Removed Google Analytics
+* Improved Geodisy pipeline to include processing geofiles from CKAN, Socrata, and FRDR-OAI repositories
+
+
 **2021-02-24**:
 
 * Advanced search for title, keyword or description will now search both French and English metadata fields
