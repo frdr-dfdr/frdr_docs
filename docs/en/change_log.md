@@ -1,5 +1,22 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-04-28**:
+
+* Added new repositories to FRDR discovery: Dataverse de l'Université de Saint-Boniface
+* Added Research Field to dataset metadata using the [Canadian Research and Development Classification standard](https://www.statcan.gc.ca/eng/subjects/standard/crdc/2020v1/index)
+* Curators are now required to add a comment when rejecting a dataset
+* Improved dataset virus/malware scanning
+* Curators can now sort user profiles by date joined
+* Added French localization to Geodisy (FRDR geographic search)
+* Updated the website footer to include NDRIO logo and links
+* Users can now switch between French and English language while in the middle of a deposit without losing track of which tab they were on
+* Users can now enter their ORCID on their profile page
+* Additional options were added to the list of related identifiers to indicate where datasets compile or continue other datasets
+* A monthly backup verification process was put in place
+* Fixed a problem with searching for datasets by phrase
+* Fixed a problem with ordering of search results by title
+
+
 **2021-03-31**:
 
 * Added new repositories to FRDR discovery: Royal Roads University Dataverse and MacEwan University Dataverse
@@ -83,7 +100,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 * Item landing pages by default will now use the item UUID instead of the item DOI text.  Existing links that use item DOI text will continue to work and DOIs will continue to resolve properly.
 * Fixed a problem with adding multiple funders to a submission
-* Changed the default cutoff to 50 items per directory for dataset file listing, so that web browsers won’t timeout trying to display item landing pages for large datasets
+* Changed the default cutoff to 50 items per directory for dataset file listing, so that web browsers won't timeout trying to display item landing pages for large datasets
 * A file containing the selected dataset license will be placed within the dataset after publication
 * Improvements to accessibility and mobile usability have been made to multiple areas of the site, and will continue into the next update
 
@@ -97,7 +114,7 @@ This is a list of changes to FRDR, starting with the most recent:
 **2020-07-29**:
 
 * Truncated the listing of files for datasets with very large numbers of files or folders.
-* Added new repositories to FRDR discovery: Canadian Integrated Ocean Observing System (CIOOS), Cape Breton University Dataverse, Dalhousie University Dataverse, École nationale d’administration publique Dataverse, HEC Montréal Dataverse, Institut national de la recherche scientifique Dataverse, Université TÉLUQ Dataverse, University of Northern British Columbia Dataverse
+* Added new repositories to FRDR discovery: Canadian Integrated Ocean Observing System (CIOOS), Cape Breton University Dataverse, Dalhousie University Dataverse, École nationale d'administration publique Dataverse, HEC Montréal Dataverse, Institut national de la recherche scientifique Dataverse, Université TÉLUQ Dataverse, University of Northern British Columbia Dataverse
 
 
 **2020-06-24**:
