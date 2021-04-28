@@ -115,16 +115,16 @@
                 <footer>
                   {% if '/en/' in page.canonical_url %}
                   <p><a href="{{ config.site_url }}en/privacy">Privacy Policy</a></p>
-                  <p>&copy; 2017 - 2019 Canadian Association of Research Libraries and Compute Canada</p>
+                  <p>&copy; 2017 - 2021 New Digital Research Infrastructure Organization and Compute Canada</p>
                   {% else %}
                   <p><a href="{{ config.site_url }}fr/conditions_d'utilisation/#70-politique-de-confidentialite">Politique de confidentialité</a></p>
-                  <p>&copy; 2017 - 2019 Association des bibliothèques de recherche du Canada & Calcul Canada</p>
+                  <p>&copy; 2017 - 2021 Nouvelle organisation d’infrastructure de recherche numérique & Calcul Canada</p>
                   {% endif %}
                 </footer>
             </div>
             <div class="col-md-8">
                 <a href="{% if '/en/' in page.canonical_url %}https://portagenetwork.ca/{% else %}https://portagenetwork.ca/fr/{% endif %}" target="_blank"><img alt="Portage" src="/repo/image/portage_logo.png"></a>
-                <a href="{% if '/en/' in page.canonical_url %}http://www.carl-abrc.ca/{% else %}http://www.carl-abrc.ca/fr/{% endif %}" target="_blank"><img alt="CARL" src="/repo/image/logo_carl_enfr.png"></a>
+                <a href="{% if '/en/' in page.canonical_url %}https://engagedri.ca/{% else %}https://engagedri.ca/fr/{% endif %}" target="_blank"><img alt="New Digital Research Infrastructure Organization" src="/repo/image/logo_ndrio.svg"></a>
                 <a href="{% if '/en/' in page.canonical_url %}http://www.computecanada.ca/{% else %}https://www.computecanada.ca/?lang=fr{% endif %}" target="_blank"><img alt="Compute Canada" src="/repo/image/logo_cc_enfr.png"></a>
                 <a href="http://www.globus.org/" target="_blank"><img alt="Globus" src="/repo/image/globus_logo.png"></a>
             </div>
