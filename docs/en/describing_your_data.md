@@ -24,6 +24,16 @@
 * rDNA
 * Breeding
 
+**Field(s) of Research**: Choose one or more field(s) of research by using the Canadian Research and Development Classification field name(s) applicable to this dataset.
+
+Fields of research are organized into Groups, which are subdivided into Classes. To find the field(s) of research applicable to your dataset, use the dropdown menus for Group, Class, and Field. You may also browse the classification in English or French using Statistics Canada documentation:
+
+* [Research and Development Classification (CRDC) 2020 Version 1.0 - Field of Research (FOR)](https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1278187)
+* [Classification Canadienne de la Recherche et Développement (CCRD) 2020 version 1.0 - Domaine de recherche (DDR)](https://www23.statcan.gc.ca/imdb/p3VD_f.pl?Function=getVD&TVD=1278187) 
+
+Select as many fields as appropriate to describe the dataset. If your field of research is not listed, choose one of the fields containing “not elsewhere classified”.
+
+
 **Author**: Enter the name, affiliation(s), and ORCID iD for each author or researcher who produced the dataset. You may include multiple authors.
 
 * **Author**: Enter the Last Name and First Name.
