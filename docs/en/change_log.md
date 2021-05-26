@@ -1,5 +1,13 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-05-26**:
+
+* Added new repositories to FRDR discovery: Yukon Open Data, Open Ottawa / Ottawa Ouverte, Saint Mary’s University Dataverse
+* Added the Szechtman Lab Collection  https://www.frdr-dfdr.ca/repo/collection/szechtmanlab 
+* Improve performance of displaying files in large submissions.
+* Added validated Canadian Research and Development Classification metadata fields during submissions, and send that metadata to Datacite for DOI population
+* Removed repository SFU Radar records from FRDR search
+
 **2021-04-28**:
 
 * Added new repositories to FRDR discovery: Dataverse de l'Université de Saint-Boniface
