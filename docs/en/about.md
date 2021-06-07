@@ -1,7 +1,7 @@
 ---
 hidesidebar: true
 ---
-[Portage](https://portagenetwork.ca/), [Compute Canada](https://www.computecanada.ca/) (CC) and the [Canadian Association of Research Libraries](http://www.carl-abrc.ca/about-carl/) (CARL) are collaborating to provide a scalable federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has now launched in full production. Anyone can now use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
+The [New Digital Research Infrastructure Organization](https://engagedri.ca/) (NDRIO)’s Portage Network and [Compute Canada](https://www.computecanada.ca/) (CC) are collaborating to provide a scalable, federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has now launched in full production. Anyone can now use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
 
 A <a href="https://demo.frdr-dfdr.ca/repo/?locale=en" target="_blank" rel="noopener noreferrer">demo version</a> of the FRDR site is available for training and testing purposes. The FRDR demo can be used to learn about the platform's search and data deposit features. As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered "test" data and will only be available temporarily.
 
