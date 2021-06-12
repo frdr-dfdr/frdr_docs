@@ -1,7 +1,7 @@
 ---
 hidesidebar: true
 ---
-[Portage](https://portagenetwork.ca/fr/), [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) et [l'Association des bibliothèques de recherche du Canada](http://www.carl-abrc.ca/fr/a-propos-de-labrc/) (ABRC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ces organisations ont le plaisir d’annoncer que le service du Dépôt fédéré de données de recherche (DFDR) a été lancé en production intégrale. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens ; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
+Le [Réseau Portage](https://portagenetwork.ca/fr/) de la [Nouvelle organization d'infrastructure de recherche numérique](https://engagedri.ca/fr/) (NOIRN) et [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ces organisations ont le plaisir d’annoncer que le service du Dépôt fédéré de données de recherche (DFDR) a été lancé en production intégrale. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens ; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
 
 Une <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noopener noreferrer">version de démonstration</a> du site Web DFDR est disponible à des fins de formation et de test. La démo DFDR peut être utilisé pour en apprendre davantage sur les fonctionnalités de recherche et de dépôt de données de la plate-forme. Autant que possible, la démo sera tenue à jour avec la dernière version de la plateforme DFDR. Veuillez noter que toutes les données déposées dans la démo seront considérées comme des données « test » et ne seront disponibles que temporairement.
 
@@ -16,46 +16,61 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 ## Partenaires
 <div class="group">
+
 <div class="half">
-<a href="https://www.carl-abrc.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
+<a href="https://engagedri.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/logo_ndrio.svg" alt="NDRIO Logo" width="300" height="117" /></a>
 </div>
 
 <div class="half">
 <a href="http://www.portagenetwork.ca/fr/" target="_blank" rel="noopener noreferrer"><img class=" logo wp-image-127 alignnone" src="/docs/img/brochure/portage_logo_tagline_rgb_bilingual.png" alt="Portage Logo" width="291" height="100" /></a>
 </div>
+
+
 </div>
 
 
 <div class="group">
+
 <div class="half">
 <a href="https://www.computecanada.ca/?lang=fr" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-146" src="/docs/img/brochure/cc-logo-bi1.png" alt="CC LOGO" width="259" height="150" /></a>
 </div>
+
 <div class="half">
-<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
+<a href="https://www.carl-abrc.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
 </div>
+
 </div>
 
 <div class="group">
+
+<div class="half">
+<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
+</div>
+
 <div class="half">
 <a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-309 size-medium" src="/docs/img/brochure/UofS.jpg" alt="USask Logo" width="300" height="93" /></a>
 </div>
 
-<div class="half">
-<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
-</div>
 </div>
 
 <div class="group">
+
+<div class="half">
+<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
+</div>
+
 <div class="half">
 <a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
 </div>
 
-<div class="half">
-<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
-</div>
 </div>
 
 <div class="group">
+
+<div class="half">
+<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
+</div>
+
 <div class="half">
 <a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto" width="300" height="109" /></a>
 </div>

@@ -5,7 +5,7 @@ Preparation is needed before starting a dataset submission to FRDR. This section
 
 Anyone may use FRDR to search for and download datasets. You do not need to have a Globus Account affiliated with a Canadian postsecondary institution to download datasets in FRDR using Globus.
 
-Faculty members or librarians, or their appointed designates, from a Canadian postsecondary institution may deposit data in FRDR. Faculty can sponsor designates, for example, external collaborators, graduate students, non-research staff, postdoctoral fellows, research assistants, researchers, undergraduate students, and visiting faculty, to submit data on their behalf. Requests for deposit from other types of “Canadian researchers” (e.g., government or NGOs) who are not sponsored by a faculty member will be considered on a case-by-case basis.
+Faculty members or librarians, or their appointed designates, from a Canadian postsecondary institution may deposit data in FRDR. Faculty can sponsor designates, for example, external collaborators, graduate students, non-research staff, postdoctoral fellows, research assistants, researchers, undergraduate students, and visiting faculty, to submit data. Requests for deposit from other types of “Canadian researchers” (e.g., government or NGOs) who are not sponsored by a faculty member will be considered on a case-by-case basis.
 
 If you are unsure whether you are eligible to deposit in FRDR, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca)
 
