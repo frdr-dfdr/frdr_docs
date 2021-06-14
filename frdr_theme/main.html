@@ -39,9 +39,9 @@
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         {% if '/en/' in page.canonical_url %}
-                        <li><a href="/docs/fr/documentation/">Français</a></li>
+                        <li><a href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
                         {% else %}
-                        <li><a href="/docs/en/documentation/">English</a></li>
+                        <li><a href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
                         {% endif %}
                     </ul>
                 </ul>
