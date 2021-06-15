@@ -6,7 +6,7 @@ Anglais: Le nom officiel est "Federated Research Data Repository" et peut être 
 
 <h3>Site Web</h3>
 
-L’adresse officielle du site Web est la suivante: [http://www.dfdr.ca](http://www.dfdr.ca). Il peut être écrit "www.dfdr.ca".
+L’adresse officielle du site Web est la suivante: [https://www.frdr-dfdr.ca](https://www.frdr-dfdr.ca). Il peut être écrit "www.frdr-dfdr.ca".
 
 
 <h3>Images du logo</h3>

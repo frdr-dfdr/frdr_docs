@@ -33,11 +33,11 @@ extra_css:
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
     prefix: "/"
-    default_page_en: en/preparing_your_data/
-    default_page_fr: fr/préparation_de_vos_données/
+    default_page_en: en/documentation/
+    default_page_fr: fr/documentation/
     language_map:
         en:
-            "About": fr/a_propos/
+            "About": fr/à_propos/
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
