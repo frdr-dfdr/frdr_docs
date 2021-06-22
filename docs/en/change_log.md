@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-06-30**:
+
+* Added new funders (BC Oil and Gas Research and Innovation Society (BC OGRIS), Leading Edge Endowment Fund (LEEF), Mount Royal University (MRU))
+
 **2021-05-26**:
 
 * Added new repositories to FRDR discovery: Yukon Open Data, Open Ottawa / Ottawa Ouverte, Saint Mary’s University Dataverse
