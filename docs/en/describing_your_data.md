@@ -85,16 +85,31 @@ Note that a Curator may ask why you are unable to make use of the default licens
 
 ## Recommended Metadata
 
+**Time Period Covered**: The date or date range to which the data refers. This field reflects the time period covered by the data, not the dates of coding, analysis period, or the dates the data was collected. Enter start and/or end dates in YYYY-MM-DD, YYYY-MM, or YYYY format.
+
+<ins>Examples</ins>:
+
+* 2010-02-12/2010-02-28
+    * The data is about the time period from February 12, 2010 to February 28, 2010.
+* 1984-01-01/1984-12-31
+    * The data is about the year 1984.
+* 2020-03/2020-12
+    * The data is about the time period from March 2020 through December 2020.
+* 1990/1999
+    * The data is about the time period from 1990-1999. 
+
 **Collection Period(s)**: The date or date range in which the data was collected. Enter Start and/or End dates in YYYY-MM-DD, YYYY-MM, or YYYY format.
 
 <ins>Examples</ins>:
 
-* 2019-08-01/2020-07-31
-    * Collection began on August 1, 2019 and ended on July 31, 2020.
-* 2008-01/2012-12
-    * Collection began in January 2008 and ended in December 2012.
-* 2000/2010
-    * Collection began in 2000 and ended in 2010.
+* 2010-04-01/2010-06-30
+    * Data collection began on April 1, 2010 and ended on June 30, 2010.
+* 1985/1986
+    * Data collection began in 1985 and ended in 1986.
+* 2021-01/2021-03
+    * Data collection began in January 2021 and ended in March 2021.
+* 2000/2009
+    * Data collection began in 2000 and ended in 2009.
 
 **Funding Information**: Enter the funder name, award number, and/or award title for this dataset. You may include multiple funders. A funder name is required for an award number or award title to be entered.
 
@@ -139,14 +154,18 @@ Refer to the following definitions for each contributor type (taken from the [Da
 
 **Relation types:**
 
-* **this dataset is cited by**: The dataset is cited by the related resource. Typically, this means that the related resource includes the dataset in a formal citation. Since publications have varying practices for data citation, FRDR’s definition includes both formal citations and other  and other links to the dataset (for example, in a “data availability” section or in the body of the paper). In general, this option should be selected for publications that analyze the dataset.
-* **this dataset cites**: The dataset cites the related resource. This includes related resources that are listed in the README file (for example, a paper describing a data collection methodology).
+* **this dataset is cited by**: The dataset is cited by the related resource. Typically, this means that the related resource includes the dataset in a formal citation. Since publications have varying practices for data citation, FRDR’s definition includes both formal citations and other links to the dataset (for example, in a “data availability” section or in the body of the paper). In general, this option should be selected for publications that analyze the dataset.
+* **this dataset cites**: The dataset cites the related resource. This includes related resources that are listed in the README file (for example, a paper describing a protocol). This relation type is often used for a related resource which describes a methodology in general terms, published before the dataset being deposited was collected. For a related paper that analyzes the dataset and describes the methodology, use “this dataset  is cited by”. 
 * **this dataset is a supplement to**: The dataset supplements the related resource. This includes publications that analyze the dataset, but do <ins>not</ins> cite the dataset (for example, if the paper was published before the dataset was made available in FRDR).
 * **this dataset is supplemented by**: The dataset is supplemented by the related resource (or, the related resource is “supplementary material” to the dataset). For example, software used to analyze the data may be considered supplementary material.
 * **this dataset is part/subset of**: The dataset is a part, or subset, of the related resource. For example, the dataset is part of a larger series.
 * **this dataset has part/subset**: The dataset *has a part, or subset*, represented by the related resource (or, the related resource is a part or subset of the dataset). For example, the related resource is a portion of the dataset.
 * **this dataset is derived from**: The dataset *is derived from* the related resource. For example, the dataset could be aggregate data summarizing survey data (the related resource), or produced by analyzing the related resource.
 * **this dataset is the source of**: The dataset *is the source of* the related resource (or, the related resource is derived from the dataset). For example, the related resource was produced by analyzing the dataset.
+* **this dataset is compiled / created by**: The dataset is compiled or created by the related resource. For example, the related resource is a simulation program that created the dataset.
+* **this dataset compiles / creates**: The related resource is compiled or created by the dataset (or, the dataset compiles or creates the related resource). For example, the dataset is a model that was used to generate the related resource. 
+* **this dataset is continued by**: The dataset is continued by the related resource. For example, the related resource is the next dataset in a chronological series of datasets, such as annual survey data.
+* **this dataset continues**: The dataset is a continuation of the related resource. For example, the related resource is the previous dataset in a chronological series of datasets, such as annual survey data.
 
 ## Geographical Metadata
 
