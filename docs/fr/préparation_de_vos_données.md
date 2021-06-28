@@ -2,9 +2,9 @@
 
 ### Choix des types de données à déposer
 
-Rassemblez vos fichiers de données, la documentation et toute information nécessaire pour réutiliser votre jeu de données. Vous pouvez choisir de fournir des données traitées, des données brutes non traitées ou les deux, ainsi que les scripts, le code ou le logiciel nécessaires pour analyser de nouveau vos données.
+Rassemblez vos fichiers de données, la documentation et toute information nécessaire pour réutiliser votre jeu de données. Vous pouvez choisir de fournir des données traitées, des données brutes non traitées ou les deux, ainsi que les scripts, le code ou le logiciel nécessaires pour générer ou analyser de nouveau vos données.
 
-Vous pouvez télécharger une version de vos scripts d’analyse en même temps que vos données, mais nous vous recommandons de déposer le code source ou le logiciel dans des dépôts spécialisés comme GitHub, GitLab ou Bitbucket. Vous pouvez établir un lien direct avec les autres résultats de vos métadonnées du DFDR et les mentionner dans votre fichier Lisez-moi.
+Vous pouvez télécharger une version de vos scripts d’analyse en même temps que vos données, mais nous vous recommandons de déposer les modèles, le code source ou le logiciel dans des dépôts spécialisés comme GitHub, GitLab ou Bitbucket. Ceux-ci peuvent être conservés dans les archives de [Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/?lang=fr) ou dans [Zenodo](https://guides.github.com/activities/citable-code/). Vous pouvez établir un lien direct avec les autres résultats de vos métadonnées du DFDR et les mentionner dans votre fichier Lisez-moi.
 
 ### Structure de vos fichiers
 
@@ -52,13 +52,15 @@ _Exemple : AnalysePoeme_IV05_v03.txt
 
 Pour de plus amples conseils, consultez les [conventions d’appellation de fichiers de l’UBC](https://researchdata.library.ubc.ca/plan/organize-your-data/) (en anglais).
 
+Pour de plus amples conseils, consultez [le document Nommage de fichiers et gestion de versions de l’Université d’Ottawa](https://biblio.uottawa.ca/fr/services/professeurs/gestion-donnees-recherche/designation-fichiers-disposition-donnees), [le document Nommage des fichiers numériques de l’Université de Sherbrooke et les](https://www.usherbrooke.ca/biblio/fileadmin/sites/biblio/documents/pdf/GDAA/nommage_fichiers_numeriques_recommandations_abregees.pdf), [conventions d’appellation de fichiers de l’UBC](https://researchdata.library.ubc.ca/plan/organize-your-data/) (en anglais).
+
 ### Choix de formats de fichier faciles à préserver
 
 Les formats de fichier ouverts et non exclusifs sont préférables pour la préservation à long terme, mais il est parfois nécessaire de partager des formats de fichier exclusifs pour la réutilisation des données. Tenez compte des besoins des futurs chercheurs lorsque vous choisissez des types de fichiers à déposer.
 
 * Quels sont les formats de fichier largement utilisés dans votre domaine? Est-il probable que d’autres chercheurs auront accès au logiciel nécessaire pour ouvrir vos fichiers?
 
-* Si vous transformez vos fichiers en formats ouverts pour le dépôt, des renseignements se perdront-ils?
+* Si vous transformez vos fichiers en formats de dépôt ouverts, est-ce que des renseignements (données, métadonnées, formatage, macros, etc.) seront perdus? Ces renseignements peuvent-ils être représentés d’une autre façon, par exemple en ajoutant une variable supplémentaire à un fichier tabulaire, ou en les incluant dans un fichier de texte clair ou un fichier de documentation distinct?
 
 Le DFDR est en mesure d’accepter et d’assurer la préservation au niveau de bit pour divers formats de fichier et travaillera avec vous pour conserver vos données dans le format le plus approprié. Toutefois, nous recommandons fortement les formats de fichier faciles à préserver suivants :
 
@@ -76,7 +78,7 @@ Le DFDR est en mesure d’accepter et d’assurer la préservation au niveau de 
 
 * Formats d’archivage de fichiers compressés : TAR.GZ, 7Z, ZIP
 
-Pour plus d’informations sur les formats de préservation, voir les lignes directrices du [UK Data Service](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats), de [Cornell](https://guides.library.cornell.edu/ecommons/formats) et de [l’University of Edinburgh](https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats) (en anglais).
+Pour obtenir de plus amples renseignements sur les formats de préservation, voir les lignes directrices de [Bibliothèque et Archives nationales du Québec](https://www.banq.qc.ca/documents/archives/archivistique_gestion/publications_proposees/Guide-formats-BAnQ_Final.pdf), du [UK Data Service](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats), de [Cornell](https://guides.library.cornell.edu/ecommons/formats) et de [l’University of Edinburgh](https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats) (en anglais).
 
 ## Documentation de votre soumission
 
@@ -88,7 +90,9 @@ Conseils pour la rédaction de fichiers Lisez-moi :
 
 * Ajoutez un point de contact dans votre fichier Lisez-moi.
 
-* Indiquez toute restriction sur l’utilisation secondaire de vos données dans le fichier Lisez-moi.
+* Si vos fichiers de données proviennent de sources externes, indiquez l’attribution détaillée de ces sources dans votre fichier Lisez-moi. Inclure des renseignements comme le titre, les auteurs, l’institution ou le dépôt qui a publié les données, le DOI, s’il est disponible, ou un autre identificateur unique, ainsi qu’un lien vers les données, s’il est disponible en ligne. Si possible, indiquez la date d’accès puisque les ressources en ligne peuvent changer.
+
+* Indiquez toute restriction sur l’utilisation secondaire de vos données dans le fichier Lisez-moi, y compris toute restriction sur les données provenant de sources tierces.
 
 * Pour les jeux de données quantitatives, définissez toutes les variables et les valeurs admissibles. Le cas échéant, indiquez les unités de mesure et définissez le code que vous avez utilisé pour les valeurs manquantes ou nulles.
 
@@ -98,13 +102,13 @@ Conseils pour la rédaction de fichiers Lisez-moi :
 
 * Le nom de l’équipement ou des instruments utilisés pour recueillir les données, ainsi que les logiciels ou les progiciels statistiques qui ont été utilisés pour les traiter doivent être énumérés dans le fichier Lisez-moi. Si possible, indiquez la version du logiciel utilisé.
 
-* Si vos fichiers de données proviennent de sources externes, indiquez ces sources dans votre fichier Lisez-moi.
-
 * Envisagez d’ajouter des renseignements sur les documents connexes, les protocoles d’étude ou d’autres documents qui fourniront plus de contexte à vos données.
 
 * Si vos formats de fichier ne sont pas en texte clair, envisagez de recommander un logiciel qui peut servir à les consulter ou à les analyser.
 
-Vous trouverez d’autres conseils (en anglais) dans le [Quick Guide: Creating a README for your dataset](https://researchdata-06oct2014.sites.olt.ubc.ca/files/2020/04/QuickGuide_UBC_readme_v1.0_20200427.pdf) de l’UBC et le [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme) de la Cornell University.
+* Si vous avez inclus un code ou un logiciel, envisagez d’inclure une description, des renseignements sur l’environnement informatique, les dépendances requises, l’entrée requise, la sortie attendue et toute instruction nécessaire à l’installation ou à l’exécution.
+
+Vous trouverez d’autres conseils (en anglais) dans le [Guide rapide : Créer un fichier README pour vos ensembles de données](https://researchdata-06oct2014.sites.olt.ubc.ca/files/2020/04/QuickGuide_UBC_readme_v1.0_20200427.pdf) de l’UBC et danst le [Guide to writing "readme" style metadata](https://zenodo.org/record/4058972#.YNouI-hKhPY) de la Cornell University.
 
 ## Examen de vos données
 
@@ -122,11 +126,11 @@ Veuillez examiner votre jeu de données avant de le soumettre pour examen. Voici
 
 * *Avez-vous confirmé qu’aucun de vos dossiers ne contient de renseignements protégés ou à diffusion restreinte?* Voir la section [Données à diffusion restreinte.](#donnees-a-diffusion-restreinte)
 
-Les responsables de la curation du DFDR collaboreront avec vous pour examiner vos données au moment de leur soumission afin d’assurer la qualité des métadonnées dans le dépôt et d’améliorer la repérabilité et l’accessibilité de vos données. Les responsables de la curation sont habituellement des bibliothécaires employés par des établissements de recherche partout au pays. Il peut aussi s’agir de gestionnaires de données intégrés à des groupes de recherche qui ont accepté de travailler avec le réseau Portage de l’ABRC et qui ont obtenu des autorisations spéciales dans le système du DFDR.
+Les responsables de la curation du DFDR collaboreront avec vous pour examiner vos données au moment de leur soumission afin d’assurer la qualité des métadonnées dans le dépôt et d’améliorer la repérabilité et l’accessibilité de vos données. Les responsables de la curation sont habituellement des bibliothécaires employés par des établissements de recherche partout au pays. Il peut aussi s’agir de gestionnaires de données intégrés à des groupes de recherche qui ont accepté de travailler avec le réseau Portage de la NOIRN et qui ont obtenu des autorisations spéciales dans le système du DFDR.
 
 ### Utilisation secondaire des données ou du code
 
-Avez-vous obtenu des données ou des codes d’un tiers qui pourrait détenir des droits d’auteur ou des droits de propriété intellectuelle qui vous empêcheraient de les redistribuer?
+Avez-vous obtenu des données ou des codes d’un tiers qui pourrait détenir des droits d’auteur ou des droits de propriété intellectuelle qui vous empêcheraient de les redistribuer? La source de données originale permet-elle la redistribution, mais avec certaines restrictions?
 
 Si vous avez utilisé des données secondaires dans votre recherche, vous devrez confirmer que vous avez la permission de publier de nouveau ces données dans le DFDR avant que votre soumission puisse être approuvée par un responsable de la curation. Vous ne savez pas si vous avez besoin d’une permission? Les données qui ont été mises gratuitement à la disposition de la recherche ne sont pas nécessairement « gratuites ». Demandez-vous :
 
@@ -134,7 +138,13 @@ Si vous avez utilisé des données secondaires dans votre recherche, vous devrez
 
 * Avez-vous accepté des conditions d’utilisation précises, signé un accord d’utilisation des données ou conclu une entente avec le fournisseur de données qui vous empêcherait de publier ces données dans le DFDR?
 
+Veuillez consulter la licence ou les modalités qui accompagnent les données sources et vous assurer de respecter toutes les modalités. Si vous êtes autorisé à redistribuer des points de données ou des produits dérivés, veuillez choisir une licence compatible avec la licence originale. Certaines licences peuvent vous obliger à sélectionner une licence équivalente (une licence dont les termes correspondent).
+
+Si les données sont facilement accessibles d’une autre source et que vous n’avez pas manipulé ou modifié les ensembles de données pour votre recherche, veuillez envisager d’établir un lien avec la source originale plutôt que de les publier de nouveau.
+
 Si les données sont facilement accessibles à partir d’une autre source et que vous n’avez pas manipulé ou modifié les jeux de données pour votre recherche, veuillez envisager d’établir un lien vers la source originale plutôt que de les publier de nouveau. Pour ce faire, utilisez le champ des identificateurs associés lorsque vous déposez vos données. Veuillez également inclure des citations complètes pour toutes les données ou tous les logiciels que vous avez réutilisés pour votre étude dans votre fichier Lisez-moi.
+
+Si vous avez des questions au sujet d’une source en particulier, ou si vous souhaitez obtenir de l’aide pour choisir une licence, veuillez écrire à support@frdr-dfdr.ca.
 
 ### Données à diffusion restreinte
 
@@ -144,7 +154,7 @@ Voici quelques types courants de données à diffusion restreinte :
 
 #### Données sur les participants humains
 
-Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile : [Can I Share My Data? ([traduction] Puis-je partager mes données?)](https://doi.org/10.5281/zenodo.4046659). Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [De-identification Guidance ([traduction] Conseils sur la dépersonnalisation).](https://doi.org/10.5281/zenodo.4047175)
+Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile : [Puis-je partager mes données](https://doi.org/10.5281/zenodo.4046659)?. Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [Directives sur la dépersonnalisation des données](https://zenodo.org/record/4452825#.YNovQOhKhPY).
 
 #### Données appartenant aux Autochtones
 
@@ -158,10 +168,16 @@ Les dirigeants des communautés autochtones sont les mieux placés pour évaluer
 
 * Inuit Tapiriit Kanatami. [Stratégie nationale inuite sur la recherche.](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_French_low_res.pdf)
 
-* Organisation nationale de la santé autochtone. [Principles of Ethical Métis Research (en anglais).](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf)
+* Organisation nationale de la santé autochtone. [Principles of Ethical Métis Research]((https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf)) and [What researchers Need from Métis Communities](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf) (en anglais).
 
 * Global Indigenous Data Alliance. [CARE Principles for Indigenous Data Governance (en anglais).](https://www.gida-global.org/care)
 
 #### Renseignements sur l’emplacement
 
-Vous devrez peut-être supprimer ou rendre approximatifs les renseignements sur l’emplacement si vos données ont été recueillies dans des aires protégées, des sites archéologiques sensibles ou des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu, pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi supprimer ou rendre approximatives les données sur la présence d’espèces vulnérables. Veuillez consulter la [Liste rouge des espèces menacées](https://www.iucnredlist.org/fr/) de l’UICN (en anglais) pour connaître la situation d’une espèce et les risques et menaces connus. Le [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data (en anglais)](https://doi.org/10.15468/doc-5jp4-5g10) du Système mondial d’information sur la biodiversité comprend une matrice pour évaluer le risque de préjudice et des directives pour généraliser l’information spatiale. 
+Vous devrez peut-être supprimer ou rendre approximatifs les renseignements sur l’emplacement dans votre jeu de données. Envisagez de le faire si vous devez protéger la confidentialité des participants à l’étude, ou si vos données ont été recueillies dans des aires protégées, des sites archéologiques sensibles ou des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu, pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi supprimer ou rendre approximatives les données sur la présence d’espèces vulnérables. Pour de plus amples renseignements, les ressources suivantes peuvent être utiles :
+
+* Le document [Ethical considerations in the use of geospatial data for research and statistics](https://uksa.statisticsauthority.gov.uk/publication/ethical-considerations-in-the-use-of-geospatial-data-for-research-and-statistics/) (en anglais) de la UK Statistics Authority.
+
+* La [Liste rouge des espèces menacées](https://www.iucnredlist.org/fr/) (en anglais) pour la situation des espèces et les risques et menaces connus pour l’espèce.
+
+* Le [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data](https://docs.gbif.org/sensitive-species-best-practices/master/en/) (en anglais) du Système mondial d'informations sur la biodiversité. Cette ressource comprend une matrice pour évaluer le risque de préjudice et des directives pour généraliser l’information spatiale.
