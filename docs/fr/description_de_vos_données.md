@@ -88,16 +88,31 @@ Les licences suivantes peuvent également être sélectionnées en cliquant sur 
 
 ## Métadonnées recommandées 
 
+**Période couverte** : Date ou plage de dates à laquelle les données se rapportent. Ce champ indique la période couverte par les données, et non les dates de codage, la période d’analyse ou les dates de collecte des données. Entrez les dates de début ou de fin au format AAAA-MM-JJ, AAAA-MM ou AAAA.
+
+<ins>Exemples</ins> : 
+
+* 2010-02-12/2010-02-28 
+	* Les données portent sur la période du 12 février 2010 au 28 février 2010. 
+* 1984-01-01/1984-12-31 
+	* Les données portent sur l’année 1984. 
+* 2020-03/2020-12 
+	* Les données portent sur la période allant de mars 2020 à décembre 2020.
+* 1990/1999 
+	* Les données portent sur la période de 1990 à 1999.
+
 **Période(s) de collecte** : Date ou plage de dates où les données ont été recueillies. Entrez les dates de début ou de fin au format AAAA-MM-JJ, AAAA-MM ou AAAA. 
 
 <ins>Exemples</ins> : 
 
-* 2019-08-01/2020-07-31 
-	* La collecte a commencé le 1er août 2019 et s’est terminée le 31 juillet 2020. 
-* 2008-01/2012-12 
-	* La collecte a commencé en janvier 2008 et s’est terminée en décembre 2012. 
-* 2000/2010 
-	* La collecte a commencé en 2000 et s’est terminée en 2010. 
+* 2010-04-01/2010-06-30 
+	* La collecte des données a commencé le 1er avril 2010 et s’est terminée le 30 juin 2010. 
+* 1985/1986 
+	* La collecte des données a commencé en 1985 et s’est terminée en 1986. 
+* 2021-01/2021-03 
+	* La collecte des données a commencé en janvier 2021 et s’est terminée en mars 2021. 
+* 2000/2009 
+	* La collecte de données a commencé en 2000 et s’est terminée en 2010.
 
 **Renseignements sur le financement** : Entrez le nom du bailleur de fonds et le numéro ou le titre des fonds pour ce jeu de données. Vous pouvez inclure plusieurs bailleurs de fonds. Un nom de bailleur de fonds est requis pour entrer un numéro ou un titre de fonds. 
 
@@ -142,13 +157,17 @@ Reportez-vous aux définitions suivantes pour chaque type de contributeur (tiré
 **Types de relation :**
 
 * **Ce jeu de données est cité par** : Le jeu de données est cité par la ressource connexe. Normalement, cela signifie que la ressource connexe inclut le jeu de données dans une citation officielle. Comme les publications ont des pratiques différentes pour la citation des données, la définition du DFDR comprend à la fois les citations officielles et d’autres liens vers le jeu de données (par exemple, dans une section sur la « disponibilité des données » ou dans le corps de l’article). En général, cette option doit être sélectionnée pour les publications qui analysent le jeu de données. 
-* **Ce jeu de données cite** : Le jeu de données cite la ressource connexe. Cela comprend les ressources connexes qui sont énumérées dans le fichier Lisez-moi (par exemple, un document décrivant une méthodologie de collecte de données). 
+* **Ce jeu de données cite** : Le jeu de données cite la ressource connexe. Cela comprend les ressources connexes qui sont énumérées dans le fichier Lisez-moi (par exemple, un document décrivant un protocole). Ce type de relation est souvent utilisé pour une ressource connexe qui décrit une méthodologie en termes généraux, publiée avant la collecte du jeu de données à déposer. Pour un document connexe qui analyse le jeu de données et décrit la méthodologie, utilisez « ce jeu de données est cité par ». 
 * **Ce jeu de données est un complément pour** : Le jeu de données complète la ressource connexe. Cela comprend les publications qui analysent le jeu de données, mais qui ne le citent pas (par exemple, si le document a été publié avant que le jeu de données soit disponible dans le DFDR). 
 * **Ce jeu de données est complété par** : Le jeu de données est complété par la ressource connexe (ou la ressource connexe constitue du « matériel supplémentaire » pour le jeu de données). Par exemple, les logiciels utilisés pour analyser les données peuvent être considérés comme du matériel supplémentaire. 
 * **Ce jeu de données fait partie de ou en est un sous-ensemble** : Le jeu de données fait partie de la ressource connexe ou en est un sous-ensemble. Par exemple, le jeu de données fait partie d’une série plus grande. 
 * **Ce jeu de données comporte une partie ou un sous-ensemble** : Le jeu de données a une partie ou un sous-ensemble représentés par la ressource connexe (ou la ressource connexe est une partie ou un sous-ensemble du jeu de données). Par exemple, la ressource connexe est une partie du jeu de données. 
 * **Ce jeu de données est dérivé de** : Le jeu de données est dérivé de la ressource connexe. Par exemple, le jeu de données pourrait être constitué de données agrégées résumant les données d’enquête (la ressource connexe) ou produites en analysant la ressource connexe. 
-* **Ce jeu de données est la source de** : Le jeu de données est la source de la ressource connexe (ou la ressource connexe est dérivée du jeu de données). Par exemple, la ressource connexe a été produite en analysant le jeu de données. 
+* **Ce jeu de données est la source de** : Le jeu de données est la source de la ressource connexe (ou la ressource connexe est dérivée du jeu de données). Par exemple, la ressource connexe a été produite en analysant le jeu de données.
+* **Ce jeu de données est compilé/créé par** : Le jeu de données est compilé ou créé par la ressource connexe. Par exemple, la ressource connexe est un programme de simulation qui a créé le jeu de données.
+* **Ce jeu de données compile/crée** : La ressource connexe est compilée ou créée par le jeu de données (ou le jeu de données compile ou crée la ressource connexe). Par exemple, le jeu de données est un modèle qui a été utilisé pour générer la ressource connexe.
+* **Ce jeu de données se poursuit avec** : Le jeu de données se poursuit avec la ressource associée. Par exemple, la ressource connexe est le prochain jeu de données d’une série chronologique de jeu de données, comme les données d’enquête annuelles.
+* **Ce jeu de données poursuit** : Le jeu de données est une continuation de la ressource connexe. Par exemple, la ressource connexe est le jeu de données précédent d’une série chronologique de jeux de données, comme les données d’enquête annuelles.
 
 ## Métadonnées géographiques 
 
