@@ -101,7 +101,7 @@ Please look your dataset over before you submit it for review. Some things you m
 * *Have you credited any third-party sources* that provided you data or code for your analyses? See [Secondary use of data or code](#secondary-use-of-data-or-code).
 * *Have you confirmed that none of your files contain protected or restricted information?* See [Restricted data](#restricted-data).
 
-FRDR curators will work with you to review your data at the time of submission to help ensure the quality of the metadata in the repository and to improve the findability and accessibility of your data. Curators are typically librarians employed by research institutions around the country. They may also be data managers embedded within research groups who have agreed to work with CARL Portage, and have been granted special permissions in the FRDR system.
+FRDR curators will work with you to review your data at the time of submission to help ensure the quality of the metadata in the repository and to improve the findability and accessibility of your data. Curators are typically librarians employed by research institutions around the country. They may also be data managers embedded within research groups who have agreed to work with NDRIO Portage, and have been granted special permissions in the FRDR system.
 
 ### Secondary use of data or code
 Have you obtained data or code from a third party who may hold copyright or intellectual property rights that would prevent you from re-distributing them? Does the original data source allow redistribution, but with certain restrictions? 
