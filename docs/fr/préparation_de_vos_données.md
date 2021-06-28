@@ -108,7 +108,7 @@ Conseils pour la rédaction de fichiers Lisez-moi :
 
 * Si vous avez inclus un code ou un logiciel, envisagez d’inclure une description, des renseignements sur l’environnement informatique, les dépendances requises, l’entrée requise, la sortie attendue et toute instruction nécessaire à l’installation ou à l’exécution.
 
-Vous trouverez d’autres conseils (en anglais) dans le [Guide rapide : Créer un fichier README pour vos ensembles de données](https://researchdata-06oct2014.sites.olt.ubc.ca/files/2020/04/QuickGuide_UBC_readme_v1.0_20200427.pdf) de l’UBC et danst le [Guide to writing "readme" style metadata](https://zenodo.org/record/4058972#.YNouI-hKhPY) de la Cornell University.
+Vous trouverez d’autres conseils (en anglais) dans le [Guide rapide : Créer un fichier README pour vos ensembles de données](https://zenodo.org/record/4058962#.YNo4HOhKhPY) de l’UBC et danst le [Guide to writing "readme" style metadata](https://zenodo.org/record/4058972#.YNouI-hKhPY) de la Cornell University.
 
 ## Examen de vos données
 
@@ -160,9 +160,9 @@ Si votre recherche implique des participants humains ou contient du matériel bi
 
 Les dirigeants des communautés autochtones sont les mieux placés pour évaluer les avantages et les risques liés au partage du savoir autochtone, ainsi que les données recueillies auprès des peuples autochtones, ou relatives aux terres, à l’eau ou à la glace autochtones. Ces données ne peuvent être partagées dans le DFDR que si les dirigeants communautaires ont convenu que le partage est approprié. Veuillez consulter votre comité d’éthique de la recherche ou, pour de plus amples renseignements, consultez :
 
-* Les principes de [propriété, contrôle, accès et possession (PCAP®) des Premières Nations.](https://fnigc.ca/fr/pcap)
+* Les principes de [propriété, contrôle, accès et possession (PCAP®) des Premières Nations.](https://fnigc.ca/fr/les-principes-de-pcap-des-premieres-nations/)
 
-* Centre de gouvernance de l’information des Premières Nations (CGIPN). [Stratégie de gouvernance des données des Premières Nations.](https://fnigc.ca/sites/default/files/docs/fnigc_fndgs_fr_final.pdf) 31 mars 2020.
+* Centre de gouvernance de l’information des Premières Nations (CGIPN). [Stratégie de gouvernance des données des Premières Nations.](https://fnigc.ca/fr/ce-que-nous-faisons/partenariats-et-developpement-des-capacites/strategie-de-gouvernance-des-donnees-des-premieres-nations/) 31 mars 2020.
 
 * Inuit Tapiriit Kanatami et Institut de recherche du Nunavut. [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers (en anglais).](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
 
