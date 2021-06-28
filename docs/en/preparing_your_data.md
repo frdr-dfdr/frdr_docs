@@ -131,9 +131,9 @@ If your research involves human participants or contains human biological materi
 
 Indigenous community leaders are in the best position to assess the benefits and risks of sharing Indigenous knowledge, as well as data collected from Indigenous people, Indigenous lands, water, and ice. These data can only be shared in FRDR if community leaders have agreed that sharing is appropriate. Please consult with your Research Ethics Board or for more information, see:
 
-* The First Nations Principles of [Ownership, Control, Access and Possession (OCAP™)](https://fnigc.ca/ocap)
+* The First Nations Principles of [Ownership, Control, Access and Possession (OCAP®)](https://fnigc.ca/ocap-training/)
 
-* First Nations Information Governance Centre (FNIGC). [A First Nations Data Governance Strategy](https://fnigc.inlibro.net/cgi-bin/koha/opac-retrieve-file.pl?id=9c677f3dcf8adbf18fcda96c6244c459). March 31, 2020.
+* First Nations Information Governance Centre (FNIGC). [A First Nations Data Governance Strategy](https://fnigc.ca/what-we-do/partnerships-and-capacity/first-nations-data-governance-strategy/) March 31, 2020.
 
 * Inuit Tapiriiti Kanatami (ITK) and Nunavut Research Institute [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
 
