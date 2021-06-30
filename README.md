@@ -1,2 +1,3 @@
-# frdr_docs
+# FRDR Documentation
+
 FRDR public facing documentation
