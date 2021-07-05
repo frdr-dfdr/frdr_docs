@@ -2,7 +2,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2021-06-30**:
 
-* Added Dryad to FRDR discovery (filtered on datasets from Canadian researchers)
+* Added new repositories to FRDR discovery: Dryad (filtered on datasets from Canadian researchers), Nordicana D
 * Added new funders: BC Oil and Gas Research and Innovation Society (BC OGRIS), Leading Edge Endowment Fund (LEEF), Mount Royal University (MRU)
 * Added buttons in curation tools to redo virus scan or file format identification scan
 * FRDR Map Search now includes OpenDataSoft datasets
