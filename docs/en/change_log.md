@@ -1,5 +1,10 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-07-28**:
+
+* Added temporal coverage field to Recommended Metadata
+* Fixed an issue with Safari not filtering out dropdown choices when specifying the CRDC metadata
+
 **2021-06-30**:
 
 * Added new repositories to FRDR discovery: Dryad (filtered on datasets from Canadian researchers), Nordicana D
