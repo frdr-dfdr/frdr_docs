@@ -120,28 +120,6 @@ table {
     background-color: #e0e0e0;
 }
 
-/* colors for mobile menu */
-@media only screen and (max-width : 768px) {
-  .navbar-collapse li a { color:black ; background-color: white; }
-  .navbar-collapse li a:hover { background-color: white; }
-  .navbar-nav > li > a:hover { background-color: white; }
-  .navbar-inverse .navbar-nav > li > a:hover, 
-  .navbar-inverse .navbar-nav > li > a:active {  color: #2191C5 !important; background-color: white;}
-  #navbar-collapse-1 > ul { margin-top: 0px; margin-bottom: 0px;}
-  #navbar-collapse-1 > ul >li > a { border-radius: 0px; margin:0px; color:#424242;}
-  #navbar-collapse-1 > ul >li > ul { padding: 0px; }
-  #navbar-collapse-1 > ul >li > ul > li > a:hover { border-radius: 0px; margin:0px; color:#2191C5 !important;}
-  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus { background-color: white; }
-  .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: white; }
-  .navbar-inverse .navbar-nav > .dropdown > a .caret { border-top: 4px solid #424242; }
-  #sitelogo {height: 110px; margin-right:-10px;}
-}
-
-@media only screen and (max-width : 500px) {
-  .navbar-inverse .navbar-brand { font-size: 15px; }
-  #sitelogo {height: 100px; margin-right:-35px;}
-}
-
 .logo {
     margin-left: 10px;
     margin-right: 10px;
@@ -149,23 +127,6 @@ table {
 
 .site-logo {
     max-height: 44px
-}
-
-.clause {
-    margin-bottom: 10px;
-}
-
-.clause-number {
-    margin-right: 1em;
-}
-
-.subclause {
-    margin-left: 2.625em;
-    margin-bottom: 10px;
-}
-
-.subclause-number {
-    margin-right: 0.5em;
 }
 
 #current {
