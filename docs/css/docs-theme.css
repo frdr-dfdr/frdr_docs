@@ -45,7 +45,6 @@ table {
 
 .navbar-collapse {
     border-color: #dcdcdc;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
     color: #64B635;
     max-height: 390px;
 }
@@ -129,8 +128,6 @@ table {
 .navbar-inverse {
     background-color: #424242;
     border-color: #424242;
-    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
