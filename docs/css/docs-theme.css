@@ -18,150 +18,9 @@ h2::before, h3::before {
   pointer-events: none;
 }
 
-a {
-    color: #000066;
-}
-
-ul .dropdown-menu {
-    border: 1px solid #f0f0f0;
-    background-color:#f0f0f0;
-    border-radius: 0px;
-}
-
 table {
     width: 100%;
 }
-
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-    background-color: #2882bb;
-    color: #FFFFFF;
-}
-
-.thumbnail,
-.img-thumbnail {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
-}
-
-.navbar-collapse {
-    border-color: #dcdcdc;
-    color: #64B635;
-    max-height: 390px;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover, 
-.navbar-inverse .navbar-nav > li > a:active {
-    color: #B1DDFD !important;
-}
-.navbar-inverse .navbar-nav > .open > a, 
-.navbar-inverse .navbar-nav > .open > a:hover, 
-.navbar-inverse .navbar-nav > .open > a:focus {
-    border-color: #e0e0e0;
-    background-color: #f0f0f0;
-    color: #333333 !important;
-    border-radius: 0px;
-    border: none;
-}
-
-.navbar-nav > li > a {
-  -moz-box-sizing: border-box;
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 5px 5px 5px 5px;
-    font-weight: 300;
-    line-height: 17px;
-    margin: 0 4px;
-    padding: 8px 15px;
-}
-
-.navbar-nav .dropdown-menu-selected,
-.navbar-nav .dropdown-menu-selected:hover {
-    background: none repeat scroll 0 0 #2882bb !important;
-    border: 1px solid #EAEAEA !important;
-    color: #FFFFFF !important;
-    cursor: text !important;
-}
-    
-.navbar {
-    height: 64px;
-    border-color: #424242;
-}
-
-.navbar-nav {
-    color: #999999 !important;
-    font-weight: 300;
-    line-height: 23px;
-    font-size: 17px;
-    margin-top: 10px;
-}
-
-.navbar-nav > a {
-    color: #999999 !important;
-}
-
-.navbar-header > a{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.navbar .navbar-nav > .active > a {
-    background-color: #01FF00;
-    color: #FF0001;
-}
-
-.navbar-nav > li > a:hover {
-    background: none repeat scroll 0 0 #2882bb;
-}
-
-.navbar-brand {
-    padding-top: 10px;
-}
-
-.navbar-brand,
-.navbar-nav > li > a {
-    color: #999999;
-    font-weight: 300;
-    line-height: 23px;
-    font-size:15px;
-    border: none;
-}
-
-.navbar-inverse {
-    background-color: #424242;
-    border-color: #424242;
-}
-
-.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
-    border-top:4px solid #2191C5;
-}
-
-.navbar-inverse .navbar-nav > .dropdown > a .caret {
-    border-top:4px solid #f0f0f0;
-}
-
-.navbar-inverse .navbar-brand {
-    color: #999999;
-    font-weight: 400;
-    line-height: 23px;
-    font-size: 24px;
-    letter-spacing: 2px;
-    border:none;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #FAFAFA;
-    font-weight: 300;
-    line-height: 23px;
-    font-size: 15px;
-    border:none;
-}
-
-.navbar-static-top,
-.navbar-fixed-top,
-.navbar-fixed-bottom {
-    border-radius: 0;
-}
-
-.navbar-highlight {color:#2191C5}
 
 .frdr-sidebar {
     background-color: #5B5B5B;
@@ -261,10 +120,6 @@ table {
     background-color: #e0e0e0;
 }
 
-#sitelogo {
-    height: 140px;
-}
-
 /* colors for mobile menu */
 @media only screen and (max-width : 768px) {
   .navbar-collapse li a { color:black ; background-color: white; }
@@ -287,80 +142,6 @@ table {
   #sitelogo {height: 100px; margin-right:-35px;}
 }
 
-.frdr-jumbo-footer {
-  margin-top:50px;
-  background-color: #D1D1D1;
-  min-height: 30px;
-  font-size:14px;
-  color:#0A0A0A;
-  padding: 20px;
-}
-.frdr-jumbo-footer a{
-   font-weight: bold
-}
-
-.frdr-jumbo-footer a:link{
-  color:#34d;
-}
-
-.frdr-jumbo-footer a:visited{
-  color:#848;
-}
-
-.frdr-jumbo-footer a:hover {
-  color: #b12;
-}
-
-div.folder > span {
-    margin-right: 5px;
-}
-
-div.folder > a {
-    cursor: pointer;
-}
-
-div.file > span {
-    padding-right: 5px;
-}
-
-div.file > a {
-    cursor: pointer;
-}
-
-div.file > .size {
-    float: right;
-}
-
-.sub-folder {
-    margin-left: 15px;
-}
-
-.sub-file {
-    margin-left: 15px;
-}
-
-.refresh-button {
-    cursor: pointer;
-}
-
-.second-level {
-    padding-left: 20px;
-}
-
-.third-level {
-    padding-left: 40px;
-}
-
-.screenshot {
-    border-color: #424242;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: medium;
-    margin-bottom: 60px;
-    max-width: 100%;
-    object-fit: cover;
-}
-
 .logo {
     margin-left: 10px;
     margin-right: 10px;
@@ -368,23 +149,6 @@ div.file > .size {
 
 .site-logo {
     max-height: 44px
-}
-
-.group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.half {
-    flex: 50%;
-    padding: 5px;
-    height: 150;
-}
-
-.endflex {
-    align-self: flex-end;
 }
 
 .clause {
