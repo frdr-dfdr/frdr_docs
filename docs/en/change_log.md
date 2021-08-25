@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-08-28**:
+* Improve navigation on the communities page.
+* New interface for geographic metadata input.
+
 **2021-07-28**:
 
 * Added temporal coverage field to Recommended Metadata
