@@ -24,7 +24,7 @@
 * rDNA
 * Breeding
 
-**Field(s) of Research**: Choose one or more field(s) of research by using the [Canadian Research and Development Classification](https://www.statcan.gc.ca/eng/subjects/standard/crdc/2020v1/index) field name(s) applicable to this dataset.
+**Field of Research**: Choose one or more field(s) of research by using the [Canadian Research and Development Classification](https://www.statcan.gc.ca/eng/subjects/standard/crdc/2020v1/index) field name(s) applicable to this dataset.
 
 Fields of research are organized into Groups, which are subdivided into Classes. To find the field(s) of research applicable to your dataset, use the dropdown menus for Group, Class, and Field. You may also browse the classification in English or French using Statistics Canada documentation:
 
@@ -98,7 +98,7 @@ Note that a Curator may ask why you are unable to make use of the default licens
 * 1990/1999
     * The data is about the time period from 1990-1999. 
 
-**Collection Period(s)**: The date or date range in which the data was collected. Enter Start and/or End dates in YYYY-MM-DD, YYYY-MM, or YYYY format.
+**Collection Period**: The date or date range in which the data was collected. Enter Start and/or End dates in YYYY-MM-DD, YYYY-MM, or YYYY format.
 
 <ins>Examples</ins>:
 
@@ -126,7 +126,7 @@ Note that a Curator may ask why you are unable to make use of the default licens
 * *Award Title*: Migration Ranges of Arctic Terns
 
 
-**Contributors**: List additional people and/or institutions responsible for contributing to the dataset. When entering a person’s name, enter in the format Last Name, First Name. For each contributor, select the type of contributor from the dropdown menu. 
+**Contributor**: List additional people and/or institutions responsible for contributing to the dataset. When entering a person’s name, enter in the format Last Name, First Name. For each contributor, select the type of contributor from the dropdown menu. 
 
 <ins>Example</ins>:
 

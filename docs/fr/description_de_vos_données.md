@@ -24,7 +24,7 @@
 * ADNr 
 * Reproduction 
 
-**Domaine(s) de recherche** : Choisissez un ou plusieurs domaines de recherche en utilisant le(s) nom(s) de domaine de la [Classification canadienne de la recherche et développement](https://www.statcan.gc.ca/fra/sujets/norme/ccrd/2020v1/indice) applicable(s) à cet ensemble de données.
+**Domaine de recherche** : Choisissez un ou plusieurs domaines de recherche en utilisant le(s) nom(s) de domaine de la [Classification canadienne de la recherche et développement](https://www.statcan.gc.ca/fra/sujets/norme/ccrd/2020v1/indice) applicable(s) à cet ensemble de données.
  
 Les domaines de recherche sont organisés en groupes, qui sont subdivisés en classes. Pour trouver le ou les domaines de recherche applicables à votre ensemble de données, utilisez les menus déroulants pour le groupe, la classe et le domaine. Vous pouvez également parcourir la classification en français ou en anglais à l’aide de la documentation de Statistique Canada :
 
@@ -101,7 +101,7 @@ Les licences suivantes peuvent également être sélectionnées en cliquant sur 
 * 1990/1999 
 	* Les données portent sur la période de 1990 à 1999.
 
-**Période(s) de collecte** : Date ou plage de dates où les données ont été recueillies. Entrez les dates de début ou de fin au format AAAA-MM-JJ, AAAA-MM ou AAAA. 
+**Période de collecte** : Date ou plage de dates où les données ont été recueillies. Entrez les dates de début ou de fin au format AAAA-MM-JJ, AAAA-MM ou AAAA. 
 
 <ins>Exemples</ins> : 
 
@@ -128,7 +128,7 @@ Les licences suivantes peuvent également être sélectionnées en cliquant sur 
 * *Numéro des fonds* : 123456 
 * *Titre des fonds* : Aires de migration des Sternes arctiques 
 
-**Contributeurs** : Dressez la liste des personnes ou des établissements supplémentaires qui ont contribué au jeu de données. Entrez d’abord le nom de famille, puis le prénom des personnes. Sélectionnez le type de contributeur pour chacun d’entre eux dans le menu déroulant.  
+**Contributeur** : Dressez la liste des personnes ou des établissements supplémentaires qui ont contribué au jeu de données. Entrez d’abord le nom de famille, puis le prénom des personnes. Sélectionnez le type de contributeur pour chacun d’entre eux dans le menu déroulant.  
 
 <ins>Exemple</ins> : 
 
