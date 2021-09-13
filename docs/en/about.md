@@ -14,7 +14,7 @@ The platform's federated search tool will provide a focal point to discover and 
 
 ## Partners
 
-<div class="group">
+<div class="logogroup">
 
 <div class="half">
 <a href="https://engagedri.ca/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/logo_ndrio.svg" alt="NDRIO Logo" width="300" height="117" /></a>
@@ -27,7 +27,7 @@ The platform's federated search tool will provide a focal point to discover and 
 </div>
 
 
-<div class="group">
+<div class="logogroup">
 
 <div class="half">
 <a href="https://www.computecanada.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-146" src="/docs/img/brochure/cc-logo-bi1.png" alt="CC LOGO" width="259" height="150" /></a>
@@ -39,7 +39,7 @@ The platform's federated search tool will provide a focal point to discover and 
 
 </div>
 
-<div class="group">
+<div class="logogroup">
 
 <div class="half">
 <a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
@@ -51,7 +51,7 @@ The platform's federated search tool will provide a focal point to discover and 
 
 </div>
 
-<div class="group">
+<div class="logogroup">
 
 <div class="half">
 <a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
@@ -63,7 +63,7 @@ The platform's federated search tool will provide a focal point to discover and 
 
 </div>
 
-<div class="group">
+<div class="logogroup">
 
 <div class="half">
 <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>

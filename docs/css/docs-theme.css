@@ -18,6 +18,67 @@ h2::before, h3::before {
   pointer-events: none;
 }
 
+table {
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logogroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.half {
+    flex: 50%;
+    padding: 5px;
+    height: 150;
+}
+
+.endflex {
+    align-self: flex-end;
+}
+
+.second-level {
+    padding-left: 20px;
+}
+
+.third-level {
+    padding-left: 40px;
+}
+
+.screenshot {
+    border-color: #424242;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: medium;
+    margin-bottom: 60px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.clause {
+    margin-bottom: 10px;
+}
+
+.clause-number {
+    margin-right: 1em;
+}
+
+.subclause {
+    margin-left: 2.625em;
+    margin-bottom: 10px;
+}
+
+.subclause-number {
+    margin-right: 0.5em;
+}
+
 .frdr-sidebar {
     background-color: #5B5B5B;
     padding-left: 0px;
