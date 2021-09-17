@@ -4,10 +4,6 @@
     margin-top:48px !important;
 }
 
-h2, h3 {
-    color: #2882bb !important;
-}
-
 /* Pseudo element to fix anchors being hidden under navbar */
 h2::before, h3::before {
   display: block;
@@ -60,23 +56,6 @@ table {
     margin-bottom: 60px;
     max-width: 100%;
     object-fit: cover;
-}
-
-.clause {
-    margin-bottom: 10px;
-}
-
-.clause-number {
-    margin-right: 1em;
-}
-
-.subclause {
-    margin-left: 2.625em;
-    margin-bottom: 10px;
-}
-
-.subclause-number {
-    margin-right: 0.5em;
 }
 
 .frdr-sidebar {
@@ -178,5 +157,5 @@ table {
 }
 
 #current {
-  border-bottom: 5px solid black;
+  border-bottom: 1px solid black;
 }
