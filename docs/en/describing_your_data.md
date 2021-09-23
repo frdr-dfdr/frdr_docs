@@ -167,6 +167,19 @@ Refer to the following definitions for each contributor type (taken from the [Da
 * **this dataset is continued by**: The dataset is continued by the related resource. For example, the related resource is the next dataset in a chronological series of datasets, such as annual survey data.
 * **this dataset continues**: The dataset is a continuation of the related resource. For example, the related resource is the previous dataset in a chronological series of datasets, such as annual survey data.
 
+**Notes**: Any additional important information about the dataset. Notes can be used for information that is not covered by the other metadata fields, including information that is included in the README. For example:
+
+* Information about file structure, i.e. a high-level overview of the relationship between the folders/files in the dataset
+* Information about an instrument used to collect the data
+* Information about software that can be used to interpret the data
+* Information about a metadata schema or standard that was used to structure the data
+* Additional information about related items:
+    * Further explanation of a relationship between the dataset and an external item linked in the Related Identifier field, such as a software package or related dataset  
+    * References to related items that do not have a URL or DOI, and therefore cannot be included in the “Related Identifier” field
+* Additional acknowledgements that are not covered by the Contributor or Funding Information fields
+* Additional notes for researchers who are re-using the dataset (for example, a request to contact the authors to discuss collaboration opportunities).
+
+
 ## Geographical Metadata
 
 **Geographic Coverage**: The geographic coverage of the dataset — i.e., the location(s) that the dataset is about. For each place name, enter as many fields as applicable to describe the location. Use [GeoNames](https://www.geonames.org/) for correct spelling of place names and avoid abbreviations.
