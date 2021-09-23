@@ -169,6 +169,22 @@ Reportez-vous aux définitions suivantes pour chaque type de contributeur (tiré
 * **Ce jeu de données se poursuit avec** : Le jeu de données se poursuit avec la ressource associée. Par exemple, la ressource connexe est le prochain jeu de données d’une série chronologique de jeu de données, comme les données d’enquête annuelles.
 * **Ce jeu de données poursuit** : Le jeu de données est une continuation de la ressource connexe. Par exemple, la ressource connexe est le jeu de données précédent d’une série chronologique de jeux de données, comme les données d’enquête annuelles.
 
+**Remarques**: Tout autre renseignement important au sujet du jeu de données. Les remarques peuvent être utilisées pour l’information qui n’est pas couverte par les autres champs de métadonnées, y compris l’information qui est incluse dans le README (Lisez-moi). Par exemple :
+
+* Renseignements sur la structure des fichiers, c.‑à‑d. un aperçu global du lien entre les dossiers et les fichiers du jeu de données
+* Renseignements sur un instrument utilisé pour recueillir les données
+* Détails sur les logiciels pouvant être utilisés pour interpréter les données
+* Détails sur un schéma ou une norme de métadonnées qui a été utilisé pour structurer les données
+* Renseignements supplémentaires sur les éléments associés :
+	* Explication plus détaillée de la relation entre un jeu de données et un élément externe lié dans le champ « Identificateur associé », comme un progiciel ou un jeu de données connexe
+	* Références à des éléments associés qui n’ont pas d’URL ou de DOI et qui ne peuvent donc pas être inclus dans le champ « Identificateur associé »
+* Explication plus détaillée de la relation entre un jeu de données et un élément externe lié dans le champ « Identificateur associé », comme un progiciel ou un jeu de données connexe
+* Références à des éléments associés qui n’ont pas d’URL ou de DOI et qui ne peuvent donc pas être inclus dans le champ « Identificateur associé »
+* Renseignements supplémentaires sur la provenance du jeu de données qui ne sont pas couverts par les champs Contributeur ou Renseignements sur le financement.
+* Remarques supplémentaires à l’attention des chercheurs qui réutilisent le jeu de données (par exemple, une demande pour communiquer avec les auteurs pour discuter des possibilités de collaboration).
+
+
+
 ## Métadonnées géographiques 
 
 **Couverture géographique** : La couverture géographique des ensembles de données, c'est-à-dire les lieux sur lesquels portent les ensembles de données. Pour chaque nom de lieu, remplissez le plus de champs possible pour décrire le lieu. Utilisez [GeoNames](https://www.geonames.org/) pour l'orthographe correcte des noms de lieux et évitez les abréviations.
