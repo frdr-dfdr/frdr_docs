@@ -1,5 +1,12 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-09-28**:
+
+* Added new repositories to FRDR discovery: Canadian Space Agency Open Data / Agence spatiale canadienne données ouvertes.
+* Added question about long-term preservation to ingest forms.
+* Add support for dataset notes and multiple lines in description.
+* Improved quality of records discoverable using FRDR Map Search.
+
 **2021-08-28**:
 
 * Improve navigation on the communities page.
