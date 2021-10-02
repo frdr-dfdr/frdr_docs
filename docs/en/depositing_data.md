@@ -112,6 +112,13 @@ Submitters will receive a notification one month before the embargo expires. Thi
 
 FRDR allows embargoes of up to one year. All other embargo requests must be approved by FRDR’s service manager. Please contact  [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if you need to request an extended embargo.
 
+## Requesting Long-Term Preservation
+In order to ensure all datasets submitted to FRDR are preserved where appropriate, FRDR has implemented an appraisal process to ensure long-term access is managed responsibly and sustainably. All datasets deposited with FRDR will be considered for long-term preservation. 
+
+As the depositor, you may participate in the appraisal process by answering the optional preservation question during the submission process: "Do you intend for this dataset to be preserved longer than 10 years?" (Y/N). You may also leave a comment describing, for example, your dataset’s potential ongoing social, scientific, or historical value. 
+
+If you are uncertain about the long-term value of your dataset, you may skip this question. Please be assured that your dataset will still be appraised for long-term preservation independently by the FRDR curation team in consultation with FRDR’s Preservation Coordinator. You are welcome to reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if you have any questions about this process.
+
 ## Transferring the dataset
 ### Using Browser Upload (Small datasets)
 This section covers the following activities:

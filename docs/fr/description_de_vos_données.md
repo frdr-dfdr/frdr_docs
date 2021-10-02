@@ -24,7 +24,7 @@
 * ADNr 
 * Reproduction 
 
-**Domaine(s) de recherche** : Choisissez un ou plusieurs domaines de recherche en utilisant le(s) nom(s) de domaine de la [Classification canadienne de la recherche et développement](https://www.statcan.gc.ca/fra/sujets/norme/ccrd/2020v1/indice) applicable(s) à cet ensemble de données.
+**Domaine de recherche** : Choisissez un ou plusieurs domaines de recherche en utilisant le(s) nom(s) de domaine de la [Classification canadienne de la recherche et développement](https://www.statcan.gc.ca/fra/sujets/norme/ccrd/2020v1/indice) applicable(s) à cet ensemble de données.
  
 Les domaines de recherche sont organisés en groupes, qui sont subdivisés en classes. Pour trouver le ou les domaines de recherche applicables à votre ensemble de données, utilisez les menus déroulants pour le groupe, la classe et le domaine. Vous pouvez également parcourir la classification en français ou en anglais à l’aide de la documentation de Statistique Canada :
 
@@ -101,7 +101,7 @@ Les licences suivantes peuvent également être sélectionnées en cliquant sur 
 * 1990/1999 
 	* Les données portent sur la période de 1990 à 1999.
 
-**Période(s) de collecte** : Date ou plage de dates où les données ont été recueillies. Entrez les dates de début ou de fin au format AAAA-MM-JJ, AAAA-MM ou AAAA. 
+**Période de collecte** : Date ou plage de dates où les données ont été recueillies. Entrez les dates de début ou de fin au format AAAA-MM-JJ, AAAA-MM ou AAAA. 
 
 <ins>Exemples</ins> : 
 
@@ -128,7 +128,7 @@ Les licences suivantes peuvent également être sélectionnées en cliquant sur 
 * *Numéro des fonds* : 123456 
 * *Titre des fonds* : Aires de migration des Sternes arctiques 
 
-**Contributeurs** : Dressez la liste des personnes ou des établissements supplémentaires qui ont contribué au jeu de données. Entrez d’abord le nom de famille, puis le prénom des personnes. Sélectionnez le type de contributeur pour chacun d’entre eux dans le menu déroulant.  
+**Contributeur** : Dressez la liste des personnes ou des établissements supplémentaires qui ont contribué au jeu de données. Entrez d’abord le nom de famille, puis le prénom des personnes. Sélectionnez le type de contributeur pour chacun d’entre eux dans le menu déroulant.  
 
 <ins>Exemple</ins> : 
 
@@ -169,21 +169,59 @@ Reportez-vous aux définitions suivantes pour chaque type de contributeur (tiré
 * **Ce jeu de données se poursuit avec** : Le jeu de données se poursuit avec la ressource associée. Par exemple, la ressource connexe est le prochain jeu de données d’une série chronologique de jeu de données, comme les données d’enquête annuelles.
 * **Ce jeu de données poursuit** : Le jeu de données est une continuation de la ressource connexe. Par exemple, la ressource connexe est le jeu de données précédent d’une série chronologique de jeux de données, comme les données d’enquête annuelles.
 
+**Remarques**: Tout autre renseignement important au sujet du jeu de données. Les remarques peuvent être utilisées pour l’information qui n’est pas couverte par les autres champs de métadonnées, y compris l’information qui est incluse dans le README (Lisez-moi). Par exemple :
+
+* Renseignements sur la structure des fichiers, c.‑à‑d. un aperçu global du lien entre les dossiers et les fichiers du jeu de données
+* Renseignements sur un instrument utilisé pour recueillir les données
+* Détails sur les logiciels pouvant être utilisés pour interpréter les données
+* Détails sur un schéma ou une norme de métadonnées qui a été utilisé pour structurer les données
+* Renseignements supplémentaires sur les éléments associés :
+	* Explication plus détaillée de la relation entre un jeu de données et un élément externe lié dans le champ « Identificateur associé », comme un progiciel ou un jeu de données connexe
+	* Références à des éléments associés qui n’ont pas d’URL ou de DOI et qui ne peuvent donc pas être inclus dans le champ « Identificateur associé »
+* Explication plus détaillée de la relation entre un jeu de données et un élément externe lié dans le champ « Identificateur associé », comme un progiciel ou un jeu de données connexe
+* Références à des éléments associés qui n’ont pas d’URL ou de DOI et qui ne peuvent donc pas être inclus dans le champ « Identificateur associé »
+* Renseignements supplémentaires sur la provenance du jeu de données qui ne sont pas couverts par les champs Contributeur ou Renseignements sur le financement.
+* Remarques supplémentaires à l’attention des chercheurs qui réutilisent le jeu de données (par exemple, une demande pour communiquer avec les auteurs pour discuter des possibilités de collaboration).
+
+
+
 ## Métadonnées géographiques 
 
-**Emplacement géographique** : Nom du lieu où les données ont été recueillies ou sur lequel les données sont axées. Décrivez-le de manière textuelle. Vous pouvez ajouter plus d’un nom de lieu. Donnez le plus de détails possible (ville, province ou État, pays). 
+**Couverture géographique** : La couverture géographique des ensembles de données, c'est-à-dire les lieux sur lesquels portent les ensembles de données. Pour chaque nom de lieu, remplissez le plus de champs possible pour décrire le lieu. Utilisez [GeoNames](https://www.geonames.org/) pour l'orthographe correcte des noms de lieux et évitez les abréviations.
 
-* Saisissez des noms de lieux supplémentaires en utilisant la touche Entrée ou un point-virgule. 
-* Dans la mesure du possible, choisissez des noms de lieux en sélectionnant parmi les options de saisie automatique. Si ce n’est pas le cas, vous pouvez saisir un nom de lieu personnalisé. 
+* **Nom de lieu** : Informations générales sur la couverture géographique des données. À utiliser pour les noms géographiques qui ne sont pas un pays, une province/territoire/État ou une ville ; par exemple, les régions, les plans d'eau, les noms astronomiques et les noms alternatifs.
+* **Pays** : Le pays ou la nation sur lequel portent les ensembles de données. Si un ensemble de données couvre plusieurs pays, indiquez-les tous séparément.
+* **Province / Territoire / État** : La province, le territoire ou l'État sur lequel portent les ensembles de données.
+* **Ville** : Le nom de la ville sur laquelle portent les ensembles de données.
+
 
 <ins>Exemple</ins> : 
 
-* Parc Stanley, Vancouver (Colombie-Britannique), Canada 
+* *Nom de lieue* : Parc Stanley
+* *Pays* : Canada
+* *Province / Territoire / État* : Colombie-Britannique
+* *Ville* : Vancouver
 
-**Point de géolocalisation (latitude et longitude)** : Point où les données ont été recueillies ou sur lequel les données sont axées. Indiquez la latitude et la longitude séparées par un espace. Vous pouvez ajouter plus d’un point. 
+**Point géographique** : Pointez le lieu où les données ont été recueillies ou sur lequel les données portent. Indiquez la latitude et la longitude.
 
-<ins>Exemple</ins> : 49,2827 -123,1207 
+* **Latitude** : Latitude: Degrés décimaux entre -90 et +90.
+* **Longitude** : Longitude: Degrés décimaux entre -180 et +180.
 
-**Cadre de géolocalisation (S O N E)** : Cadre de délimitation pour la région spatiale où les données ont été recueillies ou sur laquelle les données sont axées. Énumérez les coordonnées dans l’ordre S O N E, séparées par un espace. Vous pouvez ajouter plus d’un cadre de délimitation. 
+<ins>Exemple</ins> : 
 
-<ins>Exemple</ins> : 49,203 -123,121 49,297 
+* *Latitude* : 49.2827
+* *Longitude* : -123.1207 
+
+**Cadre englobant géographique** : Région spatiale où les données ont été recueillies ou sur laquelle les données portent. Fournir un cadre englobant avec des coordonnées en degrés décimaux.
+
+* **Longitude ouest** : Coordonnée vers l’ouest du cadre englobant. Degrés décimaux entre -180 et +180.
+* **Longitude est** : Coordonnée vers l'est du cadre englobant. Degrés décimaux entre -180 et +180.
+* **Latitude nord** : Coordonnée vers le nord du cadre englobant. Degrés décimaux entre -90 et +90.
+* **Latitude sud** : Coordonnée vers le sud du cadre englobant. Degrés décimaux entre -90 et +90.
+
+<ins>Exemple</ins> :
+
+* *Longitude ouest* : -123.121
+* *Longitude est* : -123.005
+* *Latitude nord* : 49.297
+* *Latitude sud* : 49.203

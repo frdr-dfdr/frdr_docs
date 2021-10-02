@@ -41,8 +41,10 @@ Voici ce qui arrive lorsqu’un utilisateur atteint son quota pour une collectio
 ## 9. Comment puis-je demander plus d’espace de stockage?
 Si vous avez atteint votre limite de quota ou si vous pensez qu’une augmentation de quota est nécessaire pour une collection, veuillez communiquer à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-## 10. Quelles fonctions de conservation sont offertes (archivage automatique de données soumises)?
-Pour l’instant, nous pouvons traiter des soumissions inférieures à 25 To. Si vous devez conserver un jeu de données plus volumineux, communiquez à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+## 10. Le DFDR offre-t-il une préservation à long terme?
+Afin de s’assurer que tous les jeux de données soumis au DFDR sont préservés là où il se doit, le DFDR a mis en œuvre un processus d’évaluation qui assurera une gestion responsable et durable de l’accès à long terme. Tous les jeux de données déposés auprès du DFDR seront considérés pour une préservation à long terme.
+ 
+Les déposants peuvent contribuer au processus d’évaluation en répondant à une question facultative concernant la valeur à long terme de leurs jeux de données pendant le processus de soumission. Pour de plus amples renseignements, consultez les instructions pour « Demander une préservation à long terme » dans la section « Déposer les données ».
 
 ## 11. Pourquoi suis-je incapable de télécharger un fichier avec mon fureteur (via HTTP)?
 Il peut y avoir plusieurs raisons: 

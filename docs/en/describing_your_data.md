@@ -24,7 +24,7 @@
 * rDNA
 * Breeding
 
-**Field(s) of Research**: Choose one or more field(s) of research by using the [Canadian Research and Development Classification](https://www.statcan.gc.ca/eng/subjects/standard/crdc/2020v1/index) field name(s) applicable to this dataset.
+**Field of Research**: Choose one or more field(s) of research by using the [Canadian Research and Development Classification](https://www.statcan.gc.ca/eng/subjects/standard/crdc/2020v1/index) field name(s) applicable to this dataset.
 
 Fields of research are organized into Groups, which are subdivided into Classes. To find the field(s) of research applicable to your dataset, use the dropdown menus for Group, Class, and Field. You may also browse the classification in English or French using Statistics Canada documentation:
 
@@ -98,7 +98,7 @@ Note that a Curator may ask why you are unable to make use of the default licens
 * 1990/1999
     * The data is about the time period from 1990-1999. 
 
-**Collection Period(s)**: The date or date range in which the data was collected. Enter Start and/or End dates in YYYY-MM-DD, YYYY-MM, or YYYY format.
+**Collection Period**: The date or date range in which the data was collected. Enter Start and/or End dates in YYYY-MM-DD, YYYY-MM, or YYYY format.
 
 <ins>Examples</ins>:
 
@@ -126,7 +126,7 @@ Note that a Curator may ask why you are unable to make use of the default licens
 * *Award Title*: Migration Ranges of Arctic Terns
 
 
-**Contributors**: List additional people and/or institutions responsible for contributing to the dataset. When entering a person’s name, enter in the format Last Name, First Name. For each contributor, select the type of contributor from the dropdown menu. 
+**Contributor**: List additional people and/or institutions responsible for contributing to the dataset. When entering a person’s name, enter in the format Last Name, First Name. For each contributor, select the type of contributor from the dropdown menu. 
 
 <ins>Example</ins>:
 
@@ -167,21 +167,55 @@ Refer to the following definitions for each contributor type (taken from the [Da
 * **this dataset is continued by**: The dataset is continued by the related resource. For example, the related resource is the next dataset in a chronological series of datasets, such as annual survey data.
 * **this dataset continues**: The dataset is a continuation of the related resource. For example, the related resource is the previous dataset in a chronological series of datasets, such as annual survey data.
 
+**Notes**: Any additional important information about the dataset. Notes can be used for information that is not covered by the other metadata fields, including information that is included in the README. For example:
+
+* Information about file structure, i.e. a high-level overview of the relationship between the folders/files in the dataset
+* Information about an instrument used to collect the data
+* Information about software that can be used to interpret the data
+* Information about a metadata schema or standard that was used to structure the data
+* Additional information about related items:
+    * Further explanation of a relationship between the dataset and an external item linked in the Related Identifier field, such as a software package or related dataset  
+    * References to related items that do not have a URL or DOI, and therefore cannot be included in the “Related Identifier” field
+* Additional acknowledgements that are not covered by the Contributor or Funding Information fields
+* Additional notes for researchers who are re-using the dataset (for example, a request to contact the authors to discuss collaboration opportunities).
+
+
 ## Geographical Metadata
 
-**Geolocation Place**: A place name where the data was gathered or about which the data is focused. Provide a textual description. You may add more than one place name. Include as much detail as possible (city, province/state, country).
+**Geographic Coverage**: The geographic coverage of the dataset — i.e., the location(s) that the dataset is about. For each place name, enter as many fields as applicable to describe the location. Use [GeoNames](https://www.geonames.org/) for correct spelling of place names and avoid abbreviations.
 
-* Enter additional place names by using the Enter key or a semicolon.
-* Where possible, choose place names by selecting from the auto-complete options. If not listed, you may enter a custom place name.
+* **Place Name**: General information on the geographic coverage of the data. Use for geographical names that are not a country, province/territory/state, or city; e.g. regions, water bodies, astronomy names, and alternate names.
+* **Country**: The country or nation that the dataset is about. If the dataset covers multiple countries, list all of them separately.
+* **Province / Territory / State**: The province, territory, or state that the dataset is about.
+* **City**: The name of the city that the dataset is about.
 
 <ins>Example</ins>:
 
-* Stanley Park, Vancouver, British Columbia, Canada
+* *Place Name*: Stanley Park
+* *Country*: Canada
+* *Province / Territory / State*: British Columbia
+* *City*: Vancouver
 
-**Geolocation Point (Lat Lon)**: A point where the data was gathered or about which the data is focused. Provide latitude and longitude separated by a space. You may add more than one point.
+**Geographic Point**: Point where the data was gathered or about which the data is focused. Provide latitude and longitude.
 
-<ins>Example</ins>: 49.2827 -123.1207
+* **Latitude**: Latitude: Latitude: Decimal degrees between -90 and +90.
+* **Longitude**: Longitude: Longitude: Decimal degrees between -180 and +180.
 
-**Geolocation Box (S W N E)**: A bounding box for the spatial region where the data was gathered or about which the data is focused. List coordinates in the order S W N E, separated by a space. You may add more than one bounding box.
+<ins>Example</ins>: 
 
-<ins>Example</ins>: 49.203 -123.121 49.297
+* *Latitude*: 49.2827
+* *Longitude*: -123.1207
+
+**Geographic Bounding Box**: Spatial region where the data was gathered or about which the data is focused. Provide a bounding box with decimal degree coordinates.
+
+* **West Longitude**: Westbound coordinate of the bounding box. Decimal degrees between -180 and +180.
+* **East Longitude**: Eastbound coordinate of the bounding box. Decimal degrees between -180 and +180.
+* **North Latitude**: Northbound coordinate of the bounding box. Decimal degrees between -90 and +90.
+* **South Latitude**: Southbound coordinate of the bounding box. Decimal degrees between -90 and +90.
+
+<ins>Example</ins>:
+
+* *West Longitude*: -123.121
+* *East Longitude*: -123.005
+* *North Latitude*: 49.297
+* *South Latitude*: 49.203

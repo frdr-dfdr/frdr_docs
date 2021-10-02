@@ -110,6 +110,12 @@ Les auteurs recevront un avis un mois avant l’expiration de l’embargo. Il es
 
 Le DFDR permet des embargos pouvant aller jusqu’à un an. Toutes les autres demandes d’embargo doivent être approuvées par le gestionnaire de services du DFDR. Veuillez communiquer avec [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) si vous avez besoin de demander un embargo prolongé.
 
+## Demander une préservation à long terme
+Afin de s’assurer que tous les jeux de données soumis au DFDR sont préservés là où il se doit, le DFDR a mis en œuvre un processus d’évaluation qui assurera une gestion responsable et durable de l’accès à long terme. Tous les jeux de données déposés auprès du DFDR seront considérés pour une préservation à long terme.
+ 
+En tant que déposant, vous pouvez participer au processus d’évaluation en répondant à la question de préservation facultative pendant le processus de soumission : « Avez-vous l’intention de conserver ce jeu de données pendant plus de 10 ans? » (O/N). Vous pouvez également laisser un commentaire décrivant, par exemple, la valeur sociale, scientifique ou historique potentielle à long terme de votre jeu de données.
+ 
+Si vous n’êtes pas certain de la valeur à long terme de votre jeu de données, vous pouvez sauter cette question. Soyez toutefois assurés que votre jeu de données sera évalué pour une préservation à long terme de façon indépendante par l’équipe de curation du DFDR en consultation avec le coordonnatrice de la préservation du DFDR. Si vous avez des questions au sujet de ce processus, n’hésitez pas à communiquer avec [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## Transfert de jeux de données
 ### Téléversement à partir d’un navigateur (petits jeux de données)

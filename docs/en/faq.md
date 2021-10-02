@@ -41,8 +41,10 @@ When a user reaches their quota in a collection, the following will happen:
 ### 9. How can I request more storage?
 If you have reached your quota limit, or believe an extension on quota is required for a collection, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-### 10. What preservation capabilities are offered (automatic archiving of data submitted)?
-Currently, we can process submissions smaller than 25 TB. If you need a larger dataset preserved please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+### 10. Does FRDR offer long-term preservation?
+In order to ensure all datasets submitted to FRDR are preserved where appropriate, FRDR has implemented an appraisal process to ensure long-term access is managed responsibly and sustainably. All datasets deposited with FRDR will be considered for long-term preservation. 
+
+Depositors can contribute to the appraisal process by answering an optional question regarding the long-term value of their datasets during the submission process. For more information, see the instructions for “Requesting Long-term Preservation” in the Depositing Data guide.
 
 ### 11. Why can't I download a file via my web browser (using HTTP)?
 It might be for a few reasons:
