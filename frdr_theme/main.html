@@ -26,7 +26,9 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item dropdown">
-                    <a href="." class="dropdown-toggle" data-toggle="dropdown">{% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
+                    <a href="." class="dropdown-toggle" data-toggle="dropdown">
+                        {% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
+                    </a>
                     <ul class="dropdown-menu dropdown-menu-right" role="menu">
                         {% if '/en/' in page.canonical_url %}
                         <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
@@ -47,6 +49,7 @@
                     {% endif %}
                     </li>
                 </ul>
+
                 <ul class="nav navbar-nav navbar-right">
                   <li class="nav-item dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
