@@ -27,12 +27,13 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item dropdown">
                     <a href="." class="dropdown-toggle" data-toggle="dropdown">{% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
-                    <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
                         {% if '/en/' in page.canonical_url %}
+                        <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
                         <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
                         {% else %}
                         <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
+                        <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
                         {% endif %}
                     </ul>
                 </ul>
@@ -50,7 +51,6 @@
                   <li class="nav-item dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         {% if '/en/' in page.canonical_url %}Help{% else %}Aide{% endif %}
-                        <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu" role="menu">
                       {% if '/en/' in page.canonical_url %}
@@ -70,7 +70,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item"><a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a></li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
                       <ul class="dropdown-menu">
                         <li class="dropdown-item"><a href="/repo/profile">{% if '/en/' in page.canonical_url %}Profile{% else %}Profil{% endif %}</a></li>
 
