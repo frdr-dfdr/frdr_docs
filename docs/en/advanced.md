@@ -105,7 +105,7 @@ Install the Globus SDK python module:
 sudo pip install globus-sdk
 ```
 
-Obtain a copy of the REST API Client code by [contacting us](/docs/en/contact_support/).  This code is currently not publicly released.
+Obtain a copy of the REST API Client code by [contacting us](/repo/contactus).  This code is currently not publicly released.
 
 Change directory to where the REST API Client code was downloaded, and then install it:
 
