@@ -1,5 +1,14 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-10-27**:
+
+* Added Creative Commons Attribution-NoDerivatives 4.0 (CC BY-ND 4.0) license to the list of available licenses
+* Fixed an issue that could cause multiple emails to submitters when an item is coming out of embargo
+* Author institution affiliation is now matched to the Research Organization Registry (ROR) [https://ror.org/about/](https://ror.org/about/)
+* Added Keyword facet to discovery interface and removed Subject
+* Consolidated site assets and libraries to improve page loading times
+
+
 **2021-09-28**:
 
 * Added new repositories to FRDR discovery: Canadian Space Agency Open Data / Agence spatiale canadienne données ouvertes.
