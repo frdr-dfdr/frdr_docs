@@ -111,7 +111,7 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 * Emploi de l’outil de moissonnage de métadonnées et indexation des dépôts de données de recherche au Canada, y compris les jeux de données hébergés dans la plateforme de dépôt du DFDR.
 * Interface d’exploration avec fonctionnalité de recherche textuelle prise en charge par la Globus Search.
 * Fil de métadonnées recueillies du protocole OAI-PMH librement accessible.
-* [Geodisy](https://geo.frdr-dfdr.ca/) : interface de recherche géospatiale à l’aide de l’outil GeoBlacklight (actuellement en version beta)
+* [Geodisy](https://geo.frdr-dfdr.ca/) : interface de recherche géospatiale à l’aide de l’outil GeoBlacklight
 
 ### Services de préservation
 * Traitement de préservation des données de recherche à l’aide de logiciels parallèles d’Archivematica :
@@ -182,4 +182,4 @@ Remerciement spécial à **Keith Jeffrey**, ancien gestionnaire de projet, maint
 
 
 ## Projet Geodisy
-La recherche cartographique Geodisy du DFDR est un outil de découverte à source ouverte qui permet aux utilisateurs de trouver des données ouvertes de chercheurs canadiens à l’aide d’une carte interactive. Les données de recherche peuvent être difficiles à trouver, et encore plus difficiles lorsqu’on cherche des données concernant une zone ou un endroit précis. Geodisy pallie cette difficulté en offrant aux utilisateurs une fenêtre sur le monde des données de recherche grâce à des outils cartographiques simples. La recherche cartographique comprend des jeux de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) avec des métadonnées de cadres englobants, des métadonnées de localisation, ou de fichiers géospatiaux. Le DFDR continuera d’élargir la collection de Geodisy pour inclure davantage d’jeux de données provenant de la liste des dépôts institutionnels du DFDR.
+La [recherche cartographique](https://geo.frdr-dfdr.ca/fr) du DFDR est un outil de découverte à code source ouvert alimenté par [Geodisy](https://github.com/ubc-library/geodisy) qui permet aux utilisateurs de trouver des données à l’aide d’une carte interactive. La recherche cartographique comprend seulement des ensembles de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) qui contiennent de l’information géospatiale. Les données sont repérables en fonction de leur emplacement, qui est déterminé à partir de métadonnées de boîtes limitatives, de métadonnées de noms de lieux ou de fichiers géospatiaux. Lorsqu’ils sont disponibles, les fichiers géospatiaux individuels sont prévisualisés sur les pages d’enregistrement sous forme de superpositions visuelles. Les fichiers géospatiaux peuvent être téléchargés directement et les métadonnées ISO 19139 sont disponibles pour tous les enregistrements.
