@@ -132,9 +132,9 @@ The [Advanced Search interface](https://www.frdr-dfdr.ca/discover/html/adv-searc
 
 The Advanced Search interface provides a graphical interface for generating select queries using the search query syntax described above. 
 
-## 4. Map Search (beta)
+## 4. Map Search
 
-FRDR’s [Geodisy map search (beta)](https://geo.frdr-dfdr.ca/) is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Research data can be hard to find, and even harder when looking for data about a specific area or place. Geodisy changes that, giving users a window into the world of research data with straightforward map-based tools. Currently in beta, the map search includes datasets from [repositories indexed by FRDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=en) with bounding box metadata. Dataverse repository datasets with location metadata and/or geospatial files are also included. FRDR’s Geodisy will continue to expand upon its collection to include more datasets from FRDR’s source list of institutional repositories.
+FRDR’s [map search](https://geo.frdr-dfdr.ca/en) is an open source discovery tool powered by [Geodisy](https://github.com/ubc-library/geodisy) that allows users to find data using an interactive map. The map search only includes datasets from [repositories indexed by FRDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=en) that contain geospatial information. Data is discoverable based on its location, which is determined from bounding box metadata, place name metadata, or geospatial files. When available, individual geospatial files are previewed on record pages as visual overlays. Geospatial files can be downloaded directly and ISO 19139 metadata is made available for all records.
 
 # Search results
 
