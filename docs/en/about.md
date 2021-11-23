@@ -109,7 +109,7 @@ The platform's federated search tool will provide a focal point to discover and 
 * Metadata harvesting and indexing of Canadian research data repositories, including datasets hosted in FRDR’s repository platform
 * Discovery interface with text-based search functionality supported by Globus search
 * Openly available OAI-PMH feed of harvested metadata
-* [Geodisy](https://geo.frdr-dfdr.ca/): Geospatial search interface using GeoBlacklight (currently in beta)
+* [Geodisy](https://geo.frdr-dfdr.ca/): Geospatial search interface using GeoBlacklight
 
 ### Preservation Services
 * Preservation processing of research data via parallelized Archivematica instances:
@@ -182,6 +182,5 @@ Special thanks to **Keith Jeffrey**, the former Project Manager, who has since r
 
 ## Geodisy Project
 
-FRDR’s Geodisy map search is an open source discovery tool that allows users to find open data from Canadian researchers by using an interactive map. Research data
-can be hard to find, and even harder when looking for data about a specific area or place. Geodisy changes that, giving users a window into the world of research data with straightforward map-based tools. The map search includes datasets from [repositories indexed by FRDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=en) with bounding box metadata, location metadata, and/or geospatial files. FRDR’s Geodisy will continue to expand upon its collection to include more datasets from FRDR’s source list of institutional repositories
+FRDR’s [map search](https://geo.frdr-dfdr.ca/en) is an open source discovery tool powered by [Geodisy](https://github.com/ubc-library/geodisy) that allows users to find data using an interactive map. The map search only includes datasets from [repositories indexed by FRDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=en) that contain geospatial information. Data is discoverable based on its location, which is determined from bounding box metadata, place name metadata, or geospatial files. When available, individual geospatial files are previewed on record pages as visual overlays. Geospatial files can be downloaded directly and ISO 19139 metadata is made available for all records.
 
