@@ -181,5 +181,5 @@ Remerciement spécial à **Keith Jeffrey**, ancien gestionnaire de projet, maint
 * Févr. 2021 : Lancement des services de dépôt du DFDR en production intégrale!
 
 
-## Projet Geodisy
+## Projet Recherche de cartes
 La [recherche cartographique](https://geo.frdr-dfdr.ca/fr) du DFDR est un outil de découverte à code source ouvert alimenté par [Geodisy](https://github.com/ubc-library/geodisy) qui permet aux utilisateurs de trouver des données à l’aide d’une carte interactive. La recherche cartographique comprend seulement des ensembles de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) qui contiennent de l’information géospatiale. Les données sont repérables en fonction de leur emplacement, qui est déterminé à partir de métadonnées de boîtes limitatives, de métadonnées de noms de lieux ou de fichiers géospatiaux. Lorsqu’ils sont disponibles, les fichiers géospatiaux individuels sont prévisualisés sur les pages d’enregistrement sous forme de superpositions visuelles. Les fichiers géospatiaux peuvent être téléchargés directement et les métadonnées ISO 19139 sont disponibles pour tous les enregistrements.
