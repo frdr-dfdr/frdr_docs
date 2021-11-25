@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-11-24**:
+
+* Added new repositories to FRDR discovery: University of Winnipeg Dataverse, Dataverse de l'Université du Québec à Montréal, and Dataverse de l'Université du Québec en Outaouais
+
 **2021-10-27**:
 
 * Added Creative Commons Attribution-NoDerivatives 4.0 (CC BY-ND 4.0) license to the list of available licenses
