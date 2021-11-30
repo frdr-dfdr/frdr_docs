@@ -157,7 +157,17 @@ La présente section couvre les activités suivantes :
 
 ### Téléverser des dossiers ou plusieurs fichiers à l’aide de la fonction glisser-déposer
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/U4Qaia4KZAU/?cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<div class="video-wrap">
+<a href="https://www.youtube.com/watch?v=ewhEezAObqs&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=fr&cc_load_policy=1" target="_blank">
+  <div class="video-play-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150" version="1.1">
+        <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z" transform="matrix(0.5,0,0,0.5,0,0)"></path>
+        <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
+    </svg>
+  </div>
+  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/televerser_jeu_de_donnees.png" alt="aperçu vidéo: Téléverser un jeu de données">
+</a>
+</div>
 
 * Pour téléverser un dossier, démarrer votre gestionnaire de fichiers.
 * Localisez les fichiers ou les dossiers que vous souhaitez téléverser.

@@ -9,7 +9,18 @@ Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veui
 
 ## 2. Créer un compte Globus
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/Amj-RpT_y2c/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<div class="video-wrap">
+<a href="https://www.youtube.com/watch?v=-bQ_npErGwA&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=fr&cc_load_policy=1" target="_blank">
+  <div class="video-play-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150" version="1.1">
+        <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z" transform="matrix(0.5,0,0,0.5,0,0)"></path>
+        <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
+    </svg>
+  </div>
+  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/obtenir_compte_globus.png" alt="aperçu vidéo: Obtenir un compte Globus">
+</a>
+</div>
+
 
 Vous pouvez utiliser quatre options pour créer un compte Globus : 1) par une ouverture de session institutionnelle à partir d’un établissement postsecondaire canadien, 2) par le biais d’un compte de Calcul Canada, 3) au moyen d’un ID ORCID ou 4) par l’inscription directe pour obtenir un ID Globus. Vous pouvez également ouvrir un compte au moyen de Google; toutefois, ce n'est pas la méthode privilégiée et celle-ci exigera une vérification supplémentaire. *Afin de faciliter la vérification, nous vous invitons fortement à utiliser l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.*
 
@@ -25,7 +36,17 @@ Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veui
 
 ## 4. Obtenir le logiciel de connexion de Globus
 
-<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/NJYTl3yhRl4/?list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=fr&cc_load_policy=1" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<div class="video-wrap">
+<a href="https://www.youtube.com/watch?v=fOAMB2VHC24&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=fr&cc_load_policy=1" target="_blank">
+  <div class="video-play-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150" version="1.1">
+        <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z" transform="matrix(0.5,0,0,0.5,0,0)"></path>
+        <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
+    </svg>
+  </div>
+  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/installer_globus.png" alt="aperçu vidéo: Télécharger et installer Globus Connect Personal">
+</a>
+</div>
 
 Déposer des données dans le DFDR requiert le logiciel de connexion de Globus.
 

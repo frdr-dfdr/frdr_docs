@@ -190,12 +190,12 @@ This section covers the following activities:
 <div class="video-wrap">
 <a href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=en&cc_load_policy=1" target="_blank">
   <div class="video-play-btn">
-    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" version="1.1">
-        <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z"></path>
-        <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150"></polygon>
+    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150" version="1.1">
+        <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z" transform="matrix(0.5,0,0,0.5,0,0)"></path>
+        <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
     </svg>
   </div>
-  <img class="video-placeholder" src="/docs/img/video_placeholders/en/get_globus_account.png" alt="Video preview: Upload a dataset">
+  <img class="video-placeholder" src="/docs/img/video_placeholders/en/upload_dataset.png" alt="Video preview: Upload a dataset">
 </a>
 </div>
 
