@@ -18,7 +18,7 @@ The platform's federated search tool will provide a focal point to discover and 
             <polygon points="225 150 110 80 110 225 225 150"></polygon>
         </svg>
       </div>
-    <img class="video-placeholder" src="img/video_placeholders/en/what_is_frdr.png" alt="Video: What is FRDR and why should I use it">
+    <img class="video-placeholder" src="/docs/img/video_placeholders/en/what_is_frdr.png" alt="Video: What is FRDR and why should I use it">
     </a>
   </div>
 
