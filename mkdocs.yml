@@ -1,5 +1,6 @@
 site_name: FRDR Documentation
 site_url: http://127.0.0.1:8000/
+plausible_domain: test.frdr.ca
 theme:
     name: mkdocs
     custom_dir: 'frdr_theme'
