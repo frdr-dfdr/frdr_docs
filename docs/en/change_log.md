@@ -1,5 +1,12 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2021-12-15**:
+
+* Fixed authors not being displayed in some discovery search results
+* Fixed collaboration icon missing in publication dashboard
+* Fixed an issue that was casuing a delay in being able to approve new accounts
+
+
 **2021-11-24**:
 
 * Added new repositories to FRDR discovery: University of Winnipeg Dataverse, Dataverse de l'Université du Québec à Montréal, and Dataverse de l'Université du Québec en Outaouais
