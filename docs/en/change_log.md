@@ -2,7 +2,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 ** 2022-01-26**:
 
-* Published the [https://www.frdr-dfdr.ca/policies/en/preservation/](Preservation Policy)
+* Published the [Preservation Policy](https://www.frdr-dfdr.ca/policies/en/preservation/)
 
 **2021-12-15**:
 
