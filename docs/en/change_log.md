@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+** 2022-01-26**:
+
+* Published the [https://www.frdr-dfdr.ca/policies/en/preservation/](Preservation Policy)
+
 **2021-12-15**:
 
 * Fixed authors not being displayed in some discovery search results
@@ -22,15 +26,15 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2021-09-28**:
 
-* Added new repositories to FRDR discovery: Canadian Space Agency Open Data / Agence spatiale canadienne données ouvertes.
-* Added question about long-term preservation to ingest forms.
-* Add support for dataset notes and multiple lines in description.
-* Improved quality of records discoverable using FRDR Map Search.
+* Added new repositories to FRDR discovery: Canadian Space Agency Open Data / Agence spatiale canadienne données ouvertes
+* Added question about long-term preservation to ingest forms
+* Add support for dataset notes and multiple lines in description
+* Improved quality of records discoverable using FRDR Map Search
 
 **2021-08-28**:
 
-* Improve navigation on the communities page.
-* New interface for geographic metadata input.
+* Improve navigation on the communities page
+* New interface for geographic metadata input
 
 **2021-07-28**:
 
