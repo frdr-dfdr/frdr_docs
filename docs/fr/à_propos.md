@@ -160,18 +160,15 @@ Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisai
 
 ## Équipe de développement et des opérations
 * **Lee Wilson**, gestionnaire de services, Réseau Portage
-* **Kelly Stathis**, coordonnatrice de la découverte et des métadonnées, Réseau Portage
 * **Erin Clary**, coordonnatrice de la curation, Réseau Portage
 * **Nichole DeMichelis**, agente de curation, Réseau Portage
 * **Subhanya Sivajothy**, agente de curation, Réseau Portage
 * **Yvette Rancourt**, agente de curation, Réseau Portage
-* **Beth Knazook**, coordonnatrice de la préservation, Réseau Portage
 * **Jennifer Abel**, coordonnatrice de la formation, Réseau Portage
 * **Caitilín O’Hare**, agente des communications, Réseau Portage
 * **Victoria Smith**, coordonnatrice des politiques, de la confidentialité et des données sensibles, Réseau Portage
 * **Lucia Costanzo**, coordonnatrice de l’évaluation de la recherche et l’intelligence, Réseau Portage
 * **Mark Goodwin**, coordonnateur des métadonnées géospatiales, Université de la Colombie-Britannique
-* **Alex Garnett**, bibliothécaire de données de recherche et systèmes, Université Simon Fraser
 * **Neha Milan**, directrice des opérations, Université de la Saskatchewan
 * **Todd Trann**, directeur technique, Université de la Saskatchewan
 * **Mike Winter**, développeur principal, Université de la Saskatchewan
@@ -180,7 +177,7 @@ Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisai
 * **Paul Dante**, développeur, Université de la Colombie-Britannique
 * **Jin Zhang**, développeur, Université Simon Fraser
 
-Remerciement spécial à **Keith Jeffrey**, ancien gestionnaire de projet, maintenant retraité. Nous remercions tout particulièrement **Melanie Parlette-Stewart**, ancienne coordonnatrice de la formation chez Portage, pour sa participation dans le DFDR.
+Merci à tous les membres de notre équipe précédente: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook** et **Kelly Stathis**.
 
 ## Chronologie du projet
 * Janvier 2016 : début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.
