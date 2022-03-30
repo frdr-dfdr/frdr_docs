@@ -1,6 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
-** 2022-01-26**:
+**2022-03-30**:
+
+* First name is now no longer required for authors, so single name authors can be added to datasets
+* Funder organization lookup is now based on the Research Organization Registry (ROR)
+
+**2022-01-26**:
 
 * Published the [Preservation Policy](https://www.frdr-dfdr.ca/policies/en/preservation/)
 
@@ -9,7 +14,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Fixed authors not being displayed in some discovery search results
 * Fixed collaboration icon missing in publication dashboard
 * Fixed an issue that was casuing a delay in being able to approve new accounts
-
 
 **2021-11-24**:
 
@@ -22,7 +26,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Author institution affiliation is now matched to the Research Organization Registry (ROR) [https://ror.org/about/](https://ror.org/about/)
 * Added Keyword facet to discovery interface and removed Subject
 * Consolidated site assets and libraries to improve page loading times
-
 
 **2021-09-28**:
 
@@ -49,7 +52,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * FRDR Map Search now includes OpenDataSoft datasets
 * Language improvements for French version of Map Search 
 
-
 **2021-05-26**:
 
 * Added new repositories to FRDR discovery: Yukon Open Data, Open Ottawa / Ottawa Ouverte, Saint Mary’s University Dataverse
@@ -74,7 +76,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Fixed a problem with searching for datasets by phrase
 * Fixed a problem with ordering of search results by title
 
-
 **2021-03-31**:
 
 * Added new repositories to FRDR discovery: Royal Roads University Dataverse and MacEwan University Dataverse
@@ -87,7 +88,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Metadata dates are clearer around when a dataset becomes available taking into account embargo and embargo changes
 * Removed Google Analytics
 * Improved Geodisy pipeline to include processing geofiles from CKAN, Socrata, and FRDR-OAI repositories
-
 
 **2021-02-24**:
 
@@ -142,7 +142,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Improved GUI user accessibility functionality on public-facing pages, including improved colour contrasts
 * Modified the item landing page citation format to align with Datacite suggested citation format
 
-
 **2020-10-28**:
 
 * Allow submitters to see the list of files for datasets that are published but still under embargo
@@ -153,7 +152,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Re-enabled statistics for files downloaded via Globus (HTTPS downloads are not yet counted in these stats)
 * Add user dismissable notifications to dashboard and profile pages
 
-
 **2020-09-30**:
 
 * Item landing pages by default will now use the item UUID instead of the item DOI text.  Existing links that use item DOI text will continue to work and DOIs will continue to resolve properly.
@@ -161,7 +159,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Changed the default cutoff to 50 items per directory for dataset file listing, so that web browsers won't timeout trying to display item landing pages for large datasets
 * A file containing the selected dataset license will be placed within the dataset after publication
 * Improvements to accessibility and mobile usability have been made to multiple areas of the site, and will continue into the next update
-
 
 **2020-08-26**:
 
@@ -174,14 +171,12 @@ This is a list of changes to FRDR, starting with the most recent:
 * Truncated the listing of files for datasets with very large numbers of files or folders.
 * Added new repositories to FRDR discovery: Canadian Integrated Ocean Observing System (CIOOS), Cape Breton University Dataverse, Dalhousie University Dataverse, École nationale d'administration publique Dataverse, HEC Montréal Dataverse, Institut national de la recherche scientifique Dataverse, Université TÉLUQ Dataverse, University of Northern British Columbia Dataverse
 
-
 **2020-06-24**:
 
 * Updated the display of DOIs in multiple areas to make it uniform.
 * Added permissions for sharing submissions with collaborators. Users can now specify if the collaborator can edit metadata, upload files and submit the dataset.
 * The publication dashboard has been reformatted for large and small displays.
 * Added new repositories to FRDR discovery: DataStream and UBC cIRcle BIRS Workshop Lecture Videos
-
 
 **2020-05-27**:
 
@@ -191,7 +186,6 @@ This is a list of changes to FRDR, starting with the most recent:
 * Moved map search over to the bilingual domain geo.frdr-dfdr.ca
 * Added FRDR logo to map search page
 * Improved FRDR infrastructure monitoring to give the support team better insight into potential problems
-
 
 **2020-04-29**:
 
