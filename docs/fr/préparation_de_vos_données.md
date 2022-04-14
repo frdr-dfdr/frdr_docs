@@ -168,7 +168,7 @@ Les dirigeants des communautés autochtones sont les mieux placés pour évaluer
 
 * Inuit Tapiriit Kanatami. [Stratégie nationale inuite sur la recherche.](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_French_low_res.pdf)
 
-* Organisation nationale de la santé autochtone. [Principles of Ethical Métis Research]((https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf)) and [What researchers Need from Métis Communities](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf) (en anglais).
+* Organisation nationale de la santé autochtone. [Principles of Ethical Métis Research](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf) and [What researchers Need from Métis Communities](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf) (en anglais).
 
 * Global Indigenous Data Alliance. [CARE Principles for Indigenous Data Governance (en anglais).](https://www.gida-global.org/care)
 
