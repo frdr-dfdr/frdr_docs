@@ -1,5 +1,14 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2022-04-27**:
+
+* Changed the new user agreement button text to be inclusive of Terms of Use and Privacy Policy for clarity
+* When entering geographic metadata, country is now required to be selected before city and province/state can be entered
+* Updated web page footer to align with branding for Digital Research Alliance of Canada (The Alliance)
+* Added data repository Columbia Basin Water Hub to FRDR Discovery
+* Updated data repository Canadian Watershed Information Network (CanWIN)
+* Fixed a problem with links to ORCID IDs on item landing pages
+
 **2022-03-30**:
 
 * First name is now no longer required for authors, so single name authors can be added to datasets
