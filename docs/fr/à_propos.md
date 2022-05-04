@@ -159,7 +159,6 @@ Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Uni
 * **Nichole DeMichelis**, agente de curation, Alliance de recherche numérique du Canada
 * **Tamanna Moharana**, agente de curation, Alliance de recherche numérique du Canada
 * **Yvette Rancourt**, coordonnateur de la préservation, Alliance de recherche numérique du Canada
-* **Jennifer Abel**, coordonnatrice de la formation, Alliance de recherche numérique du Canada
 * **Caitilín O’Hare**, agente des communications, Alliance de recherche numérique du Canada
 * **Victoria Smith**, coordonnatrice des politiques, de la confidentialité et des données sensibles, Alliance de recherche numérique du Canada
 * **Lucia Costanzo**, coordonnatrice de l’évaluation de la recherche et l’intelligence, Alliance de recherche numérique du Canada

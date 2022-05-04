@@ -143,7 +143,6 @@ Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University
 * **Nichole DeMichelis**, Curation Officer, Digital Research Alliance of Canada
 * **Tamanna Moharana**, Curation Officer, Digital Research Alliance of Canada
 * **Yvette Rancourt**, Preservation Coordinator, Digital Research Alliance of Canada
-* **Jennifer Abel**, Training Coordinator, Digital Research Alliance of Canada
 * **Caitilín O’Hare**, Communications Officer, Digital Research Alliance of Canada
 * **Victoria Smith**, Policy, Privacy, and Sensitive Data Coordinator, Digital Research Alliance of Canada
 * **Lucia Costanzo**, Researcher Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
