@@ -7,7 +7,7 @@ Une <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noo
 
 
 ## Objectif
-Le DFDR comblera une importante lacune dans l’infrastructure canadienne de recherche en fournissant une plateforme unique à partir de laquelle les données de recherche peuvent être<strong>chargées</strong>,<strong>organisées</strong>,<strong>préservées</strong>,<strong>explorées, citées</strong>et<strong>partagées</strong>.
+Le DFDR comblera une importante lacune dans l’infrastructure canadienne de recherche en fournissant une plateforme unique à partir de laquelle les données de recherche peuvent être **chargées, organisées, préservées, explorées, citées et partagées**.
 
 Un outil de recherche fédéré fournira un point focal pour découvrir et accéder aux données de recherche canadiennes, tandis que la gamme de services fournis par DFDR aidera les chercheurs à stocker et à gérer leurs données, à préserver leur recherche pour une utilisation ultérieure, et à se conformer aux exigences de gestion de données des institutions et des organismes de financement.
 
