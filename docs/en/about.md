@@ -115,19 +115,17 @@ The platform's federated search tool will provide a focal point to discover and 
 
 ## Governance
 
-**Lee Wilson**, Portage Service Manager, oversees the FRDR service.
+**Lee Wilson**, Director of Research Data Management, oversees the FRDR service.
 
-
-The **Steering Committee** comprises representatives from the Canadian Association of Research Libraries’ (CARL) Portage Network, the Compute Canada Federation (CCF), the FRDR development team, FRDR host sites, NDRIO, and the end user community via the User Advisory Committee Chair. Current membership includes:
+The **Steering Committee** comprises representatives from the Digital Research Alliance of Canada, the Canadian Association of Research Libraries, the Alliance Federation, the FRDR development team, FRDR host sites, and a representative from the RDM Network of Experts. Current membership includes:
 
 **Chair:**
 
-* **Lee Wilson**, Service Manager, Digital Research Alliance of Canada
+* **Lee Wilson**, Director of Research Data Management, Digital Research Alliance of Canada
 
 **Membership:**
 
 * **Susan Haigh**, Executive Director, CARL
-* **Lee Wilson**, Service Manager, Digital Research Alliance of Canada
 * **Greg Lukeman**, CEO, ACENET
 * **Suzanne Talon**, CEO, Calcul Québec
 * **John Simpson**, Chair, Science Leadership Council / Humanities & Social Sciences Specialist
@@ -140,9 +138,10 @@ Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University
 
 ## Development and Operations Team
 
-* **Lee Wilson**, Service Manager, Digital Research Alliance of Canada
+* **Lee Wilson**, Director of Research Data Management, Digital Research Alliance of Canada
 * **Erin Clary**, Curation Coordinator, Digital Research Alliance of Canada
 * **Nichole DeMichelis**, Curation Officer, Digital Research Alliance of Canada
+* **Tamanna Moharana**, Curation Officer, Digital Research Alliance of Canada
 * **Yvette Rancourt**, Preservation Coordinator, Digital Research Alliance of Canada
 * **Jennifer Abel**, Training Coordinator, Digital Research Alliance of Canada
 * **Caitilín O’Hare**, Communications Officer, Digital Research Alliance of Canada

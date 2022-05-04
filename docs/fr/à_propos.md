@@ -132,18 +132,17 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 ## Gouvernance
 
-Le **gestionnaire de services** pour le DFDR relève du gestionnaire de service de Portage, Lee Wilson.
+**Lee Wilson**, directeur de la gestion des données de recherche, supervise le service DFDR.
 
-Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'Association des bibliothèques de recherche du Canada (ABRC), la Fédération du Calcul Canada, l'équipe de développement du DFDR, les points centraux du DFDR, la NOIRN et la communauté des utilisateurs finals via le président du Comité consultatif des usagers. Membrariat actuel :
+Le **Comité de pilotage** est composé de représentants de l'Alliance pour la recherche numérique du Canada, de l'Association des bibliothèques de recherche du Canada, de la Fédération de l'Alliance, de l'équipe de développement du DFDR, des sites hôtes du DFDR et d'un représentant du réseau d'experts GDR. Membrariat actuel:
 
 **Président:**
 
-* **Lee Wilson**, Gestionnaire de services, Alliance de recherche numérique du Canada
+* **Lee Wilson**, Directeur de la gestion des données de recherche, Alliance de recherche numérique du Canada
 
 **Adhésion:**
 
 * **Susan Haigh**, Directrice générale, CARL
-* **Lee Wilson**, Gestionnaire de services, Alliance de recherche numérique du Canada
 * **Greg Lukeman**, PDG, ACENET
 * **Suzanne Talon**, PDG, Calcul Québec
 * **John Simpson**, Président, Conseil de leadership scientifique / Spécialiste en sciences humaines et sciences sociales
@@ -155,9 +154,10 @@ Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'A
 Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Université de l'Alberta, anciens membres du comité directeur.
 
 ## Équipe de développement et des opérations
-* **Lee Wilson**, gestionnaire de services, Alliance de recherche numérique du Canada
+* **Lee Wilson**, directeur de la gestion des données de recherche, Alliance de recherche numérique du Canada
 * **Erin Clary**, coordonnatrice de la curation, Alliance de recherche numérique du Canada
 * **Nichole DeMichelis**, agente de curation, Alliance de recherche numérique du Canada
+* **Tamanna Moharana**, agente de curation, Alliance de recherche numérique du Canada
 * **Yvette Rancourt**, coordonnateur de la préservation, Alliance de recherche numérique du Canada
 * **Jennifer Abel**, coordonnatrice de la formation, Alliance de recherche numérique du Canada
 * **Caitilín O’Hare**, agente des communications, Alliance de recherche numérique du Canada
