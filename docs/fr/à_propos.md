@@ -162,7 +162,6 @@ Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Uni
 * **Lee Wilson**, gestionnaire de services, Alliance de recherche numérique du Canada
 * **Erin Clary**, coordonnatrice de la curation, Alliance de recherche numérique du Canada
 * **Nichole DeMichelis**, agente de curation, Alliance de recherche numérique du Canada
-* **Subhanya Sivajothy**, agente de curation, Alliance de recherche numérique du Canada
 * **Yvette Rancourt**, coordonnateur de la préservation, Alliance de recherche numérique du Canada
 * **Jennifer Abel**, coordonnatrice de la formation, Alliance de recherche numérique du Canada
 * **Caitilín O’Hare**, agente des communications, Alliance de recherche numérique du Canada
@@ -177,7 +176,7 @@ Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Uni
 * **Paul Dante**, développeur, Université de la Colombie-Britannique
 * **Jin Zhang**, développeur, Université Simon Fraser
 
-Merci à tous les membres de notre équipe précédente: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook** et **Kelly Stathis**.
+Merci à tous les membres de notre équipe précédente: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook**, **Subhanya Sivajothy** et **Kelly Stathis**.
 
 ## Chronologie du projet
 * Janvier 2016: début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.

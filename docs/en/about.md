@@ -160,7 +160,6 @@ Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University
 * **Lee Wilson**, Service Manager, Digital Research Alliance of Canada
 * **Erin Clary**, Curation Coordinator, Digital Research Alliance of Canada
 * **Nichole DeMichelis**, Curation Officer, Digital Research Alliance of Canada
-* **Subhanya Sivajothy**, Curation Officer, Digital Research Alliance of Canada
 * **Yvette Rancourt**, Preservation Coordinator, Digital Research Alliance of Canada
 * **Jennifer Abel**, Training Coordinator, Digital Research Alliance of Canada
 * **Caitilín O’Hare**, Communications Officer, Digital Research Alliance of Canada
@@ -175,7 +174,7 @@ Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University
 * **Paul Dante**, Developer, University of British Columbia
 * **Jin Zhang**, Developer, Simon Fraser University
 
-Thank you to all of our past team members: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook** and **Kelly Stathis**.
+Thank you to all of our past team members: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook**, **Subhanya Sivajothy** and **Kelly Stathis**.
 
 ## Project Timeline
 
