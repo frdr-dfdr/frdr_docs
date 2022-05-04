@@ -153,7 +153,7 @@ The **Steering Committee** comprises representatives from the Canadian Associati
 * **John Morton**, Director of Technology, SHARCNET
 * **Jay Brodeur**, Associate Director, Digital Scholarship Services, McMaster University
 
-Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University of Alberta, who were former members of the Steering Committee.
+Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University of Alberta, former members of the Steering Committee.
 
 ## Development and Operations Team
 

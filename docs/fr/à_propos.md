@@ -156,7 +156,7 @@ Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'A
 * **John Morton**, Directeur de la technologie, SHARCNET
 * **Jay Brodeur**, Directeur adjoint, Services d’études numériques, Université McMaster
 
-Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Université de l'Alberta, qui étaient d'anciens membres du comité directeur.
+Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Université de l'Alberta, anciens membres du comité directeur.
 
 ## Équipe de développement et des opérations
 * **Lee Wilson**, gestionnaire de services, Alliance de recherche numérique du Canada
