@@ -139,12 +139,12 @@ The **Steering Committee** comprises representatives from the Canadian Associati
 
 **Chair:**
 
-* **Jeff Moon**, Director, Portage
+* **Lee Wilson**, Service Manager, Digital Research Alliance of Canada
 
 **Membership:**
 
 * **Susan Haigh**, Executive Director, CARL
-* **Lee Wilson**, Service Manager, Portage
+* **Lee Wilson**, Service Manager, Digital Research Alliance of Canada
 * **Greg Lukeman**, CEO, ACENET
 * **Suzanne Talon**, CEO, Calcul Québec
 * **John Simpson**, Chair, Science Leadership Council / Humanities & Social Sciences Specialist
@@ -153,19 +153,19 @@ The **Steering Committee** comprises representatives from the Canadian Associati
 * **John Morton**, Director of Technology, SHARCNET
 * **Jay Brodeur**, Associate Director, Digital Scholarship Services, McMaster University
 
-Special thanks to **Umar Qasim**, University of Alberta, who was part of the original steering committee.
+Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University of Alberta, who were former members of the Steering Committee.
 
 ## Development and Operations Team
 
-* **Lee Wilson**, Service Manager, Portage Network
-* **Erin Clary**, Curation Coordinator, Portage Network
-* **Nichole DeMichelis**, Curation Officer, Portage Network
-* **Subhanya Sivajothy**, Curation Officer, Portage Network
-* **Yvette Rancourt**, Curation Officer, Portage Network
-* **Jennifer Abel**, Training Coordinator, Portage Network
-* **Caitilín O’Hare**, Communications Officer, Portage Network
-* **Victoria Smith**, Policy, Privacy, and Sensitive Data Coordinator, Portage Network
-* **Lucia Costanzo**, Researcher Intelligence and Assessment Coordinator, Portage Network
+* **Lee Wilson**, Service Manager, Digital Research Alliance of Canada
+* **Erin Clary**, Curation Coordinator, Digital Research Alliance of Canada
+* **Nichole DeMichelis**, Curation Officer, Digital Research Alliance of Canada
+* **Subhanya Sivajothy**, Curation Officer, Digital Research Alliance of Canada
+* **Yvette Rancourt**, Preservation Coordinator, Digital Research Alliance of Canada
+* **Jennifer Abel**, Training Coordinator, Digital Research Alliance of Canada
+* **Caitilín O’Hare**, Communications Officer, Digital Research Alliance of Canada
+* **Victoria Smith**, Policy, Privacy, and Sensitive Data Coordinator, Digital Research Alliance of Canada
+* **Lucia Costanzo**, Researcher Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
 * **Mark Goodwin**, Geospatial Metadata Coordinator, University of British Columbia
 * **Neha Milan**, Operations Lead, University of Saskatchewan
 * **Todd Trann**, Technical Lead, University of Saskatchewan

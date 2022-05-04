@@ -7,7 +7,7 @@ Une <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noo
 
 
 ## Objectif
-Le DFDR comblera une importante lacune dans l’infrastructure canadienne de recherche en fournissant une plateforme unique à partir de laquelle les données de recherche peuvent être <strong>chargées</strong>, <strong>organisées</strong>, <strong>préservées</strong>, <strong>explorées, citées</strong> et <strong>partagées</strong>.
+Le DFDR comblera une importante lacune dans l’infrastructure canadienne de recherche en fournissant une plateforme unique à partir de laquelle les données de recherche peuvent être<strong>chargées</strong>,<strong>organisées</strong>,<strong>préservées</strong>,<strong>explorées, citées</strong>et<strong>partagées</strong>.
 
 Un outil de recherche fédéré fournira un point focal pour découvrir et accéder aux données de recherche canadiennes, tandis que la gamme de services fournis par DFDR aidera les chercheurs à stocker et à gérer leurs données, à préserver leur recherche pour une utilisation ultérieure, et à se conformer aux exigences de gestion de données des institutions et des organismes de financement.
 
@@ -142,12 +142,12 @@ Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'A
 
 **Président:**
 
-* **Jeff Moon**, Directeur, Portage
+* **Lee Wilson**, Gestionnaire de services, Alliance de recherche numérique du Canada
 
 **Adhésion:**
 
 * **Susan Haigh**, Directrice générale, CARL
-* **Lee Wilson**, Gestionnaire de services, Portage
+* **Lee Wilson**, Gestionnaire de services, Alliance de recherche numérique du Canada
 * **Greg Lukeman**, PDG, ACENET
 * **Suzanne Talon**, PDG, Calcul Québec
 * **John Simpson**, Président, Conseil de leadership scientifique / Spécialiste en sciences humaines et sciences sociales
@@ -156,18 +156,18 @@ Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'A
 * **John Morton**, Directeur de la technologie, SHARCNET
 * **Jay Brodeur**, Directeur adjoint, Services d’études numériques, Université McMaster
 
-Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisait partie des membres originaux du comité directeur.
+Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Université de l'Alberta, qui étaient d'anciens membres du comité directeur.
 
 ## Équipe de développement et des opérations
-* **Lee Wilson**, gestionnaire de services, Réseau Portage
-* **Erin Clary**, coordonnatrice de la curation, Réseau Portage
-* **Nichole DeMichelis**, agente de curation, Réseau Portage
-* **Subhanya Sivajothy**, agente de curation, Réseau Portage
-* **Yvette Rancourt**, agente de curation, Réseau Portage
-* **Jennifer Abel**, coordonnatrice de la formation, Réseau Portage
-* **Caitilín O’Hare**, agente des communications, Réseau Portage
-* **Victoria Smith**, coordonnatrice des politiques, de la confidentialité et des données sensibles, Réseau Portage
-* **Lucia Costanzo**, coordonnatrice de l’évaluation de la recherche et l’intelligence, Réseau Portage
+* **Lee Wilson**, gestionnaire de services, Alliance de recherche numérique du Canada
+* **Erin Clary**, coordonnatrice de la curation, Alliance de recherche numérique du Canada
+* **Nichole DeMichelis**, agente de curation, Alliance de recherche numérique du Canada
+* **Subhanya Sivajothy**, agente de curation, Alliance de recherche numérique du Canada
+* **Yvette Rancourt**, coordonnateur de la préservation, Alliance de recherche numérique du Canada
+* **Jennifer Abel**, coordonnatrice de la formation, Alliance de recherche numérique du Canada
+* **Caitilín O’Hare**, agente des communications, Alliance de recherche numérique du Canada
+* **Victoria Smith**, coordonnatrice des politiques, de la confidentialité et des données sensibles, Alliance de recherche numérique du Canada
+* **Lucia Costanzo**, coordonnatrice de l’évaluation de la recherche et l’intelligence, Alliance de recherche numérique du Canada
 * **Mark Goodwin**, coordonnateur des métadonnées géospatiales, Université de la Colombie-Britannique
 * **Neha Milan**, directrice des opérations, Université de la Saskatchewan
 * **Todd Trann**, directeur technique, Université de la Saskatchewan
@@ -180,10 +180,10 @@ Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisai
 Merci à tous les membres de notre équipe précédente: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook** et **Kelly Stathis**.
 
 ## Chronologie du projet
-* Janvier 2016 : début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.
-* Septembre 2016 : lancement des essais alpha des interfaces des utilisateurs grâce à la contribution de code d’interface pour la découverte développé par l’Université de la Colombie-Britannique.
-* Avril 2017 : lancement des essais bêta et mise du projet en mode de production limitée avec un nombre restreint de groupes de recherche.
-* Août 2019 : CANARIE annonce un financement de 2 millions $ au Réseau Portage de l’ABRC, dont une partie sera consacrée à la mise en production intégrale du DFDR.
+* Janvier 2016: début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.
+* Septembre 2016: lancement des essais alpha des interfaces des utilisateurs grâce à la contribution de code d’interface pour la découverte développé par l’Université de la Colombie-Britannique.
+* Avril 2017: lancement des essais bêta et mise du projet en mode de production limitée avec un nombre restreint de groupes de recherche.
+* Août 2019: CANARIE annonce un financement de 2 millions$ au Réseau Portage de l’ABRC, dont une partie sera consacrée à la mise en production intégrale du DFDR.
 * Septembre 2020 : Le financement pour le développement du DFDR est administré par la Nouvelle organisation d’infrastructure de recherche numérique (NOIRN).
 * Févr. 2021 : Lancement des services de dépôt du DFDR en production intégrale!
 
