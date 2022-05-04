@@ -1,7 +1,7 @@
 ---
 hidesidebar: true
 ---
-The [New Digital Research Infrastructure Organization](https://engagedri.ca/) (NDRIO)’s [Portage Network](https://portagenetwork.ca/) and [Compute Canada](https://www.computecanada.ca/) (CC) are collaborating to provide a scalable, federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has now launched in full production. Anyone can now use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
+The [Digital Research Alliance of Canada](https://alliancecan.ca/en) provides a scalable, federated platform for digital research data management (RDM) and discovery. Anyone can use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
 
 A <a href="https://demo.frdr-dfdr.ca/repo/?locale=en" target="_blank" rel="noopener noreferrer">demo version</a> of the FRDR site is available for training and testing purposes. The FRDR demo can be used to learn about the platform's search and data deposit features. As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered "test" data and will only be available temporarily.
 
@@ -27,24 +27,7 @@ The platform's federated search tool will provide a focal point to discover and 
 <div class="logogroup">
 
 <div class="half">
-<a href="https://engagedri.ca/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/logo_ndrio.svg" alt="NDRIO Logo" width="300" height="117" /></a>
-</div>
-
-<div class="half">
-<a href="http://www.portagenetwork.ca" target="_blank" rel="noopener noreferrer"><img class=" logo wp-image-127 alignnone" src="/docs/img/brochure/portage_logo_tagline_rgb_bilingual.png" alt="Portage Logo" width="291" height="100" /></a>
-</div>
-
-</div>
-
-
-<div class="logogroup">
-
-<div class="half">
-<a href="https://www.computecanada.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-146" src="/docs/img/brochure/cc-logo-bi1.png" alt="CC LOGO" width="259" height="150" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.carl-abrc.ca" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
+<a href="https://alliancecan.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/static/images/latest/logos/alliance_logo.svg" alt="Alliance Logo"  height="60" /></a>
 </div>
 
 </div>
@@ -52,11 +35,11 @@ The platform's federated search tool will provide a focal point to discover and 
 <div class="logogroup">
 
 <div class="half">
-<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
+<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
 </div>
 
 <div class="half">
-<a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-309 size-medium" src="/docs/img/brochure/UofS.jpg" alt="USASK Logo" width="300" height="93" /></a>
+<a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/UofS.jpg" alt="USASK Logo" width="300" height="93" /></a>
 </div>
 
 </div>
@@ -64,11 +47,11 @@ The platform's federated search tool will provide a focal point to discover and 
 <div class="logogroup">
 
 <div class="half">
-<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
+<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
 </div>
 
 <div class="half">
-<a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
+<a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
 </div>
 
 </div>
@@ -76,11 +59,11 @@ The platform's federated search tool will provide a focal point to discover and 
 <div class="logogroup">
 
 <div class="half">
-<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
+<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
 </div>
 
 <div class="half">
-<a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto Logo" width="300" height="109" /></a>
+<a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto Logo" width="300" height="109" /></a>
 </div>
 
 </div>

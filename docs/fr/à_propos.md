@@ -1,7 +1,7 @@
 ---
 hidesidebar: true
 ---
-Le [Réseau Portage](https://portagenetwork.ca/fr/) de la [Nouvelle organization d'infrastructure de recherche numérique](https://engagedri.ca/fr/) (NOIRN) et [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ces organisations ont le plaisir d’annoncer que le service du Dépôt fédéré de données de recherche (DFDR) a été lancé en production intégrale. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens ; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
+[Alliance de recherche numérique du Canada](https://alliancecan.ca/en) fournit une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
 
 Une <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noopener noreferrer">version de démonstration</a> du site Web DFDR est disponible à des fins de formation et de test. La démo DFDR peut être utilisé pour en apprendre davantage sur les fonctionnalités de recherche et de dépôt de données de la plate-forme. Autant que possible, la démo sera tenue à jour avec la dernière version de la plateforme DFDR. Veuillez noter que toutes les données déposées dans la démo seront considérées comme des données « test » et ne seront disponibles que temporairement.
 
@@ -25,16 +25,12 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 
 ## Partenaires
+
 <div class="logogroup">
 
 <div class="half">
-<a href="https://engagedri.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/logo_ndrio.svg" alt="NDRIO Logo" width="300" height="117" /></a>
+<a href="https://alliancecan.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/static/images/latest/logos/alliance_logo_french-first.svg" alt="Alliance Logo"  height="60" /></a>
 </div>
-
-<div class="half">
-<a href="http://www.portagenetwork.ca/fr/" target="_blank" rel="noopener noreferrer"><img class=" logo wp-image-127 alignnone" src="/docs/img/brochure/portage_logo_tagline_rgb_bilingual.png" alt="Portage Logo" width="291" height="100" /></a>
-</div>
-
 
 </div>
 
