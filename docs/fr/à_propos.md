@@ -29,7 +29,7 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 <div class="logogroup">
 
 <div class="half">
-<a href="https://alliancecan.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/static/images/latest/logos/alliance_logo_french-first.svg" alt="Alliance Logo"  height="60" /></a>
+<a href="https://alliancecan.ca/fr" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/static/images/latest/logos/alliance_logo_french-first.svg" alt="Alliance Logo"  height="60" /></a>
 </div>
 
 </div>
