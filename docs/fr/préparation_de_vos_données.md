@@ -8,40 +8,40 @@ Vous pouvez télécharger une version de vos scripts d’analyse en même temps 
 
 ### Structure de vos fichiers
 
- Lorsque vous déposez vos données dans le DFDR, la structure de vos fichiers (la façon dont vous avez organisé vos données dans des répertoires ou des dossiers) est conservée. Envisagez de classer ces fichiers par type, date ou analyse pour en faciliter la compréhension. Par exemple : 
+ Lorsque vous déposez vos données dans le DFDR, la structure de vos fichiers (la façon dont vous avez organisé vos données dans des répertoires ou des dossiers) est conservée. Envisagez de classer ces fichiers par type, date ou analyse pour en faciliter la compréhension. Par exemple: 
 
-**Exemple a)**
+**Exemplea)**
 
-	├── Code
-	│   ├── traitement_donnees_brutes.r
-	│   ├── analyse_1.r
-	│   ├── analyse_2.r
-	├── Données
-	│   ├── Donnees_brutes
-	│   │   ├── fichier_a.raw
-	│   │   └── fichier_b.raw
-	│   └── Donnees_traitees
-	│   ├── fichier_a.csv
-	│   └── fichier_b.csv
-	├── Résultats
-	│   ├── Figures
-	│   └── Modèles
-	└── Lisez-moi.txt
+	├──Code
+	│   ├──traitement_donnees_brutes.r
+	│   ├──analyse_1.r
+	│   ├──analyse_2.r
+	├──Données
+	│   ├──Donnees_brutes
+	│   │   ├──fichier_a.raw
+	│   │   └──fichier_b.raw
+	│   └──Donnees_traitees
+	│   ├──fichier_a.csv
+	│   └──fichier_b.csv
+	├──Résultats
+	│   ├──Figures
+	│   └──Modèles
+	└──Lisez-moi.txt
 
-**Exemple b)**
+**Exempleb)**
 
-	├── Documentation
-	│   ├── site_information.csv
-	│   ├── site_1.shp
-	│   └── site_2.shp
-	├── Données
-	│   ├── annee_01
-	│   │   ├── site_1.csv
-	│   │   └── site_2.csv
-	│   └── annee_02
-	│   ├── site_1.csv
-	│   └── site_2.csv
-	└── Lisez-moi.txt
+	├──Documentation
+	│   ├──site_information.csv
+	│   ├──site_1.shp
+	│   └──site_2.shp
+	├──Données
+	│   ├──annee_01
+	│   │   ├──site_1.csv
+	│   │   └──site_2.csv
+	│   └──annee_02
+	│   ├──site_1.csv
+	│   └──site_2.csv
+	└──Lisez-moi.txt
 
 ### Conseils pour l’appellation de fichiers
 Nommez vos fichiers de façon logique et descriptive, afin que vous et d’autres chercheurs puissiez les comprendre en un coup d’œil. Gardez les noms de fichiers brefs et envisagez d’y inclure des renseignements sur le projet, le contenu, la date ou le numéro de version. Utilisez des caractères alphanumériques et évitez les espaces, les accents et les caractères spéciaux (%^& * ’). Votre convention d’appellation doit être décrite dans votre fichier Lisez-moi.
@@ -62,7 +62,7 @@ Les formats de fichier ouverts et non exclusifs sont préférables pour la prés
 
 * Si vous transformez vos fichiers en formats de dépôt ouverts, est-ce que des renseignements (données, métadonnées, formatage, macros, etc.) seront perdus? Ces renseignements peuvent-ils être représentés d’une autre façon, par exemple en ajoutant une variable supplémentaire à un fichier tabulaire, ou en les incluant dans un fichier de texte clair ou un fichier de documentation distinct?
 
-Le DFDR est en mesure d’accepter et d’assurer la préservation au niveau de bit pour divers formats de fichier et travaillera avec vous pour conserver vos données dans le format le plus approprié. Toutefois, nous recommandons fortement les formats de fichier faciles à préserver suivants :
+Le DFDR est en mesure d’accepter et d’assurer la préservation au niveau de bit pour divers formats de fichier et travaillera avec vous pour conserver vos données dans le format le plus approprié. Toutefois, nous recommandons fortement les formats de fichier faciles à préserver suivants:
 
 * Valeurs séparées par des virgules (CSV) pour les données tabulaires
 
@@ -70,13 +70,13 @@ Le DFDR est en mesure d’accepter et d’assurer la préservation au niveau de 
 
 * Texte clair structuré (XML, JSON)
 
-* Images : PDF, JPEG, PNG, TIFF, SVG, GIF, HEIF
+* Images: PDF, JPEG, PNG, TIFF, SVG, GIF, HEIF
 
-* Contenu audio : FLAC, AIFF, WAV, MP3, OGG, AAC
+* Contenu audio: FLAC, AIFF, WAV, MP3, OGG, AAC
 
-* Contenu vidéo : MOV, MPEG-4, MKV
+* Contenu vidéo: MOV, MPEG-4, MKV
 
-* Formats d’archivage de fichiers compressés : TAR.GZ, 7Z, ZIP
+* Formats d’archivage de fichiers compressés: TAR.GZ, 7Z, ZIP
 
 Pour obtenir de plus amples renseignements sur les formats de préservation, voir les lignes directrices de [Bibliothèque et Archives nationales du Québec](https://www.banq.qc.ca/documents/archives/archivistique_gestion/publications_proposees/Guide-formats-BAnQ_Final.pdf), du [UK Data Service](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats), de [Cornell](https://guides.library.cornell.edu/ecommons/formats) et de [l’University of Edinburgh](https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats) (en anglais).
 
@@ -84,9 +84,9 @@ Pour obtenir de plus amples renseignements sur les formats de préservation, voi
 
 Les données ne seront utiles (et bénéfiques) à long terme que si elles sont décrites en détail. Pour vous assurer d’une interprétation correcte de vos données, il est important d’inclure un manuel de codes et/ou un fichier Lisez-moi à vos données et de documenter vos méthodes de collecte. Pour cette raison, un responsable de la curation du DFDR vous demandera d’ajouter un fichier Lisez-moi à votre soumission. Vous pouvez utiliser le [modèle de fichier Lisez-moi du DFDR](/docs/txt/README-fr.txt).
 
-Conseils pour la rédaction de fichiers Lisez-moi :
+Conseils pour la rédaction de fichiers Lisez-moi:
 
-* Nommez votre fichier « Lisez-moi.txt ».
+* Nommez votre fichier «Lisez-moi.txt».
 
 * Ajoutez un point de contact dans votre fichier Lisez-moi.
 
@@ -112,7 +112,7 @@ Vous trouverez d’autres conseils (en anglais) dans le [Guide rapide : Créer u
 
 ## Examen de vos données
 
-Veuillez examiner votre jeu de données avant de le soumettre pour examen. Voici quelques points à prendre en considération : 
+Veuillez examiner votre jeu de données avant de le soumettre pour examen. Voici quelques points à prendre en considération: 
 
 * *Avez-vous fourni un fichier Lisez-moi, un manuel de code ou tout autre document nécessaire?* Parmi les documents supplémentaires utiles, notons une copie de votre plan de gestion des données, une copie non signée de tous les formulaires de consentement que vous avez fournis aux participants à l’étude, ou des renseignements sur les protocoles de l’étude, les rapports d’étude clinique ou les plans d’analyse statistique.
 
@@ -132,7 +132,7 @@ Les responsables de la curation du DFDR collaboreront avec vous pour examiner vo
 
 Avez-vous obtenu des données ou des codes d’un tiers qui pourrait détenir des droits d’auteur ou des droits de propriété intellectuelle qui vous empêcheraient de les redistribuer? La source de données originale permet-elle la redistribution, mais avec certaines restrictions?
 
-Si vous avez utilisé des données secondaires dans votre recherche, vous devrez confirmer que vous avez la permission de publier de nouveau ces données dans le DFDR avant que votre soumission puisse être approuvée par un responsable de la curation. Vous ne savez pas si vous avez besoin d’une permission? Les données qui ont été mises gratuitement à la disposition de la recherche ne sont pas nécessairement « gratuites ». Demandez-vous :
+Si vous avez utilisé des données secondaires dans votre recherche, vous devrez confirmer que vous avez la permission de publier de nouveau ces données dans le DFDR avant que votre soumission puisse être approuvée par un responsable de la curation. Vous ne savez pas si vous avez besoin d’une permission? Les données qui ont été mises gratuitement à la disposition de la recherche ne sont pas nécessairement «gratuites». Demandez-vous:
 
 * Avez-vous dû ouvrir une session sur un site Web pour télécharger les données?
 
@@ -150,19 +150,17 @@ Si vous avez des questions au sujet d’une source en particulier, ou si vous so
 
 Sachez que nous ne sommes pas en mesure de restreindre l’accès aux données pour le moment. Bien que nous puissions établir un embargo pour protéger vos données du téléchargement à court terme, toutes les données déposées dans le DFDR selon les modalités actuelles seront éventuellement rendues publiques. Veuillez confirmer que vous pouvez partager vos données et que les mesures appropriées ont été prises pour les traiter et les anonymiser, au besoin. Vous devrez peut-être consulter les formulaires de consentement des participants ou d’autres documents pour confirmer que la publication des données dans le DFDR ne violera pas les conditions selon lesquelles vous avez recueilli vos données.
 
-Voici quelques types courants de données à diffusion restreinte :
+Voici quelques types courants de données à diffusion restreinte:
 
 #### Données sur les participants humains
 
-Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile : [Puis-je partager mes données](https://doi.org/10.5281/zenodo.4046659)?. Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [Directives sur la dépersonnalisation des données](https://zenodo.org/record/4452825#.YNovQOhKhPY).
+Si votre recherche implique des participants humains ou contient du matériel biologique humain, veuillez confirmer que vous consentez à partager vos données et à préparer vos données conformément aux lignes directrices légales ou éthiques applicables. Apprenez-en davantage sur les restrictions possibles et trouvez des conseils pour le traitement des données à partager sur les participants humains dans ce guide utile: [Puis-je partager mes données](https://doi.org/10.5281/zenodo.4046659)?. Si vous devez anonymiser ou dépersonnaliser vos données aux fins de dépôt, veuillez consulter le guide [Directives sur la dépersonnalisation des données](https://zenodo.org/record/4452825#.YNovQOhKhPY).
 
 #### Données appartenant aux Autochtones
 
-Les dirigeants des communautés autochtones sont les mieux placés pour évaluer les avantages et les risques liés au partage du savoir autochtone, ainsi que les données recueillies auprès des peuples autochtones, ou relatives aux terres, à l’eau ou à la glace autochtones. Ces données ne peuvent être partagées dans le DFDR que si les dirigeants communautaires ont convenu que le partage est approprié. Veuillez consulter votre comité d’éthique de la recherche ou, pour de plus amples renseignements, consultez :
+Les dirigeants des communautés autochtones sont les mieux placés pour évaluer les avantages et les risques liés au partage du savoir autochtone, ainsi que les données recueillies auprès des peuples autochtones, ou relatives aux terres, à l’eau ou à la glace autochtones. Ces données ne peuvent être partagées dans le DFDR que si les dirigeants communautaires ont convenu que le partage est approprié. Veuillez consulter votre comité d’éthique de la recherche ou, pour de plus amples renseignements, consultez:
 
 * Les principes de [propriété, contrôle, accès et possession (PCAP®) des Premières Nations.](https://fnigc.ca/fr/les-principes-de-pcap-des-premieres-nations/)
-
-* Centre de gouvernance de l’information des Premières Nations (CGIPN). [Stratégie de gouvernance des données des Premières Nations.](https://fnigc.ca/fr/ce-que-nous-faisons/partenariats-et-developpement-des-capacites/strategie-de-gouvernance-des-donnees-des-premieres-nations/) 31 mars 2020.
 
 * Inuit Tapiriit Kanatami et Institut de recherche du Nunavut. [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers (en anglais).](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
 
