@@ -1,5 +1,10 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2022-05-25**:
+
+* Updated the About page to reflect the change from Compute Canada to Digital Research Alliance of Canada
+* Fixed the display of embargo related metadata on the Verify step of deposit
+
 **2022-04-27**:
 
 * Changed the new user agreement button text to be inclusive of Terms of Use and Privacy Policy for clarity
