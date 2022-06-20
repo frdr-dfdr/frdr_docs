@@ -5,20 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}"/>
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
-        <link rel="stylesheet" href="http://127.0.0.1:8001/static/js/jquery-ui-1.12.1/jquery-ui.min.css" type="text/css"/>
-        <link rel="stylesheet" href="http://127.0.0.1:8001/static/css/boostrap-4.6.0/bootstrap.min.css" type="text/css"/>
-        <link rel="stylesheet" href="http://127.0.0.1:8001/static/css/frdr-theme.css" type="text/css"/>
+        <link rel="stylesheet" href="/static/js/jquery-ui-1.12.1/jquery-ui.min.css" type="text/css"/>
+        <link rel="stylesheet" href="/static/css/boostrap-4.6.0/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="/static/css/frdr-theme.css" type="text/css"/>
         <link rel="stylesheet" href="{{ config.extra.prefix }}css/docs-theme.css" type="text/css"/>
-        <script type="text/javascript" src="http://127.0.0.1:8001/static/js/jquery/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:8001/static/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:8001/static/js/boostrap-4.6.0/bootstrap.bundle.min.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:8001/static/js/ekko-lightbox-5.1.1/ekko-lightbox.js"></script>
+        <script type="text/javascript" src="/static/js/jquery/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/boostrap-4.6.0/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="/static/js/ekko-lightbox-5.1.1/ekko-lightbox.js"></script>
         <script src="/webstats/js/script.js" data-api="/webstats/api/event" data-domain="{{ config.plausible_domain }}" defer></script>
     </head>
     <body id="content">
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-xl">
 
-            <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="http://127.0.0.1:8001/static/images/logos/{% if '/en/' in page.canonical_url %}sitelogo_en.png{% else %}sitelogo_fr.png{% endif %}" style="max-height:44px" alt="FRDR-DFDR"/></span></a>
+            <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="/static/images/logos/{% if '/en/' in page.canonical_url %}sitelogo_en.png{% else %}sitelogo_fr.png{% endif %}" style="max-height:44px" alt="FRDR-DFDR"/></span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -159,7 +159,7 @@
           {% if '/en/' in page.canonical_url %}
               <div>
                   <a href="https://alliancecan.ca/" target="_blank">
-                      <img class="footer-alliance-logo" alt="Digital Research Alliance of Canada" src="http://127.0.0.1:8001/static/images/logos/alliance_logo.svg">
+                      <img class="footer-alliance-logo" alt="Digital Research Alliance of Canada" src="/static/images/logos/alliance_logo.svg">
                   </a>
               </div>
               <div>
@@ -174,7 +174,7 @@
           {% else %}
               <div>
                   <a href="https://alliancecan.ca/fr" target="_blank">
-                      <img class="footer-alliance-logo" alt="Alliance de recherche numérique du Canada" src="http://127.0.0.1:8001/static/images/logos/alliance_logo_french-first.svg">
+                      <img class="footer-alliance-logo" alt="Alliance de recherche numérique du Canada" src="/static/images/logos/alliance_logo_french-first.svg">
                   </a>
               </div>
               <div>
