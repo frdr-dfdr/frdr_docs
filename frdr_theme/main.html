@@ -72,6 +72,11 @@
                   </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a href="/stats/en/">Site Metrics</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item"><a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a></li>
                     <li class="nav-item dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
@@ -84,11 +89,6 @@
                             <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
                         </li>
                       </ul>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a href="/stats/en/">Site Metrics</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
