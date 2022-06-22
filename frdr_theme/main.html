@@ -17,7 +17,7 @@
         <script src="/stats/js/script.js" data-api="/stats/api/event" data-domain="{{ config.plausible_domain }}" defer></script>
     </head>
     <body id="content">
-        <a class="sr-only" href="#main-content">{% if '/en/' in page.canonical_url %}Skip Navigation{% else %}Sauter la navigation{% endif %}</a>
+        <a class="sr-only sr-only-focusable" href="#main-content">{% if '/en/' in page.canonical_url %}Skip Navigation{% else %}Sauter la navigation{% endif %}</a>
 
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-xl">
             <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="/static/images/latest/logos/{% if '/en/' in page.canonical_url %}sitelogo_en.png{% else %}sitelogo_fr.png{% endif %}" style="max-height:44px" alt="FRDR-DFDR"/></span></a>
