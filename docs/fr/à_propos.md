@@ -1,13 +1,13 @@
 ---
 hidesidebar: true
 ---
-Le [Réseau Portage](https://portagenetwork.ca/fr/) de la [Nouvelle organization d'infrastructure de recherche numérique](https://engagedri.ca/fr/) (NOIRN) et [Calcul Canada](https://www.computecanada.ca/?lang=fr) (CC) collaborent pour fournir une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Ces organisations ont le plaisir d’annoncer que le service du Dépôt fédéré de données de recherche (DFDR) a été lancé en production intégrale. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens ; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
+[Alliance de recherche numérique du Canada](https://alliancecan.ca/en) fournit une plateforme fédérée pour la recherche et la gestion des données de recherche (GDR) numériques et la découverte. Tout le monde peut maintenant utiliser le DFDR pour trouver et télécharger des données provenant des dépôts et des professeurs canadiens; leurs représentants des établissements postsecondaires canadiens peuvent aussi utiliser le DFDR pour publier leurs données.
 
 Une <a href="https://demo.frdr-dfdr.ca/repo/?locale=fr" target="_blank" rel="noopener noreferrer">version de démonstration</a> du site Web DFDR est disponible à des fins de formation et de test. La démo DFDR peut être utilisé pour en apprendre davantage sur les fonctionnalités de recherche et de dépôt de données de la plate-forme. Autant que possible, la démo sera tenue à jour avec la dernière version de la plateforme DFDR. Veuillez noter que toutes les données déposées dans la démo seront considérées comme des données « test » et ne seront disponibles que temporairement.
 
 
 ## Objectif
-Le DFDR comblera une importante lacune dans l’infrastructure canadienne de recherche en fournissant une plateforme unique à partir de laquelle les données de recherche peuvent être <strong>chargées</strong>, <strong>organisées</strong>, <strong>préservées</strong>, <strong>explorées, citées</strong> et <strong>partagées</strong>.
+Le DFDR comblera une importante lacune dans l’infrastructure canadienne de recherche en fournissant une plateforme unique à partir de laquelle les données de recherche peuvent être **chargées, organisées, préservées, explorées, citées et partagées**.
 
 Un outil de recherche fédéré fournira un point focal pour découvrir et accéder aux données de recherche canadiennes, tandis que la gamme de services fournis par DFDR aidera les chercheurs à stocker et à gérer leurs données, à préserver leur recherche pour une utilisation ultérieure, et à se conformer aux exigences de gestion de données des institutions et des organismes de financement.
 
@@ -25,65 +25,45 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 
 ## Partenaires
+
 <div class="logogroup">
-
-<div class="half">
-<a href="https://engagedri.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/logo_ndrio.svg" alt="NDRIO Logo" width="300" height="117" /></a>
-</div>
-
-<div class="half">
-<a href="http://www.portagenetwork.ca/fr/" target="_blank" rel="noopener noreferrer"><img class=" logo wp-image-127 alignnone" src="/docs/img/brochure/portage_logo_tagline_rgb_bilingual.png" alt="Portage Logo" width="291" height="100" /></a>
-</div>
-
-
+    <div class="half">
+    <a href="https://alliancecan.ca/fr" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/static/images/latest/logos/alliance_logo_french-first.svg" alt="Alliance Logo"  height="60" /></a>
+    </div>
 </div>
 
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://www.computecanada.ca/?lang=fr" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-146" src="/docs/img/brochure/cc-logo-bi1.png" alt="CC LOGO" width="259" height="150" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.carl-abrc.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
-</div>
-
+    <div class="half">
+    <a href="https://www.carl-abrc.ca/fr/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
+    </div>
+    <div class="half">
+    <a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
+    </div>
 </div>
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-309 size-medium" src="/docs/img/brochure/UofS.jpg" alt="USask Logo" width="300" height="93" /></a>
-</div>
-
+    <div class="half">
+    <a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
+    </div>
+    <div class="half">
+    <a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-309 size-medium" src="/docs/img/brochure/UofS.jpg" alt="USask Logo" width="300" height="93" /></a>
+    </div>
 </div>
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
-</div>
-
+    <div class="half">
+    <a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
+    </div>
+    <div class="half">
+    <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
+    </div>
 </div>
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto" width="300" height="109" /></a>
-</div>
+    <div class="half">
+    <a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto" width="300" height="109" /></a>
+    </div>
 </div>
 
 <div class="endflex"></div>
@@ -136,18 +116,17 @@ Un outil de recherche fédéré fournira un point focal pour découvrir et accé
 
 ## Gouvernance
 
-Le **gestionnaire de services** pour le DFDR relève du gestionnaire de service de Portage, Lee Wilson.
+**Lee Wilson**, directeur de la gestion des données de recherche, supervise le service DFDR.
 
-Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'Association des bibliothèques de recherche du Canada (ABRC), la Fédération du Calcul Canada, l'équipe de développement du DFDR, les points centraux du DFDR, la NOIRN et la communauté des utilisateurs finals via le président du Comité consultatif des usagers. Membrariat actuel :
+Le **Comité de pilotage** est composé de représentants de l'Alliance pour la recherche numérique du Canada, de l'Association des bibliothèques de recherche du Canada, de la Fédération de l'Alliance, de l'équipe de développement du DFDR, des sites hôtes du DFDR et d'un représentant du réseau d'experts GDR. Membrariat actuel:
 
 **Président:**
 
-* **Jeff Moon**, Directeur, Portage
+* **Lee Wilson**, Directeur de la gestion des données de recherche, Alliance de recherche numérique du Canada
 
 **Adhésion:**
 
 * **Susan Haigh**, Directrice générale, CARL
-* **Lee Wilson**, Gestionnaire de services, Portage
 * **Greg Lukeman**, PDG, ACENET
 * **Suzanne Talon**, PDG, Calcul Québec
 * **John Simpson**, Président, Conseil de leadership scientifique / Spécialiste en sciences humaines et sciences sociales
@@ -156,18 +135,17 @@ Le **Comité de pilotage** comprend des représentants du Réseau Portage de l'A
 * **John Morton**, Directeur de la technologie, SHARCNET
 * **Jay Brodeur**, Directeur adjoint, Services d’études numériques, Université McMaster
 
-Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisait partie des membres originaux du comité directeur.
+Remerciements spécial à **Jeff Moon**, Réseau Portage, et **Umar Qasim**, Université de l'Alberta, anciens membres du comité directeur.
 
 ## Équipe de développement et des opérations
-* **Lee Wilson**, gestionnaire de services, Réseau Portage
-* **Erin Clary**, coordonnatrice de la curation, Réseau Portage
-* **Nichole DeMichelis**, agente de curation, Réseau Portage
-* **Subhanya Sivajothy**, agente de curation, Réseau Portage
-* **Yvette Rancourt**, agente de curation, Réseau Portage
-* **Jennifer Abel**, coordonnatrice de la formation, Réseau Portage
-* **Caitilín O’Hare**, agente des communications, Réseau Portage
-* **Victoria Smith**, coordonnatrice des politiques, de la confidentialité et des données sensibles, Réseau Portage
-* **Lucia Costanzo**, coordonnatrice de l’évaluation de la recherche et l’intelligence, Réseau Portage
+* **Lee Wilson**, directeur de la gestion des données de recherche, Alliance de recherche numérique du Canada
+* **Erin Clary**, coordonnatrice de la curation, Alliance de recherche numérique du Canada
+* **Nichole DeMichelis**, agente de curation, Alliance de recherche numérique du Canada
+* **Tamanna Moharana**, agente de curation, Alliance de recherche numérique du Canada
+* **Yvette Rancourt**, coordonnateur de la préservation, Alliance de recherche numérique du Canada
+* **Caitilín O’Hare**, agente des communications, Alliance de recherche numérique du Canada
+* **Victoria Smith**, coordonnatrice des politiques, de la confidentialité et des données sensibles, Alliance de recherche numérique du Canada
+* **Lucia Costanzo**, coordonnatrice de l’évaluation de la recherche et l’intelligence, Alliance de recherche numérique du Canada
 * **Mark Goodwin**, coordonnateur des métadonnées géospatiales, Université de la Colombie-Britannique
 * **Neha Milan**, directrice des opérations, Université de la Saskatchewan
 * **Todd Trann**, directeur technique, Université de la Saskatchewan
@@ -177,13 +155,13 @@ Remerciement spécial à Umar Qasim de l’Université de l’Alberta qui faisai
 * **Paul Dante**, développeur, Université de la Colombie-Britannique
 * **Jin Zhang**, développeur, Université Simon Fraser
 
-Merci à tous les membres de notre équipe précédente: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook** et **Kelly Stathis**.
+Merci à tous les membres de notre équipe précédente: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook**, **Subhanya Sivajothy** et **Kelly Stathis**.
 
 ## Chronologie du projet
-* Janvier 2016 : début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.
-* Septembre 2016 : lancement des essais alpha des interfaces des utilisateurs grâce à la contribution de code d’interface pour la découverte développé par l’Université de la Colombie-Britannique.
-* Avril 2017 : lancement des essais bêta et mise du projet en mode de production limitée avec un nombre restreint de groupes de recherche.
-* Août 2019 : CANARIE annonce un financement de 2 millions $ au Réseau Portage de l’ABRC, dont une partie sera consacrée à la mise en production intégrale du DFDR.
+* Janvier 2016: début du projet de développement de logiciel à la suite d’un projet pilote qui a déterminé que l’extensibilité et la préservation seraient les éléments centraux du service souhaité.
+* Septembre 2016: lancement des essais alpha des interfaces des utilisateurs grâce à la contribution de code d’interface pour la découverte développé par l’Université de la Colombie-Britannique.
+* Avril 2017: lancement des essais bêta et mise du projet en mode de production limitée avec un nombre restreint de groupes de recherche.
+* Août 2019: CANARIE annonce un financement de 2 millions$ au Réseau Portage de l’ABRC, dont une partie sera consacrée à la mise en production intégrale du DFDR.
 * Septembre 2020 : Le financement pour le développement du DFDR est administré par la Nouvelle organisation d’infrastructure de recherche numérique (NOIRN).
 * Févr. 2021 : Lancement des services de dépôt du DFDR en production intégrale!
 

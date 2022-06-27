@@ -1,7 +1,7 @@
 ---
 hidesidebar: true
 ---
-The [New Digital Research Infrastructure Organization](https://engagedri.ca/) (NDRIO)’s [Portage Network](https://portagenetwork.ca/) and [Compute Canada](https://www.computecanada.ca/) (CC) are collaborating to provide a scalable, federated platform for digital research data management (RDM) and discovery. They are pleased to announce that the Federated Research Data Repository (FRDR) service has now launched in full production. Anyone can now use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
+The [Digital Research Alliance of Canada](https://alliancecan.ca/en) provides a scalable, federated platform for digital research data management (RDM) and discovery. Anyone can use FRDR to search for and download data across Canadian repositories and faculty members, or their designates, from Canadian post-secondary institutions may use FRDR to publish their data.
 
 A <a href="https://demo.frdr-dfdr.ca/repo/?locale=en" target="_blank" rel="noopener noreferrer">demo version</a> of the FRDR site is available for training and testing purposes. The FRDR demo can be used to learn about the platform's search and data deposit features. As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered "test" data and will only be available temporarily.
 
@@ -25,64 +25,42 @@ The platform's federated search tool will provide a focal point to discover and 
 ## Partners
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://engagedri.ca/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/logo_ndrio.svg" alt="NDRIO Logo" width="300" height="117" /></a>
-</div>
-
-<div class="half">
-<a href="http://www.portagenetwork.ca" target="_blank" rel="noopener noreferrer"><img class=" logo wp-image-127 alignnone" src="/docs/img/brochure/portage_logo_tagline_rgb_bilingual.png" alt="Portage Logo" width="291" height="100" /></a>
-</div>
-
-</div>
-
-
-<div class="logogroup">
-
-<div class="half">
-<a href="https://www.computecanada.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-146" src="/docs/img/brochure/cc-logo-bi1.png" alt="CC LOGO" width="259" height="150" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.carl-abrc.ca" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
-</div>
-
+    <div class="half">
+    <a href="https://alliancecan.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/static/images/latest/logos/alliance_logo.svg" alt="Alliance Logo"  height="60" /></a>
+    </div>
 </div>
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-315 size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-309 size-medium" src="/docs/img/brochure/UofS.jpg" alt="USASK Logo" width="300" height="93" /></a>
-</div>
-
+    <div class="half">
+    <a href="https://www.carl-abrc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo wp-image-126 alignnone" src="/docs/img/brochure/stacked_colour_tagline_l.png" alt="CARL-ABRC Logo" width="300" height="117" /></a>
+    </div>
+    <div class="half">
+    <a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
+    </div>
 </div>
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://www.globus.org/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/Globus_logo_BLUE_horizontal.png" alt="Globus Logo" width="300" height="150" /></a>
-</div>
-
-<div class="half">
-<a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
-</div>
-
+    <div class="half">
+    <a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/NarrowSignature_ex_768_v3.png" alt="UBC Logo" width="300" height="62" /></a>
+    </div>
+    <div class="half">
+    <a href="https://www.usask.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/UofS.jpg" alt="USASK Logo" width="300" height="93" /></a>
+    </div>
 </div>
 
 <div class="logogroup">
-
-<div class="half">
-<a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
+    <div class="half">
+    <a href="https://www.sfu.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/SFU_horizontal_logo_rgb.png" alt="SFU Logo" width="300" height="71" /></a>
+    </div>
+    <div class="half">
+    <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/UniversityOfWaterloo_logo_horiz_rgb.png" alt="UWaterloo Logo" width="300" height="71" /></a>
+    </div>
 </div>
 
-<div class="half">
-<a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone wp-image-316 size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto Logo" width="300" height="109" /></a>
-</div>
-
+<div class="logogroup">
+    <div class="half">
+    <a href="https://www.utoronto.ca/" target="_blank" rel="noopener noreferrer"><img class="logo alignnone size-medium" src="/docs/img/brochure/logo_u_of_t.png" alt="UToronto Logo" width="300" height="109" /></a>
+    </div>
 </div>
 
 <div class="endflex"></div>
@@ -132,19 +110,17 @@ The platform's federated search tool will provide a focal point to discover and 
 
 ## Governance
 
-**Lee Wilson**, Portage Service Manager, oversees the FRDR service.
+**Lee Wilson**, Director of Research Data Management, oversees the FRDR service.
 
-
-The **Steering Committee** comprises representatives from the Canadian Association of Research Libraries’ (CARL) Portage Network, the Compute Canada Federation (CCF), the FRDR development team, FRDR host sites, NDRIO, and the end user community via the User Advisory Committee Chair. Current membership includes:
+The **Steering Committee** comprises representatives from the Digital Research Alliance of Canada, the Canadian Association of Research Libraries, the Alliance Federation, the FRDR development team, FRDR host sites, and a representative from the RDM Network of Experts. Current membership includes:
 
 **Chair:**
 
-* **Jeff Moon**, Director, Portage
+* **Lee Wilson**, Director of Research Data Management, Digital Research Alliance of Canada
 
 **Membership:**
 
 * **Susan Haigh**, Executive Director, CARL
-* **Lee Wilson**, Service Manager, Portage
 * **Greg Lukeman**, CEO, ACENET
 * **Suzanne Talon**, CEO, Calcul Québec
 * **John Simpson**, Chair, Science Leadership Council / Humanities & Social Sciences Specialist
@@ -153,19 +129,18 @@ The **Steering Committee** comprises representatives from the Canadian Associati
 * **John Morton**, Director of Technology, SHARCNET
 * **Jay Brodeur**, Associate Director, Digital Scholarship Services, McMaster University
 
-Special thanks to **Umar Qasim**, University of Alberta, who was part of the original steering committee.
+Special thanks to **Jeff Moon**, Portage Network, and **Umar Qasim**, University of Alberta, former members of the Steering Committee.
 
 ## Development and Operations Team
 
-* **Lee Wilson**, Service Manager, Portage Network
-* **Erin Clary**, Curation Coordinator, Portage Network
-* **Nichole DeMichelis**, Curation Officer, Portage Network
-* **Subhanya Sivajothy**, Curation Officer, Portage Network
-* **Yvette Rancourt**, Curation Officer, Portage Network
-* **Jennifer Abel**, Training Coordinator, Portage Network
-* **Caitilín O’Hare**, Communications Officer, Portage Network
-* **Victoria Smith**, Policy, Privacy, and Sensitive Data Coordinator, Portage Network
-* **Lucia Costanzo**, Researcher Intelligence and Assessment Coordinator, Portage Network
+* **Lee Wilson**, Director of Research Data Management, Digital Research Alliance of Canada
+* **Erin Clary**, Curation Coordinator, Digital Research Alliance of Canada
+* **Nichole DeMichelis**, Curation Officer, Digital Research Alliance of Canada
+* **Tamanna Moharana**, Curation Officer, Digital Research Alliance of Canada
+* **Yvette Rancourt**, Preservation Coordinator, Digital Research Alliance of Canada
+* **Caitilín O’Hare**, Communications Officer, Digital Research Alliance of Canada
+* **Victoria Smith**, Policy, Privacy, and Sensitive Data Coordinator, Digital Research Alliance of Canada
+* **Lucia Costanzo**, Researcher Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
 * **Mark Goodwin**, Geospatial Metadata Coordinator, University of British Columbia
 * **Neha Milan**, Operations Lead, University of Saskatchewan
 * **Todd Trann**, Technical Lead, University of Saskatchewan
@@ -175,7 +150,7 @@ Special thanks to **Umar Qasim**, University of Alberta, who was part of the ori
 * **Paul Dante**, Developer, University of British Columbia
 * **Jin Zhang**, Developer, Simon Fraser University
 
-Thank you to all of our past team members: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook** and **Kelly Stathis**.
+Thank you to all of our past team members: **Keith Jeffrey**, **Melanie Parlette-Stewart**, **Alex Garnett**, **Beth Knazook**, **Subhanya Sivajothy** and **Kelly Stathis**.
 
 ## Project Timeline
 

@@ -133,8 +133,6 @@ Indigenous community leaders are in the best position to assess the benefits and
 
 * The First Nations Principles of [Ownership, Control, Access and Possession (OCAP®)](https://fnigc.ca/ocap-training/)
 
-* First Nations Information Governance Centre (FNIGC). [A First Nations Data Governance Strategy](https://fnigc.ca/what-we-do/partnerships-and-capacity/first-nations-data-governance-strategy/) March 31, 2020.
-
 * Inuit Tapiriiti Kanatami (ITK) and Nunavut Research Institute [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
 
 * ITK’s [National Inuit Strategy on Research](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_English_low_res.pdf)
