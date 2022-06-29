@@ -51,7 +51,7 @@
 
                     <!-- Site Metrics -->
                     <li class="nav-item">
-                        <a href="/stats/en/">Site Metrics</a>
+                        <a href="{% if '/en/' in page.canonical_url %}/stats/en{% else %}/stats/fr{% endif %}"><a href="">{% if '/en/' in page.canonical_url %}Site Metrics{% else %}Métriques du site{% endif %}</a>
                     </li>
 
                     <!-- Help -->
