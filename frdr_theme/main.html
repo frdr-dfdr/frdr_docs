@@ -43,8 +43,8 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item"><a href="/repo/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Profile{% else %}Profil{% endif %}</a></li>
-                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-item"><a href="/repo/settings/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Settings{% else %}Paramètres{% endif %}</a></li>
+                            <li role="separator" class="dropdown-divider"></li>
                             <li class="dropdown-item">
                                 <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
                             </li>
