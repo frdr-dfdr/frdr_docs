@@ -1,5 +1,15 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2022-06-29**:
+
+* Added interactive Site Metrics dashboards available to the public
+* Dataset contact information has been moved to the Access tab
+* Dataset contact email address will be verified once a dataset is finished
+* User Profile has been changed to User Settings
+* Users may now sign into ORCID from their settings page instead of needing to copy and paste their ORCID iD
+* Enhanced automatic scanning of submissions for corrupt and non-standard files has been added
+* Scholars Portal has been renamed to Borealis, and all associated collections have been updated
+
 **2022-05-25**:
 
 * Updated the About page to reflect the change from Compute Canada to Digital Research Alliance of Canada
