@@ -9,6 +9,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Users may now sign into ORCID from their settings page instead of needing to copy and paste their ORCID iD
 * Enhanced automatic scanning of submissions for corrupt and non-standard files has been added
 * Scholars Portal has been renamed to Borealis, and all associated collections have been updated
+* Concordia University of Edmonton Dataverse has been added to FRDR discovery
 
 **2022-05-25**:
 
