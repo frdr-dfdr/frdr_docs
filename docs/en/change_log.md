@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2022-07-27**:
+
+* Links to dataset files are no longer forced to be downloaded, many file types will now display within the web browser
+
 **2022-06-29**:
 
 * Added interactive Site Metrics dashboards available to the public
