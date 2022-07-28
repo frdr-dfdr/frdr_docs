@@ -3,6 +3,7 @@ This is a list of changes to FRDR, starting with the most recent:
 **2022-07-27**:
 
 * Links to dataset files are no longer forced to be downloaded, many file types will now display within the web browser
+* Fixed a problem where multiple non-ROR affiliations could not be added to an author
 
 **2022-06-29**:
 
