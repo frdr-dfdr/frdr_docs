@@ -1,5 +1,13 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2022-08-31**:
+
+* Fixed bug with location of generated checksum files
+* Fixed bug with non-ROR metadata display in Author Affiliation and Funder Name metadata fields
+* Improved tracking of account application process status
+* Added file format statistics to Site Metrics
+
+
 **2022-07-27**:
 
 * Links to dataset files are no longer forced to be downloaded, many file types will now display within the web browser
