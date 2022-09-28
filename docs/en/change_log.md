@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2022-09-28**:
+
+* Added discovery metrics to site statistics page
+
 **2022-08-31**:
 
 * Fixed bug with location of generated checksum files
