@@ -6,6 +6,7 @@ Welcome to the service documentation for the Federated Research Data Repository!
 * [Depositing Data](depositing_data.md)
 * [After Depositing](after_depositing.md)
 * [Searching for Datasets](searching.md)
+* [Downloading Datasets](downloading.md)
 * [Advanced](advanced.md)
 * [FAQ](faq.md)
 * [Change Log](change_log.md)
