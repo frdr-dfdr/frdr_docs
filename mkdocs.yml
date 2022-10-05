@@ -10,6 +10,7 @@ nav:
         - "Before Depositing": en/before_depositing.md
         - "Describing Your Data": en/describing_your_data.md
         - "Depositing Data": en/depositing_data.md
+        - "External Review": en/external_review.md
         - "After Depositing": en/after_depositing.md
         - "Searching for Datasets": en/searching.md
         - "Advanced": en/advanced.md
@@ -22,6 +23,7 @@ nav:
         - "Avant de déposer": fr/avant_de_déposer.md
         - "Description de vos données": fr/description_de_vos_données.md
         - "Déposer les données": fr/déposer_les_données.md
+        - "Examen externe": fr/examen_externe.md
         - "Après le dépôt": fr/après_le_dépôt.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Avancée": fr/avancee.md
@@ -44,6 +46,7 @@ extra:
             "Before Depositing": fr/avant_de_déposer/
             "Describing Your Data": fr/description_de_vos_données/
             "Depositing Data": fr/déposer_les_données/
+            "External Review": fr/examen_externe/
             "After Depositing": fr/après_le_dépôt/
             "FAQ": fr/faq/
             "FAIR Principles": fr/principes_fair/
@@ -56,6 +59,7 @@ extra:
             "Avant de déposer": en/before_depositing/
             "Description de vos données": en/describing_your_data/
             "Déposer les données": en/depositing_data/
+            "Examen Externe": en/external_review/
             "Après le dépôt": en/after_depositing/
             "FAQ": en/faq/
             "Principes FAIR": en/fair_principles/
