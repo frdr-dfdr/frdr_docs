@@ -1,13 +1,18 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2022-10-26**:
+
+* Fixed a problem when editing the ORCID ids and Author Affiliations in datasets with more than two authors
+* Grouped associated metadata together in the curator view of item metadata
+
 **2022-09-28**:
 
 * Added discovery metrics to site statistics page
 
 **2022-08-31**:
 
-* Fixed bug with location of generated checksum files
-* Fixed bug with non-ROR metadata display in Author Affiliation and Funder Name metadata fields
+* Fixed a problem with location of generated checksum files
+* Fixed a problem with non-ROR metadata display in Author Affiliation and Funder Name metadata fields
 * Improved tracking of account application process status
 * Added file format statistics to Site Metrics
 
@@ -24,7 +29,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Dataset contact email address will be verified once a dataset is finished
 * User Profile has been changed to User Settings
 * Users may now sign into ORCID from their settings page instead of needing to copy and paste their ORCID iD
-* Enhanced automatic scanning of submissions for corrupt and non-standard files has been added
+* Enhanced automatic scanning of datasets for corrupt and non-standard files has been added
 * Scholars Portal has been renamed to Borealis, and all associated collections have been updated
 * Concordia University of Edmonton Dataverse has been added to FRDR discovery
 
@@ -98,8 +103,8 @@ This is a list of changes to FRDR, starting with the most recent:
 
 * Added new repositories to FRDR discovery: Yukon Open Data, Open Ottawa / Ottawa Ouverte, Saint Mary’s University Dataverse
 * Added the Szechtman Lab Collection  https://www.frdr-dfdr.ca/repo/collection/szechtmanlab 
-* Improve performance of displaying files in large submissions.
-* Added validated Canadian Research and Development Classification metadata fields during submissions, and send that metadata to Datacite for DOI population
+* Improve performance of displaying files in large datasets.
+* Added validated Canadian Research and Development Classification metadata fields during datasets, and send that metadata to Datacite for DOI population
 * Removed repository SFU Radar records from FRDR search
 
 **2021-04-28**:
@@ -123,7 +128,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Added new repositories to FRDR discovery: Royal Roads University Dataverse and MacEwan University Dataverse
 * Fixed a problem in deleting files that were uploaded through drag and drop
 * Improved the wording at the top of item landing pages around embargo date and restrictions
-* Fixed a problem adding multiple funders to a dataset during submission.
+* Fixed a problem adding multiple funders to a dataset.
 * Reconfigured the connection to DataCite so that FRDR can now maintain DOIs for items that were moved into it from another repository
 * Depositors are now warned if they specify metadata restrictions without supplying an embargo date
 * Fixed the display of some related identifier labels
@@ -155,10 +160,10 @@ This is a list of changes to FRDR, starting with the most recent:
 * Installed and configured equipment at two hosting institutions: Simon Fraser and University of Waterloo
 * Quota enforcement is now in place; the default allocation for new users is 1 TB
 * Fixed a problem with Google Dataset search indexing for datasets with custom licenses
-* Enforce 1-1-1 mapping between Funder name, award title and award name in submission
+* Enforce 1-1-1 mapping between Funder name, award title and award name in dataset editing
 * FRDR policies have been moved to a new location [https://www.frdr-dfdr.ca/policies/](https://www.frdr-dfdr.ca/policies/) and all policies are now available in both French and English
 * Map based search is now getting metadata from all repositories that FRDR harvests
-* Fixed a bug where English keywords were missing for certain harvested repositories
+* Fixed a problem where English keywords were missing for certain harvested repositories
 * Added a 30 day warning email to depositers for datasets coming out of embargo
 * Updated the list of metadata contributor types
 * Updated the list of metadata relation types
@@ -176,7 +181,7 @@ This is a list of changes to FRDR, starting with the most recent:
 **2020-11-25**:
 
 * Allow custom licenses for datasets, available by contacting a FRDR curator and explaining the use case
-* Fixed a bug on the edit profile page when a user did not have their primary institution set
+* Fixed a problem on the edit profile page when a user did not have their primary institution set
 * Added French keywords to the discovery detailed metadata view
 * Added keywords as a selection to the advanced search page
 * Fixed access to dataset during curation process
@@ -197,7 +202,7 @@ This is a list of changes to FRDR, starting with the most recent:
 **2020-09-30**:
 
 * Item landing pages by default will now use the item UUID instead of the item DOI text.  Existing links that use item DOI text will continue to work and DOIs will continue to resolve properly.
-* Fixed a problem with adding multiple funders to a submission
+* Fixed a problem with adding multiple funders to a dataset
 * Changed the default cutoff to 50 items per directory for dataset file listing, so that web browsers won't timeout trying to display item landing pages for large datasets
 * A file containing the selected dataset license will be placed within the dataset after publication
 * Improvements to accessibility and mobile usability have been made to multiple areas of the site, and will continue into the next update
@@ -216,13 +221,13 @@ This is a list of changes to FRDR, starting with the most recent:
 **2020-06-24**:
 
 * Updated the display of DOIs in multiple areas to make it uniform.
-* Added permissions for sharing submissions with collaborators. Users can now specify if the collaborator can edit metadata, upload files and submit the dataset.
+* Added permissions for sharing datasets with collaborators. Users can now specify if the collaborator can edit metadata, upload files and submit the dataset.
 * The publication dashboard has been reformatted for large and small displays.
 * Added new repositories to FRDR discovery: DataStream and UBC cIRcle BIRS Workshop Lecture Videos
 
 **2020-05-27**:
 
-* New feature: automated submission file format identification and per-format curation guides for curators.
+* New feature: automated dataset file format identification and per-format curation guides for curators.
 * Received new hardware for one hosting site (SFU)
 * Fixed metadata for some items where multiple metadata values were not properly delimited
 * Moved map search over to the bilingual domain geo.frdr-dfdr.ca
@@ -240,7 +245,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2020-03-25**:
 
-* Added sharing of submissions with collaborators, allowing multiple people to work on the submission metadata and also upload files
+* Added sharing of datasets with collaborators, allowing multiple people to work on the dataset metadata and also upload files
 * Additional controls were added to prevent users from starting uploads just before a maintenance period
 * Added an icon for ORCID iD when author ORCID iD is supplied
 * Curation workflow is now on one page; automated curation tasks start at item submission
@@ -256,7 +261,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 * All uploaded files are now scanned for malware before being sent to a curator
 * Files may now be deleted from the https upload page
-* Fixed a bug preventing more than 100 files showing up in a folder
+* Fixed a problem preventing more than 100 files showing up in a folder
 * File listings will no longer be shown for items that are under embargo
 
 **2019-10-30**:
@@ -367,7 +372,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Updated location statistics to use GeoLite2 service
 * Fixed an error that was being displayed when curators edited item metadata
 * Added instructions on how to request new repositories be added to FRDR
-* Fixed an error that was preventing incomplete submissions from being deleted
+* Fixed an error that was preventing incomplete datasets from being deleted
 
 **2018-06-15**:
 
@@ -375,7 +380,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Reindexed the discovery results to reflect some large changes in coverage from Open Data Canada
 * Removed some options to make related identifier easier to understand
 * Implemented automated checks for backups
-* Increased maximum keyword tags per submission from 12 to 30
+* Increased maximum keyword tags per dataset from 12 to 30
 * Added a form tip on how to easily create tags
 * Added a new Creative Commons license BY-NC-ND
 * Removed the generic hosting institution, in favour of the per-author affiliated institutions
@@ -409,7 +414,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2018-03-28**:
 
-* Fixed a bug in the entry of Author data
+* Fixed a problem in the entry of Author data
 
 **2018-03-19**:
 
@@ -432,7 +437,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 * Added documentation on cancelling file transfers and for deleting files that have already been transferred
 * Added individual file download stats
-* Added dataset DOIs on the list of in-progress submissions
+* Added dataset DOIs on the list of in-progress datasets
 * Changed embargo options: users can now choose to embargo data only leaving the landing page available, embargo data and hide the landing page from search results, and embargo the metadata as well as the data.
 * Changed embargo visibility: users can now view their own datasets that are under embargo
 * Datasets that are under embargo now have a warning at the top of their page showing when the embargo will expire as well as their metadata availability status
