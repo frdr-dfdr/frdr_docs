@@ -17,186 +17,189 @@
     </head>
     <body id="content">
         <a class="sr-only sr-only-focusable" href="#main-content">{% if '/en/' in page.canonical_url %}Skip Navigation{% else %}Sauter la navigation{% endif %}</a>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-xl">
-            <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="/static/images/logos/{% if '/en/' in page.canonical_url %}sitelogo_en.png{% else %}sitelogo_fr.png{% endif %}" style="max-height:44px" alt="FRDR-DFDR"/></span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <header id="header" class="header affix" aria-label="Site header" data-toggle="affix" data-once="affixed">
+            <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-xl">
+                <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="/static/images/logos/{% if '/en/' in page.canonical_url %}sitelogo_en.png{% else %}sitelogo_fr.png{% endif %}" style="max-height:44px" alt="FRDR-DFDR"/></span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
 
-                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
 
-                    <!-- Contact Us -->
-                    <li class="nav-item">
-                        <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez-nous{% endif %}</a>
-                    </li>
+                        <!-- Contact Us -->
+                        <li class="nav-item">
+                            <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez-nous{% endif %}</a>
+                        </li>
 
-                    <!-- Publish Dashboard  -->
-                    <li class="nav-item">
-                        <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
-                    </li>
+                        <!-- Publish Dashboard  -->
+                        <li class="nav-item">
+                            <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
+                        </li>
 
-                    <!-- Account -->
-                    <li class="nav-item dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item"><a href="/repo/settings/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Settings{% else %}Paramètres{% endif %}</a></li>
-                            <li role="separator" class="dropdown-divider"></li>
-                            <li class="dropdown-item">
-                                <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
-                            </li>
-                        </ul>
-                    </li>
+                        <!-- Account -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="/repo/settings/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Settings{% else %}Paramètres{% endif %}</a></li>
+                                <li role="separator" class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+                                    <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
+                                </li>
+                            </ul>
+                        </li>
 
-                    <!-- Site Metrics -->
-                    <li class="nav-item">
-                        <a href="{% if '/en/' in page.canonical_url %}/stats/en{% else %}/stats/fr{% endif %}">{% if '/en/' in page.canonical_url %}Site Metrics{% else %}Métriques du site{% endif %}</a>
-                    </li>
+                        <!-- Site Metrics -->
+                        <li class="nav-item">
+                            <a href="{% if '/en/' in page.canonical_url %}/stats/en{% else %}/stats/fr{% endif %}">{% if '/en/' in page.canonical_url %}Site Metrics{% else %}Métriques du site{% endif %}</a>
+                        </li>
 
-                    <!-- Help -->
-                    <li class="nav-item dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            {% if '/en/' in page.canonical_url %}Help{% else %}Aide{% endif %}
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                          {% if '/en/' in page.canonical_url %}
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/en/before_depositing/">Get An Account</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/en/documentation/">Documentation</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/policies/en/">Policies</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Video Tutorials</a></li>
-                          {% else %}
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/fr/avant_de_déposer/">Obtenez un compte</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/fr/documentation/">Documentation</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/policies/fr/">Politiques</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Tutoriels vidéos</a></li>
-                          {% endif %}
-                        </ul>
-                    </li>
-
-                    <!-- About -->
-                    <li class="nav-item">
-                        {% if '/en/' in page.canonical_url %}
-                            <a href="/docs/en/about/">About</a>
-                        {% else %}
-                            <a href="/docs/fr/à_propos/">À propos</a>
-                        {% endif %}
-                    </li>
-
-                    <!-- Locale -->
-                    <li class="nav-item dropdown">
-                        <a href="." class="dropdown-toggle" data-toggle="dropdown">
-                            {% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <!-- Help -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                {% if '/en/' in page.canonical_url %}Help{% else %}Aide{% endif %}
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
                             {% if '/en/' in page.canonical_url %}
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/en/before_depositing/">Get An Account</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/en/documentation/">Documentation</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/policies/en/">Policies</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Video Tutorials</a></li>
                             {% else %}
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/fr/avant_de_déposer/">Obtenez un compte</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/fr/documentation/">Documentation</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/policies/fr/">Politiques</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Tutoriels vidéos</a></li>
                             {% endif %}
-                        </ul>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </nav>
-    <div class="container row">
-        {% if nav|length>1 and not page.meta.hidesidebar %}
-        <div class="col-md-3 frdr-sidebar">
-            <ul>
-            {% for nav_item in nav %}
-                {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
-                    {% for nav_item in nav_item.children %}
-                        <li class="{% if nav_item.active%}current{%endif%}">
-                            <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
-                            {% if nav_item.active %}
-                            <ul id="current">
-                                {% for toc_item in page.toc %}
-                                        <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                        {% for toc_item in toc_item.children %}
-                                            <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                            {% for toc_item in toc_item.children %}
-                                                <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                            {% endfor %}
-                                        {% endfor %}
-                                {% endfor %}
                             </ul>
-                        {% endif %}
                         </li>
-                    {% endfor %}
-                {% elif 'Fr' in nav_item.title and '/fr/' in page.canonical_url %}
-                    {% for nav_item in nav_item.children %}
-                        <li class="{% if nav_item.active%}current{%endif%}">
-                            <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
-                            {% if nav_item.active %}
-                            <ul>
-                                {% for toc_item in page.toc %}
-                                        <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                        {% for toc_item in toc_item.children %}
+
+                        <!-- About -->
+                        <li class="nav-item">
+                            {% if '/en/' in page.canonical_url %}
+                                <a href="/docs/en/about/">About</a>
+                            {% else %}
+                                <a href="/docs/fr/à_propos/">À propos</a>
+                            {% endif %}
+                        </li>
+
+                        <!-- Locale -->
+                        <li class="nav-item dropdown">
+                            <a href="." class="dropdown-toggle" data-toggle="dropdown">
+                                {% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                {% if '/en/' in page.canonical_url %}
+                                <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
+                                {% else %}
+                                <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
+                                {% endif %}
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </header>
+        
+        <div class="container row">
+            {% if nav|length>1 and not page.meta.hidesidebar %}
+            <div class="col-md-3 frdr-sidebar">
+                <ul>
+                {% for nav_item in nav %}
+                    {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
+                        {% for nav_item in nav_item.children %}
+                            <li class="{% if nav_item.active%}current{%endif%}">
+                                <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                {% if nav_item.active %}
+                                <ul id="current">
+                                    {% for toc_item in page.toc %}
                                             <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                        {% endfor %}
-                                {% endfor %}
-                            </ul>
+                                            {% for toc_item in toc_item.children %}
+                                                <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                {% for toc_item in toc_item.children %}
+                                                    <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                {% endfor %}
+                                            {% endfor %}
+                                    {% endfor %}
+                                </ul>
                             {% endif %}
-                        </li>
-                    {% endfor %}
-                {% endif %}
-                </li>
-            {% endfor %}
-            </ul>
-        </div>
-        {% else %}
-        <div class="col-md-3"></div>
-        {% endif %}
+                            </li>
+                        {% endfor %}
+                    {% elif 'Fr' in nav_item.title and '/fr/' in page.canonical_url %}
+                        {% for nav_item in nav_item.children %}
+                            <li class="{% if nav_item.active%}current{%endif%}">
+                                <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                {% if nav_item.active %}
+                                <ul>
+                                    {% for toc_item in page.toc %}
+                                            <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                            {% for toc_item in toc_item.children %}
+                                                <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                            {% endfor %}
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% else %}
+            <div class="col-md-3"></div>
+            {% endif %}
 
-    <div class="col-md-9">
-        <main id="main-content">
-            <h1>{{ page.title }}</h1>
-            {{ page.content }}
-        </main>
-    </div>
-    </div>
-
-    <div class="frdr-jumbo-footer">
-      <div class="container">
-        <div class="col-12">
-        <footer>
-          {% if '/en/' in page.canonical_url %}
-              <div>
-                  <a href="https://alliancecan.ca/" target="_blank">
-                      <img class="footer-alliance-logo" alt="Digital Research Alliance of Canada" src="/static/images/logos/alliance_logo.svg">
-                  </a>
-              </div>
-              <div>
-                  © 2017 - 2021 Digital Research Alliance of Canada
-              </div>
-              <div>
-                  Digital Research Alliance of Canada respects the privacy of individuals and will only collect, use, and disclose Personal Information in keeping with information access and privacy law.
-              </div>
-              <div>
-                  <a href="/policies/en/privacy/">Privacy Policy</a>
-              </div>
-          {% else %}
-              <div>
-                  <a href="https://alliancecan.ca/fr" target="_blank">
-                      <img class="footer-alliance-logo" alt="Alliance de recherche numérique du Canada" src="/static/images/logos/alliance_logo_french-first.svg">
-                  </a>
-              </div>
-              <div>
-                  © 2017 - 2021 Alliance de recherche numérique du Canada
-              </div>
-              <div>
-                  Alliance de recherche numérique du Canada respectent la vie privée des personnes et ne collecteront, utiliseront et ne divulgueront les renseignements personnels que dans le respect des lois sur l'accès à l'information et la protection de la vie privée.
-              </div>
-              <div>
-                  <a href="/policies/fr/confidentialité">Politique de confidentialité</a>
-              </div>
-          {% endif %}
-        </footer>
+        <div class="col-md-9">
+            <main id="main-content">
+                <h1>{{ page.title }}</h1>
+                {{ page.content }}
+            </main>
         </div>
-      </div>
-    </div>
+        </div>
+
+        <div class="frdr-jumbo-footer">
+        <div class="container">
+            <div class="col-12">
+            <footer>
+            {% if '/en/' in page.canonical_url %}
+                <div>
+                    <a href="https://alliancecan.ca/" target="_blank">
+                        <img class="footer-alliance-logo" alt="Digital Research Alliance of Canada" src="/static/images/logos/alliance_logo.svg">
+                    </a>
+                </div>
+                <div>
+                    © 2017 - 2021 Digital Research Alliance of Canada
+                </div>
+                <div>
+                    Digital Research Alliance of Canada respects the privacy of individuals and will only collect, use, and disclose Personal Information in keeping with information access and privacy law.
+                </div>
+                <div>
+                    <a href="/policies/en/privacy/">Privacy Policy</a>
+                </div>
+            {% else %}
+                <div>
+                    <a href="https://alliancecan.ca/fr" target="_blank">
+                        <img class="footer-alliance-logo" alt="Alliance de recherche numérique du Canada" src="/static/images/logos/alliance_logo_french-first.svg">
+                    </a>
+                </div>
+                <div>
+                    © 2017 - 2021 Alliance de recherche numérique du Canada
+                </div>
+                <div>
+                    Alliance de recherche numérique du Canada respectent la vie privée des personnes et ne collecteront, utiliseront et ne divulgueront les renseignements personnels que dans le respect des lois sur l'accès à l'information et la protection de la vie privée.
+                </div>
+                <div>
+                    <a href="/policies/fr/confidentialité">Politique de confidentialité</a>
+                </div>
+            {% endif %}
+            </footer>
+            </div>
+        </div>
+        </div>
 
     </body>
 <script>
