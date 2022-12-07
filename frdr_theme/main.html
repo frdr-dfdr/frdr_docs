@@ -167,30 +167,47 @@
 
         <div class="site-footer">
             <div class="container">
-            {% if '/en/' in page.canonical_url %}
                 <div>
                     <div class="d-flex flex-column flex-lg-row justify-content-between">
                         <section class="region region-footer-first d-block text-center d-lg-flex justify-content-between mt-4 py-lg-2 flex-lg-fill">
                             <h2 class="d-none">Footer First</h2>
                             <nav aria-labelledby="block-site-theme-footer-menu" class="block flex-fill">
-                                <h2 id="block-site-theme-footer-menu" class="text-left">Quick Links</h2>
+                                <h2 id="block-site-theme-footer-menu" class="text-left">{% if '/en/' in page.canonical_url %}Quick Links{% else %}Liens rapides{% endif %}</h2>
                                 <div class="clearfix nav row justify-content-start">
                                     <ul class="list-unstyled text-left">
-                                        <li>
-                                            <a href="/docs/en/about/">About</a>
-                                        </li>
-                                        <li>
-                                            <a href="/repo/search">Search</a>
-                                        </li>
-                                        <li>
-                                            <a href="/docs/en/documentation/">Help</a>
-                                        </li>
-                                        <li>
-                                            <a href="/repo/contactus">Contact</a>
-                                        </li>
-                                        <li>
-                                            <a href="/policies/en/privacy/">Privacy Policy</a>
-                                        </li>
+                                        {% if '/en/' in page.canonical_url %}
+                                            <li>
+                                                <a href="/docs/en/about/">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="/repo/search">Search</a>
+                                            </li>
+                                            <li>
+                                                <a href="/docs/en/documentation/">Help</a>
+                                            </li>
+                                            <li>
+                                                <a href="/repo/contactus">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="/policies/en/privacy/">Privacy Policy</a>
+                                            </li>
+                                        {% else %}
+                                            <li>
+                                                <a href="/docs/fr/about/">À propos</a>
+                                            </li>
+                                            <li>
+                                                <a href="/repo/search?locale=fr">Search</a>
+                                            </li>
+                                            <li>
+                                                <a href="/docs/fr/documentation/">Aide</a>
+                                            </li>
+                                            <li>
+                                                <a href="/repo/contactus?locale=fr">Contactez-nous</a>
+                                            </li>
+                                            <li>
+                                                <a href="/policies/fr/privacy/">Politique de confidentialité</a>
+                                            </li>
+                                        {% endif %}
                                     </ul>
                                 </div>
                             </nav>
@@ -199,7 +216,7 @@
                         <section class="region region-footer-second d-block text-center d-lg-flex justify-content-between mt-4 py-lg-2 flex-lg-fill col-lg-4 px-0">
                             <h2 class="d-none">Footer Second</h2>
                             <div>
-                                <h2 class="text-left">Stay Connected</h2>
+                                <h2 class="text-left">{% if '/en/' in page.canonical_url %}Stay Connected{% else %}Restez en contact{% endif %}</h2>
                                 <div class="content">
                                     <div class="d-flex social-media-buttons">
                                         <div>
@@ -232,35 +249,23 @@
                         <div class="content mt-2 row d-lg-block d-none">
                             <p class="fixed-left">
                                 <img src="/static/images/latest/logos/Alliance_logo_Symbol_png.png" alt="Alliance Logo" class="alliance-footer-logo">
-                                A service/product of the Alliance
+                                {% if '/en/' in page.canonical_url %}A service/product of the Alliance{% else %}A service/product of the Alliance in French{% endif %}
                             </p>
-                            <small class="d-block text-center">© 2022 FRDR | All rights reserved</small>
+                            <small class="d-block text-center">
+                                {% if '/en/' in page.canonical_url %}© 2022 FRDR | All rights reserved{% else %}© 2022 FRDR | All rights reserved in French{% endif %}
+                            </small>
                         </div>
                         <div class="content mt-2 d-lg-none ">
                             <p class="text-center m-0">
                                 <img src="/static/images/latest/logos/Alliance_logo_Symbol_png.png" alt="Alliance Logo" class="alliance-footer-logo">
-                                A service/product of the Alliance
+                                {% if '/en/' in page.canonical_url %}A service/product of the Alliance{% else %}A service/product of the Alliance in French{% endif %}
                             </p>
-                            <small class="d-block text-center">© 2022 FRDR | All rights reserved</small>
+                            <small class="d-block text-center">
+                                {% if '/en/' in page.canonical_url %}© 2022 FRDR | All rights reserved{% else %}© 2022 FRDR | All rights reserved in French{% endif %}
+                            </small>
                         </div>
                     </section>
                 </div>
-            {% else %}
-                <div>
-                    <a href="https://alliancecan.ca/fr" target="_blank">
-                        <img class="footer-alliance-logo" alt="Alliance de recherche numérique du Canada" src="/static/images/logos/alliance_logo_french-first.svg">
-                    </a>
-                </div>
-                <div>
-                    © 2017 - 2021 Alliance de recherche numérique du Canada
-                </div>
-                <div>
-                    Alliance de recherche numérique du Canada respectent la vie privée des personnes et ne collecteront, utiliseront et ne divulgueront les renseignements personnels que dans le respect des lois sur l'accès à l'information et la protection de la vie privée.
-                </div>
-                <div>
-                    <a href="/policies/fr/confidentialité">Politique de confidentialité</a>
-                </div>
-            {% endif %}
             </div>
         </div>
 
