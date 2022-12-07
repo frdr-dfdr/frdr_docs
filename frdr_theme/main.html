@@ -164,24 +164,66 @@
         </div>
         </div>
 
-        <div class="frdr-jumbo-footer">
-        <div class="container">
-            <div class="col-12">
-            <footer>
+        <div class="site-footer">
+            <div class="container">
             {% if '/en/' in page.canonical_url %}
                 <div>
-                    <a href="https://alliancecan.ca/" target="_blank">
-                        <img class="footer-alliance-logo" alt="Digital Research Alliance of Canada" src="/static/images/logos/alliance_logo.svg">
-                    </a>
-                </div>
-                <div>
-                    © 2017 - 2021 Digital Research Alliance of Canada
-                </div>
-                <div>
-                    Digital Research Alliance of Canada respects the privacy of individuals and will only collect, use, and disclose Personal Information in keeping with information access and privacy law.
-                </div>
-                <div>
-                    <a href="/policies/en/privacy/">Privacy Policy</a>
+                    <div class="d-flex flex-column flex-lg-row justify-content-between">
+                        <section class="region region-footer-first d-block text-center d-lg-flex justify-content-between mt-4 py-lg-2 flex-lg-fill">
+                            <h2 class="d-none">Footer First</h2>
+                            <nav aria-labelledby="block-site-theme-footer-menu" class="block flex-fill">
+                                <h2 id="block-site-theme-footer-menu" class="text-left">Quick Links</h2>
+                                <div class="clearfix nav row justify-content-start">
+                                    <ul class="list-unstyled text-left">
+                                        <li>
+                                            <a href="/docs/en/about/">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="/repo/search">Search</a>
+                                        </li>
+                                        <li>
+                                            <a href="/docs/en/documentation/">Help</a>
+                                        </li>
+                                        <li>
+                                            <a href="/repo/contactus">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="/policies/en/privacy/">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </section>
+            
+                        <section class="region region-footer-second d-block text-center d-lg-flex justify-content-between mt-4 py-lg-2 flex-lg-fill col-lg-4 px-0">
+                            <h2 class="d-none">Footer Second</h2>
+                            <div>
+                                <h2 class="text-left">Stay Connected</h2>
+                                <div class="content">
+                                    <div class="d-flex social-media-buttons">
+                                        <div>
+                                            <a class="social-media-icon d-block d-lg-inline-flex justify-content-center align-items-center" href="https://www.linkedin.com/company/alliancecan/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Open link in a new window/tab" aria-label="Open link in a new window/tab"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div>
+                                            <a class="social-media-icon d-block d-lg-inline-flex justify-content-center align-items-center" href="https://twitter.com/Alliance_Can" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Open link in a new window/tab" aria-label="Open link in a new window/tab"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+            
+                        <section class="col-lg-auto py-lg-2 region region-footer-third">
+                            <h2 class="d-none">Footer Third</h2>
+                            <div class="d-flex justify-content-center">
+                                <img src="<fmt:message key="jsp.layout.footer-default.frdr.logo"/>" alt="Government of Canada" class="frdr-footer-logo img-fluid d-inline-block align-top">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://canada.ca/" target="_blank" title="" rel="nofollow" class="d-block" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="canada.ca - Open link in a new window/tab">
+                                    <img src="<fmt:message key="jsp.layout.footer-default.cangov.logo"/>" alt="Government of Canada" class="img-fluid d-inline-block align-top">
+                                </a>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             {% else %}
                 <div>
@@ -199,9 +241,7 @@
                     <a href="/policies/fr/confidentialité">Politique de confidentialité</a>
                 </div>
             {% endif %}
-            </footer>
             </div>
-        </div>
         </div>
 
     </body>
