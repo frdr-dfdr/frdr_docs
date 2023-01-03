@@ -180,12 +180,6 @@
                                                 <a href="/docs/en/about/">About</a>
                                             </li>
                                             <li>
-                                                <a href="/repo/search">Search</a>
-                                            </li>
-                                            <li>
-                                                <a href="/docs/en/documentation/">Help</a>
-                                            </li>
-                                            <li>
                                                 <a href="/repo/contactus">Contact</a>
                                             </li>
                                             <li>
@@ -194,12 +188,6 @@
                                         {% else %}
                                             <li>
                                                 <a href="/docs/fr/about/">À propos</a>
-                                            </li>
-                                            <li>
-                                                <a href="/repo/search?locale=fr">Search</a>
-                                            </li>
-                                            <li>
-                                                <a href="/docs/fr/documentation/">Aide</a>
                                             </li>
                                             <li>
                                                 <a href="/repo/contactus?locale=fr">Contactez-nous</a>
@@ -233,12 +221,7 @@
                         <section class="col-lg-auto py-lg-2 region region-footer-third">
                             <h2 class="d-none">Footer Third</h2>
                             <div class="d-flex justify-content-center">
-                                <img src="/static/images/latest/logos/FRDR_logo_english-first_reversed.svg" alt="Government of Canada" class="frdr-footer-logo img-fluid d-inline-block align-top">
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <a href="https://canada.ca/" target="_blank" title="" rel="nofollow" class="d-block" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="canada.ca - Open link in a new window/tab">
-                                    <img src="/static/images/latest/logos/gov-can_footer.svg" alt="Government of Canada" class="img-fluid d-inline-block align-top">
-                                </a>
+                                <img src="/static/images/latest/logos/FRDR_logo_english-first_reversed.svg" alt="Federated Research Data Repository" class="frdr-footer-logo img-fluid d-inline-block align-top">
                             </div>
                         </section>
                     </div>
@@ -252,7 +235,8 @@
                                 {% if '/en/' in page.canonical_url %}A service/product of the Alliance{% else %}A service/product of the Alliance in French{% endif %}
                             </p>
                             <small class="d-block text-center">
-                                {% if '/en/' in page.canonical_url %}© 2022 FRDR | All rights reserved{% else %}© 2022 FRDR | All rights reserved in French{% endif %}
+                                © <script>document.write(new Date().getFullYear())</script>
+                                {% if '/en/' in page.canonical_url %}Digital Research Alliance of Canada{% else %}Alliance de recherche numérique du Canada{% endif %}
                             </small>
                         </div>
                         <div class="content mt-2 d-lg-none ">
@@ -261,7 +245,8 @@
                                 {% if '/en/' in page.canonical_url %}A service/product of the Alliance{% else %}A service/product of the Alliance in French{% endif %}
                             </p>
                             <small class="d-block text-center">
-                                {% if '/en/' in page.canonical_url %}© 2022 FRDR | All rights reserved{% else %}© 2022 FRDR | All rights reserved in French{% endif %}
+                                © <script>document.write(new Date().getFullYear())</script>
+                                {% if '/en/' in page.canonical_url %}Digital Research Alliance of Canada{% else %}Alliance de recherche numérique du Canada{% endif %}
                             </small>
                         </div>
                     </section>
