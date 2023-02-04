@@ -28,8 +28,30 @@
                     </button>
     
                     <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
-    
-                        <ul class="nav navbar-nav navbar-right">
+
+                        <div class="container navbar-up">
+                            <form action="" method="get">
+                                <div class="input-group d-none d-lg-flex">
+                                    <input type="hidden" name="lang" id="srch-lang" value="">               
+                                    <label for="srch-term" class="d-none"></label>
+                                    <input type="text" class="search_bar form-control" placeholder="Search for datasets" name="query" id="srch-term"  style="font-size: 14px;">
+                                    <span class="input-group-append">
+                                    <button class="btn search-button" type="submit">
+                                        <span class="fas fa-search" aria-hidden="true"></span>
+                                    </button>
+                                    </span>
+                                </div>
+                            </form>
+
+                            <!-- Locale on larger screen -->
+                            {% if '/en/' in page.canonical_url %}
+                                <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" id="nav_switch_fr" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
+                            {% else %}
+                                <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" id="nav_switch_en" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
+                            {% endif %}
+                        </div>
+                        
+                        <ul class="nav navbar-nav">
     
                             <!-- Locale on smaller screen -->
                             <li class="nav-item d-lg-none">
@@ -97,12 +119,6 @@
                             </li>
     
                         </ul>
-                        <!-- Locale on larger screen -->
-                        {% if '/en/' in page.canonical_url %}
-                            <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" id="nav_switch_fr" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
-                        {% else %}
-                            <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" id="nav_switch_en" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
-                        {% endif %}
                     </div><!-- /.navbar-collapse -->
                 </div>
             </nav>

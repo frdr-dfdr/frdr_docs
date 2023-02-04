@@ -1,7 +1,6 @@
  /* to fit the second navigation level we need to move the content down the page a little */
 #content {
-    padding-top:20px !important;
-    margin-top:48px !important;
+    margin-top:80px !important;
 }
 
 /* Pseudo element to fix anchors being hidden under navbar */
