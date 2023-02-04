@@ -62,11 +62,6 @@
                                 {% endif %}
                             </li>
     
-                            <!-- Contact Us -->
-                            <li class="nav-item">
-                                <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez-nous{% endif %}</a>
-                            </li>
-    
                             <!-- Publish Dashboard  -->
                             <li class="nav-item">
                                 <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
@@ -100,11 +95,13 @@
                                 <li class="dropdown-item"><a role="menuitem" href="/docs/en/documentation/">Documentation</a></li>
                                 <li class="dropdown-item"><a role="menuitem" href="/policies/en/">Policies</a></li>
                                 <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Video Tutorials</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/repo/contactus/">Contact Us</a></li>
                                 {% else %}
                                 <li class="dropdown-item"><a role="menuitem" href="/docs/fr/avant_de_déposer/">Obtenez un compte</a></li>
                                 <li class="dropdown-item"><a role="menuitem" href="/docs/fr/documentation/">Documentation</a></li>
                                 <li class="dropdown-item"><a role="menuitem" href="/policies/fr/">Politiques</a></li>
                                 <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Tutoriels vidéos</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/repo/contactus?locale=fr">Contactez nous</a></li>
                                 {% endif %}
                                 </ul>
                             </li>
