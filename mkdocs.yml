@@ -33,7 +33,7 @@ extra_css:
     - css/docs-theme.css
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
-    frdr_search_relative_url: search/
+    frdr_search_relative_url: /search
     prefix: "/"
     default_page_en: en/documentation/
     default_page_fr: fr/documentation/
