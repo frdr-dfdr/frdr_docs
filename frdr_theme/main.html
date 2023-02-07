@@ -240,7 +240,7 @@
                         <section class="region region-footer-third py-lg-2 justify-content-between mt-lg-5 text-center">
                             <h2 class="d-none">Footer Third</h2>
                             <div class="footer-logo-frame">
-                                <img src="/static/images/latest/logos/Alliance_logo_English-first_reversed.png" alt="Federated Research Data Repository" class="footer-logo">
+                                <img src="/static/images/latest/logos/Alliance_logo_English-first_reversed.png" alt="Digital Research Alliance of Canada" class="footer-logo">
                             </div>
                             <div class="d-flex social-media-buttons justify-content-center">
                                 <div>
@@ -257,10 +257,12 @@
                     <section class="row region region-footer-fourth">
                         <h2 class="d-none">Footer Fourth</h2>
                         <div class="content mt-2 row">
-                            <small class="d-block text-center">
-                                © <script>document.write(new Date().getFullYear())</script>
-                                {% if '/en/' in page.canonical_url %}Digital Research Alliance of Canada{% else %}Alliance de recherche numérique du Canada{% endif %}
-                            </small>
+                            <a href="{% if '/en/' in page.canonical_url %}https://alliancecan.ca/en{% else %}https://alliancecan.ca/fr{% endif %}">
+                                <small class="d-block text-center">
+                                    © <script>document.write(new Date().getFullYear())</script>
+                                    {% if '/en/' in page.canonical_url %}Digital Research Alliance of Canada{% else %}Alliance de recherche numérique du Canada{% endif %}
+                                </small>
+                            </a>
                         </div>
                     </section>
                 </div>
