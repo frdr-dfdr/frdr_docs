@@ -94,6 +94,7 @@ table {
     width: 100%;
     padding-left: 10px;
     background-color: #5b5b5b;
+    text-decoration: none;
 }
 
 .frdr-sidebar > ul > li.current {
@@ -131,6 +132,7 @@ table {
     height: 100%;
     width: 100%;
     padding-left: 30px;
+    text-decoration: none;
 }
 
 .frdr-sidebar > ul > li.current > ul > li > a:hover {
