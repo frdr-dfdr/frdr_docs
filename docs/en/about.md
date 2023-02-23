@@ -30,11 +30,13 @@ Repository Platform
 * Planned feature extension, scheduled releases, and updates
 
 Managed Storage Services
+
 * Managed repository storage, geographically spread across multiple National Advanced Research Computing Host sites
 * Regular backups and multiple copies
 * Secure repository storage for a minimum of 10 years after deposit
 
 Curation Services
+
 * Researcher consultations and help preparing data for deposit, creating documentation and augmenting metadata to contextualize data
 * Internal review of new deposits to help ensure compliance with the FRDR [Terms of Use](/policies/en/terms_of_use/), and to optimize the findability, accessibility and reusability of data published in FRDR
 * Quality assurance through metadata inspection, file audit, and code review
@@ -42,6 +44,7 @@ Curation Services
 * Ongoing support provided after publication
 
 Preservation Services
+
 * Bit-level preservation of research data including checksum generation, validation, and keeping multiple copies on geographically distributed storage
 * Appraisal and selection of research data for additional long-term preservation processing via Archivematica
     * File identification, characterization, and validation
@@ -50,6 +53,7 @@ Preservation Services
     * Transfer of AIPs to partnering Preservation Service Providers (SciNet / University of Toronto)
 
 Discovery Services
+
 * Discovery interface with text-based search functionality supported by Globus search
 * Openly available OAI-PMH feed of harvested metadata 
 * Data indexed for discovery in [Lunaris](https://www.lunaris.ca/en), [Google Dataset Search](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/), [DataCite](https://search.datacite.org/), ProQuest, and others 
@@ -71,6 +75,7 @@ Special thanks to past Committee members Jeff Moon, former Director of Research 
 
 ## Our team
 Development Team
+
 * Joel Farthing, Developer, University of Saskatchewan
 * Adam McKenzie, Research Data Management Analyst, University of Saskatchewan
 * Todd Trann, Technical Lead, University of Saskatchewan
@@ -78,6 +83,7 @@ Development Team
 * Jin Zhang, Developer, Simon Fraser University
 
 Service Team
+
 * Erin Clary, Curation Coordinator, Digital Research Alliance of Canada
 * Laura Gerlitz, Curation Officer, Digital Research Alliance of Canada
 * Mark Goodwin, Lunaris Product Lead, Digital Research Alliance of Canada
@@ -90,6 +96,7 @@ Service Team
 * Lee Wilson, Director of Research Data Management, Digital Research Alliance of Canada
 
 Communications Team
+
 * Chantale Blais, French translator, editor and writer, Digital Research Alliance of Canada
 * Katrina Guerin, Digital Communications Specialist, Digital Research Alliance of Canada
 * Caitilín O’Hare, Communications Officer, Digital Research Alliance of Canada
