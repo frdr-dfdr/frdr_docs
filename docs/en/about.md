@@ -62,6 +62,7 @@ Discovery Services
 Oversight for the FRDR service is provided by the Digital Research Alliance of Canada and the FRDR Steering Committee. The Steering Committee includes representatives from the Digital Research Alliance of Canada, the Canadian Association of Research Libraries, the Alliance Federation, the FRDR development team, FRDR host sites, and the RDM Network of Experts. 
 
 Membership
+
 * Lee Wilson, Director of Research Data Management, Digital Research Alliance of Canada (Chair)
 * Jay Brodeur, Associate Director, Digital Scholarship Services, McMaster University
 * Susan Haigh, Executive Director, Canadian Association of Research Libraries
