@@ -16,6 +16,7 @@ Requests for deposit from other types of Canadian researchers (e.g. researchers 
 
 ## Our features
 Repository Platform
+
 * A fully-bilingual interface and robust documentation in [English](/docs/en/documentation) and [French](/docs/fr/documentation)
 * DOIs provide a persistent identifier for data citation
 * Default allocation of 1TB of repository storage
