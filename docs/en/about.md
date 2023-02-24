@@ -15,7 +15,7 @@ Anyone can use FRDR to search for and download data, and Principal Investigators
 Requests for deposit from other types of Canadian researchers (e.g. researchers affiliated with government or NGOs) who are not sponsored by a PI will be considered on a case-by-case basis. Please refer to the [Data Submission Policy](/policies/en/data_submission/) for more information, or contact FRDR at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## Our features
-Repository Platform
+Repository platform
 
 * A fully-bilingual interface and robust documentation in [English](/docs/en/documentation) and [French](/docs/fr/documentation)
 * DOIs provide a persistent identifier for data citation
