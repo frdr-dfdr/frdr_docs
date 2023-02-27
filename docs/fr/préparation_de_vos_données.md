@@ -4,7 +4,7 @@
 
 Rassemblez vos fichiers de données, la documentation et tout renseignement nécessaire pour réutiliser votre ensemble de données. Vous pouvez choisir de fournir des données traitées, des données « brutes » non traitées, ou les deux, ainsi que les scripts, le code ou le logiciel requis pour générer ou réanalyser vos données.
 
-Vous pouvez télécharger une version de vos scripts d’analyse en même temps que vos données, mais nous vous recommandons de déposer les modèles, le code source ou le logiciel de recherche dans des dépôts spécialisés comme GitHub, GitLab ou Bitbucket. Ceux-ci peuvent être conservés dans les archives de [Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/) ou [Zenodo](https://guides.github.com/activities/citable-code/). Vous pouvez établir un lien direct avec eux et les autres résultats de vos [métadonnées du DFDR](description_de_vos_données.md#metadonnees-recommandees) en utilisant le champ « identifiant connexe » et les mentionner dans votre fichier Lisez-moi ([voir un modèle ici](/docs/txt/README-fr.txt)).
+Vous pouvez télécharger une version de vos scripts d’analyse en même temps que vos données, mais nous vous recommandons de déposer les modèles, le code source ou le logiciel de recherche dans des dépôts spécialisés comme GitHub, GitLab ou Bitbucket. Ceux-ci peuvent être conservés dans les archives de [Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/?lang=fr) ou [Zenodo](https://docs.github.com/fr/repositories/archiving-a-github-repository/referencing-and-citing-content). Vous pouvez établir un lien direct avec eux et les autres résultats de vos [métadonnées du DFDR](description_de_vos_données.md#metadonnees-recommandees) en utilisant le champ « identifiant connexe » et les mentionner dans votre fichier Lisez-moi ([voir un modèle ici](/docs/txt/README-fr.txt)).
 
 ### Structure de vos fichiers
 
@@ -111,8 +111,8 @@ Une fois que vous aurez soumis vos données, un membre de l’équipe de curatio
 * *Votre ensemble de données est-il complet?* Avez-vous fourni tous les fichiers que vous avez l’intention de partager et retiré ceux qui ne peuvent pas ou ne devraient pas être partagés? Les fichiers (ou types de fichiers) sont-ils tous décrits dans le fichier Lisez-moi?
 * *Vos fichiers sont-ils complets?* Avez-vous défini les variables et les valeurs admissibles, indiqué les unités de mesure et décrit les valeurs nulles, au besoin?
 * Si vos fichiers sont dans un format exclusif, *avez-vous fourni des renseignements sur l’instrument ou le logiciel utilisé pour générer les fichiers* ainsi que des recommandations pour visualiser le contenu?
-* *Avez-vous indiqué les sources tierces* d’où proviennent les données ou le code ayant servi à vos analyses? Consultez la section [Utilisation secondaire des données ou du code](#utilisation-secondaire-des-données-ou-du-code).
-* *Avez-vous confirmé qu’aucun de vos fichiers ne contient de renseignements protégés ou à diffusion restreinte?* Consultez la section [Données à diffusion restreinte](#données-à-diffusion-restreinte).
+* *Avez-vous indiqué les sources tierces* d’où proviennent les données ou le code ayant servi à vos analyses? Consultez la section [Utilisation secondaire des données ou du code](#utilisation-secondaire-des-donnees-ou-du-code).
+* *Avez-vous confirmé qu’aucun de vos fichiers ne contient de renseignements protégés ou à diffusion restreinte?* Consultez la section [Données à diffusion restreinte](#donnees-a-diffusion-restreinte).
 
 ### Utilisation secondaire des données ou du code
 
