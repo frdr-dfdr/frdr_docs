@@ -1,5 +1,3 @@
-## Adding a repository to the FRDR Discovery Service
-
 ## For developers
 This documentation is for users who want to develop applications or web sites that use FRDR technology.
 
