@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-02-22**:
+
+* Additional notices will be sent when a dataset embargo end date is approaching (60 days, 30 days and 5 days)
+* Improved file tree and file cache generation so large datasets are ready for display sooner
+* Added CSV export tool for administrators
+
 **2022-10-26**:
 
 * Fixed a problem when editing the ORCID ids and Author Affiliations in datasets with more than two authors
