@@ -124,12 +124,27 @@
                         </li>
 
                         <!-- About -->
-                        <li class="nav-item">
-                            {% if '/en/' in page.canonical_url %}
-                                <a href="/docs/en/about/">About</a>
-                            {% else %}
-                                <a href="/docs/fr/à_propos/">À propos</a>
-                            {% endif %}
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                {% if '/en/' in page.canonical_url %}About {% else %}À propos{% endif %}
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                {% if '/en/' in page.canonical_url %}
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/about/#our-mission/">Our mission</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/about/#our-features/">Our features</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/about/#our-governance/">Our governance</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/about/#our-team/">Our team</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/about/#our-partners/">Our partners</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/about/#our-journey/">Our journey</a></li>
+                                {% else %}
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/à_propos/#notre-mission/">Notre mission</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/à_propos/#nos-fonctionnalites/">Nos fonctionnalités</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/à_propos/#notre-gouvernance/">Notre gouvernance</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/à_propos/#notre-equipe/">Notre équipe</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/à_propos/#nos-partenaires/">Nos partenaires</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/à_propos/#notre-parcours/">Notre parcours</a></li>
+                                {% endif %}
+                            </ul>
                         </li>
 
                     </ul>
