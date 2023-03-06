@@ -37,8 +37,6 @@ The two videos below go through the steps to get a working Globus Transfer endpo
 </a>
 </div>
 
-
-
 <div class="video-wrap">
 <a href="https://www.youtube.com/watch?v=PvmFxQyMPlQ&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=en&cc_load_policy=1" target="_blank">
   <div class="video-play-btn">
