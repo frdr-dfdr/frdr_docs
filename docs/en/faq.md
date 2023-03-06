@@ -93,7 +93,7 @@ Code that is self-describing or well commented may remain more useful over time.
 * A list of required software packages and dependencies
 * Information about the environment in which the code was developed and/or can be run
 
-You may add this information to your README file, a requirements.txt file, and/or include it as header information or comments directly in your code files. We have a README template with a section for code available HERE.
+You may add this information to your README file, a requirements.txt file, and/or include it as header information or comments directly in your code files. We have a README template with a section for code available [HERE](/docs/txt/README.txt).
 
 ### 5. How do I add colleagues as collaborators to my dataset?
 You can add collaborators to your “In Progress” submissions. To do so, enter the email associated with their FRDR account on the “Collaborator” tab of the submission interface, and assign them permission to edit metadata, to add or remove data files, and/or to submit the dataset, then click “Invite”. 
