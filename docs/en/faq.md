@@ -1,12 +1,15 @@
 We have included answers to some of our frequently asked questions below, but we are always happy to answer your questions directly. Please reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if we can help in any way!
 
 # General
-### 1. Who can use FRDR?
+<details>
+<summary><h3>1. Who can use FRDR?</h3></summary>
+
 Anyone may use FRDR to search for and download datasets.
 
 Principal Investigators (PIs) from any research discipline, and their sponsored designates, may submit content to FRDR. PIs must be a faculty member, librarian, or community-based researcher at an institution or organization eligible to receive Tri-Agency funding, including Indigenous not-for-profit organizations eligible for funding from the Social Sciences and Humanities Research Council (SSHRC). PIs can sponsor designates to submit content on their behalf, including graduate and undergraduate students, data managers, non-research staff, external collaborators, postdoctoral fellows, and research assistants. Requests for deposit from other types of Canadian researchers (e.g. researchers affiliated with government or NGOs) who are not sponsored by a PI will be considered on a case-by-case basis.
 
 Please refer to the [Data Submission Policy](/policies/en/data_submission/) for more information.
+</details>
 
 ### 2. How is FRDR funded?
 FRDR is funded by the Digital Research Alliance of Canada, a national not-for-profit funded by Innovation, Science, and Economic Development Canada with a mandate to support Digital Research Infrastructure activities nationally.
