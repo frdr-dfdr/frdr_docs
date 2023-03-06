@@ -31,7 +31,6 @@ Your DOI is listed under the dataset title in your publication dashboard.
 <a href="/docs/img/screenshots/faq/DashboardDOI.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
 </a>
-
 If you are worried that your data are not in compliance with our terms of use (e.g., if you are redistributing content you obtained from an external source, or if you have potentially sensitive content), please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). We can work with you to determine whether the DOI can be shared ahead of curation (our internal review process) and dataset publication. 
 
 ### 8. Can I share data collected from human participants? 
@@ -51,7 +50,7 @@ As much as possible, the demo will be kept up-to-date with the latest version of
 
 # Data Submission Process
 
-### User account
+## User account
 
 ### 1. Do I need a FRDR account to deposit data?
 FRDR does require you to create an account before you can deposit data. You can [sign up](/repo/PublishDashboard) using your Institutional ID, Federation ID, ORCID, or a Globus ID. The first time you log into FRDR, you will be asked to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us to verify that you are eligible to deposit in FRDR. Please refer to the [Before Depositing](before_depositing.md) for more information.
