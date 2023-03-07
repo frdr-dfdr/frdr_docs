@@ -32,7 +32,7 @@ We have included answers to some of our frequently asked questions below, but we
 <p>As soon as you start a new deposit, the system will assign a DOI to your dataset. This DOI is unique to your deposit, and it will not change. You are welcome to share the DOI ahead of data publication, e.g., if you would like to include it in an associated manuscript, however, the DOI will not resolve (or be functional) until your dataset is published.</p>
 <p>Your DOI is listed under the dataset title in your publication dashboard.</p>
 <a href="/docs/img/screenshots/faq/DashboardDOI.png" class="screenshot-lightbox">
-    <img src="file:////docs/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
+    <img src="/docs/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
 </a>
 <p>If you are worried that your data are not in compliance with our terms of use (e.g., if you are redistributing content you obtained from an external source, or if you have potentially sensitive content), please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). We can work with you to determine whether the DOI can be shared ahead of curation (our internal review process) and dataset publication.</p>
 </details>
