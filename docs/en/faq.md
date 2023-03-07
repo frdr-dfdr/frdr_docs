@@ -1,5 +1,5 @@
 We have included answers to some of our frequently asked questions below, but we are always happy to answer your questions directly. Please reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if we can help in any way!
-# General
+## General
 
 <details>
 <summary>1. Who can use FRDR?</summary>
@@ -52,9 +52,9 @@ FRDR does not currently accept restricted access data. All data will be publicly
 <p>As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered &quot;test&quot; data and will only be available temporarily.</p>
 </details>
 
-# Data Submission Process
+## Data Submission Process
 
-## User account
+### User account
 
 <details>
 <summary>1. Do I need a FRDR account to deposit data?</summary>
@@ -71,7 +71,7 @@ FRDR does not currently accept restricted access data. All data will be publicly
 </ul>
 </details>
 
-## How to deposit
+### How to deposit
 
 <details>
 <summary>1. How can I link my dataset to related research outputs?</summary>
@@ -117,7 +117,7 @@ FRDR does not currently accept restricted access data. All data will be publicly
 <p>Once your dataset is published, it is part of the scholarly record, and our curation team will need to assist with any changes. We can update metadata or add links to related research outputs on your behalf, and we will work with you to ensure that any changes made to the  data file set are transparent. To request changes, please send an email to <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.</p>
 </details>
 
-## User Quota
+### User Quota
 
 <details>
 <summary>1. How much storage do I get by default?</summary>
@@ -138,7 +138,7 @@ FRDR does not currently accept restricted access data. All data will be publicly
 <p>If you have reached your quota limit, or believe an extension on quota is required for a collection, please contact <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.</p>
 </details>
 
-## Globus
+### Globus
 
 <details>
 <summary>1. How do I configure Globus for data transfer?</summary>
@@ -153,7 +153,7 @@ FRDR does not currently accept restricted access data. All data will be publicly
 </ol>
 </details>
 
-# Curation and Preservation
+## Curation and Preservation
 
 <details>
 <summary>1. What is Data Curation?</summary>
@@ -182,7 +182,7 @@ FRDR does not currently accept restricted access data. All data will be publicly
 <p>Depositors can contribute to the appraisal process during submission by answering an optional question regarding the long-term value of their dataset. For more information, see the instructions for “<a href="depositing_data.md#requesting-long-term-preservation">Requesting Long-term Preservation</a>” in the Depositing Data guide.</p>
 </details>
 
-# Data Reuse
+## Data Reuse
 
 <details>
 <summary>1. Why can't I download a file via my web browser (using HTTP)?</summary>
