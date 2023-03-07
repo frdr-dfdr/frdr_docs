@@ -6,7 +6,7 @@ Bienvenue à la documentation de service pour le dépôt fédéré de données d
 * [Déposer les données](déposer_les_données.md)
 * [Après le dépôt](après_le_dépôt.md)
 * [Recherche de jeux de données](recherche.md)
-* [Téléchargement](téléchargement.md)
+* [Téléchargement d'ensembles de données](téléchargement.md)
 * [Avancée](avancee.md)
 * [FAQ](faq.md)
 * [Principes FAIR](principes_fair.md)
