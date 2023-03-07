@@ -2,6 +2,7 @@ We have included answers to some of our frequently asked questions below, but we
 # General
 
 <details>
+
 <summary>1. Who can use FRDR?</summary>
 
 Anyone may use FRDR to search for and download datasets.
