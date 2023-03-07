@@ -7,74 +7,49 @@ We have included answers to some of our frequently asked questions below, but we
 <p>Principal Investigators (PIs) from any research discipline, and their sponsored designates, may submit content to FRDR. PIs must be a faculty member, librarian, or community-based researcher at an institution or organization eligible to receive Tri-Agency funding, including Indigenous not-for-profit organizations eligible for funding from the Social Sciences and Humanities Research Council (SSHRC). PIs can sponsor designates to submit content on their behalf, including graduate and undergraduate students, data managers, non-research staff, external collaborators, postdoctoral fellows, and research assistants. Requests for deposit from other types of Canadian researchers (e.g. researchers affiliated with government or NGOs) who are not sponsored by a PI will be considered on a case-by-case basis.</p>
 <p>Please refer to the <a href="/policies/en/data_submission/">Data Submission Policy</a> for more information.</p>
 </details>
-
 <details>
 <summary>2. How is FRDR funded?</summary>
-
-FRDR is funded by the Digital Research Alliance of Canada, a national not-for-profit funded by Innovation, Science, and Economic Development Canada with a mandate to support Digital Research Infrastructure activities nationally.
-
+<p>FRDR is funded by the Digital Research Alliance of Canada, a national not-for-profit funded by Innovation, Science, and Economic Development Canada with a mandate to support Digital Research Infrastructure activities nationally.</p>
 </details>
-
 <details>
 <summary>3. Do I still own the data I deposit in FRDR?</summary>
-
-Yes, you do. FRDR does not own the data you choose to publish in the repository. When you decide to deposit data within FRDR,  you grant FRDR permission to steward the copy of the data that was deposited in the repository, and you retain your ownership rights.  Please see our Data Submission Policy, [section 6.0 Rights and Ownership](/policies/en/data_submission/#60-rights-and-ownership) for further information.
+<p>Yes, you do. FRDR does not own the data you choose to publish in the repository. When you decide to deposit data within FRDR,  you grant FRDR permission to steward the copy of the data that was deposited in the repository, and you retain your ownership rights.  Please see our Data Submission Policy, <a href="/policies/en/data_submission/#60-rights-and-ownership">section 6.0 Rights and Ownership</a> for further information.</p>
 </details>
-
 <details>
 <summary>4. After I submit my dataset, when will it be searchable?</summary>
-
-After you submit your dataset, it will go through our internal review, or curation process. This typically takes 2-5 business days. Once approved for publication, your DOI will be registered with DataCite and your data will be indexed for discovery, unless you have selected an embargo to delay discovery. 
+<p>After you submit your dataset, it will go through our internal review, or curation process. This typically takes 2-5 business days. Once approved for publication, your DOI will be registered with DataCite and your data will be indexed for discovery, unless you have selected an embargo to delay discovery.</p>
 </details>
-
 <details>
 <summary>5. Can I deposit data to FRDR and have it stored in my province/institution?</summary>
-
-Yes, a design feature of FRDR is that data storage locations can be “federated.” An institution can apply to host a storage group that will be added to FRDR. The institution does not need to be running FRDR, just a Globus endpoint. If you are a representative of an institution and would like to apply to host a storage group, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+<p>Yes, a design feature of FRDR is that data storage locations can be “federated.” An institution can apply to host a storage group that will be added to FRDR. The institution does not need to be running FRDR, just a Globus endpoint. If you are a representative of an institution and would like to apply to host a storage group, please contact <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.</p>
 </details>
-
 <details>
-<summary>6. Does FRDR assign DOIs to datasets?</summary>>
-
-Yes! Each dataset in FRDR is assigned a unique digital object identifier (DOI), which can be used to cite the data. The DOI will be registered with [DataCite](https://datacite.org/) when the dataset is published. 
+<summary>6. Does FRDR assign DOIs to datasets?</summary>
+<p>Yes! Each dataset in FRDR is assigned a unique digital object identifier (DOI), which can be used to cite the data. The DOI will be registered with <a href="https://datacite.org/">DataCite</a> when the dataset is published.</p>
 </details>
-
 <details>
-<summary>7. Can I get a DOI before my dataset is published?</summary>>
-
-As soon as you start a new deposit, the system will assign a DOI to your dataset. This DOI is unique to your deposit, and it will not change. You are welcome to share the DOI ahead of data publication, e.g., if you would like to include it in an associated manuscript, however, the DOI will not resolve (or be functional) until your dataset is published. 
-
-Your DOI is listed under the dataset title in your publication dashboard.
-
+<summary>7. Can I get a DOI before my dataset is published?</summary>
+<p>As soon as you start a new deposit, the system will assign a DOI to your dataset. This DOI is unique to your deposit, and it will not change. You are welcome to share the DOI ahead of data publication, e.g., if you would like to include it in an associated manuscript, however, the DOI will not resolve (or be functional) until your dataset is published.</p>
+<p>Your DOI is listed under the dataset title in your publication dashboard.</p>
 <a href="/docs/img/screenshots/faq/DashboardDOI.png" class="screenshot-lightbox">
-    <img src="/docs/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
+    <img src="file:////docs/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
 </a>
-If you are worried that your data are not in compliance with our terms of use (e.g., if you are redistributing content you obtained from an external source, or if you have potentially sensitive content), please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). We can work with you to determine whether the DOI can be shared ahead of curation (our internal review process) and dataset publication. 
+<p>If you are worried that your data are not in compliance with our terms of use (e.g., if you are redistributing content you obtained from an external source, or if you have potentially sensitive content), please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). We can work with you to determine whether the DOI can be shared ahead of curation (our internal review process) and dataset publication.</p>
 </details>
-
 <details>
-<summary>8. Can I share data collected from human participants? </summary>>
-
-
-FRDR accepts data about human participants when the appropriate permissions or approvals for data publishing and sharing are in place, such as participant consent for future use of the data or Research Ethics Board approval for data sharing.
-FRDR does not currently accept restricted access data. All data will be publicly available and should be properly de-identified. FRDR will ask for a copy of the approved ethics application, consent form, or other relevant documentation to confirm the appropriate permissions or approvals for data publication and sharing are in place. 
-
-If you have questions about whether a particular dataset may be published,  please consult the Research Ethics Board of record. For data which has already been collected, the [Tri-Agency Guidance on Depositing Existing Data in Public Repositories](https://ethics.gc.ca/eng/depositing_depots.html) may be helpful.
+<summary>8. Can I share data collected from human participants? </summary>
+<p>FRDR accepts data about human participants when the appropriate permissions or approvals for data publishing and sharing are in place, such as participant consent for future use of the data or Research Ethics Board approval for data sharing.
+FRDR does not currently accept restricted access data. All data will be publicly available and should be properly de-identified. FRDR will ask for a copy of the approved ethics application, consent form, or other relevant documentation to confirm the appropriate permissions or approvals for data publication and sharing are in place.</p>
+<p>If you have questions about whether a particular dataset may be published,  please consult the Research Ethics Board of record. For data which has already been collected, the <a href="https://ethics.gc.ca/eng/depositing_depots.html">Tri-Agency Guidance on Depositing Existing Data in Public Repositories</a> may be helpful.</p>
 </details>
-
 <details>
-<summary>9. Can I set up a collection for my research group?</summary>>
-
-FRDR is happy to create a collection for your research group, your lab, or data outputs of a specific research program. Please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) to set up a consultation. 
+<summary>9. Can I set up a collection for my research group?</summary>
+<p>FRDR is happy to create a collection for your research group, your lab, or data outputs of a specific research program. Please contact <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> to set up a consultation.</p>
 </details>
-
 <details>
-<summary>10. Is there a sandbox or demo server where I can test things out?</summary>>
-
-A [demo version](https://demo.frdr-dfdr.ca/repo/?locale=en) of the FRDR site is available for training and testing purposes. You are welcome to use this to walk through or demonstrate the submission process. No account is required to start a new deposit on the demo site, however, new deposits submitted on this server are not monitored by our staff, and will not be published. If you need us to publish your test deposit, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
-
-As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered "test" data and will only be available temporarily.
-</details>
+<summary>10. Is there a sandbox or demo server where I can test things out?</summary>
+<p>A <a href="https://demo.frdr-dfdr.ca/repo/?locale=en">demo version</a> of the FRDR site is available for training and testing purposes. You are welcome to use this to walk through or demonstrate the submission process. No account is required to start a new deposit on the demo site, however, new deposits submitted on this server are not monitored by our staff, and will not be published. If you need us to publish your test deposit, please contact us at <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.</p>
+<p>As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered &quot;test&quot; data and will only be available temporarily.</p>
 </details>
 
 # Data Submission Process
