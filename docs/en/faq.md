@@ -1,8 +1,8 @@
 We have included answers to some of our frequently asked questions below, but we are always happy to answer your questions directly. Please reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if we can help in any way!
 ## General
 
-<details>
-<summary>
+<details markdown="1">
+<summary markdown="1">
 
 #### 1. Who can use FRDR?
 
