@@ -4,8 +4,8 @@ vous pouvez naviguer parmi les ensembles de données disponibles en utilisant [l
 
 ##Télécharger des ensembles de données à partir d’un navigateur Web
 L’outil de recherche de fichiers se trouve au bas de la page d’accueil de chaque ensemble de données.
-<a href="/docs/img/screenshots/downloading_data/WebDownload.png" class="screenshot-lightbox">
-<img src="/docs/img/screenshots/downloading_data/WebDownload.png" alt="Capture d'écran montrant le widget de navigation de fichiers sur la page d'accueil de l'élément FRDR." class="screenshot"/>
+<a href="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" class="screenshot-lightbox">
+<img src="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" alt="Capture d'écran montrant le widget de navigation de fichiers sur la page d'accueil de l'élément FRDR." class="screenshot"/>
 </a>
 
 Pour télécharger des ensembles de données à partir d’un navigateur Web, la marche à suivre est la même que pour tout autre fichier sur Internet. Il suffit de cliquer sur le nom du fichier dans l’outil de recherche du DFDR pour le télécharger sur votre appareil. Gardez à l’esprit que cette méthode comporte plusieurs limites :
@@ -19,13 +19,13 @@ Globus est un logiciel gratuit qui permet de transférer des fichiers de façon 
 La vidéo ci-dessous présente les étapes détaillées pour configurer un terminal Globus Transfer :
 
 <div class="video-wrap">
-<a href="https://www.youtube.com/watch?v=NJYTl3yhRl4&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=5" target="_blank">
+<a href="https://www.youtube.com/watch?v=zSdpMNlIlpk&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=11" target="_blank">
   <div class="video-play-btn">
     <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150" version="1.1">
         <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z" transform="matrix(0.5,0,0,0.5,0,0)"></path>
         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
     </svg>
   </div>
-  <img class="video-placeholder" src="/docs/img/video_placeholders/en/download_dataset.png" alt="Video preview: How to download and install Globus Connect Personal.">
+  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/téléchargement_youtube.png" alt="Aperçu vidéo: comment télécharger et installer Globus Connect Personal.">
 </a>
 </div>
