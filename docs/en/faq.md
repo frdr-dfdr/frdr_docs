@@ -2,7 +2,7 @@ We have included answers to some of our frequently asked questions below, but we
 ## General
 
 <details markdown="1">
-<summary markdown="span">
+<summary markdown="1">
 ###### 1. Who can use FRDR?
 </summary>
 Anyone may use FRDR to search for and download datasets.
