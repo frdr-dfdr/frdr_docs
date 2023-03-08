@@ -33,7 +33,7 @@ The two videos below go through the steps to get a working Globus Transfer endpo
         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
     </svg>
   </div>
-  <img class="video-placeholder" src="/docs/img/video_placeholders/en/download_dataset.png" alt="Video preview: How to download and install Globus Connect Personal.">
+  <img class="video-placeholder" src="/docs/img/video_placeholders/en/install_globus.png" alt="Video preview: How to download and install Globus Connect Personal.">
 </a>
 </div>
 

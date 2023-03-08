@@ -18,6 +18,18 @@ Pour télécharger des ensembles de données à partir d’un navigateur Web, la
 Globus est un logiciel gratuit qui permet de transférer des fichiers de façon sûre et à haute vitesse. Il s’agit de la méthode la plus efficace pour télécharger une grande quantité de données dans le DFDR. Pour utiliser Globus, vous devez soit accéder à un serveur sur lequel Globus est déjà installé (c’est le cas pour la plupart des sites d’hébergement nationaux de l’Alliance de recherche numérique du Canada), soit créer votre propre compte Globus et installer [Globus Connect Personal](https://www.globus.org/globus-connect-personal)  sur votre appareil.
 La vidéo ci-dessous présente les étapes détaillées pour configurer un terminal Globus Transfer :
 
+div class="video-wrap">
+<a href="https://www.youtube.com/watch?v=fOAMB2VHC24&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=10" target="_blank">
+  <div class="video-play-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150" version="1.1">
+        <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z" transform="matrix(0.5,0,0,0.5,0,0)"></path>
+        <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
+    </svg>
+  </div>
+  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/installer_globus.png" alt="Aperçu vidéo : comment télécharger et installer Globus Connect Personal.">
+</a>
+</div>
+
 <div class="video-wrap">
 <a href="https://www.youtube.com/watch?v=zSdpMNlIlpk&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=11" target="_blank">
   <div class="video-play-btn">
