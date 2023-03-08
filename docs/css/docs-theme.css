@@ -164,6 +164,7 @@ table {
 summary > h6 {
     display: inline;
     padding-top: 80px;
+    pointer-events: none;
 }
 
 summary > p:empty{
