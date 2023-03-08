@@ -164,13 +164,17 @@
                                 {% if nav_item.active %}
                                 <ul id="current">
                                     {% for toc_item in page.toc %}
-                                            <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                            {% for toc_item in toc_item.children %}
+                                        <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                        {% for toc_item in toc_item.children %}
+                                            {% if toc_item.level <= 3 %}
                                                 <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
                                                 {% for toc_item in toc_item.children %}
-                                                    <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                    {% if toc_item.level <= 3 %}
+                                                        <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                    {% endif %}
                                                 {% endfor %}
-                                            {% endfor %}
+                                            {% endif %}
+                                        {% endfor %}
                                     {% endfor %}
                                 </ul>
                             {% endif %}
