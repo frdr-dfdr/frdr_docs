@@ -1,10 +1,8 @@
 We have included answers to some of our frequently asked questions below, but we are always happy to answer your questions directly. Please reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if we can help in any way!
 ## General
 
-<details markdown="1">
-<summary markdown="1">
-###### 1. Who can use FRDR?
-</summary>
+<details markdown="1" id="1-who-can-use-frdr">
+<summary>1. Who can use FRDR?</summary>
 Anyone may use FRDR to search for and download datasets.
 
 Principal Investigators (PIs) from any research discipline, and their sponsored designates, may submit content to FRDR. PIs must be a faculty member, librarian, or community-based researcher at an institution or organization eligible to receive Tri-Agency funding, including Indigenous not-for-profit organizations eligible for funding from the Social Sciences and Humanities Research Council (SSHRC). PIs can sponsor designates to submit content on their behalf, including graduate and undergraduate students, data managers, non-research staff, external collaborators, postdoctoral fellows, and research assistants. Requests for deposit from other types of Canadian researchers (e.g. researchers affiliated with government or NGOs) who are not sponsored by a PI will be considered on a case-by-case basis.
@@ -12,17 +10,17 @@ Principal Investigators (PIs) from any research discipline, and their sponsored 
 Please refer to the [Data Submission Policy](/policies/en/data_submittiosn/)  for more information.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
-######2. How is FRDR funded?
-</summary>
+<details markdown="1" id="2-how-is-frdr-funded">
+<summary>2. How is FRDR funded?</summary>
 
 FRDR is funded by the Digital Research Alliance of Canada, a national not-for-profit funded by Innovation, Science, and Economic Development Canada with a mandate to support Digital Research Infrastructure activities nationally.
 </details>
 
 <details markdown="1">
 <summary markdown="span">
-######3. Do I still own the data I deposit in FRDR?
+
+###### 3. Do I still own the data I deposit in FRDR?
+
 </summary>
 
 Yes, you do. FRDR does not own the data you choose to publish in the repository. When you decide to deposit data within FRDR,  you grant FRDR permission to steward the copy of the data that was deposited in the repository, and you retain your ownership rights.  Please see our Data Submission Policy, [section 6.0 Rights and Ownership](/policies/en/data_submission/#60-rights-and-ownership) for further information.
