@@ -97,9 +97,9 @@ As much as possible, the demo will be kept up-to-date with the latest version of
 </details>
 </details>
 
-# Data Submission Process
+## Data Submission Process
 
-## User account
+### User account
 
 <details markdown="1">
 <summary markdown="span">
@@ -123,7 +123,7 @@ To confirm this is the issue, try disabling your Adblocker before logging in. To
 * [globusid.org](https://globusid.org/)
 </details>
 
-## How to deposit
+### How to deposit
 
 <details markdown="1">
 <summary markdown="span">
@@ -203,7 +203,7 @@ Please see our [Terms of Use](/policies/en/terms_of_use/), specifically section 
 Once your dataset is published, it is part of the scholarly record, and our curation team will need to assist with any changes. We can update metadata or add links to related research outputs on your behalf, and we will work with you to ensure that any changes made to the  data file set are transparent. To request changes, please send an email to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-## User Quota
+### User Quota
 
 <details markdown="1">
 <summary markdown="span">
@@ -234,7 +234,7 @@ When a user reaches their quota in a collection, the following will happen:
 If you have reached your quota limit, or believe an extension on quota is required for a collection, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-## Globus
+### Globus
 
 <details markdown="1">
 <summary markdown="span">
@@ -252,7 +252,7 @@ To configure Globus:
 5. Click ‘Save’.  Any changes you make are not made permanent until you press the "Save" button.
 </details>
 
-# Curation and Preservation
+## Curation and Preservation
 
 <details markdown="1">
 <summary markdown="span">
@@ -298,7 +298,7 @@ Depositors can contribute to the appraisal process during submission by answerin
 
 </details>
 
-# Data Reuse
+## Data Reuse
 
 <details markdown="1">
 <summary markdown="span">

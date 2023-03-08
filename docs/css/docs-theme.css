@@ -161,7 +161,7 @@ table {
   border-bottom: 1px solid black;
 }
 /* Make FAQ questions expandable */
-summary > h4 {
+summary > h6 {
     display: inline;
     padding-top: 80px;
 }
