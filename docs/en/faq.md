@@ -23,6 +23,7 @@ FRDR is funded by the Digital Research Alliance of Canada, a national not-for-pr
 <details markdown="1">
 <summary markdown="span">
 ######3. Do I still own the data I deposit in FRDR?
+</summary>
 
 Yes, you do. FRDR does not own the data you choose to publish in the repository. When you decide to deposit data within FRDR,  you grant FRDR permission to steward the copy of the data that was deposited in the repository, and you retain your ownership rights.  Please see our Data Submission Policy, [section 6.0 Rights and Ownership](/policies/en/data_submission/#60-rights-and-ownership) for further information.
 </details>
@@ -71,7 +72,6 @@ If you are worried that your data are not in compliance with our terms of use (e
 ######8. Can I share data collected from human participants? 
 </summary>
 
-
 FRDR accepts data about human participants when the appropriate permissions or approvals for data publishing and sharing are in place, such as participant consent for future use of the data or Research Ethics Board approval for data sharing.
 FRDR does not currently accept restricted access data. All data will be publicly available and should be properly de-identified. FRDR will ask for a copy of the approved ethics application, consent form, or other relevant documentation to confirm the appropriate permissions or approvals for data publication and sharing are in place. 
 
@@ -94,7 +94,6 @@ FRDR is happy to create a collection for your research group, your lab, or data 
 A [demo version](https://demo.frdr-dfdr.ca/repo/?locale=en) of the FRDR site is available for training and testing purposes. You are welcome to use this to walk through or demonstrate the submission process. No account is required to start a new deposit on the demo site, however, new deposits submitted on this server are not monitored by our staff, and will not be published. If you need us to publish your test deposit, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered "test" data and will only be available temporarily.
-</details>
 </details>
 
 ## Data Submission Process
