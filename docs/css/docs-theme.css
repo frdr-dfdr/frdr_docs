@@ -7,8 +7,8 @@
 h2::before, h3::before {
   display: block;
   content: " ";
-  margin-top: -75px;
-  height: 75px;
+  margin-top: -80px;
+  height: 80px;
   visibility: hidden;
   pointer-events: none;
 }
@@ -159,4 +159,13 @@ table {
 
 #current {
   border-bottom: 1px solid black;
+}
+/* Make FAQ questions expandable */
+summary > h4 {
+    display: inline;
+    padding-top: 80px;
+}
+
+summary > p:empty{
+    display: none;
 }
