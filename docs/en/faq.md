@@ -1,7 +1,7 @@
 We have included answers to some of our frequently asked questions below, but we are always happy to answer your questions directly. Please reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if we can help in any way!
 ## General
 
-<button type="button" class="btn btn-primary expand-all-btn">Expand All</button>
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
 
 <details markdown="1">
 <summary markdown="span">
@@ -100,7 +100,7 @@ As much as possible, the demo will be kept up-to-date with the latest version of
 
 ## Data Submission Process
 
-<button type="button" class="btn btn-primary expand-all-btn">Expand All</button>
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
 
 ### User account
 
@@ -257,7 +257,7 @@ To configure Globus:
 
 ## Curation and Preservation
 
-<button type="button" class="btn btn-primary expand-all-btn">Expand All</button>
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
 
 <details markdown="1">
 <summary markdown="span">
@@ -305,7 +305,7 @@ Depositors can contribute to the appraisal process during submission by answerin
 
 ## Data Reuse
 
-<button type="button" class="btn btn-primary expand-all-btn">Expand All</button>
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
 
 <details markdown="1">
 <summary markdown="span">

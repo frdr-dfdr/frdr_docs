@@ -177,3 +177,22 @@ summary > p:empty{
 h2 {
     border-bottom: 1px solid #dee2e6 !important;
 }
+
+.expand-all-btn {
+    margin-top: -0.5rem;
+}
+
+.expand-all-btn::before {
+    content: "▼";
+    float: left;
+    transform: rotate(-90deg);
+}
+
+.expand-all-btn.expanded::before {
+    transform: rotate(0);
+    transition: transform 0.1s ease;
+}
+
+p:has(button) {
+    margin-bottom: 1rem;
+}
