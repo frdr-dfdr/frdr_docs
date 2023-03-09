@@ -166,7 +166,7 @@ summary > p:empty{
     display: none;
 }
 
-h2 {
+#main-content h2 {
     border-bottom: 1px solid #dee2e6 !important;
 }
 
