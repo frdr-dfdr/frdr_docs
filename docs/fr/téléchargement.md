@@ -1,6 +1,6 @@
 ##Trouver des ensembles de données
 Si vous n’avez pas le lien direct vers un ensemble de données hébergé dans le DFDR, 
-vous pouvez naviguer parmi les ensembles de données disponibles en utilisant [le découverte du DFDR](https://www.frdr-dfdr.ca/discover/html/discovery-ui.html?q=*&Collection=FRDR).
+vous pouvez naviguer parmi les ensembles de données disponibles en utilisant [le découverte du DFDR](https://www.frdr-dfdr.ca/repo/search/).
 
 ##Télécharger des ensembles de données à partir d’un navigateur Web
 L’outil de recherche de fichiers se trouve au bas de la page d’accueil de chaque ensemble de données.

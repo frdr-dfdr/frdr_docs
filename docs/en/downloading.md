@@ -1,6 +1,6 @@
 ## Finding Datasets
 If you do not have a direct link to a FRDR-hosted dataset you can browse through available datasets using the 
-[FRDR Discovery Engine](https://www.frdr-dfdr.ca/discover/html/discovery-ui.html?q=*&Collection=FRDR).
+[FRDR Discovery](https://www.frdr-dfdr.ca/repo/search).
 
 ## Finding the File Listing for a Dataset and Downloading with a Web Browser
 
