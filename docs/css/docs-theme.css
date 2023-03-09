@@ -1,5 +1,5 @@
  /* to fit the second navigation level we need to move the content down the page a little */
-#content {
+ #content {
     margin-top:80px !important;
 }
 
@@ -161,6 +161,9 @@ table {
   border-bottom: 1px solid black;
 }
 /* Make FAQ questions expandable */
+summary {
+    padding-bottom: 5px;
+}
 summary > h6 {
     display: inline;
     padding-top: 80px;
@@ -169,4 +172,8 @@ summary > h6 {
 
 summary > p:empty{
     display: none;
+}
+
+h2 {
+    border-bottom: 1px solid #dee2e6 !important;
 }

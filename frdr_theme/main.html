@@ -326,6 +326,18 @@
                 alwaysShowClose: true
             });
         });
+
+        // Add button to expand/collapse all questions in section on FAQ page
+        $( ".expand-all-btn" ).click(function() {
+            $(this).toggleClass('expanded');
+            if($(this).hasClass('expanded')){
+                $(this).parent().nextUntil("h2").attr("open", true);
+                $(this).text('Collapse All');			
+            } else {
+                $(this).parent().nextUntil("h2").attr("open", false);
+                $(this).text('Expand All');
+            }
+        });
     });
 </script>
 </html>
