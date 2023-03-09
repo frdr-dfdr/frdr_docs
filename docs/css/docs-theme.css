@@ -3,15 +3,7 @@
     margin-top:80px !important;
 }
 
-/* Pseudo element to fix anchors being hidden under navbar */
-h2::before, h3::before {
-  display: block;
-  content: " ";
-  margin-top: -80px;
-  height: 80px;
-  visibility: hidden;
-  pointer-events: none;
-}
+
 
 table {
     width: 100%;
@@ -176,6 +168,10 @@ summary > p:empty{
 
 h2 {
     border-bottom: 1px solid #dee2e6 !important;
+}
+
+h2, h3 {
+    pointer-events: none;
 }
 
 .expand-all-btn {
