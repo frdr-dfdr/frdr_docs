@@ -110,7 +110,7 @@ Dans la mesure du possible, le site de démonstration sera tenu à jour avec la 
 ######1. Dois-je avoir un compte DFDR pour déposer des données?
 </summary>
 
-Vous devez créer un compte DFDR pour déposer des données. Pour [créer un compte](/repo/PublishDashboard?locale=fr), vous pouvez utiliser votre ID institutionnel, ID de la Fédération, ID ORCID ou ID Globus. La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et la personne du corps professoral qui parraine vos activités (s’il y a lieu). Cela nous permettra de vérifier votre admissibilité à faire un dépôt dans le DFDR. Pour en savoir plus, veuillez consulter la page [Avant de déposer](avant_de_déposer.md).
+Vous devez créer un compte DFDR pour déposer des données. Pour [créer un compte](https://auth.globus.org/p/login?scope=urn%3Aglobus%3Aauth%3Ascope%3Aauth.globus.org%3Aview_identities+urn%3Aglobus%3Aauth%3Ascope%3Atransfer.api.globus.org%3Aall+urn%3Aglobus%3Aauth%3Ascope%3Agroups.api.globus.org%3Aall&response_type=code&redirect_uri=%2Fv2%2Foauth2%2Fauthorize%3Fscope%3Durn%253Aglobus%253Aauth%253Ascope%253Aauth.globus.org%253Aview_identities%2Burn%253Aglobus%253Aauth%253Ascope%253Atransfer.api.globus.org%253Aall%2Burn%253Aglobus%253Aauth%253Ascope%253Agroups.api.globus.org%253Aall%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.frdr-dfdr.ca%252Frepo%252Foauth-login%26client_id%3Dbe165fa1-1342-4fa0-b91a-487386f07a8f%26viewlocale%3Den_CA&client_id=be165fa1-1342-4fa0-b91a-487386f07a8f&viewlocale=fr_CA), vous pouvez utiliser votre ID institutionnel, ID de la Fédération, ID ORCID ou ID Globus. La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et la personne du corps professoral qui parraine vos activités (s’il y a lieu). Cela nous permettra de vérifier votre admissibilité à faire un dépôt dans le DFDR. Pour en savoir plus, veuillez consulter la page [Avant de déposer](avant_de_déposer.md).
 </details>
 
 <details markdown="1">
@@ -123,7 +123,7 @@ Il est possible qu’un bloqueur de publicités cause une erreur ou bloque l'ouv
 Pour confirmer que c’est ce qui cause le problème, essayez de désactiver votre bloqueur de publicités avant d’ouvrir une session. Pour ce faire, cliquez sur l’icône de votre bloqueur de publicités dans le coin supérieur droit de votre navigateur, puis désactivez-le. Essayez ensuite d’ouvrir une session dans le DFDR en utilisant votre compte ORCID. Si vous parvenez à ouvrir une session après avoir désactivé votre bloqueur de publicités, vous devrez ajouter des exceptions pour les sites Web suivants, ou inscrire ces sites sur la liste blanche de votre bloqueur de publicités :
 
 * [globus.org](https://www.globus.org/)
-* [orcid.org](https://orcid.org/)
+* [orcid.org]()
 * [globusid.org](https://globusid.org/?viewlocale=fr_CA)
 </details>
 
@@ -174,7 +174,7 @@ Un code autodescriptif ou riche en commentaires s’avérera plus utile au fil d
 * Une liste des progiciels requis et des dépendances.
 * Des renseignements sur l’environnement dans lequel le code a été développé et peut être exécuté.
 
-Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code [ICI](/docs/txt/README-fr.txt).
+Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code [ICI](/docs/txt/README-fr.txt "download").
 </details>
 
 <details markdown="1">
@@ -197,8 +197,6 @@ Remarque : Les collaborateur(-trice)s doivent avoir un compte DFDR. Si vous souh
 Le DFDR permet d’établir des périodes d’embargo temporaires pour éviter que des données soient téléchargées. Toutefois, pour l’instant, toutes les données qui sont déposées dans le DFDR finiront par être accessibles au public. Assurez-vous de ne déposer que des données que vous avez recueillies ou générées, ou d’avoir la permission de les partager ou distribuer. Avant de téléverser des fichiers dans le dépôt, prenez soin de retirer tout renseignement identificatoire et contenu sensible, et passez en revue tous les documents (p. ex., formulaires de consentement, contrats de recherche, ententes de partage des données) que vous pourriez avoir signés ou avoir fait signer par les participant(e)s à l’étude.
 
 Pour en savoir plus, veuillez consulter nos [Conditions d’utilisation](/policies/fr/conditions_d%27utilisation/), en particulier la section 3.0, qui porte sur les responsabilités des déposant(e)s.
-
-Please see our [Terms of Use](/policies/en/terms_of_use/), specifically section 3.0 Submitter Responsibilities for further information.
 </details>
 
 <details markdown="1">
