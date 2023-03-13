@@ -189,10 +189,14 @@
                                     {% for toc_item in page.toc %}
                                             <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
                                             {% for toc_item in toc_item.children %}
-                                                <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                                {% for toc_item in toc_item.children %}
-                                                    <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                                {% endfor %}
+                                                {% if toc_item.level <= 3 %}
+                                                    <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                    {% for toc_item in toc_item.children %}
+                                                        {% if toc_item.level <= 3 %}
+                                                            <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                {% endif %}
                                             {% endfor %}
                                     {% endfor %}
                                 </ul>
