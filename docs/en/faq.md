@@ -11,7 +11,7 @@ Anyone may use FRDR to search for and download datasets.
 
 Principal Investigators (PIs) from any research discipline, and their sponsored designates, may submit content to FRDR. PIs must be a faculty member, librarian, or community-based researcher at an institution or organization eligible to receive Tri-Agency funding, including Indigenous not-for-profit organizations eligible for funding from the Social Sciences and Humanities Research Council (SSHRC). PIs can sponsor designates to submit content on their behalf, including graduate and undergraduate students, data managers, non-research staff, external collaborators, postdoctoral fellows, and research assistants. Requests for deposit from other types of Canadian researchers (e.g. researchers affiliated with government or NGOs) who are not sponsored by a PI will be considered on a case-by-case basis.
 
-Please refer to the [Data Submission Policy](/policies/en/data_submittiosn/)  for more information.
+Please refer to the [Data Submission Policy](/policies/en/data_submission/)  for more information.
 </details>
 
 <details markdown="1">
@@ -296,7 +296,7 @@ We may try to run code and provide feedback on any issues we encounter (e.g., is
 
 FRDR offers bit-level preservation for all data deposits, with the ability to perform additional activities in support of long-term preservation. 
 
-FRDR uses Archivematica to create Archival Information Packages (AIPs) for datasets that have been selected to undergo long-term preservation processes. The AIP includes an Archivematica-generated METS file with PREMIS metadata, the FRDR metadata.csv, data and licence files, and checksum.sha256 files. For more information, see the “[Preservation](after_depositing.md#preservation)” section in the After Depositing guide.
+FRDR uses [Archivematica](https://www.archivematica.org/en/) to create Archival Information Packages (AIPs) for datasets that have been selected to undergo long-term preservation processes. The AIP includes an Archivematica-generated METS file with PREMIS metadata, the FRDR metadata.csv, data and licence files, and checksum.sha256 files. For more information, see the “[Preservation](after_depositing.md#preservation)” section in the After Depositing guide.
 
 In order to ensure all datasets submitted to FRDR are preserved where appropriate, FRDR has implemented an appraisal process to ensure long-term access is managed responsibly and sustainably. All datasets deposited with FRDR will be considered for long-term preservation. Please note that the repository appraisal process takes documentation and file format into account, and datasets lacking adequate documentation or stored in proprietary formats may not be selected for long-term preservation activities or may be reappraised in future. Datasets not selected for long-term preservation will continue to be accessible via FRDR as per the [Data Retention and Deaccession Policy](/policies/en/data_retention/) and [Terms of Use](/policies/en/terms_of_use/).
 

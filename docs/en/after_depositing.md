@@ -4,6 +4,7 @@
 All data deposited in FRDR will undergo review by a member of our curation team. Curators work with depositors to enhance the overall findability, accessibility, interoperability and reusability (or [FAIR](https://doi.org/10.1038/sdata.2016.18)ness) of their datasets. Our curation team uses the Data Curation Network's [CURATED](https://datacurationnetwork.org/outputs/workflows/) steps as a framework for reviewing new deposits.
 
 Submitters are expected to work with curators during the review process to:
+
 * Ensure there is appropriate documentation.
 * Edit metadata to correct typographical errors or to add additional helpful metadata such as keywords or a more thorough description. Curators may also provide advice regarding interpretation or usage of metadata fields and keywords.
 * Review and revise data files as needed to ensure that they can be understood and reused by other researchers. This may include providing open source, preservation-friendly alternatives to proprietary file formats where appropriate. 

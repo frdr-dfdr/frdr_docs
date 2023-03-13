@@ -11,7 +11,7 @@ Tout le monde peut utiliser le DFDR pour trouver et télécharger des ensembles 
 
 Les chercheur(-se)s principaux(-ales) [CP] de toutes les disciplines et leurs représentant(e)s désigné(e)s peuvent soumettre du contenu au DFDR. Les CP doivent être des membres du corps professoral, des bibliothécaires ou des chercheur(-se)s faisant partie de la communauté d’un établissement ou d’une organisation admissible au financement des trois organismes, y compris les organisations autochtones sans but lucratif admissibles au financement du Conseil de recherches en sciences humaines. Les CP peuvent désigner des représentant(e)s pour soumettre du contenu en leur nom, p. ex., étudiantes et étudiants de premier cycle et des cycles supérieurs, gestionnaires de données, personnel non associé à la recherche, collaborateur(-trice)s externes, titulaires de bourse postdoctorale et assistant(e)s à la recherche. Les demandes de dépôt de la part d’autres types de personnel de recherche canadien, notamment des chercheur(-se)s affilié(e)s au gouvernement ou à des organisations non gouvernementales, n’ayant pas été désigné pour représenter un(e) CP seront examinées au cas par cas.
 
-Pour en savoir plus, veuillez consulter la [Politique en matière de soumission de données](/frdr_policies/fr/soumission_données).
+Pour en savoir plus, veuillez consulter la [Politique en matière de soumission de données](/policies/fr/soumission_données).
 </details>
 
 <details markdown="1">
@@ -27,7 +27,7 @@ Le DFDR est soutenu financièrement par l’Alliance de recherche numérique du 
 ######3. Do I still own the data I deposit in FRDR?
 </summary>
 
-Oui. Le DFDR n’est pas propriétaire des données que vous y déposez. Lorsque vous déposez des données dans le DFDR, vous l’autorisez à assurer l’intendance des copies des données déposées dans le dépôt, tout en conservant vos droits de propriété. Pour en savoir plus, veuillez consulter la [section 6.0 Droits et propriété](/frdr_policies/fr/soumission_données/#60-droits-et-propriete) de notre Politique en matière de soumission des données.
+Oui. Le DFDR n’est pas propriétaire des données que vous y déposez. Lorsque vous déposez des données dans le DFDR, vous l’autorisez à assurer l’intendance des copies des données déposées dans le dépôt, tout en conservant vos droits de propriété. Pour en savoir plus, veuillez consulter la [section 6.0 Droits et propriété](/policies/fr/soumission_données/#60-droits-et-propriete) de notre Politique en matière de soumission des données.
 </details>
 
 <details markdown="1">
@@ -79,8 +79,6 @@ Le DFDR accepte les données sur des participant(e)s humain(e)s lorsque les perm
 À l’heure actuelle, le DFDR n’accepte pas les données à accès restreint. Toutes les données seront accessibles au public et devraient être adéquatement dépersonnalisées. Le DFDR exigera une copie de la demande d’évaluation de l’éthique approuvée, du formulaire de consentement, ou de tout autre document pertinent confirmant que les permissions ou approbations requises pour la publication ou le partage des données ont été obtenues.
 
 Pour savoir si un ensemble de données en particulier peut être publié, veuillez consulter le comité d’éthique de la recherche. En ce qui concerne les données déjà recueillies, les [lignes directrices des trois organismes pour verser des données existantes dans des dépôts publics](https://ethics.gc.ca/fra/depositing_depots.html) pourraient vous être utiles.
-
-If you have questions about whether a particular dataset may be published,  please consult the Research Ethics Board of record. For data which has already been collected, the [Tri-Agency Guidance on Depositing Existing Data in Public Repositories](https://ethics.gc.ca/eng/depositing_depots.html) may be helpful.
 </details>
 
 <details markdown="1">
@@ -176,7 +174,7 @@ Un code autodescriptif ou riche en commentaires s’avérera plus utile au fil d
 * Une liste des progiciels requis et des dépendances.
 * Des renseignements sur l’environnement dans lequel le code a été développé et peut être exécuté.
 
-Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code [ICI](/docs/txt/README-fr/txt).
+Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code [ICI](/docs/txt/README-fr.txt).
 </details>
 
 <details markdown="1">
@@ -300,11 +298,11 @@ Nous pouvons essayer d’exécuter le code et de signaler tout problème rencont
 
 Le DFDR assure la préservation au niveau des bits pour tous les dépôts de données, et permet la prise de mesures supplémentaires pour favoriser la préservation à long terme.
 
-Le DFDR utilise Archivematica afin de créer des paquets d’information archivés pour les ensembles de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « [Préservation](après_le_dépôt.md#préservation) » du guide Après le dépôt.
+Le DFDR utilise [Archivematica](https://www.archivematica.org/fr/Submitters are expected to work with curators during the ) afin de créer des paquets d’information archivés pour les ensembles de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « [Préservation](après_le_dépôt.md#preservation) » du guide Après le dépôt.
 
 Pour s’assurer que tous les ensembles de données soumis soient préservés comme il se doit, le DFDR a mis en place un processus d’évaluation pour garantir la gestion responsable et durable de l’accès à long terme. La préservation à long terme sera envisagée pour tous les ensembles de données déposés dans le DFDR. À noter que le processus d’évaluation du dépôt tient compte du format des documents et des fichiers, et les ensembles de données qui manquent de documents inadéquats ou qui sont dans un format exclusif pourraient être exclus des activités de préservation à long terme ou faire l’objet d’une réévaluation dans le futur. Les ensembles de données non sélectionnés pour la préservation à long terme demeureront accessibles dans le DFDR, conformément à la [Politique en matière de rétention et de suppression des données](/policies/fr/r%C3%A9tention_des_donn%C3%A9es/) et aux [Conditions d'utilisation](/policies/fr/conditions_d%27utilisation/).
 
-Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le cadre de la soumission en répondant à une question facultative concernant la valeur à long terme de leur ensemble de données. Pour en savoir plus, consultez les instructions de la section [Demander une préservation à long terme](déposer_les_données.md#demander-une-préservation-à-long-terme) du guide Déposer les données.
+Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le cadre de la soumission en répondant à une question facultative concernant la valeur à long terme de leur ensemble de données. Pour en savoir plus, consultez les instructions de la section [Demander une préservation à long terme](déposer_les_données.md#demander-une-preservation-a-long-terme) du guide Déposer les données.
 </details>
 
 ## Réutilisation des données
