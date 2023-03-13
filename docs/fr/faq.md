@@ -174,7 +174,7 @@ Un code autodescriptif ou riche en commentaires s’avérera plus utile au fil d
 * Une liste des progiciels requis et des dépendances.
 * Des renseignements sur l’environnement dans lequel le code a été développé et peut être exécuté.
 
-Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code [ICI](/docs/txt/README-fr.txt "download").
+Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code <a href="/docs/txt/README-fr.txt" download>ICI</a>.
 </details>
 
 <details markdown="1">

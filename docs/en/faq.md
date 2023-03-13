@@ -174,7 +174,7 @@ Code that is self-describing or well commented may remain more useful over time.
 * A list of required software packages and dependencies
 * Information about the environment in which the code was developed and/or can be run
 
-You may add this information to your README file, a requirements.txt file, and/or include it as header information or comments directly in your code files. We have a README template with a section for code available [HERE](/docs/txt/README.txt, "download").
+You may add this information to your README file, a requirements.txt file, and/or include it as header information or comments directly in your code files. We have a README template with a section for code available <a href="/docs/txt/README.txt" download>HERE</a>.
 </details>
 
 <details markdown="1">
