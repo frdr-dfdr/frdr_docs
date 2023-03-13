@@ -11,6 +11,7 @@ nav:
         - "Describing Your Data": en/describing_your_data.md
         - "Depositing Data": en/depositing_data.md
         - "After Depositing": en/after_depositing.md
+        - "Downloading Datasets": en/downloading.md
         - "Searching for Datasets": en/searching.md
         - "Advanced": en/advanced.md
         - "FAQ": en/faq.md
@@ -23,6 +24,7 @@ nav:
         - "Description de vos données": fr/description_de_vos_données.md
         - "Déposer les données": fr/déposer_les_données.md
         - "Après le dépôt": fr/après_le_dépôt.md
+        - "Téléchargement d’ensembles de données": fr/téléchargement.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Avancée": fr/avancee.md
         - "FAQ": fr/faq.md
@@ -34,7 +36,7 @@ extra_css:
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
     frdr_search_relative_url: /search
-    prefix: "/"
+    prefix: "/docs/"
     default_page_en: en/documentation/
     default_page_fr: fr/documentation/
     language_map:
@@ -46,6 +48,7 @@ extra:
             "Describing Your Data": fr/description_de_vos_données/
             "Depositing Data": fr/déposer_les_données/
             "After Depositing": fr/après_le_dépôt/
+            "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
             "FAIR Principles": fr/principes_fair/
             "Style Guide": fr/guide_de_style/
@@ -58,6 +61,7 @@ extra:
             "Description de vos données": en/describing_your_data/
             "Déposer les données": en/depositing_data/
             "Après le dépôt": en/after_depositing/
+            "Téléchargement d’ensembles de données": /en/downloading/
             "FAQ": en/faq/
             "Principes FAIR": en/fair_principles/
             "Guide de style": en/style_guide/
