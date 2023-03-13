@@ -1,4 +1,4 @@
-Vous trouverez ci-dessous des réponses aux questions les plus fréquentes, mais nous sommes toujours ravis de vous répondre directement. Si nous pouvons vous aider de quelque façon que ce soit, écrivez-nous à [[support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca)](mailto:[support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))!
+Vous trouverez ci-dessous des réponses aux questions les plus fréquentes, mais nous sommes toujours ravis de vous répondre directement. Si nous pouvons vous aider de quelque façon que ce soit, écrivez-nous à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca)!
 ## Questions générales
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>
