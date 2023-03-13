@@ -75,6 +75,7 @@ If you are worried that your data are not in compliance with our terms of use (e
 </summary>
 
 FRDR accepts data about human participants when the appropriate permissions or approvals for data publishing and sharing are in place, such as participant consent for future use of the data or Research Ethics Board approval for data sharing.
+
 FRDR does not currently accept restricted access data. All data will be publicly available and should be properly de-identified. FRDR will ask for a copy of the approved ethics application, consent form, or other relevant documentation to confirm the appropriate permissions or approvals for data publication and sharing are in place. 
 
 If you have questions about whether a particular dataset may be published,  please consult the Research Ethics Board of record. For data which has already been collected, the [Tri-Agency Guidance on Depositing Existing Data in Public Repositories](https://ethics.gc.ca/eng/depositing_depots.html) may be helpful.
@@ -324,6 +325,7 @@ It might be for a few reasons:
 </summary>
 
 Users can download a frdr-checksums-and-filetypes.md file from the FRDR interface for each dataset and independently validate data files at any time.
+
 There is a free tool to calculate SHA-256 checksums here: https://quickhash-gui.org/
 </details>
 

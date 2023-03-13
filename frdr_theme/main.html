@@ -338,10 +338,18 @@
             $(this).toggleClass('expanded');
             if($(this).hasClass('expanded')){
                 $(this).parent().nextUntil("h2").attr("open", true);
-                $(this).text('Collapse All');			
+                if (document.documentElement.lang == 'en'){
+                    $(this).text('Collapse All');
+                } else {
+                    $(this).text('Réduire tout');
+                }
             } else {
                 $(this).parent().nextUntil("h2").attr("open", false);
-                $(this).text('Expand All');
+                if (document.documentElement.lang == 'en'){
+                    $(this).text('Expand All');
+                } else {
+                    $(this).text('Développer tout');
+                }
             }
         });
     });
