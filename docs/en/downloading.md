@@ -1,4 +1,4 @@
-## Finding Datasets
+﻿## Finding Datasets
 If you do not have a direct link to a FRDR-hosted dataset you can browse through available datasets using the 
 [FRDR Discovery](https://www.frdr-dfdr.ca/repo/search).
 
@@ -36,7 +36,6 @@ The two videos below go through the steps to get a working Globus Transfer endpo
   <img class="video-placeholder" src="/docs/img/video_placeholders/en/install_globus.png" alt="Video preview: How to download and install Globus Connect Personal.">
 </a>
 </div>
-
 
 <div class="video-wrap">
 <a href="https://www.youtube.com/watch?v=PvmFxQyMPlQ&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&index=3&cc_lang_pref=en&cc_load_policy=1" target="_blank">
