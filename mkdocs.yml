@@ -41,7 +41,7 @@ extra:
     default_page_fr: fr/documentation/
     language_map:
         en:
-            "About": fr/notre_mission/
+            "Our mission": fr/notre_mission/
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
@@ -54,7 +54,7 @@ extra:
             "Style Guide": fr/guide_de_style/
             "Advanced": fr/avancee/
         fr:
-            "À propos": en/our_mission/
+            "Notre mission": en/our_mission/
             "Recherche de jeux de données": en/searching/
             "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
