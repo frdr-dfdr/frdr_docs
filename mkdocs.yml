@@ -42,6 +42,11 @@ extra:
     language_map:
         en:
             "Our mission": fr/notre_mission/
+            "Our feature": fr/nos_fonctionnalités/
+            "Our governance": fr/notre_gouvernance/
+            "Our team": fr/notre_équipe/
+            "Our partners": fr/nos_partenaires/
+            "Our journey": fr/notre_parcours/
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
@@ -55,6 +60,12 @@ extra:
             "Advanced": fr/avancee/
         fr:
             "Notre mission": en/our_mission/
+            "Nos fonctionnalités": en/our_features/
+            "Notre gouvernance": en/our_governance/
+            "Notre équipe": en/our_team/
+            "Nos partenaires": en/our_partners/
+            "Notre parcours": en/our_journey/
+
             "Recherche de jeux de données": en/searching/
             "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
