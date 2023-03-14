@@ -42,7 +42,7 @@ extra:
     language_map:
         en:
             "Our mission": fr/notre_mission/
-            "Our feature": fr/nos_fonctionnalités/
+            "Our features": fr/nos_fonctionnalités/
             "Our governance": fr/notre_gouvernance/
             "Our team": fr/notre_équipe/
             "Our partners": fr/nos_partenaires/
@@ -65,7 +65,6 @@ extra:
             "Notre équipe": en/our_team/
             "Nos partenaires": en/our_partners/
             "Notre parcours": en/our_journey/
-
             "Recherche de jeux de données": en/searching/
             "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
