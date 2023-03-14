@@ -356,6 +356,13 @@
                 }
             }
         });
+
+        // Have the question open if linking to specific question
+        if (window.location.hash != '') {
+            var questionId = window.location.hash;
+            $(questionId).parent().parent().attr("open", true);
+        }
+
     });
 </script>
 </html>
