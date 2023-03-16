@@ -16,7 +16,7 @@ hidesidebar: true
 * Mark Goodwin, responsable de produits – Lunaris, Alliance de recherche numérique du Canada
 * Lina Harper, agente de curation, Alliance de recherche numérique du Canada
 * Elizabeth Lartey, coordonnatrice de l’évaluation de la recherche et de l’intelligence, Alliance de recherche numérique du Canada
-* Neha Milan, directrice des opérations, Université de la Saskatchewan
+* Neha Milan, responsable de produits, Université de la Saskatchewan
 * Tamanna Moharana, agente de curation, Alliance de recherche numérique du Canada
 * Yvette Rancourt, responsable de la coordination de la préservation, Alliance de recherche numérique du Canada
 * Victoria Smith, coordonnatrice des politiques, de la confidentialité et des données sensibles, Alliance de recherche numérique du Canada

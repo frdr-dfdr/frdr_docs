@@ -16,7 +16,7 @@ hidesidebar: true
 * Mark Goodwin, Lunaris Product Lead, Digital Research Alliance of Canada
 * Lina Harper, Curation Officer, Digital Research Alliance of Canada
 * Elizabeth Lartey, Research Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
-* Neha Milan, Operations Lead, University of Saskatchewan
+* Neha Milan, Product Lead, University of Saskatchewan
 * Tamanna Moharana, Curation Officer, Digital Research Alliance of Canada
 * Yvette Rancourt, Preservation Coordinator, Digital Research Alliance of Canada
 * Victoria Smith, Policy, Privacy, and Sensitive Data Coordinator, Digital Research Alliance of Canada
