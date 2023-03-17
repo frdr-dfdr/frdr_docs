@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/static/css/boostrap-4.6.0/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="/static/css/frdr-theme.css" type="text/css"/>
         <link rel="stylesheet" href="{{ config.extra.prefix }}css/docs-theme.css" type="text/css"/>
+        <link rel="stylesheet" href="/static/fonts/latest/fontawesome-5.15.4/css/all.min.css" type="text/css" />
         <script type="text/javascript" src="/static/js/jquery/jquery-1.12.4.min.js"></script>
         <script type="text/javascript" src="/static/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="/static/js/boostrap-4.6.0/bootstrap.bundle.min.js"></script>
@@ -17,186 +18,288 @@
     </head>
     <body id="content">
         <a class="sr-only sr-only-focusable" href="#main-content">{% if '/en/' in page.canonical_url %}Skip Navigation{% else %}Sauter la navigation{% endif %}</a>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-xl">
-            <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="/static/images/logos/{% if '/en/' in page.canonical_url %}sitelogo_en.png{% else %}sitelogo_fr.png{% endif %}" style="max-height:44px" alt="FRDR-DFDR"/></span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <header id="header" class="header affix" aria-label="Site header" data-toggle="affix" data-once="affixed">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <a class="navbar-brand" href="{{config.extra.repo_url}}?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}"><span class="navbar-highlight"><img src="/static/images/logos/{% if '/en/' in page.canonical_url %}FRDR_acronym_english_reversed.svg{% else %}FRDR_acronym_french_reversed.svg{% endif %}"  id="brandlogo" alt="FRDR-DFDR"/></span></a>
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
 
-                <ul class="nav navbar-nav navbar-right">
+                    <div class="container navbar-up">
 
-                    <!-- Contact Us -->
-                    <li class="nav-item">
-                        <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez-nous{% endif %}</a>
-                    </li>
+                        <!-- Search bar on larger screen -->
+                        <form action="{{config.extra.repo_url}}{{config.extra.frdr_search_relative_url}}" method="get">
+                            <div class="input-group d-none d-lg-flex">
+                                <input type="hidden" name="lang" id="srch-lang" value="{% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">               
+                                <label for="srch-term" class="d-none"></label>
+                                <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des ensembles de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
+                                <span class="input-group-append">
+                                <button class="btn search-button" type="submit">
+                                    <span class="fas fa-search" aria-hidden="true"></span>
+                                </button>
+                                </span>
+                            </div>
+                        </form>
 
-                    <!-- Publish Dashboard  -->
-                    <li class="nav-item">
-                        <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
-                    </li>
-
-                    <!-- Account -->
-                    <li class="nav-item dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item"><a href="/repo/settings/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Settings{% else %}Paramètres{% endif %}</a></li>
-                            <li role="separator" class="dropdown-divider"></li>
-                            <li class="dropdown-item">
-                                <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <!-- Site Metrics -->
-                    <li class="nav-item">
-                        <a href="{% if '/en/' in page.canonical_url %}/stats/en{% else %}/stats/fr{% endif %}">{% if '/en/' in page.canonical_url %}Site Metrics{% else %}Métriques du site{% endif %}</a>
-                    </li>
-
-                    <!-- Help -->
-                    <li class="nav-item dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            {% if '/en/' in page.canonical_url %}Help{% else %}Aide{% endif %}
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                          {% if '/en/' in page.canonical_url %}
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/en/before_depositing/">Get An Account</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/en/documentation/">Documentation</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/policies/en/">Policies</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Video Tutorials</a></li>
-                          {% else %}
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/fr/avant_de_déposer/">Obtenez un compte</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/docs/fr/documentation/">Documentation</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="/policies/fr/">Politiques</a></li>
-                          <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Tutoriels vidéos</a></li>
-                          {% endif %}
-                        </ul>
-                    </li>
-
-                    <!-- About -->
-                    <li class="nav-item">
+                        <!-- Locale on larger screen -->
                         {% if '/en/' in page.canonical_url %}
-                            <a href="/docs/en/about/">About</a>
+                            <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" id="nav_switch_fr" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
                         {% else %}
-                            <a href="/docs/fr/à_propos/">À propos</a>
+                            <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" id="nav_switch_en" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
                         {% endif %}
-                    </li>
+                    </div>
+                    
+                    <ul class="nav navbar-nav">
+                        
+                        <!-- Search bar on smaller screen -->
+                        <li class="nav-item d-lg-none">
+                            <form action="{{config.extra.repo_url}}{{config.extra.frdr_search_relative_url}}" method="get">
+                                <div class="input-group">
+                                    <input type="hidden" name="lang" id="srch-lang" value="{% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">               
+                                    <label for="srch-term" class="d-none"></label>
+                                    <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des ensembles de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
+                                    <span class="input-group-append">
+                                    <button class="btn search-button" type="submit">
+                                        <span class="fas fa-search" aria-hidden="true"></span>
+                                    </button>
+                                    </span>
+                                </div>
+                            </form>                            
+                        </li>
 
-                    <!-- Locale -->
-                    <li class="nav-item dropdown">
-                        <a href="." class="dropdown-toggle" data-toggle="dropdown">
-                            {% if '/en/' in page.canonical_url %}EN{% else %}FR{% endif %}
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <!-- Locale on smaller screen -->
+                        <li class="nav-item d-lg-none">
                             {% if '/en/' in page.canonical_url %}
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
+                                <a class="btn alliance-btn-secondary lang-btn d-block mt-2 mb-2" id="nav_switch_fr" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
                             {% else %}
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}">English</a></li>
-                            <li class="dropdown-item"><a role="menuitem" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}">Français</a></li>
+                                <a class="btn alliance-btn-secondary lang-btn d-block mt-2 mb-2" id="nav_switch_en" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
                             {% endif %}
-                        </ul>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </nav>
-    <div class="container row">
-        {% if nav|length>1 and not page.meta.hidesidebar %}
-        <div class="col-md-3 frdr-sidebar">
-            <ul>
-            {% for nav_item in nav %}
-                {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
-                    {% for nav_item in nav_item.children %}
-                        <li class="{% if nav_item.active%}current{%endif%}">
-                            <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
-                            {% if nav_item.active %}
-                            <ul id="current">
-                                {% for toc_item in page.toc %}
-                                        <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                        {% for toc_item in toc_item.children %}
-                                            <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                            {% for toc_item in toc_item.children %}
-                                                <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                            {% endfor %}
-                                        {% endfor %}
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
                         </li>
-                    {% endfor %}
-                {% elif 'Fr' in nav_item.title and '/fr/' in page.canonical_url %}
-                    {% for nav_item in nav_item.children %}
-                        <li class="{% if nav_item.active%}current{%endif%}">
-                            <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
-                            {% if nav_item.active %}
-                            <ul>
-                                {% for toc_item in page.toc %}
+
+                        <!-- Publish Dashboard  -->
+                        <li class="nav-item">
+                            <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
+                        </li>
+
+                        <!-- Account -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="/repo/settings/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Settings{% else %}Paramètres{% endif %}</a></li>
+                                <li role="separator" class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+                                    <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Help -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                {% if '/en/' in page.canonical_url %}Help{% else %}Aide{% endif %}
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                            {% if '/en/' in page.canonical_url %}
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/en/before_depositing/">Get An Account</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/en/documentation/">Documentation</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/policies/en/">Policies</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Video Tutorials</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/repo/contactus">Contact Us</a></li>
+                            {% else %}
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/fr/avant_de_déposer/">Obtenez un compte</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/docs/fr/documentation/">Documentation</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/policies/fr/">Politiques</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Tutoriels vidéos</a></li>
+                            <li class="dropdown-item"><a role="menuitem" href="/repo/contactus?locale=fr">Contactez nous</a></li>
+                            {% endif %}
+                            </ul>
+                        </li>
+
+                        <!-- About -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                {% if '/en/' in page.canonical_url %}About {% else %}À propos{% endif %}
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                {% if '/en/' in page.canonical_url %}
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/our_mission">Our mission</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/our_features">Our features</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/our_governance">Our governance</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/our_team">Our team</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/our_partners">Our partners</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/en/our_journey">Our journey</a></li>
+                                {% else %}
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/notre_mission">Notre mission</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/nos_fonctionnalités">Nos fonctionnalités</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/notre_gouvernance">Notre gouvernance</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/notre_équipe">Notre équipe</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/nos_partenaires">Nos partenaires</a></li>
+                                <li class="dropdown-item"><a role="menuitem" href="/docs/fr/notre_parcours">Notre parcours</a></li>
+                                {% endif %}
+                            </ul>
+                        </li>
+
+                        <!-- Site Metrics -->
+                        <li class="nav-item">
+                            <a href="{% if '/en/' in page.canonical_url %}/stats/en{% else %}/stats/fr{% endif %}">{% if '/en/' in page.canonical_url %}Site Metrics{% else %}Métriques du site{% endif %}</a>
+                        </li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </header>
+
+        <div class="container row">
+            {% if nav|length>1 and not page.meta.hidesidebar %}
+            <div class="col-md-3 frdr-sidebar">
+                <ul>
+                {% for nav_item in nav %}
+                    {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
+                        {% for nav_item in nav_item.children %}
+                            <li class="{% if nav_item.active%}current{%endif%}">
+                                <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                {% if nav_item.active %}
+                                <ul id="current">
+                                    {% for toc_item in page.toc %}
                                         <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
                                         {% for toc_item in toc_item.children %}
+                                            {% if toc_item.level <= 3 %}
+                                                <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                {% for toc_item in toc_item.children %}
+                                                    {% if toc_item.level <= 3 %}
+                                                        <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                            </li>
+                        {% endfor %}
+                    {% elif 'Fr' in nav_item.title and '/fr/' in page.canonical_url %}
+                        {% for nav_item in nav_item.children %}
+                            <li class="{% if nav_item.active%}current{%endif%}">
+                                <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                {% if nav_item.active %}
+                                <ul id="current">
+                                    {% for toc_item in page.toc %}
                                             <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                        {% endfor %}
-                                {% endfor %}
-                            </ul>
-                            {% endif %}
-                        </li>
-                    {% endfor %}
-                {% endif %}
-                </li>
-            {% endfor %}
-            </ul>
-        </div>
-        {% else %}
-        <div class="col-md-3"></div>
-        {% endif %}
+                                            {% for toc_item in toc_item.children %}
+                                                {% if toc_item.level <= 3 %}
+                                                    <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                    {% for toc_item in toc_item.children %}
+                                                        {% if toc_item.level <= 3 %}
+                                                            <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                {% endif %}
+                                            {% endfor %}
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% else %}
+            <div class="col-md-3"></div>
+            {% endif %}
 
-    <div class="col-md-9">
-        <main id="main-content">
-            <h1>{{ page.title }}</h1>
-            {{ page.content }}
-        </main>
-    </div>
-    </div>
-
-    <div class="frdr-jumbo-footer">
-      <div class="container">
-        <div class="col-12">
-        <footer>
-          {% if '/en/' in page.canonical_url %}
-              <div>
-                  <a href="https://alliancecan.ca/" target="_blank">
-                      <img class="footer-alliance-logo" alt="Digital Research Alliance of Canada" src="/static/images/logos/alliance_logo.svg">
-                  </a>
-              </div>
-              <div>
-                  © 2017 - 2023 Digital Research Alliance of Canada
-              </div>
-              <div>
-                  Digital Research Alliance of Canada respects the privacy of individuals and will only collect, use, and disclose Personal Information in keeping with information access and privacy law.
-              </div>
-              <div>
-                  <a href="/policies/en/privacy/">Privacy Policy</a>
-              </div>
-          {% else %}
-              <div>
-                  <a href="https://alliancecan.ca/fr" target="_blank">
-                      <img class="footer-alliance-logo" alt="Alliance de recherche numérique du Canada" src="/static/images/logos/alliance_logo_french-first.svg">
-                  </a>
-              </div>
-              <div>
-                  © 2017 - 2023 Alliance de recherche numérique du Canada
-              </div>
-              <div>
-                  L’Alliance de recherche numérique du Canada respecte votre vie privée et ne recueillera, n’utilisera ni ne divulguera vos renseignements personnels que conformément aux lois sur l’accès à l’information et la protection des renseignements personnels.
-              </div>
-              <div>
-                  <a href="/policies/fr/confidentialité">Politique de confidentialité</a>
-              </div>
-          {% endif %}
-        </footer>
+        <div class="col-md-9">
+            <main id="main-content">
+                <h1>{{ page.title }}</h1>
+                {{ page.content }}
+            </main>
         </div>
-      </div>
-    </div>
+        </div>
+
+        <div class="site-footer">
+            <div class="container">
+                <div>
+                    <div class="d-flex flex-column flex-lg-row justify-content-between">
+                        <section class="region region-footer-first d-block text-center d-lg-flex justify-content-between mt-4 py-lg-2 flex-lg-fill">
+                            <h2 class="d-none">Footer First</h2>
+                            <nav aria-labelledby="block-site-theme-footer-menu" class="block flex-fill">
+                                <h2 id="block-site-theme-footer-menu" class="text-left">{% if '/en/' in page.canonical_url %}Quick Links{% else %}Liens rapides{% endif %}</h2>
+                                <div class="clearfix nav row justify-content-start">
+                                    <ul class="list-unstyled text-left">
+                                        {% if '/en/' in page.canonical_url %}
+                                            <li>
+                                                <a href="/docs/en/our_mission/">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="/repo/contactus">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="/policies/en/privacy/">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://groups.google.com/a/frdr-dfdr.ca/g/frdr-dfdr-info/about">Join our mailing list!</a>
+                                            </li>
+                                        {% else %}
+                                            <li>
+                                                <a href="/docs/fr/notre_mission/">À propos</a>
+                                            </li>
+                                            <li>
+                                                <a href="/repo/contactus?locale=fr">Contactez-nous</a>
+                                            </li>
+                                            <li>
+                                                <a href="/policies/fr/privacy/">Politique de confidentialité</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://groups.google.com/a/frdr-dfdr.ca/g/frdr-dfdr-info/about">FR Join our mailing list!</a>
+                                            </li>
+                                        {% endif %}
+                                    </ul>
+                                </div>
+                            </nav>
+                        </section>
+            
+                        <section class="region region-footer-second py-lg-2 justify-content-between mt-lg-4 text-center">
+                            <h2 class="d-none">Footer Second</h2>
+                            <div class="footer-logo-frame">
+                                <img src="/static/images/latest/logos/FRDR_logo_{% if '/en/' in page.canonical_url %}english{% else %}french{% endif %}-first_reversed.svg" alt="Federated Research Data Repository" class="footer-logo frdr-footer-logo">
+                            </div>
+                        </section>
+            
+                        <section class="region region-footer-third py-lg-2 justify-content-between mt-lg-5 text-center">
+                            <h2 class="d-none">Footer Third</h2>
+                            <div class="footer-logo-frame">
+                                <img src="/static/images/latest/logos/Alliance_logo_{% if '/en/' in page.canonical_url %}English{% else %}French{% endif %}-first_reversed.png" alt="Digital Research Alliance of Canada" class="footer-logo">
+                            </div>
+                            <div class="d-flex social-media-buttons justify-content-center">
+                                <div>
+                                    <a class="social-media-icon d-block d-lg-inline-flex justify-content-center align-items-center" href="https://www.linkedin.com/company/alliancecan/" target="_blank" aria-label="Open link in a new window/tab"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                                <div>
+                                    <a class="social-media-icon d-block d-lg-inline-flex justify-content-center align-items-center" href="https://twitter.com/Alliance_Can" target="_blank" aria-label="Open link in a new window/tab"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <section class="row region region-footer-fourth">
+                        <h2 class="d-none">Footer Fourth</h2>
+                        <div class="content mt-2 row">
+                            <a href="{% if '/en/' in page.canonical_url %}https://alliancecan.ca/en{% else %}https://alliancecan.ca/fr{% endif %}">
+                                <small class="d-block text-center">
+                                    © <script>document.write(new Date().getFullYear())</script>
+                                    {% if '/en/' in page.canonical_url %}Digital Research Alliance of Canada{% else %}Alliance de recherche numérique du Canada{% endif %}
+                                </small>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
 
     </body>
 <script>
@@ -233,6 +336,33 @@
                 alwaysShowClose: true
             });
         });
+
+        // Add button to expand/collapse all questions in section on FAQ page
+        $( ".expand-all-btn" ).click(function() {
+            $(this).toggleClass('expanded');
+            if($(this).hasClass('expanded')){
+                $(this).parent().nextUntil("h2").attr("open", true);
+                if (document.documentElement.lang == 'en'){
+                    $(this).text('Collapse All');
+                } else {
+                    $(this).text('Réduire tout');
+                }
+            } else {
+                $(this).parent().nextUntil("h2").attr("open", false);
+                if (document.documentElement.lang == 'en'){
+                    $(this).text('Expand All');
+                } else {
+                    $(this).text('Développer tout');
+                }
+            }
+        });
+
+        // Have the question open if linking to specific question
+        if (window.location.hash != '') {
+            var questionId = window.location.hash;
+            $(questionId).parent().parent().attr("open", true);
+        }
+
     });
 </script>
 </html>

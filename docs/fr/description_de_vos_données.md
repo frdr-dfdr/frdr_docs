@@ -28,7 +28,7 @@
  
 Les domaines de recherche sont organisés en groupes, qui sont subdivisés en classes. Pour trouver le ou les domaines de recherche applicables à votre ensemble de données, utilisez les menus déroulants pour le groupe, la classe et le domaine. Vous pouvez également parcourir la classification en français ou en anglais à l’aide de la documentation de Statistique Canada :
 
-* [Classification Canadienne de la Recherche et Développement (CCRD) 2020 version 1.0 - Domaine de recherche (DDR)](https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1278187)
+* [Classification Canadienne de la Recherche et Développement (CCRD) 2020 version 1.0 - Domaine de recherche (DDR)](https://www23.statcan.gc.ca/imdb/p3VD_f.pl?Function=getVD&TVD=1278187)
 * [Research and Development Classification (CRDC) 2020 Version 1.0 - Field of Research (FOR)](https://www23.statcan.gc.ca/imdb/p3VD_f.pl?Function=getVD&TVD=1278187)
  
 Sélectionnez autant de domaines que nécessaire pour décrire l’ensemble de données. Si votre domaine de recherche ne figure pas dans la liste, choisissez l’un des domaines portant la mention « non classé ailleurs ». 
@@ -70,15 +70,13 @@ Sélectionnez autant de domaines que nécessaire pour décrire l’ensemble de d
 
 **Droits** : Les utilisateurs qui soumettent un jeu de données pourront choisir les modalités de licence concernant l’utilisation de leurs données par d’autres. Les conditions de licence seront affichées sur la page de renvoi des jeux de données du DFDR. 
 
- 
-
 Les auteurs devront choisir une licence. Voici les options par défaut (recommandées) : 
+
 * [Creative Commons Universel (CC0 1.0) Transfert dans le domaine public](https://creativecommons.org/publicdomain/zero/1.0/deed.fr)
 * [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr)
 
- 
-
 Les licences suivantes peuvent également être sélectionnées en cliquant sur le bouton Plus : 
+
 * [Creative Commons Attribution – Partage dans les mêmes conditions 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
 * [Creative Commons Attribution – Pas d’utilisation commerciale 4.0 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.fr)
 * [Creative Commons Attribution – Pas d’utilisation commerciale – Partage dans les mêmes conditions 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)
