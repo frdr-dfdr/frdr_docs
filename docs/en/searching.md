@@ -17,9 +17,9 @@ Enter your search term (one or more words) into the search box and click the sea
 * **Diacritics and accented characters:** Diacritics and accented characters are distinguished from unaccented characters. For example, a search for “Quebec” will return different results than a search for “Québec”.
 
 * **Boolean:** Boolean terms (AND, OR, NOT) are case sensitive and can be used to join search terms. For example:
-  * lakes NOT rivers: This search returns results with the word “lakes” in any field but omits results that also include the word “rivers.
-  * lakes AND rivers: This search returns results with both the word “lakes” and the word “rivers” in any field.
-  * lakes OR rivers: This search returns results with either the word “lakes” or the word “rivers” in any field.
+    * lakes NOT rivers: This search returns results with the word “lakes” in any field but omits results that also include the word “rivers.
+    * lakes AND rivers: This search returns results with both the word “lakes” and the word “rivers” in any field.
+    * lakes OR rivers: This search returns results with either the word “lakes” or the word “rivers” in any field.
 
 * **Wildcards:** This can be used to replace any number of characters (*) or an individual character (?) in text-based fields. For example, this search retrieves results with words that start with “Canad” (such as “Canada” and “Canadian”): canad* . You can also specify the exact number of characters to be replaced, using one question mark per character. For example, this search returns results including the word “gray” or “grey”: gr?y
 
