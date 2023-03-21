@@ -3,8 +3,8 @@ Vous trouverez ci-dessous des réponses aux questions les plus fréquentes, mais
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ###### 1. Qui peut utiliser le DFDR?
 </summary>
 Tout le monde peut utiliser le DFDR pour trouver et télécharger des ensembles de données.
@@ -14,48 +14,48 @@ Les chercheur(-se)s principaux(-ales) [CP] de toutes les disciplines et leurs re
 Pour en savoir plus, veuillez consulter la [Politique en matière de soumission de données](/policies/fr/soumission_données).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Qui finance le DFDR?
 </summary>
 
 Le DFDR est soutenu financièrement par l’Alliance de recherche numérique du Canada, une organisation nationale sans but lucratif qui est financée par Innovation, Sciences et Développement économique Canada et dont le mandat consiste à soutenir les activités liées à l’infrastructure de recherche numérique à l’échelle nationale.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Do I still own the data I deposit in FRDR?
 </summary>
 
 Oui. Le DFDR n’est pas propriétaire des données que vous y déposez. Lorsque vous déposez des données dans le DFDR, vous l’autorisez à assurer l’intendance des copies des données déposées dans le dépôt, tout en conservant vos droits de propriété. Pour en savoir plus, veuillez consulter la [section 6.0 Droits et propriété](/policies/fr/soumission_données/#60-droits-et-propriete) de notre Politique en matière de soumission des données.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######4. Une fois que j’aurai soumis mon ensemble de données, quand pourra-t-il être consulté?
 </summary>
 
 Une fois que vous aurez soumis votre ensemble de données, il fera l’objet d’un examen interne, appelé « processus de curation », qui prend habituellement de deux à cinq jours ouvrables. Lorsque la publication de l’ensemble de données sera approuvée, votre identifiant d’objet numérique (DOI) sera enregistré auprès de DataCite et vos données seront indexées aux fins de découverte, sauf si vous avez choisi une période d’embargo pour en retarder la publication.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######5. Puis-je déposer des données dans le DFDR et demander qu’elles soient stockées dans ma province ou mon établissement?
 </summary>
 
 Oui. Le DFDR est conçu de façon à ce que l’endroit où sont stockées les données puisse être « fédéré ». Un établissement peut demander d’héberger un groupe de stockage qui sera ajouté au DFDR. Pour ce faire, il n’est pas nécessaire de lancer le DFDR; il suffit d’avoir un point de chute Globus. Si vous représentez un établissement et souhaitez faire une demande pour héberger un groupe de stockage, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######6. Est-ce que le DFDR assigne des DOI aux ensembles de données?
 </summary>
 
 Oui! Chaque ensemble de données déposé dans le DFDR reçoit un DOI unique qui pourra être utilisé pour citer les données et sera enregistré auprès de [DataCite](https://datacite.org/) une fois que l’ensemble de données sera publié.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######7. Puis-je obtenir un DOI avant que mon ensemble de données soit publié?
 </summary>
 
@@ -69,8 +69,8 @@ Votre DOI se trouve sous le titre de l’ensemble de données dans votre tableau
 Si vous avez des doutes quant à la conformité de vos données avec nos conditions d’utilisation (par exemple si vous redistribuez du contenu que vous avez obtenu auprès d’une source externe ou avez du contenu qui pourrait être sensible), veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). Nous vous aiderons à déterminer si le DOI peut être partagé avant la curation (notre processus d’examen interne) et la publication de votre ensemble de données.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######8. Puis-je partager des données recueillies auprès de participant(e)s humain(e)s? 
 </summary>
 
@@ -81,16 +81,16 @@ Le DFDR accepte les données sur des participant(e)s humain(e)s lorsque les perm
 Pour savoir si un ensemble de données en particulier peut être publié, veuillez consulter le comité d’éthique de la recherche. En ce qui concerne les données déjà recueillies, les [lignes directrices des trois organismes pour verser des données existantes dans des dépôts publics](https://ethics.gc.ca/fra/depositing_depots.html) pourraient vous être utiles.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######9. Puis-je créer une collection pour mon groupe de recherche?
 </summary>
 
 Le DFDR sera heureux de créer une collection pour votre groupe de recherche, votre laboratoire ou les données issues d’un programme de recherche particulier. Pour planifier une consultation, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######10. Existe-t-il un bac à sable ou un serveur de démonstration où je pourrais faire des essais?
 </summary>
 
@@ -105,16 +105,16 @@ Dans la mesure du possible, le site de démonstration sera tenu à jour avec la 
 
 ### Compte utilisateur
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Dois-je avoir un compte DFDR pour déposer des données?
 </summary>
 
 Vous devez créer un compte DFDR pour déposer des données. Pour [créer un compte](/repo/PublishDashboard?locale=fr), vous pouvez utiliser votre ID institutionnel, ID de la Fédération, ID ORCID ou ID Globus. La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et la personne du corps professoral qui parraine vos activités (s’il y a lieu). Cela nous permettra de vérifier votre admissibilité à faire un dépôt dans le DFDR. Pour en savoir plus, veuillez consulter la page [Avant de déposer](avant_de_déposer.md).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Pourquoi suis-je incapable d’ouvrir une session en utilisant mon compte ORCID?
 </summary>
 
@@ -129,8 +129,8 @@ Pour confirmer que c’est ce qui cause le problème, essayez de désactiver vot
 
 ### Processus de dépôt
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Comment puis-je lier mon ensemble de données à des produits de recherche connexes?
 </summary>
 
@@ -139,8 +139,8 @@ Vous pouvez relier votre ensemble de données du DFDR avec des publications, des
 Pour ajouter des liens vers des produits de recherche connexes après avoir soumis votre ensemble de données, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Le DFDR exige-t-il un fichier Lisez-moi ou d’autres documents?
 </summary>
 
@@ -149,8 +149,8 @@ Les documents fournissent un contexte pour vos données, de sorte que nous vous 
 Pour obtenir d’autres conseils ou voir un modèle de fichier Lisez-moi, consultez la section [Documentation de votre soumission](préparation_de_vos_données.md#documentation-de-votre-soumission). Notre équipe de curation se fait également un plaisir de vous aider à créer des documents pour votre ensemble de données. Si vous avez besoin d’aide, n’hésitez pas à nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Puis-je déposer mon code dans le DFDR?
 </summary>
 
@@ -161,8 +161,8 @@ Si vous souhaitez assigner un DOI à votre logiciel, le code peut être transfé
 Vous pouvez utiliser l’élément de métadonnées « Identifiants connexes » dans le DFDR pour relier votre ensemble de données à votre code, modèle, logiciel ou à d’autres produits de recherche à l’endroit où ils sont publiés. Pour savoir si vous devriez joindre un code ou un logiciel avec vos données dans le DFDR, n’hésitez pas à nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######4. Quels renseignements devrais-je joindre à mon code?
 </summary>
 
@@ -177,8 +177,8 @@ Un code autodescriptif ou riche en commentaires s’avérera plus utile au fil d
 Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code <a href="/docs/txt/README-fr.txt" download>ICI</a>.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######5. Comment puis-je ajouter des collègues comme personnes collaborant à mon ensemble de données?
 </summary>
 
@@ -189,8 +189,8 @@ Votre collègue recevra une invitation par courriel. Une fois que l’invitation
 Remarque : Les collaborateur(-trice)s doivent avoir un compte DFDR. Si vous souhaitez partager des données avec des rédacteur(-trice)s de revues scientifiques, des collègues à l’étranger ou des personnes qui ne peuvent pas créer un compte DFDR, vous devrez utiliser l’option « Examen externe ». Les examinateur(-trice)s externes auront la permission de consulter les fichiers de données et un sous-ensemble de vos métadonnées, mais ne pourront pas les modifier.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######6. Puis-je partager des données à accès restreint dans le DFDR?
 </summary>
 
@@ -199,8 +199,8 @@ Le DFDR permet d’établir des périodes d’embargo temporaires pour éviter q
 Pour en savoir plus, veuillez consulter nos [Conditions d’utilisation](/policies/fr/conditions_d%27utilisation/), en particulier la section 3.0, qui porte sur les responsabilités des déposant(e)s.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######7. Comment puis-je modifier mes (méta)données après ma soumission?
 </summary>
 
@@ -209,16 +209,16 @@ Une fois que votre ensemble de données est publié, il fait partie de la docume
 
 ### Quota d’utilisation
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Combien d’espace de stockage ai-je par défaut?
 </summary>
 
 Par défaut, vous aurez accès à 1 To d’espace de stockage de données ayant fait l’objet d’une curation. Si vous prévoyez avoir besoin d’espace de stockage supplémentaire, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Qu’arrive-t-il lorsque j’atteins ma limite d’espace de stockage?
 </summary>
 
@@ -230,8 +230,8 @@ Si vous atteignez votre quota pour une collection, voici ce qui se passera :
 * Il est possible que l’équipe de curation et vous receviez un courriel (conformément à la politique relative aux quotas) qui vous expliquera que vous avez atteint votre quota et indiquera le volume total du quota qu’il reste pour la collection.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Comment puis-je demander plus d’espace de stockage?
 </summary>
 
@@ -240,8 +240,8 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
 
 ### Globus
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Comment puis-je configurer Globus pour le transfert de données?
 </summary>
 
@@ -260,8 +260,8 @@ Pour configurer Globus :
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Qu’est-ce que la curation de données?
 </summary>
 
@@ -279,8 +279,8 @@ Un membre de l’équipe de curation du DFDR examinera votre ensemble de donnée
 Pour en savoir plus, veuillez consulter notre guide sur la [préparation de vos données](préparation_de_vos_données.md) pour le dépôt. Si vous avez des questions sur le processus de curation ou aimeriez consulter un membre de l’équipe de curation avant de déposer des données, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Est-ce que le DFDR examine les codes?
 </summary>
 
@@ -289,8 +289,8 @@ L’équipe de curation du DFDR examinera le code et les scripts liés à vos do
 Nous pouvons essayer d’exécuter le code et de signaler tout problème rencontré (p. ex., une dépendance non signalée qui a été installée dans l’environnement de développement, de sorte que le code ne peut être exécuté sur un autre appareil). L’équipe de curation peut suggérer d’ajouter des commentaires, des renseignements sur la licence ou d’autres éléments contextuels pour aider à garantir l’utilité du code au fil du temps. Si une partie de votre code a été écrit par une source tierce, nous pouvons vérifier pour confirmer que la licence sélectionnée pour le code déposé dans le DFDR n’est pas plus permissive que celle assignée au code source.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Le DFDR assure-t-il la préservation à long terme?
 </summary>
 
@@ -307,8 +307,8 @@ Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le 
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Pourquoi suis-je incapable de télécharger un fichier à partir de mon navigateur Web (par HTTP)?
 </summary>
 
@@ -318,8 +318,8 @@ Plusieurs raisons peuvent expliquer ce problème :
 * Notre limite pour les téléchargements par HTTP est de 10 Go. Veuillez utiliser Globus pour transférer les fichiers de plus de 10 Go sur votre terminal (appareil local, disque dur externe, serveur, etc.). 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Quels outils puis-je utiliser pour calculer la somme de contrôle?
 </summary>
 
@@ -328,24 +328,24 @@ Les utilisateur(-trice)s peuvent télécharger le fichier « frdr-checksums-and-
 Voici un outil gratuit pour calculer les sommes de contrôle SHA-256 : https://quickhash-gui.org/.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Les ensembles de données du DFDR sont-ils indexés aux fins de découverte internationale?
 </summary>
 
 Les ensembles de données du DFDR sont indexés aux fins de découverte dans [Lunaris](https://www.lunaris.ca/fr), [Dataset Search de Google](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest et d’autres plateformes. Les métadonnées du DFDR sont également rendues disponibles aux fins de moissonnage (et de découverte) sur un fil OAI-PMH, de sorte que les données sont repérables à partir d’autres plateformes.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######4. Puis-je encore utiliser le DFDR pour découvrir des données de recherche canadiennes?
 </summary>
 
 Vous pouvez chercher les ensembles de données publiés dans le DFDR en utilisant l’interface de recherche du DFDR. Pour effectuer une recherche dans les dépôts de données canadiens, y compris pour trouver les ensembles de données publiés dans le DFDR, rendez-vous sur le site Web de Lunaris à l’adresse suivante : https://www.lunaris.ca/fr
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######5. Puis-je réutiliser ou redistribuer les données contenues dans le DFDR?
 </summary>
 
@@ -356,8 +356,8 @@ Vous pouvez télécharger et utiliser des données du DFDR, mais certaines restr
 Pour en savoir plus, veuillez consulter notre [Politique en matière d’accès et de réutilisation](/policies/fr/acc%C3%A8s_r%C3%A9utilisation/). Pour toute question sur les conditions associées à un ensemble de données en particulier, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) en prenant soin d’indiquer le DOI de l’ensemble de données.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######6. Comment dois-je citer les données du DFDR?
 </summary>
 Le format de citation recommandé est indiqué au bas de la page d’accueil de chaque ensemble de données. Nous vous recommandons d’inclure dans votre citation le nom des auteur(-trice)s, le titre de l’ensemble de données, l’année de publication, le nom du dépôt et le DOI de l’ensemble de données. Vous pouvez aussi indiquer le numéro de version de l’ensemble de données que vous avez utilisé s’il existe plusieurs versions ainsi que la date où vous avez consulté l’ensemble de données. Exemple :
@@ -365,8 +365,8 @@ Le format de citation recommandé est indiqué au bas de la page d’accueil de 
 Auteur AA, auteur B, auteur C (2023). Titre de l’ensemble de données. Version 1. Dépôt fédéré de données de recherche. https://doi.org/10.20383/102.0NNN. Consulté le 4 février 2023.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######7. Comment puis-je mesurer les retombées de mon ensemble de données?
 </summary>
 Il existe différentes statistiques sur les données soumises dans le DFDR, y compris le nombre de consultations et le nombre de fichiers téléchargés. Pour consulter ces statistiques, rendez-vous sur la page d’accueil de l’ensemble de données, puis cliquez sur le bouton « Voir les statistiques » au bas de la page.
