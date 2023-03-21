@@ -1,204 +1,80 @@
-Le DFDR offre une fonction puissante pour la recherche de données de recherche canadiennes. Cet outil fédéré de recherche regroupe des métadonnées provenant de nombreux dépôts, notamment des jeux de données déposés dans la plateforme de dépôt du DFDR. La liste complète des dépôts indexés par le DFDR est disponible ici : [Liste des dépôts du FRDR-DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr).
+La version remodelée du service de découverte du DFDR ne sera pas accessible depuis le site Web du DFDR, mais sera plutôt lancée sur une plateforme indépendante, Lunaris, le 29 mars 2023. [Lunaris](https://www.lunaris.ca/fr) regroupe les métadonnées provenant de plus d’une centaine de dépôts, y compris les ensembles de données déposés dans la plateforme de dépôt du DFDR, et est assorti d’une puissante fonction de découverte des données de recherche canadiennes qui mise à la fois sur la recherche textuelle et sur la recherche cartographique.
 
-# Conseils pour la recherche
+Vous pouvez également rechercher les données déposées dans le DFDR en utilisant notre fonction de recherche interne, dont vous trouverez la description ci-dessous.
 
-* Afin d’améliorer la recherche, tous les mots de votre terme de recherche subiront un traitement de « racinisation ». Cela signifie en général que différentes formes d’un même mot racine donneront les mêmes résultats : par exemple, le singulier et le pluriel (« arbre » et « arbres ») et différentes formes de verbes (« courons » et « courir »). L’algorithme de racinisation n’inclut pas toujours les mots irréguliers. La racinisation est uniquement appliquée au titre, à la description, au mot-clé et au sujet.
-* La recherche distingue les caractères accentués des caractères non accentués. Par exemple, une recherche pour « Quebec » donnera des résultats différents de ceux d’une recherche pour « Québec ».
-* Les opérateurs booléens (AND, OR, NOT) sont sensibles à la casse.
+## Méthodes de recherche
 
-# Méthodes de recherche
+### 1. Recherche de base
 
-## 1. Recherche de base
+Tapez votre terme de recherche (un ou plusieurs mots) dans la zone de recherche, puis cliquez sur le bouton de recherche ou appuyez sur la touche Entrée. Les résultats de la recherche afficheront tous les ensembles de données qui correspondent à l’un des mots dans tous les domaines.
 
-Entrez votre terme de recherche (un mot ou plus) dans la boîte de recherche, puis cliquez sur le bouton de recherche (loupe) ou utilisez la touche Entrer pour soumettre. Les résultats de la recherche afficheront les jeux de données qui correspondent à l’un des mots dans n’importe quel domaine.
+#### Conseils
 
-## 2. Syntaxe de la requête de recherche
+* **Racinisation :** Pour améliorer la recherche, tous les mots du terme subiront un traitement de « racinisation ». De façon générale, cela signifie que différentes formes d’un mot ayant la même racine donneront les mêmes résultats. Exemples : les mots au singulier et au pluriel (« arbre » et « arbres »), les différentes formes d’un verbe (« courir » et « cours »). L’algorithme de racinisation n’inclut pas toujours les mots irréguliers. La racinisation ne s’applique qu’au titre, à la description, aux mots-clés et au sujet.
+* **Phrase exacte :** Pour trouver les ensembles de données comportant une phrase exacte, utilisez des guillemets. Exemple : « profil du recensement ».
+* **Caractères accentués :** Les caractères accentués sont différents des caractères non accentués. Exemple : les mots « Quebec » et « Québec » ne donneront pas les mêmes résultats de recherche.
+* **Opérateurs booléens :** Les opérateurs booléens (AND, OR et NOT) sont sensibles à la casse et peuvent être utilisés pour relier des termes de recherche. Exemples :
+    * lacs NOT rivières : Cette recherche permet d’obtenir les résultats contenant le mot « lacs » dans tous les domaines, mais en omettant les résultats qui contiennent aussi le mot « rivières ».
+    * lacs AND rivières : Cette recherche permet d’obtenir les résultats contenant à la fois le mot « lacs » et le mot « rivières » dans tous les domaines.
+    * lacs OR rivières : Cette recherche permet d’obtenir les résultats contenant le mot « lacs » ou le mot « rivières » dans tous les domaines.
+* **Caractères de remplacement :** Les caractères de remplacement peuvent être utilisés pour remplacer un certain nombre de caractères (*) ou un caractère précis (?) dans les zones de saisie de texte. Par exemple, la recherche suivante permet d’obtenir des résultats contenant des mots commençant par « Canad » (comme « Canada » et « canadien ») : canad*. Il est également possible de préciser le nombre exact de caractères à remplacer en utilisant un point d’interrogation plutôt qu’un caractère. Par exemple, la recherche suivante permet d’obtenir des résultats comprenant le mot « booléen » ou « boolien » : bool?en.
+* **Flou :** Un certain flou est déjà obtenu grâce à la racinisation appliquée aux zones ayant du contenu textuel, comme le titre, la description et les mots-clés. Par exemple, la racinisation signifie que les termes « économique » et « économie » sont traités comme des mots équivalents.
 
-Vous pouvez préciser des recherches plus complexes en utilisant un sous-ensemble de la syntaxe de la chaîne de requête ElasticSearch dans la boîte de recherche de base. La syntaxe est puissante, mais rigide.
+### 2. Recherche avancée
 
-### Préciser les noms de champ
+La fonction de recherche avancée offre un puissant outil qui permet d’effectuer des requêtes complexes et détaillées. Il est possible d’effectuer une recherche selon différents champs de métadonnées : Titre, Auteur, Description, Mot-clé, Collection, Date de publication, État de l’embargo, Affiliation de l’auteur, Bailleur de fonds, Domaine de recherche, Nom de l’emplacement, DOI et Droits.
 
-Vous pouvez préciser les champs à rechercher dans la syntaxe de la requête.
+REMARQUE : Si plusieurs valeurs sont sélectionnées dans le même champ, seuls les résultats comprenant toutes les valeurs sélectionnées s’afficheront (comme si l’opérateur booléen AND avait été utilisé). Si vous souhaitez afficher les résultats de recherche pour plusieurs auteur(e)s, c.-à-d. afficher les ensembles de données comprenant soit l’auteur(e) A, soit l’auteur(e) B, nous vous recommandons d’utiliser le filtre « Auteur » sous les options au lieu d’effectuer une recherche avancée.
 
-Cette recherche relève des jeux de données dont le titre contient le mot « forest » ou le mot « trees » :
+### 3. Filtres de recherche
 
-* title : (forest trees)
+Au-dessus des filtres disponibles, la zone « Détails de la recherche » affiche votre recherche courante, y compris les opérateurs boléens. Si vous cliquez sur le bouton « Réinitialiser », tous vos critères de recherche existants seront supprimés.
 
-Les champs suivants sont inclus dans le schéma de métadonnées et peuvent être recherchés en utilisant le nom de champ dans la syntaxe de recherche indiquée. Ces noms de champ sont sensibles à la casse.
+Les filtres suivants peuvent être utilisés pour préciser vos résultats de recherche :
 
-Field name         | Query syntax field name      | Notes[CO1]
--------------------|------------------------------|----------------------------------------------
-ACCESS             | frdr_access                  |
-AUTHOR             | author                       | dc_contributor_author peut aussi être utilisé
-AUTHOR_AFFILIATION | datacite_creatorAffiliation  |
-CONTRIBUTOR        | dc_contributor               |
-SOURCE             | frdr_origin_id               |
-DESCRIPTION_EN     | dc_description_en            | description peut aussi être utilisé
-DESCRIPTION_FR     | dc_description_fr            | description peut aussi être utilisé
-ITEM_URL           | item_url                     |
-KEYWORD_EN         | frdr_keyword_en              | keyword peut aussi être utilisé
-KEYWORD_FR         | frdr_keyword_fr              | keyword peut aussi être utilisé
-PUBLISHER          | dc_publisher                 |
-RIGHTS             | dc_rights                    |
-SERIES             | frdr_series                  |
-DATE               | date                         | dc_date peut aussi être utilisé
-SUBJECT_EN         | frdr_subject_en              |
-SUBJECT_FR         | frdr_subject_fr              |
-TITLE_EN           | dc_title_en                  | title peut aussi être utilisé
-TITLE_FR           | dc_title_fr                  | title peut aussi être utilisé
-TYPE               | datacite_resourceTypeGeneral | Ceci a toujours la veleur « Dataset ».
-DATE_COLLECTED     | datacite_#dateCollected      | Pour les jeux de données déposés directement dans le DFDR uniquement
-GEOLOCATION_PLACE  | datacite_geolocationPlace    |
-GEOLOCATION_BOX    | datacite_geolocationBox      |
-GEOLOCATION_POINT  | datacite_geolocationPoint    |
-
-### Créer des termes de recherche
-
-Lorsqu’un seul terme comprend plusieurs mots (entre parenthèses), il est traité comme l’opérateur booléen « OR ». Ces deux recherches sont équivalentes et renvoient des jeux de données dont le titre comprend le mot « city » ou le mot « urban » :
-
-* title : (urban city)
-* title : (urban OR city)
-
-Afin de trouver les correspondances pour tous les mots d’un même terme — dans n’importe quel ordre — utilisez l’opérateur booléen « AND » :
-
-* title : (canada AND census)
-
-Pour trouver les jeux de données dont le titre contient une expression exacte, utilisez les guillemets :
-
-* title : ( “census profile”)
-
-### Combiner des termes de recherche avec des opérateurs booléens
-
-En plus d’utiliser les opérateurs booléens dans un terme de recherche, vous pouvez utiliser AND, OR, et NOT pour jumeler plusieurs termes de recherche.
-
-Par exemple, cette recherche permet de trouver les jeux de données avec « Ontario » dans les champs du titre ou de l’auteur :
-
-* title : (ontario) OR auteur : (ontario)
-
-Cette recherche donne les résultats contenant le mot « lacs » dans tous les champs qui ne contiennent pas le mot « rivières » :
-
-* lacs NOT rivières
-
-### Métacaractères
-
-Les métacaractères peuvent être utilisés pour remplacer un nombre quelconque de caractères (*) ou un caractère individuel (?) dans les champs textuels.
-
-Par exemple, cette recherche permet d’obtenir des résultats contenant des mots commençant par « Canad » (tels que « Canada » et « Canadien ») :
-
-* canad*
-
-Vous pouvez également spécifier le nombre exact de caractères à remplacer en utilisant un point d’interrogation par caractère. Par exemple, cette recherche renvoie des résultats comprenant le mot « booléen » ou « boolien » :
-
-* bool?en
-
-### Flou
-
-Un certain flou est déjà obtenu grâce à la racinisation appliquée aux champs à contenu textuel, tels que le titre, la description et les mots-clés. Par exemple, la racinisation signifie que les termes « économique » et « économie » sont traités comme équivalents. Vous pouvez augmenter le flou pour trouver des mots apparentés en utilisant un tilde, par exemple :
-
-* (économ~)
-
-En plus de renvoyer les résultats avec « économique » et « économie », cela renvoie également les résultats pour « économistes », « économiquement » et autres mots connexes.
-
-### Intervalles
-
-Vous pouvez préciser un intervalle numérique pour le champ de la date en utilisant des crochets.
-
-Par exemple, cette recherche permet de retrouver des jeux de données publiés entre le 1er janvier 2020 et le 31 mars 2020 (inclusivement) :
-
-* date : [2020-01-01 TO 2020-03-31]
-
-Lors de la recherche de dates, notez que les dates AAAA-MM représenteront le premier du mois, et les dates AAAA représenteront le 1er janvier de cette année. Par exemple :
-
-* date : [2020-01 TO 2020-04] cherche du 1er janvier 2020 au 1er avril 2020 inclusivement.
-* date : [2019-12 TO 2020] cherche du 1er décembre 2019 au 1er janvier 2020 inclusivement.
-* date : [2018 TO *]cherche du 1er janvier 2018 à aujourd’hui.
-* date : [* TO 1999-12-31] cherche les jeux de données publiés avant l’an 2000.
-
-Pour plus d’informations sur la syntaxe de requête, consultez la documentation d’ElasticSearch. Voici certaines exceptions à la syntaxe de la chaîne de requête ElasticSearch dans la mise en œuvre du DFDR :
-
-* Les métacaractères dans le champ noms ne sont pas pris en charge.
-* L’utilisation d’« expressions régulières » n’est pas prise en charge.
-* Les champs spéciaux _exists_ : et _missing_ : ne sont pas pris en charge.
-
-## 3. Interface de recherche avancée
-L’interface de [recherche avancée](https://www.frdr-dfdr.ca/discover/html/adv-search.html?lang=fr) prend en charge les fonctionnalités suivantes :
-
-* restreindre les résultats à un dépôt source précis ;
-* chercher dans un champ particulier (Author, Date, Description, Keyword, Title) ;
-* construire des requêtes booléennes en utilisant AND, OR et NOT (les opérateurs sont sensibles à la casse) ;
-* préciser « Tous ces mots », « Un de ces mots » ou « Cette expression exacte » pour chaque terme de recherche.
-
-L’interface de recherche avancée fournit une interface graphique permettant de générer des requêtes sélectionnées en utilisant la syntaxe de requête de recherche décrite précédemment.
-
-## 4. Recherche par carte
-La [recherche cartographique](https://geo.frdr-dfdr.ca/fr) du DFDR est un outil de découverte à code source ouvert alimenté par [Geodisy](https://github.com/ubc-library/geodisy) qui permet aux utilisateurs de trouver des données à l’aide d’une carte interactive. La recherche cartographique comprend seulement des ensembles de données provenant de [dépôts indexés par le DFDR](https://www.frdr-dfdr.ca/discover/html/repository-list.html?lang=fr) qui contiennent de l’information géospatiale. Les données sont repérables en fonction de leur emplacement, qui est déterminé à partir de métadonnées de boîtes limitatives, de métadonnées de noms de lieux ou de fichiers géospatiaux. Lorsqu’ils sont disponibles, les fichiers géospatiaux individuels sont prévisualisés sur les pages d’enregistrement sous forme de superpositions visuelles. Les fichiers géospatiaux peuvent être téléchargés directement et les métadonnées ISO 19139 sont disponibles pour tous les enregistrements.
-
-# Résultats de recherche
-
-Sur la page de résultats de la recherche, chaque jeu de données correspondant découvert est indiqué par :
-
-* Le **titre du jeu de données**, qui est également un lien vers la « page de renvoi » du jeu de données.
-* Le **nom et le logo du dépôt** dans lequel ce jeu de données est conservé. Le DFDR recueille des informations sur les jeux de données (enregistrements de métadonnées) qui se trouvent dans un certain nombre de dépôts de données de recherche canadiens. Le logo est également un lien qui mène à la page de renvoi de ce dépôt.
-* Les **auteurs** du jeu de données.
-* La **date** de publication du jeu de données.
-
-Cliquez sur le bouton « Show Details » [afficher les détails] pour agrandir les métadonnées affichées pour le jeu de données.
-
-Il y a deux types de résultats de recherche :
-
-* Les jeux de données déposés directement dans la plateforme de dépôt du DFDR
-* Les jeux de données moissonnés par le DFDR qui sont hébergés par des dépôts externes
-
-## Pages de renvoi
-
-Cliquez sur le nom du jeu de données pour accéder à la page de renvoi de ce jeu de données.
-
-### Jeux de données moissonnés par le DFDR
-
-Pour un jeu de données qui repose dans un dépôt externe, cliquez sur le nom du jeu de données pour accéder à cet autre dépôt où les règles et les autorisations d’accès ne sont plus contrôlées par le DFDR.
-
-La page de renvoi varie selon les dépôts, mais comprend généralement :
-
-* de l’information sur la licence en vertu de laquelle le jeu de données peut être utilisé ;
-* de l’information sur la façon de citer le jeu de données ;
-* tous les identifiants permanents du jeu de données, tels que des DOI ;
-* de l’information sur la manière d’accéder aux fichiers de données affichables ou téléchargeables.
-
-### Jeux de données déposés dans le DFDR
-
-Les jeux de données déposés directement dans le DFDR peuvent contenir beaucoup plus de métadonnées que ce qui est affiché initialement. Pour accéder à l’enregistrement complet des métadonnées, cliquez sur « Show full record » [afficher enregistrement complet] au bas de la page de renvoi du DFDR.
-
-Pour accéder aux fichiers de données directement déposés dans le DFDR, consultez la section de la page de renvoi du jeu de données intitulée « Files in Dataset » [fichiers dans le jeu de données]. Vous pouvez consulter les fichiers et dossiers de premier niveau, ainsi qu’agrandir les dossiers à l’aide de l’icône « + ». Certains fichiers peuvent être consultés ou prévisualisés à l’aide d’un navigateur web selon les capacités et les paramètres du navigateur. S’il y a plusieurs fichiers dans un dossier, la liste des fichiers sera tronquée. Globus Connect est nécessaire pour visualiser la liste complète et télécharger tous les contenus. Les fichiers plus petits peuvent être téléchargés directement à partir de la page de renvoi des données en utilisant votre navigateur. Toutefois, les fichiers très volumineux (plus de 10 Go) ne peuvent être téléchargés qu’à l’aide de Globus Connect. Les jeux de données comportant de nombreux fichiers ou une grande structure de dossiers doivent être téléchargés à l’aide de Globus Connect plutôt que de télécharger les fichiers un par un. Pour obtenir de l’aide pour l’installation et la configuration de Globus Connect, consultez la vidéo [Get started with FRDR : Download and Install Globus Connect Personal](https://www.youtube.com/watch?v=NJYTl3yhRl4&feature=youtu.be) ou communiquez à support@frdr-dfdr.ca.
-
-## Filtrer
-
-Vous pouvez filtrer et affiner les résultats par :
-
-* Intervalle de dates
+* Collection
+* Date de publication
 * Auteur
-* Dépôt source
+* Mot-clé
+* État de l’embargo
 
-### Intervalle de dates
+Seules les 10 premières options de chaque filtre s’afficheront. Vous pouvez utiliser le bouton « Suivant » pour afficher les 10 options suivantes, ou effectuer une recherche dans le filtre pour préciser les résultats. Pour sélectionner une valeur dans le filtre, cliquez sur celle-ci ou cochez la case adjacente. Les options sélectionnées s’afficheront dans la partie supérieure du filtre. Vous pouvez recliquer sur le nom ou décocher la case pour désélectionner une option, ou cliquer sur le bouton « Effacer tout » pour supprimer toutes les options sélectionnées.
 
-Il y a deux façons d’activer le filtre de l’intervalle de dates :
+Si vous avez sélectionné deux options dans un filtre (p. ex., les mots-clés « prairie » et « agriculture », vos résultats afficheront tous les ensembles de données qui contiennent le mot « prairie » OU le mot « agriculture » dans les mots-clés.
 
-* Choisir l’intervalle de dates sur la visualisation ;
-* Saisir l’année de début et l’année de fin dans les boîtes textuelles.
+**Collection, Auteur et Mot-clé**
 
-Après avoir indiqué l’intervalle de dates, cliquez sur « Apply filter » [appliquer filtre]. Les dates incluront l’année entière (par exemple, 2018 à 2020 inclura du 1er janvier 2018 au 31 décembre 2020).
+Sélectionner des valeurs dans chaque filtre pour afficher les résultats qui y correspondent. Si vous sélectionnez plusieurs valeurs dans le même filtre, les résultats qui s’afficheront comprendront n’importe quelle des valeurs sélectionnées (comme si l’opérateur booléen OU avait été utilisé). Si vous sélectionnez une valeur dans plusieurs filtres, les résultats qui s’afficheront comprendront au moins une des valeurs sélectionnées dans chaque filtre. Par exemple, si vous sélectionnez « Mathématiques » et « Canada » dans le filtre Mot-clé ainsi que Pierre Untel et Marie Untel dans le filtre Auteur, vous obtiendrez la recherche détaillée suivante : (Mathématiques OR Canada) AND (Pierre Untel OR Marie Untel).
 
-Les deux méthodes préciseront un intervalle de dates pour l’année. Pour des intervalles de dates plus précis comprenant des mois et des jours, utilisez la syntaxe de recherche pour les intervalles.
+Par défaut, les valeurs dans les filtres Auteur, Mot-clé et Collection sont triées selon le nombre de résultats (ordre décroissant). Au-dessus des filtres Auteur et Mot-clé, vous trouverez une barre de recherche pouvant être utilisée pour rechercher les valeurs de ce filtre. Les capacités de recherche textuelle de ces filtres ne sont pas sensibles à la casse.
 
-### Auteur et dépôt source
+**Date de publication**
 
-Choisissez des valeurs dans le filtre pour inclure des résultats avec cette valeur. La sélection de plus d’une valeur dans le même filtre inclura les résultats avec toutes les valeurs sélectionnées.
+Pour utiliser le filtre de date de publication, il faut indiquer une période. Pour ce faire, cliquez dans chacune des zones de date, puis choisissez une date dans le calendrier ou saisissez une date manuellement (en format aaaa-mm-jj). Une fois que vous avez indiqué la date de début et la date de fin de la période désirée, cliquez sur « Appliquer ».
 
-Par défaut, les valeurs dans le filtre « auteur » et « dépôt source » sont triées par le nombre de résultats (en ordre décroissant). Cliquez sur « Load More » [charger plus] pour afficher des résultats supplémentaires.
+**État de l’embargo**
 
-En utilisant les flèches en haut, vous pouvez changer le filtre pour trier par le nombre de résultats (ascendant) ou le nom (ascendant ou descendant). Cependant, notez que le filtre n’inclut que les résultats qui ont déjà été affichés en cliquant sur « Load More » ; par conséquent, le filtre n’affichera pas une liste complète tant que vous n’aurez pas cliqué plusieurs fois sur « Load More ».
+Utilisez cette option pour filtrer les ensembles de données qui font l’objet d’une période d’embargo. Vous pouvez choisir d’afficher seulement les ensembles de données qui sont accessibles publiquement ou d’inclure ceux qui sont actuellement sous embargo. Gardez à l’esprit que les éléments sous embargo ne seront pas tous compris dans les résultats de recherche, car les déposant(e)s peuvent choisir de dissimuler leur enregistrement de métadonnées (c.-à-d. de ne pas l’indexer aux fins de recherche) jusqu’à la fin de la période d’embargo.
 
-## Trier
+Pour les éléments sous embargo qui s’afficheront dans les résultats de recherche, l’enregistrement des résultats de recherche mènera vers la page d’accueil de l’ensemble de données, et **seules** les métadonnées seront visibles. Il sera impossible de consulter ou de télécharger les fichiers de données tant que la période d’embargo ne sera pas terminée.
 
-La page de résultats de recherche comporte un menu déroulant permettant de déterminer l’ordre d’affichage des résultats de recherche. Le tri peut être défini par pertinence (par défaut), par titre ou par date, mais il est sensible à la casse. Les titres commençant par une lettre minuscule (par exemple, « dGPS ») ou par des caractères accentués (par exemple, « Évaluation de l’impact du programme… ») apparaîtront après « Zooplancton ».
+## Résultats de recherche
 
-Par défaut, les résultats de la recherche sont triés par « pertinence », un schéma de pondération qui favorise les correspondances trouvées dans le titre d’abord, ensuite le sujet, puis la description.
+Les résultats de recherche s’affichent dans la partie droite de la page. Les filtres (options) qui se trouvent dans la partie gauche peuvent être utilisés pour affiner davantage ou préciser vos résultats. Les résultats comprennent les renseignements suivants :
+
+* Le titre de l’ensemble de données, dont le lien mène vers la page d’accueil de l’ensemble de données dans le DFDR.
+* Le nom et le logo de la collection.
+* Les auteur(e)s de l’ensemble de données.
+* La date de publication de l’ensemble de données.
+
+## Page d’accueil de l’ensemble de données
+
+Cliquez sur le titre de l’ensemble de données pour naviguer dans la page d’accueil de l’ensemble de données. À partir de là, vous pouvez afficher l’enregistrement de métadonnées au complet, parcourir le contenu de l’ensemble de données et télécharger des fichiers de données.
+
+Pour afficher ou télécharger des fichiers de données, consultez la section « Fichiers de l’ensemble de données ». Vous pouvez afficher uniquement le nom des fichiers et dossiers, ou voir tout le contenu des dossiers en cliquant sur l’icône « + ». Vous pouvez consulter ou prévisualiser certains types de fichiers depuis un navigateur Web, selon ses capacités et ses paramètres. Consultez la section « Télécharger des données » pour en savoir davantage.
+
+## Tri
+
+La page des résultats de recherche contient un menu déroulant qui permet de préciser l’ordre dans lequel les résultats de la recherche s’affichent. Les résultats peuvent être triés selon la Pertinence (par défaut), la Date de publication ou le Titre. Notez que la fonction de tri est sensible à la casse. Les titres qui commencent par une lettre minuscule (p. ex., « dGPS ») ou qui contiennent un caractère accentué (p. ex., « Évaluation de l’impact du programme... ») s’afficheront après « Zooplancton ».
+
+Par défaut, les résultats sont triés selon la « Pertinence » – un barème de pondération qui privilégie d’abord les correspondances trouvées dans le titre, puis dans le sujet, puis dans la description.
