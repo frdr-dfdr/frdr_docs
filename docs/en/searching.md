@@ -21,7 +21,7 @@ Enter your search term (one or more words) into the search box and click the sea
     * lakes AND rivers: This search returns results with both the word “lakes” and the word “rivers” in any field.
     * lakes OR rivers: This search returns results with either the word “lakes” or the word “rivers” in any field.
 
-* **Wildcards:** This can be used to replace any number of characters (\*) or an individual character (?) in text-based fields. For example, this search retrieves results with words that start with “Canad” (such as “Canada” and “Canadian”): canad* . You can also specify the exact number of characters to be replaced, using one question mark per character. For example, this search returns results including the word “gray” or “grey”: gr?y
+* **Wildcards:** This can be used to replace any number of characters (\*) or an individual character (?) in text-based fields. For example, this search retrieves results with words that start with “Canad” (such as “Canada” and “Canadian”): canad\* . You can also specify the exact number of characters to be replaced, using one question mark per character. For example, this search returns results including the word “gray” or “grey”: gr?y
 
 * **Fuzziness:** Some fuzziness is already achieved by the stemming applied to fields with text-based content, such as title, description, and keywords. For example, stemming means that “economic” and “economics” are treated as equivalent. 
 
