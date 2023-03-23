@@ -1,6 +1,6 @@
 La version remodelée du service de découverte du DFDR ne sera pas accessible depuis le site Web du DFDR, mais sera plutôt lancée sur une plateforme indépendante, Lunaris, le 29 mars 2023. [Lunaris](https://www.lunaris.ca/fr) regroupe les métadonnées provenant de plus d’une centaine de dépôts, y compris les ensembles de données déposés dans la plateforme de dépôt du DFDR, et est assorti d’une puissante fonction de découverte des données de recherche canadiennes qui mise à la fois sur la recherche textuelle et sur la recherche cartographique.
 
-Vous pouvez également rechercher les données déposées dans le DFDR en utilisant notre fonction de recherche interne, dont vous trouverez la description ci-dessous.
+Vous pouvez également rechercher les données déposées dans le DFDR en utilisant notre fonction de <a href="/repo/search?locale=fr" target="_blank">recherche interne</a>, dont vous trouverez la description ci-dessous.
 
 ## Méthodes de recherche
 
