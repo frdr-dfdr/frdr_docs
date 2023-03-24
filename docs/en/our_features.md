@@ -8,7 +8,6 @@ hidesidebar: true
 * Default allocation of 1TB of repository storage
 * Optional embargoes on data and metadata records
 * Collaborate on submissions with other FRDR account holders
-* Option to share data for external peer-review ahead of public release
 * Dataset review and ongoing support provided by the FRDR curation team ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
 * Fast and efficient upload and download via Globus File Transfer, and web browser transfers for smaller datasets
 * Special Collections for research groups with organizational branding and links to external web content
