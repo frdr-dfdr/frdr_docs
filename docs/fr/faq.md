@@ -123,7 +123,7 @@ Il est possible qu’un bloqueur de publicités cause une erreur ou bloque l'ouv
 Pour confirmer que c’est ce qui cause le problème, essayez de désactiver votre bloqueur de publicités avant d’ouvrir une session. Pour ce faire, cliquez sur l’icône de votre bloqueur de publicités dans le coin supérieur droit de votre navigateur, puis désactivez-le. Essayez ensuite d’ouvrir une session dans le DFDR en utilisant votre compte ORCID. Si vous parvenez à ouvrir une session après avoir désactivé votre bloqueur de publicités, vous devrez ajouter des exceptions pour les sites Web suivants, ou inscrire ces sites sur la liste blanche de votre bloqueur de publicités :
 
 * [globus.org](https://www.globus.org/)
-* [orcid.org]()
+* [orcid.org](https://orcid.org/)
 * [globusid.org](https://globusid.org/?viewlocale=fr_CA)
 </details>
 
@@ -174,7 +174,7 @@ Un code autodescriptif ou riche en commentaires s’avérera plus utile au fil d
 * Une liste des progiciels requis et des dépendances.
 * Des renseignements sur l’environnement dans lequel le code a été développé et peut être exécuté.
 
-Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code. Vous trouverez un modèle de fichier Lisez-moi, y compris une section pour le code <a href="/docs/txt/README-fr.txt" download>ICI</a>.
+Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fichier appelé exigences.txt ou directement dans l’en-tête ou les commentaires de vos fichiers de code.
 </details>
 
 <details markdown="1">

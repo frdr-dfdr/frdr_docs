@@ -71,7 +71,7 @@ Les résultats de recherche s’affichent dans la partie droite de la page. Les 
 
 Cliquez sur le titre de l’ensemble de données pour naviguer dans la page d’accueil de l’ensemble de données. À partir de là, vous pouvez afficher l’enregistrement de métadonnées au complet, parcourir le contenu de l’ensemble de données et télécharger des fichiers de données.
 
-Pour afficher ou télécharger des fichiers de données, consultez la section « Fichiers de l’ensemble de données ». Vous pouvez afficher uniquement le nom des fichiers et dossiers, ou voir tout le contenu des dossiers en cliquant sur l’icône « + ». Vous pouvez consulter ou prévisualiser certains types de fichiers depuis un navigateur Web, selon ses capacités et ses paramètres. Consultez la section « Télécharger des données » pour en savoir davantage.
+Pour afficher ou télécharger des fichiers de données, consultez la section « Fichiers de l’ensemble de données ». Vous pouvez afficher uniquement le nom des fichiers et dossiers, ou voir tout le contenu des dossiers en cliquant sur l’icône « + ». Vous pouvez consulter ou prévisualiser certains types de fichiers depuis un navigateur Web, selon ses capacités et ses paramètres. Consultez la section « [Télécharger des données](téléchargement.md) » pour en savoir davantage.
 
 ## Tri
 

@@ -29,7 +29,7 @@
 Les domaines de recherche sont organisés en groupes, qui sont subdivisés en classes. Pour trouver le ou les domaines de recherche applicables à votre ensemble de données, utilisez les menus déroulants pour le groupe, la classe et le domaine. Vous pouvez également parcourir la classification en français ou en anglais à l’aide de la documentation de Statistique Canada :
 
 * [Classification Canadienne de la Recherche et Développement (CCRD) 2020 version 1.0 - Domaine de recherche (DDR)](https://www23.statcan.gc.ca/imdb/p3VD_f.pl?Function=getVD&TVD=1278187)
-* [Research and Development Classification (CRDC) 2020 Version 1.0 - Field of Research (FOR)](https://www23.statcan.gc.ca/imdb/p3VD_f.pl?Function=getVD&TVD=1278187)
+* [Research and Development Classification (CRDC) 2020 Version 1.0 - Field of Research (FOR)](https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1278187)
  
 Sélectionnez autant de domaines que nécessaire pour décrire l’ensemble de données. Si votre domaine de recherche ne figure pas dans la liste, choisissez l’un des domaines portant la mention « non classé ailleurs ». 
 

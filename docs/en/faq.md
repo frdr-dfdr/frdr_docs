@@ -174,7 +174,7 @@ Code that is self-describing or well commented may remain more useful over time.
 * A list of required software packages and dependencies
 * Information about the environment in which the code was developed and/or can be run
 
-You may add this information to your README file, a requirements.txt file, and/or include it as header information or comments directly in your code files. We have a README template with a section for code available <a href="/docs/txt/README.txt" download>HERE</a>.
+You may add this information to your README file, a requirements.txt file, and/or include it as header information or comments directly in your code files.
 </details>
 
 <details markdown="1">
@@ -354,7 +354,7 @@ You are free to download and use data in FRDR, however certain restrictions may 
 
 **Please cite any datasets you use!** You can find a recommended citation at the bottom of each dataset landing page.
 
-Please see our [Access and Reuse Policy](/policies/en/access_reuse/) for further information. If you have questions about the terms assigned to a specific dataset, please contact us at support@frdr-dfdr.ca and provide the dataset DOI.
+Please see our [Access and Reuse Policy](/policies/en/access_reuse/) for further information. If you have questions about the terms assigned to a specific dataset, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) and provide the dataset DOI.
 </details>
 
 <details markdown="1">
