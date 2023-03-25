@@ -48,7 +48,7 @@ _Example:_ StanleyPark_Temperatures_20200801.csv
 
 _Example:_ AnalysisPoem_IV05_v03.txt
 
-For further advice, see [UBC’s File Naming Conventions](https://researchdata.library.ubc.ca/plan/organize-your-data/), [uOttawa’s File naming and organization of data](https://www.uottawa.ca/library/research-data-management/data-management-plan/file-naming-organization-data), or [Université de Sherbrooke Nommage des fichiers numériques](https://www.usherbrooke.ca/biblio/archives/boite-a-outils-archivistiques/nommage-des-fichiers-numeriques-et-abreviations).
+For further advice, see [UBC’s File Naming Conventions](https://researchdata.library.ubc.ca/plan/organize-your-data/), [uOttawa’s File naming and organization of data](https://www.uottawa.ca/library/research-data-management/data-management-plan/file-naming-organization-data), or [Université de Sherbrooke Nommage des fichiers numériques](https://www.usherbrooke.ca/biblio/archives/boite-a-outils-archivistiques/nommage-des-fichiers-numeriques-et-abreviations) (in French only).
 
 ### Choosing preservation-friendly file formats
 We recommend using open, non-proprietary file formats to support accessibility and long-term preservation. FRDR is able to accept and ensure bit-level preservation for a variety of file formats, including the following:
@@ -71,7 +71,7 @@ If proprietary file formats or vendor-specific software is necessary for the ana
 * If you transform your files into open formats for deposit, will any information (data, metadata, formatting, macros, etc.) be lost? Can that information be represented another way, for example, by adding an additional variable to a tabular file, or including the information in a separate plain text file or documentation file?
 * If proprietary files are necessary or preferred, can you also upload the files in an open format? 
 
-For more information on preservation formats, see guidelines from [Bibliothèque et Archives nationales du Québec](https://numerique.banq.qc.ca/patrimoine/details/52327/4076856), [UK Data Service](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats), or [University of Edinburgh](https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats).
+For more information on preservation formats, see guidelines from [Bibliothèque et Archives nationales du Québec](https://numerique.banq.qc.ca/patrimoine/details/52327/4076856)(in French only), [UK Data Service](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats), or [University of Edinburgh](https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats).
 
 ## Documenting your submission
 
