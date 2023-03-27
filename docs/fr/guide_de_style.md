@@ -40,7 +40,7 @@ Ce sont les logos officiels du DFDR. Elles peuvent être agrandies ou réduites 
 
 **Bilingue, L’anglais d’abord, pour utilisation sur un fond blanc ou de couleur pale, fond transparent:**
 
-<img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/FRDR-FR-EN.png" alt="Logo" />
+<img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/FRDR-EN-FR.png" alt="Logo" />
 
 **Bilingue, L’anglais d’abord, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:**
 
