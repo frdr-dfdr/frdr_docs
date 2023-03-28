@@ -80,6 +80,6 @@ To view and download data files, see the section labeled "Files in Dataset." You
 
 ## Sorting
 
-The search results page has a drop down sorting menu to specify the order that search results are displayed. Sorting can be specified by Relevance (default), Date Published, or Title. Note that sorting is case-sensitive. Titles beginning with a lowercase letter (e.g., "dGPS") or with accented characters (e.g., "Évaluation de l'impact du programme...") will appear after "Zooplankton."
+The search results page has a drop down sorting menu to specify the order that search results are displayed. Sorting can be specified by Relevance (default), Date Published, or Title.
 
 By default, Search results are sorted by "Relevance" - a weighting scheme that favours matches found in the title first, then subject, then description.

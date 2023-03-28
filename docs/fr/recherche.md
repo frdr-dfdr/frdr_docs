@@ -75,6 +75,6 @@ Pour afficher ou télécharger des fichiers de données, consultez la section «
 
 ## Tri
 
-La page des résultats de recherche contient un menu déroulant qui permet de préciser l’ordre dans lequel les résultats de la recherche s’affichent. Les résultats peuvent être triés selon la Pertinence (par défaut), la Date de publication ou le Titre. Notez que la fonction de tri est sensible à la casse. Les titres qui commencent par une lettre minuscule (p. ex., « dGPS ») ou qui contiennent un caractère accentué (p. ex., « Évaluation de l’impact du programme... ») s’afficheront après « Zooplancton ».
+La page des résultats de recherche contient un menu déroulant qui permet de préciser l’ordre dans lequel les résultats de la recherche s’affichent. Les résultats peuvent être triés selon la Pertinence (par défaut), la Date de publication ou le Titre.
 
 Par défaut, les résultats sont triés selon la « Pertinence » – un barème de pondération qui privilégie d’abord les correspondances trouvées dans le titre, puis dans le sujet, puis dans la description.
