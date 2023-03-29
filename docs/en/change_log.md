@@ -1,5 +1,12 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-03-29**:
+
+* The home page has been redesigned and new branding has been applied to all FRDR web pages
+* FRDR discovery interface has been retired and all FRDR datasets can be discovered through [Lunaris](https://www.lunaris.ca)
+* Internal dataset search has been improved
+* Metrics dashboards have been redesigned and discovery-related dashboards have been removed
+
 **2023-02-22**:
 
 * Additional notices will be sent when a dataset embargo end date is approaching (60 days, 30 days and 5 days)
