@@ -6,6 +6,8 @@ This is a list of changes to FRDR, starting with the most recent:
 * FRDR discovery interface has been retired and all FRDR datasets can be discovered through [Lunaris](https://www.lunaris.ca)
 * Internal dataset search has been improved
 * Metrics dashboards have been redesigned and discovery-related dashboards have been removed
+* Documentation has been updated in both English and French
+* Style guide has been updated
 
 **2023-02-22**:
 
