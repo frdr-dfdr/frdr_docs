@@ -4,7 +4,7 @@ hidesidebar: true
 Le Dépôt fédéré de données de recherche (DFDR) est une plateforme de publication **bilingue** qui permet de **partager** et de **préserver** les données de recherche canadiennes. Notre mission : veiller à ce que les données de recherche canadiennes soient faciles à trouver, accessibles et réutilisables, tout en jouant un rôle de premier plan dans l’intendance de ces données.
 
 ## Pourquoi utiliser le DFDR
-Le DFDR offre une gamme de services pour aider les chercheur(-se)s à stocker et à gérer leurs données, à préserver leurs recherches pour utilisation future ainsi qu’à répondre aux exigences des revues et des bailleurs de fonds concernant le partage de données. Notre dépôt **polyvalent** et **structuré** est conçu sur mesure pour des **ensembles de données volumineux** et s’adresse aux chercheur(-se)s du Canada de **toutes les disciplines**.
+Le DFDR offre une gamme de services pour aider les chercheur(-se)s à stocker et à gérer leurs données, à préserver leurs recherches pour utilisation future ainsi qu’à répondre aux exigences des revues et des bailleurs de fonds concernant le partage de données. Notre dépôt **polyvalent** et **structuré** est conçu sur mesure pour des **jeux de données volumineux** et s’adresse aux chercheur(-se)s du Canada de **toutes les disciplines**.
 
 Pour en savoir davantage, consultez la liste de [nos fonctionnalités](nos_fonctionnalités.md). Pour toute question au sujet de la plateforme du DFDR ou de notre service, n’hésitez pas à communiquer avec nous à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 

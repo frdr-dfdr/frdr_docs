@@ -2,7 +2,7 @@
 
 ### Sélection des types de données à déposer
 
-Rassemblez vos fichiers de données, la documentation et tout renseignement nécessaire pour réutiliser votre ensemble de données. Vous pouvez choisir de fournir des données traitées, des données « brutes » non traitées, ou les deux, ainsi que les scripts, le code ou le logiciel requis pour générer ou réanalyser vos données.
+Rassemblez vos fichiers de données, la documentation et tout renseignement nécessaire pour réutiliser votre jeu de données. Vous pouvez choisir de fournir des données traitées, des données « brutes » non traitées, ou les deux, ainsi que les scripts, le code ou le logiciel requis pour générer ou réanalyser vos données.
 
 Vous pouvez télécharger une version de vos scripts d’analyse en même temps que vos données, mais nous vous recommandons de déposer les modèles, le code source ou le logiciel de recherche dans des dépôts spécialisés comme GitHub, GitLab ou Bitbucket. Ceux-ci peuvent être conservés dans les archives de [Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software) ou [Zenodo](https://docs.github.com/fr/repositories/archiving-a-github-repository/referencing-and-citing-content). Vous pouvez établir un lien direct avec eux et les autres résultats de vos [métadonnées du DFDR](description_de_vos_données.md#metadonnees-recommandees) en utilisant le champ « identifiant connexe » et les mentionner dans votre fichier Lisez-moi ([voir un modèle ici](/docs/txt/README-fr.txt)).
 
@@ -63,7 +63,7 @@ Nous vous recommandons de déposer vos fichiers dans des formats ouverts et non 
 * Contenu audio : FLAC, AIFF, WAV, MP3, AAC
 * Contenu  vidéo : MOV, MPEG-4, MKV
 * Formats d’archivage de fichiers compressés : TAR.GZ, 7Z, ZIP
-* Ensembles de données volumineux structurés HDF5, NetCDF
+* Jeux de données volumineux structurés HDF5, NetCDF
 * Données géospatiales : GeoTIFF, SHP, KML, GeoJSON
 * Spectrométrie de masse : mzML
 
@@ -95,20 +95,19 @@ Conseils pour créer des fichiers Lisez-moi :
 * Indiquez toute restriction concernant l’utilisation secondaire de vos données dans le fichier Lisez-moi, y compris toute restriction sur les données provenant de sources tierces.
 * Définissez toutes les variables et les valeurs admissibles. S’il y a lieu, indiquez les unités de mesure et définissez le code que vous avez utilisé pour les valeurs manquantes ou nulles.
 * Décrivez brièvement votre étude, les méthodes que vous avez utilisées pour recueillir vos données et toutes les étapes que vous avez suivies pour traiter les données que vous déposez.
-* Si vous avez supprimé des variables de votre ensemble de données brutes pour créer une copie à usage public à des fins d’archivage, songez à inclure une liste des variables supprimées afin que les changements apportés à votre ensemble de données brutes soient transparents. Vous pouvez également fournir des statistiques sommaires ou un nombre d’occurrences pour toute variable supprimée.
-* Le nom de l’équipement ou des instruments ayant servi pour la collecte des données, de même que les logiciels ou progiciels statistiques qui ont été utilisés pour traiter les données, doivent être énumérés dans le fichier Lisez-moi. Si possible, indiquez la version du logiciel que vous avez utilisé.
+* Si vous avez supprimé des variables de votre jeu de données brutes pour créer une copie à usage public à des fins d’archivage, songez à inclure une liste des variables supprimées afin que les changements apportés à votre jeu de données brutes soient transparents. Vous pouvez également fournir des statistiques sommaires ou un nombre d’occurrences pour toute variable supprimée.* Le nom de l’équipement ou des instruments ayant servi pour la collecte des données, de même que les logiciels ou progiciels statistiques qui ont été utilisés pour traiter les données, doivent être énumérés dans le fichier Lisez-moi. Si possible, indiquez la version du logiciel que vous avez utilisé.
 * Songez à fournir des renseignements sur les documents connexes, les protocoles d’étude ou d’autres documents qui fourniront plus de contexte à vos données.
 * Si vos fichiers ne sont pas en format de texte clair, envisagez de recommander un logiciel qui pourra être utilisé pour les consulter ou les analyser.
 * Si vous prévoyez déposer un code ou un logiciel, fournissez une description de ce que le code fait, des renseignements sur l’environnement informatique, les dépendances exigées, les entrées requises et les résultats attendus ainsi que toute instruction nécessaire à l’installation ou à l’exécution.
 
-Pour obtenir d’autres conseils, consultez les documents [Guide rapide : Créer un fichier README pour vos ensembles de données](https://doi.org/10.5281/zenodo.4058962) de l’Université de la Colombie-Britannique et [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme) de l’Université Cornell (en anglais seulement).
+Pour obtenir d’autres conseils, consultez les documents [Guide rapide : Créer un fichier README pour vos jeux de données](https://doi.org/10.5281/zenodo.4058962) de l’Université de la Colombie-Britannique et [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme) de l’Université Cornell (en anglais seulement).
 
 ## Vérification de vos données
 
 Une fois que vous aurez soumis vos données, un membre de l’équipe de curation du DFDR examinera votre dépôt. Les curateur(-trice)s collaboreront avec vous pour garantir la qualité des métadonnées dans le dépôt et pourraient suggérer des modifications pour que vos données soient plus faciles à trouver et plus accessibles. Voici quelques points à prendre en considération avant de soumettre vos données :
 
 * *Avez-vous fourni un fichier Lisez-moi, un livre de code ou tout autre document nécessaire?* Il pourrait être utile de fournir d’autres documents, par exemple une description de votre méthodologie, des renseignements sur les protocoles de l’étude, des plans d’analyse statistique, une copie de votre plan de gestion des données, une copie non signée de tout formulaire de consentement que vous avez fourni aux participant(e)s à l’étude ou des rapports d’étude clinique.
-* *Votre ensemble de données est-il complet?* Avez-vous fourni tous les fichiers que vous avez l’intention de partager et retiré ceux qui ne peuvent pas ou ne devraient pas être partagés? Les fichiers (ou types de fichiers) sont-ils tous décrits dans le fichier Lisez-moi?
+* *Votre jeu de données est-il complet?* Avez-vous fourni tous les fichiers que vous avez l’intention de partager et retiré ceux qui ne peuvent pas ou ne devraient pas être partagés? Les fichiers (ou types de fichiers) sont-ils tous décrits dans le fichier Lisez-moi?
 * *Vos fichiers sont-ils complets?* Avez-vous défini les variables et les valeurs admissibles, indiqué les unités de mesure et décrit les valeurs nulles, au besoin?
 * Si vos fichiers sont dans un format exclusif, *avez-vous fourni des renseignements sur l’instrument ou le logiciel utilisé pour générer les fichiers* ainsi que des recommandations pour visualiser le contenu?
 * *Avez-vous indiqué les sources tierces* d’où proviennent les données ou le code ayant servi à vos analyses? Consultez la section [Utilisation secondaire des données ou du code](#utilisation-secondaire-des-donnees-ou-du-code).
@@ -155,7 +154,7 @@ Les dirigeant(e)s des communautés autochtones sont les mieux placé(e)s pour é
 
 #### Renseignements sur l’emplacement
 
-Vous devrez peut-être retirer ou brouiller les renseignements sur l’emplacement dans votre ensemble de données. Songez à le faire si vous devez protéger la confidentialité des participant(e)s à l’étude ou si vos données ont été recueillies dans des zones protégées, sur des sites archéologiques sensibles ou sur des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu ou que le dévoilement de ces renseignements pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi retirer ou brouiller les données sur la présence d’espèces vulnérables. Pour en savoir davantage, les ressources suivantes pourraient être utiles :
+Vous devrez peut-être retirer ou brouiller les renseignements sur l’emplacement dans votre jeu de données. Songez à le faire si vous devez protéger la confidentialité des participant(e)s à l’étude ou si vos données ont été recueillies dans des zones protégées, sur des sites archéologiques sensibles ou sur des propriétés privées où le consentement à révéler l’emplacement n’a pas été obtenu ou que le dévoilement de ces renseignements pourrait dévaluer la propriété ou causer une stigmatisation. Vous devrez peut-être aussi retirer ou brouiller les données sur la présence d’espèces vulnérables. Pour en savoir davantage, les ressources suivantes pourraient être utiles :
 
 * UK Statistics Authority – [Ethical considerations in the use of geospatial data for research and statistics](https://uksa.statisticsauthority.gov.uk/publication/ethical-considerations-in-the-use-of-geospatial-data-for-research-and-statistics/) (en anglais seulement)
 * La [Liste rouge des espèces menacées](https://www.iucnredlist.org/fr/) de l’Union internationale pour la conservation de la nature (en anglais seulement)

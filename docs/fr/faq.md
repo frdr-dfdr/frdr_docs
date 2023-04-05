@@ -7,7 +7,7 @@ Vous trouverez ci-dessous des réponses aux questions les plus fréquentes, mais
 <summary markdown="span">
 ###### 1. Qui peut utiliser le DFDR?
 </summary>
-Tout le monde peut utiliser le DFDR pour trouver et télécharger des ensembles de données.
+Tout le monde peut utiliser le DFDR pour trouver et télécharger des jeux de données.
 
 Les chercheur(-se)s principaux(-ales) [CP] de toutes les disciplines et leurs représentant(e)s désigné(e)s peuvent soumettre du contenu au DFDR. Les CP doivent être des membres du corps professoral, des bibliothécaires ou des chercheur(-se)s faisant partie de la communauté d’un établissement ou d’une organisation admissible au financement des trois organismes, y compris les organisations autochtones sans but lucratif admissibles au financement du Conseil de recherches en sciences humaines. Les CP peuvent désigner des représentant(e)s pour soumettre du contenu en leur nom, p. ex., étudiantes et étudiants de premier cycle et des cycles supérieurs, gestionnaires de données, personnel non associé à la recherche, collaborateur(-trice)s externes, titulaires de bourse postdoctorale et assistant(e)s à la recherche. Les demandes de dépôt de la part d’autres types de personnel de recherche canadien, notamment des chercheur(-se)s affilié(e)s au gouvernement ou à des organisations non gouvernementales, n’ayant pas été désigné pour représenter un(e) CP seront examinées au cas par cas.
 
@@ -32,10 +32,10 @@ Oui. Le DFDR n’est pas propriétaire des données que vous y déposez. Lorsque
 
 <details markdown="1">
 <summary markdown="span">
-######4. Une fois que j’aurai soumis mon ensemble de données, quand pourra-t-il être consulté?
+######4. Une fois que j’aurai soumis mon jeu de données, quand pourra-t-il être consulté?
 </summary>
 
-Une fois que vous aurez soumis votre ensemble de données, il fera l’objet d’un examen interne, appelé « processus de curation », qui prend habituellement de deux à cinq jours ouvrables. Lorsque la publication de l’ensemble de données sera approuvée, votre identifiant d’objet numérique (DOI) sera enregistré auprès de DataCite et vos données seront indexées aux fins de découverte, sauf si vous avez choisi une période d’embargo pour en retarder la publication.
+Une fois que vous aurez soumis votre jeu de données, il fera l’objet d’un examen interne, appelé « processus de curation », qui prend habituellement de deux à cinq jours ouvrables. Lorsque la publication du jeu de données sera approuvée, votre identifiant d’objet numérique (DOI) sera enregistré auprès de DataCite et vos données seront indexées aux fins de découverte, sauf si vous avez choisi une période d’embargo pour en retarder la publication.
 </details>
 
 <details markdown="1">
@@ -48,25 +48,25 @@ Oui. Le DFDR est conçu de façon à ce que l’endroit où sont stockées les d
 
 <details markdown="1">
 <summary markdown="span">
-######6. Est-ce que le DFDR assigne des DOI aux ensembles de données?
+######6. Est-ce que le DFDR assigne des DOI aux jeux de données?
 </summary>
 
-Oui! Chaque ensemble de données déposé dans le DFDR reçoit un DOI unique qui pourra être utilisé pour citer les données et sera enregistré auprès de [DataCite](https://datacite.org/) une fois que l’ensemble de données sera publié.
+Oui! Chaque jeu de données déposé dans le DFDR reçoit un DOI unique qui pourra être utilisé pour citer les données et sera enregistré auprès de [DataCite](https://datacite.org/) une fois que le jeu de données sera publié.
 </details>
 
 <details markdown="1">
 <summary markdown="span">
-######7. Puis-je obtenir un DOI avant que mon ensemble de données soit publié?
+######7. Puis-je obtenir un DOI avant que mon jeu de données soit publié?
 </summary>
 
-Dès que vous commencerez un nouveau dépôt, le système assignera un DOI à votre ensemble de données. Ce DOI sera unique et permanent. Vous pourrez le partager avant que les données soient publiées, par exemple si vous souhaitez l’ajouter dans un manuscrit connexe. Cependant, le DOI ne sera fonctionnel qu’une fois que votre ensemble de données sera publié.
+Dès que vous commencerez un nouveau dépôt, le système assignera un DOI à votre jeu de données. Ce DOI sera unique et permanent. Vous pourrez le partager avant que les données soient publiées, par exemple si vous souhaitez l’ajouter dans un manuscrit connexe. Cependant, le DOI ne sera fonctionnel qu’une fois que votre jeu de données sera publié.
 
-Votre DOI se trouve sous le titre de l’ensemble de données dans votre tableau de bord de publication.
+Votre DOI se trouve sous le titre de du jeu de données dans votre tableau de bord de publication.
 
 <a href="/docs/img/screenshots/faq/DashboardDOI_fr.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/faq/DashboardDOI_fr.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
 </a>
-Si vous avez des doutes quant à la conformité de vos données avec nos conditions d’utilisation (par exemple si vous redistribuez du contenu que vous avez obtenu auprès d’une source externe ou avez du contenu qui pourrait être sensible), veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). Nous vous aiderons à déterminer si le DOI peut être partagé avant la curation (notre processus d’examen interne) et la publication de votre ensemble de données.
+Si vous avez des doutes quant à la conformité de vos données avec nos conditions d’utilisation (par exemple si vous redistribuez du contenu que vous avez obtenu auprès d’une source externe ou avez du contenu qui pourrait être sensible), veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). Nous vous aiderons à déterminer si le DOI peut être partagé avant la curation (notre processus d’examen interne) et la publication de votre jeu de données.
 </details>
 
 <details markdown="1">
@@ -78,7 +78,7 @@ Le DFDR accepte les données sur des participant(e)s humain(e)s lorsque les perm
 
 À l’heure actuelle, le DFDR n’accepte pas les données à accès restreint. Toutes les données seront accessibles au public et devraient être adéquatement dépersonnalisées. Le DFDR exigera une copie de la demande d’évaluation de l’éthique approuvée, du formulaire de consentement, ou de tout autre document pertinent confirmant que les permissions ou approbations requises pour la publication ou le partage des données ont été obtenues.
 
-Pour savoir si un ensemble de données en particulier peut être publié, veuillez consulter le comité d’éthique de la recherche. En ce qui concerne les données déjà recueillies, les [lignes directrices des trois organismes pour verser des données existantes dans des dépôts publics](https://ethics.gc.ca/fra/depositing_depots.html) pourraient vous être utiles.
+Pour savoir si un jeu de données en particulier peut être publié, veuillez consulter le comité d’éthique de la recherche. En ce qui concerne les données déjà recueillies, les [lignes directrices des trois organismes pour verser des données existantes dans des dépôts publics](https://ethics.gc.ca/fra/depositing_depots.html) pourraient vous être utiles.
 </details>
 
 <details markdown="1">
@@ -131,12 +131,12 @@ Pour confirmer que c’est ce qui cause le problème, essayez de désactiver vot
 
 <details markdown="1">
 <summary markdown="span">
-######1. Comment puis-je lier mon ensemble de données à des produits de recherche connexes?
+######1. Comment puis-je lier mon jeu de données à des produits de recherche connexes?
 </summary>
 
-Vous pouvez relier votre ensemble de données du DFDR avec des publications, des ensembles de données, un code, des modèles ou d’autres produits de recherche connexes par l’intermédiaire de l’élément de métadonnées « Identifiants connexes », à l’écran « Métadonnées recommandées » de l’interface de soumission. Veuillez utiliser un DOI, un autre identifiant unique ou une autre adresse URL. Pour en savoir plus, consultez la section [Métadonnées recommandées](description_de_vos_données.md#métadonnées-recommandées) du guide sur la description de vos données. Nous vous recommandons aussi d’indiquer le DOI de votre ensemble de données dans toute publication connexe (à la section des références ou dans un énoncé sur la disponibilité des données).
+Vous pouvez relier votre jeu de données du DFDR avec des publications, des jeux de données, un code, des modèles ou d’autres produits de recherche connexes par l’intermédiaire de l’élément de métadonnées « Identifiants connexes », à l’écran « Métadonnées recommandées » de l’interface de soumission. Veuillez utiliser un DOI, un autre identifiant unique ou une autre adresse URL. Pour en savoir plus, consultez la section [Métadonnées recommandées](description_de_vos_données.md#métadonnées-recommandées) du guide sur la description de vos données. Nous vous recommandons aussi d’indiquer le DOI de votre jeu de données dans toute publication connexe (à la section des références ou dans un énoncé sur la disponibilité des données).
 
-Pour ajouter des liens vers des produits de recherche connexes après avoir soumis votre ensemble de données, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Pour ajouter des liens vers des produits de recherche connexes après avoir soumis votre jeu de données, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
 <details markdown="1">
@@ -296,11 +296,11 @@ Nous pouvons essayer d’exécuter le code et de signaler tout problème rencont
 
 Le DFDR assure la préservation au niveau des bits pour tous les dépôts de données, et permet la prise de mesures supplémentaires pour favoriser la préservation à long terme.
 
-Le DFDR utilise [Archivematica](https://www.archivematica.org/fr/Submitters are expected to work with curators during the ) afin de créer des paquets d’information archivés pour les ensembles de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « [Préservation](après_le_dépôt.md#preservation) » du guide Après le dépôt.
+Le DFDR utilise [Archivematica](https://www.archivematica.org/fr/Submitters are expected to work with curators during the ) afin de créer des paquets d’information archivés pour les jeux de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « [Préservation](après_le_dépôt.md#preservation) » du guide Après le dépôt.
 
-Pour s’assurer que tous les ensembles de données soumis soient préservés comme il se doit, le DFDR a mis en place un processus d’évaluation pour garantir la gestion responsable et durable de l’accès à long terme. La préservation à long terme sera envisagée pour tous les ensembles de données déposés dans le DFDR. À noter que le processus d’évaluation du dépôt tient compte du format des documents et des fichiers, et les ensembles de données qui manquent de documents inadéquats ou qui sont dans un format exclusif pourraient être exclus des activités de préservation à long terme ou faire l’objet d’une réévaluation dans le futur. Les ensembles de données non sélectionnés pour la préservation à long terme demeureront accessibles dans le DFDR, conformément à la [Politique en matière de rétention et de suppression des données](/policies/fr/r%C3%A9tention_des_donn%C3%A9es/) et aux [Conditions d'utilisation](/policies/fr/conditions_d%27utilisation/).
+Pour s’assurer que tous les jeux de données soumis soient préservés comme il se doit, le DFDR a mis en place un processus d’évaluation pour garantir la gestion responsable et durable de l’accès à long terme. La préservation à long terme sera envisagée pour tous les jeux de données déposés dans le DFDR. À noter que le processus d’évaluation du dépôt tient compte du format des documents et des fichiers, et les jeux de données qui manquent de documents inadéquats ou qui sont dans un format exclusif pourraient être exclus des activités de préservation à long terme ou faire l’objet d’une réévaluation dans le futur. Les jeux de données non sélectionnés pour la préservation à long terme demeureront accessibles dans le DFDR, conformément à la [Politique en matière de rétention et de suppression des données](/policies/fr/r%C3%A9tention_des_donn%C3%A9es/) et aux [Conditions d'utilisation](/policies/fr/conditions_d%27utilisation/).
 
-Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le cadre de la soumission en répondant à une question facultative concernant la valeur à long terme de leur ensemble de données. Pour en savoir plus, consultez les instructions de la section [Demander une préservation à long terme](déposer_les_données.md#demander-une-preservation-a-long-terme) du guide Déposer les données.
+Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le cadre de la soumission en répondant à une question facultative concernant la valeur à long terme de leur jeu de données. Pour en savoir plus, consultez les instructions de la section [Demander une préservation à long terme](déposer_les_données.md#demander-une-preservation-a-long-terme) du guide Déposer les données.
 </details>
 
 ## Réutilisation des données
@@ -323,17 +323,17 @@ Plusieurs raisons peuvent expliquer ce problème :
 ######2. Quels outils puis-je utiliser pour calculer la somme de contrôle?
 </summary>
 
-Les utilisateur(-trice)s peuvent télécharger le fichier « frdr-checksums-and-filetypes.md » à partir de l’interface du DFDR pour chaque ensemble de données et valider les fichiers de données individuellement à tout moment.
+Les utilisateur(-trice)s peuvent télécharger le fichier « frdr-checksums-and-filetypes.md » à partir de l’interface du DFDR pour chaque jeu de données et valider les fichiers de données individuellement à tout moment.
 
 Voici un outil gratuit pour calculer les sommes de contrôle SHA-256 : https://quickhash-gui.org/.
 </details>
 
 <details markdown="1">
 <summary markdown="span">
-######3. Les ensembles de données du DFDR sont-ils indexés aux fins de découverte internationale?
+######3. Les jeux de données du DFDR sont-ils indexés aux fins de découverte internationale?
 </summary>
 
-Les ensembles de données du DFDR sont indexés aux fins de découverte dans [Lunaris](https://www.lunaris.ca/fr), [Dataset Search de Google](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest et d’autres plateformes. Les métadonnées du DFDR sont également rendues disponibles aux fins de moissonnage (et de découverte) sur un fil OAI-PMH, de sorte que les données sont repérables à partir d’autres plateformes.
+Les jeux de données du DFDR sont indexés aux fins de découverte dans [Lunaris](https://www.lunaris.ca/fr), [Dataset Search de Google](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest et d’autres plateformes. Les métadonnées du DFDR sont également rendues disponibles aux fins de moissonnage (et de découverte) sur un fil OAI-PMH, de sorte que les données sont repérables à partir d’autres plateformes.
 </details>
 
 <details markdown="1">
@@ -341,7 +341,7 @@ Les ensembles de données du DFDR sont indexés aux fins de découverte dans [Lu
 ######4. Puis-je encore utiliser le DFDR pour découvrir des données de recherche canadiennes?
 </summary>
 
-Vous pouvez chercher les ensembles de données publiés dans le DFDR en utilisant l’interface de recherche du DFDR. Pour effectuer une recherche dans les dépôts de données canadiens, y compris pour trouver les ensembles de données publiés dans le DFDR, rendez-vous sur le site Web de Lunaris à l’adresse suivante : https://www.lunaris.ca/fr
+Vous pouvez chercher des jeux de données publiés dans le DFDR en utilisant l’interface de recherche du DFDR. Pour effectuer une recherche dans les dépôts de données canadiens, y compris pour trouver les jeux de données publiés dans le DFDR, rendez-vous sur le site Web de Lunaris à l’adresse suivante : https://www.lunaris.ca/fr
 </details>
 
 <details markdown="1">
@@ -349,25 +349,25 @@ Vous pouvez chercher les ensembles de données publiés dans le DFDR en utilisan
 ######5. Puis-je réutiliser ou redistribuer les données contenues dans le DFDR?
 </summary>
 
-Vous pouvez télécharger et utiliser des données du DFDR, mais certaines restrictions peuvent s’appliquer (p. ex., une attribution peut être requise si vous publiez les résultats d’une analyse, ou certaines données peuvent servir à des fins non commerciales seulement). **Chaque ensemble de données du DFDR fait l’objet d’une licence individuelle**. Les conditions d’accès se trouvent sur la page d’accueil des ensembles de données, directement sous le bouton « Télécharger l’ensemble de données ». Les notes d’utilisation de l’ensemble de données ou le fichier Lisez-moi de la page d’accueil peuvent aussi comprendre des renseignements supplémentaires.
+Vous pouvez télécharger et utiliser des données du DFDR, mais certaines restrictions peuvent s’appliquer (p. ex., une attribution peut être requise si vous publiez les résultats d’une analyse, ou certaines données peuvent servir à des fins non commerciales seulement). **Chaque jeu de données du DFDR fait l’objet d’une licence individuelle**. Les conditions d’accès se trouvent sur la page d’accueil des jeux de données, directement sous le bouton « Télécharger le jeu de données ». Les notes d’utilisation du jeu de données ou le fichier Lisez-moi de la page d’accueil peuvent aussi comprendre des renseignements supplémentaires.
 
-**Veuillez citer tous les ensembles de données que vous utilisez!** Vous trouverez le format de citation recommandé au bas de la page d’accueil de l’ensemble de données.
+**Veuillez citer tous les jeux de données que vous utilisez!** Vous trouverez le format de citation recommandé au bas de la page d’accueil du jeu de données.
 
-Pour en savoir plus, veuillez consulter notre [Politique en matière d’accès et de réutilisation](/policies/fr/acc%C3%A8s_r%C3%A9utilisation/). Pour toute question sur les conditions associées à un ensemble de données en particulier, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) en prenant soin d’indiquer le DOI de l’ensemble de données.
+Pour en savoir plus, veuillez consulter notre [Politique en matière d’accès et de réutilisation](/policies/fr/acc%C3%A8s_r%C3%A9utilisation/). Pour toute question sur les conditions associées à un jeu de données en particulier, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) en prenant soin d’indiquer le DOI du jeu de données.
 </details>
 
 <details markdown="1">
 <summary markdown="span">
 ######6. Comment dois-je citer les données du DFDR?
 </summary>
-Le format de citation recommandé est indiqué au bas de la page d’accueil de chaque ensemble de données. Nous vous recommandons d’inclure dans votre citation le nom des auteur(-trice)s, le titre de l’ensemble de données, l’année de publication, le nom du dépôt et le DOI de l’ensemble de données. Vous pouvez aussi indiquer le numéro de version de l’ensemble de données que vous avez utilisé s’il existe plusieurs versions ainsi que la date où vous avez consulté l’ensemble de données. Exemple :
+Le format de citation recommandé est indiqué au bas de la page d’accueil de chaque jeu de données. Nous vous recommandons d’inclure dans votre citation le nom des auteur(-trice)s, le titre du jeu de données, l’année de publication, le nom du dépôt et le DOI du jeu de données. Vous pouvez aussi indiquer le numéro de version du jeu de données que vous avez utilisé s’il existe plusieurs versions ainsi que la date où vous avez consulté le jeu de données. Exemple :
 
-Auteur AA, auteur B, auteur C (2023). Titre de l’ensemble de données. Version 1. Dépôt fédéré de données de recherche. https://doi.org/10.20383/102.0NNN. Consulté le 4 février 2023.
+Auteur AA, auteur B, auteur C (2023). Titre du jeu de données. Version 1. Dépôt fédéré de données de recherche. https://doi.org/10.20383/102.0NNN. Consulté le 4 février 2023.
 </details>
 
 <details markdown="1">
 <summary markdown="span">
-######7. Comment puis-je mesurer les retombées de mon ensemble de données?
+######7. Comment puis-je mesurer les retombées de mon jeu de données?
 </summary>
-Il existe différentes statistiques sur les données soumises dans le DFDR, y compris le nombre de consultations et le nombre de fichiers téléchargés. Pour consulter ces statistiques, rendez-vous sur la page d’accueil de l’ensemble de données, puis cliquez sur le bouton « Voir les statistiques » au bas de la page.
+Il existe différentes statistiques sur les données soumises dans le DFDR, y compris le nombre de consultations et le nombre de fichiers téléchargés. Pour consulter ces statistiques, rendez-vous sur la page d’accueil de votre jeu de données, puis cliquez sur le bouton « Voir les statistiques » au bas de la page.
 </details>
