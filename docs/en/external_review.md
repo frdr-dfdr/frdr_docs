@@ -1,4 +1,4 @@
-﻿Datasets can be shared with an external reviewer before they are published.  External reviewers do not need accounts in FRDR.
+﻿Datasets can be shared with an external reviewer before they are fully published.  External reviewers do not need accounts in FRDR.
 
 ## Starting the External Review Process
 
