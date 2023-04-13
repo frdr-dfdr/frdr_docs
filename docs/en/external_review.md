@@ -10,7 +10,7 @@ During dataset submission the submitter will be presented with a question on the
 
 ## Inviting Reviewers
 
-Reviewers can be sent invitations to review a dataset once the external review process has been requested.  Find the dataset under the "External Review" tab and click the "Manage Reviewers".  The invitation form will be shown at the top of the page.  Fill out the form and click the "Invite" button.
+Reviewers can be sent invitations to review a dataset once the external review process has been requested.  Find the dataset under the "Embargo" tab and click the "Manage Reviewers".  The invitation form will be shown at the top of the page.  Fill out the form and click the "Invite" button.
 
 <a href="/docs/img/screenshots/external_review/inviting.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/external_review/inviting.png" alt="Screenshot showing reviewer invitation form" class="screenshot"/>
@@ -24,12 +24,12 @@ On the invitation form there is a checkbox for Blind Review.  If this is selecte
     <img src="/docs/img/screenshots/external_review/blind.png" alt="Screenshot showing blind review metadata selection" class="screenshot"/>
 </a>
 
-Select the visibility of the metadata as needed for this review.
+Select the visibility of the metadata as needed for this review.  Please note that the dataset landing page is not available to the general public while it is under embargo and going through review, so regardless of the setting for blind review the metadata will not be publicly viewable.
 
 ## Editing the Dataset
 
-During the review process changes may need to be made to the dataset.  To edit the dataset, find the dataset under the "External Review" tab and click the Edit button for that dataset. Note that editing a dataset will expire all existing review invitations and reviewers will need to be sent another invitation if they should review the dataset again before it is published.
+During the review process changes may need to be made to the dataset.  This needs to be done by working with a curator.  Please <a href="/contactus">contact us</a> and sending them the details of what needs to be changed. If changes need to be made to any of the dataset files they will follow up with directions on how to do that.
 
-## Finalizing the Dataset
+## Finishing the Review
 
-After the review is done, find the dataset under the "External Review" tab and click the Finish button for that dataset.  This will send the dataset into the curation workflow, where it will be reviewed by a curator as part of the normal process before it is published.
+If all reviews are complete and the embargo can be removed please use the <a href="/contactus">contact us</a> form and ask a curator to review the embargo.
