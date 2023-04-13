@@ -2,7 +2,11 @@
 
 ## Starting the External Review Process
 
-At the end of a dataset submission the submitter will be presented with a question: "Does this dataset need external review?"  To start the process they simply answer **yes** to this question and then click the finish button.
+During dataset submission the submitter will be presented with a question on the access tab: "Will this dataset need a review period?"  To start the process they answer **yes** to this question.  Please note that this forces the dataset to have an embargo period, so the "embargo date" and "embargo reason" will also need to be supplied.  External review invitations can be sent out and reviewers can view the dataset using those invitations until the embargo date has passed, after which the dataset will be fully published.
+
+<a href="/docs/img/screenshots/external_review/blind.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/external_review/blind.png" alt="Screenshot showing blind review metadata selection" class="screenshot"/>
+</a>
 
 ## Inviting Reviewers
 
