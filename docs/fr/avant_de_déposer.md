@@ -1,13 +1,12 @@
-Des préparatifs s’imposent avant de pouvoir commencer la soumission d’un jeu de données au DFDR. La présente section porte sur les sujets suivants : [1) Qui peut déposer des données dans le DFDR;](avant_de_déposer.md#1-qui-peut-deposer-dans-le-dfdr) [2) Créer un compte Globus;](avant_de_déposer.md#2-creer-un-compte-globus) [3) Obtenir l’autorisation de soumettre des données](avant_de_déposer.md#3-obtenir-lautorisation-de-soumettre-des-donnees) et [4) Acquérir le logiciel Globus Connect.](avant_de_déposer.md#4-obtenir-le-logiciel-de-connexion-de-globus)
+N’importe qui peut utiliser le DFDR pour effectuer des recherches et télécharger des données, mais un compte DFDR est nécessaire pour déposer des données. Vous devrez également installer et configurer le logiciel de connexion de Globus pour partager ou télécharger des fichiers de données volumineux. La présente section porte sur les sujets suivants : [1) Qui peut déposer dans le DFDR?](avant_de_déposer.md#1-qui-peut-deposer-dans-le-dfdr); [2) Créer un compte DFDR (et Globus)](avant_de_déposer.md#2-creer-un-compte-dfdr-et-globus); [3) Obtenir l’autorisation de soumettre des données](avant_de_déposer.md#3-obtenir-lautorisation-de-soumettre-des-donnees); [4) Obtenir le logiciel de connexion de Globus](avant_de_déposer.md#4-obtenir-le-logiciel-de-connexion-de-globus).
 
 ## 1. Qui peut déposer dans le DFDR?
-N’importe qui peut utiliser le DFDR pour faire des recherches et télécharger des jeux de données. Il n’est pas nécessaire d’avoir un compte Globus affilié à un établissement d’enseignement postsecondaire canadien pour télécharger des jeux de données dans le DFDR à l’aide de Globus.
+Les membres du corps professoral, les bibliothécaires et les chercheur(-se)s affilié(e)s à des établissements postsecondaires et des organisations du Canada admissibles à recevoir des fonds des trois organismes peuvent déposer des données dans le DFDR. Les membres du corps professoral peuvent parrainer des personnes désignées, notamment des collaborateur(-trice)s externes, des étudiant(e)s diplômé(e)s, du personnel non associé à la recherche, des boursier(-ère)s de recherches postdoctorales, des assistant(e)s à la recherche, des étudiant(e)s de premier cycle et des professeur(e)s invité(e)s, afin qu’ils (elles) soumettent des données. Les demandes de dépôt de la part d’autres chercheur(-se)s du Canada (p. ex., gouvernement, organisation non gouvernementale) qui ne sont pas parrainé(e)s par un membre du corps professoral seront examinées au cas par cas.
 
-Les membres du corps professoral ou les bibliothécaires, ou leurs représentants désignés, d’un établissement d’enseignement postsecondaire canadien peuvent déposer des données dans le DFDR. Les membres du corps professoral peuvent parrainer des collaborateurs externes, tel que des étudiants des cycles supérieurs, des employés non chercheurs, des boursiers postdoctoraux, des assistants de recherche, des chercheurs, des étudiants de premier cycle et des professeurs invités pour qu’ils présentent des données. Les demandes de dépôt d’autres catégories de « chercheurs canadiens » (p. ex., le gouvernement ou les ONG) qui ne sont pas parrainés par un membre du corps professoral seront examinées au cas par cas.
+Pour en savoir davantage, veuillez consulter notre [Politique en matière de soumission de données](/policies/fr/soumission_donn%C3%A9es/). Si vous ne savez pas si vous êtes admissibles à déposer des données dans le DFDR, veuillez envoyer un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
-
-## 2. Créer un compte Globus
+## 2. Créer un compte DFDR (et Globus)
+Le DFDR utilise [Globus](https://www.globus.org/data-transfer) pour faciliter les transferts de données et Globus Groups pour gérer dans quelle collection une personne a la permission de déposer des données. Lors de la création de votre compte DFDR, vous créerez également un compte Globus.
 
 <div class="video-wrap">
 <a href="https://www.youtube.com/watch?v=-bQ_npErGwA&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=fr&cc_load_policy=1" target="_blank">
@@ -21,20 +20,17 @@ Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veui
 </a>
 </div>
 
+[Cliquez ici](/repo/PublishDashboard?locale=fr) pour ouvrir une session avec un compte existant ou pour créer un nouveau compte, puis sélectionnez votre établissement ou Calcul Canada dans la liste déroulante. Si votre établissement ne figure pas dans la liste, nous vous recommandons de vous connecter avec votre identifiant ORCiD.
 
-Vous pouvez utiliser quatre options pour créer un compte Globus : 1) par une ouverture de session institutionnelle à partir d’un établissement postsecondaire canadien, 2) par le biais d’un compte de Calcul Canada, 3) au moyen d’un ID ORCID ou 4) par l’inscription directe pour obtenir un ID Globus. Vous pouvez également ouvrir un compte au moyen de Google; toutefois, ce n'est pas la méthode privilégiée et celle-ci exigera une vérification supplémentaire. *Afin de faciliter la vérification, nous vous invitons fortement à utiliser l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.*
-
-[Cliquez ici](/repo/PublishDashboard?locale=fr) pour ouvrir une session avec un compte existant ou pour créer un nouveau compte. Vous devrez sélectionner votre établissement ou Calcul Canada dans la liste déroulante. Si votre établissement ne figure pas dans la liste déroulante, vous devrez choisir une autre option. Si vous voulez utiliser votre ID ORCID, celui-ci doit être associé à l’adresse électronique d’un établissement d’enseignement postsecondaire canadien.
-
-Si aucune des options ci-dessus ne vous convient, [cliquez ici pour créer un compte](https://www.globusid.org/create?locale=fr-ca) directement auprès de Globus à l’aide de votre adresse électronique institutionnelle et retournez à la [page d’ouverture de session du](/repo/PublishDashboard?locale=fr) DFDR lorsque vous avez un compte.
+Si aucune des options ci-dessus ne vous convient, [cliquez ici pour créer un compte](https://www.globusid.org/create?viewlocale=fr_CA) directement auprès de Globus en utilisant votre adresse courriel institutionnelle, puis retournez à la page [d’ouverture de session](/repo/PublishDashboard?locale=fr) du DFDR une fois que vous aurez un compte.
 
 ## 3. Obtenir l’autorisation de soumettre des données
 
-La première fois que vous ouvrirez une session dans le DFDR, vous serez dirigé vers un formulaire Web vous demandant de fournir des renseignements sur votre service (facultatif), votre rôle au sein de votre organisme et votre commanditaire du corps professoral (s’il y a lieu). Cela nous aidera à vérifier que vous êtes admissible au dépôt dans le DFDR. Après avoir soumis votre demande, vous recevrez un courriel de bienvenue vous informant que le personnel du DFDR vérifie votre demande d’ouverture de compte. Ce processus peut prendre jusqu’à deux jours ouvrables. Si votre demande est approuvée, nous vous enverrons par courrier une invitation à déposer des données. *Si vous ne recevez aucun de ces courriels, veuillez consulter votre dossier de pourriels.*
-
-Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et le (la) professeur(e) qui parraine vos activités (s’il y a lieu). Cela nous aidera à confirmer que vous êtes admissible à déposer des données dans le DFDR. Une fois que vous aurez soumis votre demande, votre compte sera vérifié par le personnel du DFDR. Ce processus peut prendre jusqu’à deux jours ouvrables. Si votre demande est approuvée, vous recevrez de la part de Globus une invitation à déposer des données. Veuillez accepter cette invitation (vous devrez peut-être vérifier dans votre courrier indésirable), puis [ouvrez une session](/repo/?locale=fr) pour commencer.
 
 ## 4. Obtenir le logiciel de connexion de Globus
+
+Les petits ensembles de données peuvent être téléversés directement au moyen de l’interface de soumission, mais les ensembles de données comprenant des fichiers volumineux ou un grand nombre de fichiers doivent être transférés dans le DFDR par l’intermédiaire de Globus. Pour ce faire, vous devrez utiliser le [logiciel de connexion de Globus](https://www.globus.org/globus-connect).
 
 <div class="video-wrap">
 <a href="https://www.youtube.com/watch?v=fOAMB2VHC24&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=fr&cc_load_policy=1" target="_blank">
@@ -48,7 +44,8 @@ Si vous n’êtes pas certain d’être admissible au dépôt dans le DFDR, veui
 </a>
 </div>
 
-Déposer des données dans le DFDR requiert le logiciel de connexion de Globus.
+Si vos données se trouvent sur un ordinateur ou un lecteur de disque dur externe, suivez les étapes indiquées sur le [site Web de Globus](https://www.globus.org/globus-connect-personal) pour télécharger, installer et configurer Globus Connect Personal sur votre machine.
 
-Si vos données se trouvent sur votre ordinateur ou sur un lecteur de disque dur externe, suivez les étapes indiquées sur le site web de Globus pour télécharger, installer et configurer Globus Connect Personal sur votre machine.
-Si les données se trouvent sur le serveur de votre institution ou de votre laboratoire, contactez votre administrateur de réseau ou de système pour obtenir le nom Globus Endpoint du serveur que vous utilisez. Le Globus Connect Endpoint est l'emplacement physique où vos fichiers sont actuellement hébergés. Si votre institution ou votre laboratoire n'a pas installé Globus Endpoint sur les serveurs, demandez à l'administrateur de contacter [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Si vos données se trouvent sur le serveur d’un établissement ou d’un laboratoire, communiquez avec vos administrateur(-trice)s réseau ou système pour obtenir le nom du point de chute Globus du serveur que vous utilisez. Un point de chute Globus correspond à l’emplacement physique actuel de vos fichiers. Si votre établissement ou laboratoire n’a pas installé un point de chute Globus sur son serveur, demandez-lui d’envoyer un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+
+Si vous avez besoin d’aide pour configurer Globus, consultez notre FAQ ou envoyez un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).

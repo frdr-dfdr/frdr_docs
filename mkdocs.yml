@@ -12,6 +12,7 @@ nav:
         - "Depositing Data": en/depositing_data.md
         - "External Review": en/external_review.md
         - "After Depositing": en/after_depositing.md
+        - "Downloading Datasets": en/downloading.md
         - "Searching for Datasets": en/searching.md
         - "Advanced": en/advanced.md
         - "FAQ": en/faq.md
@@ -25,6 +26,7 @@ nav:
         - "Déposer les données": fr/déposer_les_données.md
         - "Examen externe": fr/examen_externe.md
         - "Après le dépôt": fr/après_le_dépôt.md
+        - "Téléchargement d’ensembles de données": fr/téléchargement.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Avancée": fr/avancee.md
         - "FAQ": fr/faq.md
@@ -35,12 +37,18 @@ extra_css:
     - css/docs-theme.css
 extra:
     repo_url: https://www.frdr-dfdr.ca/repo/
-    prefix: "/"
+    frdr_search_relative_url: /search
+    prefix: "/docs/"
     default_page_en: en/documentation/
     default_page_fr: fr/documentation/
     language_map:
         en:
-            "About": fr/à_propos/
+            "Our mission": fr/notre_mission/
+            "Our features": fr/nos_fonctionnalités/
+            "Our governance": fr/notre_gouvernance/
+            "Our team": fr/notre_équipe/
+            "Our partners": fr/nos_partenaires/
+            "Our journey": fr/notre_parcours/
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
@@ -48,12 +56,18 @@ extra:
             "Depositing Data": fr/déposer_les_données/
             "External Review": fr/examen_externe/
             "After Depositing": fr/après_le_dépôt/
+            "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
             "FAIR Principles": fr/principes_fair/
             "Style Guide": fr/guide_de_style/
             "Advanced": fr/avancee/
         fr:
-            "À propos": en/about/
+            "Notre mission": en/our_mission/
+            "Nos fonctionnalités": en/our_features/
+            "Notre gouvernance": en/our_governance/
+            "Notre équipe": en/our_team/
+            "Nos partenaires": en/our_partners/
+            "Notre parcours": en/our_journey/
             "Recherche de jeux de données": en/searching/
             "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
@@ -61,7 +75,11 @@ extra:
             "Déposer les données": en/depositing_data/
             "Examen Externe": en/external_review/
             "Après le dépôt": en/after_depositing/
+            "Téléchargement d’ensembles de données": /en/downloading/
             "FAQ": en/faq/
             "Principes FAIR": en/fair_principles/
             "Guide de style": en/style_guide/
             "Avancée": en/advanced/
+
+markdown_extensions:
+    - pymdownx.extra

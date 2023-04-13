@@ -1,18 +1,17 @@
  /* to fit the second navigation level we need to move the content down the page a little */
-#content {
-    padding-top:20px !important;
-    margin-top:48px !important;
+ #content {
+    margin-top:80px !important;
 }
 
 /* Pseudo element to fix anchors being hidden under navbar */
 h2::before, h3::before {
-  display: block;
-  content: " ";
-  margin-top: -75px;
-  height: 75px;
-  visibility: hidden;
-  pointer-events: none;
-}
+    display: block;
+    content: " ";
+    margin-top: -75px;
+    height: 75px;
+    visibility: hidden;
+    pointer-events: none;
+  }
 
 table {
     width: 100%;
@@ -21,6 +20,8 @@ table {
 .logo {
     margin-left: 10px;
     margin-right: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .logogroup {
@@ -34,6 +35,7 @@ table {
     flex: 50%;
     padding: 5px;
     height: 150;
+    width: 50%;
 }
 
 .endflex {
@@ -95,6 +97,7 @@ table {
     width: 100%;
     padding-left: 10px;
     background-color: #5b5b5b;
+    text-decoration: none;
 }
 
 .frdr-sidebar > ul > li.current {
@@ -132,6 +135,7 @@ table {
     height: 100%;
     width: 100%;
     padding-left: 30px;
+    text-decoration: none;
 }
 
 .frdr-sidebar > ul > li.current > ul > li > a:hover {
@@ -158,4 +162,48 @@ table {
 
 #current {
   border-bottom: 1px solid black;
+}
+/* Make FAQ questions expandable */
+summary {
+    padding-bottom: 5px;
+}
+summary > h6 {
+    display: inline;
+    padding-top: 80px;
+    pointer-events: none;
+}
+
+summary > p:empty{
+    display: none;
+}
+
+#main-content h2 {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+h2, h3 {
+    pointer-events: none;
+}
+
+.expand-all-btn {
+    margin-top: -0.5rem;
+}
+
+.expand-all-btn::before {
+    content: "▼";
+    float: left;
+    transform: rotate(-90deg);
+}
+
+.expand-all-btn.expanded::before {
+    transform: rotate(0);
+    transition: transform 0.1s ease;
+}
+
+p:has(button) {
+    margin-bottom: 1rem;
+}
+
+h1+ul {
+    margin-top: 1rem;
 }

@@ -2,7 +2,7 @@ Publiés pour la première fois en 2016, les principes FAIR ont été élaborés
 
 Dans le DFDR, les principes FAIR s’articulent ainsi :
 
-### ÊTRE DÉCOUVRABLE (FINDABLE) :
+### ÈTRE FACILE À TROUVER:
 **F1. Les (méta)données sont assorties d’un identifiant persistent et unique à l’échelle internationale.**
 
 Le DFDR assigne un DOI à toutes les soumissions acceptées par l’entremise de DataCite Canada.
