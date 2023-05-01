@@ -30,7 +30,7 @@ La première fois que vous ouvrirez une session dans le DFDR, on vous demandera 
 
 ## 4. Obtenir le logiciel de connexion de Globus
 
-Les petits ensembles de données peuvent être téléversés directement au moyen de l’interface de soumission, mais les ensembles de données comprenant des fichiers volumineux ou un grand nombre de fichiers doivent être transférés dans le DFDR par l’intermédiaire de Globus. Pour ce faire, vous devrez utiliser le [logiciel de connexion de Globus](https://www.globus.org/globus-connect).
+Les petits jeux de données peuvent être téléversés directement au moyen de l’interface de soumission, mais les jeux de données comprenant des fichiers volumineux ou un grand nombre de fichiers doivent être transférés dans le DFDR par l’intermédiaire de Globus. Pour ce faire, vous devrez utiliser le [logiciel de connexion de Globus](https://www.globus.org/globus-connect).
 
 <div class="video-wrap">
 <a href="https://www.youtube.com/watch?v=fOAMB2VHC24&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=fr&cc_load_policy=1" target="_blank">

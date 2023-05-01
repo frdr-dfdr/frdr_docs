@@ -30,25 +30,21 @@ Ce sont les logos officiels du DFDR. Elles peuvent être agrandies ou réduites 
 
 <img style="margin:40px;background:black;max-width: 600px" src="/docs/img/styleguide/FRDR-EN-WHITE.png" alt="Logo" />
 
-**Bilingue, pour utilisation sur un fond blanc ou de couleur pale, fond transparent:**
+**Bilingue, le français d’abord, pour utilisation sur un fond blanc ou de couleur pale, fond transparent:**
 
 <img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/FRDR-FR-EN.png" alt="Logo" />
 
-**Bilingue, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:**
+**Bilingue, le français d’abord, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:**
 
 <img style="margin:40px;background:black;max-width: 600px" src="/docs/img/styleguide/FRDR-FR-EN-WHITE.png" alt="Logo" />
 
-**En français seulement, niveaux de gris, fond transparent:**
+**Bilingue, l’anglais  d’abord, pour utilisation sur un fond blanc ou de couleur pale, fond transparent:**
 
-<img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/FRDR-FR-GREY.png" alt="Logo"/>
+<img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/FRDR-EN-FR.png" alt="Logo" />
 
-**En anglais seulement, niveaux de gris, fond transparent:**
+**Bilingue, l’anglais d’abord, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:**
 
-<img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/FRDR-EN-GREY.png" alt="Logo"/>
-
-**Bilingue, niveaux de gris, fond transparent:**
-
-<img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/FRDR-FR-EN-GREY.png" alt="Logo"/>
+<img style="margin:40px;background:black;max-width: 600px" src="/docs/img/styleguide/FRDR-EN-FR-WHITE.png" alt="Logo" />
 
 **Aucune désignation de langue, à utiliser comme icône carrée, fond blanc:**
 

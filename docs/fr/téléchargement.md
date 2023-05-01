@@ -1,20 +1,20 @@
-## Trouver des ensembles de données
-Si vous n’avez pas le lien direct vers un ensemble de données hébergé dans le DFDR, vous pouvez naviguer parmi les ensembles de données disponibles en utilisant le [découverte du DFDR](/repo/search?locale=fr).
+## Trouver des jeux de données
+Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DFDR, vous pouvez naviguer parmi les jeux de données disponibles en utilisant le [découverte du DFDR](/repo/search?locale=fr).
 
-## Télécharger des ensembles de données à partir d’un navigateur Web
-L’outil de recherche de fichiers se trouve au bas de la page d’accueil de chaque ensemble de données.
+## Télécharger des jeux de données à partir d’un navigateur Web
+L’outil de recherche de fichiers se trouve au bas de la page d’accueil de chaque jeu de données.
 
 <a href="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" class="screenshot-lightbox">
 <img src="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" alt="Capture d'écran montrant le widget de navigation de fichiers sur la page d'accueil de l'élément FRDR." class="screenshot"/>
 </a>
 
-Pour télécharger des ensembles de données à partir d’un navigateur Web, la marche à suivre est la même que pour tout autre fichier sur Internet. Il suffit de cliquer sur le nom du fichier dans l’outil de recherche du DFDR pour le télécharger sur votre appareil. Gardez à l’esprit que cette méthode comporte plusieurs limites :
+Pour télécharger des jeux de données à partir d’un navigateur Web, la marche à suivre est la même que pour tout autre fichier sur Internet. Il suffit de cliquer sur le nom du fichier dans l’outil de recherche du DFDR pour le télécharger sur votre appareil. Gardez à l’esprit que cette méthode comporte plusieurs limites :
 
 * Il faut télécharger chaque fichier individuellement.
-* Les transferts Web ne sont pas aussi rapides ni fiables que ceux effectués avec Globus à partir de votre appareil local ou d’un autre terminal. Selon la vitesse de votre Internet, nous vous recommandons d’utiliser Globus pour télécharger les fichiers de plus de 5 Go ainsi que les ensembles de données comprenant un grand nombre de fichiers.
-* Certains répertoires comprennent trop de fichiers pour être bien recensés sur un navigateur Web. L’outil de recherche de fichiers indiquera si la liste de fichiers est tronquée. Si c’est le cas, cliquez sur « Télécharger l’ensemble de données » pour ouvrir l’écran de gestion des fichiers de Globus et afficher tous les fichiers de l’ensemble de données ainsi que la liste complète du répertoire.
+* Les transferts Web ne sont pas aussi rapides ni fiables que ceux effectués avec Globus à partir de votre appareil local ou d’un autre terminal. Selon la vitesse de votre Internet, nous vous recommandons d’utiliser Globus pour télécharger les fichiers de plus de 5 Go ainsi que les jeux de données comprenant un grand nombre de fichiers.
+* Certains répertoires comprennent trop de fichiers pour être bien recensés sur un navigateur Web. L’outil de recherche de fichiers indiquera si la liste de fichiers est tronquée. Si c’est le cas, cliquez sur « Télécharger le jeu de données » pour ouvrir l’écran de gestion des fichiers de Globus et afficher tous les fichiers du jeu de données ainsi que la liste complète du répertoire.
 
-## Télécharger des ensembles de données avec Globus Transfer
+## Télécharger des jeux de données avec Globus Transfer
 Globus est un logiciel gratuit qui permet de transférer des fichiers de façon sûre et à haute vitesse. Il s’agit de la méthode la plus efficace pour télécharger une grande quantité de données dans le DFDR. Pour utiliser Globus, vous devez soit accéder à un serveur sur lequel Globus est déjà installé (c’est le cas pour la plupart des [sites d’hébergement nationaux](https://alliancecan.ca/fr/services/calcul-informatique-de-pointe/la-federation/sites-dhebergement-nationaux) de l’Alliance de recherche numérique du Canada), soit créer votre propre compte Globus et installer [Globus Connect Personal](https://www.globus.org/globus-connect-personal) sur votre appareil.
 
 La vidéo ci-dessous présente les étapes détaillées pour configurer un terminal Globus Transfer :

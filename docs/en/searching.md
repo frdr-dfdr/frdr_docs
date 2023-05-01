@@ -1,6 +1,6 @@
 The redesigned FRDR Discovery Service separated from the FRDR website and launched as a standalone platform, Lunaris, on March 29th, 2023. [Lunaris](https://www.lunaris.ca/en) aggregates metadata from 100+ repositories, including datasets deposited in FRDR’s repository platform. It offers powerful functionality in discovering Canadian research data by using both text and map-based searching.  
 
-You can also search for data deposited in FRDR using our internal search functionality,below.
+You can also search for data deposited in FRDR using our <a href="/repo/search" target="_blank">internal search</a> functionality.
 
 ## Search Methods
 
@@ -21,7 +21,7 @@ Enter your search term (one or more words) into the search box and click the sea
     * lakes AND rivers: This search returns results with both the word “lakes” and the word “rivers” in any field.
     * lakes OR rivers: This search returns results with either the word “lakes” or the word “rivers” in any field.
 
-* **Wildcards:** This can be used to replace any number of characters (*) or an individual character (?) in text-based fields. For example, this search retrieves results with words that start with “Canad” (such as “Canada” and “Canadian”): canad* . You can also specify the exact number of characters to be replaced, using one question mark per character. For example, this search returns results including the word “gray” or “grey”: gr?y
+* **Wildcards:** This can be used to replace any number of characters (\*) or an individual character (?) in text-based fields. For example, this search retrieves results with words that start with “Canad” (such as “Canada” and “Canadian”): canad\* .
 
 * **Fuzziness:** Some fuzziness is already achieved by the stemming applied to fields with text-based content, such as title, description, and keywords. For example, stemming means that “economic” and “economics” are treated as equivalent. 
 
@@ -80,6 +80,6 @@ To view and download data files, see the section labeled "Files in Dataset." You
 
 ## Sorting
 
-The search results page has a drop down sorting menu to specify the order that search results are displayed. Sorting can be specified by Relevance (default), Date Published, or Title. Note that sorting is case-sensitive. Titles beginning with a lowercase letter (e.g., "dGPS") or with accented characters (e.g., "Évaluation de l'impact du programme...") will appear after "Zooplankton."
+The search results page has a drop down sorting menu to specify the order that search results are displayed. Sorting can be specified by Relevance (default), Date Published, or Title.
 
 By default, Search results are sorted by "Relevance" - a weighting scheme that favours matches found in the title first, then subject, then description.

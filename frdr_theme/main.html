@@ -7,8 +7,8 @@
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
         <link rel="stylesheet" href="/static/js/jquery-ui-1.12.1/jquery-ui.min.css" type="text/css"/>
         <link rel="stylesheet" href="/static/css/boostrap-4.6.0/bootstrap.min.css" type="text/css"/>
-        <link rel="stylesheet" href="/static/css/frdr-theme.css" type="text/css"/>
-        <link rel="stylesheet" href="{{ config.extra.prefix }}css/docs-theme.css" type="text/css"/>
+        <link rel="stylesheet" href="/static/css/frdr-theme.css?v=20230329" type="text/css"/>
+        <link rel="stylesheet" href="{{ config.extra.prefix }}css/docs-theme.css?v=20230329" type="text/css"/>
         <link rel="stylesheet" href="/static/fonts/latest/fontawesome-5.15.4/css/all.min.css" type="text/css" />
         <script type="text/javascript" src="/static/js/jquery/jquery-1.12.4.min.js"></script>
         <script type="text/javascript" src="/static/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
@@ -35,7 +35,7 @@
                             <div class="input-group d-none d-lg-flex">
                                 <input type="hidden" name="lang" id="srch-lang" value="{% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">               
                                 <label for="srch-term" class="d-none"></label>
-                                <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des ensembles de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
+                                <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
                                 <span class="input-group-append">
                                 <button class="btn search-button" type="submit">
                                     <span class="fas fa-search" aria-hidden="true"></span>
@@ -60,7 +60,7 @@
                                 <div class="input-group">
                                     <input type="hidden" name="lang" id="srch-lang" value="{% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">               
                                     <label for="srch-term" class="d-none"></label>
-                                    <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des ensembles de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
+                                    <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
                                     <span class="input-group-append">
                                     <button class="btn search-button" type="submit">
                                         <span class="fas fa-search" aria-hidden="true"></span>
@@ -248,7 +248,7 @@
                                                 <a href="/docs/fr/notre_mission/">À propos</a>
                                             </li>
                                             <li>
-                                                <a href="/repo/contactus?locale=fr">Contactez-nous</a>
+                                                <a href="/repo/contactus?locale=fr">Contactez nous</a>
                                             </li>
                                             <li>
                                                 <a href="/policies/fr/privacy/">Politique de confidentialité</a>
