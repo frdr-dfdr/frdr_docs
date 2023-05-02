@@ -34,10 +34,10 @@
                         <form action="{{config.extra.repo_url}}{{config.extra.frdr_search_relative_url}}" method="get">
                             <div class="input-group d-none d-lg-flex">
                                 <input type="hidden" name="lang" id="srch-lang" value="{% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">               
-                                <label for="srch-term" class="d-none"></label>
-                                <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
+                                <label for="srch-term-1" class="d-none">{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}</label>
+                                <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term-1"  style="font-size: 14px;">
                                 <span class="input-group-append">
-                                <button class="btn search-button" type="submit">
+                                <button class="btn search-button" type="submit" aria-label="Submit search">
                                     <span class="fas fa-search" aria-hidden="true"></span>
                                 </button>
                                 </span>
@@ -59,10 +59,10 @@
                             <form action="{{config.extra.repo_url}}{{config.extra.frdr_search_relative_url}}" method="get">
                                 <div class="input-group">
                                     <input type="hidden" name="lang" id="srch-lang" value="{% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">               
-                                    <label for="srch-term" class="d-none"></label>
-                                    <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term"  style="font-size: 14px;">
+                                    <label for="srch-term-2" class="d-none">{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}</label>
+                                    <input type="text" class="search_bar form-control" placeholder="{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term-2"  style="font-size: 14px;">
                                     <span class="input-group-append">
-                                    <button class="btn search-button" type="submit">
+                                    <button class="btn search-button" type="submit" aria-label="Submit search">
                                         <span class="fas fa-search" aria-hidden="true"></span>
                                     </button>
                                     </span>
