@@ -3,8 +3,8 @@ We have included answers to some of our frequently asked questions below, but we
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ###### 1. Who can use FRDR?
 </summary>
 Anyone may use FRDR to search for and download datasets.
@@ -14,48 +14,48 @@ Principal Investigators (PIs) from any research discipline, and their sponsored 
 Please refer to the [Data Submission Policy](/policies/en/data_submission/)  for more information.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. How is FRDR funded?
 </summary>
 
 FRDR is funded by the Digital Research Alliance of Canada, a national not-for-profit funded by Innovation, Science, and Economic Development Canada with a mandate to support Digital Research Infrastructure activities nationally.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Do I still own the data I deposit in FRDR?
 </summary>
 
 Yes, you do. FRDR does not own the data you choose to publish in the repository. When you decide to deposit data within FRDR,  you grant FRDR permission to steward the copy of the data that was deposited in the repository, and you retain your ownership rights.  Please see our Data Submission Policy, [section 6.0 Rights and Ownership](/policies/en/data_submission/#60-rights-and-ownership) for further information.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######4. After I submit my dataset, when will it be searchable?
 </summary>
 
 After you submit your dataset, it will go through our internal review, or curation process. This typically takes 2-5 business days. Once approved for publication, your DOI will be registered with DataCite and your data will be indexed for discovery, unless you have selected an embargo to delay discovery. 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######5. Can I deposit data to FRDR and have it stored in my province/institution?
 </summary>
 
 Yes, a design feature of FRDR is that data storage locations can be “federated.” An institution can apply to host a storage group that will be added to FRDR. The institution does not need to be running FRDR, just a Globus endpoint. If you are a representative of an institution and would like to apply to host a storage group, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######6. Does FRDR assign DOIs to datasets?
 </summary>
 
 Yes! Each dataset in FRDR is assigned a unique digital object identifier (DOI), which can be used to cite the data. The DOI will be registered with [DataCite](https://datacite.org/) when the dataset is published. 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######7. Can I get a DOI before my dataset is published?
 </summary>
 
@@ -69,8 +69,8 @@ Your DOI is listed under the dataset title in your publication dashboard.
 If you are worried that your data are not in compliance with our terms of use (e.g., if you are redistributing content you obtained from an external source, or if you have potentially sensitive content), please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). We can work with you to determine whether the DOI can be shared ahead of curation (our internal review process) and dataset publication. 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######8. Can I share data collected from human participants? 
 </summary>
 
@@ -81,16 +81,16 @@ FRDR does not currently accept restricted access data. All data will be publicly
 If you have questions about whether a particular dataset may be published,  please consult the Research Ethics Board of record. For data which has already been collected, the [Tri-Agency Guidance on Depositing Existing Data in Public Repositories](https://ethics.gc.ca/eng/depositing_depots.html) may be helpful.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######9. Can I set up a collection for my research group?
 </summary>
 
 FRDR is happy to create a collection for your research group, your lab, or data outputs of a specific research program. Please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) to set up a consultation. 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######10. Is there a sandbox or demo server where I can test things out?
 </summary>
 
@@ -105,16 +105,16 @@ As much as possible, the demo will be kept up-to-date with the latest version of
 
 ### User account
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Do I need a FRDR account to deposit data?
 </summary>
 
 FRDR does require you to create an account before you can deposit data. You can [sign up](/repo/PublishDashboard) using your Institutional ID, Federation ID, ORCID, or a Globus ID. The first time you log into FRDR, you will be asked to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us to verify that you are eligible to deposit in FRDR. Please refer to the [Before Depositing](before_depositing.md) for more information.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Why can't I log in using my ORCID account?
 </summary>
 
@@ -129,8 +129,8 @@ To confirm this is the issue, try disabling your Adblocker before logging in. To
 
 ### How to deposit
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. How can I link my dataset to related research outputs?
 </summary>
 
@@ -139,8 +139,8 @@ You can link your FRDR dataset to related publications, datasets, code, models, 
 To add links to related research outputs after your dataset has been submitted, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Does FRDR require a README or other documentation?
 </summary>
 
@@ -149,8 +149,8 @@ Documentation will provide context for your data, and we strongly recommend that
 For further guidance and a README template, please see [Documenting Your Submission](preparing_your_data.md#documenting-your-submission). Our curation team is also happy to work with you to create documentation for your dataset. Please reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) if you would like assistance. 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Can I deposit my code in FRDR?
 </summary>
 
@@ -161,8 +161,8 @@ If you would like a DOI for your software, code can be pushed from GitHub to Zen
 You can use the “Related Identifier” metadata element in FRDR to link from your dataset to your code, model, software, or other research outputs where they are published. If you are questioning whether to include code or software with your data in FRDR, you are welcome to reach out to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######4. What information should I include with my code?
 </summary>
 
@@ -177,8 +177,8 @@ Code that is self-describing or well commented may remain more useful over time.
 You may add this information to your README file, a requirements.txt file, and/or include it as header information or comments directly in your code files.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######5. How do I add colleagues as collaborators to my dataset?
 </summary>
 
@@ -189,8 +189,8 @@ An email invitation will be sent to your collaborator. Once they have accepted y
 Note: Collaborators must have an account in FRDR. If you wish to share data with a journal editor, international colleague, or someone who cannot create a FRDR account, please use the “External Review” option. External reviewers will have permission to view data files and a subset of your metadata, but cannot make changes.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######6. Can I share restricted access data in FRDR?
 </summary>
 
@@ -199,8 +199,8 @@ FRDR allows temporary embargoes to protect data from download, however, at this 
 Please see our [Terms of Use](/policies/en/terms_of_use/), specifically section 3.0 Submitter Responsibilities for further information.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######7. How can I update my (meta)data after I submit?
 </summary>
 
@@ -209,16 +209,16 @@ Once your dataset is published, it is part of the scholarly record, and our cura
 
 ### User Quota
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. How much storage do I get by default?
 </summary>
 
 You will have access to 1 TB of curated storage by default. If you think you will need additional storage, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. What happens when I reach my storage limit?
 </summary>
 
@@ -230,8 +230,8 @@ When a user reaches their quota in a collection, the following will happen:
 * An email may be sent to the user and to the curators (as defined in the quota policy), explaining that the user has reached their quota and also showing the total amount of collection quota remaining.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. How can I request more storage?
 </summary>
 
@@ -240,8 +240,8 @@ If you have reached your quota limit, or believe an extension on quota is requir
 
 ### Globus
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. How do I configure Globus for data transfer?
 </summary>
 
@@ -260,8 +260,8 @@ To configure Globus:
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. What is Data Curation?
 </summary>
 
@@ -279,8 +279,8 @@ Your dataset will be reviewed by a member of the FRDR curation team ahead of pub
 For further information, please see our guidance on [preparing your data](preparing_your_data.md) for deposit. If you have questions about the curation process, or would like to consult with a curator ahead of data deposit, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. Does FRDR review code?
 </summary>
 
@@ -289,8 +289,8 @@ FRDR curators will look at code and scripts that are included with your data, ho
 We may try to run code and provide feedback on any issues we encounter (e.g., is there an unreported dependency that was installed in the development environment that causes the code to stall on another machine). Curators may make suggestions about adding comments, licensing information, or other context to help ensure usefulness of the code over time. If a portion of  your code was written by a third-party source, we may check to confirm that the license selected for the code deposited in FRDR is not more permissive than the license assigned to the source code.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Does FRDR offer long-term preservation?
 </summary>
 
@@ -308,8 +308,8 @@ Depositors can contribute to the appraisal process during submission by answerin
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######1. Why can't I download a file via my web browser (using HTTP)?
 </summary>
 
@@ -319,8 +319,8 @@ It might be for a few reasons:
 * We have a maximum file size of 10 GB for HTTP download. For files larger than 10GB, please use Globus to transfer the file to your endpoint (local machine, external hard drive, server, etc.). 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######2. What tool can I use to calculate checksums?
 </summary>
 
@@ -329,24 +329,24 @@ Users can download a frdr-checksums-and-filetypes.md file from the FRDR interfac
 There is a free tool to calculate SHA-256 checksums here: https://quickhash-gui.org/
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######3. Are FRDR datasets indexed for international discovery?
 </summary>
 
 FRDR datasets are indexed for discovery in [Lunaris](https://www.lunaris.ca/en), [Google Dataset Search](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest, and others. FRDR metadata are also exposed for harvest (and discovery) via an OAI-PMH feed, so data may be discoverable on other platforms.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######4. Can I still use FRDR to discover Canadian research data?
 </summary>
 
 You can search for datasets published in FRDR using the FRDR search interface. To search across Canadian data repositories, including datasets published in FRDR, please visit the Lunaris website at: https://www.lunaris.ca/en 
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######5. Can I reuse or redistribute data in FRDR?
 </summary>
 
@@ -357,8 +357,8 @@ You are free to download and use data in FRDR, however certain restrictions may 
 Please see our [Access and Reuse Policy](/policies/en/access_reuse/) for further information. If you have questions about the terms assigned to a specific dataset, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) and provide the dataset DOI.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######6. How do I cite data in FRDR?
 </summary>
 We display a recommended citation at the bottom of each dataset landing page. We recommend including author names, dataset title, publication year, repository name, and the dataset DOI in your citation. You may also wish to include the version number of the dataset you used if multiple versions are available, and/or the date you accessed the dataset. E.g.,
@@ -366,8 +366,8 @@ We display a recommended citation at the bottom of each dataset landing page. We
 Author AA, Author B, Author C. (2023). This is the dataset title. Version 1. Federated Research Data Repository. https://doi.org/10.20383/102.0NNN. Accessed 4 February, 2023.
 </details>
 
-<details markdown="1">
-<summary markdown="span">
+<details markdown="block">
+<summary markdown="block">
 ######7. How can I measure the impact of my datasets?
 </summary>
 Various statistics are available for data submitted to FRDR, including the number of views and file downloads. To access these stats, navigate to the dataset landing page and click the “View item statistics” button at the bottom of the record.

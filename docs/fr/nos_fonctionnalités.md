@@ -8,8 +8,8 @@ hidesidebar: true
 * Allocation par défaut de 1 To d’espace de stockage de données
 * Embargos facultatifs sur les enregistrements de données et de métadonnées
 * Collaboration avec les autres titulaires d’un compte DFDR pour les soumissions
-* Examen des ensembles de données et soutien continu offert par l’équipe de curation du DFDR ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
-* Téléchargement et téléversement rapides et efficaces au moyen de Globus File Transfer et transferts depuis un navigateur Web pour les ensembles de données de petite taille
+* Examen des jeux de données et soutien continu offert par l’équipe de curation du DFDR ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
+* Téléchargement et téléversement rapides et efficaces au moyen de Globus File Transfer et transferts depuis un navigateur Web pour les jeux de données de petite taille
 * Collections spéciales pour les groupes de recherche avec l’image de marque de l’organisation et des liens vers du contenu Web externe
 *  Soutien pour plusieurs fournisseurs d’authentification, y compris Calcul Canada, ORCID et un nombre croissant d’établissements postsecondaires du Canada
 * Perfectionnement prévu des fonctionnalités, lancement programmé de versions, et mises à jour

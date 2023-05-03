@@ -24,14 +24,14 @@
 * ADNr 
 * Reproduction 
 
-**Domaine de recherche** : Choisissez un ou plusieurs domaines de recherche en utilisant le(s) nom(s) de domaine de la [Classification canadienne de la recherche et développement](https://www.statcan.gc.ca/fra/sujets/norme/ccrd/2020v1/indice) applicable(s) à cet ensemble de données.
+**Domaine de recherche** : Choisissez un ou plusieurs domaines de recherche en utilisant le(s) nom(s) de domaine de la [Classification canadienne de la recherche et développement](https://www.statcan.gc.ca/fra/sujets/norme/ccrd/2020v1/indice) applicable(s) à votre jeu de données.
  
-Les domaines de recherche sont organisés en groupes, qui sont subdivisés en classes. Pour trouver le ou les domaines de recherche applicables à votre ensemble de données, utilisez les menus déroulants pour le groupe, la classe et le domaine. Vous pouvez également parcourir la classification en français ou en anglais à l’aide de la documentation de Statistique Canada :
+Les domaines de recherche sont organisés en groupes, qui sont subdivisés en classes. Pour trouver le ou les domaines de recherche applicables à votre jeu de données, utilisez les menus déroulants pour le groupe, la classe et le domaine. Vous pouvez également parcourir la classification en français ou en anglais à l’aide de la documentation de Statistique Canada :
 
 * [Classification Canadienne de la Recherche et Développement (CCRD) 2020 version 1.0 - Domaine de recherche (DDR)](https://www23.statcan.gc.ca/imdb/p3VD_f.pl?Function=getVD&TVD=1278187)
 * [Research and Development Classification (CRDC) 2020 Version 1.0 - Field of Research (FOR)](https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1278187)
  
-Sélectionnez autant de domaines que nécessaire pour décrire l’ensemble de données. Si votre domaine de recherche ne figure pas dans la liste, choisissez l’un des domaines portant la mention « non classé ailleurs ». 
+Sélectionnez autant de domaines que nécessaire pour décrire votre jeu de données. Si votre domaine de recherche ne figure pas dans la liste, choisissez l’un des domaines portant la mention « non classé ailleurs ». 
 
 
 **Auteur** : Entrez le nom, l’affiliation et l’ID ORCID de chaque auteur ou chercheur qui a produit le jeu de données. Vous pouvez inclure plusieurs auteurs.
@@ -185,12 +185,12 @@ Reportez-vous aux définitions suivantes pour chaque type de contributeur (tiré
 
 ## Métadonnées géographiques 
 
-**Couverture géographique** : La couverture géographique des ensembles de données, c'est-à-dire les lieux sur lesquels portent les ensembles de données. Pour chaque nom de lieu, remplissez le plus de champs possible pour décrire le lieu. Utilisez [GeoNames](https://www.geonames.org/) pour l'orthographe correcte des noms de lieux et évitez les abréviations.
+**Couverture géographique** : La couverture géographique des jeux de données, c'est-à-dire les lieux sur lesquels portent les jeux de données.  Pour chaque nom de lieu, remplissez le plus de champs possible pour décrire le lieu. Utilisez [GeoNames](https://www.geonames.org/) pour l'orthographe correcte des noms de lieux et évitez les abréviations.
 
 * **Nom de lieu** : Informations générales sur la couverture géographique des données. À utiliser pour les noms géographiques qui ne sont pas un pays, une province/territoire/État ou une ville ; par exemple, les régions, les plans d'eau, les noms astronomiques et les noms alternatifs.
-* **Pays** : Le pays ou la nation sur lequel portent les ensembles de données. Si un ensemble de données couvre plusieurs pays, indiquez-les tous séparément.
-* **Province / Territoire / État** : La province, le territoire ou l'État sur lequel portent les ensembles de données.
-* **Ville** : Le nom de la ville sur laquelle portent les ensembles de données.
+* **Pays** : Le pays ou la nation sur lequel portent les jeux de données. Si un jeu de données couvre plusieurs pays, indiquez-les tous séparément.
+* **Province / Territoire / État** : La province, le territoire ou l'État sur lequel portent les jeux de données.
+* **Ville** : Le nom de la ville sur laquelle portent les jeux de données.
 
 
 <ins>Exemple</ins> : 
