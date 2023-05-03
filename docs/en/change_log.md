@@ -1,5 +1,14 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-05-03**:
+
+* Fixed web accessibility issues on a few public facing pages
+* Updated some French translations of the word "dataset" to keep it consistent across the site
+* Replaced most tool tips with links to documentation for an improved experience and better accessibility
+* Added an option of "unsure" when asking depositors about the suitability of their dataset for long term preservation
+* Fixed the list of recent datasets on the home page to include author names
+* Fixed a problem with case sensitivity when searching for datasets
+
 **2023-03-29**:
 
 * The home page has been redesigned and new branding has been applied to all FRDR web pages
