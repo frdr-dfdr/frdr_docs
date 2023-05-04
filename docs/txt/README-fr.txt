@@ -1,133 +1,133 @@
-Ce fichier Lisez-moi.txt a été généré le AAAA-MM-JJ par NOM
+Ce fichier Lisez-moi.txt a Ã©tÃ© gÃ©nÃ©rÃ© le AAAA-MM-JJ par NOM
 
-## REMARQUE : Le texte d'aide est précédé des signes ##. Le supprimer avant d'enregistrer ce fichier!
-## Il s'agit d'un modle, n'hésitez pas  à le modifier. Veuillez supprimer toute section ou tout élément qui ne s'applique pas  à votre ensemble de données. Veuillez ajouter les renseignements supplémentaires qui ne se trouvent pas actuellement dans le modle et qui sont nécessaires pour interpréter ou réutiliser correctement vos données.  
+## REMARQUE : Le texte d'aide est prÃ©cÃ©dÃ© des signes ##. Le supprimer avant d'enregistrer ce fichier!
+## Il s'agit d'un modÂle, n'hÃ©sitez pas  Ã  le modifier. Veuillez supprimer toute section ou tout Ã©lÃ©ment qui ne s'applique pas  Ã  votre jeu de donnÃ©es. Veuillez ajouter les renseignements supplÃ©mentaires qui ne se trouvent pas actuellement dans le modÂle et qui sont nÃ©cessaires pour interprÃ©ter ou rÃ©utiliser correctement vos donnÃ©es.  
 
 -----------------------
-RENSEIGNEMENTS GÉNÉRAUX
+RENSEIGNEMENTS GÃ‰NÃ‰RAUX
 -----------------------
 
-1. Titre de l'ensemble de données : 
+1. Titre de le jeu de donnÃ©es : 
 
 2. Renseignements sur l'auteur
-	A. Coordonnées du chercheur principal
+	A. CoordonnÃ©es du chercheur principal
 		Nom : 
-		Établissement :  
-		Adresse électronique : 
+		Ã‰tablissement :  
+		Adresse Ã©lectronique : 
 
-	B. Coordonnées de l'associé ou du cochercheur
+	B. CoordonnÃ©es de l'associÃ© ou du cochercheur
 		Nom : 
-		Établissement :  
-		Adresse électronique : 
+		Ã‰tablissement :  
+		Adresse Ã©lectronique : 
 
 
-3. Date de la collecte des données (date unique, intervalle, date approximative) : 
+3. Date de la collecte des donnÃ©es (date unique, intervalle, date approximative) : 
 
-## Format suggéré : AAAA-MM-JJ
+## Format suggÃ©rÃ© : AAAA-MM-JJ
 
-4. Emplacement géographique de la collecte des données : 
+4. Emplacement gÃ©ographique de la collecte des donnÃ©es : 
 
-## latitude, longitude ou ville/région, province, pays, selon le cas
+## latitude, longitude ou ville/rÃ©gion, province, pays, selon le cas
 
-5. Renseignements sur les sources de financement qui ont appuyé la collecte des données : 
+5. Renseignements sur les sources de financement qui ont appuyÃ© la collecte des donnÃ©es : 
 
 
 ---------------------------------
-PARTAGE DE L'INFORMATION OU ACCÈS
+PARTAGE DE L'INFORMATION OU ACCÃˆS
 ---------------------------------
 
-1. Licences ou restrictions imposées aux données : 
+1. Licences ou restrictions imposÃ©es aux donnÃ©es : 
 
 ## Par exemple :
-## Ces données sont disponibles sous licence CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/> 
+## Ces donnÃ©es sont disponibles sous licence CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/> 
 
-2. Liens vers les publications qui citent ou utilisent les données : 
+2. Liens vers les publications qui citent ou utilisent les donnÃ©es : 
 
-3. Liens ou relations avec des ensembles de données auxiliaires ou des progiciels : 
+3. Liens ou relations avec des jeux de donnÃ©es auxiliaires ou des progiciels : 
 
-5. Les données proviennent-elles d'une autre source? Oui ou non
+5. Les donnÃ©es proviennent-elles d'une autre source? Oui ou non
 	A. Si oui, indiquez la ou les sources : 
 
-6. Citation recommandée pour cet ensemble de données : 
+6. Citation recommandÃ©e pour ce jeu de donnÃ©es : 
 
-## Le DFDR recommande une citation comme suit : Auteur, A., Auteur, B. (ANNÉE). Titre du jeu de données. Dép™t fédéré de données de recherche. DOI
-## Les DOI sont réservés au début d'une soumission. Vous trouverez votre DOI dans le tableau de bord lié  à la publication, aprs avoir entamé un nouveau dép™t de données. Un responsable de l'intendance peut aussi vous aider  à ajouter le DOI aprs que vous aurez soumis votre ensemble de données pour examen.
+## Le DFDR recommande une citation comme suit : Auteur, A., Auteur, B. (ANNÃ‰E). Titre du jeu de donnÃ©es. DÃ©pâ„¢t fÃ©dÃ©rÃ© de donnÃ©es de recherche. DOI
+## Les DOI sont rÃ©servÃ©s au dÃ©but d'une soumission. Vous trouverez votre DOI dans le tableau de bord liÃ©  Ã  la publication, aprÂs avoir entamÃ© un nouveau dÃ©pâ„¢t de donnÃ©es. Un responsable de l'intendance peut aussi vous aider  Ã  ajouter le DOI aprÂs que vous aurez soumis votre jeu de donnÃ©es pour examen.
 
 ----------------------------------
-APERÇU DES DONNÉES ET DES FICHIERS
+APERÃ‡U DES DONNÃ‰ES ET DES FICHIERS
 ----------------------------------
 
 1. Liste des fichiers
 
-## Énumérez tous les fichiers (ou dossiers, selon l'organisation de l'ensemble de données) contenus dans l'ensemble de données, avec une brve description.
+## Ã‰numÃ©rez tous les fichiers (ou dossiers, selon l'organisation de le jeu de donnÃ©es) contenus dans le jeu de donnÃ©es, avec une brÂve description.
 
    A. Nom de fichier :       
-      Brve description :       
+      BrÂve description :       
 
    B. Nom de fichier :       
-      Brve description :       
+      BrÂve description :       
 
    C. Nom de fichier :       
-      Brve description :
+      BrÂve description :
 
 
 2. Relation entre les dossiers, si elle est importante : 
 
-3. Autres données connexes recueillies qui n'ont pas été incluses dans l'ensemble de données actuel : 
+3. Autres donnÃ©es connexes recueillies qui n'ont pas Ã©tÃ© incluses dans le jeu de donnÃ©es actuel : 
 
-4. Y a-t-il plusieurs versions de l'ensemble de données? Oui ou non
-	A. Si oui, nom du ou des fichiers mis  à jour : 
-		i. Pourquoi le dossier a-t-il été mis à jour? 
-		ii. Quand le fichier a-t-il été mis à jour? 
+4. Y a-t-il plusieurs versions de le jeu de donnÃ©es? Oui ou non
+	A. Si oui, nom du ou des fichiers mis  Ã  jour : 
+		i. Pourquoi le dossier a-t-il Ã©tÃ© mis Ã  jour? 
+		ii. Quand le fichier a-t-il Ã©tÃ© mis Ã  jour? 
 
 
 --------------------------
-INFORMATION MÉTHODOLOGIQUE
+INFORMATION MÃ‰THODOLOGIQUE
 --------------------------
 
-1. Description des méthodes utilisées pour la collecte et la production de données : 
+1. Description des mÃ©thodes utilisÃ©es pour la collecte et la production de donnÃ©es : 
 
-## Veuillez envisager d'inclure une brve description des méthodes que vous avez utilisées pour recueillir ou générer vos données. Vous pouvez également inclure des liens vers des publications ou d'autres documents qui contiennent un modle ou des protocoles expérimentaux utilisés pour la collecte de données.
-
-
-2. Méthodes de traitement des données : 
-
-## Décrivez la faon dont les données soumises ont été générées  à partir des données brutes ou recueillies.
+## Veuillez envisager d'inclure une brÂve description des mÃ©thodes que vous avez utilisÃ©es pour recueillir ou gÃ©nÃ©rer vos donnÃ©es. Vous pouvez Ã©galement inclure des liens vers des publications ou d'autres documents qui contiennent un modÂle ou des protocoles expÃ©rimentaux utilisÃ©s pour la collecte de donnÃ©es.
 
 
-3. Renseignements propres  à l'instrument ou au logiciel nécessaires pour interpréter les données : 
+2. MÃ©thodes de traitement des donnÃ©es : 
 
-## Indiquez le nom complet et la version des instruments ou des logiciels utilisés pour générer vos données, ainsi que tous les progiciels ou bibliothques nécessaires pour exécuter les scripts.
+## DÃ©crivez la faÂon dont les donnÃ©es soumises ont Ã©tÃ© gÃ©nÃ©rÃ©es  Ã  partir des donnÃ©es brutes ou recueillies.
 
 
-4. Renseignements sur les normes et l'étalonnage, le cas échéant : 
+3. Renseignements propres  Ã  l'instrument ou au logiciel nÃ©cessaires pour interprÃ©ter les donnÃ©es : 
 
-5. Conditions environnementales ou expérimentales : 
+## Indiquez le nom complet et la version des instruments ou des logiciels utilisÃ©s pour gÃ©nÃ©rer vos donnÃ©es, ainsi que tous les progiciels ou bibliothÂques nÃ©cessaires pour exÃ©cuter les scripts.
 
-6. Décrivez toutes les procédures d'assurance de la qualité auxquelles les données ont été soumises : 
 
-7. Personnes participant  à la collecte, au traitement,  à l'analyse ou  à la soumission d'échantillons : 
+4. Renseignements sur les normes et l'Ã©talonnage, le cas Ã©chÃ©ant : 
+
+5. Conditions environnementales ou expÃ©rimentales : 
+
+6. DÃ©crivez toutes les procÃ©dures d'assurance de la qualitÃ© auxquelles les donnÃ©es ont Ã©tÃ© soumises : 
+
+7. Personnes participant  Ã  la collecte, au traitement,  Ã  l'analyse ou  Ã  la soumission d'Ã©chantillons : 
 
 
 ---------------------------------------------------------------------------------------
-RENSEIGNEMENTS PROPRES AUX DONNÉES POUR : ## AJOUTEZ LE NOM DE FICHIER ou DE RÉPERTOIRE
+RENSEIGNEMENTS PROPRES AUX DONNÃ‰ES POUR : ## AJOUTEZ LE NOM DE FICHIER ou DE RÃ‰PERTOIRE
 ---------------------------------------------------------------------------------------
 
-## Créez des sections pour chaque répertoire, ensemble de données ou type de données inclus, selon le cas. Vous pouvez aussi choisir de télécharger un manuel de codes distinct.  
+## CrÃ©ez des sections pour chaque rÃ©pertoire, ensemble de donnÃ©es ou type de donnÃ©es inclus, selon le cas. Vous pouvez aussi choisir de tÃ©lÃ©charger un manuel de codes distinct.  
 
 1. Nombre de variables :
 
 2. Nombre de cas ou lignes :
 
-3. Codes de données manquants :
-        Code/symbole        Définition
-        Code/symbole        Définition
+3. Codes de donnÃ©es manquants :
+        Code/symbole        DÃ©finition
+        Code/symbole        DÃ©finition
 
 4. Liste des variables :
 
    ## Par exemple : Nom : Sexe
-           ## Description : Sexe du répondant
-           ## Ajoutez l'étiquette de valeur ou les unités de mesure, le cas échéant      
+           ## Description : Sexe du rÃ©pondant
+           ## Ajoutez l'Ã©tiquette de valeur ou les unitÃ©s de mesure, le cas Ã©chÃ©ant      
 		 ##   1 = Homme
                  ##   2 = Femme
                  ##   3 = Autre               
