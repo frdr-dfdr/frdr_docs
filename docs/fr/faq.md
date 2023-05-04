@@ -252,7 +252,7 @@ Pour configurer Globus :
 1. Faites un clic droit sur l’icône de Globus, puis sélectionnez « Options » (PC) ou « Préférences » (Mac). 
 2. Cliquez sur « Accès », puis sélectionnez les fichiers ou dossiers auxquels Globus pourra accéder pour le transfert de fichiers (téléchargement et téléversement).  
 3. Pour ajouter ou retirer des répertoires, utilisez les symboles + et -.
-4. Vous pouvez autoriser Globus à accéder à plusieurs répertoires, y compris les disques durs externes, et changer les répertoires en fonction des exigences. Par exemple, vous pouvez sélectionner votre disque dur externe pour télécharger un jeu de données volumineux.
+4. Vous pouvez autoriser Globus à accéder à plusieurs répertoires, y compris les disques durs externes, et changer les répertoires en fonction des exigences. Par exemple, vous pouvez sélectionner votre disque dur externe pour télécharger un ensemble de données volumineux.
 5.  Cliquez sur « Enregistrer ». Aucune modification apportée ne sera permanente tant que vous ne cliquerez pas sur ce bouton.
 </details>
 

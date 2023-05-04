@@ -96,7 +96,7 @@ D’autres champs permettent d’ajouter plusieurs valeurs dans le champ en sais
 </a>
 
 ## Indication d’une période d’embargo
-Si un jeu de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.
+Si un ensemble de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.
 
 Un embargo empêchera toujours la consultation ou le téléchargement de vos fichiers de données, mais vous pouvez choisir si les métadonnées qui décrivent votre jeu de données (titre, auteurs, description, etc.) sont accessibles au public ou non. Sous Advanced → Metadata Access, vous pouvez choisir si les métadonnées sont :
 

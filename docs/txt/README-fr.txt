@@ -1,13 +1,13 @@
 Ce fichier Lisez-moi.txt a été généré le AAAA-MM-JJ par NOM
 
 ## REMARQUE : Le texte d'aide est précédé des signes ##. Le supprimer avant d'enregistrer ce fichier!
-## Il s'agit d'un modle, n'hésitez pas  à le modifier. Veuillez supprimer toute section ou tout élément qui ne s'applique pas  à votre jeu de données. Veuillez ajouter les renseignements supplémentaires qui ne se trouvent pas actuellement dans le modle et qui sont nécessaires pour interpréter ou réutiliser correctement vos données.  
+## Il s'agit d'un modle, n'hésitez pas  à le modifier. Veuillez supprimer toute section ou tout élément qui ne s'applique pas  à votre ensemble de données. Veuillez ajouter les renseignements supplémentaires qui ne se trouvent pas actuellement dans le modle et qui sont nécessaires pour interpréter ou réutiliser correctement vos données.  
 
 -----------------------
 RENSEIGNEMENTS GÉNÉRAUX
 -----------------------
 
-1. Titre de le jeu de données : 
+1. Titre de l'ensemble de données : 
 
 2. Renseignements sur l'auteur
 	A. Coordonnées du chercheur principal
@@ -43,15 +43,15 @@ PARTAGE DE L'INFORMATION OU ACCÈS
 
 2. Liens vers les publications qui citent ou utilisent les données : 
 
-3. Liens ou relations avec des jeux de données auxiliaires ou des progiciels : 
+3. Liens ou relations avec des ensembles de données auxiliaires ou des progiciels : 
 
 5. Les données proviennent-elles d'une autre source? Oui ou non
 	A. Si oui, indiquez la ou les sources : 
 
-6. Citation recommandée pour ce jeu de données : 
+6. Citation recommandée pour cet ensemble de données : 
 
 ## Le DFDR recommande une citation comme suit : Auteur, A., Auteur, B. (ANNÉE). Titre du jeu de données. Dép™t fédéré de données de recherche. DOI
-## Les DOI sont réservés au début d'une soumission. Vous trouverez votre DOI dans le tableau de bord lié  à la publication, aprs avoir entamé un nouveau dép™t de données. Un responsable de l'intendance peut aussi vous aider  à ajouter le DOI aprs que vous aurez soumis votre jeu de données pour examen.
+## Les DOI sont réservés au début d'une soumission. Vous trouverez votre DOI dans le tableau de bord lié  à la publication, aprs avoir entamé un nouveau dép™t de données. Un responsable de l'intendance peut aussi vous aider  à ajouter le DOI aprs que vous aurez soumis votre ensemble de données pour examen.
 
 ----------------------------------
 APERÇU DES DONNÉES ET DES FICHIERS
@@ -59,7 +59,7 @@ APERÇU DES DONNÉES ET DES FICHIERS
 
 1. Liste des fichiers
 
-## Énumérez tous les fichiers (ou dossiers, selon l'organisation de le jeu de données) contenus dans le jeu de données, avec une brve description.
+## Énumérez tous les fichiers (ou dossiers, selon l'organisation de l'ensemble de données) contenus dans l'ensemble de données, avec une brve description.
 
    A. Nom de fichier :       
       Brve description :       
@@ -73,9 +73,9 @@ APERÇU DES DONNÉES ET DES FICHIERS
 
 2. Relation entre les dossiers, si elle est importante : 
 
-3. Autres données connexes recueillies qui n'ont pas été incluses dans le jeu de données actuel : 
+3. Autres données connexes recueillies qui n'ont pas été incluses dans l'ensemble de données actuel : 
 
-4. Y a-t-il plusieurs versions de le jeu de données? Oui ou non
+4. Y a-t-il plusieurs versions de l'ensemble de données? Oui ou non
 	A. Si oui, nom du ou des fichiers mis  à jour : 
 		i. Pourquoi le dossier a-t-il été mis à jour? 
 		ii. Quand le fichier a-t-il été mis à jour? 
@@ -113,7 +113,7 @@ INFORMATION MÉTHODOLOGIQUE
 RENSEIGNEMENTS PROPRES AUX DONNÉES POUR : ## AJOUTEZ LE NOM DE FICHIER ou DE RÉPERTOIRE
 ---------------------------------------------------------------------------------------
 
-## Créez des sections pour chaque répertoire, jeu de données ou type de données inclus, selon le cas. Vous pouvez aussi choisir de télécharger un manuel de codes distinct.  
+## Créez des sections pour chaque répertoire, ensemble de données ou type de données inclus, selon le cas. Vous pouvez aussi choisir de télécharger un manuel de codes distinct.  
 
 1. Nombre de variables :
 
