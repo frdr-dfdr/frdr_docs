@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-06-28**:
+
+* Home page list of recent datasets will no longer show datasets that are still under embargo
+* Improved the web accessibility of many internal pages
+* Removed the metadata harvesting policy (this has moved to Lunaris)
+
 **2023-05-03**:
 
 * Fixed web accessibility issues on a few public facing pages
