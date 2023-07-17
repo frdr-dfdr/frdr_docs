@@ -1,1 +1,1 @@
-Examen externe
+Évaluation externe
