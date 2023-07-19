@@ -28,8 +28,8 @@ Select the visibility of the metadata as needed for this review. Note that the m
 
 ## Editing the Dataset
 
-During the review process changes may need to be made to the dataset. This needs to be done by working with a curator. You can click the "revise" button for any dataset under embargo to request changes to a dataset.
+During the review process changes may need to be made to the dataset. This needs to be done by working with a curator. Click the "Revise" button for any dataset under embargo and under action requested select "Modify files or metadata".
 
 ## Finishing the Review
 
-If all reviews are complete and the embargo can be removed please use the <a href="/contactus">contact us</a> form and ask a curator to review the embargo.
+If all reviews are complete and the embargo can be removed, click the "Revise" button and under action requested select "Lift embargo".
