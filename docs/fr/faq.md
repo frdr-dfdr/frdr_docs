@@ -146,7 +146,7 @@ Pour ajouter des liens vers des produits de recherche connexes après avoir soum
 
 Les documents fournissent un contexte pour vos données, de sorte que nous vous recommandons fortement d’inclure un fichier Lisez-moi, un livre de codes ou tout autre document nécessaire pour garantir que vos données pourront être comprises et interprétées correctement au fil du temps!
 
-Pour obtenir d’autres conseils ou voir un modèle de fichier Lisez-moi, consultez la section [Documentation de votre soumission](préparation_de_vos_données.md#documentation-de-votre-soumission). Notre équipe de curation se fait également un plaisir de vous aider à créer des documents pour votre ensemble de données. Si vous avez besoin d’aide, n’hésitez pas à nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Pour obtenir d’autres conseils ou voir un modèle de fichier Lisez-moi, consultez la section [Documentation de votre soumission](préparation_de_vos_données.md#documentation-de-votre-soumission). Notre équipe de curation se fait également un plaisir de vous aider à créer des documents pour votre jeu de données. Si vous avez besoin d’aide, n’hésitez pas à nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
 <details markdown="block">
@@ -158,7 +158,7 @@ Lorsque vous déposez des données dans le DFDR, vous pouvez joindre le code ou 
 
 Si vous souhaitez assigner un DOI à votre logiciel, le code peut être transféré de GitHub à Zenodo. Pour en savoir plus au sujet de ce processus, consultez la page [GitHub docs](https://docs.github.com/fr/repositories/archiving-a-github-repository/referencing-and-citing-content). Une fois qu’un dépôt GitHub est relié à Zenodo, tout ajout dans GitHub entraînera automatiquement la création d’une nouvelle version dans Zenodo. La plupart des dépôts accessibles au public peuvent également être transférés dans les archives de Software Heritage, qui vous fournira un identifiant unique appelé SWHID que vous pourrez utiliser pour citer des versions spécifiques de votre code. Pour en savoir plus, consultez la page Web [Save and Reference Research Software](https://www.softwareheritage.org/save-and-reference-research-software/).
 
-Vous pouvez utiliser l’élément de métadonnées « Identifiants connexes » dans le DFDR pour relier votre ensemble de données à votre code, modèle, logiciel ou à d’autres produits de recherche à l’endroit où ils sont publiés. Pour savoir si vous devriez joindre un code ou un logiciel avec vos données dans le DFDR, n’hésitez pas à nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Vous pouvez utiliser l’élément de métadonnées « Identifiants connexes » dans le DFDR pour relier votre jeu de données à votre code, modèle, logiciel ou à d’autres produits de recherche à l’endroit où ils sont publiés. Pour savoir si vous devriez joindre un code ou un logiciel avec vos données dans le DFDR, n’hésitez pas à nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
 <details markdown="block">
@@ -179,12 +179,12 @@ Vous pouvez inclure ces renseignements dans votre fichier Lisez-moi, dans un fic
 
 <details markdown="block">
 <summary markdown="block">
-######5. Comment puis-je ajouter des collègues comme personnes collaborant à mon ensemble de données?
+######5. Comment puis-je ajouter des collègues comme personnes collaborant à mon jeu de données?
 </summary>
 
-Vous pouvez ajouter des collaborateur(trice)s à vos soumissions « en cours ». Pour ce faire, sous l’onglet « Collaboration » de l’interface de soumission, entrez le courriel associé au compte DFDR de votre collègue, cochez les permissions que vous souhaitez lui accorder (modifier les métadonnées, ajouter ou retirer des fichiers de données et/ou soumettre l’ensemble de données), puis cliquez sur « Inviter ».
+Vous pouvez ajouter des collaborateur(trice)s à vos soumissions « en cours ». Pour ce faire, sous l’onglet « Collaboration » de l’interface de soumission, entrez le courriel associé au compte DFDR de votre collègue, cochez les permissions que vous souhaitez lui accorder (modifier les métadonnées, ajouter ou retirer des fichiers de données et/ou soumettre le jeu de données), puis cliquez sur « Inviter ».
 
-Votre collègue recevra une invitation par courriel. Une fois que l’invitation aura été acceptée, l’ensemble de données s’affichera aussi dans le tableau de bord de publication de votre collaborateur(-trice), qui aura la permission de voir ou de modifier l’ensemble de données en fonction des permissions que vous aurez sélectionnées. Il est en tout temps possible de modifier les permissions accordées ou de retirer des collaborateur(-trice)s.
+Votre collègue recevra une invitation par courriel. Une fois que l’invitation aura été acceptée, le jeu de données s’affichera aussi dans le tableau de bord de publication de votre collaborateur(-trice), qui aura la permission de voir ou de modifier le jeu de données en fonction des permissions que vous aurez sélectionnées. Il est en tout temps possible de modifier les permissions accordées ou de retirer des collaborateur(-trice)s.
 
 Remarque : Les collaborateur(-trice)s doivent avoir un compte DFDR. Si vous souhaitez partager des données avec des rédacteur(-trice)s de revues scientifiques, des collègues à l’étranger ou des personnes qui ne peuvent pas créer un compte DFDR, vous devrez utiliser l’option « Examen externe ». Les examinateur(-trice)s externes auront la permission de consulter les fichiers de données et un sous-ensemble de vos métadonnées, mais ne pourront pas les modifier.
 </details>
@@ -204,7 +204,7 @@ Pour en savoir plus, veuillez consulter nos [Conditions d’utilisation](/polici
 ######7. Comment puis-je modifier mes (méta)données après ma soumission?
 </summary>
 
-Une fois que votre ensemble de données est publié, il fait partie de la documentation savante, et toute modification exigera l’intervention de notre équipe de curation. Nous pouvons modifier des métadonnées ou ajouter des liens vers des produits de recherche connexes en votre nom, et nous collaborerons avec vous pour nous assurer que tout changement apporté à l’ensemble de fichiers de données se fera de façon transparente. Pour faire une demande de modifications, veuillez envoyer un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Une fois que votre jeu de données est publié, il fait partie de la documentation savante, et toute modification exigera l’intervention de notre équipe de curation. Nous pouvons modifier des métadonnées ou ajouter des liens vers des produits de recherche connexes en votre nom, et nous collaborerons avec vous pour nous assurer que tout changement apporté à l’ensemble de fichiers de données se fera de façon transparente. Pour faire une demande de modifications, veuillez envoyer un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
 ### Quota d’utilisation
@@ -252,7 +252,7 @@ Pour configurer Globus :
 1. Faites un clic droit sur l’icône de Globus, puis sélectionnez « Options » (PC) ou « Préférences » (Mac). 
 2. Cliquez sur « Accès », puis sélectionnez les fichiers ou dossiers auxquels Globus pourra accéder pour le transfert de fichiers (téléchargement et téléversement).  
 3. Pour ajouter ou retirer des répertoires, utilisez les symboles + et -.
-4. Vous pouvez autoriser Globus à accéder à plusieurs répertoires, y compris les disques durs externes, et changer les répertoires en fonction des exigences. Par exemple, vous pouvez sélectionner votre disque dur externe pour télécharger un ensemble de données volumineux.
+4. Vous pouvez autoriser Globus à accéder à plusieurs répertoires, y compris les disques durs externes, et changer les répertoires en fonction des exigences. Par exemple, vous pouvez sélectionner votre disque dur externe pour télécharger un jeu de données volumineux.
 5.  Cliquez sur « Enregistrer ». Aucune modification apportée ne sera permanente tant que vous ne cliquerez pas sur ce bouton.
 </details>
 
@@ -265,16 +265,16 @@ Pour configurer Globus :
 ######1. Qu’est-ce que la curation de données?
 </summary>
 
-La curation de données est la gestion active des données de recherche lors de leur création, leur maintenance, leur utilisation, leur archivage, leur partage et leur réutilisation. Ce processus récurrent ajoute de la valeur aux travaux d’érudition en optimisant les ensembles de données pour l’utilisation actuelle ainsi que la découverte et la réutilisation dans le futur.
+La curation de données est la gestion active des données de recherche lors de leur création, leur maintenance, leur utilisation, leur archivage, leur partage et leur réutilisation. Ce processus récurrent ajoute de la valeur aux travaux d’érudition en optimisant les jeux de données pour l’utilisation actuelle ainsi que la découverte et la réutilisation dans le futur.
 
-Un membre de l’équipe de curation du DFDR examinera votre ensemble de données avant sa publication pour veiller à ce qu’il respecte les conditions d’utilisation du DFDR et en améliorer la repérabilité, l’accessibilité et la réutilisabilité. L’équipe de curation peut :
+Un membre de l’équipe de curation du DFDR examinera votre jeu de données avant sa publication pour veiller à ce qu’il respecte les conditions d’utilisation du DFDR et en améliorer la repérabilité, l’accessibilité et la réutilisabilité. L’équipe de curation peut :
 
 * collaborer avec vous afin de créer des documents et des métadonnées pour expliquer et contextualiser vos données;
 * ajouter des métadonnées pour améliorer la découverte;
-* vous aider à choisir une licence appropriée pour votre ensemble de données;
+* vous aider à choisir une licence appropriée pour votre jeu de données;
 * recommander des formats appropriés pour l’accessibilité à court et long terme;
 * effectuer le contrôle de la qualité par l’inspection des métadonnées, la vérification des fichiers et l’examen du code;
-* lier l’ensemble de données à des produits de recherche connexes (p. ex., rapports de recherche ou codes connexes) et aux renseignements sur les subventions.
+* lier le jeu de données à des produits de recherche connexes (p. ex., rapports de recherche ou codes connexes) et aux renseignements sur les subventions.
 
 Pour en savoir plus, veuillez consulter notre guide sur la [préparation de vos données](préparation_de_vos_données.md) pour le dépôt. Si vous avez des questions sur le processus de curation ou aimeriez consulter un membre de l’équipe de curation avant de déposer des données, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>

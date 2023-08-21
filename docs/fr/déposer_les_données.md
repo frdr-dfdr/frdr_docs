@@ -52,7 +52,7 @@ Pour ajouter un collaborateur, amorcez ou reprenez une présentation au tableau 
     <img src="/docs/img/screenshots/deposer_les_donees/InviterAjouter.png" alt="Screenshot" class="screenshot"/>
 </a>
 
-Il pourra également accepter votre invitation à partir de son propre tableau de bord lié à la publication de données en ouvrant une session, puis en cliquant sur « Accepter » à côté du titre de l’ensemble de données. Vous recevrez un courriel lorsque votre invitation aura été acceptée ou rejetée.
+Il pourra également accepter votre invitation à partir de son propre tableau de bord lié à la publication de données en ouvrant une session, puis en cliquant sur « Accepter » à côté du titre de le jeu de données. Vous recevrez un courriel lorsque votre invitation aura été acceptée ou rejetée.
 
 <a href="/docs/img/screenshots/deposer_les_donees/InviterAccepter.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/deposer_les_donees/InviterAccepter.png" alt="Screenshot" class="screenshot"/>
@@ -67,7 +67,7 @@ Vous pouvez inviter ou retirer des collaborateurs à tout moment pendant le proc
 </a>
 
 ## Saisie de métadonnées
-Les métadonnées, comme le titre, les auteurs et leurs affiliations, les mots-clés, les dates et la description, sont utilisées pour décrire votre ensemble de données. Les métadonnées aident d’autres personnes à découvrir et à réutiliser les données. Plus vous fournissez de métadonnées, plus il sera facile pour quelqu’un d’autre de les découvrir et de les réutiliser. 
+Les métadonnées, comme le titre, les auteurs et leurs affiliations, les mots-clés, les dates et la description, sont utilisées pour décrire votre jeu de données. Les métadonnées aident d’autres personnes à découvrir et à réutiliser les données. Plus vous fournissez de métadonnées, plus il sera facile pour quelqu’un d’autre de les découvrir et de les réutiliser. 
 
 Un formulaire de soumission de métadonnées est fourni pour vous guider dans le processus de saisie des métadonnées. Veuillez consulter la section [Description de vos données](description_de_vos_données.md) pour obtenir des renseignements détaillés sur la façon de remplir le contenu de chaque champ. Lorsque vous travaillez au formulaire de soumission, vous pouvez afficher plus d’information sur chaque champ de métadonnées en plaçant le pointeur de votre souris sur l’étiquette.
 
@@ -96,17 +96,17 @@ D’autres champs permettent d’ajouter plusieurs valeurs dans le champ en sais
 </a>
 
 ## Indication d’une période d’embargo
-Si un ensemble de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.
+Si un jeu de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.
 
-Un embargo empêchera toujours la consultation ou le téléchargement de vos fichiers de données, mais vous pouvez choisir si les métadonnées qui décrivent votre ensemble de données (titre, auteurs, description, etc.) sont accessibles au public ou non. Sous Advanced → Metadata Access, vous pouvez choisir si les métadonnées sont :
+Un embargo empêchera toujours la consultation ou le téléchargement de vos fichiers de données, mais vous pouvez choisir si les métadonnées qui décrivent votre jeu de données (titre, auteurs, description, etc.) sont accessibles au public ou non. Sous Advanced → Metadata Access, vous pouvez choisir si les métadonnées sont :
 
-* *Interrogeables et visualisables* : Votre ensemble de données sera accessible dans le DFDR et d’autres outils de recherche sur le Web. Le DOI mènera à votre page de renvoi des données, et les métadonnées qui décrivent votre ensemble de données seront visibles. Vos fichiers de données ne seront ni visibles ni téléchargeables. Il s’agit de l’option par défaut.
+* *Interrogeables et visualisables* : votre jeu de données sera accessible dans le DFDR et d’autres outils de recherche sur le Web. Le DOI mènera à votre page de renvoi des données, et les métadonnées qui décrivent votre jeu de données seront visibles. Vos fichiers de données ne seront ni visibles ni téléchargeables. Il s’agit de l’option par défaut.
 
-* *Visualisables avec un lien* : Votre ensemble de données ne sera pas repérable dans les résultats de recherche. Votre page de renvoi des données et les métadonnées qui décrivent votre ensemble de données ne seront accessibles qu’en utilisant le DOI ou l’URL de la page de renvoi. Vos fichiers de données ne seront ni visibles ni téléchargeables.
+* *Visualisables avec un lien* : votre jeu de données ne sera pas repérable dans les résultats de recherche. Votre page de renvoi des données et les métadonnées qui décrivent votre jeu de données ne seront accessibles qu’en utilisant le DOI ou l’URL de la page de renvoi. Vos fichiers de données ne seront ni visibles ni téléchargeables.
 
-* *Visualisables uniquement pour moi* : Votre ensemble de données ne sera pas repérable dans les résultats de recherche. Votre page de renvoi des données et les métadonnées qui décrivent votre ensemble de données ne sont pas publiques et ne peuvent être consultées que par vous et vos collaborateurs, lorsque vous ouvrez une session dans le DFDR. Vos fichiers de données ne seront ni visibles ni téléchargeables.
+* *Visualisables uniquement pour moi* : votre jeu de données ne sera pas repérable dans les résultats de recherche. Votre page de renvoi des données et les métadonnées qui décrivent votre jeu de données ne sont pas publiques et ne peuvent être consultées que par vous et vos collaborateurs, lorsque vous ouvrez une session dans le DFDR. Vos fichiers de données ne seront ni visibles ni téléchargeables.
 
-Les auteurs recevront un avis un mois avant l’expiration de l’embargo. Il est possible de demander une prolongation. Le défaut de répondre entraîne la diffusion automatique de l’ensemble de données sous embargo à la date spécifiée.
+Les auteurs recevront un avis un mois avant l’expiration de l’embargo. Il est possible de demander une prolongation. Le défaut de répondre entraîne la diffusion automatique de le jeu de données sous embargo à la date spécifiée.
 
 Le DFDR permet des embargos pouvant aller jusqu’à un an. Toutes les autres demandes d’embargo doivent être approuvées par le gestionnaire de services du DFDR. Veuillez communiquer avec [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) si vous avez besoin de demander un embargo prolongé.
 
