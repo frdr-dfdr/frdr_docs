@@ -10,7 +10,7 @@ nav:
         - "Before Depositing": en/before_depositing.md
         - "Describing Your Data": en/describing_your_data.md
         - "Depositing Data": en/depositing_data.md
-        - "External Review": en/external_review.md
+        - "External Dataset Review": en/external_review.md
         - "After Depositing": en/after_depositing.md
         - "Downloading Datasets": en/downloading.md
         - "Searching for Datasets": en/searching.md
@@ -54,7 +54,7 @@ extra:
             "Before Depositing": fr/avant_de_déposer/
             "Describing Your Data": fr/description_de_vos_données/
             "Depositing Data": fr/déposer_les_données/
-            "External Review": fr/examen_externe/
+            "External Dataset Review": fr/examen_externe/
             "After Depositing": fr/après_le_dépôt/
             "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
