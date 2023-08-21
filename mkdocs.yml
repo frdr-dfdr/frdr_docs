@@ -8,6 +8,7 @@ nav:
     - English:
         - "Preparing Your Data": en/preparing_your_data.md
         - "Before Depositing": en/before_depositing.md
+        - "Dashboard and Settings": en/dashboard.md
         - "Describing Your Data": en/describing_your_data.md
         - "Depositing Data": en/depositing_data.md
         - "External Dataset Review": en/external_review.md
@@ -52,6 +53,7 @@ extra:
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
+            "Dashboard and Settings": fr/tableau_de_bord.md
             "Describing Your Data": fr/description_de_vos_données/
             "Depositing Data": fr/déposer_les_données/
             "External Dataset Review": fr/examen_externe/
