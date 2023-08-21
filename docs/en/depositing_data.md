@@ -99,6 +99,18 @@ Other fields will allow you to add multiple values within the field by entering 
     <img src="/docs/img/screenshots/depositing_data/Tags.png" alt="Screenshot with author affiliations tag that can have none, one or multiple entries" class="screenshot"/>
 </a>
 
+## Starting the External Dataset Review Process
+
+All datasets submitted to FRDR undergo an internal review process called curation before they are approved for publication. Optionally, you may choose to share your dataset with an external reviewer, such as a journal editor or a colleague, before it is made publicly available. 
+
+To opt in for external review, on the “Access” tab of the submission interface, select “Yes” at the question "Will this dataset need a review period?" You will be required to add an "embargo date" and an "embargo reason", for example, “Dataset will be shared for external review”. The embargo will protect your data files from public access throughout the review process, but you may provide select access to your data by inviting reviewers.
+
+<a href="/docs/img/screenshots/depositing_data/ExternalReview.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/depositing_data/ExternalReview.png" alt="Screenshot of the external review question" class="screenshot"/>
+</a>
+
+Your dataset will be placed under embargo after the curation process is completed, at which time you can invite external reviewers to access your submission. External reviewers do not require accounts in FRDR. For information on how to invite reviewers, please see <a href="/docs/en/external_review">External Dataset Review</a> documentation.
+
 ## Specifying an embargo period
 If a dataset needs to be protected for a period of time, perhaps due to restrictions from a publisher or funding agency, you can set an embargo and specify the date on which the data will automatically become accessible. During the embargo period, your data files will not be visible or available for download.
 
