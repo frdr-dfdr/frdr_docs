@@ -1,10 +1,6 @@
 ﻿
-## Dashboard
-Upon logging into FRDR, you are presented with the Data Publication Dashboard. It shows the status of your dataset submissions: In Progress; Submitted; and Complete. For those datasets that are In Progress, you have the options to Resume, View, or Remove the submission. Those datasets that have been Submitted are waiting for curation. Those that are Complete have been accepted into FRDR and are discoverable through search.
+Upon logging into FRDR, you are presented with the Data Publication Dashboard. It shows the status of your dataset submissions: In Progress; In Curation; Under Embargo and Published. For those datasets that are In Progress, you have the options to Edit or Delete the dataset. Those datasets that have been Submitted are waiting for curation. Those that are Complete have been accepted into FRDR and are discoverable through search. A new submission can be initiated at any time.
 
-A new submission can be initiated at any time.
-
-## Overview of Depositing
 Steps involved in making a submission in FRDR:
 
 * [Choose a storage group for submission](#selecting-a-storage-group)
