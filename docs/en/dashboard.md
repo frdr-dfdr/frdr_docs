@@ -1,4 +1,4 @@
-When you log in to FRDR, your Publication Dashboard displays the status of your datasets. Each dataset is either In Progress, In Curation, Under Embargo, or Approved. A unique DOI is assigned to each dataset, and it is displayed below the dataset title. The DOI will not change, however, it will not be registered or functional until the curation and publication process is complete.
+When you log in to FRDR, your Publication Dashboard displays the status of your datasets. Each dataset is either In Progress, In Curation, Under Embargo, or Published. A unique DOI is assigned to each dataset, and it is displayed below the dataset title. The DOI will not change, however, it will not be functional until the curation and publication process is complete.
 
 Datasets that are In Progress can be further edited and submitted for review by FRDR’s curation team, or the dataset can be deleted.
 
