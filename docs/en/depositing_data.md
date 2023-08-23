@@ -62,9 +62,6 @@ After accepting the invitation, collaborators will be able to resume the submiss
 
 You can invite additional collaborators or remove collaborators at any point during the submission process. To do so, click on the "Collaborate" button at the top of the page after resuming an in-progress submission. Please note that collaborators cannot invite additional people to collaborate, only the original submission creator can add and remove people via the Collaborate tab.
 
-<a href="/docs/img/screenshots/depositing_data/InviteReturn.png" class="screenshot-lightbox">
-    <img src="/docs/img/screenshots/depositing_data/InviteReturn.png" alt="Screenshot showing Collaborate tab at the top of the screen during submitting to return to the Collaborate step" class="screenshot"/>
-</a>
 
 ## Entering metadata
 Metadata, such as title, authors and their affiliations, keywords, dates, and description, are used to describe your dataset. Metadata helps others to discover and reuse the data. The more metadata that you provide, the easier it will be for someone else to discover and reuse the data. 
