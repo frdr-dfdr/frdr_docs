@@ -207,64 +207,6 @@ Please see our [Terms of Use](/policies/en/terms_of_use/), specifically section 
 Once your dataset is published, it is part of the scholarly record, and our curation team will need to assist with any changes. We can update metadata or add links to related research outputs on your behalf, and we will work with you to ensure that any changes made to the  data file set are transparent. To request changes, please send an email to [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
-
-## External Dataset Review
-
-<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
-
-<details markdown="block">
-<summary markdown="block">
-######1. What is an anonymous review?
-</summary>
-
-In an anonymous review, identifying information about you will not be shared with peer-reviewers. 
-
-FRDR will automatically mask certain metadata fields, such as author names and author affiliations, and you will have the option to hide other fields that may be identifying, such as funder award number, usage notes, and contributor fields. It is your responsibility  to ensure that you have not included identifying information in your data files or README. We recommend including your manuscript title and number in the anonymous review invitation.  
-
-</details>
-
-<details markdown="block">
-<summary markdown="block">
-######2. Can I invite a reviewer multiple times?
-</summary>
-
-Yes, you can send a reviewer multiple invitations to review your dataset as long as they have not rejected an invitation to review. If an invitation was prematurely rejected, or rejected by mistake, and you need to send another invitation, please <a href="/repo/contactus/">contact us</a> for assistance.
-</details>
-
-<details markdown="block">
-<summary markdown="block">
-######3. Do external reviewers need to have an account in FRDR?
-</summary>
-
-If you have opted to use the “private for peer-review” feature in FRDR, you will have the opportunity to add external reviewers. External reviewers will have access to your dataset before it is publicly available. These reviewers do not need to create accounts in FRDR, rather, they will have a special link that allows them to view your data files and a portion of your metadata record.
-</details>
-
-<details markdown="block">
-<summary markdown="block">
-######4. Can I edit a dataset while it is under external review?
-</summary>
-
-Your dataset can be edited while it is under external review, however, you will need to work with a member of our curation team to implement changes. To request changes to the metadata record or the data files, please log in. Your datasets in review will be listed in the “Under Embargo” tab on your FRDR publication dashboard. Click the “Revise” button next to the dataset title. From there, you can initiate modifications to the embargo, metadata, and files as needed. If you wish to provide additional notes to the curator, you have the option to do so. Once you have submitted the form, your request will be sent to the curation team with the details of what needs to be changed.
-</details>
-
-<details markdown="block">
-<summary markdown="block">
-######5. What if I want to cancel the review process in the middle of a review process?
-</summary>
-
-You can terminate the review process at any time. To do so, please log in and find your dataset listed in the “Under Embargo” tab of your publication dashboard. Where “current reviewers” are listed, click on the ‘Remove’ option next to the reviewer’s contact details. The reviewer will lose access to the dataset. You will have the option to send an email notification to the reviewer to let them know the review request has been suspended.
-</details>
-
-<details markdown="block">
-<summary markdown="block">
-######6. How will the reviewer contact me with feedback about the dataset?
-</summary>
-
-Reviewers will not have access to your contact information within FRDR. Instead, we encourage reviewers and submitters to establish a separate communication channel outside of the FRDR platform for exchanging feedback. This way, reviewers can reach out to you directly if needed. Please note that for anonymous reviews, identifying information will not be available to the reviewers within the FRDR platform, and you should share feedback directly with the journal editor. 
-</details>
-
-
-
 ### User Quota
 
 <details markdown="block">
@@ -312,6 +254,61 @@ To configure Globus:
 3. You can add or remove directories using the + and - symbols. 
 4. You can give Globus permission to access multiple directories, including an external hard drive, and you can switch between the directories depending on the requirement. For instance, if you want to switch to your external hard drive to download a large size dataset.
 5. Click ‘Save’.  Any changes you make are not made permanent until you press the "Save" button.
+</details>
+
+### External Dataset Review
+
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
+
+<details markdown="block">
+<summary markdown="block">
+######1. What is an anonymous review?
+</summary>
+
+In an anonymous review, identifying information about you will not be shared with peer-reviewers. 
+
+FRDR will automatically mask certain metadata fields, such as author names and author affiliations, and you will have the option to hide other fields that may be identifying, such as funder award number, usage notes, and contributor fields. It is your responsibility  to ensure that you have not included identifying information in your data files or README. We recommend including your manuscript title and number in the anonymous review invitation.  
+
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######2. Can I invite a reviewer multiple times?
+</summary>
+
+Yes, you can send a reviewer multiple invitations to review your dataset as long as they have not rejected an invitation to review. If an invitation was prematurely rejected, or rejected by mistake, and you need to send another invitation, please <a href="/repo/contactus">contact us</a> for assistance.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######3. Do external reviewers need to have an account in FRDR?
+</summary>
+
+If you have opted to use the “private for peer-review” feature in FRDR, you will have the opportunity to add external reviewers. External reviewers will have access to your dataset before it is publicly available. These reviewers do not need to create accounts in FRDR, rather, they will have a special link that allows them to view your data files and a portion of your metadata record.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######4. Can I edit a dataset while it is under external review?
+</summary>
+
+Your dataset can be edited while it is under external review, however, you will need to work with a member of our curation team to implement changes. To request changes to the metadata record or the data files, please log in. Your datasets in review will be listed in the “Under Embargo” tab on your FRDR publication dashboard. Click the “Revise” button next to the dataset title. From there, you can initiate modifications to the embargo, metadata, and files as needed. If you wish to provide additional notes to the curator, you have the option to do so. Once you have submitted the form, your request will be sent to the curation team with the details of what needs to be changed.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######5. What if I want to cancel the review process in the middle of a review process?
+</summary>
+
+You can terminate the review process at any time. To do so, please log in and find your dataset listed in the “Under Embargo” tab of your publication dashboard. Where “current reviewers” are listed, click on the ‘Remove’ option next to the reviewer’s contact details. The reviewer will lose access to the dataset. You will have the option to send an email notification to the reviewer to let them know the review request has been suspended.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######6. How will the reviewer contact me with feedback about the dataset?
+</summary>
+
+Reviewers will not have access to your contact information within FRDR. Instead, we encourage reviewers and submitters to establish a separate communication channel outside of the FRDR platform for exchanging feedback. This way, reviewers can reach out to you directly if needed. Please note that for anonymous reviews, identifying information will not be available to the reviewers within the FRDR platform, and you should share feedback directly with the journal editor. 
 </details>
 
 ## Curation and Preservation
