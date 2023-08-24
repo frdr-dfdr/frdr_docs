@@ -2,11 +2,11 @@ When you log in to FRDR, your Publication Dashboard displays the status of your 
 
 Datasets that are In Progress can be further edited and submitted for review by FRDR’s curation team, or the dataset can be deleted.
 
-Once you have finalized and submitted your dataset, it will be listed in the Under Review queue. You will be contacted by a FRDR curator with recommended or required changes before your dataset is published. Once you have submitted, you will lose edit access to your dataset. If you submitted by accident or still need to make changes, please contact support@frdr-dfdr.ca and request that your dataset is returned. For more information about the curation process, see <a href="/docs/en/after_depositing">After Depositing</a>.
+Once you have finalized and submitted your dataset, it will be listed in the Under Review queue. You will be contacted by a FRDR curator with recommended or required changes before your dataset is published. Once you have submitted, you will lose edit access to your dataset. If you submitted by accident or still need to make changes, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) and request that your dataset is returned. For more information about the curation process, see <a href="/docs/en/after_depositing">After Depositing</a>.
 
 Datasets with an embargo will be listed in the Under Embargo queue after they are approved for publication. If you selected external review during the dataset submission process, you can invite colleagues or reviewers to access your dataset using the "Manage Reviewers" button next to the dataset title. The "Revise" button can be used to request updates to the embargo and modifications to metadata and files. For more information, please refer to the <a href="/docs/en/external_review">External Dataset Review</a> documentation.
 
-Datasets listed under Approved have been published by FRDR. Your DOI has been registered, and your dataset is discoverable through search. Datasets that have been published are part of the scholarly record and can no longer be edited. If you need to make changes, or you have a takedown request, please contact support@frdr-dfdr.ca and a curator will work with you to version your dataset.
+Datasets listed under Approved have been published by FRDR. Your DOI has been registered, and your dataset is discoverable through search. Datasets that have been published are part of the scholarly record and can no longer be edited. If you need to make changes, or you have a takedown request, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) and a curator will work with you to version your dataset.
 
 A new dataset can be initiated at any time by clicking “submit a new dataset”.
 
