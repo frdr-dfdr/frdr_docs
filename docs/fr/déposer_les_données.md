@@ -10,6 +10,7 @@ Voici les étapes requises pour initier une soumission dans le DFDR :
 * [Sélection de la licence d'utilisation des données](déposer_les_données.md#licences-dutilisation-des-donnees)
 * [Ajout de collaborateurs](déposer_les_données.md#ajout-de-collaborateurs)
 * [Saisie de métadonnées relatives à vos données](déposer_les_données.md#saisie-de-metadonnees)
+* [Évaluation externe](déposer_les_données.md#évaluation-externe)
 * [Indication d'une période d’embargo (le cas échéant)](déposer_les_données.md#indication-dune-periode-dembargo)
 * [Transfert de jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
 * [Finalisation de la soumission](déposer_les_données.md#finaliser-de-la-soumission)
@@ -103,7 +104,7 @@ Pour ce faire, dans l’onglet « Accès » de l’interface de soumission, rép
     <img src="/docs/img/screenshots/deposer_les_donees/ExternalReview.png" alt="Évaluation externe" class="screenshot"/>
 </a>
 
-Votre jeu de données sera placé sous embargo une fois le processus de curation terminé. Vous pourrez alors inviter des évaluatrices ou évaluateurs externes à accéder à votre soumission. Les évaluatrices ou évaluateurs externes n’ont pas besoin d’avoir un compte dans le DFDR. Pour savoir comment les inviter, veuillez consulter la documentation sur l’évaluation externe des jeux de données.
+Votre jeu de données sera placé sous embargo une fois le processus de curation terminé. Vous pourrez alors inviter des évaluatrices ou évaluateurs externes à accéder à votre soumission. Les évaluatrices ou évaluateurs externes n’ont pas besoin d’avoir un compte dans le DFDR. Pour savoir comment les inviter, veuillez consulter la documentation sur [l’évaluation externe des jeux de données](évaluation_externe.md).
 
 ## Indication d’une période d’embargo
 Si un jeu de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.
