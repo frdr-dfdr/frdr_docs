@@ -23,9 +23,10 @@ nav:
     - French:
         - "Préparation de vos données": fr/préparation_de_vos_données.md
         - "Avant de déposer": fr/avant_de_déposer.md
+        - "Tableau de bord et paramètres": fr/tableau_de_bord.md
         - "Description de vos données": fr/description_de_vos_données.md
         - "Déposer les données": fr/déposer_les_données.md
-        - "Examen externe": fr/examen_externe.md
+        - "Évaluation externe": fr/évaluation_externe.md
         - "Après le dépôt": fr/après_le_dépôt.md
         - "Téléchargement de jeux de données": fr/téléchargement.md
         - "Recherche de jeux de données": fr/recherche.md
@@ -53,10 +54,10 @@ extra:
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/
-            "Dashboard and Settings": fr/tableau_de_bord.md
+            "Dashboard and Settings": fr/tableau_de_bord/
             "Describing Your Data": fr/description_de_vos_données/
             "Depositing Data": fr/déposer_les_données/
-            "External Dataset Review": fr/examen_externe/
+            "External Dataset Review": fr/évaluation_externe/
             "After Depositing": fr/après_le_dépôt/
             "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
@@ -73,9 +74,10 @@ extra:
             "Recherche de jeux de données": en/searching/
             "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
+            "Tableau de bord et paramètres": en/dashboard/
             "Description de vos données": en/describing_your_data/
             "Déposer les données": en/depositing_data/
-            "Examen Externe": en/external_review/
+            "Évaluation externe": en/external_review/
             "Après le dépôt": en/after_depositing/
             "Téléchargement de jeux de données": /en/downloading/
             "FAQ": en/faq/

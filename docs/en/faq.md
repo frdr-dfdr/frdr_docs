@@ -258,8 +258,6 @@ To configure Globus:
 
 ### External Dataset Review
 
-<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
-
 <details markdown="block">
 <summary markdown="block">
 ######1. What is an anonymous review?

@@ -22,7 +22,6 @@ Les jeux de données du DFDR sont organisés en collections, appelées groupes d
 Les groupes de stockage spéciaux permettent aux établissements, aux groupes de recherche ou aux projets spéciaux de créer une collection pour leurs jeux de données dans le DFDR. Chaque groupe de stockage spécial apparaîtra comme dépôt dans la liste des [dépôts de données de recherche au Canada](/discover/html/repository-list.html?lang=fr) indexés par le DFDR. Les groupes de stockage spéciaux peuvent utiliser un modèle de dépôt personnalisé qui pourrait, par exemple, remplir à l’avance des éléments de métadonnées ou utiliser des champs de métadonnées supplémentaires autres que les éléments Dublin Core ou DataCite par défaut. L’option de dépôt dans des groupes de stockage spéciaux sera limitée aux utilisateurs autorisés. Si vous souhaitez avoir accès à un groupe de stockage spécial, ou si vous croyez que vous devriez avoir accès à un groupe de stockage spécial existant, veuillez communiquer avec [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## Licences d’utilisation des données
-
 Les usagers qui soumettent des jeux de données peuvent choisir la licence d’utilisation qui s’appliquera aux autres usagers. Les conditions de licence sont indiquées sur la page d’accueil des jeux de données dans le DFDR et font partie intégrante des métadonnées.
 
 Les déposants doivent choisir une licence. Voici les options par défaut :
@@ -94,6 +93,17 @@ D’autres champs permettent d’ajouter plusieurs valeurs dans le champ en sais
 <a href="/docs/img/screenshots/deposer_les_donees/Tags.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/deposer_les_donees/Tags.png" class="screenshot"/>
 </a>
+
+## Évaluation externe
+Tous les jeux de données soumis au Dépôt fédéré de données de recherche (DFDR) font l’objet d’une évaluation interne appelée curation avant d’être approuvés pour la publication. Vous pouvez également choisir de partager votre jeu de données avec une évaluatrice ou un évaluateur externe, tel qu’une rédactrice ou un rédacteur en chef de périodique ou une ou un collègue, avant qu’il ne soit rendu public.
+
+Pour ce faire, dans l’onglet « Accès » de l’interface de soumission, répondez « oui » à la question « Ce jeu de données aura-t-il besoin d’une période d’évaluation? ». Vous devrez alors ajouter une date d’embargo et une raison d’embargo, par exemple, « Le jeu de données sera partagé aux fins d’évaluation externe ». L’embargo protégera vos fichiers de données contre tout accès public tout au long du processus d’évaluation, mais vous pourrez donner un accès sélectif à vos données en invitant des évaluatrices ou évaluateurs.
+
+<a href="/docs/img/screenshots/deposer_les_donees/ExternalReview.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/deposer_les_donees/ExternalReview.png" alt="Évaluation externe" class="screenshot"/>
+</a>
+
+Votre jeu de données sera placé sous embargo une fois le processus de curation terminé. Vous pourrez alors inviter des évaluatrices ou évaluateurs externes à accéder à votre soumission. Les évaluatrices ou évaluateurs externes n’ont pas besoin d’avoir un compte dans le DFDR. Pour savoir comment les inviter, veuillez consulter la documentation sur l’évaluation externe des jeux de données.
 
 ## Indication d’une période d’embargo
 Si un jeu de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.

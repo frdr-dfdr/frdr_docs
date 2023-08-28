@@ -94,7 +94,6 @@ Other fields will allow you to add multiple values within the field by entering 
 </a>
 
 ## External Dataset Review
-
 All datasets submitted to FRDR undergo an internal review process called curation before they are approved for publication. Optionally, you may choose to share your dataset with an external reviewer, such as a journal editor or a colleague, before it is made publicly available. 
 
 To opt in for external review, on the “Access” tab of the submission interface, select “Yes” at the question "Will this dataset need a review period?" You will be required to add an "embargo date" and an "embargo reason", for example, “Dataset will be shared for external review”. The embargo will protect your data files from public access throughout the review process, but you may provide select access to your data by inviting reviewers.
