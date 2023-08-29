@@ -81,7 +81,7 @@ The following licenses may also be selected by clicking the “More” button:
 * [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 * [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-Note that a Curator may ask why you are unable to make use of the default licenses. For other licensing terms not found here, or for customized data use licenses, contact support@frdr-dfdr.ca.
+Note that a Curator may ask why you are unable to make use of the default licenses. For other licensing terms not found here, or for customized data use licenses, contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## Recommended Metadata
 

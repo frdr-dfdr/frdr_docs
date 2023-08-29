@@ -2,8 +2,10 @@ Welcome to the service documentation for the Federated Research Data Repository!
 
 * [Preparing Your Data](preparing_your_data.md)
 * [Before Depositing](before_depositing.md)
+* [Dashboard and Settings](dashboard.md)
 * [Describing Your Data](describing_your_data.md)
 * [Depositing Data](depositing_data.md)
+* [External Dataset Review](external_review.md)
 * [After Depositing](after_depositing.md)
 * [Searching for Datasets](searching.md)
 * [Downloading Datasets](downloading.md)

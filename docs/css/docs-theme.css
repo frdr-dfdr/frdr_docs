@@ -17,6 +17,10 @@ table {
     width: 100%;
 }
 
+th, td {
+    border: 1px solid #aaaaaa;
+}
+
 .logo {
     margin-left: 10px;
     margin-right: 10px;
