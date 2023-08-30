@@ -1,5 +1,10 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-08-30**:
+
+* Added External Dataset Review feature
+* Minor formatting changes were done on the citation section of dataset landing pages
+
 **2023-07-26**:
 
 * Updated the site icon with new branding
