@@ -41,7 +41,7 @@ Run the REST API Client code for the first time:
 ```
 You will be instructed to copy and paste a URL into your web browser. The browser you use should already be logged in, as the user that will be depositing the items. You can then copy your authentication token back into the command line. You will end up with a JSON file that contains auth tokens in your home directory (default mode 0600).
 
-To submit an item, the dataset bitstreams must already exist on a Globus endpoint somewhere accessible to the user that you logged in as above. The item metadata must also exist in the local filesystem in JSON format. Please contact a curator at support@frdr-dfdr.ca to receive a copy of the template.
+To submit an item, the dataset bitstreams must already exist on a Globus endpoint somewhere accessible to the user that you logged in as above. The item metadata must also exist in the local filesystem in JSON format. Please contact a curator at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) to receive a copy of the template.
 
 You need to determine the storage group that the item will be deposited to.  You can obtain the list with this command:
 

@@ -1,16 +1,13 @@
 ﻿
-## Dashboard
-Upon logging into FRDR, you are presented with the Data Publication Dashboard. It shows the status of your dataset submissions: In Progress; Submitted; and Complete. For those datasets that are In Progress, you have the options to Resume, View, or Remove the submission. Those datasets that have been Submitted are waiting for curation. Those that are Complete have been accepted into FRDR and are discoverable through search.
+Upon logging into FRDR, you are presented with the Data Publication Dashboard. It shows the status of your dataset submissions: In Progress; In Curation; Under Embargo and Published. For those datasets that are In Progress, you have the options to Edit or Delete the dataset. Those datasets that have been Submitted are waiting for curation. Those that are Complete have been accepted into FRDR and are discoverable through search. A new submission can be initiated at any time.
 
-A new submission can be initiated at any time.
+Steps involved in submitting a dataset to FRDR:
 
-## Overview of Depositing
-Steps involved in making a submission in FRDR:
-
-* [Choose a storage group for submission](#selecting-a-storage-group)
+* [Selecting a storage group](#selecting-a-storage-group)
 * [Select a data publication license](#data-usage-licenses)
 * [Add Collaborators to contribute to submission](#add-collaborators)
 * [Enter metadata for your data](#entering-metadata)
+* [Specify if External Review is needed](#external-dataset-review)
 * [Specify an embargo period (if appropriate)](#specifying-an-embargo-period)
 * [Transfer dataset to FRDR](#transferring-the-dataset)
 * [Review and finalize the submission](#finalizing-the-submission)
@@ -31,7 +28,7 @@ Submitters will be required to choose a license. The following are the default o
 * [Creative Commons Public Domain Dedication (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) 
 * [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-The following additional licenses may also be selected from the "Advanced" tab:
+The following additional licenses may also be selected from the "Advanced" section:
 
 * [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 * [Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
@@ -65,9 +62,6 @@ After accepting the invitation, collaborators will be able to resume the submiss
 
 You can invite additional collaborators or remove collaborators at any point during the submission process. To do so, click on the "Collaborate" button at the top of the page after resuming an in-progress submission. Please note that collaborators cannot invite additional people to collaborate, only the original submission creator can add and remove people via the Collaborate tab.
 
-<a href="/docs/img/screenshots/depositing_data/InviteReturn.png" class="screenshot-lightbox">
-    <img src="/docs/img/screenshots/depositing_data/InviteReturn.png" alt="Screenshot showing Collaborate tab at the top of the screen during submitting to return to the Collaborate step" class="screenshot"/>
-</a>
 
 ## Entering metadata
 Metadata, such as title, authors and their affiliations, keywords, dates, and description, are used to describe your dataset. Metadata helps others to discover and reuse the data. The more metadata that you provide, the easier it will be for someone else to discover and reuse the data. 
@@ -98,6 +92,17 @@ Other fields will allow you to add multiple values within the field by entering 
 <a href="/docs/img/screenshots/depositing_data/Tags.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/depositing_data/Tags.png" alt="Screenshot with author affiliations tag that can have none, one or multiple entries" class="screenshot"/>
 </a>
+
+## External Dataset Review
+All datasets submitted to FRDR undergo an internal review process called curation before they are approved for publication. Optionally, you may choose to share your dataset with an external reviewer, such as a journal editor or a colleague, before it is made publicly available. 
+
+To opt in for external review, on the “Access” tab of the submission interface, select “Yes” at the question "Will this dataset need a review period?" You will be required to add an "embargo date" and an "embargo reason", for example, “Dataset will be shared for external review”. The embargo will protect your data files from public access throughout the review process, but you may provide select access to your data by inviting reviewers.
+
+<a href="/docs/img/screenshots/depositing_data/ExternalReview.png" class="screenshot-lightbox">
+    <img src="/docs/img/screenshots/depositing_data/ExternalReview.png" alt="Screenshot of the external review question" class="screenshot"/>
+</a>
+
+Your dataset will be placed under embargo after the curation process is completed, at which time you can invite external reviewers to access your submission. External reviewers do not require accounts in FRDR. For information on how to invite reviewers, please see <a href="/docs/en/external_review">External Dataset Review</a> documentation.
 
 ## Specifying an embargo period
 If a dataset needs to be protected for a period of time, perhaps due to restrictions from a publisher or funding agency, you can set an embargo and specify the date on which the data will automatically become accessible. During the embargo period, your data files will not be visible or available for download.

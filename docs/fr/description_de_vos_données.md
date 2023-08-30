@@ -82,7 +82,7 @@ Les licences suivantes peuvent également être sélectionnées en cliquant sur 
 * [Creative Commons Attribution – Pas d’utilisation commerciale – Partage dans les mêmes conditions 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)
 * [Creative Commons Attribution – Pas d’utilisation commerciale – Pas de modification 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr) 
 
-**Remarque** : un responsable de la curation peut vous demander la raison pour laquelle vous ne pouvez pas utiliser les licences par défaut. Pour obtenir des modalités de licence qui ne se trouvent pas ici, ou des licences d’utilisation de données personnalisées, contactez support@frdr-dfdr.ca. 
+**Remarque** : un responsable de la curation peut vous demander la raison pour laquelle vous ne pouvez pas utiliser les licences par défaut. Pour obtenir des modalités de licence qui ne se trouvent pas ici, ou des licences d’utilisation de données personnalisées, contactez [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
 ## Métadonnées recommandées 
 

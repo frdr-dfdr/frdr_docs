@@ -24,7 +24,7 @@ Le DFDR est soutenu financièrement par l’Alliance de recherche numérique du 
 
 <details markdown="block">
 <summary markdown="block">
-######3. Do I still own the data I deposit in FRDR?
+######3. Est-ce que je suis toujours propriétaire des données que je dépose dans le DFDR?
 </summary>
 
 Oui. Le DFDR n’est pas propriétaire des données que vous y déposez. Lorsque vous déposez des données dans le DFDR, vous l’autorisez à assurer l’intendance des copies des données déposées dans le dépôt, tout en conservant vos droits de propriété. Pour en savoir plus, veuillez consulter la [section 6.0 Droits et propriété](/policies/fr/soumission_données/#60-droits-et-propriete) de notre Politique en matière de soumission des données.
@@ -64,7 +64,7 @@ Dès que vous commencerez un nouveau dépôt, le système assignera un DOI à vo
 Votre DOI se trouve sous le titre de du jeu de données dans votre tableau de bord de publication.
 
 <a href="/docs/img/screenshots/faq/DashboardDOI_fr.png" class="screenshot-lightbox">
-    <img src="/docs/img/screenshots/faq/DashboardDOI_fr.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
+    <img src="/docs/img/screenshots/faq/DashboardDOI_fr.png" alt="DOI" class="screenshot"/>
 </a>
 Si vous avez des doutes quant à la conformité de vos données avec nos conditions d’utilisation (par exemple si vous redistribuez du contenu que vous avez obtenu auprès d’une source externe ou avez du contenu qui pourrait être sensible), veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). Nous vous aiderons à déterminer si le DOI peut être partagé avant la curation (notre processus d’examen interne) et la publication de votre jeu de données.
 </details>
@@ -256,6 +256,69 @@ Pour configurer Globus :
 5.  Cliquez sur « Enregistrer ». Aucune modification apportée ne sera permanente tant que vous ne cliquerez pas sur ce bouton.
 </details>
 
+
+
+### Évaluation externe
+
+<details markdown="block">
+<summary markdown="block">
+######1. Qu’est-ce qu’une évaluation anonyme?
+</summary>
+
+Dans le cadre d’une évaluation anonyme, les renseignements vous concernant ne seront pas communiqués aux pairs évaluateurs.
+
+Le DFDR masquera automatiquement certains champs de métadonnées, comme ceux des noms et des affiliations des autrices ou auteurs, et vous pourrez choisir de masquer d’autres champs susceptibles de vous identifier, comme ceux du numéro d’attribution du bailleur de fonds, des notes d’utilisation et des contributrices ou contributeurs. Il est de votre responsabilité de vous assurer qu’aucun renseignement d’identification ne figure dans vos fichiers de données ou dans le fichier README. Nous vous recommandons d’indiquer le titre et le numéro de votre manuscrit dans l’invitation à l’évaluation anonyme.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######2. Puis-je inviter une évaluatrice ou un évaluateur plusieurs fois?
+</summary>
+
+Oui, vous pouvez inviter plusieurs fois une évaluatrice ou un évaluateur à évaluer votre jeu de données, tant que la personne n’a pas rejeté d’invitation. Si une invitation a été rejetée prématurément ou par erreur et que vous devez en envoyer une autre, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######3. Est-ce que les évaluatrices et évaluateurs externes doivent avoir un compte dans le DFDR?
+</summary>
+
+Si vous utilisez la fonction de partage privé à des fins d’évaluation par les pairs dans le DFDR, vous pourrez ajouter des évaluatrices et évaluateurs externes qui pourront consulter votre jeu de données avant sa publication. Ces personnes n’ont pas besoin de créer un compte dans le DFDR : elles recevront plutôt un lien leur permettant de consulter vos fichiers de données ainsi qu’une partie de vos métadonnées.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######3. Est-ce que les évaluatrices et évaluateurs externes doivent avoir un compte dans le DFDR?
+</summary>
+
+Si vous utilisez la fonction de partage privé à des fins d’évaluation par les pairs dans le DFDR, vous pourrez ajouter des évaluatrices et évaluateurs externes qui pourront consulter votre jeu de données avant sa publication. Ces personnes n’ont pas besoin de créer un compte dans le DFDR : elles recevront plutôt un lien leur permettant de consulter vos fichiers de données ainsi qu’une partie de vos métadonnées.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######4. Puis-je modifier un jeu de données soumis à une évaluation externe?
+</summary>
+
+Vous pouvez modifier un jeu de données en cours d’évaluation externe, mais seulement avec l’aide d’un membre de notre équipe de curation. Pour demander la modification des métadonnées ou des fichiers de données, veuillez vous connecter. Vos jeux de données en cours d’évaluation seront répertoriés dans l’onglet « Sous embargo » de votre tableau de bord de publication du DFDR. Cliquez sur le bouton « Réviser » à côté du titre du jeu de données. Vous pourrez alors modifier l’embargo, les métadonnées et les fichiers. Vous pourrez aussi laisser une note à l’intention de la personne curatrice, si vous le souhaitez. Une fois que vous aurez soumis le formulaire, votre demande, contenant toutes les modifications à apporter, sera envoyée à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######5. Puis-je annuler le processus d’évaluation en cours de route?
+</summary>
+
+Vous pouvez mettre fin au processus d’évaluation à tout moment. Pour ce faire, veuillez vous connecter au site et trouver votre jeu de données dans l’onglet « Sous embargo » de votre tableau de bord de publication. Dans la liste des évaluatrices ou évaluateurs actuels, cliquez sur « Supprimer » à côté des coordonnées de l’évaluatrice ou évaluateur. Cette personne n’aura alors plus accès au jeu des données. Vous pourrez ensuite lui envoyer un avis par courriel pour l’informer que la demande d’évaluation a été suspendue.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######6. Comment l’évaluatrice ou évaluateur me contactera-t-il pour me faire part de ses commentaires sur le jeu de données?
+</summary>
+
+Les évaluatrices ou évaluateurs n’auront pas accès à vos coordonnées dans le DFDR. Nous encourageons plutôt les évaluatrices ou évaluateurs et les autrices ou auteurs à établir la communication hors de la plateforme du DFDR pour échanger leurs commentaires. De cette façon, les évaluatrices ou évaluateurs peuvent communiquer directement avec vous en cas de besoin. Veuillez noter que dans le cas des évaluations anonymes, les renseignements d’identification ne seront pas accessibles aux évaluatrices ou évaluateurs dans le DFDR; vous devrez donc transmettre vos commentaires directement à la rédactrice ou au rédacteur en chef de périodique.
+</details>
+
+
 ## Curation et préservation
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>
@@ -296,7 +359,7 @@ Nous pouvons essayer d’exécuter le code et de signaler tout problème rencont
 
 Le DFDR assure la préservation au niveau des bits pour tous les dépôts de données, et permet la prise de mesures supplémentaires pour favoriser la préservation à long terme.
 
-Le DFDR utilise [Archivematica](https://www.archivematica.org/fr/Submitters are expected to work with curators during the ) afin de créer des paquets d’information archivés pour les jeux de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « [Préservation](après_le_dépôt.md#preservation) » du guide Après le dépôt.
+Le DFDR utilise [Archivematica](https://www.archivematica.org/fr/) afin de créer des paquets d’information archivés pour les jeux de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « [Préservation](après_le_dépôt.md#preservation) » du guide Après le dépôt.
 
 Pour s’assurer que tous les jeux de données soumis soient préservés comme il se doit, le DFDR a mis en place un processus d’évaluation pour garantir la gestion responsable et durable de l’accès à long terme. La préservation à long terme sera envisagée pour tous les jeux de données déposés dans le DFDR. À noter que le processus d’évaluation du dépôt tient compte du format des documents et des fichiers, et les jeux de données qui manquent de documents inadéquats ou qui sont dans un format exclusif pourraient être exclus des activités de préservation à long terme ou faire l’objet d’une réévaluation dans le futur. Les jeux de données non sélectionnés pour la préservation à long terme demeureront accessibles dans le DFDR, conformément à la [Politique en matière de rétention et de suppression des données](/policies/fr/r%C3%A9tention_des_donn%C3%A9es/) et aux [Conditions d'utilisation](/policies/fr/conditions_d%27utilisation/).
 

@@ -2,8 +2,10 @@ Bienvenue à la documentation de service pour le dépôt fédéré de données d
 
 * [Préparation de vos données](préparation_de_vos_données.md)
 * [Avant de déposer](avant_de_déposer.md)
+* [Tableau de bord et paramètres](tableau_de_bord.md)
 * [Description de vos données](description_de_vos_données.md)
 * [Déposer les données](déposer_les_données.md)
+* [Évaluation externe](évaluation_externe.md)
 * [Après le dépôt](après_le_dépôt.md)
 * [Recherche de jeux de données](recherche.md)
 * [Téléchargement de jeux de données](téléchargement.md)
