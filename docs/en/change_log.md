@@ -3,6 +3,7 @@ This is a list of changes to FRDR, starting with the most recent:
 **2023-08-30**:
 
 * Added External Dataset Review feature
+* File download links have been changed to permanent URLs that are hosted on FRDR, with redirects to wherever the files are currently located
 * Minor formatting changes were done on the citation section of dataset landing pages
 
 **2023-07-26**:
