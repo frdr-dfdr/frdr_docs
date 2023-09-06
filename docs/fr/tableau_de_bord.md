@@ -30,7 +30,7 @@ C’est dans cette section que vous pouvez consulter les renseignements relatifs
 Un <a href="https://orcid.org/">identifiant ORCID</a> est un identifiant numérique permanent qui vous est propre. Intégré à ORCID, le DFDR vous permet d’ajouter automatiquement votre identifiant ORCID à vos nouvelles soumissions de jeux de données et de transférer un enregistrement des éléments publiés vers votre profil ORCID. Pour commencer, cliquez sur le lien « Se connecter avec ORCID », puis sur « Se connecter », et suivez les instructions à l’écran. Si vous n’avez pas de compte ORCID, vous pouvez en créer un directement depuis le site du DFDR, toujours en cliquant sur « Se connecter avec ORCID », puis en remplissant le formulaire. 
 
 <a href="/docs/img/screenshots/tableau_de_bord/orcid.png" class="screenshot-lightbox">
-    <img src="/docs/img/screenshots/tableau_de_bord/orcid.png" alt="Screenshot of setting ORCID" style="max-width: 160px"/>
+    <img src="/docs/img/screenshots/tableau_de_bord/orcid.png" alt="Capture d'écran du réglage ORCID"/>
 </a>
 
 Une fois la session ouverte, cochez la case « Ajouter des enregistrements à ORCID ». Cela autorisera le DFDR à envoyer un enregistrement de vos jeux de données nouvellement publiés à votre profil ORCID. Pour les jeux de données publiés avant l’activation de la fonctionnalité, l’envoi doit se faire manuellement. Un bouton « Envoyer à ORCID » s’affichera à côté de chaque élément approuvé sur votre tableau de bord de publication : cliquez sur ce bouton pour transférer un enregistrement du jeu de données à votre profil ORCID. 

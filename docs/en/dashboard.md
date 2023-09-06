@@ -30,7 +30,7 @@ In the Profile section, you can view your account information. Most of the field
 An <a href="https://orcid.org/">ORCID iD</a> is a persistent digital identifier that is unique to you. FRDR is integrated with ORCID, which allows you to automatically add your ORCID iD to new dataset submissions and push a record of published items to your ORCID profile. To get started, click the “Sign in with ORCID” link, then click “Sign in” and follow prompts to log in via the ORCID authentication screen. If you don't have an ORCID account you can create one directly from FRDR by clicking the same “Sign in with ORCID” link and filling out the form. 
 
 <a href="/docs/img/screenshots/dashboard/orcid.png" class="screenshot-lightbox">
-    <img src="/docs/img/screenshots/dashboard/orcid.png" alt="Screenshot of setting ORCID" style="max-width: 160px"/>
+    <img src="/docs/img/screenshots/dashboard/orcid.png" alt="Screenshot of setting ORCID"/>
 </a>
 
 Once you are signed in, select the checkbox in FRDR to "Add records to ORCID". This will authorize FRDR to send a record of your newly published datasets to your ORCID profile. For datasets that were published before you enable the feature, a manual step is required. A "Send to ORCID" button will display next to each approved item on your publication dashboard. Click this button to push a record of the dataset to your linked ORCID profile. 
