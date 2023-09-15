@@ -1,3 +1,5 @@
+## Tableau de bord de publication
+
 Lorsque vous vous connectez au DFDR, votre tableau de bord de publication affiche l’état de chacun des jeux de données que vous avez soumis : en cours, sous revue, sous embargo ou approuvé. Un identifiant numérique d’objet unique est attribué à chaque jeu de données et s’affiche sous le titre de celui-ci. Cet identifiant ne changera pas, mais il ne sera pas enregistré ou ne fonctionnera pas tant que le processus de curation et de publication ne sera pas terminé.
 
 Les jeux de données en cours peuvent être modifiés et soumis à l’évaluation de l’équipe de curation du DFDR, ou la soumission peut être supprimée.

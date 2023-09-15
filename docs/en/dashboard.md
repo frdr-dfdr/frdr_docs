@@ -1,3 +1,5 @@
+## Publication Dashboard
+
 When you log in to FRDR, your Publication Dashboard displays the status of your datasets. Each dataset is either In Progress, In Curation, Under Embargo, or Published. A unique DOI is assigned to each dataset, and it is displayed below the dataset title. The DOI will not change, however, it will not be functional until the curation and publication process is complete.
 
 Datasets that are In Progress can be further edited and submitted for review by FRDR’s curation team, or the dataset can be deleted.
@@ -27,7 +29,7 @@ In the Profile section, you can view your account information. Most of the field
 
 ### 2. ORCID
 
-An <a href="https://orcid.org/">ORCID iD</a> is a persistent digital identifier that is unique to you. FRDR is integrated with ORCID, which allows you to automatically add your ORCID iD to new dataset submissions and push a record of published items to your ORCID profile. To get started, click the “Sign in with ORCID” link, then click “Sign in” and follow prompts to log in via the ORCID authentication screen. If you don't have an ORCID account you can create one directly from FRDR by clicking the same “Sign in with ORCID” link and filling out the form. 
+An <a href="https://orcid.org/">ORCID iD</a> is a persistent digital identifier that is unique to you. FRDR is integrated with ORCID, which allows you to automatically add your ORCID iD to new dataset submissions and push a record of published items to your ORCID profile. To get started, click the “Create or connect your ORCID iD” link, then click “Sign in” and follow prompts to log in via the ORCID authentication screen. If you don't have an ORCID account you can create one directly from FRDR by clicking the same “Create or connect your ORCID iD” link and filling out the form. 
 
 <a href="/docs/img/screenshots/dashboard/orcid.png" class="screenshot-lightbox">
     <img src="/docs/img/screenshots/dashboard/orcid.png" alt="Screenshot of setting ORCID" style="max-width: 100%"/>
