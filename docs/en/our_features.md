@@ -7,6 +7,8 @@ hidesidebar: true
 * DOIs provide a persistent identifier for data citation
 * Default allocation of 1TB of repository storage
 * Optional embargoes on data and metadata records
+* [Synchronize research](dashboard.md) with ORCID profile 
+* [Selectively share data](external_review.md) with journal editors, reviewers, and colleagues before public release
 * Collaborate on submissions with other FRDR account holders
 * Dataset review and ongoing support provided by the FRDR curation team ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
 * Fast and efficient upload and download via Globus File Transfer, and web browser transfers for smaller datasets
