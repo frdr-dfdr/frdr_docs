@@ -7,7 +7,7 @@ hidesidebar: true
 * Identifiants d’objets numériques (DOI) fournissant un identifiant pérenne (PID) pour la citation de données
 * Allocation par défaut de 1 To d’espace de stockage de données
 * Embargos facultatifs sur les enregistrements de données et de métadonnées
-* [Synchroniser la recherche](tableau_de_bord.md) avec le profil ORCID  (Comment for Jin: Pls link this to ORCID section)
+* [Synchroniser la recherche](tableau_de_bord.md#orcid) avec le profil ORCID  (Comment for Jin: Pls link this to ORCID section)
 * [Partager de manière sélective les données](évaluation_externe.md) avec des rédactrices et rédacteurs en chef de périodiques, des évaluatrices et évaluateurs et des collègues avant leur publication
 * Collaboration avec les autres titulaires d’un compte DFDR pour les soumissions
 * Examen des jeux de données et soutien continu offert par l’équipe de curation du DFDR ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
