@@ -23,11 +23,11 @@ Vous pouvez procéder à une nouvelle soumission à tout moment en cliquant sur 
 
 Mettez à jour les paramètres de votre compte pour adapter votre expérience du DFDR à vos préférences. Vous trouverez dans les paramètres les sections suivantes :
 
-### 1. Profil
+### Profil
 
 C’est dans cette section que vous pouvez consulter les renseignements relatifs à votre compte. La plupart des champs sont non modifiables, mais vous pouvez définir votre langue de communication. Si vous souhaitez modifier un autre champ, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide. 
 
-### 2. ORCID
+### ORCID
 
 Un <a href="https://orcid.org/">identifiant ORCID</a> est un identifiant numérique permanent qui vous est propre. Intégré à ORCID, le DFDR vous permet d’ajouter automatiquement votre identifiant ORCID à vos nouvelles soumissions de jeux de données et de transférer un enregistrement des éléments publiés vers votre profil ORCID. Pour commencer, cliquez sur le lien « Se connecter avec ORCID », puis sur « Se connecter », et suivez les instructions à l’écran. Si vous n’avez pas de compte ORCID, vous pouvez en créer un directement depuis le site du DFDR, toujours en cliquant sur « Se connecter avec ORCID », puis en remplissant le formulaire. 
 
@@ -45,19 +45,19 @@ Si votre jeu de données est sous embargo, le type d’embargo que vous avez dé
 Si vous avez des questions ou besoin d’aide, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). 
 
 
-### 3. Liens Globus
+### Liens Globus
 
 Cette section vous permet d’accéder rapidement à votre compte Globus et au journal des activités de transfert de fichiers si nécessaire. 
 
-### 4. Préférences
+### Préférences
 
 Dans cette section, vous pouvez personnaliser différents paramètres en fonction de votre flux de travail et de vos besoins de recherche. Voici quelques-unes des options intéressantes qui s’offrent à vous :
 
-#### 4.1 M’ajouter comme auteur
+#### M’ajouter comme auteur
 
 Sélectionnez cette option pour vous inclure automatiquement en tant qu’autrice ou auteur lors de nouvelles soumissions. Le DFDR ajoutera votre nom, votre affiliation institutionnelle et votre identifiant ORCID (si disponible) à chaque nouveau jeu de données que vous créez afin de vous faire gagner du temps et d’assurer une attribution cohérente et juste.
 
-#### 4.2 Définir la personne-ressource par défaut du jeu de données
+#### Définir la personne-ressource par défaut du jeu de données
 
 Ce paramètre permet de désigner une personne-ressource par défaut pour les nouvelles soumissions. Lorsque vous créez un nouveau dépôt, cette personne-ressource sera automatiquement ajoutée aux « coordonnées de l’administratrice ou de l’administrateur du jeu de données » dans l’interface de soumission. Cette personne sera le point de contact après la publication du jeu de données, à l’instar d’un auteur ou d’une autrice-ressource.
 

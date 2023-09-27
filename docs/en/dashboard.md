@@ -23,11 +23,11 @@ A new dataset can be initiated at any time by clicking “submit a new dataset�
 
 Update your Account Settings to tailor your FRDR experience to your preferences. Within Settings, you will find the following sections:
 
-### 1. Profile
+### Profile
 
 In the Profile section, you can view your account information. Most of the fields cannot be edited, however, you can set and save your preferred language for communications. If you require a change to another field, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) for assistance. 
 
-### 2. ORCID
+### ORCID
 
 An <a href="https://orcid.org/">ORCID iD</a> is a persistent digital identifier that is unique to you. FRDR is integrated with ORCID, which allows you to automatically add your ORCID iD to new dataset submissions and push a record of published items to your ORCID profile. To get started, click the “Create or connect your ORCID iD” link, then click “Sign in” and follow prompts to log in via the ORCID authentication screen. If you don't have an ORCID account you can create one directly from FRDR by clicking the same “Create or connect your ORCID iD” link and filling out the form. 
 
@@ -43,19 +43,19 @@ If your dataset is under embargo, the type of embargo you set will dictate when 
 
 If you have any questions or need further assistance, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-### 3. Globus Links
+### Globus Links
 
 The Globus Links section provides quick access to your Globus Account and file transfer activity log if needed. 
 
-### 4. Preferences
+### Preferences
 
 In the Preferences section, you can customize various settings to suit your workflow and research needs. Here are some of the exciting options available:
 
-#### 4.1 Add Me as an Author
+#### Add Me as an Author
 
 Select this option to automatically include yourself as an author on new dataset submissions. FRDR will add your name, institutional affiliation, and ORCID iD (if available) to each new dataset you start to save you time and ensure consistent and accurate attribution.
 
-#### 4.2 Set Default Dataset Contact
+#### Set Default Dataset Contact
 
 Use this setting to designate a default contact person for your new dataset submissions. When you initiate a new deposit, this contact will be added automatically to the “Dataset Administrator Contact Information” in the submission interface. This individual will be the point of contact after the dataset is published, similar to a corresponding author.
 
