@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-09-27**:
+
+* Deposits to FRDR can now be pushed to your ORCID profile in the works section, please see the documentation for details
+* Fixed an issue with the display of curation scan jobs
+* Fixed an issue preventing some users from being able to start new deposits
+
 **2023-08-30**:
 
 * Added External Dataset Review feature
