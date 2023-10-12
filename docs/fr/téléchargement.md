@@ -14,6 +14,14 @@ Pour télécharger des jeux de données à partir d’un navigateur Web, la marc
 * Les transferts Web ne sont pas aussi rapides ni fiables que ceux effectués avec Globus à partir de votre appareil local ou d’un autre terminal. Selon la vitesse de votre Internet, nous vous recommandons d’utiliser Globus pour télécharger les fichiers de plus de 5 Go ainsi que les jeux de données comprenant un grand nombre de fichiers.
 * Certains répertoires comprennent trop de fichiers pour être bien recensés sur un navigateur Web. L’outil de recherche de fichiers indiquera si la liste de fichiers est tronquée. Si c’est le cas, cliquez sur « Télécharger le jeu de données » pour ouvrir l’écran de gestion des fichiers de Globus et afficher tous les fichiers du jeu de données ainsi que la liste complète du répertoire.
 
+### Création de liens de téléchargement individuels
+
+Le DFDR reproduit les données sur plusieurs serveurs. Afin de générer pour un fichier un lien de téléchargement stable qui fonctionnera indépendamment du serveur concerné, faites un clic droit sur le nom du fichier (Ctrl + clic sur Mac), sélectionnez « Copier l’adresse du lien » et collez le résultat. L’adresse sera similaire à celle-ci : https://www.frdr-dfdr.ca/repo/files/1/published/publication_NNN/submitted_data. « NNN » sera remplacé par un numéro de publication propre au jeu de données dans le DFDR.
+
+Bien que ces liens soient assez stables, ils ne remplacent pas le DOI du jeu de données, soit l’identifiant unique et permanent qui conduira toujours à un enregistrement de votre jeu de données. Si vous prévoyez d’inclure un lien de téléchargement dans une publication, un fichier de script ou sur votre site Web, nous vous recommandons d’inclure également le DOI du jeu de données. Si vous avez des questions ou si vous avez besoin de générer des liens de téléchargement stables pour un grand nombre de fichiers dans un jeu de données, veuillez écrire à l’équipe de soutien technique du DFDR à l’adresse [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide.
+
+
+
 ## Télécharger des jeux de données avec Globus Transfer
 Globus est un logiciel gratuit qui permet de transférer des fichiers de façon sûre et à haute vitesse. Il s’agit de la méthode la plus efficace pour télécharger une grande quantité de données dans le DFDR. Pour utiliser Globus, vous devez soit accéder à un serveur sur lequel Globus est déjà installé (c’est le cas pour la plupart des [sites d’hébergement nationaux](https://alliancecan.ca/fr/services/calcul-informatique-de-pointe/la-federation/sites-dhebergement-nationaux) de l’Alliance de recherche numérique du Canada), soit créer votre propre compte Globus et installer [Globus Connect Personal](https://www.globus.org/globus-connect-personal) sur votre appareil.
 

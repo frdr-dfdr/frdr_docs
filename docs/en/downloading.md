@@ -15,6 +15,13 @@ Downloading a dataset with a web browser works like downloading any other file f
 * The speed and reliability of web transfers may not be as fast or effective as using Globus to transfer files to your local machine or other endpoint. Depending on your internet speed, we recommend using Globus to download files larger than 5GB and to download datasets with many files.
 * Some directories may contain too many files to be listed efficiently in a web browser. The file browsing widget will indicate if the file list is truncated. In this case, click “Download Dataset” to open the Globus file manager screen to view all files in the dataset and the full directory listing.
 
+### Creating individual download links
+
+FRDR mirrors data on multiple servers. In order to generate a stable download link for an individual file, which will work regardless of which server we are pointing to, right-click on the file name (control-click on a Mac), select “Copy Link Address” and paste the result. The file name will have a path similar to this:  https://www.frdr-dfdr.ca/repo/files/1/published/publication_NNN/submitted_data. “NNN” will be replaced by a publication number unique to the dataset in FRDR.
+
+While these links are relatively stable, they are not intended to replace the dataset DOI. The DOI is a unique, persistent identifier, which will always lead to a record of your dataset. If you plan to include a download link in a publication, a script file, or on your website, we recommend that you also include the dataset DOI. If you have questions, or if you need to generate stable download links for a large number of files in a dataset, please contact the FRDR support desk for assistance [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+
+
 ## Downloading Datasets with Globus Transfer
 
 Globus is a free software that allows for reliable, high-speed file transfers. It is the best method for downloading large amounts of data from FRDR. To use Globus, you either need access to a server with Globus pre-installed, such as most Digital Research Alliance of Canada [national host sites](https://alliancecan.ca/en/services/advanced-research-computing/federation/national-host-sites), or you will need to set up your own Globus account and install [Globus Connect Personal](https://www.globus.org/globus-connect-personal) on your device.
