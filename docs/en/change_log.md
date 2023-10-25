@@ -4,7 +4,6 @@ This is a list of changes to FRDR, starting with the most recent:
 
 * Further improvements have been made to dataset file listings, with better performance for datasets with a large number of files
 * Free text search is disabled for Funder field in Advanced Search
-* Funder metadata is added in the item landing page
 
 **2023-09-27**:
 
