@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-10-25**:
+
+* Further improvements have been made to dataset file listings, with better performance for datasets with a large number of files
+* Free text search is disabled for Funder field in Advanced Search
+* Funder metadata is added in the item landing page
+
 **2023-09-27**:
 
 * Deposits to FRDR can now be pushed to your ORCID profile in the works section, please see <a href="/docs/en/dashboard/#orcid">dashboard documentation for ORCID</a> for details
