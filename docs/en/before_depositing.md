@@ -50,4 +50,4 @@ If your data is on a computer or an external hard drive, follow the steps provid
 
 If your data is on an institutional or laboratory server, contact your network or system administrators to obtain the Globus Endpoint name for the server you are using. A Globus Connect Endpoint is the physical location where your files currently reside. If your institution or laboratory does not have a Globus Endpoint installed on their server, have them contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-For help configuring Globus, please see our FAQ or contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+For help configuring Globus, please see our [FAQ](faq.md) or contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).

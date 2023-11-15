@@ -48,4 +48,4 @@ Si vos données se trouvent sur un ordinateur ou un lecteur de disque dur extern
 
 Si vos données se trouvent sur le serveur d’un établissement ou d’un laboratoire, communiquez avec vos administrateur(-trice)s réseau ou système pour obtenir le nom du point de chute Globus du serveur que vous utilisez. Un point de chute Globus correspond à l’emplacement physique actuel de vos fichiers. Si votre établissement ou laboratoire n’a pas installé un point de chute Globus sur son serveur, demandez-lui d’envoyer un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-Si vous avez besoin d’aide pour configurer Globus, consultez notre FAQ ou envoyez un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+Si vous avez besoin d’aide pour configurer Globus, consultez notre [FAQ](faq.md) ou envoyez un courriel à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
