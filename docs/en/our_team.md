@@ -3,9 +3,13 @@ hidesidebar: true
 ---
 ## Development Team
 
+* Elias Eid, Developer, McMaster University
 * Joel Farthing, Developer, University of Saskatchewan
+* Richard Gladwin, Developer, McMaster University
+* Shlomi Linoy, Data Discovery Metadata Coordinator, McMaster University
 * Adam McKenzie, Research Data Management Analyst, University of Saskatchewan
 * Todd Trann, Technical Lead, University of Saskatchewan
+* Anny Wang, User Experience Specialist, McMaster University
 * Mike Winter, Senior Developer, University of Saskatchewan
 * Jin Zhang, Developer, Simon Fraser University
 
