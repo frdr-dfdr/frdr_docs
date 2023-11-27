@@ -11,6 +11,7 @@ Welcome to the service documentation for the Federated Research Data Repository!
 * [Downloading Datasets](downloading.md)
 * [Advanced](advanced.md)
 * [FAQ](faq.md)
+* [User Metrics](user_metrics.md)
 * [Change Log](change_log.md)
 * [FAIR Principles](fair_principles.md)
 * [Style Guide](style_guide.md)
