@@ -11,7 +11,7 @@ FRDR currently records the following key metrics:
 3. **Datasets Published:** This metric represents the total number of datasets published within the FRDR platform.
 4. **Data Deposited (TB):** The total storage space consumed by all published datasets in FRDR, measured in terabytes.
 5. **Dataset Views:** Total dataset views refer to the aggregate number of times published datasets in FRDR have been accessed or viewed by users.
-6.  **Files Downloaded:** Total files downloaded represent the cumulative count of times individual data files from published datasets in FRDR have been retrieved or copied by users.
+6. **Files Downloaded:** Total files downloaded represent the cumulative count of times individual data files from published datasets in FRDR have been retrieved or copied by users.
 
 ## Data Updates
 
