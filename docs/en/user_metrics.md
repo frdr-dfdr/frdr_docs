@@ -7,15 +7,10 @@ To access metrics for an individual item, use the “View items statistics” bu
 FRDR currently records the following key metrics:
 
 1. **Approved Accounts:** This metric represents the total count of approved user accounts in FRDR, excluding FRDR staff.
- 
 2. **Collections:** The total number of non-empty collections hosted by FRDR.
- 
 3. **Datasets Published:** This metric represents the total number of datasets published within the FRDR platform.
-
 4. **Data Deposited (TB):** The total storage space consumed by all published datasets in FRDR, measured in terabytes.
- 
 5. **Dataset Views:** Total dataset views refer to the aggregate number of times published datasets in FRDR have been accessed or viewed by users.
- 
 6.  **Files Downloaded:** Total files downloaded represent the cumulative count of times individual data files from published datasets in FRDR have been retrieved or copied by users.
 
 ## Data Updates
@@ -30,7 +25,6 @@ Users can easily access the data presented on the dashboards by following these 
   <a href="/docs/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
       <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
   </a>
-
 2. Select your preferred file format for downloading, which includes options such as image, data, PDF, PowerPoint and more.
 
 ## Interacting with Graphs
