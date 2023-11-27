@@ -10,7 +10,7 @@ Le DFDR comprend actuellement les indicateurs clés suivants :
 1. **Comptes approuvés :** Nombre total de comptes utilisateur approuvés dans le DFDR (comptes du personnel du DFDR exclus).
 2. **Collections :** Nombre total de collections non vides hébergées par le DFDR.
 3. **Jeux de données publiés :** Nombre total de jeux de données publiés sur la plateforme du DFDR.
-4. **Données publiées (TB) :** Espace de stockage total utilisé pour tous les jeux de données publiés dans le DFDR, en téraoctets.
+4. **Données publiées (To) :** Espace de stockage total utilisé pour tous les jeux de données publiés dans le DFDR, en téraoctets.
 5. **Vues des jeux de données :** Nombre total de reprises auxquelles les utilisatrices et utilisateurs ont accédé aux jeux de données publiés dans le DFDR ou les ont consultés.
 6. **Fichiers téléchargés :** Nombre cumulatif de reprises auxquelles chaque fichier des jeux de données publiés dans le DFDR a été récupéré ou copié par des utilisatrices ou utilisateurs.
 
