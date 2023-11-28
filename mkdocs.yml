@@ -17,6 +17,7 @@ nav:
         - "Searching for Datasets": en/searching.md
         - "Advanced": en/advanced.md
         - "FAQ": en/faq.md
+        - "User Metrics": en/user_metrics.md
         - "Change Log": en/change_log.md
         - "FAIR Principles": en/fair_principles.md
         - "Style Guide": en/style_guide.md
@@ -32,6 +33,7 @@ nav:
         - "Recherche de jeux de données": fr/recherche.md
         - "Avancée": fr/avancee.md
         - "FAQ": fr/faq.md
+        - "Indicateurs d’utilisation": fr/indicateurs_d’utilisation.md
         - "Principes FAIR": fr/principes_fair.md
         - "Guide de style": fr/guide_de_style.md
 
@@ -61,6 +63,7 @@ extra:
             "After Depositing": fr/après_le_dépôt/
             "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
+            "User Metrics": fr/indicateurs_d’utilisation/
             "FAIR Principles": fr/principes_fair/
             "Style Guide": fr/guide_de_style/
             "Advanced": fr/avancee/
@@ -82,6 +85,7 @@ extra:
             "Après le dépôt": en/after_depositing/
             "Téléchargement de jeux de données": /en/downloading/
             "FAQ": en/faq/
+            "Indicateurs d’utilisation": en/user_metrics/
             "Principes FAIR": en/fair_principles/
             "Guide de style": en/style_guide/
             "Avancée": en/advanced/

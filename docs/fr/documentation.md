@@ -11,5 +11,6 @@ Bienvenue à la documentation de service pour le dépôt fédéré de données d
 * [Téléchargement de jeux de données](téléchargement.md)
 * [Avancée](avancee.md)
 * [FAQ](faq.md)
+* [Indicateurs d’utilisation](indicateurs_d’utilisation.md)
 * [Principes FAIR](principes_fair.md)
 * [Guide de style](guide_de_style.md)
