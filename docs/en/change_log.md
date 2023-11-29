@@ -1,5 +1,13 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-11-29**:
+
+* Automatically remove junk filesystem metadata files from submissions
+* Convert units for total deposit size on front page to match other metrics displays
+* Added a link to accessibility statement in the site footer
+* Fixed an error that happened when deleting CRDC metadata
+* Funder information will now show up on dataset landing pages when funder metadata has been supplied
+
 **2023-10-25**:
 
 * Further improvements have been made to dataset file listings, with better performance for datasets with a large number of files
