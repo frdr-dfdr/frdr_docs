@@ -1,5 +1,10 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2023-12-13**:
+
+* Fixed a problem in displaying file sizes for unpublished dataset files
+* The email sent to new users on account approval was updated
+
 **2023-11-29**:
 
 * Automatically remove junk filesystem metadata files from submissions
