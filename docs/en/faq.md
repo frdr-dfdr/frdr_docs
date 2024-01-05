@@ -216,7 +216,7 @@ Once your dataset is published, it is part of the scholarly record, and our cura
 
 You will have access to 1 TB of curated storage by default. If you think you will need additional storage, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 
-_NOTE: file sizes are calculated using SI units, i.e. 1000 B = 1 KB, 1000 KB = 1 MB, etc._
+_NOTE: file sizes are calculated using SI units, i.e. 1000 B = 1 kB, 1000 kB = 1 MB, etc._
 </details>
 
 <details markdown="block">
