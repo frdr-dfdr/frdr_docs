@@ -215,6 +215,8 @@ Une fois que votre jeu de données est publié, il fait partie de la documentati
 </summary>
 
 Par défaut, vous aurez accès à 1 To d’espace de stockage de données ayant fait l’objet d’une curation. Si vous prévoyez avoir besoin d’espace de stockage supplémentaire, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+
+_REMARQUE : la taille des fichiers est calculée en unités SI, soit 1 000 o = 1 ko, 1 000 ko = 1 Mo, et ainsi de suite._
 </details>
 
 <details markdown="block">
