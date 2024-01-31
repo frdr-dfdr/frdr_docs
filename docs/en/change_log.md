@@ -8,6 +8,7 @@ This is a list of changes to FRDR, starting with the most recent:
 * Funder name is required if award information is provided in deposit process
 * A new report has been created for curators to view datasets that are in progress
 * Quota management has been improved for curators
+* The welcome email has been changed to include a link to the <a href="https://groups.google.com/u/1/a/frdr-dfdr.ca/g/frdr-dfdr-info">FRDR Users Google Group</a>
 
 **2023-12-13**:
 
