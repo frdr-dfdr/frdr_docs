@@ -1,5 +1,14 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-01-31**:
+
+* File sizes are now calculated using SI units (1000 B = 1 kB, 1000 kB = 1 MB, etc.) everywhere
+* Provenance metadata no longer has a language attached to it
+* The limit for empty metadata fields in deposit process has been removed
+* Funder name is required if award information is provided in deposit process
+* A new report has been created for curators to view datasets that are in progress
+* Quota management has been improved for curators
+
 **2023-12-13**:
 
 * Fixed a problem in displaying file sizes for unpublished dataset files
