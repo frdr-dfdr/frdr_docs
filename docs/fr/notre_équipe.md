@@ -6,7 +6,7 @@ hidesidebar: true
 * Elias Eid, développeur, Université McMaster
 * Joel Farthing, développeur, Université de la Saskatchewan
 * Richard Gladwin, développeur, Université McMaster
-* Shlomi Linoy, Coordinatrice, coordinateur de métadonnées, Université McMaster
+* Shlomi Linoy, Coordinateur de métadonnées, Université McMaster
 * Adam McKenzie, analyste en gestion des données de recherche, Université de la Saskatchewan
 * Todd Trann, directeur technique, Université de la Saskatchewan
 * Anny Wang, Spécialiste de l'Expérience Utilisateur, Université McMaster
