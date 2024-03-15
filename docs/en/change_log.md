@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-02-28**:
+
+* Improved the “contact dataset administrator” form so that it no longer marks some types of wording as spam
+* Fixed the display of funder information on dataset landing pages when the funder ROR ID is not available
+* Change display of ‘total size deposited’ statistic to only include published datasets
+
 **2024-01-31**:
 
 * File sizes are now calculated using SI units (1000 B = 1 kB, 1000 kB = 1 MB, etc.) everywhere
