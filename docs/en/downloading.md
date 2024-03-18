@@ -25,7 +25,7 @@ To get started, click the “Download as Zip” button below the file listing. I
 
 Select the files and folders you want to download. If you choose a folder, FRDR will automatically include all of the contents (files and sub-folders) in your Zip archive. You can navigate into any folder to select or deselect items as necessary. FRDR will automatically include the dataset LICENSE, a recommended citation, a README file from the top-level directory, and the names and checksums of all files in the dataset, for your reference.
 
-We have set a 20GB limit per download request. As you select files and folders, FRDR will calculate the approximate size of your request and display it next to the “Create Zip File” button. If you need to download more than 20GB, we recommend splitting your request into multiple Zip files or using Globus Transfer to download the dataset. 
+We have set a 20 GB limit per download request. As you select files and folders, FRDR will calculate the approximate size of your request and display it next to the “Create Zip File” button. If you need to download more than 20 GB, we recommend splitting your request into multiple Zip files or using Globus Transfer to download the dataset. 
 
 When you have completed your selection, click “Create Zip File”. If your request was submitted successfully, you will see a message with next steps. If you receive an error message or encounter another issue, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) for assistance. 
 
