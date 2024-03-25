@@ -1,24 +1,46 @@
-## Trouver des jeux de données
-Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DFDR, vous pouvez naviguer parmi les jeux de données disponibles en utilisant le [découverte du DFDR](/repo/search?locale=fr).
+## Recherche de jeux de données
+Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DFDR, vous pouvez naviguer parmi ceux disponibles avec l’outil [découverte du DFDR](/repo/search?locale=fr).
 
-## Télécharger des jeux de données à partir d’un navigateur Web
-L’outil de recherche de fichiers se trouve au bas de la page d’accueil de chaque jeu de données.
+## Recherche et téléchargement de fichiers à partir d’un navigateur Web
+L’outil de recherche de fi chiers se trouve au bas de la page d’accueil de chaque jeu de données.
 
 <a href="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" class="screenshot-lightbox">
 <img src="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" alt="Capture d'écran montrant le widget de navigation de fichiers sur la page d'accueil de l'élément FRDR." class="screenshot"/>
 </a>
 
-Pour télécharger des jeux de données à partir d’un navigateur Web, la marche à suivre est la même que pour tout autre fichier sur Internet. Il suffit de cliquer sur le nom du fichier dans l’outil de recherche du DFDR pour le télécharger sur votre appareil. Gardez à l’esprit que cette méthode comporte plusieurs limites :
+À partir de votre navigateur, vous pouvez soit cliquer sur le nom du fichier pour le télécharger sur votre appareil, soit utiliser la fonction « Télécharger au format ZIP » pour créer un fichier ZIP avec les données qui vous intéressent.
 
-* Il faut télécharger chaque fichier individuellement.
-* Les transferts Web ne sont pas aussi rapides ni fiables que ceux effectués avec Globus à partir de votre appareil local ou d’un autre terminal. Selon la vitesse de votre Internet, nous vous recommandons d’utiliser Globus pour télécharger les fichiers de plus de 5 Go ainsi que les jeux de données comprenant un grand nombre de fichiers.
-* Certains répertoires comprennent trop de fichiers pour être bien recensés sur un navigateur Web. L’outil de recherche de fichiers indiquera si la liste de fichiers est tronquée. Si c’est le cas, cliquez sur « Télécharger le jeu de données » pour ouvrir l’écran de gestion des fichiers de Globus et afficher tous les fichiers du jeu de données ainsi que la liste complète du répertoire.
+Si vous avez besoin d’un lien stable pour télécharger un fichier, par exemple pour l’insérer dans une publication ou dans un script, veuillez consulter la section [Création de liens de téléchargement individuels](#création-de-liens-de-téléchargement-individuels) ci-dessous.
+
+### Téléchargement au format ZIP
+
+Pour télécharger un jeu de données ou un sous-ensemble de fichiers et de dossiers à partir de votre navigateur, vous pouvez demander à DFDR de les compresser dans un fichier ZIP. Aucune inscription n’est requise, mais si vous n’avez pas de compte du DFDR, vous devrez fournir une adresse courriel valide pour obtenir le lien de téléchargement.
+
+#### Première étape
+
+Pour commencer, cliquez sur le bouton « Télécharger au format ZIP » (sous la liste de fichiers). Si vous avez ouvert une session avec votre compte du DFDR, nous utiliserons le courriel inscrit à nos dossiers, et vous serez dirigé vers la page de demande de téléchargement. Si vous n’avez pas ouvert de session, il faudra fournir votre adresse courriel et cliquer sur « Obtenir le lien ». Vous devriez recevoir un courriel du soutien technique du DFDR qui contiendra le lien pour ouvrir le formulaire de demande.
+
+#### Télécharger le formulaire de demande et créer le fichier ZIP 
+
+Choisissez les fichiers et dossiers que vous voulez télécharger. Si vous sélectionnez un dossier, le DFDR en inclura automatiquement tout le contenu (fichier et dossiers imbriqués) dans votre fichier ZIP. Vous pouvez naviguer dans les dossiers pour sélectionner ou désélectionner des fichiers, au besoin. De plus, le DFDR annexera automatiquement à votre fichier, à titre informatif, la LICENCE du jeu de données, la citation recommandée, un fichier README du répertoire de premier niveau, et le nom et les sommes de contrôle de tous les fichiers du jeu de données.
+
+Nous avons fixé une limite de 20 Go par téléchargement. À mesure que vous sélectionnez vos fichiers et dossiers, le DFDR calcule la taille approximative du fichier à compresser et affiche le résultat à côté du bouton « Créer un fichier ZIP ». Pour télécharger plus de 20 Go, nous vous recommandons de répartir votre demande en plusieurs fichiers ZIP ou d’utiliser le transfert de fichiers Globus.
+
+Après avoir fait votre choix, cliquez sur « Créer un fichier ZIP ». Si votre demande a fonctionné, vous recevrez un message qui précisera la marche à suivre. Si vous recevez un message d’erreur ou rencontrez tout autre type de problème, écrivez à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide.
+
+#### Télécharger le fichier ZIP
+
+Lorsque votre fichier ZIP sera prêt à être téléchargé, le DFDR vous enverra un lien de téléchargement par courriel; vous pouvez aussi cliquer sur « Revenir à la demande de téléchargement » et rafraîchir la page pour vérifier l’état de votre demande (soumise, en traitement, traitée). Le temps de traitement varie en fonction du nombre de fichiers sélectionnés et de leur taille.
+
+Une fois que votre fichier ZIP est prêt à être téléchargé, son nom du fichier sous « Fichiers ZIP actuels pour ce jeu de données » devient un hyperlien. Vous aurez 14 jours pour le télécharger au moyen de ce lien du DFDR, après quoi il sera supprimé de notre système.
+
+Pour soumettre une demande pour un autre fichier ZIP du même jeu de données, vous devez d’abord supprimer le fichier ZIP actif ou existant.
 
 ### Création de liens de téléchargement individuels
 
-Le DFDR reproduit les données sur plusieurs serveurs. Afin de générer pour un fichier un lien de téléchargement stable qui fonctionnera indépendamment du serveur concerné, faites un clic droit sur le nom du fichier (Ctrl + clic sur Mac), sélectionnez « Copier l’adresse du lien » et collez le résultat. L’adresse sera similaire à celle-ci : https://www.frdr-dfdr.ca/repo/files/1/published/publication_NNN/submitted_data. « NNN » sera remplacé par un numéro de publication propre au jeu de données dans le DFDR.
+Le DFDR reproduit les données sur plusieurs serveurs. Afin de générer pour un fichier un lien de téléchargement stable qui fonctionnera indépendamment du serveur concerné, faites un clic droit sur le nom du fichier (Ctrl + clic sur Mac), sélectionnez « Copier l’adresse du lien » et collez le résultat. L’adresse sera similaire à celle-ci : https://www.frdr-dfdr.ca/repo/files/1/published/publication_NNN/submitted_data, où « NNN » sera remplacé par un numéro de publication propre au jeu de données dans le DFDR.
 
-Bien que ces liens soient assez stables, ils ne remplacent pas le DOI du jeu de données, soit l’identifiant unique et permanent qui conduira toujours à un enregistrement de votre jeu de données. Si vous prévoyez d’inclure un lien de téléchargement dans une publication, un fichier de script ou sur votre site Web, nous vous recommandons d’inclure également le DOI du jeu de données. Si vous avez des questions ou si vous avez besoin de générer des liens de téléchargement stables pour un grand nombre de fichiers dans un jeu de données, veuillez écrire à l’équipe de soutien technique du DFDR à l’adresse [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide.
+Bien que ces liens soient assez stables, ils ne remplacent pas le DOI du jeu de données, soit l’identifiant unique et permanent qui conduira toujours à un enregistrement de votre jeu de données. Si vous comptez insérer un lien de téléchargement dans une publication, un fichier de script ou sur votre site Web, nous vous recommandons d’inclure également le DOI du jeu de données. Si vous avez des questions ou si vous avez besoin de générer des liens de téléchargement stables pour un grand nombre de fichiers dans un jeu de données, veuillez écrire à l’équipe de soutien technique du DFDR à l’adresse [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide.
 
 
 
