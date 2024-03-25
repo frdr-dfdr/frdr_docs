@@ -9,6 +9,7 @@ hidesidebar: true
 * Optional embargoes on data and metadata records
 * [Synchronize research](dashboard.md#orcid) with ORCID profile 
 * [Selectively share data](external_review.md) with journal editors, reviewers, and colleagues before public release
+* Effortlessly Download Data with the [New Zip Feature](downloading.md)
 * Collaborate on submissions with other FRDR account holders
 * Dataset review and ongoing support provided by the FRDR curation team ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
 * Fast and efficient upload and download via Globus File Transfer, and web browser transfers for smaller datasets
