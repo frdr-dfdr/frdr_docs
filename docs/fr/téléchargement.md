@@ -2,7 +2,7 @@
 Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DFDR, vous pouvez naviguer parmi ceux disponibles avec l’outil [découverte du DFDR](/repo/search?locale=fr).
 
 ## Recherche et téléchargement de fichiers à partir d’un navigateur Web
-L’outil de recherche de fi chiers se trouve au bas de la page d’accueil de chaque jeu de données.
+Le widget de recherche de fichiers se trouve au bas de la page d’accueil de chaque jeu de données.
 
 <a href="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" class="screenshot-lightbox">
 <img src="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" alt="Capture d'écran montrant le widget de navigation de fichiers sur la page d'accueil de l'élément FRDR." class="screenshot"/>
@@ -10,7 +10,7 @@ L’outil de recherche de fi chiers se trouve au bas de la page d’accueil de c
 
 À partir de votre navigateur, vous pouvez soit cliquer sur le nom du fichier pour le télécharger sur votre appareil, soit utiliser la fonction « Télécharger au format ZIP » pour créer un fichier ZIP avec les données qui vous intéressent.
 
-Si vous avez besoin d’un lien stable pour télécharger un fichier, par exemple pour l’insérer dans une publication ou dans un script, veuillez consulter la section [Création de liens de téléchargement individuels](#création-de-liens-de-téléchargement-individuels) ci-dessous.
+Si vous avez besoin d’un lien stable pour télécharger un fichier, par exemple pour l’insérer dans une publication ou dans un script, veuillez consulter la section [Création de liens de téléchargement individuels](#creation-de-liens-de-telechargement-individuels) ci-dessous.
 
 ### Téléchargement au format ZIP
 
@@ -40,7 +40,7 @@ Pour soumettre une demande pour un autre fichier ZIP du même jeu de données, v
 
 Le DFDR reproduit les données sur plusieurs serveurs. Afin de générer pour un fichier un lien de téléchargement stable qui fonctionnera indépendamment du serveur concerné, faites un clic droit sur le nom du fichier (Ctrl + clic sur Mac), sélectionnez « Copier l’adresse du lien » et collez le résultat. L’adresse sera similaire à celle-ci : https://www.frdr-dfdr.ca/repo/files/1/published/publication_NNN/submitted_data, où « NNN » sera remplacé par un numéro de publication propre au jeu de données dans le DFDR.
 
-Bien que ces liens soient assez stables, ils ne remplacent pas le DOI du jeu de données, soit l’identifiant unique et permanent qui conduira toujours à un enregistrement de votre jeu de données. Si vous comptez insérer un lien de téléchargement dans une publication, un fichier de script ou sur votre site Web, nous vous recommandons d’inclure également le DOI du jeu de données. Si vous avez des questions ou si vous avez besoin de générer des liens de téléchargement stables pour un grand nombre de fichiers dans un jeu de données, veuillez écrire à l’équipe de soutien technique du DFDR à l’adresse [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide.
+\Bien que ces liens soient assez stables, ils ne remplacent pas le DOI du jeu de données, soit l’identifiant unique et permanent qui conduira toujours à un enregistrement de votre jeu de données. Si vous comptez insérer un lien de téléchargement dans une publication, un fichier de script ou sur votre site Web, nous vous recommandons d’inclure également le DOI du jeu de données. Si vous avez des questions ou si vous avez besoin de générer des liens de téléchargement stables pour un grand nombre de fichiers dans un jeu de données, veuillez écrire à l’équipe de soutien technique du DFDR à l’adresse [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l’aide.
 
 
 
