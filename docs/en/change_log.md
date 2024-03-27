@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-03-27**:
+
+* Updated the Data Submission Policy to indicate that in-progress datasets will be deleted after one year of inactivity.
+* Improved file format metrics with greater visibility into compressed and archival file formats.
+* Added a new feature: download dataset files as a Zip
+
 **2024-02-28**:
 
 * Improved the “contact dataset administrator” form so that it no longer marks some types of wording as spam
