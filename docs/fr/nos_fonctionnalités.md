@@ -9,7 +9,7 @@ hidesidebar: true
 * Embargos facultatifs sur les enregistrements de données et de métadonnées
 * [Synchroniser la recherche](tableau_de_bord.md#orcid) avec le profil ORCID  (Comment for Jin: Pls link this to ORCID section)
 * [Partager de manière sélective les données](évaluation_externe.md) avec des rédactrices et rédacteurs en chef de périodiques, des évaluatrices et évaluateurs et des collègues avant leur publication
-* Téléchargez facilement des données grâce à la [nouvelle fonctionnalité Zip](téléchargement.md)
+* Téléchargez facilement des données grâce à la [nouvelle fonctionnalité Zip](téléchargement.md#telechargement-au-format-zip)
 * Collaboration avec les autres titulaires d’un compte DFDR pour les soumissions
 * Examen des jeux de données et soutien continu offert par l’équipe de curation du DFDR ([support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca))
 * Téléchargement et téléversement rapides et efficaces au moyen de Globus File Transfer et transferts depuis un navigateur Web pour les jeux de données de petite taille
