@@ -368,6 +368,14 @@ Pour s’assurer que tous les jeux de données soumis soient préservés comme i
 Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le cadre de la soumission en répondant à une question facultative concernant la valeur à long terme de leur jeu de données. Pour en savoir plus, consultez les instructions de la section [Demander une préservation à long terme](déposer_les_données.md#demander-une-preservation-a-long-terme) du guide Déposer les données.
 </details>
 
+<details markdown="block">
+<summary markdown="block">
+######4. Mes données sont-elles sauvegardées ?
+</summary>
+
+Oui, nous conservons trois copies de toutes les données déposées au DFDR. Une copie est stockée sur disque dans un centre de données à Burnaby, en Colombie-Britannique, une copie est stockée sur disque dans un centre de données à Waterloon, en Ontario, et une copie est stockée sur bande à Burnaby, en Colombie-Britannique. Il peut y avoir des copies supplémentaires d'ensembles de données publiés dans notre stockage de préservation à long terme à Toronto, en Ontario. Nous effectuons une vérification de sauvegarde mensuelle, en comparant les données sur bande aux données sur disque. Les données sont conservées sur bande pendant 90 jours après leur suppression. Nous effectuons une vérification annuelle de nos procédures de sauvegarde. Si vous avez des questions concernant la sauvegarde et la conservation des données dans le DFDR, veuillez nous contacter au [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+</details>
+
 ## Réutilisation des données
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>

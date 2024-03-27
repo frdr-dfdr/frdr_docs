@@ -356,7 +356,14 @@ FRDR uses [Archivematica](https://www.archivematica.org/en/) to create Archival 
 In order to ensure all datasets submitted to FRDR are preserved where appropriate, FRDR has implemented an appraisal process to ensure long-term access is managed responsibly and sustainably. All datasets deposited with FRDR will be considered for long-term preservation. Please note that the repository appraisal process takes documentation and file format into account, and datasets lacking adequate documentation or stored in proprietary formats may not be selected for long-term preservation activities or may be reappraised in future. Datasets not selected for long-term preservation will continue to be accessible via FRDR as per the [Data Retention and Deaccession Policy](/policies/en/data_retention/) and [Terms of Use](/policies/en/terms_of_use/).
 
 Depositors can contribute to the appraisal process during submission by answering an optional question regarding the long-term value of their dataset. For more information, see the instructions for “[Requesting Long-term Preservation](depositing_data.md#requesting-long-term-preservation)” in the Depositing Data guide.
+</details>
 
+<details markdown="block">
+<summary markdown="block">
+######4. Is my data backed up?
+</summary>
+
+Yes, we retain three copies of all data deposited to FRDR. One copy is stored on disk at a data centre in Burnaby, BC, one copy is stored on disk at a data centre in Waterloon, ON, and one copy is stored on tape in Burnaby, BC. There may be additional copies of published datasets in our long term preservation storage in Toronto, ON. We perform montly backup verification, comparing data on tape to data on disk. Data is retained on tape for 90 days after it is deleted.  We perform yearly verification of our backup procedures. If you have any questions about the backup and retention of data in FRDR, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
 
 ## Data Reuse
