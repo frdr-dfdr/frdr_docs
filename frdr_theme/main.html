@@ -157,7 +157,7 @@
         <div class="container row">
             {% if nav|length>1 and not page.meta.hidesidebar %}
             <div role="navigation" class="col-md-3 frdr-sidebar" aria-label="sidebar">
-                <div class="col-md-3 frdr-sidebar">
+                <div class="frdr-sidebar">
                     <ul>
                     {% for nav_item in nav %}
                         {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
