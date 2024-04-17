@@ -156,39 +156,17 @@
 
         <div class="container row">
             {% if nav|length>1 and not page.meta.hidesidebar %}
-            <div class="col-md-3 frdr-sidebar">
-                <ul>
-                {% for nav_item in nav %}
-                    {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
-                        {% for nav_item in nav_item.children %}
-                            <li class="{% if nav_item.active%}current{%endif%}">
-                                <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
-                                {% if nav_item.active %}
-                                <ul id="current">
-                                    {% for toc_item in page.toc %}
-                                        <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                        {% for toc_item in toc_item.children %}
-                                            {% if toc_item.level <= 3 %}
-                                                <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                                {% for toc_item in toc_item.children %}
-                                                    {% if toc_item.level <= 3 %}
-                                                        <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                                    {% endif %}
-                                                {% endfor %}
-                                            {% endif %}
-                                        {% endfor %}
-                                    {% endfor %}
-                                </ul>
-                            {% endif %}
-                            </li>
-                        {% endfor %}
-                    {% elif 'Fr' in nav_item.title and '/fr/' in page.canonical_url %}
-                        {% for nav_item in nav_item.children %}
-                            <li class="{% if nav_item.active%}current{%endif%}">
-                                <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
-                                {% if nav_item.active %}
-                                <ul id="current">
-                                    {% for toc_item in page.toc %}
+            <div role="navigation" class="col-md-3 frdr-sidebar" aria-label="sidebar">
+                <div class="col-md-3 frdr-sidebar">
+                    <ul>
+                    {% for nav_item in nav %}
+                        {% if 'En' in nav_item.title and '/en/' in page.canonical_url %}
+                            {% for nav_item in nav_item.children %}
+                                <li class="{% if nav_item.active%}current{%endif%}">
+                                    <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                    {% if nav_item.active %}
+                                    <ul id="current">
+                                        {% for toc_item in page.toc %}
                                             <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
                                             {% for toc_item in toc_item.children %}
                                                 {% if toc_item.level <= 3 %}
@@ -200,15 +178,39 @@
                                                     {% endfor %}
                                                 {% endif %}
                                             {% endfor %}
-                                    {% endfor %}
-                                </ul>
+                                        {% endfor %}
+                                    </ul>
                                 {% endif %}
-                            </li>
-                        {% endfor %}
-                    {% endif %}
-                    </li>
-                {% endfor %}
-                </ul>
+                                </li>
+                            {% endfor %}
+                        {% elif 'Fr' in nav_item.title and '/fr/' in page.canonical_url %}
+                            {% for nav_item in nav_item.children %}
+                                <li class="{% if nav_item.active%}current{%endif%}">
+                                    <a href="{{ base_url}}/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                    {% if nav_item.active %}
+                                    <ul id="current">
+                                        {% for toc_item in page.toc %}
+                                                <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                {% for toc_item in toc_item.children %}
+                                                    {% if toc_item.level <= 3 %}
+                                                        <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                        {% for toc_item in toc_item.children %}
+                                                            {% if toc_item.level <= 3 %}
+                                                                <li class="third-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                        {% endfor %}
+                                    </ul>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
             </div>
             {% else %}
             <div class="col-md-3"></div>
@@ -222,7 +224,7 @@
         </div>
         </div>
 
-        <div class="site-footer">
+        <div class="site-footer" role="contentinfo">
             <div class="container">
                 <div>
                     <div class="d-flex flex-column flex-lg-row justify-content-between">
