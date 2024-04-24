@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-04-24**:
+
+* Improved the user interface for selecting files during Zip download
+
 **2024-03-27**:
 
 * Updated the Data Submission Policy to indicate that in-progress datasets will be deleted after one year of inactivity.
