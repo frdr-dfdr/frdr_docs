@@ -1,5 +1,10 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-05-29**:
+
+* Updated the FRDR user interface to meet the WCAG Level AA accessibility requirements as part of ongoing accessibility review.
+* Updated ROR data to schema version 2
+
 **2024-04-24**:
 
 * Improved the user interface for selecting files during Zip download
