@@ -434,3 +434,55 @@ Author AA, Author B, Author C. (2023). This is the dataset title. Version 1. Fed
 </summary>
 Various statistics are available for data submitted to FRDR, including the number of views and file downloads. To access these stats, navigate to the dataset landing page and click the “View item statistics” button at the bottom of the record.
 </details>
+
+## Dataset Versioning
+
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
+
+<details markdown="block">
+<summary markdown="block">
+######1. How do I create a new version of my dataset?
+</summary>
+
+ You can create a new version of a published dataset from the Publication Dashboard or from the landing page of the dataset as described in the [documentation](/docs/en/create_new_version/#create-a-new-version).
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######2. How do I add new files or changes files in a dataset?
+</summary>
+
+Once published you can create a new version of the dataset by [creating a new version](/docs/en/create_new_version/#create-a-new-version). If your dataset is under embargo contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######3. I can't create a new version of my dataset?
+</summary>
+
+Only published datasets not under embargo are eligible to have a new version created. Datasets under embargo are not eligible for new versions, contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) to alter the metadata or files.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######4. How do I change the metadata for my dataset?
+</summary>
+
+Contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) to make metadata only changes to a dataset.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######5. Do I need to upload my files again?
+</summary>
+
+All files from the previous version will be copied into the new version. In this new copy you can make the changes necessary to your dataset.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######6. Will the new version of a dataset count against my quota?
+</summary>
+
+During the curation process the new version will count against your quota. Once published, any files that are identical to the previous version will not count against your quota.
+</details>
