@@ -304,7 +304,7 @@
                         <div class="content mt-2 row">
                             <a href="{% if '/en/' in page.canonical_url %}https://alliancecan.ca/en{% else %}https://alliancecan.ca/fr{% endif %}">
                                 <small class="d-block text-center">
-                                    © <script>document.write(new Date().getFullYear())</script>
+                                    © <script>document.write(new Date().getFullYear().toString())</script>
                                     {% if '/en/' in page.canonical_url %}Digital Research Alliance of Canada{% else %}Alliance de recherche numérique du Canada{% endif %}
                                 </small>
                             </a>
@@ -317,9 +317,9 @@
     </body>
 <script>
   // Show all demo tagged divs if we are in demo environment
-  if (window.location.href.indexOf("demo") != -1) {
-    var demodivs = document.getElementsByClassName("demo-text");
-    for (i = 0; i < demodivs.length; i++) {
+  if (window.location.href.indexOf("demo") !== -1) {
+      const demodivs = document.getElementsByClassName("demo-text");
+      for (let i = 0; i < demodivs.length; i++) {
       demodivs[i].style.display = "inline";
     }
   }
@@ -355,14 +355,14 @@
             $(this).toggleClass('expanded');
             if($(this).hasClass('expanded')){
                 $(this).parent().nextUntil("h2").attr("open", true);
-                if (document.documentElement.lang == 'en'){
+                if (document.documentElement.lang === 'en'){
                     $(this).text('Collapse All');
                 } else {
                     $(this).text('Réduire tout');
                 }
             } else {
                 $(this).parent().nextUntil("h2").attr("open", false);
-                if (document.documentElement.lang == 'en'){
+                if (document.documentElement.lang === 'en'){
                     $(this).text('Expand All');
                 } else {
                     $(this).text('Développer tout');
@@ -371,8 +371,8 @@
         });
 
         // Have the question open if linking to specific question
-        if (window.location.hash != '') {
-            var questionId = window.location.hash;
+        if (window.location.hash !== '') {
+            const questionId = window.location.hash;
             $(questionId).parent().parent().attr("open", true);
         }
 
