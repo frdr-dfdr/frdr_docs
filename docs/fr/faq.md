@@ -99,6 +99,17 @@ Une [version de démonstration](https://demo.frdr-dfdr.ca/repo/?locale=fr) du si
 Dans la mesure du possible, le site de démonstration sera tenu à jour avec la version la plus récente de la plateforme du DFDR. À noter que toutes les données déposées dans la version de démonstration seront considérées comme des « données d’essai » et ne seront disponibles que temporairement.
 </details>
 
+<details markdown="block">
+<summary markdown="block">
+######11. Puis-je me connecter au DFDR en utilisant mes identifiants institutionnels?
+</summary>
+
+<b>Chercheurs</b> : Le DFDR utilise Globus Auth pour gérer les connexions. Si votre institution figure dans le menu déroulant, vous devriez pouvoir vous connecter en utilisant les informations d’identification de votre institution d’origine. Si cela ne fonctionne pas, il se peut que votre institution ne fournisse pas toutes les informations dont Globus a besoin pour authentifier votre identité. Dans ce cas, nous vous suggérons de vous connecter au DFDR en utilisant un compte existant de la Fédération (recherchez Calcul Canada dans le menu déroulant) ou alors de vous connecter via ORCID. Quelle que soit la méthode choisie, vous devez vous connecter de la même manière à chaque fois. Le DFDR attribuera des permissions à cette identité précise.
+
+<b>Personnel chargé de la gestion de l’identité institutionnelle</b> : Si vous voulez que vos chercheuses et chercheurs aient accès à Globus (et donc au DFDR), vous devez participer au cadre de la Fédération canadienne d’accès (FCA) géré par CANARIE. Plus précisément, vous devrez collaborer avec CANARIE pour faire partie de la catégorie des entités de recherche et d’érudition (R&S). Votre institution doit apparaître sur la liste des <a href="https://www.canarie.ca/fr/identite/fca/participants/">FCA participants</a> avec participation à la «Catégorie Research and Scholarship» cochée. Si la case R&S n’est pas cochée, la connexion à Globus ne fonctionnera pas. Pour entamer le processus, veuillez suivre les instructions de la page <a href="https://www.canarie.ca/fr/identite/gfi/categories-entites/">Catégories d’entités</a> et contacter CANARIE <canops@canarie.ca> si vous avez des questions.
+
+</details>
+
 ## Processus de soumission de données
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>

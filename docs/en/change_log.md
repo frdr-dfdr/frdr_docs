@@ -1,5 +1,18 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-07-31**:
+
+* Quota usage will now be displayed as zero instead of blank when users have not started their first deposit
+* A point was added to the FAQ regarding logging into FRDR using institutional credentials
+* The failed login page wording was updated to be clear when users must contact support to have their accounts activated
+* Fixed a problem with the file listing “load more” button not working in some cases
+* Updated ROR data to release 1.50
+
+**2024-05-29**:
+
+* Updated the FRDR user interface to meet the WCAG Level AA accessibility requirements as part of ongoing accessibility review.
+* Updated ROR data to schema version 2
+
 **2024-04-24**:
 
 * Improved the user interface for selecting files during Zip download

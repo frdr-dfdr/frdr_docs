@@ -99,6 +99,17 @@ A [demo version](https://demo.frdr-dfdr.ca/repo/?locale=en) of the FRDR site is 
 As much as possible, the demo will be kept up-to-date with the latest version of the FRDR platform. Please note that all data deposited into the demo will be considered "test" data and will only be available temporarily.
 </details>
 
+<details markdown="block">
+<summary markdown="block">
+######11. Can I log into FRDR using my institutional credentials?
+</summary>
+
+<b>Researchers:</b> When you first try to log in to FRDR you will end up at the Globus login page. If you find your institution in the dropdown list, you may be able to log in to FRDR using your home institution credentials.  If this does not work, your institution may not be releasing all of the information necessary - in which case you may be able to log into your ORCID account first using your home institution credentials, and then log into FRDR using ORCID.
+
+<b>Institutional Identity Management Staff:</b> If you want to get direct institutional to Globus (and hence FRDR) working for your researchers, you will need to work with CANARIE to get your institution listed on the <a href="https://www.canarie.ca/identity/caf/participants/">CAF Participants</a> list with participation in the "Research and Scholarship Entity Category" checked. Without the R&S checkmark, log in to Globus will not work. You can start the process of getting your institution into this category by following the instructions on the <a href="https://www.canarie.ca/identity/fim/entity-categories/">Entity Categories</a> page. Click on the link "Join the R&S Entity Category".
+
+</details>
+
 ## Data Submission Process
 
 <button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
