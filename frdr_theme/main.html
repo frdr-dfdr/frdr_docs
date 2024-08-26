@@ -84,18 +84,6 @@
                             <a href="/repo/PublishDashboard?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Deposit Data{% else %}Déposer des données{% endif %}</a>
                         </li>
 
-                        <!-- Account -->
-                        <li class="nav-item dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% if '/en/' in page.canonical_url %}Account {% else %}Compte{% endif %}</a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-item"><a href="/repo/settings/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Settings{% else %}Paramètres{% endif %}</a></li>
-                                <li role="separator" class="dropdown-divider"></li>
-                                <li class="dropdown-item">
-                                    <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
-                                </li>
-                            </ul>
-                        </li>
-
                         <!-- Help -->
                         <li class="nav-item dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -108,14 +96,12 @@
                             <li class="dropdown-item"><a role="menuitem" href="/policies/en/">Policies</a></li>
                             <li class="dropdown-item"><a role="menuitem" href="/docs/en/faq/">FAQ</a></li>
                             <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Video Tutorials</a></li>
-                            <li class="dropdown-item"><a role="menuitem" href="/repo/contactus">Contact Us</a></li>
                             {% else %}
                             <li class="dropdown-item"><a role="menuitem" href="/docs/fr/avant_de_déposer/">Obtenez un compte</a></li>
                             <li class="dropdown-item"><a role="menuitem" href="/docs/fr/documentation/">Documentation</a></li>
                             <li class="dropdown-item"><a role="menuitem" href="/policies/fr/">Politiques</a></li>
                             <li class="dropdown-item"><a role="menuitem" href="/docs/fr/faq/">FAQ</a></li>
                             <li class="dropdown-item"><a role="menuitem" href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz" target="_blank" rel="noopener noreferrer">Tutoriels vidéos</a></li>
-                            <li class="dropdown-item"><a role="menuitem" href="/repo/contactus?locale=fr">Contactez nous</a></li>
                             {% endif %}
                             </ul>
                         </li>
@@ -146,7 +132,24 @@
 
                         <!-- Site Metrics -->
                         <li class="nav-item">
-                            <a href="{% if '/en/' in page.canonical_url %}/stats/en{% else %}/stats/fr{% endif %}">{% if '/en/' in page.canonical_url %}Site Metrics{% else %}Métriques du site{% endif %}</a>
+                            <a href="{% if '/en/' in page.canonical_url %}/stats/en{% else %}/stats/fr{% endif %}">{% if '/en/' in page.canonical_url %}Metrics{% else %}Métriques{% endif %}</a>
+                        </li>
+
+                        <!-- Contact Us -->
+                        <li class="nav-item">
+                            <a href="{% if '/en/' in page.canonical_url %}/repo/contactus{% else %}/repo/contactus?locale=fr{% endif %}">{% if '/en/' in page.canonical_url %}Contact Us{% else %}Contactez nous{% endif %}</a>
+                        </li>
+
+                        <!-- Account -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="User Account"><span aria-hidden="true" class="far fa-user"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                <li class="dropdown-item"><a href="/repo/settings/profile?locale={% if '/en/' in page.canonical_url %}en{% else %}fr{% endif %}">{% if '/en/' in page.canonical_url %}Settings{% else %}Paramètres{% endif %}</a></li>
+                                <li role="separator" class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+                                    <a href="/repo/logout"> {% if '/en/' in page.canonical_url %}Log Out{% else %}Déconnexion{% endif %} </a>
+                                </li>
+                            </ul>
                         </li>
 
                     </ul>
@@ -301,7 +304,7 @@
                         <div class="content mt-2 row">
                             <a href="{% if '/en/' in page.canonical_url %}https://alliancecan.ca/en{% else %}https://alliancecan.ca/fr{% endif %}">
                                 <small class="d-block text-center">
-                                    © <script>document.write(new Date().getFullYear())</script>
+                                    © <script>document.write(new Date().getFullYear().toString())</script>
                                     {% if '/en/' in page.canonical_url %}Digital Research Alliance of Canada{% else %}Alliance de recherche numérique du Canada{% endif %}
                                 </small>
                             </a>
@@ -314,9 +317,9 @@
     </body>
 <script>
   // Show all demo tagged divs if we are in demo environment
-  if (window.location.href.indexOf("demo") != -1) {
-    var demodivs = document.getElementsByClassName("demo-text");
-    for (i = 0; i < demodivs.length; i++) {
+  if (window.location.href.indexOf("demo") !== -1) {
+      const demodivs = document.getElementsByClassName("demo-text");
+      for (let i = 0; i < demodivs.length; i++) {
       demodivs[i].style.display = "inline";
     }
   }
@@ -352,14 +355,14 @@
             $(this).toggleClass('expanded');
             if($(this).hasClass('expanded')){
                 $(this).parent().nextUntil("h2").attr("open", true);
-                if (document.documentElement.lang == 'en'){
+                if (document.documentElement.lang === 'en'){
                     $(this).text('Collapse All');
                 } else {
                     $(this).text('Réduire tout');
                 }
             } else {
                 $(this).parent().nextUntil("h2").attr("open", false);
-                if (document.documentElement.lang == 'en'){
+                if (document.documentElement.lang === 'en'){
                     $(this).text('Expand All');
                 } else {
                     $(this).text('Développer tout');
@@ -368,8 +371,8 @@
         });
 
         // Have the question open if linking to specific question
-        if (window.location.hash != '') {
-            var questionId = window.location.hash;
+        if (window.location.hash !== '') {
+            const questionId = window.location.hash;
             $(questionId).parent().parent().attr("open", true);
         }
 
