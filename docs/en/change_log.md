@@ -1,5 +1,10 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-08-28**:
+
+* The depositor dashboard has been redesigned as part of FRDR ongoing alignment to Alliance branding
+* Download limit has been removed for web download links; users may now choose to download any files they wish through their browser, however we still encourage the use of Globus Transfer for large files
+
 **2024-07-31**:
 
 * Quota usage will now be displayed as zero instead of blank when users have not started their first deposit
