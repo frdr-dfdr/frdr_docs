@@ -1,6 +1,19 @@
 ---
 hidesidebar: true
 ---
+## Service Team
+
+* Laura Gerlitz, Curation Officer, Digital Research Alliance of Canada
+* Tristan Kuehn, Lunaris Product Lead, Digital Research Alliance of Canada
+* Lina Harper, Curation Officer, Digital Research Alliance of Canada
+* Elizabeth Lartey, Research Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
+* Neha Milan, Product Lead, University of Saskatchewan
+* Tamanna Moharana, Curation Officer, Digital Research Alliance of Canada
+* Amanda Tomé, Preservation Coordinator, Digital Research Alliance of Canada
+* Daniel Manrique-Castaño, Curation Officer, Digital Research Alliance of Canada
+* Victoria Smith, Data Governance and Ethics Lead, Digital Research Alliance of Canada
+* Lee Wilson, Director of Research Data Management, Digital Research Alliance of Canada
+
 ## Development Team
 
 * Elias Eid, Developer, McMaster University
@@ -12,19 +25,6 @@ hidesidebar: true
 * Anny Wang, User Experience Specialist, McMaster University
 * Mike Winter, Senior Developer, University of Saskatchewan
 * Jin Zhang, Developer, Simon Fraser University
-
-## Service Team
-
-* Erin Clary, Curation Coordinator, Digital Research Alliance of Canada
-* Laura Gerlitz, Curation Officer, Digital Research Alliance of Canada
-* Tristan Kuehn, Lunaris Product Lead, Digital Research Alliance of Canada
-* Lina Harper, Curation Officer, Digital Research Alliance of Canada
-* Elizabeth Lartey, Research Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
-* Neha Milan, Product Lead, University of Saskatchewan
-* Tamanna Moharana, Curation Officer, Digital Research Alliance of Canada
-* Amanda Tomé, Preservation Coordinator, Digital Research Alliance of Canada
-* Victoria Smith, Data Governance and Ethics Lead, Digital Research Alliance of Canada
-* Lee Wilson, Director of Research Data Management, Digital Research Alliance of Canada
 
 ## Communications Team
 
