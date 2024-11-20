@@ -145,7 +145,7 @@ Pour confirmer que c’est ce qui cause le problème, essayez de désactiver vot
 ######1. Comment puis-je lier mon jeu de données à des produits de recherche connexes?
 </summary>
 
-Vous pouvez relier votre jeu de données du DFDR avec des publications, des jeux de données, un code, des modèles ou d’autres produits de recherche connexes par l’intermédiaire de l’élément de métadonnées « Identifiants connexes », à l’écran « Métadonnées recommandées » de l’interface de soumission. Veuillez utiliser un DOI, un autre identifiant unique ou une autre adresse URL. Pour en savoir plus, consultez la section [Métadonnées recommandées](description_de_vos_données.md#métadonnées-recommandées) du guide sur la description de vos données. Nous vous recommandons aussi d’indiquer le DOI de votre jeu de données dans toute publication connexe (à la section des références ou dans un énoncé sur la disponibilité des données).
+Vous pouvez relier votre jeu de données du DFDR avec des publications, des jeux de données, un code, des modèles ou d’autres produits de recherche connexes par l’intermédiaire de l’élément de métadonnées « Identifiants connexes », à l’écran « Métadonnées recommandées » de l’interface de soumission. Veuillez utiliser un DOI, un autre identifiant unique ou une autre adresse URL. Pour en savoir plus, consultez la section [Métadonnées recommandées](description_de_vos_données.md#metadonnees-recommandees) du guide sur la description de vos données. Nous vous recommandons aussi d’indiquer le DOI de votre jeu de données dans toute publication connexe (à la section des références ou dans un énoncé sur la disponibilité des données).
 
 Pour ajouter des liens vers des produits de recherche connexes après avoir soumis votre jeu de données, veuillez écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
 </details>
@@ -454,4 +454,75 @@ Auteur AA, auteur B, auteur C (2023). Titre du jeu de données. Version 1. Dép�
 ######7. Comment puis-je mesurer les retombées de mon jeu de données?
 </summary>
 Il existe différentes statistiques sur les données soumises dans le DFDR, y compris le nombre de consultations et le nombre de fichiers téléchargés. Pour consulter ces statistiques, rendez-vous sur la page d’accueil de votre jeu de données, puis cliquez sur le bouton « Voir les statistiques » au bas de la page.
+</details>
+
+## Versionnage des jeux de données
+
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Développer tout</button>
+
+<details markdown="block">
+<summary markdown="block">
+######1. Comment puis-je créer une nouvelle version de mon jeu de données?
+</summary>
+
+Vous pouvez créer une nouvelle version d’un jeu de données publié à partir de votre tableau de bord ou de la page d’accueil du jeu en question, comme il est indiqué à la section [Créer une nouvelle version d’un jeu de données](/docs/fr/créer_une_nouvelle_version/) de notre documentation. Dans les deux cas, vous devez ouvrir une session avec votre compte du DFDR.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######2. Les collaboratrices et collaborateurs peuvent-ils créer de nouvelles versions?
+</summary>
+
+Pour le moment, seule la personne à l’origine du dépôt initial peut créer une nouvelle version. Nous planifions d’étendre cette fonctionnalité aux collaboratrices et collaborateurs dans l’avenir.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######3. Comment puis-je ajouter ou modifier des fichiers dans un jeu de données?
+</summary>
+
+Pour ajouter ou modifier des fichiers dans un jeu de données publié, vous n’avez qu’à créer une nouvelle version. La marche à suivre est décrite à la section [Créer une nouvelle version d’un jeu de données](/docs/fr/créer_une_nouvelle_version/) de notre documentation. Si votre jeu de données est sous embargo ou en évaluation externe (donc non publié) écrivez-nous à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######4. Pourquoi est-ce que je ne peux pas créer de nouvelle version de mon jeu de données?
+</summary>
+
+Seuls les jeux de données publiés (donc non sous embargo ni en évaluation externe) peuvent être versionnés. Pour apporter une modification dans un jeu non publié, écrivez-nous à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca); notre équipe de service se fera un plaisir de vous aider.
+
+Si, au contraire, votre jeu de données est publié et vous avez commencé le versionnage, mais attendez encore la permission de modifier vos fichiers, veuillez également nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). Le DFDR peut prendre plus ou moins de temps pour recopier votre jeu de données en une nouvelle version, selon la taille et la complexité de celui-ci; cela dit, nous nous ferons un plaisir de vérifier l’état du traitement.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######5. Puis-je modifier les métadonnées d’un jeu de données publié?
+</summary>
+
+Si vous modifiez des fichiez dans le cadre d’une nouvelle version, vous aurez aussi l’occasion de mettre à jour les métadonnées. Si, toutefois, les changements voulus ne concernent que les métadonnées (ex. : lien vers un article publié, ordre des auteurs, amélioration de la description du jeu de données), veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) : une curatrice ou un curateur vous aidera à les apporter, et ce, sans créer de nouvelle version.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######6. Dois-je chaque fois téléverser mes fichiers à nouveau?
+</summary>
+Les fichiers du jeu de données antérieur sont tous recopiés en une nouvelle version que vous pouvez modifier. Vous n’avez donc pas à re-télécharger les fichiers qui ne changent pas. Il suffit d’ajouter les nouveaux fichiers, de supprimer les fichiers obsolètes et d’écraser les fichiers que vous retouchez.
+
+Si vous souhaitez modifier un grand nombre de fichiers, nous vous recommandons de tirer parti des fonctionnalités de Globus, sous « Transfert et options de timer » à l’écran du Gestionnaire de fichiers. N’hésitez pas à nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) avant de commencer vos changements si vous avez des interrogations.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######7. La nouvelle version d’un jeu de données compte-t-elle dans mon quota?
+</summary>
+Oui. La nouvelle version compte dans votre quota du DFDR (votre espace de stockage alloué) jusqu’à ce que sa publication soit approuvée. Après sa publication, seuls les fichiers modifiés ou ajoutés sont comptabilisés; les fichiers identiques à ceux de la version précédente ne comptent pas dans votre quota.
+
+Votre tableau de bord montre ce qui reste d’espace. Si vous craignez de dépasser votre quota au cours du versionnage, par exemple en raison d’un jeu de données volumineux ou d’un nombre considérable de changements à faire, écrivez à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######8. Ma nouvelle version aura-t-elle le même DOI?
+</summary>
+Votre nouvelle version se verra attribuer un nouvel identifiant numérique d’objet (DOI). Le DOI d’origine demeure fonctionnel : il conduit au jeu de données d’origine, où s’affichera désormais une bannière menant à la dernière version. Le DFDR lie aussi les différentes versions dans le registre de métadonnées, et la page de chaque version du jeu de données comporte un tableau qui liste toutes les versions disponibles et résume les changements.
 </details>

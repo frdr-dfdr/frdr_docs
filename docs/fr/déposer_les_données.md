@@ -10,7 +10,7 @@ Voici les étapes requises pour initier une soumission dans le DFDR :
 * [Sélection de la licence d'utilisation des données](déposer_les_données.md#licences-dutilisation-des-donnees)
 * [Ajout de collaborateurs](déposer_les_données.md#ajout-de-collaborateurs)
 * [Saisie de métadonnées relatives à vos données](déposer_les_données.md#saisie-de-metadonnees)
-* [Évaluation externe](déposer_les_données.md#évaluation-externe)
+* [Évaluation externe](déposer_les_données.md#evaluation-externe)
 * [Indication d'une période d’embargo (le cas échéant)](déposer_les_données.md#indication-dune-periode-dembargo)
 * [Transfert de jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
 * [Finalisation de la soumission](déposer_les_données.md#finaliser-de-la-soumission)
