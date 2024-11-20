@@ -53,7 +53,11 @@ Le DFDR attribue un identifiant numérique d’objet (DOI) à votre nouvelle ver
 ## Créer une nouvelle version
 Pour créer une nouvelle version d’un jeu de données publié, vous pouvez passer par votre [tableau de bord](/repo/PublishDashboard) ou par la page d’accueil du jeu de données. Dans les deux cas, vous devez ouvrir une session avec votre compte du DFDR. Sur votre [tableau de bord](/repo/PublishDashboard), trouvez le jeu de données à modifier dans la liste des jeux publiés, puis cliquez sur « Créer » sous le menu « Actions ».
 
+<img src="/docs/img/screenshots/creer_une_nouvelle_version/create-new-version-publication-dashboard-fr.png" alt="Screenshot showing button to create a new version of a dataset on the Publication Dashboard" class="screenshot"/>
+
 Ou encore, cliquez sur le bouton **Créer une version du jeu de données** tout en bas de la page d’accueil du jeu de données concerné.
+
+<img src="/docs/img/screenshots/creer_une_nouvelle_version/create-new-version-landing-page-fr.png" alt="Screenshot showing button to create a new version of a dataset on the landing page." class="screenshot"/>
 
 ## Ajouter un résumé public des changements
 Il est recommandé d’ajouter un résumé public des changements pour chaque nouvelle version. Ce résumé figure ensuite dans l’historique des versions et sert à retracer les différences entre chacune. Expliquez quels fichiers ont été ajoutés, retirés ou significativement modifiés dans la nouvelle version. Le résumé est limité à 2 000 caractères; pour décrire les changements plus en détail, vous pouvez annexer au jeu de données un fichier d’historique ou un journal des changements, ou encore étoffer le fichier README.
