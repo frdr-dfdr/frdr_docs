@@ -7,6 +7,7 @@ Welcome to the service documentation for the Federated Research Data Repository!
 * [Depositing Data](depositing_data.md)
 * [External Dataset Review](external_review.md)
 * [After Depositing](after_depositing.md)
+* [Create a New Dataset Version](create_new_version.md)
 * [Searching for Datasets](searching.md)
 * [Downloading Datasets](downloading.md)
 * [Advanced](advanced.md)
