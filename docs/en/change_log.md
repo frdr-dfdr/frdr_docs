@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-11-27**:
+
+* New feature: Dataset Versioning. Submitters may now create a new version of a published dataset from their dashboard. Please see the [dataset versioning instructions](/docs/en/create_new_version/).
+* Site Metrics dashboard now shows collection-faceted metrics, a map view of dataset views and downloads, download and view metrics for individual submissions.
+
+
 **2024-10-30**:
 
 * The FRDR sensitive data deposit pilot has started, which is part of the Alliance [Controlled Access Management for Research Data Initiative](https://alliancecan.ca/en/funding-opportunities/controlled-access-management-research-data)
