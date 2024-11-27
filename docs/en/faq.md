@@ -445,3 +445,77 @@ Author AA, Author B, Author C. (2023). This is the dataset title. Version 1. Fed
 </summary>
 Various statistics are available for data submitted to FRDR, including the number of views and file downloads. To access these stats, navigate to the dataset landing page and click the “View item statistics” button at the bottom of the record.
 </details>
+
+## Dataset Versioning
+
+<button type="button" class="btn btn-sm expand-all-btn p-0 float-right">Expand All</button>
+
+<details markdown="block">
+<summary markdown="block">
+######1. How do I create a new version of my dataset?
+</summary>
+
+You can create a new version of a published dataset from your Dashboard or from the landing page of the dataset you would like to update, as outlined in our documentation at [Create a new Dataset Version](/docs/en/create_new_version/#create-a-new-dataset-version). In both cases, you must be logged in to your FRDR account.
+
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######2. Can Collaborators Create Versions?
+</summary>
+
+At this time only the individual who initiated the original deposit can create a new version. In the future, we plan to extend the functionality to also allow collaborators to initiate a new version.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######3. How do I add new files or changes files in a dataset?
+</summary>
+
+If you need to update files in a published dataset, you can create a new version. The steps are outlined in our documentation at [Create a New Dataset Version](/docs/en/create_new_version/#create-a-new-dataset-version). If your dataset is under embargo or in external review (i.e., not yet publicly available), please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) for assistance.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######4. Why can't I create a new version of my dataset?
+</summary>
+
+Only published datasets that are publicly available (i.e., not under embargo or in external review) can be versioned. If you need to update an item that is not publicly available, please contact us at support@frdr-dfdr.ca and a member of our service team will assist you.
+
+If your dataset is public, and you started the versioning process but are still waiting for permission to edit your file set, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). Depending on the size and complexity of your dataset, it may take time for FRDR to copy your dataset for versioning, but we are happy to check on the status.
+
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######5. Can I update metadata on a published dataset?
+</summary>
+
+If you are changing the file set as part of a new version, you will also have the opportunity to update the metadata record. However, if only metadata changes are required (e.g., to link to a published article, change author order, augment the dataset description), please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). A curator will assist you with these changes, and no new version is required.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######6. Do I need to upload my files again?
+</summary>
+
+All files from the previous version will be copied into the new version of your dataset, and you will have permission to edit this new copy. There is no need to re-upload files that have not changed. You can focus solely on adding new files that were not part of the previous version, removing files that are no longer necessary, and replacing those files that were modified or changed for your new version.
+If you are changing many files, we recommend using Globus settings, found in the Globus File Manager screen under “Transfer & Timer Options”, to help manage your updates. Please reach out to us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) with questions, or if you would like to discuss anything before implementing your changes!
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######7. Will the new version of a dataset count against my quota?
+</summary>
+
+Yes. Until your new version is approved for publication, it will count against your FRDR quota (your storage allocation). After your new version is published, only those files that were changed or added to the new version will count against your allocation. Files that are identical to those in the previous version will not further reduce your quota. 
+You can check your remaining quota in your Dashboard. If your dataset is large, you have a substantial number of changes, or you are otherwise worried you will exceed your quota during the versioning process, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) for assistance.
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+######8. Will my new version have the same DOI?
+</summary>
+
+Your new version will be assigned a new DOI, but your original DOI will continue to function and will lead to the original version of your dataset. FRDR will add a banner to the top of the original data landing page to direct end-users to the most recent version of your dataset. We will also link versions in the metadata record and display a version history table on each data landing page that lists the available versions and a summary of changes.
+</details>

@@ -1,6 +1,6 @@
 site_name: FRDR Documentation
-site_url: http://127.0.0.1:8000/
-plausible_domain: www.frdr-dfdr.ca
+site_url: https://dev6-web-c1.frdr.ca/docs/
+plausible_domain: dev6-web-c1.frdr.ca
 theme:
     name: mkdocs
     custom_dir: 'frdr_theme'
@@ -13,6 +13,7 @@ nav:
         - "Depositing Data": en/depositing_data.md
         - "External Dataset Review": en/external_review.md
         - "After Depositing": en/after_depositing.md
+        - "Create a New Dataset Version": en/create_new_version.md
         - "Downloading Datasets": en/downloading.md
         - "Searching for Datasets": en/searching.md
         - "Advanced": en/advanced.md
@@ -29,6 +30,7 @@ nav:
         - "Déposer les données": fr/déposer_les_données.md
         - "Évaluation externe": fr/évaluation_externe.md
         - "Après le dépôt": fr/après_le_dépôt.md
+        - "Créer une nouvelle version d’un jeu de données": fr/créer_une_nouvelle_version.md
         - "Téléchargement de jeux de données": fr/téléchargement.md
         - "Recherche de jeux de données": fr/recherche.md
         - "Avancée": fr/avancee.md
@@ -40,9 +42,9 @@ nav:
 extra_css:
     - css/docs-theme.css
 extra:
-    repo_url: https://www.frdr-dfdr.ca/repo/
+    repo_url: https://dev6-web-c1.frdr.ca/repo
     frdr_search_relative_url: /search
-    prefix: "/docs/"
+    prefix: /docs/
     default_page_en: en/documentation/
     default_page_fr: fr/documentation/
     language_map:
@@ -61,6 +63,7 @@ extra:
             "Depositing Data": fr/déposer_les_données/
             "External Dataset Review": fr/évaluation_externe/
             "After Depositing": fr/après_le_dépôt/
+            "Create a New Dataset Version": fr/créer_une_nouvelle_version/
             "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
             "User Metrics": fr/indicateurs_d’utilisation/
@@ -83,6 +86,7 @@ extra:
             "Déposer les données": en/depositing_data/
             "Évaluation externe": en/external_review/
             "Après le dépôt": en/after_depositing/
+            "Créer une nouvelle version d’un jeu de données": en/create_new_version/
             "Téléchargement de jeux de données": /en/downloading/
             "FAQ": en/faq/
             "Indicateurs d’utilisation": en/user_metrics/
