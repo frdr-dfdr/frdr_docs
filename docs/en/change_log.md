@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2024-10-30**:
+
+* The FRDR sensitive data deposit pilot has started, which is part of the Alliance [Controlled Access Management for Research Data Initiative](https://alliancecan.ca/en/funding-opportunities/controlled-access-management-research-data)
+
 **2024-08-28**:
 
 * The depositor dashboard has been redesigned as part of FRDR ongoing alignment to Alliance branding
