@@ -13,7 +13,7 @@ If you have a very large dataset and a substantial number of changes, please con
 <th scope="col">Change Required</th>
 <th scope="col">Action</th>
 </tr>
-</thead
+</thead>
 
 <tbody>
 
@@ -26,31 +26,31 @@ If you have a very large dataset and a substantial number of changes, please con
 <tr>
 <td>In curation</td>
 <td>Metadata record or data files</td>
-<td>Email [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) - the FRDR service team will  return your submission or make the requested changes on your behalf.</td>
+<td>Email <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> - the FRDR service team will  return your submission or make the requested changes on your behalf.</td>
 </tr>
 
 <tr>
 <td>Under embargo, including datasets in external review</td>
 <td>Metadata record or data files</td>
-<td>Email [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) - the FRDR service team will work with you to put the changes in place.</td>
+<td>Email <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> - the FRDR service team will work with you to put the changes in place.</td>
 </tr>
 
 <tr>
 <td>Published (publicly available)</td>
 <td>Metadata record</td>
-<td>Email [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) - the FRDR service team will make the requested changes on your behalf.</td>
+<td>Email <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> - the FRDR service team will make the requested changes on your behalf.</td>
 </tr>
 
 <tr>
 <td>Published (publicly available)</td>
-<td>Data files [†]</td>
+<td>Data files<sup>†</sup></td>
 <td>In your Dashboard, click “New Version” under “Actions”  FRDR will create a copy of your dataset that you can update directly. When your changes are in place, click Finish to submit the new version for review (curation) and publication. </td>
 </tr>
 
 </tbody>
 </table>
 
-† If you have a very large dataset and a substantial number of changes, please contact the FRDR service team at support@frdr-dfdr.ca. We are happy to consult with you about the best path forward.
+† If you have a very large dataset and a substantial number of changes, please contact the FRDR service team at <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>. We are happy to consult with you about the best path forward.
 
 ## Create a new version
 You can create a new version of a published dataset from your Dashboard or from the dataset landing page. In both cases, you must be logged in to your FRDR account. From the [Dashboard](/repo/PublishDashboard), find the dataset you need to update in the "Published" queue, and click "New Version" under “Actions”
