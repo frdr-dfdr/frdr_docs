@@ -1,5 +1,10 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+
+**2025-01-29**:
+
+* Fixed the link to the French metrics inside collection home pages.
+
 **2024-11-27**:
 
 * New feature: Dataset Versioning. Submitters may now create a new version of a published dataset from their dashboard. Please see the [dataset versioning instructions](/docs/en/create_new_version/).
