@@ -1,5 +1,8 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2025-02-26**:
+
+* Created a report for curators to find datasets missing ROR metadata for research organizations within author affiliations and funders.
 
 **2025-01-29**:
 
