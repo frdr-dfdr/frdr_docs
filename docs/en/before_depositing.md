@@ -28,7 +28,7 @@ If the above options do not work for you, [click here to create an account](http
 
 ## 3. Getting Authorization to Submit
 
-The first time you log in to FRDR, you will be asked to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us confirm you are eligible to deposit data in FRDR. Once your application is submitted, your account will be verified by FRDR staff. This process may take up to two business days. If you are approved, you will receive an invitation from Globus to deposit. Please accept this invitation (you may need to check your spam folder) and [log in](/repo) to get started. 
+The first time you log in to FRDR, you will be asked to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us confirm you are eligible to deposit data in FRDR. Once your application is submitted, your account will be verified by FRDR staff. This process may take up to two business days.
 
 ## 4. Getting Globus Connect Software
 

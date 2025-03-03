@@ -26,7 +26,7 @@ Si aucune des options ci-dessus ne vous convient, [cliquez ici pour créer un co
 
 ## 3. Obtenir l’autorisation de soumettre des données
 
-La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et le (la) professeur(e) qui parraine vos activités (s’il y a lieu). Cela nous aidera à confirmer que vous êtes admissible à déposer des données dans le DFDR. Une fois que vous aurez soumis votre demande, votre compte sera vérifié par le personnel du DFDR. Ce processus peut prendre jusqu’à deux jours ouvrables. Si votre demande est approuvée, vous recevrez de la part de Globus une invitation à déposer des données. Veuillez accepter cette invitation (vous devrez peut-être vérifier dans votre courrier indésirable), puis [ouvrez une session](/repo/?locale=fr) pour commencer.
+La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et le (la) professeur(e) qui parraine vos activités (s’il y a lieu). Cela nous aidera à confirmer que vous êtes admissible à déposer des données dans le DFDR. Une fois que vous aurez soumis votre demande, votre compte sera vérifié par le personnel du DFDR. Ce processus peut prendre jusqu’à deux jours ouvrables.
 
 ## 4. Obtenir le logiciel de connexion de Globus
 
