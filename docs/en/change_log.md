@@ -1,5 +1,11 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2025-03-26**:
+
+* New feature: Continuous Fixity Checking. We have deployed a new process to verify the checksum of file contents for every file in every dataset published in FRDR on a routine schedule.
+* Added a form to make it easier for users to request a quota increase.
+* Added IsNewVersionOf and IsPreviousVersionOf Datacite metadata automatically to new versions of datasets.
+
 **2025-02-26**:
 
 * Created a report for curators to find datasets missing ROR metadata for research organizations within author affiliations and funders.
