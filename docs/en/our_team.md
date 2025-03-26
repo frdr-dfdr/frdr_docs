@@ -5,13 +5,13 @@ hidesidebar: true
 
 * Laura Gerlitz, Curation Officer, Digital Research Alliance of Canada
 * Tristan Kuehn, Lunaris Product Lead, Digital Research Alliance of Canada
-* Lina Harper, Curation Officer, Digital Research Alliance of Canada
 * Elizabeth Lartey, Research Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
-* Neha Milan, Product Lead, University of Saskatchewan
+* Neha Milan, FRDR Product Lead, University of Saskatchewan
 * Tamanna Moharana, Curation Officer, Digital Research Alliance of Canada
 * Amanda Tomé, Preservation Coordinator, Digital Research Alliance of Canada
 * Daniel Manrique-Castaño, Curation Officer, Digital Research Alliance of Canada
-* Victoria Smith, Data Governance and Ethics Lead, Digital Research Alliance of Canada
+* Victoria Smith, Data Governance & Ethics Lead, Digital Research Alliance of Canada
+* Natalie Williams, Curation Services Lead, Digital Research Alliance of Canada
 * Lee Wilson, Director of Research Data Management, Digital Research Alliance of Canada
 
 ## Development Team
