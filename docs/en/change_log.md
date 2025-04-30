@@ -1,6 +1,7 @@
 This is a list of changes to FRDR, starting with the most recent:
 
 **2025-04-30**:
+
 * New feature: Automatic updating of email address. If you change your email address in your Globus profile, this will be updated in FRDR as well.
 
 
