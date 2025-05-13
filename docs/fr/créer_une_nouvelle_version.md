@@ -4,6 +4,8 @@ Le DFDR attribue un identifiant numérique d’objet (DOI) à votre nouvelle ver
 
 **Si les changements ne concernent que les métadonnées (ex. : lien vers un article publié, ordre des auteurs, amélioration de la description du jeu de données), ou si un problème nécessite le retrait total d’un fichier dans toutes les versions, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca)**. Nous vous demandons aussi de communiquer avec nous s’il faut modifier les fichiers dans un jeu de données sous embargo ou en évaluation à l’externe (autrement dit, si le jeu de données n’est pas encore publié).
 
+Avant d’apporter un nombre important de changements dans un jeu de données massif, veuillez écrire à l’équipe de service du DFDR à [support@frdr-dfdr.ca;](mailto:support@frdr-dfdr.ca) elle se fera un plaisir de vous conseiller sur la meilleure façon de s’y prendre.
+
 <table class="table">
 <thead>
 <tr>
@@ -41,14 +43,12 @@ Le DFDR attribue un identifiant numérique d’objet (DOI) à votre nouvelle ver
 
 <tr>
 <td>Publié (publiquement accessible)</td>
-<td>Fichiers de données [†]</td>
+<td>Fichiers de données</td>
 <td>Dans le tableau de bord, cliquez sur le bouton <b>Créer une version du jeu de données</b>, sous « Actions ». Le DFDR crée alors une copie de votre jeu de données que vous pouvez remanier directement. Une fois vos révisions faites, cliquez sur Terminer afin de soumettre la nouvelle version pour examen (curation) et publication.</td>
 </tr>
 
 </tbody>
 </table>
-
-† Avant d’apporter un nombre important de changements dans un jeu de données massif, veuillez écrire à l’équipe de service du DFDR à [support@frdr-dfdr.ca;](mailto:support@frdr-dfdr.ca) elle se fera un plaisir de vous conseiller sur la meilleure façon de s’y prendre.
 
 ## Créer une nouvelle version
 Pour créer une nouvelle version d’un jeu de données publié, vous pouvez passer par votre [tableau de bord](/repo/PublishDashboard) ou par la page d’accueil du jeu de données. Dans les deux cas, vous devez ouvrir une session avec votre compte du DFDR. Sur votre [tableau de bord](/repo/PublishDashboard), trouvez le jeu de données à modifier dans la liste des jeux publiés, puis cliquez sur « Créer » sous le menu « Actions ».
