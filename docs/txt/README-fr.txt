@@ -1,7 +1,7 @@
 Ce fichier Lisez-moi.txt a été généré le AAAA-MM-JJ par NOM
 
 ## REMARQUE : Le texte d'aide est précédé des signes ##. Le supprimer avant d'enregistrer ce fichier!
-## Il s'agit d'un modle, n'hésitez pas  à le modifier. Veuillez supprimer toute section ou tout élément qui ne s'applique pas  à votre jeu de données. Veuillez ajouter les renseignements supplémentaires qui ne se trouvent pas actuellement dans le modle et qui sont nécessaires pour interpréter ou réutiliser correctement vos données.  
+## Il s'agit d'un modèle, n'hésitez pas  à le modifier. Veuillez supprimer toute section ou tout élément qui ne s'applique pas  à votre jeu de données. Veuillez ajouter les renseignements supplémentaires qui ne se trouvent pas actuellement dans le modèle et qui sont nécessaires pour interpréter ou réutiliser correctement vos données.  
 
 -----------------------
 RENSEIGNEMENTS GÉNÉRAUX
@@ -50,8 +50,8 @@ PARTAGE DE L'INFORMATION OU ACCÈS
 
 6. Citation recommandée pour ce jeu de données : 
 
-## Le DFDR recommande une citation comme suit : Auteur, A., Auteur, B. (ANNÉE). Titre du jeu de données. Dép™t fédéré de données de recherche. DOI
-## Les DOI sont réservés au début d'une soumission. Vous trouverez votre DOI dans le tableau de bord lié  à la publication, aprs avoir entamé un nouveau dép™t de données. Un responsable de l'intendance peut aussi vous aider  à ajouter le DOI aprs que vous aurez soumis votre jeu de données pour examen.
+## Le DFDR recommande une citation comme suit : Auteur, A., Auteur, B. (ANNÉE). Titre du jeu de données. Dépôt fédéré de données de recherche. DOI
+## Les DOI sont réservés au début d'une soumission. Vous trouverez votre DOI dans le tableau de bord lié  à la publication, après avoir entamé un nouveau dépôt de données. Un responsable de l'intendance peut aussi vous aider  à ajouter le DOI après que vous aurez soumis votre jeu de données pour examen.
 
 ----------------------------------
 APERÇU DES DONNÉES ET DES FICHIERS
@@ -59,16 +59,16 @@ APERÇU DES DONNÉES ET DES FICHIERS
 
 1. Liste des fichiers
 
-## Énumérez tous les fichiers (ou dossiers, selon l'organisation de le jeu de données) contenus dans le jeu de données, avec une brve description.
+## Énumérez tous les fichiers (ou dossiers, selon l'organisation de le jeu de données) contenus dans le jeu de données, avec une brève description.
 
    A. Nom de fichier :       
-      Brve description :       
+      Brève description :       
 
    B. Nom de fichier :       
-      Brve description :       
+      Brève description :       
 
    C. Nom de fichier :       
-      Brve description :
+      Brève description :
 
 
 2. Relation entre les dossiers, si elle est importante : 
@@ -87,17 +87,17 @@ INFORMATION MÉTHODOLOGIQUE
 
 1. Description des méthodes utilisées pour la collecte et la production de données : 
 
-## Veuillez envisager d'inclure une brve description des méthodes que vous avez utilisées pour recueillir ou générer vos données. Vous pouvez également inclure des liens vers des publications ou d'autres documents qui contiennent un modle ou des protocoles expérimentaux utilisés pour la collecte de données.
+## Veuillez envisager d'inclure une brève description des méthodes que vous avez utilisées pour recueillir ou générer vos données. Vous pouvez également inclure des liens vers des publications ou d'autres documents qui contiennent un modèle ou des protocoles expérimentaux utilisés pour la collecte de données.
 
 
 2. Méthodes de traitement des données : 
 
-## Décrivez la faon dont les données soumises ont été générées  à partir des données brutes ou recueillies.
+## Décrivez la façon dont les données soumises ont été générées  à partir des données brutes ou recueillies.
 
 
 3. Renseignements propres  à l'instrument ou au logiciel nécessaires pour interpréter les données : 
 
-## Indiquez le nom complet et la version des instruments ou des logiciels utilisés pour générer vos données, ainsi que tous les progiciels ou bibliothques nécessaires pour exécuter les scripts.
+## Indiquez le nom complet et la version des instruments ou des logiciels utilisés pour générer vos données, ainsi que tous les progiciels ou bibliothèques nécessaires pour exécuter les scripts.
 
 
 4. Renseignements sur les normes et l'étalonnage, le cas échéant : 
