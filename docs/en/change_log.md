@@ -1,5 +1,13 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2025-05-28**:
+
+* Stopped auto updating email address from Google, Orcid and other sources where we don’t get email updates
+* Fix issue with encoding of French-language example README.txt in documents.
+* Fix issue where some file listings for new submissions were not showing the license and citation files.
+* Don’t show version table if only a single version
+
+
 **2025-04-30**:
 
 * New feature: Automatic updating of email address. If you change your email address in your Globus profile, this will be updated in FRDR as well.
