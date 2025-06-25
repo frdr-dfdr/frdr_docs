@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2025-06-25**:
+
+* Added collection access request fields to new user application process
+
 **2025-05-28**:
 
 * Stopped auto updating email address from Google, Orcid and other sources where we don’t get email updates
