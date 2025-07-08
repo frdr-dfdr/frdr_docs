@@ -211,3 +211,7 @@ p:has(button) {
 h1+ul {
     margin-top: 1rem;
 }
+
+.search-match {
+    color: red;
+}

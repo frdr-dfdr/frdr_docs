@@ -2,8 +2,8 @@ site_name: FRDR Documentation
 site_url: https://dev6-web-c1.frdr.ca/docs/
 plausible_domain: dev6-web-c1.frdr.ca
 theme:
-    name: mkdocs
-    custom_dir: 'frdr_theme'
+  name: material
+  custom_dir: 'overrides'
 nav:
     - English:
         - "Preparing Your Data": en/preparing_your_data.md
@@ -42,6 +42,13 @@ nav:
 extra_css:
     - css/docs-theme.css
 extra:
+    alternate:
+        - name: English
+          link: /docs/en/
+          lang: en
+        - name: Francais
+          link: /docs/fr/
+          lang: fr
     repo_url: https://dev6-web-c1.frdr.ca/repo
     frdr_search_relative_url: /search
     prefix: /docs/

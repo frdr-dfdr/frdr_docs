@@ -1,0 +1,52 @@
+site_name: FRDR Documentation
+docs_dir: 'docs/en/'
+site_dir: 'site/en/'
+site_url: https://dev6-web-c1.frdr.ca/docs/
+plausible_domain: dev6-web-c1.frdr.ca
+theme:
+  name: material
+  language: en
+  custom_dir: overrides
+    #custom_dir: 'frdr_theme'
+  features:
+    - search.suggest
+nav:
+  - "Preparing Your Data": preparing_your_data.md
+  - "Before Depositing": before_depositing.md
+  - "Dashboard and Settings": dashboard.md
+  - "Describing Your Data": describing_your_data.md
+  - "Depositing Data": depositing_data.md
+  - "External Dataset Review": external_review.md
+  - "After Depositing": after_depositing.md
+  - "Create a New Dataset Version": create_new_version.md
+  - "Downloading Datasets": downloading.md
+  - "Searching for Datasets": searching.md
+  - "Advanced": advanced.md
+  - "FAQ": faq.md
+  - "User Metrics": user_metrics.md
+  - "Change Log": change_log.md
+  - "FAIR Principles": fair_principles.md
+  - "Style Guide": style_guide.md
+
+extra_css:
+    - css/docs-theme.css
+extra:
+    alternate:
+        - name: English
+          link: /docs/en/
+          lang: en
+        - name: Francais
+          link: /docs/fr/
+          lang: fr
+    repo_url: https://dev6-web-c1.frdr.ca/repo
+    frdr_search_relative_url: /search
+    prefix: /docs/
+    default_page_en: en/documentation/
+    default_page_fr: fr/documentation/
+
+markdown_extensions:
+    - pymdownx.extra
+
+plugins:
+  - search:
+      lang: en
