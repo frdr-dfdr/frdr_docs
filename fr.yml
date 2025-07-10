@@ -4,7 +4,7 @@ site_dir: 'site/fr/'
 site_url: https://dev6-web-c1.frdr.ca/docs/
 plausible_domain: dev6-web-c1.frdr.ca
 theme:
-  name: material
+  name: mkdocs
   language: fr
     #custom_dir: 'frdr_theme'
 nav:

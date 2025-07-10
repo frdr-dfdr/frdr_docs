@@ -2,7 +2,7 @@ site_name: FRDR Documentation
 site_url: https://dev6-web-c1.frdr.ca/docs/
 plausible_domain: dev6-web-c1.frdr.ca
 theme:
-  name: material
+  name: mkdocs
   custom_dir: 'overrides'
 nav:
     - English:

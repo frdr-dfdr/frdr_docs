@@ -4,10 +4,9 @@ site_dir: 'site/en/'
 site_url: https://dev6-web-c1.frdr.ca/docs/
 plausible_domain: dev6-web-c1.frdr.ca
 theme:
-  name: material
+  name: mkdocs
   language: en
-  custom_dir: overrides
-    #custom_dir: 'frdr_theme'
+  custom_dir: 'frdr_theme'
   features:
     - search.suggest
 nav:
@@ -31,6 +30,7 @@ nav:
 extra_css:
     - css/docs-theme.css
 extra:
+    lang: en
     alternate:
         - name: English
           link: /docs/en/
@@ -43,6 +43,53 @@ extra:
     prefix: /docs/
     default_page_en: en/documentation/
     default_page_fr: fr/documentation/
+    language_map:
+        en:
+            "Our mission": fr/notre_mission/
+            "Our features": fr/nos_fonctionnalités/
+            "Our governance": fr/notre_gouvernance/
+            "Our team": fr/notre_équipe/
+            "Our partners": fr/nos_partenaires/
+            "Our journey": fr/notre_parcours/
+            "Searching for Datasets": fr/recherche/
+            "Preparing Your Data": fr/préparation_de_vos_données/
+            "Before Depositing": fr/avant_de_déposer/
+            "Dashboard and Settings": fr/tableau_de_bord/
+            "Describing Your Data": fr/description_de_vos_données/
+            "Depositing Data": fr/déposer_les_données/
+            "External Dataset Review": fr/évaluation_externe/
+            "After Depositing": fr/après_le_dépôt/
+            "Create a New Dataset Version": fr/créer_une_nouvelle_version/
+            "Downloading": fr/téléchargement/
+            "FAQ": fr/faq/
+            "User Metrics": fr/indicateurs_d’utilisation/
+            "FAIR Principles": fr/principes_fair/
+            "Style Guide": fr/guide_de_style/
+            "Advanced": fr/avancee/
+            "Accessibility": fr/accessibilité
+        fr:
+            "Notre mission": en/our_mission/
+            "Nos fonctionnalités": en/our_features/
+            "Notre gouvernance": en/our_governance/
+            "Notre équipe": en/our_team/
+            "Nos partenaires": en/our_partners/
+            "Notre parcours": en/our_journey/
+            "Recherche de jeux de données": en/searching/
+            "Préparation de vos données": en/preparing_your_data/
+            "Avant de déposer": en/before_depositing/
+            "Tableau de bord et paramètres": en/dashboard/
+            "Description de vos données": en/describing_your_data/
+            "Déposer les données": en/depositing_data/
+            "Évaluation externe": en/external_review/
+            "Après le dépôt": en/after_depositing/
+            "Créer une nouvelle version d’un jeu de données": en/create_new_version/
+            "Téléchargement de jeux de données": /en/downloading/
+            "FAQ": en/faq/
+            "Indicateurs d’utilisation": en/user_metrics/
+            "Principes FAIR": en/fair_principles/
+            "Guide de style": en/style_guide/
+            "Avancée": en/advanced/
+            "Accessibilité": en/accessibility
 
 markdown_extensions:
     - pymdownx.extra

@@ -1,6 +1,3 @@
-<input type="text" id="fiveTerm" name="fiveTerm"/>
-<button onclick="fiveSearch();">Five Search</button>
-
 <div class="navbar-search navbar navbar-light bg-faded">
     <div class="container search d-flex justify-content-center p-3">
         <form class="form w-75" action="/docs/en/search/" method="get">
