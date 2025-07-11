@@ -1,8 +1,10 @@
 let idx;
 let docs;
+const lang = document.documentElement.lang;
+
 $( document ).ready(function() {
-    const searchPath = "/docs/en/search/";
-    const indexURL = "/docs/" + document.documentElement.lang + "/search/search_index.json";
+    const searchPath = "/docs/" + lang + "/search/";
+    const indexURL = "/docs/" + lang + "/search/search_index.json";
 
     function handleHeaderSearch() {
         fetch(indexURL)
@@ -97,6 +99,12 @@ $( document ).ready(function() {
     } else {
         handleHeaderSearch();
     }
+
+    const main = $("#main-content");
+    $(".jump-to-top").on( "click", function() {
+        scrollTo(0, 0);
+        return true;
+    });
 });
 
 function getResults(searchTerm) {
@@ -119,7 +127,7 @@ function hideHeaderSearchResults() {
 // Set the view all button link at the bottom of the search results
 function setViewAllUrl(term) {
     let viewAllLink = $("#view-all-search-link");
-    viewAllLink.attr('href', "/docs/en/search/?query=" + term);
+    viewAllLink.attr('href', "/docs/" + lang + "/search/?query=" + term);
 }
 
 // Returns the URL for a page without any anchors
@@ -210,26 +218,28 @@ function getLink(offset) {
 }
 
 function addPrevNextLinks(start, end, total) {
-    const prevText = "<< Previous";
-    const nextText = "Next >>";
+    const pagingControls = $("#paging-controls");
 
-    let prev = document.getElementById("prev");
-    let next = document.getElementById("next");
+    const prev = $("#prev");
     if (start > 0) {
         let prevOffset = start - limit < 0 ? 0 : start - limit;
-        prev.innerHTML = "<a href='" + getLink(prevOffset) + "'>" + prevText + "</a>";
+        const prevA = prev.children("a");
+        prevA.attr("href", getLink(prevOffset));
+        prev.removeClass("d-none");
     } else {
-        prev.innerHTML = prevText;
+        prev.addClass("d-none");
     }
 
-    console.log(end);
-    console.log(total);
-
+    const next = $("#next");
     if (end < total) {
-        next.innerHTML = "<a href='" + getLink(start + limit) + "'>" + nextText + "</a>";
+        const nextA = next.children("a");
+        nextA.attr("href", getLink(start + limit));
+        next.removeClass("d-none");
     } else {
-        next.innerHTML = nextText;
+        next.addClass("d-none");
     }
+
+    pagingControls.removeClass("d-none");;
 }
 
 function allSearch(offset) {
@@ -250,12 +260,13 @@ function allSearch(offset) {
         offset = 0;
     }
 
-    let all = document.getElementById("all")
-    let allCounts = document.getElementById("allCounts")
+    const all = $("#results");
 
     let start = offset ? offset : 0;
     let end = pages.length < limit + offset ? pages.length : limit + offset;
-    allCounts.innerHTML = "<strong>" + (start + 1) + "-" + end + "</strong>" + " of " + "<strong>" + pages.length + "</strong>";
+    $("#resultsStart").text(start + 1);
+    $("#resultsEnd").text(end);
+    $("#resultsTotal").text(pages.length);
 
     addPrevNextLinks(start, end, pages.length);
 
@@ -277,7 +288,7 @@ function addMatch(page, parentElement) {
     let div = document.createElement("div");
     let link = document.createElement("a");
     let url = page["url"];
-    let full = "/docs/en/" + url;
+    let full = "/docs/" + lang + "/" + url;
     let title = url
     // let text = page["matches"][0]["text"];
 
@@ -329,7 +340,7 @@ function addMatch(page, parentElement) {
 }
 
 function getRefURL(match) {
-    return "/docs/en/" + match["ref"];
+    return "/docs/" + lang + "/" + match["ref"];
 }
 
 function addMatchPanel(match, parentElement) {
