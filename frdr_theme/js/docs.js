@@ -24,7 +24,7 @@ $( document ).ready(function() {
             }).catch((e) => console.error(e));
 
         function triggerSearch() {
-            const term = $("#srch-term-1").val();
+            const term = $("#docs-search").val();
             const searchResults = $("#search-results")
             searchResults.empty();
             if (term.length > 2) {
@@ -35,12 +35,17 @@ $( document ).ready(function() {
         }
 
         // Show search results if the search input is in focus again
-        $("#srch-term-1").on( "focus", function() {
+        $("#docs-search").on( "focus", function() {
             triggerSearch();
         });
 
         // Show search results if the search input is clicked
-        $("#srch-term-1").on( "click", function() {
+        $("#docs-search").on( "click", function() {
+            triggerSearch();
+        });
+
+        // Show search results if value changes
+        $("#docs-search").on( "change", function() {
             triggerSearch();
         });
 
@@ -49,15 +54,17 @@ $( document ).ready(function() {
             if (event.key === 'Escape') {
                 hideHeaderSearchResults();
             }
+            return true;
         });
 
         // Trigger search keyup and close search results on escape for search input
-        $("#srch-term-1").on( "keyup", function(event) {
+        $("#docs-search").on( "keyup", function(event) {
             if (event.key === 'Escape') {
                 hideHeaderSearchResults();
             } else {
                 triggerSearch();
             }
+            return true;
         });
 
         // Remove the search results if the overlay is clicked on.
@@ -69,8 +76,6 @@ $( document ).ready(function() {
     }
 
     function handleSearchPage() {
-        $("#search-header-1").hide();
-        $("#search-header-2").hide();
         const params = new Proxy(new URLSearchParams(window.location.search), {
               get: (searchParams, prop) => searchParams.get(prop),
         });
