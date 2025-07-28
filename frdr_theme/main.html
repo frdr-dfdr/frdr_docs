@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/static/js/jquery-ui-1.12.1/jquery-ui.min.css" type="text/css"/>
         <link rel="stylesheet" href="/static/css/boostrap-4.6.0/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="/static/css/latest/frdr-theme.css" type="text/css"/>
-        <link rel="stylesheet" href="{{ config.extra.prefix }}css/docs-theme.css?v=20230329" type="text/css"/>
+        <link rel="stylesheet" href="{{ config.extra.prefix }}css/docs-theme.css" type="text/css"/>
         <link rel="stylesheet" href="/static/fonts/latest/fontawesome-5.15.4/css/all.min.css" type="text/css" />
         <script type="text/javascript" src="/static/js/jquery/jquery-1.12.4.min.js"></script>
         <script type="text/javascript" src="/static/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
@@ -36,7 +36,7 @@
                             <div class="input-group d-none d-lg-flex">
                                 <input type="hidden" name="lang" id="srch-lang" value="{% if 'en' == config.theme.language %}en{% else %}fr{% endif %}">
                                 <label for="srch-term-1" class="d-none">{% if '/en/' in page.canonical_url %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}</label>
-                                <input type="text" class="search_bar form-control" placeholder="{% if 'en' == config.theme.language %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term-1"  style="font-size: 14px;">
+                                <input type="text" class="search_bar form-control" placeholder="{% if 'en' == config.theme.language %}Search for datasets{% else %}Rechercher des jeux de données{% endif %}" name="query" id="srch-term-1" style="font-size: 14px;">
                                 <span class="input-group-append">
                                 <button class="btn search-button" type="submit" aria-label="Submit search">
                                     <span class="fas fa-search" aria-hidden="true"></span>
@@ -60,7 +60,7 @@
                                 <div class="input-group">
                                     <input type="hidden" name="lang" id="srch-lang" value="{% if 'en' == config.theme.language %}en{% else %}fr{% endif %}">
                                     <label for="srch-term-2" class="d-none">{% if 'en' == config.theme.language %}Search for datasets{% else %}Recherche par mot-clé{% endif %}</label>
-                                    <input type="text" class="search_bar form-control" placeholder="{% if 'en' == config.theme.language %}Search for datasets{% else %}Recherche par mot-clé{% endif %}" name="query" id="srch-term-2"  style="font-size: 14px;">
+                                    <input type="text" class="search_bar form-control" placeholder="{% if 'en' == config.theme.language %}Search for datasets{% else %}Recherche par mot-clé{% endif %}" name="query" id="srch-term-2" style="font-size: 14px;">
                                     <span class="input-group-append">
                                     <button class="btn search-button" type="submit" aria-label="Submit search">
                                         <span class="fas fa-search" aria-hidden="true"></span>
@@ -162,44 +162,44 @@
         <div class="card docs-card docs-card-search">
             <div class="card-body">
                 <div class="row">
-                    <div class="col-10">
+                    <div class="docs-headline-text">
                         <div class="large-headline">Documentation</div>
                         <h3 class="on-dark">Welcome to the service documentation for the Federated Research Data Repository! Here you will find guidance to help walk you through all aspects of the FRDR service. The following topics are covered in this documentation:</h3>
-                        <form action="/docs/{% if 'en' == config.theme.language %}en{% else %}fr{% endif %}/search/" method="get">
-                            <div class="input-group d-none d-lg-flex">
-                                <label for="docs-search" class="d-none">{% if 'en' == config.theme.language %}Search by keywords...{% else %}Recherche par mot-clé{% endif %}</label>
-                                <input type="text" class="search_bar form-control" placeholder="{% if 'en' == config.theme.language %}Search by keywords...{% else %}Recherche par mot-clé{% endif %}" name="query" id="docs-search"  style="font-size: 14px;">
-                                <span class="input-group-append">
-                                <button class="btn search-button" type="submit" aria-label="Submit search">
-                                    <span class="fas fa-search" aria-hidden="true"></span>
-                                </button>
-                                </span>
+                    </div>
+                    <div class="docs-headline-icon">
+                        <i class="fas fa-folder float-right"></i>
+                    </div>
+                    <form action="/docs/{% if 'en' == config.theme.language %}en{% else %}fr{% endif %}/search/" method="get">
+                        <div class="input-group d-flex">
+                            <label for="docs-search" class="d-none">{% if 'en' == config.theme.language %}Search by keywords...{% else %}Recherche par mot-clé{% endif %}</label>
+                            <input type="text" class="search_bar form-control" placeholder="{% if 'en' == config.theme.language %}Search by keywords...{% else %}Recherche par mot-clé{% endif %}" name="query" id="docs-search" autocomplete="off">
+                            <span class="input-group-append">
+                            <button id="docs-search-button" class="btn search-button" type="submit" aria-label="Submit search">
+                                <span class="fas fa-search" aria-hidden="true"></span>
+                            </button>
+                            </span>
 
-                                <div id="search-results-container" class="d-none" style="color: #495057; background-color: #fff; top: 41.8px; width: 756.8px; position: absolute; z-index: 1; overflow-x: hidden; overflow-y: scroll; scroll-behavior: smooth; height: calc(100vh - 100px); border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
-                                    <div class="card mb-0">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col alert alert-secondary ml-2 mr-2">
-                                                    <span id="search-results-total"></span>
-                                                    <span>matching pages</span>
-                                                </div>
+                            <div id="search-results-container" class="d-none">
+                                <div class="card mb-0">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col alert alert-secondary ml-2 mr-2">
+                                                <span id="search-results-total"></span>
+                                                <span>matching pages</span>
                                             </div>
-                                            <div id="search-results" class="" style="">
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <a class="btn btn-primary" id="view-all-search-link" href="">View All</a>
-                                                </div>
+                                        </div>
+                                        <div id="search-results">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a class="btn btn-primary" id="view-all-search-link" href="">View All</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </form>
-                    </div>
-                    <div class="col-2">
-                        <i class="fas fa-folder" style="font-size: 6em;"></i>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
