@@ -43,5 +43,5 @@ hidesidebar: true
 ## Services de découverte
 
 * Interface de découverte comprenant une fonction de recherche textuelle s’appuyant sur Globus Search
-* Libre accès aux métadonnées moissonnées conformément au protocole pour la collecte de métadonnées de l’Initiative pour les archives ouvertes (OAI-PMH)
+* Libre accès aux métadonnées moissonnées conformément au protocole pour la collecte de métadonnées de l’Initiative pour les archives ouvertes [OAI-PMH](https://www.frdr-dfdr.ca/oai/request?verb=Identify)
 * Données répertoriées aux fins de découverte dans [Lunaris](https://www.lunaris.ca/fr), [Dataset Search de Google](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/), [DataCite](https://search.datacite.org/), ProQuest, etc. 

@@ -14,7 +14,7 @@ All content deposited directly into FRDR is required to conform to a template fr
 
 **F3. (meta)data are registered or indexed in a searchable resource.**
 
-FRDR's own OAI endpoint is used to harvest metadata for discovery in FRDR's index of Canadian data repositories, and this OAI endpoint is open to the public.
+FRDR's own [OAI endpoint](https://www.frdr-dfdr.ca/oai/request?verb=Identify) is used to harvest metadata for discovery in FRDR's index of Canadian data repositories, and this OAI endpoint is open to the public.
 
 **F4. metadata specify the data identifier.**
 

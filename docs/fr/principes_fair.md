@@ -13,7 +13,7 @@ Tout le contenu déposé directement dans le DFDR doit se conformer aux gabarits
 
 **F3. Les (méta)données sont enregistrées et indexées dans une ressource recherchable.**
 
-Le point d’extrémité OAI du DFDR est utilisé pour moissonner les métadonnées aux fins de découvrabilité dans l’index du DFDR des dépôts de données canadiens et ce point d’extrémité est ouvert au public.
+Le [point d’extrémité OAI](https://www.frdr-dfdr.ca/oai/request?verb=Identify) du DFDR est utilisé pour moissonner les métadonnées aux fins de découvrabilité dans l’index du DFDR des dépôts de données canadiens et ce point d’extrémité est ouvert au public.
 
 **F4. Les métadonnées précisent l’identifiant des données.**
 
