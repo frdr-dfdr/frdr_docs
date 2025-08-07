@@ -43,6 +43,6 @@ hidesidebar: true
 ## Discovery Services
 
 * Discovery interface with text-based search functionality supported by Globus search
-* Openly available OAI-PMH feed of harvested metadata 
+* Openly available [OAI-PMH feed of metadata](https://www.frdr-dfdr.ca/oai/request?verb=Identify)
 * Data indexed for discovery in [Lunaris](https://www.lunaris.ca/en), [Google Dataset Search](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/), [DataCite](https://search.datacite.org/), ProQuest, and others 
 

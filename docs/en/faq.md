@@ -407,7 +407,7 @@ There is a free tool to calculate SHA-256 checksums here: https://quickhash-gui.
 ######3. Are FRDR datasets indexed for international discovery?
 </summary>
 
-FRDR datasets are indexed for discovery in [Lunaris](https://www.lunaris.ca/en), [Google Dataset Search](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest, and others. FRDR metadata are also exposed for harvest (and discovery) via an OAI-PMH feed, so data may be discoverable on other platforms.
+FRDR datasets are indexed for discovery in [Lunaris](https://www.lunaris.ca/en), [Google Dataset Search](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest, and others. FRDR metadata are also exposed for harvest (and discovery) via an [OAI-PMH feed](https://www.frdr-dfdr.ca/oai/request?verb=Identify), so data may be discoverable on other platforms.
 </details>
 
 <details markdown="block">

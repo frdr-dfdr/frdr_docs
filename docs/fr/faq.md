@@ -417,7 +417,7 @@ Voici un outil gratuit pour calculer les sommes de contrôle SHA-256 : https://q
 ######3. Les jeux de données du DFDR sont-ils indexés aux fins de découverte internationale?
 </summary>
 
-Les jeux de données du DFDR sont indexés aux fins de découverte dans [Lunaris](https://www.lunaris.ca/fr), [Dataset Search de Google](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest et d’autres plateformes. Les métadonnées du DFDR sont également rendues disponibles aux fins de moissonnage (et de découverte) sur un fil OAI-PMH, de sorte que les données sont repérables à partir d’autres plateformes.
+Les jeux de données du DFDR sont indexés aux fins de découverte dans [Lunaris](https://www.lunaris.ca/fr), [Dataset Search de Google](https://datasetsearch.research.google.com/), [OpenAIRE](https://explore.openaire.eu/search/find/research-outcomes?type=%22datasets%22), [DataCite](https://search.datacite.org/), ProQuest et d’autres plateformes. Les métadonnées du DFDR sont également rendues disponibles aux fins de moissonnage (et de découverte) sur un fil [OAI-PMH](https://www.frdr-dfdr.ca/oai/request?verb=Identify), de sorte que les données sont repérables à partir d’autres plateformes.
 </details>
 
 <details markdown="block">
