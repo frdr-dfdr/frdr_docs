@@ -1,5 +1,9 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2025-07-30**:
+
+* Fixed pdf layout for Senstive Data documents
+
 **2025-06-25**:
 
 * Added collection access request fields to new user application process
