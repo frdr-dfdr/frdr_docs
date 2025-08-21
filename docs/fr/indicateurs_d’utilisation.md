@@ -103,6 +103,20 @@ On peut facilement accéder aux données présentées dans les tableaux de bord 
 
 * Avec l’option Classeur Tableau, on télécharge un fichier à consulter dans l’application Tableau. Il est à noter qu’il faut d’abord sélectionner une version de Tableau. 
 
+## Tableau de bord des formats de fichiers
+Le tableau de bord Statistiques des formats de fichiers fournit un aperçu des différents formats de fichiers des jeux de données du DRDR. Le côté gauche du graphique contient les catégories des formats de fichiers. L’axe horizontal en bas du graphique (l’axe X), Nombre de fichiers déposés, représente le nombre de fichiers associés à un format de fichier. Lorsque vous passez le curseur sur un format de fichier particulier, une boîte s’affichera au-dessus de la barre de comptage. En cliquant sur la barre, celle-ci apparaîtra en gris foncé et affichera le nombre total de fichiers associés au format particulier. Le tableau de bord comprend également une catégorie de format de fichier inconnu. Parfois, les outils dont on se sert pour identifier les formats de fichiers ne permettent pas d’identifier immédiatement ceux-ci au moment du dépôt des jeux de données. L’équipe du DFDR examine ces formats de fichier et prend des mesures pour en faciliter l’identification. Lorsque le tableau de bord Statistiques des formats de fichiers est actualisé, tous les types de fichiers qui n’avaient pas été reconnus auparavant seront automatiquement classés sous la catégorie qui leur est propre.
+
+Pour télécharger les données du tableau de bord Statistiques des formats de fichiers, voici ce que vous devez faire :
+
+1. Cliquez sur **Choisir un format de téléchargement** ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon") au bas du tableau de bord
+3. Choisissez le format de fichier que vous désirez parmi les options proposées, notamment Image, Tableau croisé dynamique, PDF, Présentation PowerPoint ou Classeur Excel
+3. L’option Image permet de télécharger une capture d’écran du tableau de bord
+4. L’option Tableau croisé permet à l’utilisateur de sélectionner la section du tableau de bord qui recevra les données tabulaires et le format de sortie (.xlsx ou .csv)
+5. L’option PDF permet à l’utilisateur de sélectionner les éléments à inclure dans le document (« cette vue », « Feuilles précises de ce tableau de bord » et « Feuille précise de ce classeur »). Notez que « Tableau de bord » fait référence à l’onglet dans lequel se trouve l’utilisateur à ce moment de la navigation, tandis que « Classeur » permet à l’utilisateur de télécharger un fichier PDF depuis n’importe quel autre onglet.
+6. L’option PowerPoint propose des réglages similaires à ceux de PDF, mais elle stocke les données sous forme de fichier pptx.
+7. L’option Classeur du Tableau permet à l’utilisateur de télécharger un fichier pour l’afficher dans Tableau. Notez que l’utilisateur est invité à sélectionner une version Tableau lui permettant de télécharger le classeur.
+
+
 ## Commentaires 
 
 En cas de problème durant l’utilisation de nos tableaux de bord d’indicateurs ou pour soumettre des commentaires ou 
