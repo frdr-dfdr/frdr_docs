@@ -103,6 +103,7 @@ Users can easily access the data presented on the dashboards by following these 
 The File Format Statistics dashboard provides an overview of the different file formats in the datasets found in FRDR. The left side of the graph contains the file format categories. The bottom x-axis, Number of files deposited, represents the number of files associated with a file format. Hovering over a specific file format will create a box over the count bar. Clicking on the bar will highlight the bar in dark grey and will display the total number of files associated with the specific format. The dashboard also includes an unknown file format category. Sometimes the tools used to identify file formats cannot immediately identify file formats when datasets are deposited. The FRDR Team reviews these file formats and takes action to help with their identification. When the File Format Statistics dashboard is refreshed file formats that were previously identified as unknown will move to the appropriate file format category.
 
 To download the information found on the File Format Statistics dashboard:
+
 1. Click on the **Choose a format to download**  ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon") button at the bottom of the dashboard. 
 2. Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.
 3. The Image option downloads a screenshot of the dashboard.
