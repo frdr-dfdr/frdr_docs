@@ -38,8 +38,26 @@ extra:
     repo_url: https://dev6-web-c1.frdr.ca/repo
     frdr_search_relative_url: /search
     prefix: /docs/
+    lang_prefix: /docs/fr/
     default_page_en: en/documentation/
     default_page_fr: fr/documentation/
+    default_toc_icon: "fa-file"
+    toc_icons:
+      "Préparation de vos données": "fa-list"
+      "Tableau de bord et paramètres": "fa-file"
+      "Avant de déposer": "fa-cog"
+      "Description de vos données": "fa-pen-square"
+      "Déposer les données": "fa-upload"
+      "Évaluation externe": "fa-user-check"
+      "Après le dépôt": "fa-file-upload"
+      "Recherche de jeux de données": "fa-search"
+      "Téléchargement de jeux de données": "fa-download"
+      "Créer une nouvelle version d’un jeu de données": "fa-code-branch"
+      "Avancée": "fa-search-plus"
+      "FAQ": "fa-question"
+      "Indicateurs d’utilisation": "fa-chart-line"
+      "Principes FAIR": "fa-eye"
+      "Guide de style": "fa-font"
     language_map:
         en:
             "Our mission": fr/notre_mission/

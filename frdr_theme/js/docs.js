@@ -110,6 +110,15 @@ $( document ).ready(function() {
         scrollTo(0, 0);
         return true;
     });
+
+    $(".toc-collapse-btn").on('click', function() {
+        if ($(this).children().hasClass('fa-chevron-up')) {
+            $(this).children().removeClass('fa-chevron-up').addClass('fa-chevron-down');
+        } else {
+            $(this).children().removeClass('fa-chevron-down').addClass('fa-chevron-up');
+        }
+        return true;
+    });
 });
 
 function getResults(searchTerm) {
