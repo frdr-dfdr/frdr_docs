@@ -1,9 +1,18 @@
-﻿## Organizing your data files
+﻿<h1>Preparing Your Data</h1>
 
-### Choose which types of data to deposit
-Gather your data files, documentation, and any information necessary to reuse your dataset. You may choose to provide processed data, ‘raw’ unprocessed data, or both, as well as the scripts, code or software needed to generate or reanalyze your data.
+## Organizing your data files
+
+<div class="card-shadow">
+    <div class="card-title">
+        Choose which types of data to deposit
+    </div>
+    <div class="card-body">
+        Gather your data files, documentation, and any information necessary to reuse your dataset. You may choose to provide processed data, ‘raw’ unprocessed data, or both, as well as the scripts, code or software needed to generate or reanalyze your data.
+    </div>
+</div>
 
 You may choose to upload a version of your analysis scripts alongside your data, but we recommend that you deposit models, source code or research software in purpose-built repositories such as GitHub, GitLab or Bitbucket. These can be preserved in the [Software Heritage Archive](https://www.softwareheritage.org/save-and-reference-research-software/) or [Zenodo](https://guides.github.com/activities/citable-code/). You can link directly to these and other research outputs from your [FRDR metadata](describing_your_data.md#recommended-metadata) using the ‘related identifier’ field and reference them in your README ([template here](/docs/txt/README.txt)).
+</div>
 
 ### Structure your files
 When you deposit your data in FRDR, your file structure (how you have arranged your data into directories or folders) is retained. Consider arranging your files by type of data, date collected, or analysis to make them easier to understand. For example:

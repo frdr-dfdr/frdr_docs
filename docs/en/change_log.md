@@ -1,3 +1,4 @@
+<h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
 **2025-04-30**:

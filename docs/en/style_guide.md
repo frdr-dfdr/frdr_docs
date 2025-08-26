@@ -1,3 +1,4 @@
+<h1>Style Guide</h1>
 <h3>Naming</h3>
 
 English: The official name is "Federated Research Data Repository", and it may be referred to as "FRDR".

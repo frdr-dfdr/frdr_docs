@@ -1,4 +1,5 @@
-﻿First published in 2016, the FAIR Principles were developed as a concise and measurable set of guidelines to ensure that research (meta)data are findable, accessible, interoperable, and re-usable by both humans and machines, thereby maximizing their scientific value (Wilkinson et al., 2016). Since their introduction, the FAIR Principles have become a standard by which research data management tools and services can be evaluated and have seen rapid adoption by funders, publishers, and service providers (Wilkinson et al., 2018).
+﻿<h1>FAIR Principles</h1>
+First published in 2016, the FAIR Principles were developed as a concise and measurable set of guidelines to ensure that research (meta)data are findable, accessible, interoperable, and re-usable by both humans and machines, thereby maximizing their scientific value (Wilkinson et al., 2016). Since their introduction, the FAIR Principles have become a standard by which research data management tools and services can be evaluated and have seen rapid adoption by funders, publishers, and service providers (Wilkinson et al., 2018).
 
 FRDR supports the FAIR Principles in the following ways:
 

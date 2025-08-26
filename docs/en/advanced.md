@@ -1,3 +1,4 @@
+<h1>Advanced</h1>
 ## For developers
 This documentation is for users who want to develop applications or web sites that use FRDR technology.
 

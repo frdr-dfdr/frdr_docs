@@ -1,4 +1,5 @@
-﻿## Required Metadata
+﻿<h1>Describing Your Data</h1>
+## Required Metadata
 
 **Title**: The full title by which the dataset is known.
 

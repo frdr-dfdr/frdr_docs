@@ -1,3 +1,4 @@
+<h1>Searching for Datasets</h1>
 The redesigned FRDR Discovery Service separated from the FRDR website and launched as a standalone platform, Lunaris, on March 29th, 2023. [Lunaris](https://www.lunaris.ca/en) aggregates metadata from 100+ repositories, including datasets deposited in FRDR’s repository platform. It offers powerful functionality in discovering Canadian research data by using both text and map-based searching.  
 
 You can also search for data deposited in FRDR using our <a href="/repo/search" target="_blank">internal search</a> functionality.

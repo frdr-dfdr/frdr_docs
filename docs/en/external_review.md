@@ -1,4 +1,5 @@
-﻿All datasets submitted to FRDR undergo an internal review process called curation before they are approved for publication. Optionally, you may choose to share your dataset with an external reviewer, such as a journal editor or a colleague, before it is made publicly available. To opt in, select "yes" to external review in the submission interface. Your dataset will be placed under embargo after the curation process is completed, at which time you can invite external reviewers to access your submission. External reviewers do not require accounts in FRDR.
+﻿<h1>External Dataset Review</h1>
+All datasets submitted to FRDR undergo an internal review process called curation before they are approved for publication. Optionally, you may choose to share your dataset with an external reviewer, such as a journal editor or a colleague, before it is made publicly available. To opt in, select "yes" to external review in the submission interface. Your dataset will be placed under embargo after the curation process is completed, at which time you can invite external reviewers to access your submission. External reviewers do not require accounts in FRDR.
 
 ## Inviting Reviewers
 

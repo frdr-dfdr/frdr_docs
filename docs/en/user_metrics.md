@@ -1,4 +1,5 @@
-﻿The Federated Research Data Repository (FRDR) utilizes [Tableau software](https://www.tableau.com/why-tableau/what-is-tableau) to consolidate and present platform statistics. These statistics are primarily open to the public and can be accessed by navigating to 'Site Metrics' located in the website's header. 
+﻿<h1>User Metrics</h1>
+The Federated Research Data Repository (FRDR) utilizes [Tableau software](https://www.tableau.com/why-tableau/what-is-tableau) to consolidate and present platform statistics. These statistics are primarily open to the public and can be accessed by navigating to 'Site Metrics' located in the website's header. 
 
  They are also accessible via individual collection pages.
 

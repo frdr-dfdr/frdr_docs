@@ -71,6 +71,8 @@ th, td {
 .frdr-main {
     display: inline-block;
     width: calc(100vw - 368px);
+    margin-left: 54px;
+    margin-right: 54px;
 }
 
 .frdr-sidebar {
@@ -79,6 +81,63 @@ th, td {
     margin-left: 16px;
     margin-right: 16px;
     font-size: 16px;
+}
+
+.card-group {
+    display: flex;
+}
+
+.card-group-center {
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-group-first {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.card-group-last {
+    margin-left: 16px;
+    margin-right: auto;
+}
+
+.card-title {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.card-shadow {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    box-shadow: 0px 3px 20px 2px #0000001A;
+
+    width: 300;
+    height: 100%;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 12px;
+}
+
+.card-dark {
+    background-color: var(--alliance-gray-200);
+    border-radius: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 ul.toc-doc-page > li {
@@ -111,7 +170,7 @@ ul.toc-doc-section {
 }
 
 a.frdr-sidebar-link {
-    color: #000000;
+    color: #32322F;
     height: 100%;
     width: 100%;
     padding-left: 8px;
@@ -131,6 +190,57 @@ a.frdr-sidebar-link-page {
     color: #ffffff;
 }
 
+.carousel-container {
+    display: inline-flex;
+    margin-left: -54px;
+    margin-right: -54px;
+}
+
+ol.carousel-circles {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    position: relative;
+}
+
+ol.carousel-circles > .active {
+    color: var(--alliance-primary-gold);
+}
+
+.carousel-btn-container {
+     width: 52px;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+a.carousel-btn:hover,
+a.carousel-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--alliance-primary-gold);
+}
+
+a.carousel-btn {
+    background-color: var(--alliance-gray-200);
+    color: #32322F;
+    display: block;
+    width: 48;
+    height: 58;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+#carouselDocPages {
+}
+
 a.frdr-sidebar-link:hover,
 a.frdr-sidebar-link:focus {
     background-color: var(--alliance-primary-gold);
@@ -146,6 +256,329 @@ a.frdr-sidebar-link:focus {
     font-size: 24px;
     width: 24px;
     height: 24px;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-col-static {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 0;
+}
+
+.card-col-flex {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.card-icon {
+    color: #32322F;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-button {
+    width: 168px;
+    height: 59px;
+    border-radius: 42px;
+    padding-top: 15px;
+    padding-right: 34px;
+    padding-bottom: 15px;
+    padding-left: 34px;
+
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.faq-card {
+    border-radius: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 100%;
+}
+
+.faq-tag {
+    background-color: var(--alliance-primary-gold);
+    display: inline;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 148%;
+    text-transform: uppercase;
+    gap: 10px;
+    border-radius: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.faq-title {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    leading-trim: NONE;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+}
+
+.faq-subtitle {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.faq-icon {
+    width: 52.78px;
+    height: 52.78px;
+    background-color: #181818;
+    border-radius: 25px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 12px;
+    margin-right: 16px;
+}
+
+a.faq-link {
+    color: #181818;
+    text-decoration: none;
+}
+
+a.faq-link:focus,
+a.faq-link:hover {
+    color: var(--alliance-primary-gold);
+    text-decoration: underline;
+}
+
+.carousel-container {
+    display: inline-flex;
+    margin-left: -54px;
+    margin-right: -54px;
+}
+
+ol.carousel-circles {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    position: relative;
+}
+
+ol.carousel-circles > .active {
+    color: var(--alliance-primary-gold);
+}
+
+.carousel-btn-container {
+     width: 52px;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+a.carousel-btn:hover,
+a.carousel-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--alliance-primary-gold);
+}
+
+a.carousel-btn {
+    background-color: var(--alliance-gray-200);
+    color: #32322F;
+    display: block;
+    width: 48;
+    height: 58;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+#carouselDocPages {
+}
+
+a.frdr-sidebar-link:hover,
+a.frdr-sidebar-link:focus {
+    background-color: var(--alliance-primary-gold);
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.toc-icon {
+    color: var(--alliance-primary-gold);
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-col-static {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 0;
+}
+
+.card-col-flex {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.card-icon {
+    color: #32322F;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-button {
+    width: 168px;
+    height: 59px;
+    border-radius: 42px;
+    padding-top: 15px;
+    padding-right: 34px;
+    padding-bottom: 15px;
+    padding-left: 34px;
+
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.faq-card {
+    border-radius: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 100%;
+}
+
+.faq-tag {
+    background-color: var(--alliance-primary-gold);
+    display: inline;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 148%;
+    text-transform: uppercase;
+    gap: 10px;
+    border-radius: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.faq-title {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    leading-trim: NONE;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+.faq-subtitle {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.faq-icon {
+    width: 52.78px;
+    height: 52.78px;
+    background-color: #181818;
+    border-radius: 25px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 12px;
+    margin-right: 16px;
+}
+
+a.faq-link {
+    color: #181818;
+    text-decoration: none;
+}
+
+a.faq-link:focus,
+a.faq-link:hover {
+    color: var(--alliance-primary-gold);
+    text-decoration: none;
+}
+
+
+.faq-arrow {
+    margin-top: auto;
+    margin-left: 8px;
+    text-decoration: none;
 }
 
 /* Make FAQ questions expandable */
@@ -216,6 +649,7 @@ h1+ul {
     border-radius: 10px;
 }
 
+
 .docs-card-search {
     background-color: var(--alliance-primary-tuatara);
     color: var(--alliance-gray-200);
@@ -283,6 +717,262 @@ h1+ul {
 }
 
 @media (min-width: 1px) and (max-width: 762px) {
+    .frdr-container {
+        display: block;
+    }
+
+    .frdr-sidebar {
+        width: 100%;
+    }
+
+    .frdr-main {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .carousel-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /** Give a set height so it doesn't bounce content up and down below **/
+    .docs-page-card {
+        height: 256px;
+    }
+
+    #docs-search {
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 1%;
+        min-width: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 518px) {
+    .docs-headline-icon {
+        font-size: 3em;
+        width: 20%;
+    }
+
+    .docs-headline-text {
+        width: 80%;
+    }
+
+    .docs-card-search {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .large-headline {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 518px) and (max-width: 1050px) {
+    .docs-headline-icon {
+        font-size: 8em;
+    }
+
+    .docs-card-search {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .large-headline {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .docs-headline-icon {
+        font-size: 16em;
+    }
+
+    .docs-card-search {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .large-headline {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+    text-decoration: none;
+}
+
+
+.faq-arrow {
+    margin-top: auto;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+/* Make FAQ questions expandable */
+summary {
+    padding-bottom: 5px;
+}
+summary > h6 {
+    display: inline;
+    padding-top: 80px;
+    pointer-events: none;
+}
+
+summary > p:empty{
+    display: none;
+}
+
+#main-content h2 {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+h2, h3 {
+    pointer-events: none;
+}
+
+.expand-all-btn {
+    margin-top: -0.5rem;
+}
+
+.expand-all-btn::before {
+    content: "▼";
+    float: left;
+    transform: rotate(-90deg);
+}
+
+.expand-all-btn.expanded::before {
+    transform: rotate(0);
+    transition: transform 0.1s ease;
+}
+
+p:has(button) {
+    margin-bottom: 1rem;
+}
+
+h1+ul {
+    margin-top: 1rem;
+}
+
+.search-match {
+    color: red;
+}
+
+/**
+.jump-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 3em;
+    background-color: var(--alliance-primary-tuatara) !important;
+    text: white;
+}
+**/
+
+.docs-search-result {
+    text-decoration: none;
+}
+
+.docs-card {
+    margin: 18px;
+    border-radius: 10px;
+}
+
+
+.docs-card-search {
+    background-color: var(--alliance-primary-tuatara);
+    color: var(--alliance-gray-200);
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.large-headline {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.docs-headline-icon {
+    color: var(--alliance-gray-400);
+    width: 33%;
+}
+
+#docs-search-button {
+    background-color: #FFFFFF;
+    border: 1px solid #ced4da;
+    border-left-width: 1px;
+    border-left-width: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 61px;
+    width: 61px;
+}
+
+#docs-search {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    flex: none;
+    height: 61px;
+    padding: 11px;
+    width: 395px;
+}
+
+.docs-headline-text {
+    width: 66%;
+}
+
+#search-results-container {
+    color: #495057;
+    background-color: #fff;
+    top: 66px;
+    max-width: calc(100vw - 30px);
+    width: 756.8px;
+    position: absolute;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: calc(100vh - 100px);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+@media (min-width: 1px) and (max-width: 762px) {
+    .frdr-container {
+        display: block;
+    }
+
+    .frdr-sidebar {
+        width: 100%;
+    }
+
+    .frdr-main {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .carousel-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /** Give a set height so it doesn't bounce content up and down below **/
+    .docs-page-card {
+        height: 256px;
+    }
+
     #docs-search {
         position: relative;
         -ms-flex: 1 1 auto;

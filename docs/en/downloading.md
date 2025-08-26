@@ -1,4 +1,5 @@
-﻿## Finding Datasets
+﻿<h1>Downloading Datasets</h1>
+## Finding Datasets
 If you do not have a direct link to a FRDR-hosted dataset you can browse through available datasets using the [FRDR Discovery](/repo/search).
 
 ## Finding the File Listing for a Dataset and Downloading with a Web Browser
