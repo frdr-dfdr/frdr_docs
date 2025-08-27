@@ -1,5 +1,12 @@
 This is a list of changes to FRDR, starting with the most recent:
 
+**2025-08-27**:
+
+* Fix bug preventing collaborators editing datasets
+* Update language and translations for French version of sensitive dataset workflows
+* Add file format metrics dashboard
+* Remove filetypes from frdr checksum files
+
 **2025-07-30**:
 
 * Fixed pdf layout for Senstive Data documents
