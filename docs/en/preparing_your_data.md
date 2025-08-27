@@ -2,85 +2,135 @@
 
 ## Organizing your data files
 
-<div class="card-shadow">
-    <div class="card-title">
-        Choose which types of data to deposit
-    </div>
+<div class="card-shadow mb-3">
     <div class="card-body">
-        Gather your data files, documentation, and any information necessary to reuse your dataset. You may choose to provide processed data, ‘raw’ unprocessed data, or both, as well as the scripts, code or software needed to generate or reanalyze your data.
+        <div class="card-title">
+            Choose which types of data to deposit
+        </div>
+        <div class="mb-3">
+            Gather your data files, documentation, and any information necessary to reuse your dataset. You may choose to provide processed data, ‘raw’ unprocessed data, or both, as well as the scripts, code or software needed to generate or reanalyze your data.
+        </div>
+        <div>
+            You may choose to upload a version of your analysis scripts alongside your data, but we recommend that you deposit models, source code or research software in purpose-built repositories such as GitHub, GitLab or Bitbucket. These can be preserved in the <a href="https://www.softwareheritage.org/save-and-reference-research-software/">Software Heritage Archive</a> or <a href="https://guides.github.com/activities/citable-code/">Zenodo</a>. You can link directly to these and other research outputs from your <a href="/docs/en/describing_your_data/#recommended-metadata">FRDR metadata</a> using the ‘related identifier’ field and reference them in your README <a href="/docs/txt/README.txt">template here</a>).
+        </div>
     </div>
 </div>
 
-You may choose to upload a version of your analysis scripts alongside your data, but we recommend that you deposit models, source code or research software in purpose-built repositories such as GitHub, GitLab or Bitbucket. These can be preserved in the [Software Heritage Archive](https://www.softwareheritage.org/save-and-reference-research-software/) or [Zenodo](https://guides.github.com/activities/citable-code/). You can link directly to these and other research outputs from your [FRDR metadata](describing_your_data.md#recommended-metadata) using the ‘related identifier’ field and reference them in your README ([template here](/docs/txt/README.txt)).
+
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="card-row">
+            <div class="card-col-flex">
+                <div class="card-title">Structure your files</div>
+                <div class="mb-3">When you deposit your data in FRDR, your file structure (how you have arranged your data into directories or folders) is retained. Consider arranging your files by type of data, date collected, or analysis to make them easier to understand. For example:</div>
+                <div class="mb-3">
+                    Example a)
+                </div>
+                <div class="code-panel mb-3">
+                    <div class="code-header">
+                        Code
+                    </div>
+                    <div class="code-body">
+                        ├── Code </br>
+                        │   ├── process_raw_data.r </br>
+                        │   ├── analysis_1.r </br>
+                        │   └── analysis_2.r </br>
+                        ├── Data </br>
+                        │   ├── Raw_data </br>
+                        │   │   ├── file_a.raw </br>
+                        │   │   └── file_b.raw </br>
+                        │   └── Processed_data </br>
+                        │       ├── file_a.csv </br>
+                        │       └── file_b.csv </br>
+                        ├── Outputs </br>
+                        │   ├── Figures </br>
+                        │   └── Models </br>
+                        └── README.txt </br>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    Example b)
+                </div>
+                <div class="code-panel mb-3">
+                    <div class="code-header">
+                        Code
+                    </div>
+                    <div class="code-body">
+                        ├── Documentation </br>
+                        │   ├── site_information.csv </br>
+                        │   ├── site_1.shp </br>
+                        │   └── site_2.shp </br>
+                        ├── Data </br>
+                        │   ├── year_01 </br>
+                        │   │   ├── site_1.csv </br>
+                        │   │   └── site_2.csv </br>
+                        │   └── year_02 </br>
+                        │       ├── site_1.csv </br>
+                        │       └── site_2.csv </br>
+                        └── README.txt </br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-### Structure your files
-When you deposit your data in FRDR, your file structure (how you have arranged your data into directories or folders) is retained. Consider arranging your files by type of data, date collected, or analysis to make them easier to understand. For example:
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="card-title">Tips for file naming</div>
+        <div class="mb-3">
+            Name your files in a logical and descriptive way, so that you and other researchers can understand them at a glance. Keep file names brief, and consider including information about the project, content, date or version number as part of the filename. Use alphanumeric characters, and avoid spaces or special characters (%^& * ’). Your naming convention should be described in your README.
+        </div>
+        <div class="mb-3">
+            Example (a): StanleyPark_Temperatures_20200801.csv
+        </div>
+        <div class="mb-3">
+            Example (b): AnalysisPoem_IV05_v03.txt
+        </div>
+        <div class="mb-3">
+            For further advice, see <a href="https://researchdata.library.ubc.ca/plan/organize-your-data/">UBC’s File Naming Conventions</a>, <a href="https://www.uottawa.ca/library/research-data-management/data-management-plan/file-naming-organization-data">uOttawa’s File naming and organization of data</a>, or <a href="https://www.usherbrooke.ca/biblio/archives/boite-a-outils-archivistiques/nommage-des-fichiers-numeriques-et-abreviations">Université de Sherbrooke Nommage des fichiers numériques</a> (in French only).
+        </div>
+    </div>
+</div>
 
-**Example a)**
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="card-title">Choosing preservation-friendly file formats</div>
+        <div class="mb-3">
+            We recommend using open, non-proprietary file formats to support accessibility and long-term preservation. FRDR is able to accept and ensure bit-level preservation for a variety of file formats, including the following:
+        </div>
+        <div class="mb-3">
+            <ul>
+                <li>Comma-separated values (CSV) for tabular data</li>
+                <li>Semi-structured plain text formats for non-tabular data</li>
+                <li>Structured plain text (XML, JSON)</li>
+                <li>Images: JPEG, PNG, TIFF, SVG, GIF, DICOM, NIfTI</li>
+                <li>Audio: FLAC, AIFF, WAV, MP3, AAC</li>
+                <li>Video: MOV, MPEG-4, MKV</li>
+                <li>Compressed file archive formats: TAR.GZ, 7Z, ZIP</li>
+                <li>Large structured datasets: HDF5, NetCDF</li>
+                <li>Geospatial: GeoTIFF, SHP, KML, GeoJSON</li>
+                <li>Mass spectrometry: mzML</li>
+            </ul>
+        </div>
+        <div class="mb-3">
+            If proprietary file formats or vendor-specific software is necessary for the analysis or reuse of your files, please be aware that access may be limited and the stability and interpretability of the data over time may be negatively impacted. Consider the following:
+        </div>
+        <div class="mb-3">
+            <ul>
+                <li>Was a specialized instrument or software used to generate or analyze your files? Do you have the option to export files in an open format (e.g., plain text)?</li>
+                <li>What file formats are widely used in your field? Is it likely that other researchers will have access to the software necessary to open your files? Is it likely that you will have access to the necessary software in 5 years, or 10 years?</li>
+                <li>If you transform your files into open formats for deposit, will any information (data, metadata, formatting, macros, etc.) be lost? Can that information be represented another way, for example, by adding an additional variable to a tabular file, or including the information in a separate plain text file or documentation file?</li>
+                <li>If proprietary files are necessary or preferred, can you also upload the files in an open format? </li>
+            </ul>
+        </div>
+        <div class="mb-3">
+            For more information on preservation formats, see guidelines from <a href="https://numerique.banq.qc.ca/patrimoine/details/52327/4076856">Bibliothèque et Archives nationales du Québec</a>(in French only), <a href="https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats">UK Data Service</a>, or <a href="https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats">University of Edinburgh</a>.
+        </div>
+    </div>
+</div>
 
-	├── Code
-	│   ├── process_raw_data.r
-	│   ├── analysis_1.r
-	│   └── analysis_2.r
-	├── Data
-	│   ├── Raw_data
-	│   │   ├── file_a.raw
-	│   │   └── file_b.raw
-	│   └── Processed_data
-	│       ├── file_a.csv
-	│       └── file_b.csv
-	├── Outputs
-	│   ├── Figures
-	│   └── Models
-	└── README.txt
 
-**Example b)**
-
-	├── Documentation
-	│   ├── site_information.csv
-	│   ├── site_1.shp
-	│   └── site_2.shp
-	├── Data
-	│   ├── year_01
-	│   │   ├── site_1.csv
-	│   │   └── site_2.csv
-	│   └── year_02
-	│       ├── site_1.csv
-	│       └── site_2.csv
-	└── README.txt
-
-### Tips for file naming
-Name your files in a logical and descriptive way, so that you and other researchers can understand them at a glance. Keep file names brief, and consider including information about the project, content, date or version number as part of the filename. Use alphanumeric characters, and avoid spaces or special characters (%^& * ’). Your naming convention should be described in your README.
-
-_Example:_ StanleyPark_Temperatures_20200801.csv
-
-_Example:_ AnalysisPoem_IV05_v03.txt
-
-For further advice, see [UBC’s File Naming Conventions](https://researchdata.library.ubc.ca/plan/organize-your-data/), [uOttawa’s File naming and organization of data](https://www.uottawa.ca/library/research-data-management/data-management-plan/file-naming-organization-data), or [Université de Sherbrooke Nommage des fichiers numériques](https://www.usherbrooke.ca/biblio/archives/boite-a-outils-archivistiques/nommage-des-fichiers-numeriques-et-abreviations) (in French only).
-
-### Choosing preservation-friendly file formats
-We recommend using open, non-proprietary file formats to support accessibility and long-term preservation. FRDR is able to accept and ensure bit-level preservation for a variety of file formats, including the following:
-
-* Comma-separated values (CSV) for tabular data
-* Semi-structured plain text formats for non-tabular data
-* Structured plain text (XML, JSON)
-* Images: JPEG, PNG, TIFF, SVG, GIF, DICOM, NIfTI
-* Audio: FLAC, AIFF, WAV, MP3, AAC
-* Video: MOV, MPEG-4, MKV
-* Compressed file archive formats: TAR.GZ, 7Z, ZIP
-* Large structured datasets: HDF5, NetCDF
-* Geospatial: GeoTIFF, SHP, KML, GeoJSON
-* Mass spectrometry: mzML
-
-If proprietary file formats or vendor-specific software is necessary for the analysis or reuse of your files, please be aware that access may be limited and the stability and interpretability of the data over time may be negatively impacted. Consider the following:
-
-* Was a specialized instrument or software used to generate or analyze your files? Do you have the option to export files in an open format (e.g., plain text)?
-* What file formats are widely used in your field? Is it likely that other researchers will have access to the software necessary to open your files? Is it likely that you will have access to the necessary software in 5 years, or 10 years?
-* If you transform your files into open formats for deposit, will any information (data, metadata, formatting, macros, etc.) be lost? Can that information be represented another way, for example, by adding an additional variable to a tabular file, or including the information in a separate plain text file or documentation file?
-* If proprietary files are necessary or preferred, can you also upload the files in an open format? 
-
-For more information on preservation formats, see guidelines from [Bibliothèque et Archives nationales du Québec](https://numerique.banq.qc.ca/patrimoine/details/52327/4076856)(in French only), [UK Data Service](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats), or [University of Edinburgh](https://www.ed.ac.uk/information-services/research-support/research-data-service/after/data-repository/choosing-file-formats).
 
 ## Documenting your submission
 
@@ -134,38 +184,67 @@ Please consult the license or terms of use that accompany the source data and co
 If the data or code is readily available from another source, and you have not manipulated or edited them for your research, please consider linking to the original source rather than re-publishing. You may do so using the ‘related identifier’ field when you deposit your data. Please also include full citations for any data or software you reused in your README file.
 
 If you have questions about a particular source, or if you would like help selecting a license, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
-### Restricted data
-Please be aware that we are unable to provide restricted access to data at this time. Although we can set an embargo to protect your data from download in the short-term, all data deposited into FRDR at this time will eventually be made publicly available. Please confirm that you can share your data, and that appropriate steps have been taken to process, aggregate, or anonymize that data where necessary. You may need to consult your research agreements, participant consent forms or other documentation to confirm that publishing data in FRDR will not violate the terms under which you collected your data.
 
-Some common types of restricted data:
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="card-title">Restricted data</div>
+        <div class="mb-3">
+            Please be aware that we are unable to provide restricted access to data at this time. Although we can set an embargo to protect your data from download in the short-term, all data deposited into FRDR at this time will eventually be made publicly available. Please confirm that you can share your data, and that appropriate steps have been taken to process, aggregate, or anonymize that data where necessary. You may need to consult your research agreements, participant consent forms or other documentation to confirm that publishing data in FRDR will not violate the terms under which you collected your data.
+        </div>
+        <div class="mb-3">
+            Some common types of restricted data:
+        </div>
+        <div class="mb-3">
+            <ol>
+                <li>
+                    <div><b>Human Participant Data</b></div>
+                    <div>
+                        If your research involves human participants or contains human biological material, confirm you have consent to share your data for new research purposes, in a public repository. Please prepare your data in compliance with any applicable legal or ethical guidelines. As you review your consent form, the Alliance Sensitive Data Expert Group’s <a href="https://doi.org/10.5281/zenodo.4060460">Research Data Management Language for Informed Consent</a> and ICPSR’s <a href="https://www.icpsr.umich.edu/web/pages/datamanagement/confidentiality/conf-language.html">Recommended Informed Consent Language for Data Sharing</a> may help you identify language that would preclude data sharing. If you have not received consent to share data, please review the Tri-Agency <a href="https://ethics.gc.ca/eng/depositing_depots.html">Guidance on Depositing Existing Data in Public Repositories</a>, and consult with your REB.
+                    </div>
+                    <div>
+                        Learn more about potential restrictions and advice for processing human participant data for sharing in this helpful guide: <a href="https://doi.org/10.5281/zenodo.4041660">Can I Share My Data?</a> If you need to anonymize or de-identify your data for deposit, please see the following <a href="https://doi.org/10.5281/zenodo.4042022">e-identification Guidance</a>.
+                    </div>
+                    <div>
+                        If you would like us to review your consent form ahead of submission, please contact <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>. At this time the FRDR curation team cannot help you de-identify your data.
+                    </div>
+                </li>
+                <li>
+                    <div><b>Indigenous-owned Data</b></div>
+                    <div>
+                        Indigenous community leaders are in the best position to assess the benefits and risks of sharing Indigenous knowledge, data collected from their community members, and data collected on their lands, water, and ice. These data can only be shared in FRDR if community leaders have agreed that sharing data publicly, in FRDR or a similar general-purpose data repository, is appropriate. If you have questions, please consult with the Indigenous communities you worked with, and your institution’s Office of Indigenous Relations or Research Ethics Board. For more information, see:
+                    </div>
+                    <ul>
+                        <li>The First Nations Principles of <a href="https://fnigc.ca/ocap-training/">Ownership, Control, Access and Possession (OCAP®)</a></li>
+                        <li>Inuit Tapiriiti Kanatami (ITK) and Nunavut Research Institute <a href="https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf">Negotiating Research Relationships with Inuit Communities: A Guide for Researchers</a></li>
+                        <li>ITK’s <a href="https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_English_low_res.pdf">National Inuit Strategy on Research</a></li>
+                        <li>National Aboriginal Health Organization’s <a href="https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf">Principles of Ethical Métis Research</a> and <a href="https://fnim.sehc.com/getmedia/ebbbb9b6-35bf-451e-9c48-48e7e62e454f/Metis-Research-Fact-Sheet.pdf.aspx?ext=.pdf">What Researchers Need from Métis Communities</a></li>
+                        <li>Global Indigenous Data <a href="https://www.gida-global.org/care">CARE Principles for Indigenous Data Governance</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div><b>Location information</b></div>
+                    <div>
+                        You may need to remove or coarsen location information in your dataset. Consider doing so if you need to protect the confidentiality of study participants, or if your data were collected from field sites in protected areas, sensitive archaeological sites, or private property where consent to reveal location was not obtained or could devalue property or cause stigmatization. You may also need to remove or coarsen occurrence data of vulnerable species. For more information, the following resources may be helpful:
+                    </div>
+                    <div>
+                        <ul>
+                            <li>The UK Statistics Authority <a href="https://uksa.statisticsauthority.gov.uk/publication/ethical-considerations-in-the-use-of-geospatial-data-for-research-and-statistics/">Ethical considerations in the use of geospatial data for research and statistics</a> </li>
+                            <li>The IUCN <a href="https://www.iucnredlist.org/">Red List of Threatened Species</a> for species status and known risks and threats to the species.</li>
+                            <li>The Global Biodiversity Information Facility’s <a href="https://docs.gbif.org/sensitive-species-best-practices/master/en/">Guide to Best Practices for Generalising Sensitive Species-Occurrence Data</a>. This resource includes a matrix for assessing risk of harm and guidance for generalizing spatial information.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div><b>Industry data</b></div>
+                    <div>
+                        If your data were collected with an industry partner, there may be restrictions on what data you can share, or when you can share your data. Please review any research contracts or other agreements you may have signed, and confirm you have permission to publish data in FRDR before you deposit. 
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-#### Human Participant Data
 
-If your research involves human participants or contains human biological material, confirm you have consent to share your data for new research purposes, in a public repository. Please prepare your data in compliance with any applicable legal or ethical guidelines. As you review your consent form, the Alliance Sensitive Data Expert Group’s [Research Data Management Language for Informed Consent](https://doi.org/10.5281/zenodo.4060460) and ICPSR’s [Recommended Informed Consent Language for Data Sharing](https://www.icpsr.umich.edu/web/pages/datamanagement/confidentiality/conf-language.html) may help you identify language that would preclude data sharing. If you have not received consent to share data, please review the Tri-Agency [Guidance on Depositing Existing Data in Public Repositories](https://ethics.gc.ca/eng/depositing_depots.html), and consult with your REB. 
 
-Learn more about potential restrictions and advice for processing human participant data for sharing in this helpful guide: [Can I Share My Data?](https://doi.org/10.5281/zenodo.4041660) If you need to anonymize or de-identify your data for deposit, please see the following [De-identification Guidance](https://doi.org/10.5281/zenodo.4042022).
-
-If you would like us to review your consent form ahead of submission, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). At this time the FRDR curation team cannot help you de-identify your data.\
-
-#### Indigenous-owned Data
-
-Indigenous community leaders are in the best position to assess the benefits and risks of sharing Indigenous knowledge, data collected from their community members, and data collected on their lands, water, and ice. These data can only be shared in FRDR if community leaders have agreed that sharing data publicly, in FRDR or a similar general-purpose data repository, is appropriate. If you have questions, please consult with the Indigenous communities you worked with, and your institution’s Office of Indigenous Relations or Research Ethics Board. For more information, see:
-
-* The First Nations Principles of [Ownership, Control, Access and Possession (OCAP®)](https://fnigc.ca/ocap-training/)
-* Inuit Tapiriiti Kanatami (ITK) and Nunavut Research Institute [Negotiating Research Relationships with Inuit Communities: A Guide for Researchers](https://www.itk.ca/wp-content/uploads/2016/07/Negotitiating-Research-Relationships-Researchers-Guide_0.pdf)
-* ITK’s [National Inuit Strategy on Research](https://www.itk.ca/wp-content/uploads/2018/04/ITK_NISR-Report_English_low_res.pdf)
-* National Aboriginal Health Organization’s [Principles of Ethical Métis Research](https://fnim.sehc.com/getmedia/bd0ef9fd-a05d-4b01-9cbd-6a7ca93f4f22/PrinciplesofEthicalMetisResearch-descriptive_001.pdf.aspx?ext=.pdf) and [What Researchers Need from Métis Communities](https://fnim.sehc.com/getmedia/ebbbb9b6-35bf-451e-9c48-48e7e62e454f/Metis-Research-Fact-Sheet.pdf.aspx?ext=.pdf)
-* Global Indigenous Data [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)
-
-#### Location information
-
-You may need to remove or coarsen location information in your dataset. Consider doing so if you need to protect the confidentiality of study participants, or if your data were collected from field sites in protected areas, sensitive archaeological sites, or private property where consent to reveal location was not obtained or could devalue property or cause stigmatization. You may also need to remove or coarsen occurrence data of vulnerable species. For more information, the following resources may be helpful:
-
-* The UK Statistics Authority [Ethical considerations in the use of geospatial data for research and statistics](https://uksa.statisticsauthority.gov.uk/publication/ethical-considerations-in-the-use-of-geospatial-data-for-research-and-statistics/)
-* The IUCN [Red List of Threatened Species](https://www.iucnredlist.org/) for species status and known risks and threats to the species.
-* The Global Biodiversity Information Facility’s [Guide to Best Practices for Generalising Sensitive Species-Occurrence Data](https://docs.gbif.org/sensitive-species-best-practices/master/en/). This resource includes a matrix for assessing risk of harm and guidance for generalizing spatial information.
-
-#### Industry data
-
-If your data were collected with an industry partner, there may be restrictions on what data you can share, or when you can share your data. Please review any research contracts or other agreements you may have signed, and confirm you have permission to publish data in FRDR before you deposit. 
 
