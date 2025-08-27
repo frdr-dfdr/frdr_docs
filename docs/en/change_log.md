@@ -2,9 +2,11 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2025-08-27**:
 
-* Fix bug preventing collaborators editing datasets
+* Fixed resolution of external subpath links to: frdr.ca, dfdr.ca and frdr-dfdr.ca domains.
+* Added link to OAI-PMH endpoint in documentation.
+* Re-added file format metrics dashboard with link on front page.
+* Fixed bug preventing collaborators from editing datasets.
 * Update language and translations for French version of sensitive dataset workflows
-* Add file format metrics dashboard
 * Remove filetypes from frdr checksum files
 
 **2025-07-30**:
