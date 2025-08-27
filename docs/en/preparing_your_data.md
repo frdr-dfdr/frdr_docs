@@ -1,5 +1,9 @@
 ﻿<h1>Preparing Your Data</h1>
 
+Gather your data files, documentation, and any information necessary to reuse your dataset. You may choose to provide processed data, ‘raw’ unprocessed data, or both, as well as the scripts, code or software needed to generate or reanalyze your data.
+
+<hr class="redesign"/>
+
 ## Organizing your data files
 
 <div class="card-shadow mb-3">
@@ -27,7 +31,7 @@
                     Example a)
                 </div>
                 <div class="code-panel mb-3">
-                    <div class="code-header">
+                    <div class="dark-header">
                         Code
                     </div>
                     <div class="code-body">
@@ -130,7 +134,7 @@
     </div>
 </div>
 
-
+<hr/>
 
 ## Documenting your submission
 
@@ -159,6 +163,8 @@ Tips for writing READMEs:
 
 Further guidance is available in UBC’s ‘[Quick Guide: Creating a README for your dataset](https://doi.org/10.5281/zenodo.4058971)’ and Cornell University’s ‘[Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)’. 
 
+<hr/>
+
 ## Verify your data
 
 After you submit your data, a member of FRDR’s curation team will review your deposit. Curators will work with you to help ensure the quality of metadata in the repository, and may suggest changes to increase the findability and accessibility of your data. Below are a few things to consider before you submit your dataset:
@@ -170,20 +176,32 @@ After you submit your data, a member of FRDR’s curation team will review your 
 * *Have you credited any third-party sources* that provided data or code for your analyses? See [Secondary use of data or code](#secondary-use-of-data-or-code).
 * *Have you confirmed that none of your files contain protected or restricted information?* See [Restricted data](#restricted-data).
 
-### Secondary use of data or code
-
-Have you obtained data or code from a third party who may hold copyright or intellectual property rights that would prevent you from re-distributing them? Does the original data source allow redistribution, but with certain restrictions?
-
-If you are redistributing data or code, or publishing data derived from a third-party source, you will need to confirm you have permission to publish these data in FRDR before your submission can be approved by a curator. Uncertain if you need permission? Data that were made freely available for research purposes are not necessarily ‘free.’ Ask yourself:
-
-* Were you required to log-in to a website to download the data?
-* Did you agree to any specific terms of use, sign a data use agreement, or reach an understanding with the data provider that would prevent you from publishing these data in FRDR?
-
-Please consult the license or terms of use that accompany the source data and confirm you have adhered to all terms. If you are allowed to redistribute data points or derived products, please choose a license in FRDR that is compatible with the original license.
-
-If the data or code is readily available from another source, and you have not manipulated or edited them for your research, please consider linking to the original source rather than re-publishing. You may do so using the ‘related identifier’ field when you deposit your data. Please also include full citations for any data or software you reused in your README file.
-
-If you have questions about a particular source, or if you would like help selecting a license, please contact [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="card-title">Secondary use of data or code</div>
+        <div class="mb-3">
+            Have you obtained data or code from a third party who may hold copyright or intellectual property rights that would prevent you from re-distributing them? Does the original data source allow redistribution, but with certain restrictions?
+        </div>
+        <div class="mb-3">
+            If you are redistributing data or code, or publishing data derived from a third-party source, you will need to confirm you have permission to publish these data in FRDR before your submission can be approved by a curator. Uncertain if you need permission? Data that were made freely available for research purposes are not necessarily ‘free.’ Ask yourself:
+        </div>
+        <div class="mb-3">
+            <ul>
+                <li>Were you required to log-in to a website to download the data?</li>
+                <li>Did you agree to any specific terms of use, sign a data use agreement, or reach an understanding with the data provider that would prevent you from publishing these data in FRDR?</li>
+            </ul>
+        </div>
+        <div class="mb-3">
+            Please consult the license or terms of use that accompany the source data and confirm you have adhered to all terms. If you are allowed to redistribute data points or derived products, please choose a license in FRDR that is compatible with the original license.
+        </div>
+        <div class="mb-3">
+            If the data or code is readily available from another source, and you have not manipulated or edited them for your research, please consider linking to the original source rather than re-publishing. You may do so using the ‘related identifier’ field when you deposit your data. Please also include full citations for any data or software you reused in your README file.
+        </div>
+        <div class="mb-3">
+            If you have questions about a particular source, or if you would like help selecting a license, please contact <a href="(mailto:support@frdr-dfdr.ca">upport@frdr-dfdr.ca</a>.
+        </div>
+    </div>
+</div>
 
 <div class="card-shadow mb-3">
     <div class="card-body">

@@ -1,6 +1,8 @@
 ﻿<h1>Before Depositing</h1>
 Anyone may use FRDR to search for and download data, but a FRDR account is required to deposit data. You will also need to install and configure Globus connect software if you are sharing or downloading large data files. This section will cover the following topics: [1) Who can deposit in FRDR](before_depositing.md#1-who-can-deposit-in-frdr), [2) Getting a FRDR (and Globus) Account](before_depositing.md#2-getting-a-frdr-and-globus-account), [3) Getting authorization to submit data](before_depositing.md#3-getting-authorization-to-submit), and [4) Getting Globus Connect Software](before_depositing.md#4-getting-globus-connect-software).
 
+<hr/>
+
 ## 1. Who can deposit in FRDR?
 
 Faculty members, librarians, and researchers affiliated with Canadian post-secondary institutions and organizations eligible to receive Tri-Agency funds may deposit data in FRDR. Faculty can sponsor 	designates, for example, external collaborators, graduate students, non-research staff, postdoctoral fellows, research assistants, undergraduate students, and visiting faculty, to submit data. Requests for deposit from other Canadian researchers (e.g., government or NGOs) who are not sponsored by a faculty member will be considered on a case-by-case basis.

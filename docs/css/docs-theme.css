@@ -1,6 +1,77 @@
  /* to fit the second navigation level we need to move the content down the page a little */
+
+body {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
  #content {
     margin-top:80px !important;
+}
+
+#main-content > hr {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-width: 3px;
+    background-color: var(--alliance-primary-gold);
+}
+
+#main-content > h1 {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+#main-content > h2 {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+#main-content > h3 {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+h4 {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+ol > li:before {
+    /** Position digit and circle */
+    position: absolute;
+    left: -30px;
+    margin-right: 10px;
+    content: counter(item);
+    background: var(--alliance-gray-400);
+    border-radius: 100%;
+    color: #32322F;
+    height: 22.91px;
+    width: 22.91px;
+    text-align: center;
+    display: inline-block;
 }
 
 /* Pseudo element to fix anchors being hidden under navbar */
@@ -11,7 +82,7 @@ h2::before, h3::before {
     height: 75px;
     visibility: hidden;
     pointer-events: none;
-  }
+}
 
 table {
     width: 100%;
@@ -62,6 +133,15 @@ th, td {
     margin-bottom: 60px;
     max-width: 100%;
     object-fit: cover;
+}
+
+.cell {
+    border-right: 1px solid #F0F0F0;
+}
+
+.cell-shaded {
+    background-color: #f8f9fc;
+    border-right: 1px solid #D9DFF0;
 }
 
 .frdr-container {
@@ -595,10 +675,6 @@ summary > p:empty{
     display: none;
 }
 
-#main-content h2 {
-    border-bottom: 1px solid #dee2e6 !important;
-}
-
 h2, h3 {
     pointer-events: none;
 }
@@ -664,7 +740,7 @@ h1+ul {
     border-bottom-right-radius: 12px;
 }
 
-.code-header {
+.dark-header {
     gap: 1px;
     padding-top: 8px;
     padding-right: 8px;
@@ -852,10 +928,6 @@ summary > h6 {
 
 summary > p:empty{
     display: none;
-}
-
-#main-content h2 {
-    border-bottom: 1px solid #dee2e6 !important;
 }
 
 h2, h3 {
