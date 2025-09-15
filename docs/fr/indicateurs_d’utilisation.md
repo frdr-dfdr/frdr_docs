@@ -1,4 +1,6 @@
-﻿# Métriques des collections
+﻿___
+
+# Métriques des collections
 
 Le **Tableau de bord analytique des collections** fournit des analyses fondées sur les données en lien avec 
 l’utilisation et l’impact des collections numériques déposées dans le DFDR. Vous pouvez accéder au Tableau de bord des 
