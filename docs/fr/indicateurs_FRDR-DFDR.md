@@ -2,28 +2,26 @@
 pour regrouper et présenter les statistiques de la plateforme. 
 
 Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page **Métriques**, accessible à partir de 
-l’en-tête du site Web. Il est également possible d’y accéder par les pages de collection. 
+l’en-tête du site Web. 
 
 ## Indicateurs disponibles
 
 Le DFDR comprend actuellement les indicateurs clés suivants :
 
-1. **Collections :** Nombre total de collections non vides hébergées par le DFDR.
-2. **Jeux de données publiés :** Nombre total de jeux de données publiés sur la plateforme du DFDR.
-3. **Données publiées (To) :** Espace de stockage total utilisé pour tous les jeux de données publiés dans le DFDR, en téraoctets.
-4. **Vues des jeux de données :** Nombre total de reprises auxquelles les utilisatrices et utilisateurs ont accédé aux jeux de données publiés dans le DFDR ou les ont consultés.
-5. **Fichiers téléchargés :** Nombre cumulatif de reprises auxquelles chaque fichier des jeux de données publiés dans le DFDR a été récupéré ou copié par des utilisatrices ou utilisateurs.
+1. **Jeux de données publiés :** Nombre total de jeux de données publiés sur la plateforme du DFDR.
+2. **Données publiées (To) :** Espace de stockage total utilisé pour tous les jeux de données publiés dans le DFDR, en téraoctets.
+3. **Vues des jeux de données :** Nombre total de reprises auxquelles les utilisatrices et utilisateurs ont accédé aux jeux de données publiés dans le DFDR ou les ont consultés.
+4. **Fichiers téléchargés :** Nombre cumulatif de reprises auxquelles chaque fichier des jeux de données publiés dans le DFDR a été récupéré ou copié par des utilisatrices ou utilisateurs.
 
 Les tableaux de bord sont mis à jour le dernier mercredi de chaque mois. 
 
 ## Navigation
 
 La page **Métriques** présente trois onglets : **Views Dashboard (Tableau de bord des vues)**, **Download Dashboard 
-(Tableau de bord des téléchargements)** et **Site Metrics Dashboard (Tableau de bord des indicateurs du site)**. On y trouve 
-également un menu déroulant pour les collections de jeux de données du DFDR. 
+(Tableau de bord des téléchargements)**, **File Format Dashboard (Tableau de bord de file format)** et **Site Metrics Dashboard (Tableau de bord des indicateurs du site)**. 
 
-<a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
-<img src="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Capture d'écran montrant l'onglet de navigation supérieur." class="screenshot"/>
+<a href="/docs/img/screenshots/user_metrics/metrics_nav_tab_fr.png" class="screenshot-lightbox">
+<img src="/docs/img/screenshots/user_metrics/metrics_nav_tab_fr.png" alt="Capture d'écran montrant l'onglet de navigation supérieur." class="screenshot"/>
 </a>
 
 ## Tableau de bord des vues
@@ -37,8 +35,8 @@ du monde interactive au bas de la page indique les vues par pays. En cliquant su
 une collection du menu déroulant. 
 
 
-<a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" class="screenshot-lightbox">
-<img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
+<a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" class="screenshot-lightbox">
+<img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
 </a>
 
 ## Tableau de bord des vues – Carte 
@@ -67,6 +65,10 @@ réinitialisation ![Alt](/docs/img/screenshots/user_metrics/RevertIcon.png "Reve
 <img src="/docs/img/screenshots/user_metrics/metrics_reset_map_button.png" alt="Capture d'écran montrant le bouton de réinitialisation de la carte." class="screenshot"/>
 </a>
 
+## Tableau de bord des formats de fichiers
+Le tableau de bord Statistiques des formats de fichiers fournit un aperçu des différents formats de fichiers des jeux de données du DRDR. Le côté gauche du graphique contient les catégories des formats de fichiers. L’axe horizontal en bas du graphique (l’axe X), Nombre de fichiers déposés, représente le nombre de fichiers associés à un format de fichier. Lorsque vous passez le curseur sur un format de fichier particulier, une boîte s’affichera au-dessus de la barre de comptage. En cliquant sur la barre, celle-ci apparaîtra en gris foncé et affichera le nombre total de fichiers associés au format particulier. Le tableau de bord comprend également une catégorie de format de fichier inconnu. Parfois, les outils dont on se sert pour identifier les formats de fichiers ne permettent pas d’identifier immédiatement ceux-ci au moment du dépôt des jeux de données. L’équipe du DFDR examine ces formats de fichier et prend des mesures pour en faciliter l’identification. Lorsque le tableau de bord Statistiques des formats de fichiers est actualisé, tous les types de fichiers qui n’avaient pas été reconnus auparavant seront automatiquement classés sous la catégorie qui leur est propre.
+
+
 ## Tableau de bord des téléchargements 
 
 Cet onglet fonctionne comme celui du tableau de bord des vues. Il est à noter que cette page indique le nombre de 
@@ -79,8 +81,8 @@ par collection, si on a sélectionné une collection dans le menu déroulant. La
 téraoctet (To) des données déposées pour les dépôts publiés. En passant la souris sur les graphiques de tendance, on 
 peut voir l’évolution des dépôts de jeux de données au fil du temps. 
 
-<a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" class="screenshot-lightbox">
-<img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
+<a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" class="screenshot-lightbox">
+<img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
 </a>
 
 ## Téléchargement des données brutes 
@@ -91,25 +93,10 @@ On peut facilement accéder aux données présentées dans les tableaux de bord 
 <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
 </a>
 
-1. Cliquer sur l’icône ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon") sous le tableau de bord. 
-2. Sélectionner le format de fichier du téléchargement : image, tableau croisé, PDF, PowerPoint ou classeur Tableau. 
-* Avec l’option Image, on télécharge une capture d’écran du tableau de bord. 
-
-* Avec l’option Tableau croisé, on peut sélectionner la section du tableau de bord de laquelle tirer les données tabulaires ainsi que le format de sortie (.xlsx ou .csv). 
-
-* Avec l’option PDF, on peut sélectionner les éléments à inclure dans le document (« Cette vue », « Feuilles spécifiques de ce tableau de bord » ou « Feuilles spécifiques de ce classeur »). Il est à noter qu’avec l’option de « tableau de bord », on télécharge le tableau actif, alors qu’avec l’option « classeur », on télécharge les autres onglets vers un fichier PDF. 
-
-* Avec l’option PowerPoint, les réglages sont les mêmes que pour le PDF, mais le fichier téléchargé est en format .pptx. 
-
-* Avec l’option Classeur Tableau, on télécharge un fichier à consulter dans l’application Tableau. Il est à noter qu’il faut d’abord sélectionner une version de Tableau. 
-
-## Tableau de bord des formats de fichiers
-Le tableau de bord Statistiques des formats de fichiers fournit un aperçu des différents formats de fichiers des jeux de données du DRDR. Le côté gauche du graphique contient les catégories des formats de fichiers. L’axe horizontal en bas du graphique (l’axe X), Nombre de fichiers déposés, représente le nombre de fichiers associés à un format de fichier. Lorsque vous passez le curseur sur un format de fichier particulier, une boîte s’affichera au-dessus de la barre de comptage. En cliquant sur la barre, celle-ci apparaîtra en gris foncé et affichera le nombre total de fichiers associés au format particulier. Le tableau de bord comprend également une catégorie de format de fichier inconnu. Parfois, les outils dont on se sert pour identifier les formats de fichiers ne permettent pas d’identifier immédiatement ceux-ci au moment du dépôt des jeux de données. L’équipe du DFDR examine ces formats de fichier et prend des mesures pour en faciliter l’identification. Lorsque le tableau de bord Statistiques des formats de fichiers est actualisé, tous les types de fichiers qui n’avaient pas été reconnus auparavant seront automatiquement classés sous la catégorie qui leur est propre.
-
 Pour télécharger les données du tableau de bord Statistiques des formats de fichiers, voici ce que vous devez faire :
 
 1. Cliquez sur **Choisir un format de téléchargement** ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon") au bas du tableau de bord
-3. Choisissez le format de fichier que vous désirez parmi les options proposées, notamment Image, Tableau croisé dynamique, PDF, Présentation PowerPoint ou Classeur Excel
+2. Choisissez le format de fichier que vous désirez parmi les options proposées, notamment Image, Tableau croisé dynamique, PDF, Présentation PowerPoint ou Classeur Excel
 3. L’option Image permet de télécharger une capture d’écran du tableau de bord
 4. L’option Tableau croisé permet à l’utilisateur de sélectionner la section du tableau de bord qui recevra les données tabulaires et le format de sortie (.xlsx ou .csv)
 5. L’option PDF permet à l’utilisateur de sélectionner les éléments à inclure dans le document (« cette vue », « Feuilles précises de ce tableau de bord » et « Feuille précise de ce classeur »). Notez que « Tableau de bord » fait référence à l’onglet dans lequel se trouve l’utilisateur à ce moment de la navigation, tandis que « Classeur » permet à l’utilisateur de télécharger un fichier PDF depuis n’importe quel autre onglet.

@@ -1,23 +1,21 @@
 ﻿The Federated Research Data Repository (FRDR) utilizes [Tableau software](https://www.tableau.com/why-tableau/what-is-tableau) to consolidate and present platform statistics. These statistics are primarily open to the public and can be accessed by navigating to 'Site Metrics' located in the website's header. 
 
- They are also accessible via individual collection pages.
 
 
 ## Available Metrics
 
 FRDR currently records the following key metrics:
 
-1. **Collections:** The total number of non-empty collections hosted by FRDR.
-2. **Datasets Published:** This metric represents the total number of datasets published within the FRDR platform.
-3. **Data Deposited (TB):** The total storage space consumed by all published datasets in FRDR, measured in terabytes.
-4. **Dataset Views:** Total dataset views refer to the number of times published datasets in FRDR have been accessed or viewed by users.
-5. **Files Downloaded:** Total files downloaded represent the number of times individual data files from published datasets in FRDR have been retrieved or copied by users.
+1. **Datasets Published:** This metric represents the total number of datasets published within the FRDR platform.
+2. **Data Deposited (TB):** The total storage space consumed by all published datasets in FRDR, measured in terabytes.
+3. **Dataset Views:** Total dataset views refer to the number of times published datasets in FRDR have been accessed or viewed by users.
+4. **Files Downloaded:** Total files downloaded represent the number of times individual data files from published datasets in FRDR have been retrieved or copied by users.
    
-The dashboards are updated on a monthly basis on the last Wednesday of each month.
+The dashboards are updated every two weeks. 
 
 ## Navigation
 
-The metric page has three tabs (Views Dashboard, Download Dashboards, and Site Metrics Dashboards) and a dropdown menu for collections with datasets in FRDR.
+The metric page has four tabs (Views Dashboard, Download Dashboards, Site Metrics Dashboards, File Format Dashboard). 
 
 <a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
 <img src="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Screenshot showing the top navigation tab." class="screenshot"/>
@@ -31,8 +29,7 @@ This tab is divided into three sections. First, the user will find the total num
 trend over time (top right). Hovering the mouse over the trendline shows the number of views up to the specified date. 
 Next, the "Top Viewed Datasets" section lists the FRDR datasets from largest to smallest views. Finally, the navigable 
 world map at the bottom shows views per country.  By clicking on a specific dataset, the user can navigate to the 
-dataset’s landing page in FRDR. When the user selects a collection from the drop-down menu, the same information is 
-displayed for that specific collection.
+dataset’s landing page in FRDR. 
 
 <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" class="screenshot-lightbox">
 <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" alt="Screenshot showing the views tab." class="screenshot"/>
@@ -69,6 +66,19 @@ To revert graphs to their default settings, click the reset view icon ![Alt](/do
 This tab is set up in the same way as the Views dashboard. Please note that this page **shows the number of files 
 downloaded**, not the number of times a dataset has been downloaded.  
 
+## File Format Dashboard
+The File Format Statistics dashboard provides an overview of the different file formats in the datasets 
+found in FRDR. The left side of the graph contains the file format categories. The bottom x-axis, 
+**Number of files deposited**, represents the number of files associated with a file format. Hovering over a 
+specific file format will create a box over the count bar. Clicking on the bar will highlight the bar in 
+dark grey and will display the total number of files associated with the specific format. The dashboard 
+also includes an unknown file format category. Sometimes the tools used to identify file formats cannot 
+immediately identify file formats when datasets are deposited. The FRDR Team reviews these file formats and 
+takes action to help with their identification. When the File Format Statistics dashboard is refreshed file 
+formats that were previously identified as unknown will move to the appropriate file format category.
+
+
+
 ## Site Metrics Dashboard
 On this tab, the top row displays the total number of published datasets, or datasets per collection if a collection is 
 selected from the drop-down menu. The bottom row shows the total data deposited in terabytes (TB) for published deposits.
@@ -85,32 +95,24 @@ Users can easily access the data presented on the dashboards by following these 
 <a href="/docs/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
 <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
 </a>
+
 1. Click on the  ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon")icon located just below the dashboard.
 
 2. Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.
-    
-* The Image option downloads a screenshot of the dashboard. 
 
-* The Crosstab (Table) option allows the user to select the section of the dashboard to receive the tabular data and the output format (.xlsx or .csv). 
-
-* The PDF option allows the user to select what to include in the document ("This view", "Specific sheets from this dashboard" and "Specific sheet from this workbook"). Note that "Dashboard" refers to the tab the user is currently navigating, while "Workbook" allows the user to download a PDF from the other tabs.
-
-* The PowerPoint option has the same settings as PDF, but downloads the content in a .pptx file.
-
-* The Tableau Workbook option allows the user to download a file for viewing in Tableau. Note that the user is prompted to select a Tableau version to download the workbook.
-
-## File Format Dashboard
-The File Format Statistics dashboard provides an overview of the different file formats in the datasets found in FRDR. The left side of the graph contains the file format categories. The bottom x-axis, Number of files deposited, represents the number of files associated with a file format. Hovering over a specific file format will create a box over the count bar. Clicking on the bar will highlight the bar in dark grey and will display the total number of files associated with the specific format. The dashboard also includes an unknown file format category. Sometimes the tools used to identify file formats cannot immediately identify file formats when datasets are deposited. The FRDR Team reviews these file formats and takes action to help with their identification. When the File Format Statistics dashboard is refreshed file formats that were previously identified as unknown will move to the appropriate file format category.
-
-To download the information found on the File Format Statistics dashboard:
-
-1. Click on the **Choose a format to download**  ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon") button at the bottom of the dashboard. 
-2. Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.
-3. The Image option downloads a screenshot of the dashboard.
-4. The Crosstab (Table) option allows the user to select the section of the dashboard to receive the tabular data and the output format (.xlsx or .csv).
-5. The PDF option allows the user to select what to include in the document ("This view", "Specific sheets from this dashboard" and "Specific sheet from this workbook"). Note that "Dashboard" refers to the tab the user is currently navigating, while "Workbook" allows the user to download a PDF from the other tabs.
-6. The PowerPoint option has the same settings as PDF, but downloads the content in a .pptx file.
-7. The Tableau Workbook option allows the user to download a file for viewing in Tableau. Note that the user is prompted to select a Tableau version to download the workbook.
+3. Click on the **Choose a format to download**  ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon") button at the bottom of the dashboard.
+ 
+4. Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.
+ 
+5. The Image option downloads a screenshot of the dashboard.
+ 
+6. The Crosstab (Table) option allows the user to select the section of the dashboard to receive the tabular data and the output format (.xlsx or .csv).
+ 
+7. The PDF option allows the user to select what to include in the document ("This view", "Specific sheets from this dashboard" and "Specific sheet from this workbook"). Note that "Dashboard" refers to the tab the user is currently navigating, while "Workbook" allows the user to download a PDF from the other tabs.
+ 
+8. The PowerPoint option has the same settings as PDF, but downloads the content in a .pptx file.
+ 
+9. The Tableau Workbook option allows the user to download a file for viewing in Tableau. Note that the user is prompted to select a Tableau version to download the workbook.
 
 
 ## Feedback
