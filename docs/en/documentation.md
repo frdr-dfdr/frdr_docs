@@ -13,7 +13,7 @@ Welcome to the service documentation for the Federated Research Data Repository!
 * [Advanced](advanced.md)
 * [FAQ](faq.md)
 * [FRDR-DFDR Metrics](FRDR-DFDR_metrics.md)
-* [Collection  Metrics](collection_metrics.md)
+* [Collection Metrics](collection_metrics.md)
 * [Change Log](change_log.md)
 * [FAIR Principles](fair_principles.md)
 * [Style Guide](style_guide.md)
