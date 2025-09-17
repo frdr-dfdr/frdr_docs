@@ -26,7 +26,7 @@ body {
     margin-bottom: 32px;
 }
 
-#main-content > h2 {
+h2 {
     font-family: Helvetica;
     font-weight: 700;
     font-size: 24px;
@@ -34,7 +34,7 @@ body {
     margin-bottom: 16px;
 }
 
-#main-content > h3 {
+h3 {
     font-family: Helvetica;
     font-weight: 700;
     font-size: 18px;
@@ -185,11 +185,8 @@ th, td {
 .card-title {
     font-family: Helvetica;
     font-weight: 700;
-    font-style: Bold;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 28px;
-    letter-spacing: 0%;
 }
 
 .card-shadow {
@@ -383,14 +380,22 @@ a.frdr-sidebar-link:focus {
 
     font-family: Helvetica;
     font-weight: 700;
-    font-style: Bold;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 160%;
-    letter-spacing: 0%;
 }
 
-.faq-card {
+a.faq-question {
+    color: rgb(50, 50, 47);
+    text-decoration: none;
+}
+
+.faq {
+    border-bottom: solid 3px rgb(205, 214, 218, 0.25);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.main-faq-card {
     border-radius: 12px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -399,7 +404,7 @@ a.frdr-sidebar-link:focus {
     max-width: 100%;
 }
 
-.faq-tag {
+.main-faq-tag {
     background-color: var(--alliance-primary-gold);
     display: inline;
     font-family: Helvetica;
@@ -416,29 +421,24 @@ a.frdr-sidebar-link:focus {
     padding-left: 17px;
 }
 
-.faq-title {
+.main-faq-title {
     font-family: Helvetica;
     font-weight: 700;
-    font-style: Bold;
     font-size: 45px;
-    leading-trim: NONE;
     line-height: 115.99999999999999%;
-    letter-spacing: 0%;
+    text-decoration: none;
 }
 
-.faq-subtitle {
+.main-faq-subtitle {
     font-family: Helvetica;
     font-weight: 700;
-    font-style: Bold;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 115.99999999999999%;
-    letter-spacing: 0%;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.faq-icon {
+.main-faq-icon {
     width: 52.78px;
     height: 52.78px;
     background-color: #181818;
@@ -450,13 +450,13 @@ a.frdr-sidebar-link:focus {
     margin-right: 16px;
 }
 
-a.faq-link {
+a.main-faq-link {
     color: #181818;
     text-decoration: none;
 }
 
-a.faq-link:focus,
-a.faq-link:hover {
+a.main-faq-link:focus,
+a.main-faq-link:hover {
     color: var(--alliance-primary-gold);
     text-decoration: underline;
 }
@@ -574,14 +574,11 @@ a.frdr-sidebar-link:focus {
 
     font-family: Helvetica;
     font-weight: 700;
-    font-style: Bold;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 160%;
-    letter-spacing: 0%;
 }
 
-.faq-card {
+.main-faq-card {
     border-radius: 12px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -590,7 +587,7 @@ a.frdr-sidebar-link:focus {
     max-width: 100%;
 }
 
-.faq-tag {
+.main-faq-tag {
     background-color: var(--alliance-primary-gold);
     display: inline;
     font-family: Helvetica;
@@ -607,31 +604,25 @@ a.frdr-sidebar-link:focus {
     padding-left: 17px;
 }
 
-.faq-title {
+a.main-faq-title {
     font-family: Helvetica;
     font-weight: 700;
-    font-style: Bold;
     font-size: 45px;
-    leading-trim: NONE;
     line-height: 115.99999999999999%;
-    letter-spacing: 0%;
     text-decoration: none;
 }
 
-.faq-subtitle {
+.main-faq-subtitle {
     font-family: Helvetica;
     font-weight: 700;
-    font-style: Bold;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 115.99999999999999%;
-    letter-spacing: 0%;
     margin-top: auto;
     margin-bottom: auto;
     text-decoration: none;
 }
 
-.faq-icon {
+.main-faq-icon {
     width: 52.78px;
     height: 52.78px;
     background-color: #181818;
@@ -643,19 +634,19 @@ a.frdr-sidebar-link:focus {
     margin-right: 16px;
 }
 
-a.faq-link {
+a.main-faq-link {
     color: #181818;
     text-decoration: none;
 }
 
-a.faq-link:focus,
-a.faq-link:hover {
+a.main-faq-link:focus,
+a.main-faq-link:hover {
     color: var(--alliance-primary-gold);
     text-decoration: none;
 }
 
 
-.faq-arrow {
+.main-faq-arrow {
     margin-top: auto;
     margin-left: 8px;
     text-decoration: none;
@@ -665,7 +656,7 @@ a.faq-link:hover {
 summary {
     padding-bottom: 5px;
 }
-summary > h6 {
+summary > h3 {
     display: inline;
     padding-top: 80px;
     pointer-events: none;
@@ -910,7 +901,7 @@ h1+ul {
 }
 
 
-.faq-arrow {
+.main-faq-arrow {
     margin-top: auto;
     margin-left: 8px;
     text-decoration: none;

@@ -119,6 +119,25 @@ $( document ).ready(function() {
         }
         return true;
     });
+
+    function updateFaqCollapse(button) {
+        if (button.hasClass("collapsed")) {
+            button.children("div").children("i").removeClass("fa-plus").addClass("fa-minus");
+        } else {
+            button.children("div").children("i").removeClass("fa-minus").addClass("fa-plus");
+        }
+    }
+
+    $(".faq-question").on('click', function() {
+        updateFaqCollapse($(this));
+    });
+
+    $(".expand-all").on('click', function() {
+        $($(this).attr("data-target")).each(function(index) {
+            //.children().children("i").removeClass("fa-plus").addClass("fa-minus");
+            updateFaqCollapse($(this).parent().children(".faq-question"));
+        });
+    });
 });
 
 function getResults(searchTerm) {

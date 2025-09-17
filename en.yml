@@ -62,6 +62,137 @@ extra:
       "Change Log": "fa-undo"
       "FAIR Principles": "fa-eye"
       "Style Guide": "fa-font"
+    toc_items:
+      "Preparing Your Data":
+        "Organizing your data files":
+          url: "#organizing-your-data-files"
+        "Documenting your submission":
+          url: "#documenting-your-submission"
+        "Verify your data":
+          url: "#verify-your-data"
+      "Before Depositing":
+        "1. Who can deposit in FRDR?":
+          url: "#1-who-can-deposit-in-frdr"
+        "2. Getting a FRDR (and Globus) Account":
+          url: "#2-getting-a-frdr-and-globus-account"
+        "3. Getting Authorization to Submit":
+          url: "#3-getting-authorization-to-submit"
+        "4. Getting Globus Connect Software":
+          url: "#4-getting-globus-connect-software"
+      "Dashboard and Settings":
+        "User Account Settings":
+          url: "#user-account-settings"
+        "Publication Dashboard":
+          url: "#publication-dashboard"
+      "Describing Your Data":
+        "Required Metadata":
+          url: "#required-metadata"
+        "Recommended Metadata":
+          url: "#recommended-metadata"
+        "Geographical Metadata":
+          url: "#geographical-metadata"
+      "Depositing Data":
+        "Selecting a Storage Group":
+          url: "#selecting-a-storage-group"
+        "Data usage licenses":
+          url: "#data-usage-licenses"
+        "Add Collaborators":
+          url: "#add-collaborators"
+        "Entering metadata":
+          url: "#entering-metadata"
+        "External Dataset Review":
+          url: "#external-dataset-review"
+        "Specifying an embargo period":
+          url: "#specifying-an-embargo-period"
+        "Requesting Long-Term Preservation":
+          url: "#requesting-long-term-preservation"
+        "Transferring the dataset":
+          url: "#transferring-the-dataset"
+        "Finalizing the Submission":
+          url: "#finalizing-the-submission"
+        "DOIs":
+          url: "#dois"
+      "External Dataset Review":
+        "Inviting Reviewers":
+          url: "#inviting-reviewers"
+        "Anonymous Review":
+          url: "#anonymous-review"
+        "Reviewer Guidelines":
+          url: "#reviewer-guidelines"
+        "Editing Your Dataset":
+          url: "#editing-your-dataset"
+        "Finalizing the Review Process":
+          url: "#finalizing-the-review-process"
+      "After Depositing":
+        "Curation":
+          url: "#curation"
+        "Preservation":
+          url: "#preservation"
+      "Create a New Dataset Version":
+        "Create a new version":
+          url: "#create-a-new-version"
+        "Add a public summary of the version":
+          url: "#add-a-public-summary-of-the-version"
+        "Edit Metadata":
+          url: "#edit-metadata"
+        "Edit Files":
+          url: "#edit-files"
+        "Verify and finish your new version":
+          url: "#verify-and-finish-your-new-version"
+      "Downloading Datasets":
+        "Finding Datasets":
+          url: "#finding-datasets"
+        "Finding the File Listing for a Dataset and Downloading with a Web Browser":
+          url: "#finding-the-file-listing-for-a-dataset-and-downloading-with-a-web-browser"
+        "Downloading Datasets with Globus Transfer":
+          url: "#downloading-datasets-with-globus-transfer"
+      "Searching for Datasets":
+        "Search Methods":
+          url: "#search-methods"
+        "Search Results":
+          url: "#search-results"
+        "Dataset Landing Page":
+          url: "#dataset-landing-page"
+        "Sorting":
+          url: "#sorting"
+      "FAQ":
+        "General":
+          url: "#general"
+        "Data Submission Process":
+          url: "#data-submission-process"
+        "Curation and Preservation":
+          url: "#curation-and-preservation"
+        "Data Reuse":
+          url: "#data-reuse"
+        "Dataset Versioning":
+          url: "#dataset-versioning"
+      "User Metrics":
+        "Available Metrics":
+          url: "#available-metrics"
+        "Navigation":
+          url: "#navigation"
+        "Views Dashboard":
+          url: "#views-dashboard"
+        "Views Dashboard - Map View":
+          url: "#views-dashboard-map-view"
+        "Downloads Dashboard":
+          url: "#downloads-dashboard"
+        "Site Metrics Dashboard":
+          url: "#site-metrics-dashboard"
+        "Downloading the Raw Data":
+          url: "#downloading-the-raw-data"
+        "Feedback":
+          url: "#feedback"
+      "FAIR Principles":
+        "To be Findable":
+          url: "#to-be-findable"
+        "To be Accessible":
+          url: "#to-be-accessible"
+        "To be Interoperable":
+          url: "#to-be-interoperable"
+        "To be Re-usable":
+          url: "#to-be-re-usable"
+
     language_map:
         en:
             "Our mission": fr/notre_mission/

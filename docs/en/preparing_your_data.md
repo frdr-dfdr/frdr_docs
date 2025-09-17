@@ -56,7 +56,7 @@ Gather your data files, documentation, and any information necessary to reuse yo
                     Example b)
                 </div>
                 <div class="code-panel mb-3">
-                    <div class="code-header">
+                    <div class="dark-header">
                         Code
                     </div>
                     <div class="code-body">

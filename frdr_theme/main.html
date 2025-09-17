@@ -220,7 +220,7 @@
                                     </a>
                                 </span>
                                 <span class="toc-collapse-btn-container">
-                                    {% if nav_item.toc | length > 1 %}
+                                    {% if config.extra.toc_items[nav_item.title] | length > 1 %}
                                     <a class="toc-collapse-btn" data-toggle="collapse" href="#{{nav_item.title.replace(" ", "_")}}-collapse" role="button" aria-expanded="false" aria-controls="{{nav_item.title.replace(" ", "_")}}-collapse">
                                         {% if nav_item.active %}
                                             <span class="pl-3 pr-3 fas fa-chevron-down"></span>
@@ -231,15 +231,15 @@
                                     {% endif %}
                                 </span>
                             </div>
-                            {% if nav_item.toc | length > 1 %}
+                            {% if config.extra.toc_items[nav_item.title] | length > 1 %}
                             <ul id="{{ nav_item.title.replace(" ", "_") }}-collapse" class="toc-doc-section {% if nav_item.active %}collapse show{% else %}collapse{% endif %}" >
-                                {% for toc_item in nav_item.toc %}
+                                {% for toc_item in config.extra.toc_items[nav_item.title] %}
                                     <li class="toc-doc-section">
                                         <span>
                                             <img src="/docs/img/DocsTocLines.png"/>
                                         </span>
                                         <span>
-                                            <a class="frdr-sidebar-link" href="{{config.extra.lang_prefix}}{{nav_item.url}}{{ toc_item.url }}">{{ toc_item.title }}</a>
+                                            <a class="frdr-sidebar-link" href="{{config.extra.lang_prefix}}{{nav_item.url}}{{ config.extra.toc_items[nav_item.title][toc_item].url }}">{{ toc_item }}</a>
                                         </span>
                                     </li>
                                 {% endfor %}

@@ -58,6 +58,7 @@ extra:
       "Indicateurs d’utilisation": "fa-chart-line"
       "Principes FAIR": "fa-eye"
       "Guide de style": "fa-font"
+    toc_items:
     language_map:
         en:
             "Our mission": fr/notre_mission/

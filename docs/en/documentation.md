@@ -359,9 +359,9 @@ FRDR is an open access repository for discovering and publishing Canadian resear
     <li data-target="#carouselDocPages" data-slide-to="2" class="ml-1 mr-1"><i class="fas fa-circle"></i></li>
 </ol>
 
-<div class="faq-card card-dark">
-    <div class="faq-tag">Have Questions?</div>
-    <div class="faq-title mb-3">FAQ</div>
+<div class="main-faq-card card-dark">
+    <div class="main-faq-tag">Have Questions?</div>
+    <div class="main-faq-title mb-3">FAQ</div>
     <div class="card-row mb-4">
         <div class="card-col-flex mr-5">We have included answers to some of our frequently asked questions  below, but we are always happy to answer your questions directly. Please  reach out to support@frdr-dfdr.ca if we can help in any way!</div>
         <div class="card-col-static">
@@ -372,38 +372,38 @@ FRDR is an open access repository for discovering and publishing Canadian resear
     <div>
         <div class="row">
             <div class="col-12 col-lg-6 mb-4">
-                <a class="faq-link" href="/docs/en/faq/#general">
+                <a class="main-faq-link" href="/docs/en/faq/#general">
                     <div class="card-shadow">
                         <div class="card-body">
                             <div class="card-row mb-3">
-                                <i class="fas fa-file faq-icon"></i>
-                                <div class="faq-subtitle">General</div>
+                                <i class="fas fa-file main-faq-icon"></i>
+                                <div class="main-faq-subtitle">General</div>
                             </div>
                             <div class="card-row mb-3">
                                 Find answers to frequently asked questions about using FRDR.
                             </div>
                             <div class="card-row">
-                                <div class="faq-subtitle">More</div>
-                                <span class="fas fa-arrow-right faq-arrow"></span>
+                                <div class="main-faq-subtitle">More</div>
+                                <span class="fas fa-arrow-right main-faq-arrow"></span>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-12 col-lg-6 mb-4">
-                <a class="faq-link" href="/docs/en/faq/#data-submission-process">
+                <a class="main-faq-link" href="/docs/en/faq/#data-submission-process">
                     <div class="card-shadow">
                         <div class="card-body">
                             <div class="card-row mb-3">
-                                <i class="fas fa-file faq-icon"></i>
-                                <div class="faq-subtitle">Data Submission Process</div>
+                                <i class="fas fa-file main-faq-icon"></i>
+                                <div class="main-faq-subtitle">Data Submission Process</div>
                             </div>
                             <div class="card-row mb-3">
                                 Answers to common questions about submitting data to FRDR.
                             </div>
                             <div class="card-row">
-                                <div class="faq-subtitle">More</div>
-                                <span class="fas fa-arrow-right faq-arrow"></span>
+                                <div class="main-faq-subtitle">More</div>
+                                <span class="fas fa-arrow-right main-faq-arrow"></span>
                             </div>
                         </div>
                     </div>
@@ -413,38 +413,38 @@ FRDR is an open access repository for discovering and publishing Canadian resear
 
         <div class="row">
             <div class="col-12 col-lg-6 mb-4">
-                <a class="faq-link" href="/docs/en/faq/#curation-and-preservation">
+                <a class="main-faq-link" href="/docs/en/faq/#curation-and-preservation">
                     <div class="card-shadow">
                         <div class="card-body">
                             <div class="card-row mb-3">
-                                <i class="fas fa-file faq-icon"></i>
-                                <div class="faq-subtitle">Curation and Preservation</div>
+                                <i class="fas fa-file main-faq-icon"></i>
+                                <div class="main-faq-subtitle">Curation and Preservation</div>
                             </div>
                             <div class="card-row mb-3">
                                 Learn how FRDR curates, preserves, and maintains the integrity of deposited datasets.
                             </div>
                             <div class="card-row">
-                                <div class="faq-subtitle">More</div>
-                                <span class="fas fa-arrow-right faq-arrow"></span>
+                                <div class="main-faq-subtitle">More</div>
+                                <span class="fas fa-arrow-right main-faq-arrow"></span>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-12 col-lg-6 mb-4">
-                <a class="faq-link" href="/docs/en/faq/#data-reuse">
+                <a class="main-faq-link" href="/docs/en/faq/#data-reuse">
                     <div class="card-shadow">
                         <div class="card-body">
                             <div class="card-row mb-3">
-                                <i class="fas fa-file faq-icon"></i>
-                                <div class="faq-subtitle">Data Reuse</div>
+                                <i class="fas fa-file main-faq-icon"></i>
+                                <div class="main-faq-subtitle">Data Reuse</div>
                             </div>
                             <div class="card-row mb-3">
                                 Learn how to discover, access, and reuse datasets available through FRDR.
                             </div>
                             <div class="card-row">
-                                <div class="faq-subtitle">More</div>
-                                <span class="fas fa-arrow-right faq-arrow"></span>
+                                <div class="main-faq-subtitle">More</div>
+                                <span class="fas fa-arrow-right main-faq-arrow"></span>
                             </div>
                         </div>
                     </div>
