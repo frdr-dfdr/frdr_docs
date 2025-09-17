@@ -18,7 +18,7 @@ nav:
         - "Searching for Datasets": en/searching.md
         - "Advanced": en/advanced.md
         - "FAQ": en/faq.md
-        - "FRDR-DFDR Metrics": en/user_metrics.md
+        - "FRDR-DFDR Metrics": en/collection_metrics.md
         - "Collection Metrics": en/FRDR-DFDR_metrics.md
         - "Change Log": en/change_log.md
         - "FAIR Principles": en/fair_principles.md
