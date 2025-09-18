@@ -1,10 +1,70 @@
 let idx;
 let docs;
 const lang = document.documentElement.lang;
+const MAX_SEARCH_RESULT_LENGTH = 320;
 
 $( document ).ready(function() {
     const searchPath = "/docs/" + lang + "/search/";
     const indexURL = "/docs/" + lang + "/search/search_index.json";
+
+    /** Setup feedback mechanism for helpful + not helpful buttons */
+    const FEEDBACK_KEY = "feedback";
+    const HELPFUL = "helpful";
+    const NOT_HELPFUL = "not-helpful";
+
+    updateFeedbackUI();
+
+    /** Update the state of the helpful / not-helpful UI at bottom of page **/
+    function updateFeedbackUI() {
+        if (lang === "en") {
+            $(".feedback-en").removeClass("d-none").addClass("d-flex");
+        } else {
+            $(".feedback-fr").removeClass("d-none").addClass("d-flex");
+        }
+        let existing = localStorage.getItem(FEEDBACK_KEY);
+        if (existing && existing === HELPFUL) {
+            $(".helpful").addClass("active");
+            $(".not-helpful").removeClass("active");
+        } else if(existing && existing === NOT_HELPFUL) {
+            $(".not-helpful").addClass("active");
+            $(".helpful").removeClass("active");
+        } else {
+            $(".helpful").removeClass("active");
+            $(".not-helpful").removeClass("active");
+        }
+    }
+
+    /** Handle clicking on helpful button **/
+    $(".helpful").on("click", function() {
+        let existing = localStorage.getItem(FEEDBACK_KEY);
+        if (existing && existing === HELPFUL) {
+            localStorage.removeItem(FEEDBACK_KEY);
+            // Remove helpful feedback
+        } else if(existing && existing === NOT_HELPFUL) {
+            // Remove not-helpful feedback and add helpful feedback
+            localStorage.setItem(FEEDBACK_KEY, HELPFUL);
+        } else {
+            // Add helpful feedback
+            localStorage.setItem(FEEDBACK_KEY, HELPFUL);
+        }
+        updateFeedbackUI();
+    });
+
+    /** Handle clicking on not-helpful button **/
+    $(".not-helpful").on("click", function() {
+        let existing = localStorage.getItem(FEEDBACK_KEY);
+        if (existing && existing === NOT_HELPFUL) {
+            // Remove helpful feedback
+            localStorage.removeItem(FEEDBACK_KEY);
+        } else if(existing && existing === HELPFUL) {
+            // Remove helpful feedback and add not-helpful feedback
+            localStorage.setItem(FEEDBACK_KEY, NOT_HELPFUL);
+        } else {
+            // Add not-helpful feedback
+            localStorage.setItem(FEEDBACK_KEY, NOT_HELPFUL);
+        }
+        updateFeedbackUI();
+    });
 
     function handleHeaderSearch() {
         fetch(indexURL)
@@ -76,6 +136,8 @@ $( document ).ready(function() {
     }
 
     function handleSearchPage() {
+        $(".docs-card-search").addClass("collapse");
+        $(".frdr-sidebar").addClass("mt-5");
         const params = new Proxy(new URLSearchParams(window.location.search), {
               get: (searchParams, prop) => searchParams.get(prop),
         });
@@ -189,6 +251,23 @@ function getHeaderSearchResults(searchTerm) {
 
     setViewAllUrl(searchTerm);
 
+    let pages = [];
+    for (let i = 0; i < results.length; i++) {
+        let page = getPageName(results[i]["ref"]);
+        let index = getPageIndex(page, pages);
+        pages[index]["matches"].push(results[i]);
+    }
+
+    let end = Math.min(5, pages.length);
+    for (let i = 0; i < end; i++)
+    {
+        addMatch(pages[i], searchResults, false);
+        if (i < end) {
+            let hr = document.createElement("hr");
+            searchResults.append(hr);
+        }
+    }
+
     let pageTotal = 0;
     if (results.length > 0) {
         let pages = {};
@@ -201,13 +280,6 @@ function getHeaderSearchResults(searchTerm) {
             }
         }
         pageTotal = Object.keys(pages).length
-
-        for (let i = 0; i < results.length && i < 5; i++) {
-            let match = markTitle(results[i]);
-            match = markText(match);
-            searchResults.append("<a class=\"quick_search\" href=\"" + getRefURL(results[i]) + "\"><div>" + match["title"] + "</div>" + "<div>" + match["text"]  + "</div>" + "</a>");
-            searchResults.append("<hr/>")
-        }
     }
 
     // Hide the search results as they could click on anchor for current page
@@ -309,7 +381,7 @@ function allSearch(offset) {
 
     for (let i = start; i < end; i++)
     {
-        addMatch(pages[i], all);
+        addMatch(pages[i], all, true);
         if (i < end) {
             let hr = document.createElement("hr");
             all.append(hr);
@@ -317,80 +389,69 @@ function allSearch(offset) {
     }
 };
 
-function addMatch(page, parentElement) {
-    let div = document.createElement("div");
-    let link = document.createElement("a");
+function getPageTitle(page) {
+    for (let i = 0; i < page["matches"].length; i++) {
+        if (!page["matches"][i]["ref"].includes("#")) {
+            return page["matches"][i]["title"];
+        }
+    }
+    return page["matches"][0]["title"];
+}
+
+function addMatch(page, parentElement, showOtherMatches) {
+    let card = $('<div class="card-shadow mt-3 mb-3"></div>')
+    let cardBody = $('<div class="card-body"></div>');
+    card.append(cardBody);
     let url = page["url"];
     let full = "/docs/" + lang + "/" + url;
-    let title = url
-    // let text = page["matches"][0]["text"];
 
     let first = page["matches"][0];
 
     let titleMatches = [];
     let textMatches = [];
 
-    link.href = full;
-    link.innerHTML = "<h1>" + title + "</h1>";
-    div.append(link);
+    addMatchPanel(first, cardBody, page);
 
-    // matchData -> term -> text or title -> position -> [0] start, [1] length
-    /**
-    for (const[key, value] of Object.entries(result["matchData"]["metadata"])) {
-        if (value["title"] && value["title"]["position"]) {
-            for (let i = 0; i < value["title"]["position"].length; i++) {
-                titleMatches.push(value["title"]["position"][i]);
-            }
-        }
-        if (value["text"] && value["text"]["position"]) {
-            for (let i = 0; i < value["text"]["position"].length; i++) {
-                textMatches.push(value["text"]["position"][i]);
-            }
-        }
-
-    }
-    **/
-
-    addMatchPanel(first, div);
-
-    if (page["matches"].length > 1) {
+    if (page["matches"].length > 1 && showOtherMatches) {
         let collapseID = url.replace("/", "-") + '-Collapse';
         let collapseBtn = document.createElement("div");
-        collapseBtn.innerHTML = '<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#' + collapseID + '" aria-expanded="false" aria-controls="collapseExample">Show ' + page["matches"].length + ' more on same page</button>';
+        let otherCount = page["matches"].length - 1;
+        collapseBtn.innerHTML = '<button class="btn alliance-btn-primary mb-3 mt-3" type="button" data-toggle="collapse" data-target="#' + collapseID + '" aria-expanded="false" aria-controls="collapseExample">Show ' + otherCount + ' more on same page</button>';
 
-        let collapseDiv = document.createElement("div");
-        collapseDiv.id = collapseID;
-        collapseDiv.classList.add("collapse");
+        let collapseDiv = $('<div class="collapse" id="' + collapseID + '"></div>');
 
         for (let i = 1; i < page["matches"].length; i++) {
-            addMatchPanel(page["matches"][i], collapseDiv);
+            addMatchPanel(page["matches"][i], collapseDiv, page);
         }
 
-        div.append(collapseBtn);
-        div.append(collapseDiv);
+        cardBody.append(collapseBtn);
+        cardBody.append(collapseDiv);
     }
-    parentElement.append(div);
+    parentElement.append(card);
 }
 
 function getRefURL(match) {
     return "/docs/" + lang + "/" + match["ref"];
 }
 
-function addMatchPanel(match, parentElement) {
-    let matchDiv = document.createElement("div");
-    let titleA = document.createElement("a");
-    let textDiv = document.createElement("div");
+function addMatchPanel(match, parentElement, page) {
     match = markTitle(match);
     match = markText(match);
 
-    titleA.href = getRefURL(match);
-    titleA.innerHTML = "<div>" + match["titleMatched"]  + "</div>";
-    matchDiv.append(titleA);
+    let cardTitle = $('<div class="card-title mb-3"></div>');
 
-    textDiv.innerHTML = match["textMatched"];
-    matchDiv.append(textDiv);
+    let title = "";
+    if (match["ref"].includes("#")) {
+        title = getPageTitle(page) + " - " + match["titleMatched"];
+    } else {
+        title = match["titleMatched"];
+    }
+    let titleLink = $('<a href="' + getRefURL(match) + '">' + title + '</a>');
+    cardTitle.append(titleLink);
+    parentElement.append(cardTitle);
 
-    parentElement.append(matchDiv);
+    let textMatched = $('<div class="mb-3">' + match["textMatched"] + '</div>')
+    parentElement.append(textMatched);
 }
 
 function markTitle(matches) {
@@ -418,7 +479,7 @@ function markField(field, matches) {
         let fieldMatches = matches["matchData"]["metadata"][term][field];
         if (fieldMatches) {
             let fieldValue = matches[field];
-            if (fieldValue && fieldMatches && fieldMatches["position"].length > 0) {
+            if (fieldValue && fieldMatches["position"].length > 0) {
                 matches[field + "Matched"] = markMatches(fieldMatches["position"], fieldValue)
             }
         }
@@ -429,15 +490,31 @@ function markField(field, matches) {
 function markMatches(matchesArray, input) {
     if (matchesArray && matchesArray.length > 0) {
         let output = input;
+        let foundLast = false;
         // We need to start at the end so that we don't shift the 
         // start character for each match
         for(let i = matchesArray.length - 1; i >= 0; i--) {
             let start = matchesArray[i][0];
             let length = matchesArray[i][1];
-            let prefix = input.substring(0, start);
-            let match = input.substring(start, start + length);
-            let suffix = input.substring(start + length);
-            output = prefix + "<mark>" + match + "</mark>" + suffix;
+            let end = start + length;
+            if (end < MAX_SEARCH_RESULT_LENGTH) {
+                // Only mark matches we are going to show
+                let prefix = input.substring(0, start);
+                let match = input.substring(start, start + length);
+                let suffix = output.substring(start + length);
+                if (!foundLast) {
+                    // Truncate this to the last one that fits with a ...
+                    suffix = output.substring(start + length, MAX_SEARCH_RESULT_LENGTH);
+                    foundLast = true;
+                    output = prefix + "<mark>" + match + "</mark>" + suffix + "...";
+                } else {
+                    output = prefix + "<mark>" + match + "</mark>" + suffix;
+                }
+            }
+        }
+        if (!foundLast) {
+            // We didn't find a match within MAX_SEARCH_RESULT_LENGTH, still need to truncate
+            output = output.substring(0, MAX_SEARCH_RESULT_LENGTH) + "...";
         }
         return output;
     } else {

@@ -342,6 +342,12 @@ FRDR is an open access repository for discovering and publishing Canadian resear
                 </div>
             </div>
         </div>
+
+        <ul class="carousel-indicators carousel-circles">
+            <li data-target="#carouselDocPages" data-slide-to="0" class="active ml-1 mr-1"><i class="fas fa-circle"></i></li>
+            <li data-target="#carouselDocPages" data-slide-to="1" class="ml-1 mr-1"><i class="fas fa-circle"></i></li>
+            <li data-target="#carouselDocPages" data-slide-to="2" class="ml-1 mr-1"><i class="fas fa-circle"></i></li>
+        </ul>
     </div>
 
     <div class="carousel-btn-container">
@@ -353,11 +359,6 @@ FRDR is an open access repository for discovering and publishing Canadian resear
 
 </div>
 
-<ol class="carousel-circles">
-    <li data-target="#carouselDocPages" data-slide-to="0" class="active ml-1 mr-1"><i class="fas fa-circle"></i></li>
-    <li data-target="#carouselDocPages" data-slide-to="1" class="ml-1 mr-1"><i class="fas fa-circle"></i></li>
-    <li data-target="#carouselDocPages" data-slide-to="2" class="ml-1 mr-1"><i class="fas fa-circle"></i></li>
-</ol>
 
 <div class="main-faq-card card-dark">
     <div class="main-faq-tag">Have Questions?</div>

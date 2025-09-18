@@ -257,6 +257,32 @@
                 <div id="main-overlay">
                     <main id="main-content">
                         {{ page.content }}
+
+                        <hr />
+
+                        <div class="mt-3 mb-3 feedback feedback-en d-none">
+                            <div class="ml-3 mr-3">Was this page helpful?</div>
+                            <div class="ml-3 mr-3 btn d-flex helpful">
+                                <i class="fas fa-thumbs-up feedback-icon"></i>
+                                <div>Helpful</div>
+                            </div>
+                            <div class="ml-3 mr-3 btn d-flex not-helpful">
+                                <i class="fas fa-thumbs-down feedback-icon"></i>
+                                <div>Not helpful</div>
+                            </div>
+                        </div>
+
+                        <div class="mt-3 mb-3 feedback feedback-fr d-none">
+                            <div class="ml-3 mr-3">Cette page vous a-t-elle été utile?</div>
+                            <div class="ml-3 mr-3 btn d-flex helpful">
+                                <i class="fas fa-thumbs-up feedback-icon"></i>
+                                <div>Oui</div>
+                            </div>
+                            <div class="ml-3 mr-3 btn d-flex not-helpful">
+                                <i class="fas fa-thumbs-down feedback-icon"></i>
+                                <div>Pas vraiment</div>
+                            </div>
+                        </div>
                     </main>
                 </div>
             </div>
