@@ -95,6 +95,7 @@ Users can easily access the data presented on the dashboards by following these 
 <a href="/docs/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
 <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
 </a>
+
 1. Click on the  ![Alt](/docs/img/screenshots/user_metrics/DownloadIcon.png "Download Icon")icon located just below the dashboard.
 
 2. Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.
