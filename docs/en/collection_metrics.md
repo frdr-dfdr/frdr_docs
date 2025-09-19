@@ -1,7 +1,5 @@
 ﻿___
 
-# Collection Metrics
-
 The **Collection Analytics Dashboard** provides data-driven insights into the usage and impact of digital collections 
 deposited in FRDR. You can access the Collection Dashboard directly from any collection page in FRDR. Simply navigate to
 the collection page you wish to view and click the **Collection Metrics button**. This will take you to the Collection 
