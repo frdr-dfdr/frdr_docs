@@ -4,7 +4,7 @@ search:
 ---
 <h1>Welcome to FRDR</h1>
 
-FRDR is an open access repository for discovering and publishing Canadian research data. We accept data from all disciplines, regardless of file type or format (although open formats are preferable). All data deposited in FRDR must be publication-ready and able to be made openly available. Temporary embargo periods are possible upon request. To preview our submission interface, or to test something before you submit your dataset, you are welcome to use our Demo server here. Below you will see your default storage allocation. This space has been made freely available to researchers from Canadian post-secondary institutions by the Government of Canada. If you are unsure whether FRDR is a suitable repository for your data, or if you need more storage, please contact us at support@frdr-dfdr.ca.
+FRDR is an open access repository for discovering and publishing Canadian research data. We accept data from all disciplines, regardless of file type or format (although open formats are preferable). All data deposited in FRDR must be publication-ready and able to be made openly available. Temporary embargo periods are possible upon request. To preview our submission interface, or to test something before you submit your dataset, you are welcome to use our Demo server here. Below you will see your default storage allocation. This space has been made freely available to researchers from Canadian post-secondary institutions by the Government of Canada. If you are unsure whether FRDR is a suitable repository for your data, or if you need more storage, please contact us at <a href="support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
 
 <div class="card-group card-group-center">
     <div class="card-dark" style="max-width: 380px;">

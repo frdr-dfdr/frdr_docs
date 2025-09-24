@@ -1,4 +1,9 @@
+
+# Avant de déposer
+
 N’importe qui peut utiliser le DFDR pour effectuer des recherches et télécharger des données, mais un compte DFDR est nécessaire pour déposer des données. Vous devrez également installer et configurer le logiciel de connexion de Globus pour partager ou télécharger des fichiers de données volumineux. La présente section porte sur les sujets suivants : [1) Qui peut déposer dans le DFDR?](avant_de_déposer.md#1-qui-peut-deposer-dans-le-dfdr); [2) Créer un compte DFDR (et Globus)](avant_de_déposer.md#2-creer-un-compte-dfdr-et-globus); [3) Obtenir l’autorisation de soumettre des données](avant_de_déposer.md#3-obtenir-lautorisation-de-soumettre-des-donnees); [4) Obtenir le logiciel de connexion de Globus](avant_de_déposer.md#4-obtenir-le-logiciel-de-connexion-de-globus).
+
+<hr />
 
 ## 1. Qui peut déposer dans le DFDR?
 Les membres du corps professoral, les bibliothécaires et les chercheur(-se)s affilié(e)s à des établissements postsecondaires et des organisations du Canada admissibles à recevoir des fonds des trois organismes peuvent déposer des données dans le DFDR. Les membres du corps professoral peuvent parrainer des personnes désignées, notamment des collaborateur(-trice)s externes, des étudiant(e)s diplômé(e)s, du personnel non associé à la recherche, des boursier(-ère)s de recherches postdoctorales, des assistant(e)s à la recherche, des étudiant(e)s de premier cycle et des professeur(e)s invité(e)s, afin qu’ils (elles) soumettent des données. Les demandes de dépôt de la part d’autres chercheur(-se)s du Canada (p. ex., gouvernement, organisation non gouvernementale) qui ne sont pas parrainé(e)s par un membre du corps professoral seront examinées au cas par cas.

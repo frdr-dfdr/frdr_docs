@@ -1,6 +1,8 @@
 ---
-hidesidebar: true
+showaboutsidebar: true
 ---
+
+# Our Journey
 
 * January 2016: The software development project was started, following an earlier pilot project that identified scalability and preservation as key elements of the repository service that was needed.
 * September 2016: Alpha testing of the user interfaces was started thanks to the contribution of discovery interface code developed by the University of British Columbia.

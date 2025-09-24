@@ -78,6 +78,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/ProfilePage.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/ProfilePage.png" alt="Screenshot showing Profile page under Account at top of page and where email is on the profile page" class="screenshot"/>
             </a>
         </div>
@@ -92,6 +93,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/InviteAdd.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/InviteAdd.png" alt="Screenshot highlighting where to add collaborators" class="screenshot"/>
             </a>
         </div>
@@ -102,6 +104,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/InviteAccept.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/InviteAccept.png" alt="Screenshot showing accept button on publication dashboard that will accept an invite" class="screenshot"/>
             </a>
         </div>
@@ -134,12 +137,14 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/Navbar.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/Navbar.png" alt="Screenshot showing menu bar at top of submitting that lets you save metadata when switching to different tabs" class="screenshot"/>
             </a>
         </div>
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/PrevSaveNext.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/PrevSaveNext.png" alt="Screenshot buttons at bottom of submitting that lets you save metadata" class="screenshot"/>
             </a>
         </div>
@@ -154,6 +159,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/RepeatableMetadata.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/RepeatableMetadata.png" alt="Screenshot showing Contributors field that lets you add more contributors with add more button" class="screenshot"/>
             </a>
         </div>
@@ -164,6 +170,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/Tags.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/Tags.png" alt="Screenshot with author affiliations tag that can have none, one or multiple entries" class="screenshot"/>
             </a>
         </div>
@@ -183,6 +190,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/depositing_data/ExternalReview.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/depositing_data/ExternalReview.png" alt="Screenshot of the external review question" class="screenshot"/>
             </a>
         </div>
@@ -275,6 +283,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </ul>
 
         <a href="/docs/img/screenshots/depositing_data/Uploading.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/depositing_data/Uploading.png" alt="Screenshot showing progress bar of file still being uploaded" class="screenshot"/>
         </a>
 
@@ -283,6 +292,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </ul>
 
         <a href="/docs/img/screenshots/depositing_data/UploadProcessing.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/depositing_data/UploadProcessing.png" alt="Screenshot of file being processed after upload" class="screenshot"/>
         </a>
 
@@ -291,6 +301,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </ul>
 
         <a href="/docs/img/screenshots/depositing_data/UploadFinished.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/depositing_data/UploadFinished.png" alt="Screenshot of file finished uploading and processing" class="screenshot"/>
         </a>
 
@@ -307,6 +318,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </ul>
 
         <a href="/docs/img/screenshots/depositing_data/DragAndDrop.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/depositing_data/DragAndDrop.png" alt="Screenshot of drag and drop area for uploading files" class="screenshot"/>
         </a>
 
@@ -315,6 +327,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </ul>
 
         <a href="/docs/img/screenshots/depositing_data/Uploading.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/depositing_data/Uploading.png" alt="Screenshot progress bar after file drag and drop" class="screenshot"/>
         </a>
 
@@ -323,6 +336,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </ul>
 
         <a href="/docs/img/screenshots/depositing_data/UploadProcessing.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/depositing_data/UploadProcessing.png" alt="Screenshot showing processing status of file after drag and drop" class="screenshot"/>
         </a>
 
@@ -331,6 +345,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </ul>
 
         <a href="/docs/img/screenshots/depositing_data/UploadFinished.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/depositing_data/UploadFinished.png" alt="Screenshot of file being finished uploading" class="screenshot"/>
         </a>
 
@@ -391,16 +406,61 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         <h4>How to transfer files using Globus</h4>
 
         <ol>
-            <li>On the "Transfer Data" tab, click "Globus File Transfer" button to access the Globus file transfer page<br/> <a href="/docs/img/screenshots/depositing_data/GlobusFileTransferButton.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/GlobusFileTransferButton.png" alt="Screenshot of highlighting Globus File Transfer button on Transfer Data tab" class="screenshot"/> </a></li>
-            <li>Click on the "Transfer or Sync to" link on the right side of the screen. <br/> <a href="/docs/img/screenshots/depositing_data/TransferToButton.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferToButton.png" alt="Screenshot Globus Web UI with Transfer or Sync to button highlighted" class="screenshot"/> </a></li>
-            <li>FRDR is on the left, we need to choose a source for files on the right. Click on the top right textbox by the magnifying glass to search for an endpoint to find files. <br/> <a href="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" alt="Screenshot of Globus Web UI showing Collection Search text field in top right" class="screenshot"/> </a></li>
-            <li>Start typing the name of the Globus endpoint containing your files. This could be the name you gave your notebook or desktop, a Compute Canada hosting site (e.g. Cedar, Graham, Niagra or Beluga) or another Globus endpoint location (e.g. a lab or institutional server)<br/> <a href="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" alt="Screenshot of Globus Web UI showing results of search for collection" class="screenshot"/> </a></li>
-            <li>Find and select the files necessary for your dataset. You can Shift-click or Ctrl-click to build your selection of files.<br/> <a href="/docs/img/screenshots/depositing_data/ProfilePage.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/FileHighlighted.png" alt="Screenshot of Globus Web UI showing files highlighted and ready for transfer" class="screenshot"/> </a></li>
-            <li>Click on the Transfer and Sync Options button at the bottom middle of the screen.<br/> <a href="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" alt="Screenshot of Globus Web UI with Transfer & Sync Options highlighted at bottom of screen" class="screenshot"/> </a></li>
-            <li>Label this Transfer: enter a name for the transfer activity that will make it easy to identify.<br/> <a href="/docs/img/screenshots/depositing_data/TransferAndSync.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/TransferAndSync.png" alt="Screenshot of Globus Web UI showing Transfer & Sync options at the bottom of the screen" class="screenshot"/> </a></li>
+            <li>On the "Transfer Data" tab, click "Globus File Transfer" button to access the Globus file transfer page<br/>
+                <a href="/docs/img/screenshots/depositing_data/GlobusFileTransferButton.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/GlobusFileTransferButton.png" alt="Screenshot of highlighting Globus File Transfer button on Transfer Data tab" class="screenshot"/>
+                </a>
+            </li>
+            <li>Click on the "Transfer or Sync to" link on the right side of the screen. <br/>
+                <a href="/docs/img/screenshots/depositing_data/TransferToButton.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/TransferToButton.png" alt="Screenshot Globus Web UI with Transfer or Sync to button highlighted" class="screenshot"/>
+                </a>
+            </li>
+            <li>FRDR is on the left, we need to choose a source for files on the right. Click on the top right textbox by the magnifying glass to search for an endpoint to find files. <br/>
+                <a href="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/ChooseEndpointTextbox.png" alt="Screenshot of Globus Web UI showing Collection Search text field in top right" class="screenshot"/>
+                </a>
+            </li>
+            <li>Start typing the name of the Globus endpoint containing your files. This could be the name you gave your notebook or desktop, a Compute Canada hosting site (e.g. Cedar, Graham, Niagra or Beluga) or another Globus endpoint location (e.g. a lab or institutional server)<br/>
+                <a href="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/ChooseEndpoint.png" alt="Screenshot of Globus Web UI showing results of search for collection" class="screenshot"/>
+                </a>
+            </li>
+            <li>Find and select the files necessary for your dataset. You can Shift-click or Ctrl-click to build your selection of files.<br/>
+                <a href="/docs/img/screenshots/depositing_data/ProfilePage.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/FileHighlighted.png" alt="Screenshot of Globus Web UI showing files highlighted and ready for transfer" class="screenshot"/>
+                </a>
+            </li>
+            <li>Click on the Transfer and Sync Options button at the bottom middle of the screen.<br/>
+                <a href="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/TransferAndSyncButton.png" alt="Screenshot of Globus Web UI with Transfer & Sync Options highlighted at bottom of screen" class="screenshot"/>
+                </a>
+            </li>
+            <li>Label this Transfer: enter a name for the transfer activity that will make it easy to identify.<br/>
+                <a href="/docs/img/screenshots/depositing_data/TransferAndSync.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/TransferAndSync.png" alt="Screenshot of Globus Web UI showing Transfer & Sync options at the bottom of the screen" class="screenshot"/>
+                </a>
+            </li>
             <li>Select Transfer Settings: provides various options to control file checking and security. In many cases, the default settings will be appropriate. Contact <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> if you require assistance understanding which additional transfer settings may be needed for your dataset.</li>
-             <li>Initiate the transfer by clicking on the blue start button at the bottom of the page. You can initiate as many transfers as needed during a single session. This may be required if, for example, you want to transfer files that live in different folders or source endpoints. <br/> <a href="/docs/img/screenshots/depositing_data/StartTransfer.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/StartTransfer.png" alt="Screenshot of Globus Web UI with Start button highlighted in bottom right" class="screenshot"/> </a></li>
-            <li>The status of the transfer will be indicated on the left hand side under activity, but the transfer will proceed independently and you can close that window and return to FRDR to verify and complete your submission. <br/> <a href="/docs/img/screenshots/depositing_data/Activity.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/Activity.png" alt="Screenshot of Globus Web UI with Activity button highlighted on left hand side" class="screenshot"/> </a></li>
+             <li>Initiate the transfer by clicking on the blue start button at the bottom of the page. You can initiate as many transfers as needed during a single session. This may be required if, for example, you want to transfer files that live in different folders or source endpoints. <br/> 
+                 <a href="/docs/img/screenshots/depositing_data/StartTransfer.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                     <img src="/docs/img/screenshots/depositing_data/StartTransfer.png" alt="Screenshot of Globus Web UI with Start button highlighted in bottom right" class="screenshot"/>
+                 </a>
+             </li>
+            <li>The status of the transfer will be indicated on the left hand side under activity, but the transfer will proceed independently and you can close that window and return to FRDR to verify and complete your submission. <br/>
+                <a href="/docs/img/screenshots/depositing_data/Activity.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/Activity.png" alt="Screenshot of Globus Web UI with Activity button highlighted on left hand side" class="screenshot"/>
+                </a>
+            </li>
         </ol>
 
         <h4>Check status of transfer</h4>
@@ -408,7 +468,12 @@ Once submitted, you will not be able to make changes to the data or metadata. An
             <li>Go to the <a href="https://globus.frdr.ca/activity?locale=en-us">Activity page</a> .</li>
             <li>Click on the transfer in the list (its title will be the label if you gave it one).</li>
             <li>This page will give you the current status of the transfer (i.e., the number of files transferred, how much data has been transferred, or whether an error has occurred ).</li>
-            <li>For a timeline click on the "Event Log" tab.<br/> <a href="/docs/img/screenshots/depositing_data/EventLog.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/EventLog.png" alt="Screenshot of Globus Web UI showing the details of a transfer in the Event Log" class="screenshot"/> </a></li>
+            <li>For a timeline click on the "Event Log" tab.<br/>
+                <a href="/docs/img/screenshots/depositing_data/EventLog.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/EventLog.png" alt="Screenshot of Globus Web UI showing the details of a transfer in the Event Log" class="screenshot"/>
+                </a>
+            </li>
         </ol>
 
         <h4>Canceling an in-progress transfer</h4>
@@ -416,7 +481,12 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         <ol>
             <li>Go to the <a href="https://globus.frdr.ca/activity?locale=en-us">Activity page</a>.</li>
             <li>In the list of transfers, find the correct transfer based on the label</li>
-            <li>Click on the X button <br/> <a href="/docs/img/screenshots/depositing_data/CancelTransfer.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/CancelTransfer.png" alt="Screenshot of Globus Web UI list of transfers with a X button highlighted on right hand side to cancel transfer" class="screenshot"/> </a></li>
+            <li>Click on the X button <br/>
+                <a href="/docs/img/screenshots/depositing_data/CancelTransfer.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/CancelTransfer.png" alt="Screenshot of Globus Web UI list of transfers with a X button highlighted on right hand side to cancel transfer" class="screenshot"/>
+                </a>
+            </li>
             <li>Click on the red terminate transfer button.</li>
         </ol>
 
@@ -427,7 +497,12 @@ Once submitted, you will not be able to make changes to the data or metadata. An
             <li>Click on the "Transfer Data" tab (if not already on it.)</li>
             <li>Click the "Transfer Dataset" button to open the transfer window.</li>
             <li>Locate the file or directory that you want to delete. Click once on the file or directory to highlight it.</li>
-            <li>Click the “Delete Selected” button on the right hand side of the screen (or middle if both the source and destination are open) and confirm it by clicking on the delete button on the resulting screen.  <br/> <a href="/docs/img/screenshots/depositing_data/DeleteSelected.png" class="screenshot-lightbox"> <img src="/docs/img/screenshots/depositing_data/DeleteSelected.png" alt="Screenshot of Globus Web UI with button Delete Selected highlighted in the middle of the screen" class="screenshot"/> </a></li>
+            <li>Click the “Delete Selected” button on the right hand side of the screen (or middle if both the source and destination are open) and confirm it by clicking on the delete button on the resulting screen.  <br/>
+                <a href="/docs/img/screenshots/depositing_data/DeleteSelected.png" class="screenshot-lightbox">
+                    <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                    <img src="/docs/img/screenshots/depositing_data/DeleteSelected.png" alt="Screenshot of Globus Web UI with button Delete Selected highlighted in the middle of the screen" class="screenshot"/>
+                </a>
+            </li>
             <li>Repeat as needed until all of the files or folders have been deleted.</li>
         </ol>
 

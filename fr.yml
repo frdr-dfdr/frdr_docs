@@ -59,6 +59,57 @@ extra:
       "Principes FAIR": "fa-eye"
       "Guide de style": "fa-font"
     toc_items:
+      "Préparation de vos données":
+        "Sélection des types de données à déposer":
+          url: "#selection-des-types-de-donnees-a-deposer"
+        "Documentation de votre soumission":
+          url: "#documentation-de-votre-soumission"
+        "Vérification de vos données":
+          url: "#verification-de-vos-donnees"
+      "Avant de déposer":
+        "1. Qui peut déposer dans le DFDR?":
+          url: "#1-qui-peut-deposer-dans-le-dfdr"
+        "2. Créer un compte DFDR (et Globus)":
+          url: "#2-creer-un-compte-dfdr-et-globus"
+        "3. Obtenir l’autorisation de soumettre des données":
+          url: "#3-obtenir-lautorisation-de-soumettre-des-donnees"
+        "4. Obtenir le logiciel de connexion de Globus":
+          url: "#4-obtenir-le-logiciel-de-connexion-de-globus"
+      "Tableau de bord et paramètres":
+        "Tableau de bord":
+          url: "#tableau-de-bord"
+        "Paramètres du compte utilisateur":
+          url: "#parametres-du-compte-utilisateur"
+      "Description de vos données":
+        "Métadonnées requises":
+          url: "#metadonnees-requises"
+        "Métadonnées recommandées":
+          url: "#metadonnees-recommandees"
+        "Métadonnées géographiques":
+          url: "#metadonnees-geographiques"
+      "Déposer les données":
+        "Sélection d’un groupe de stockage":
+            url: "#selection-d’un-groupe-de-stockage"
+        "Licences d’utilisation des données":
+            url: "#licences-d’utilisation-des-donnees"
+        "Ajout de collaborateurs":
+            url: "#ajout-de-collaborateurs"
+        "Saisie de métadonnées":
+            url: "#saisie-de-metadonnees"
+        "Évaluation externe":
+            url: "#évaluation-externe"
+        "Indication d’une période d’embargo":
+            url: "#indication-d’une-periode-d’embargo"
+        "Demander une préservation à long terme":
+            url: "#demander-une-preservation-a-long-terme"
+        "Transfert de jeux de données":
+            url: "#transfert-de-jeux-de-donnees"
+        "Finaliser de la soumission":
+            url: "#finaliser-de-la-soumission"
+        "DOI":
+            url: "#doi"
+
+
     language_map:
         en:
             "Our mission": fr/notre_mission/

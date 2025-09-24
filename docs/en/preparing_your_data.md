@@ -2,7 +2,7 @@
 
 Gather your data files, documentation, and any information necessary to reuse your dataset. You may choose to provide processed data, ‘raw’ unprocessed data, or both, as well as the scripts, code or software needed to generate or reanalyze your data.
 
-<hr class="redesign"/>
+<hr/>
 
 ## Organizing your data files
 
@@ -205,7 +205,7 @@ After you submit your data, a member of FRDR’s curation team will review your 
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <div class="card-title">Restricted data</div>
+        <div class="card-title" id="restricted-data">Restricted data</div>
         <div class="mb-3">
             Please be aware that we are unable to provide restricted access to data at this time. Although we can set an embargo to protect your data from download in the short-term, all data deposited into FRDR at this time will eventually be made publicly available. Please confirm that you can share your data, and that appropriate steps have been taken to process, aggregate, or anonymize that data where necessary. You may need to consult your research agreements, participant consent forms or other documentation to confirm that publishing data in FRDR will not violate the terms under which you collected your data.
         </div>

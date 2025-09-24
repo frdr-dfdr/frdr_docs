@@ -20,12 +20,12 @@ nav:
   - "Create a New Dataset Version": create_new_version.md
   - "Downloading Datasets": downloading.md
   - "Searching for Datasets": searching.md
-  - "Advanced": advanced.md
   - "FAQ": faq.md
   - "User Metrics": user_metrics.md
-  - "Change Log": change_log.md
   - "FAIR Principles": fair_principles.md
   - "Style Guide": style_guide.md
+  - "Advanced": advanced.md
+  - "Change Log": change_log.md
 
 extra_css:
     - css/docs-theme.css
@@ -80,10 +80,10 @@ extra:
         "4. Getting Globus Connect Software":
           url: "#4-getting-globus-connect-software"
       "Dashboard and Settings":
-        "User Account Settings":
-          url: "#user-account-settings"
         "Publication Dashboard":
           url: "#publication-dashboard"
+        "User Account Settings":
+          url: "#user-account-settings"
       "Describing Your Data":
         "Required Metadata":
           url: "#required-metadata"
@@ -192,6 +192,51 @@ extra:
           url: "#to-be-interoperable"
         "To be Re-usable":
           url: "#to-be-re-usable"
+      "Our Mission":
+        "Why use FRDR":
+          url: "#why-use-frdr"
+        "Who can use FRDR":
+          url: "#who-can-use-frdr"
+      "Our Features":
+        "Repository platform":
+          url: "#repository-platform"
+        "Managed Storage Services":
+          url: "#managed-storage-services"
+        "Curation Services":
+          url: "#curation-services"
+        "Preservation Services":
+          url: "#preservation-services"
+        "Discovery Services":
+          url: "#discovery-services"
+      "Our Governance":
+        "Membership":
+          url: "#membership"
+      "Our Team":
+        "Service Team":
+          url: "#service-team"
+        "Development Team":
+          url: "#development-team"
+        "Communications Team":
+          url: "#communications-team"
+    about:
+      - "Our Mission":
+        title: "Our Mission"
+        url: "our_mission"
+      - "Our Features":
+        title: "Our Features"
+        url: "our_features"
+      - "Our Governance":
+        title: "Our Governance"
+        url: "our_governance"
+      - "Our Team": our_team.md
+        title: "Our Team"
+        url: "our_team"
+      - "Our Partners": our_partners.md
+        title: "Our Partners"
+        url: "our_partners"
+      - "Our Journey": our_journey.md
+        title: "Our Journey"
+        url: "our_journey"
 
     language_map:
         en:

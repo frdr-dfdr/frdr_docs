@@ -113,6 +113,7 @@
                 </div>
                 <div class="mb-3">
                     <a href="/docs/img/screenshots/faq/DashboardDOI.png" class="screenshot-lightbox">
+                        <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                         <img src="/docs/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
                     </a>
                 </div>

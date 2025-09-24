@@ -18,6 +18,7 @@ All datasets submitted to FRDR undergo an internal review process called curatio
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/external_review/inviting.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/external_review/inviting.png" alt="Screenshot showing external dataset review invitation form" class="screenshot"/>
             </a>
         </div>
@@ -37,6 +38,7 @@ All datasets submitted to FRDR undergo an internal review process called curatio
 
         <div class="mb-3">
             <a href="/docs/img/screenshots/external_review/anonymous.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
                 <img src="/docs/img/screenshots/external_review/anonymous.png" alt="Screenshot showing anonymous review metadata selection" class="screenshot"/>
             </a>
         </div>

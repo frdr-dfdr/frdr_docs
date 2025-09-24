@@ -12,16 +12,30 @@ $( document ).ready(function() {
     const HELPFUL = "helpful";
     const NOT_HELPFUL = "not-helpful";
 
+    showCurrentSidebar();
+
+    function showCurrentSidebar() {
+        $('.frdr-sidebar-link-page').each(function(index, page) {
+            let currentURL = location.href.substring(0, location.href.lastIndexOf("/") + 1);
+            if(currentURL.includes(page.pathname)) {
+                page = $(page);
+                page.addClass("current");
+                $("#" + page.attr("data-title").replaceAll(" ", "_") + "-collapse").addClass("show");
+            }
+        });
+    }
+
     updateFeedbackUI();
+
+    function getFeedbackKey() {
+        let currentURL = location.href.substring(0, location.href.lastIndexOf("/")+1);
+        return FEEDBACK_KEY + "-" + currentURL;
+    }
 
     /** Update the state of the helpful / not-helpful UI at bottom of page **/
     function updateFeedbackUI() {
-        if (lang === "en") {
-            $(".feedback-en").removeClass("d-none").addClass("d-flex");
-        } else {
-            $(".feedback-fr").removeClass("d-none").addClass("d-flex");
-        }
-        let existing = localStorage.getItem(FEEDBACK_KEY);
+        let feedbackKey = getFeedbackKey();
+        let existing = localStorage.getItem(feedbackKey);
         if (existing && existing === HELPFUL) {
             $(".helpful").addClass("active");
             $(".not-helpful").removeClass("active");
@@ -36,32 +50,34 @@ $( document ).ready(function() {
 
     /** Handle clicking on helpful button **/
     $(".helpful").on("click", function() {
-        let existing = localStorage.getItem(FEEDBACK_KEY);
+        let feedbackKey = getFeedbackKey();
+        let existing = localStorage.getItem(feedbackKey);
         if (existing && existing === HELPFUL) {
-            localStorage.removeItem(FEEDBACK_KEY);
+            localStorage.removeItem(feedbackKey);
             // Remove helpful feedback
         } else if(existing && existing === NOT_HELPFUL) {
             // Remove not-helpful feedback and add helpful feedback
-            localStorage.setItem(FEEDBACK_KEY, HELPFUL);
+            localStorage.setItem(feedbackKey, HELPFUL);
         } else {
             // Add helpful feedback
-            localStorage.setItem(FEEDBACK_KEY, HELPFUL);
+            localStorage.setItem(feedbackKey, HELPFUL);
         }
         updateFeedbackUI();
     });
 
     /** Handle clicking on not-helpful button **/
     $(".not-helpful").on("click", function() {
-        let existing = localStorage.getItem(FEEDBACK_KEY);
+        let feedbackKey = getFeedbackKey();
+        let existing = localStorage.getItem(feedbackKey);
         if (existing && existing === NOT_HELPFUL) {
             // Remove helpful feedback
-            localStorage.removeItem(FEEDBACK_KEY);
+            localStorage.removeItem(feedbackKey);
         } else if(existing && existing === HELPFUL) {
             // Remove helpful feedback and add not-helpful feedback
-            localStorage.setItem(FEEDBACK_KEY, NOT_HELPFUL);
+            localStorage.setItem(feedbackKey, NOT_HELPFUL);
         } else {
             // Add not-helpful feedback
-            localStorage.setItem(FEEDBACK_KEY, NOT_HELPFUL);
+            localStorage.setItem(feedbackKey, NOT_HELPFUL);
         }
         updateFeedbackUI();
     });
@@ -413,10 +429,12 @@ function addMatch(page, parentElement, showOtherMatches) {
     addMatchPanel(first, cardBody, page);
 
     if (page["matches"].length > 1 && showOtherMatches) {
-        let collapseID = url.replace("/", "-") + '-Collapse';
+        let collapseID = "collapse-" + crypto.randomUUID();
         let collapseBtn = document.createElement("div");
         let otherCount = page["matches"].length - 1;
-        collapseBtn.innerHTML = '<button class="btn alliance-btn-primary mb-3 mt-3" type="button" data-toggle="collapse" data-target="#' + collapseID + '" aria-expanded="false" aria-controls="collapseExample">Show ' + otherCount + ' more on same page</button>';
+        let prefix = lang === 'en' ? "Show " : "Afficher ";
+        let suffix = lang === 'en' ? " more on same page" : " ou plus sur la même page";
+        collapseBtn.innerHTML = '<button class="btn alliance-btn-primary mb-3 mt-3" type="button" data-toggle="collapse" data-target="#' + collapseID + '" aria-expanded="false" aria-controls="' + collapseID + '">' + prefix + otherCount + suffix + '</button>';
 
         let collapseDiv = $('<div class="collapse" id="' + collapseID + '"></div>');
 

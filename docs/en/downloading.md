@@ -1,15 +1,9 @@
 ﻿<h1>Downloading Datasets</h1>
 
-<hr />
+<h2 id="finding-datasets">Finding Datasets</h2>
+If you do not have a direct link to a FRDR-hosted dataset you can browse through available datasets using the <a href="/repo/search">FRDR Discovery</a>.
 
-<div class="card-shadow mb-3">
-    <div class="card-body">
-        <h2 id="finding-datasets">Finding Datasets</h2>
-        <div class="mb-3">
-            If you do not have a direct link to a FRDR-hosted dataset you can browse through available datasets using the <a href="(/repo/search">FRDR Discovery</a>.
-        </div>
-    </div>
-</div>
+<hr />
 
 <div class="card-shadow mb-3">
     <div class="card-body">
@@ -20,6 +14,7 @@
         </div>
 
         <a href="/docs/img/screenshots/downloading_data/WebDownload.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/downloading_data/WebDownload.png" alt="Screenshot showing file browsing widget on FRDR item landing page." class="screenshot"/>
         </a>
 
@@ -35,7 +30,7 @@
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h3> Downloading Datasets as Zip</h3>
+        <h3 id="downloading-datasets-as-zip">Downloading Datasets as Zip</h3>
 
         <div class="mb-3">
             To download the full dataset, or a subset of files and folders, via your web browser, you can request that FRDR Zip the contents for you. No FRDR account or registration is required, but if you are not signed in to an existing FRDR account, you will be asked to provide a valid email address so FRDR can send you a link to access the data.

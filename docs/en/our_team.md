@@ -1,33 +1,54 @@
 ---
-hidesidebar: true
+showaboutsidebar: true
 ---
-## Service Team
 
-* Laura Gerlitz, Curation Officer, Digital Research Alliance of Canada
-* Tristan Kuehn, Lunaris Product Lead, Digital Research Alliance of Canada
-* Elizabeth Lartey, Research Intelligence and Assessment Coordinator, Digital Research Alliance of Canada
-* Neha Milan, FRDR Product Lead, University of Saskatchewan
-* Tamanna Moharana, Curation Officer, Digital Research Alliance of Canada
-* Amanda Tomé, Preservation Coordinator, Digital Research Alliance of Canada
-* Daniel Manrique-Castaño, Curation Officer, Digital Research Alliance of Canada
-* Victoria Smith, Data Governance & Ethics Lead, Digital Research Alliance of Canada
-* Natalie Williams, Curation Services Lead, Digital Research Alliance of Canada
-* Lee Wilson, Director of Research Data Management, Digital Research Alliance of Canada
+#Our Team
 
-## Development Team
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="service-team">Service Team</h2>
 
-* Elias Eid, Developer, McMaster University
-* Joel Farthing, Developer, University of Saskatchewan
-* Richard Gladwin, Developer, McMaster University
-* Shlomi Linoy, Data Discovery Metadata Coordinator, McMaster University
-* Adam McKenzie, Research Data Management Analyst, University of Saskatchewan
-* Todd Trann, Technical Lead, University of Saskatchewan
-* Anny Wang, User Experience Specialist, McMaster University
-* Mike Winter, Senior Developer, University of Saskatchewan
-* Jin Zhang, Developer, Simon Fraser University
+        <ul>
+            <li>Laura Gerlitz, Curation Officer, Digital Research Alliance of Canada</li>
+            <li>Tristan Kuehn, Lunaris Product Lead, Digital Research Alliance of Canada</li>
+            <li>Elizabeth Lartey, Research Intelligence and Assessment Coordinator, Digital Research Alliance of Canada</li>
+            <li>Neha Milan, FRDR Product Lead, University of Saskatchewan</li>
+            <li>Tamanna Moharana, Curation Officer, Digital Research Alliance of Canada</li>
+            <li>Amanda Tomé, Preservation Coordinator, Digital Research Alliance of Canada</li>
+            <li>Daniel Manrique-Castaño, Curation Officer, Digital Research Alliance of Canada</li>
+            <li>Victoria Smith, Data Governance & Ethics Lead, Digital Research Alliance of Canada</li>
+            <li>Natalie Williams, Curation Services Lead, Digital Research Alliance of Canada</li>
+            <li>Lee Wilson, Director of Research Data Management, Digital Research Alliance of Canada</li>
+        </ul>
 
-## Communications Team
+    </div>
+</div>
 
-* Caitilín O’Hare, Communications Officer, Digital Research Alliance of Canada
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="development-team">Development Team</h2>
+
+        <ul>
+            <li>Joel Farthing, Developer, University of Saskatchewan</li>
+            <li>Richard Gladwin, Developer, McMaster University</li>
+            <li>Shlomi Linoy, Data Discovery Metadata Coordinator, McMaster University</li>
+            <li>Adam McKenzie, Research Data Management Analyst, University of Saskatchewan</li>
+            <li>Mike Winter, Senior Developer, University of Saskatchewan</li>
+            <li>Jin Zhang, Developer, Simon Fraser University</li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="communications-team">Communications Team</h2>
+
+        <ul>
+            <li>Caitilín O’Hare, Communications Officer, Digital Research Alliance of Canada</li>
+        </ul>
+
+    </div>
+</div>
 
 Special thanks to our past team members for their valuable contributions to both the FRDR service and the platform. 

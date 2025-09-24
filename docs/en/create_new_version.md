@@ -49,13 +49,19 @@ If you have a very large dataset and a substantial number of changes, please con
             You can create a new version of a published dataset from your Dashboard or from the dataset landing page. In both cases, you must be logged in to your FRDR account. From the <a href="/repo/PublishDashboard">Dashboard</a>, find the dataset you need to update in the "Published" queue, and click "New Version" under “Actions”
         </div>
 
-        <img src="/docs/img/screenshots/create_new_version/create-new-version-publication-dashboard.png" alt="Screenshot showing button to create a new version of a dataset on the Publication Dashboard" class="screenshot"/>
+        <div>
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+            <img src="/docs/img/screenshots/create_new_version/create-new-version-publication-dashboard.png" alt="Screenshot showing button to create a new version of a dataset on the Publication Dashboard" class="screenshot"/>
+        </div>
 
         <div class="mb-3">
             Or, from the dataset landing page, click the "New Version" button at the very bottom of the page.
         </div>
 
-        <img src="/docs/img/screenshots/create_new_version/create-new-version-landing-page.png" alt="Screenshot showing button to create a new version of a dataset on the landing page." class="screenshot"/>
+        <div>
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+            <img src="/docs/img/screenshots/create_new_version/create-new-version-landing-page.png" alt="Screenshot showing button to create a new version of a dataset on the landing page." class="screenshot"/>
+        </div>
     </div>
 </div>
 

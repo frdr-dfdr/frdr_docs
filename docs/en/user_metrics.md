@@ -37,6 +37,7 @@ They are also accessible via individual collection pages.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Screenshot showing the top navigation tab." class="screenshot"/>
         </a>
     </div>
@@ -51,6 +52,7 @@ They are also accessible via individual collection pages.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" alt="Screenshot showing the views tab." class="screenshot"/>
         </a>
     </div>
@@ -65,6 +67,7 @@ They are also accessible via individual collection pages.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_map_view.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_map_view.png" alt="Screenshot showing the view map." class="screenshot"/>
         </a>
 
@@ -73,6 +76,7 @@ They are also accessible via individual collection pages.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" alt="Screenshot showing the view map." class="screenshot"/>
         </a>
 
@@ -81,6 +85,7 @@ They are also accessible via individual collection pages.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_reset_map_button.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_reset_map_button.png" alt="Screenshot showing the reset map button." class="screenshot"/>
         </a>
     </div>
@@ -105,6 +110,7 @@ They are also accessible via individual collection pages.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" alt="Screenshot showing the Site Usage Tab." class="screenshot"/>
         </a>
     </div>
@@ -118,6 +124,7 @@ They are also accessible via individual collection pages.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
         </a>
 

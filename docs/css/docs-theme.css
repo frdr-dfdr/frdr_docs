@@ -49,6 +49,7 @@ h4 {
 }
 
 ol {
+    line-height: 22px;
     list-style: none;
     counter-reset: item;
 }
@@ -110,7 +111,7 @@ th, td {
 .half {
     flex: 50%;
     padding: 5px;
-    height: 150;
+    height: 150px;
     width: 50%;
 }
 
@@ -127,13 +128,14 @@ th, td {
 }
 
 .screenshot {
-    border-color: #424242;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: medium;
-    margin-bottom: 60px;
     max-width: 100%;
     object-fit: cover;
+    background-color: var(--alliance-gray-400);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius: 12px;
+    padding-top: 25px;
 }
 
 .cell {
@@ -380,7 +382,7 @@ a.frdr-sidebar-link:focus {
 }
 
 .big-button {
-    width: 168px;
+    width: 237px;
     height: 59px;
     border-radius: 42px;
     padding-top: 15px;
@@ -574,7 +576,7 @@ a.frdr-sidebar-link:focus {
 }
 
 .big-button {
-    width: 168px;
+    width: 237px;
     height: 59px;
     border-radius: 42px;
     padding-top: 15px;
@@ -586,6 +588,33 @@ a.frdr-sidebar-link:focus {
     font-weight: 700;
     font-size: 18px;
     line-height: 160%;
+}
+
+.fake-browser {
+    position: absolute;
+}
+
+.fake-controls {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mac-close {
+    color: red;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.mac-maximize {
+    color: green;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.mac-minimize {
+    color: var(--alliance-primary-gold);
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .main-faq-card {
@@ -1087,6 +1116,10 @@ i.feedback-icon:hover {
 
 .not-helpful:hover {
     color: var(--alliance-primary-gold);
+}
+
+.partner-img {
+    max-width: 380px;
 }
 
 @media (min-width: 1px) and (max-width: 762px) {

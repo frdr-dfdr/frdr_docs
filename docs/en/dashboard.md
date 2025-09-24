@@ -95,7 +95,8 @@ Update your Account Settings to tailor your FRDR experience to your preferences.
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <div class="card-title">Profile</div>
+        <h2 id="profile">Profile</h2>
+
         <div class="mb-3">
             In the Profile section, you can view your account information. Most of the fields cannot be edited, however, you can set and save your preferred language for communications. If you require a change to another field, please contact <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> for assistance.
         </div>
@@ -104,13 +105,15 @@ Update your Account Settings to tailor your FRDR experience to your preferences.
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <div class="card-title">ORCID</div>
+        <h2 id="orcid">ORCID</h2>
+
         <div class="mb-3">
             An <a href="https://orcid.org/">ORCID iD</a> is a persistent digital identifier that is unique to you. FRDR is integrated with ORCID, which allows you to automatically add your ORCID iD to new dataset submissions and push a record of published items to your ORCID profile. To get started, click the “Create or connect your ORCID iD” link, then click “Sign in” and follow prompts to log in via the ORCID authentication screen. If you don't have an ORCID account you can create one directly from FRDR by clicking the same “Create or connect your ORCID iD” link and filling out the form.
         </div>
         <div class="mb-3">
             <a href="/docs/img/screenshots/dashboard/orcid.png" class="screenshot-lightbox">
-                <img src="/docs/img/screenshots/dashboard/orcid.png" alt="Screenshot of setting ORCID" style="max-width: 100%"/>
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/img/screenshots/dashboard/orcid.png" alt="Screenshot of setting ORCID" class="screenshot"/>
             </a>
         </div>
         <div class="mb-3">
