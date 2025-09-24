@@ -2,6 +2,10 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2025-08-27**:
 
+* Improve collection metrics and put them on their own page
+
+**2025-08-27**:
+
 * Fixed resolution of external subpath links to: frdr.ca, dfdr.ca and frdr-dfdr.ca domains.
 * Added link to OAI-PMH endpoint in documentation.
 * Re-added file format metrics dashboard with link on front page.
