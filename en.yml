@@ -62,6 +62,13 @@ extra:
       "Change Log": "fa-undo"
       "FAIR Principles": "fa-eye"
       "Style Guide": "fa-font"
+      "Our Mission": "fa-arrow-circle-right"
+      "Our Features": "fa-cogs"
+      "Our Governance": "fa-sitemap"
+      "Our Team": "fa-users"
+      "Our Partners": "fa-handshake"
+      "Our Journey": "fa-map-marked-alt"
+
     toc_items:
       "Preparing Your Data":
         "Organizing your data files":

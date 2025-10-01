@@ -51,4 +51,4 @@ showaboutsidebar: true
     </div>
 </div>
 
-Special thanks to our past team members for their valuable contributions to both the FRDR service and the platform. 
+Special thanks to our past team members for their valuable contributions to both the FRDR service and the platform.

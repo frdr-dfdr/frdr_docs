@@ -18,11 +18,11 @@ nav:
   - "Créer une nouvelle version d’un jeu de données": créer_une_nouvelle_version.md
   - "Téléchargement de jeux de données": téléchargement.md
   - "Recherche de jeux de données": recherche.md
-  - "Avancée": avancee.md
   - "FAQ": faq.md
   - "Indicateurs d’utilisation": indicateurs_d’utilisation.md
   - "Principes FAIR": principes_fair.md
   - "Guide de style": guide_de_style.md
+  - "Avancée": avancee.md
 
 extra_css:
     - css/docs-theme.css
@@ -58,6 +58,12 @@ extra:
       "Indicateurs d’utilisation": "fa-chart-line"
       "Principes FAIR": "fa-eye"
       "Guide de style": "fa-font"
+      "Notre mission": "fa-arrow-circle-right"
+      "Nos fonctionnalités": "fa-cogs"
+      "Notre gouvernance": "fa-sitemap"
+      "Notre équipe": "fa-users"
+      "Nos partenaires": "fa-handshake"
+      "Notre parcours": "fa-map-marked-alt"
     toc_items:
       "Préparation de vos données":
         "Sélection des types de données à déposer":
@@ -108,7 +114,127 @@ extra:
             url: "#finaliser-de-la-soumission"
         "DOI":
             url: "#doi"
-
+      "Évaluation externe":
+        "Invitation des évaluatrices ou évaluateurs":
+          url: "#invitation-des-evaluatrices-ou-evaluateurs"
+        "Évaluation anonyme":
+          url: "#evaluation-anonyme"
+        "Lignes directrices à l’intention des évaluatrices ou évaluateurs":
+          url: "#lignes-directrices-a-lintention-des-evaluatrices-ou-evaluateurs"
+        "Modification du jeu de données":
+          url: "#modification-du-jeu-de-donnees"
+        "Finalisation du processus d’évaluation":
+          url: "#finalisation-du-processus-devaluation"
+      "Après le dépôt":
+        "Curation":
+          url: "#curation"
+        "Préservation":
+          url: "#preservation"
+      "Créer une nouvelle version d’un jeu de données":
+        "Créer une nouvelle version":
+          url: "#creer-une-nouvelle-version"
+        "Ajouter un résumé public des changements":
+          url: "#ajouter-un-resume-public-des-changements"
+        "Modifier les métadonnées":
+          url: "#modifier-les-metadonnees"
+        "Modifier des fichiers":
+          url: "#modifier-des-fichiers"
+        "Vérifier et terminer votre nouvelle version":
+          url: "#verifier-et-terminer-votre-nouvelle-version"
+      "Téléchargement de jeux de données":
+        "Recherche et téléchargement de fichiers à partir d’un navigateur Web":
+          url: "#recherche-et-telechargement-de-fichiers-a-partir-dun-navigateur-web"
+        "Télécharger des jeux de données avec Globus Transfer":
+          url: "#telecharger-des-jeux-de-donnees-avec-globus-transfer"
+      "Recherche de jeux de données":
+        "Méthodes de recherche":
+          url: "#methodes-de-recherche"
+        "Résultats de recherche":
+          url: "#resultats-de-recherche"
+        "Page d’accueil du jeu de données":
+          url: "#page-d’accueil-du-jeu-de-donnees"
+        "Tri":
+          url: "#tri"
+      "FAQ":
+        "Questions générales":
+          url: "#questions-generales"
+        "Processus de soumission de données":
+          url: "#processus-de-soumission-de-donnees"
+        "Curation et préservation":
+          url: "#curation-et-preservation"
+        "Réutilisation des données":
+          url: "#reutilisation-des-donnees"
+      "Indicateurs d’utilisation":
+        "Indicateurs disponibles":
+          url: "#indicateurs-disponibles"
+        "Navigation":
+          url: "#navigation"
+        "Tableau de bord des vues":
+          url: "#tableau-de-bord-des-vues"
+        "Tableau de bord des vues – Carte":
+          url: "#tableau-de-bord-des-vues-carte"
+        "Tableau de bord des téléchargements":
+          url: "#tableau-de-bord-des-telechargements"
+        "Tableau de bord des indicateurs du site":
+          url: "#tableau-de-bord-des-indicateurs-du-site"
+        "Téléchargement des données brutes":
+          url: "#telechargement-des-donnees-brutes"
+        "Commentaires":
+          url: "#commentaires"
+      "Principes FAIR":
+        "Ètre facile à trouver":
+          url: "#etre-facile-a-trouver:"
+        "Être accessible":
+          url: "#etre-accessible"
+        "Être interopérable":
+          url: "#etre-interoperable"
+        "Être réutilisable":
+          url: "#etre-reutilisable"
+      "Notre mission":
+        "Pourquoi utiliser le DFDR":
+          url: "#pourquoi-utiliser-le-dfdr"
+        "Qui peut utiliser le DFDR":
+          url: "#qui-peut-utiliser-le-dfdr"
+      "Nos fonctionnalités":
+        "Plateforme de dépôt":
+          url: "#plateforme-de-depôt"
+        "Services de stockage géré":
+          url: "#services-de-stockage-gere"
+        "Services de curation":
+          url: "#services-de-curation"
+        "Services de préservation":
+          url: "#services-de-preservation"
+        "Services de découverte":
+          url: "#services-de-decouverte"
+      "Notre gouvernance":
+        "Membres":
+          url: "#membres"
+      "Notre équipe":
+        "Équipe des services":
+          url: "#équipe-des-services"
+        "Équipe de développement":
+          url: "#équipe-de-developpement"
+        "Équipe des communications":
+          url: "#équipe-des-communications"
+    about:
+      - "Notre mission":
+        title: "Notre mission"
+        url: "notre_mission"
+      - "Nos fonctionnalités":
+        title: "Nos fonctionnalités"
+        url: "nos_fonctionnalités"
+      - "Notre gouvernance":
+        title: "Notre gouvernance"
+        url: "notre_gouvernance"
+      - "Notre équipe":
+        title: "Notre équipe"
+        url: "notre_équipe"
+      - "Nos partenaires":
+        title: "Nos partenaires"
+        url: "nos_partenaires"
+      - "Notre parcours":
+        title: "Notre parcours"
+        url: "notre_parcours"
 
     language_map:
         en:

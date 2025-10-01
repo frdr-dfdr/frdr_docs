@@ -221,9 +221,9 @@
             <div class="frdr-container">
                 <div role="navigation" class="frdr-sidebar" aria-label="sidebar">
                     <ul class="toc-doc-page">
-                    {% if nav|length>1 and not page.meta.hidesidebar and not page.meta.showaboutsidebar %}
+                    {% if nav|length > 0 and not page.meta.hidesidebar and not page.meta.showaboutsidebar %}
                         {% set sidebar_links = nav %}
-                    {% elif config.extra.about|length>1 and page.meta.showaboutsidebar %}
+                    {% elif config.extra.about| length > 0 and page.meta.showaboutsidebar %}
                         {% set sidebar_links = config.extra.about %}
                     {% endif %}
 
@@ -237,7 +237,7 @@
                                     </a>
                                 </span>
                                 <span class="toc-collapse-btn-container">
-                                    {% if config.extra.toc_items[nav_item.title] | length > 1 %}
+                                    {% if config.extra.toc_items[nav_item.title] | length > 0 %}
                                     <a class="toc-collapse-btn" data-toggle="collapse" href="#{{nav_item.title.replace(" ", "_")}}-collapse" role="button" aria-expanded="false" aria-controls="{{nav_item.title.replace(" ", "_")}}-collapse">
                                         {% if nav_item.active %}
                                             <span class="pl-3 pr-3 fas fa-chevron-down"></span>
@@ -248,7 +248,7 @@
                                     {% endif %}
                                 </span>
                             </div>
-                            {% if config.extra.toc_items[nav_item.title] | length > 1 %}
+                            {% if config.extra.toc_items[nav_item.title] | length > 0 %}
                             <ul id="{{ nav_item.title.replace(" ", "_") }}-collapse" class="toc-doc-section collapse" >
                                 {% for toc_item in config.extra.toc_items[nav_item.title] %}
                                     <li class="toc-doc-section">

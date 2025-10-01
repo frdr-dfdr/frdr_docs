@@ -4,7 +4,7 @@ showaboutsidebar: true
 # Our Features
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2>Repository platform</h2>
+        <h2 id="repository-platform">Repository platform</h2>
 
         <ul>
             <li>A fully-bilingual interface and robust documentation in <a href="/docs/en/documentation">English</a> and <a href="/docs/fr/documentation">French</a></li>

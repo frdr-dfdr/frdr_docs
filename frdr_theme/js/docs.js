@@ -16,8 +16,8 @@ $( document ).ready(function() {
 
     function showCurrentSidebar() {
         $('.frdr-sidebar-link-page').each(function(index, page) {
-            let currentURL = location.href.substring(0, location.href.lastIndexOf("/") + 1);
-            if(currentURL.includes(page.pathname)) {
+            let currentURL = location.href.substring(0, location.href.lastIndexOf("/") + 1).toLowerCase();
+            if(currentURL.includes(page.pathname.toLowerCase())) {
                 page = $(page);
                 page.addClass("current");
                 $("#" + page.attr("data-title").replaceAll(" ", "_") + "-collapse").addClass("show");

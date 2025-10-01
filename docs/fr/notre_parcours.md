@@ -1,6 +1,8 @@
 ---
-hidesidebar: true
+showaboutsidebar: true
 ---
+
+# Notre parcours
 
 * Janvier 2016 : début du projet de développement du logiciel par suite d’un projet pilote ayant permis de déterminer que l’extensibilité et la préservation seraient les éléments centraux du service de dépôt nécessaire.
 * Septembre 2016 : lancement des essais alpha des interfaces utilisateurs au moyen du code de l’interface de découverte mis au point par l’Université de la Colombie-Britannique.

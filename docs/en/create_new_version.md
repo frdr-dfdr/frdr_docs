@@ -1,4 +1,4 @@
-﻿<h1>Create a New Dataset Version</h1>
+﻿#Create a New Dataset Version
 To update files in a published dataset, you can create a new version. FRDR will make a copy of your published dataset and give you permission to edit the copy. Once your changes are in place, the new version will go through the same curation and preservation process new datasets undergo. In most cases, as a matter of transparency to anyone who may have viewed or used your data files, the previous version of your dataset will remain available even after the new version is published.
 
 FRDR will assign a DOI to your new version, but your original DOI will continue to function and will lead to the original dataset. FRDR will add a banner to direct end-users to the most recent version of your dataset and will link previous and new versions in the metadata record. All versions of your dataset will also include a version history table that lists the available versions and a summary of changes.

@@ -148,15 +148,3 @@ They are also accessible via individual collection pages.
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
