@@ -397,7 +397,7 @@ It might be for a few reasons:
 ######2. What tool can I use to calculate checksums?
 </summary>
 
-Users can download a frdr-checksums-and-filetypes.md file from the FRDR interface for each dataset and independently validate data files at any time.
+Users can download a frdr-dfdr-checksums.txt file from the FRDR interface for each dataset and independently validate data files at any time.
 
 There is a free tool to calculate SHA-256 checksums here: https://quickhash-gui.org/
 </details>

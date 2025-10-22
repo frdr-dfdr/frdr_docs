@@ -407,7 +407,7 @@ Plusieurs raisons peuvent expliquer ce problème :
 ######2. Quels outils puis-je utiliser pour calculer la somme de contrôle?
 </summary>
 
-Les utilisateur(-trice)s peuvent télécharger le fichier « frdr-checksums-and-filetypes.md » à partir de l’interface du DFDR pour chaque jeu de données et valider les fichiers de données individuellement à tout moment.
+Les utilisateur(-trice)s peuvent télécharger le fichier « frdr-dfdr-checksums.txt » à partir de l’interface du DFDR pour chaque jeu de données et valider les fichiers de données individuellement à tout moment.
 
 Voici un outil gratuit pour calculer les sommes de contrôle SHA-256 : https://quickhash-gui.org/.
 </details>
