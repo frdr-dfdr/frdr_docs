@@ -107,7 +107,7 @@ Mettez à jour les paramètres de votre compte pour adapter votre expérience du
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <div class="card-title">ORCID</div>
+        <div class="card-title" id="orcid">ORCID</div>
 
         <div class="mb-3">
             Un <a href="https://orcid.org/">identifiant ORCID</a> est un identifiant numérique permanent qui vous est propre. Intégré à ORCID, le DFDR vous permet d’ajouter automatiquement votre identifiant ORCID à vos nouvelles soumissions de jeux de données et de transférer un enregistrement des éléments publiés vers votre profil ORCID. Pour commencer, cliquez sur le lien « Se connecter avec ORCID », puis sur « Se connecter », et suivez les instructions à l’écran. Si vous n’avez pas de compte ORCID, vous pouvez en créer un directement depuis le site du DFDR, toujours en cliquant sur « Se connecter avec ORCID », puis en remplissant le formulaire.

@@ -178,7 +178,7 @@ After you submit your data, a member of FRDR’s curation team will review your 
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <div class="card-title">Secondary use of data or code</div>
+        <div class="card-title" id="secondary-use-of-data-or-code">Secondary use of data or code</div>
         <div class="mb-3">
             Have you obtained data or code from a third party who may hold copyright or intellectual property rights that would prevent you from re-distributing them? Does the original data source allow redistribution, but with certain restrictions?
         </div>

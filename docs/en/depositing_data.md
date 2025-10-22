@@ -128,7 +128,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </div>
 
         <div class="mb-3">
-            A metadata submission form is provided to guide you through the process of entering metadata. Please refer to the section <a href="describing_your_data.md">Describing your data</a> for detailed information on how to fill out the contents of each field. While working in the submission form, you can view more information about each metadata field by hovering your mouse pointer over the label.
+            A metadata submission form is provided to guide you through the process of entering metadata. Please refer to the section <a href="/docs/en/describing_your_data/">Describing your data</a> for detailed information on how to fill out the contents of each field. While working in the submission form, you can view more information about each metadata field by hovering your mouse pointer over the label.
         </div>
 
         <div class="mb-3">
@@ -359,7 +359,8 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h3>Using Globus to Upload Dataset</h3>
+        <h3 id="using-globus-to-upload-dataset">Using Globus to Upload Dataset</h3>
+
         <div class="mb-3">
             <div class="video-wrap">
                 <a href="https://www.youtube.com/watch?v=U4Qaia4KZAU&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=en&cc_load_policy=1" target="_blank">

@@ -217,7 +217,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2 id="indication-d’une-periode-d’embargo">Indication d’une période d’embargo</h2>
+        <h2 id="indication-dune-periode-dembargo">Indication d’une période d’embargo</h2>
 
         <div class="mb-3">
             Si un jeu de données doit être protégé pendant un certain temps, notamment en raison de restrictions imposées par un éditeur ou un organisme de financement, vous pouvez établir un embargo et préciser la date à laquelle les données deviendront automatiquement accessibles. Pendant la période d’embargo, vos fichiers de données ne seront pas visibles ni disponibles pour téléchargement.
@@ -412,7 +412,8 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h3>Transférer des fichiers à l’aide de Globus</h3>
+
+        <h3 id="transferer-des-fichiers-a-laide-de-globus">Transférer des fichiers à l’aide de Globus</h3>
 
         <ol>
             <li>Sous l’onglet « Transfert des données » cliquez sur le bouton « transfert de fichiers Globus » pour accéder à la page de transfert de fichiers Globus.  <br/>

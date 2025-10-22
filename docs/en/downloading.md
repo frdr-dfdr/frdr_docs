@@ -74,7 +74,7 @@ If you do not have a direct link to a FRDR-hosted dataset you can browse through
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h3>Creating individual download links</h3>
+        <h3 id="creating-individual-download-links">Creating individual download links</h3>
 
         <div class="mb-3">
             FRDR mirrors data on multiple servers. In order to generate a stable download link for an individual file, which will work regardless of which server we are pointing to, right-click on the file name (control-click on a Mac), select “Copy Link Address” and paste the result. The file name will have a path similar to this: https://www.frdr-dfdr.ca/repo/files/1/published/publication_NNN/submitted_data where “NNN” will be replaced by a publication number unique to the dataset in FRDR.

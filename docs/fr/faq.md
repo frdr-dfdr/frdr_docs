@@ -102,7 +102,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#doiBeforePublished" role="button" aria-expanded="false" aria-controls="doiBeforePublished">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">7. Puis-je obtenir un DOI avant que mon jeu de données soit publié?</div>
+                    <div class="card-title" id="7-puis-je-obtenir-un-doi-avant-que-mon-ensemble-de-donnees-soit-publie">7. Puis-je obtenir un DOI avant que mon jeu de données soit publié?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -213,7 +213,7 @@
             </a>
             <div id="frdrAccount" class="submission collapse">
                 <div class="mb-3">
-                    Vous devez créer un compte DFDR pour déposer des données. Pour <a href="/repo/PublishDashboard?locale=fr">créer un compte</a>, vous pouvez utiliser votre ID institutionnel, ID de la Fédération, ID ORCID ou ID Globus. La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et la personne du corps professoral qui parraine vos activités (s’il y a lieu). Cela nous permettra de vérifier votre admissibilité à faire un dépôt dans le DFDR. Pour en savoir plus, veuillez consulter la page <a href="avant_de_déposer.md">Avant de déposer</a>.
+                    Vous devez créer un compte DFDR pour déposer des données. Pour <a href="/repo/PublishDashboard?locale=fr">créer un compte</a>, vous pouvez utiliser votre ID institutionnel, ID de la Fédération, ID ORCID ou ID Globus. La première fois que vous ouvrirez une session dans le DFDR, on vous demandera de fournir des renseignements sur votre département (facultatif), votre rôle au sein de votre organisation et la personne du corps professoral qui parraine vos activités (s’il y a lieu). Cela nous permettra de vérifier votre admissibilité à faire un dépôt dans le DFDR. Pour en savoir plus, veuillez consulter la page <a href="/docs/fr/avant_de_déposer/">Avant de déposer</a>.
                 </div>
             </div>
         </div>
@@ -255,7 +255,7 @@
             </a>
             <div id="linkDataset" class="submission collapse">
                 <div class="mb-3">
-                    Vous pouvez relier votre jeu de données du DFDR avec des publications, des jeux de données, un code, des modèles ou d’autres produits de recherche connexes par l’intermédiaire de l’élément de métadonnées « Identifiants connexes », à l’écran « Métadonnées recommandées » de l’interface de soumission. Veuillez utiliser un DOI, un autre identifiant unique ou une autre adresse URL. Pour en savoir plus, consultez la section <a href="description_de_vos_données.md#metadonnees-recommandees">Métadonnées recommandées</a> du guide sur la description de vos données. Nous vous recommandons aussi d’indiquer le DOI de votre jeu de données dans toute publication connexe (à la section des références ou dans un énoncé sur la disponibilité des données).
+                    Vous pouvez relier votre jeu de données du DFDR avec des publications, des jeux de données, un code, des modèles ou d’autres produits de recherche connexes par l’intermédiaire de l’élément de métadonnées « Identifiants connexes », à l’écran « Métadonnées recommandées » de l’interface de soumission. Veuillez utiliser un DOI, un autre identifiant unique ou une autre adresse URL. Pour en savoir plus, consultez la section <a href="/docs/fr/description_de_vos_données/#metadonnees-recommandees">Métadonnées recommandées</a> du guide sur la description de vos données. Nous vous recommandons aussi d’indiquer le DOI de votre jeu de données dans toute publication connexe (à la section des références ou dans un énoncé sur la disponibilité des données).
                 </div>
                 <div class="mb-3">
                     Pour ajouter des liens vers des produits de recherche connexes après avoir soumis votre jeu de données, veuillez écrire à <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
@@ -274,7 +274,7 @@
                     Les documents fournissent un contexte pour vos données, de sorte que nous vous recommandons fortement d’inclure un fichier Lisez-moi, un livre de codes ou tout autre document nécessaire pour garantir que vos données pourront être comprises et interprétées correctement au fil du temps!
                 </div>
                 <div class="mb-3">
-                    Pour obtenir d’autres conseils ou voir un modèle de fichier Lisez-moi, consultez la section <a href="préparation_de_vos_données.md#documentation-de-votre-soumission">Documentation de votre soumission</a>. Notre équipe de curation se fait également un plaisir de vous aider à créer des documents pour votre jeu de données. Si vous avez besoin d’aide, n’hésitez pas à nous écrire à <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
+                    Pour obtenir d’autres conseils ou voir un modèle de fichier Lisez-moi, consultez la section <a href="/docs/fr/préparation_de_vos_données/#documentation-de-votre-soumission">Documentation de votre soumission</a>. Notre équipe de curation se fait également un plaisir de vous aider à créer des documents pour votre jeu de données. Si vous avez besoin d’aide, n’hésitez pas à nous écrire à <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
                 </div>
             </div>
         </div>
@@ -581,7 +581,7 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
                     <li>lier le jeu de données à des produits de recherche connexes (p. ex., rapports de recherche ou codes connexes) et aux renseignements sur les subventions.</li>
                 </ul>
                 <div class="mb-3">
-                    Pour en savoir plus, veuillez consulter notre guide sur la <a href="préparation_de_vos_données.md">préparation de vos données</a> pour le dépôt. Si vous avez des questions sur le processus de curation ou aimeriez consulter un membre de l’équipe de curation avant de déposer des données, veuillez nous écrire à <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
+                    Pour en savoir plus, veuillez consulter notre guide sur la <a href="/docs/fr/préparation_de_vos_données/">préparation de vos données</a> pour le dépôt. Si vous avez des questions sur le processus de curation ou aimeriez consulter un membre de l’équipe de curation avant de déposer des données, veuillez nous écrire à <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
                 </div>
             </div>
         </div>
@@ -613,13 +613,13 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
                     Le DFDR assure la préservation au niveau des bits pour tous les dépôts de données, et permet la prise de mesures supplémentaires pour favoriser la préservation à long terme.
                 </div>
                 <div class="mb-3">
-                    Le DFDR utilise <a href="https://www.archivematica.org/fr/">Archivematica</a> afin de créer des paquets d’information archivés pour les jeux de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « <a href="après_le_dépôt.md#preservation">Préservation</a> » du guide Après le dépôt.
+                    Le DFDR utilise <a href="https://www.archivematica.org/fr/">Archivematica</a> afin de créer des paquets d’information archivés pour les jeux de données destinés aux processus de préservation à long terme. Les paquets comprennent un fichier METS avec des métadonnées PREMIS généré par Archivematica, le fichier CSV de métadonnées du DFDR, les fichiers de données et de licences, et les sommes de contrôle SHA256 des fichiers. Pour en savoir plus, consultez la section « <a href="/docs/fr/après_le_dépôt/#preservation">Préservation</a> » du guide Après le dépôt.
                 </div>
                 <div class="mb-3">
                     Pour s’assurer que tous les jeux de données soumis soient préservés comme il se doit, le DFDR a mis en place un processus d’évaluation pour garantir la gestion responsable et durable de l’accès à long terme. La préservation à long terme sera envisagée pour tous les jeux de données déposés dans le DFDR. À noter que le processus d’évaluation du dépôt tient compte du format des documents et des fichiers, et les jeux de données qui manquent de documents inadéquats ou qui sont dans un format exclusif pourraient être exclus des activités de préservation à long terme ou faire l’objet d’une réévaluation dans le futur. Les jeux de données non sélectionnés pour la préservation à long terme demeureront accessibles dans le DFDR, conformément à la <a href="/policies/fr/r%C3%A9tention_des_donn%C3%A9es/">Politique en matière de rétention et de suppression des données</a> et aux <a href="/policies/fr/conditions_d%27utilisation/">Conditions d'utilisation</a>.
                 </div>
                 <div class="mb-3">
-                    Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le cadre de la soumission en répondant à une question facultative concernant la valeur à long terme de leur jeu de données. Pour en savoir plus, consultez les instructions de la section <a href="déposer_les_données.md#demander-une-preservation-a-long-terme">Demander une préservation à long terme</a> du guide Déposer les données.
+                    Les déposant(e)s peuvent contribuer au processus d’évaluation mené dans le cadre de la soumission en répondant à une question facultative concernant la valeur à long terme de leur jeu de données. Pour en savoir plus, consultez les instructions de la section <a href="/docs/fr/déposer_les_données/#demander-une-preservation-a-long-terme">Demander une préservation à long terme</a> du guide Déposer les données.
                 </div>
             </div>
         </div>
@@ -690,7 +690,7 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#discovery" role="button" aria-expanded="false" aria-controls="discovery">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. Les jeux de données du DFDR sont-ils indexés aux fins de découverte internationale?</div>
+                    <div class="card-title" id="3-les-jeux-de-donnees-du-dfdr-sontils-indexes-aux-fins-de-decouverte-internationale">3. Les jeux de données du DFDR sont-ils indexés aux fins de découverte internationale?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>

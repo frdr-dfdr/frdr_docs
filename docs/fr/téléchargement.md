@@ -27,7 +27,7 @@ Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DF
             Si vous avez besoin d’un lien stable pour télécharger un fichier, par exemple pour l’insérer dans une publication ou dans un script, veuillez consulter la section <a href="#creation-de-liens-de-telechargement-individuels">Création de liens de téléchargement individuels</a> ci-dessous.
         </div>
 
-        <h3 id="telechargement-au-format-zip">Téléchargement au format ZIP</h3>
+        <h3 id="téléchargement-au-format-zip">Téléchargement au format ZIP</h3>
 
         <div class="mb-3">
             Pour télécharger un jeu de données ou un sous-ensemble de fichiers et de dossiers à partir de votre navigateur, vous pouvez demander à DFDR de les compresser dans un fichier ZIP. Aucune inscription n’est requise, mais si vous n’avez pas de compte du DFDR, vous devrez fournir une adresse courriel valide pour obtenir le lien de téléchargement.

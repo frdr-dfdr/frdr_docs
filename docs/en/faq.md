@@ -15,7 +15,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#whoCanUse" role="button" aria-expanded="false" aria-controls="whoCanUse">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. Who can use FRDR?</div>
+                    <div class="card-title" id="1-who-can-use-frdr">1. Who can use FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -31,11 +31,10 @@
                 </div>
             </div>
         </div>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#howFunded" role="button" aria-expanded="false" aria-controls="howFunded">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. How is FRDR funded?</div>
+                    <div class="card-title" id="2-how-is-frdr-funded">2. How is FRDR funded?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -48,7 +47,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#dataOwn" role="button" aria-expanded="false" aria-controls="dataOwn">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. Do I still own the data I deposit in FRDR?</div>
+                    <div class="card-title" id="3-do-i-still-own-the-data-i-deposit-in-frdr">3. Do I still own the data I deposit in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -61,7 +60,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#searchable" role="button" aria-expanded="false" aria-controls="searchable">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">4. After I submit my dataset, when will it be searchable?</div>
+                    <div class="card-title" id="4-after-i-submit-my-dataset-when-will-it-be-searchable">4. After I submit my dataset, when will it be searchable?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -74,7 +73,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#storedProvinceInstitution" role="button" aria-expanded="false" aria-controls="storedProvinceInstitution">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">5. Can I deposit data to FRDR and have it stored in my province/institution?</div>
+                    <div class="card-title" id="5-can-i-deposit-data-to-frdr-and-have-it-stored-in-my-province-institution">5. Can I deposit data to FRDR and have it stored in my province/institution?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -87,7 +86,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#dois" role="button" aria-expanded="false" aria-controls="dois">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">6. Does FRDR assign DOIs to datasets?</div>
+                    <div class="card-title" id="6-does-frdr-assign-dois-to-datasets">6. Does FRDR assign DOIs to datasets?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -100,7 +99,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#doiBeforePublished" role="button" aria-expanded="false" aria-controls="doiBeforePublished">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">7. Can I get a DOI before my dataset is published?</div>
+                    <div class="card-title" id="7-can-i-get-a-doi-before-my-dataset-is-published">7. Can I get a DOI before my dataset is published?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -125,7 +124,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#humanParticipants" role="button" aria-expanded="false" aria-controls="humanParticipants">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">8. Can I share data collected from human participants? </div>
+                    <div class="card-title" id="8-can-i-share-data-collected-from-human-participants?-">8. Can I share data collected from human participants? </div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -144,7 +143,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#collection" role="button" aria-expanded="false" aria-controls="collection">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">9. Can I set up a collection for my research group?</div>
+                    <div class="card-title" id="9-can-i-set-up-a-collection-for-my-research-group">9. Can I set up a collection for my research group?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -157,7 +156,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#demo" role="button" aria-expanded="false" aria-controls="demo">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">10. Is there a sandbox or demo server where I can test things out?</div>
+                    <div class="card-title" id="10-is-there-a-sandbox-or-demo-server-where-i-can-test-things-out">10. Is there a sandbox or demo server where I can test things out?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -173,7 +172,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#institutionUser" role="button" aria-expanded="false" aria-controls="institutionUser">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">11. Can I log into FRDR using my institutional credentials?</div>
+                    <div class="card-title" id="11-can-i-log-into-frdr-using-my-institutional-credentials">11. Can I log into FRDR using my institutional credentials?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -205,20 +204,20 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#frdrAccount" role="button" aria-expanded="false" aria-controls="frdrAccount">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. Do I need a FRDR account to deposit data?</div>
+                    <div class="card-title" id="1-do-i-need-a-frdr-account-to-deposit-data">1. Do I need a FRDR account to deposit data?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
             <div id="frdrAccount" class="submission collapse">
                 <div class="mb-3">
-                    FRDR does require you to create an account before you can deposit data. You can <a href="/repo/PublishDashboard">sign up</a> using your Institutional ID, Federation ID, ORCID, or a Globus ID. The first time you log into FRDR, you will be asked to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us to verify that you are eligible to deposit in FRDR. Please refer to the <a href="before_depositing.md">Before Depositing</a> for more information.
+                    FRDR does require you to create an account before you can deposit data. You can <a href="/repo/PublishDashboard">sign up</a> using your Institutional ID, Federation ID, ORCID, or a Globus ID. The first time you log into FRDR, you will be asked to provide information about your department (optional), your role within your organization, and your faculty Sponsor (if applicable). This will help us to verify that you are eligible to deposit in FRDR. Please refer to the <a href="/docs/en/before_depositing/">Before Depositing</a> for more information.
                 </div>
             </div>
         </div>
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#orcid" role="button" aria-expanded="false" aria-controls="orcid">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. Why can't I log in using my ORCID account?</div>
+                    <div class="card-title" id="2-why-can't-i-log-in-using-my-orcid-account">2. Why can't I log in using my ORCID account?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -248,13 +247,13 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#linkDataset" role="button" aria-expanded="false" aria-controls="linkDataset">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. How can I link my dataset to related research outputs?</div>
+                    <div class="card-title" id="1-how-can-i-link-my-dataset-to-related-research-outputs">1. How can I link my dataset to related research outputs?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
             <div id="linkDataset" class="submission collapse">
                 <div class="mb-3">
-                    You can link your FRDR dataset to related publications, datasets, code, models, or other research output via the “Related Identifier” metadata element on the “Recommended Metadata” screen of the submission interface. Please use a DOI or another unique identifier or URL. For more information see the <a href="describing_your_data.md#recommended-metadata">Recommended Metadata</a> section of the Describing your Data guide. We also recommend including your dataset DOI in any related publication (in the references section or a data availability statement).
+                    You can link your FRDR dataset to related publications, datasets, code, models, or other research output via the “Related Identifier” metadata element on the “Recommended Metadata” screen of the submission interface. Please use a DOI or another unique identifier or URL. For more information see the <a href="/docs/en/describing_your_data/#recommended-metadata">Recommended Metadata</a> section of the Describing your Data guide. We also recommend including your dataset DOI in any related publication (in the references section or a data availability statement).
                 </div>
                 <div class="mb-3">
                     To add links to related research outputs after your dataset has been submitted, please contact <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
@@ -264,7 +263,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#readme" role="button" aria-expanded="false" aria-controls="readme">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. Does FRDR require a README or other documentation?</div>
+                    <div class="card-title" id="2-does-frdr-require-a-readme-or-other-documentation">2. Does FRDR require a README or other documentation?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -273,14 +272,14 @@
                     Documentation will provide context for your data, and we strongly recommend that you include a README, acodebook or other documentation to ensure your data can be understood and interpreted correctly over time!
                 </div>
                 <div class="mb-3">
-                    For further guidance and a README template, please see <a href="preparing_your_data.md#documenting-your-submission">Documenting Your Submission</a> . Our curation team is also happy to work with you to create documentation for your dataset. Please reach out to <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> if you would like assistance.
+                    For further guidance and a README template, please see <a href="/docs/en/preparing_your_data/#documenting-your-submission">Documenting Your Submission</a> . Our curation team is also happy to work with you to create documentation for your dataset. Please reach out to <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> if you would like assistance.
                 </div>
             </div>
         </div>
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#code" role="button" aria-expanded="false" aria-controls="code">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. Can I deposit my code in FRDR?</div>
+                    <div class="card-title" id="3-can-i-deposit-my-code-in-frdr">3. Can I deposit my code in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -299,7 +298,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#codeMetadata" role="button" aria-expanded="false" aria-controls="codeMetadata">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">4. What information should I include with my code?</div>
+                    <div class="card-title" id="4-what-information-should-i-include-with-my-code">4. What information should I include with my code?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -324,7 +323,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#addCollaborators" role="button" aria-expanded="false" aria-controls="addCollaborators">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">5. How do I add colleagues as collaborators to my dataset?</div>
+                    <div class="card-title" id="5-how-do-i-add-colleagues-as-collaborators-to-my-dataset">5. How do I add colleagues as collaborators to my dataset?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -343,7 +342,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#shareRestrictedData" role="button" aria-expanded="false" aria-controls="shareRestrictedData">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">6. Can I share restricted access data in FRDR?</div>
+                    <div class="card-title" id="6-can-i-share-restricted-access-data-in-frdr">6. Can I share restricted access data in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -359,7 +358,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#updateMetadata" role="button" aria-expanded="false" aria-controls="updateMetadata">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">7. How can I update my (meta)data after I submit?</div>
+                    <div class="card-title" id="7-how-can-i-update-my-(meta)data-after-i-submit">7. How can I update my (meta)data after I submit?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -378,7 +377,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#storageDefault" role="button" aria-expanded="false" aria-controls="storageDefault">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. How much storage do I get by default?</div>
+                    <div class="card-title" id="1-how-much-storage-do-i-get-by-default">1. How much storage do I get by default?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -394,7 +393,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#storageLimit" role="button" aria-expanded="false" aria-controls="storageLimit">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. What happens when I reach my storage limit?</div>
+                    <div class="card-title" id="2-what-happens-when-i-reach-my-storage-limit">2. What happens when I reach my storage limit?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -415,7 +414,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#moreStorage" role="button" aria-expanded="false" aria-controls="moreStorage">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. How can I request more storage?</div>
+                    <div class="card-title" id="3-how-can-i-request-more-storage">3. How can I request more storage?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -434,7 +433,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#globusDataTransfer" role="button" aria-expanded="false" aria-controls="globusDataTransfer">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. How do I configure Globus for data transfer?</div>
+                    <div class="card-title" id="1-how-do-i-configure-globus-for-data-transfer">1. How do I configure Globus for data transfer?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -465,7 +464,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#anonymousReview" role="button" aria-expanded="false" aria-controls="anonymousReview">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. What is an anonymous review?</div>
+                    <div class="card-title" id="1-what-is-an-anonymous-review">1. What is an anonymous review?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -483,7 +482,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#reviewerMultipleTimes" role="button" aria-expanded="false" aria-controls="reviewerMultipleTimes">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. Can I invite a reviewer multiple times?</div>
+                    <div class="card-title" id="2-can-i-invite-a-reviewer-multiple-times">2. Can I invite a reviewer multiple times?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -496,7 +495,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#externalReviewersAccount" role="button" aria-expanded="false" aria-controls="externalReviewersAccount">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. Do external reviewers need to have an account in FRDR?</div>
+                    <div class="card-title" id="3-do-external-reviewers-need-to-have-an-account-in-frdr">3. Do external reviewers need to have an account in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -509,7 +508,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#editExternalReview" role="button" aria-expanded="false" aria-controls="editExternalReview">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">4. Can I edit a dataset while it is under external review?</div>
+                    <div class="card-title" id="4-can-i-edit-a-dataset-while-it-is-under-external-review">4. Can I edit a dataset while it is under external review?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -522,7 +521,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#cancelReview" role="button" aria-expanded="false" aria-controls="cancelReview">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">5. What if I want to cancel the review process in the middle of a review process?</div>
+                    <div class="card-title" id="5-what-if-i-want-to-cancel-the-review-process-in-the-middle-of-a-review-process">5. What if I want to cancel the review process in the middle of a review process?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -535,7 +534,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#reviewerFeedback" role="button" aria-expanded="false" aria-controls="reviewerFeedback">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">6. How will the reviewer contact me with feedback about the dataset?</div>
+                    <div class="card-title" id="6-how-will-the-reviewer-contact-me-with-feedback-about-the-dataset">6. How will the reviewer contact me with feedback about the dataset?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -562,7 +561,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#dataCuration" role="button" aria-expanded="false" aria-controls="dataCuration">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. What is Data Curation?</div>
+                    <div class="card-title" id="1-what-is-data-curation">1. What is Data Curation?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -584,14 +583,14 @@
                     </ul>
                 </div>
                 <div class="mb-3">
-                    For further information, please see our guidance on <a href="preparing_your_data.md">preparing your data</a> for deposit. If you have questions about the curation process, or would like to consult with a curator ahead of data deposit, please contact us at <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> .
+                    For further information, please see our guidance on <a href="/docs/en/preparing_your_data/">preparing your data</a> for deposit. If you have questions about the curation process, or would like to consult with a curator ahead of data deposit, please contact us at <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> .
                 </div>
             </div>
         </div>
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#reviewCode" role="button" aria-expanded="false" aria-controls="reviewCode">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. Does FRDR review code?</div>
+                    <div class="card-title" id="2-does-frdr-review-code">2. Does FRDR review code?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -607,7 +606,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#longtermPreservation" role="button" aria-expanded="false" aria-controls="longtermPreservation">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. Does FRDR offer long-term preservation?</div>
+                    <div class="card-title" id="3-does-frdr-offer-longterm-preservation">3. Does FRDR offer long-term preservation?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -616,20 +615,20 @@
                     FRDR offers bit-level preservation for all data deposits, with the ability to perform additional activities in support of long-term preservation.
                 </div>
                 <div class="mb-3">
-                    FRDR uses <a href="https://www.archivematica.org/en/">Archivematica</a> to create Archival Information Packages (AIPs) for datasets that have been selected to undergo long-term preservation processes. The AIP includes an Archivematica-generated METS file with PREMIS metadata, the FRDR metadata.csv, data and licence files, and checksum.sha256 files. For more information, see the “ <a href="after_depositing.md#preservation">Preservation</a> ” section in the After Depositing guide.
+                    FRDR uses <a href="https://www.archivematica.org/en/">Archivematica</a> to create Archival Information Packages (AIPs) for datasets that have been selected to undergo long-term preservation processes. The AIP includes an Archivematica-generated METS file with PREMIS metadata, the FRDR metadata.csv, data and licence files, and checksum.sha256 files. For more information, see the “ <a href="/docs/en/after_depositing/#preservation">Preservation</a> ” section in the After Depositing guide.
                 </div>
                 <div class="mb-3">
                     In order to ensure all datasets submitted to FRDR are preserved where appropriate, FRDR has implemented an appraisal process to ensure long-term access is managed responsibly and sustainably. All datasets deposited with FRDR will be considered for long-term preservation. Please note that the repository appraisal process takes documentation and file format into account, and datasets lacking adequate documentation or stored in proprietary formats may not be selected for long-term preservation activities or may be reappraised in future. Datasets not selected for long-term preservation will continue to be accessible via FRDR as per the <a href="/policies/en/data_retention/">Data Retention and Deaccession Policy</a> and <a href="/policies/en/terms_of_use/">Terms of Use</a>.
                 </div>
                 <div class="mb-3">
-                    Depositors can contribute to the appraisal process during submission by answering an optional question regarding the long-term value of their dataset. For more information, see the instructions for “<a href="depositing_data.md#requesting-long-term-preservation">Requesting Long-term Preservation</a> ” in the Depositing Data guide.
+                    Depositors can contribute to the appraisal process during submission by answering an optional question regarding the long-term value of their dataset. For more information, see the instructions for “<a href="/docs/en/depositing_data/#requesting-long-term-preservation">Requesting Long-term Preservation</a> ” in the Depositing Data guide.
                 </div>
             </div>
         </div>
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#isMyDataBackedUp" role="button" aria-expanded="false" aria-controls="isMyDataBackedUp">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">4. Is my data backed up?</div>
+                    <div class="card-title" id="4-is-my-data-backed-up">4. Is my data backed up?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -656,7 +655,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#noDownloadBrowser" role="button" aria-expanded="false" aria-controls="noDownloadBrowser">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. Why can't I download a file via my web browser (using HTTP)?</div>
+                    <div class="card-title" id="1-why-can't-i-download-a-file-via-my-web-browser-(using-http)">1. Why can't I download a file via my web browser (using HTTP)?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -676,7 +675,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#calculateChecksum" role="button" aria-expanded="false" aria-controls="calculateChecksum">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. What tool can I use to calculate checksums?</div>
+                    <div class="card-title" id="2-what-tool-can-i-use-to-calculate-checksums">2. What tool can I use to calculate checksums?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -692,7 +691,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#discovery" role="button" aria-expanded="false" aria-controls="discovery">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. Are FRDR datasets indexed for international discovery?</div>
+                    <div class="card-title" id="3-are-frdr-datasets-indexed-for-international-discovery">3. Are FRDR datasets indexed for international discovery?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -705,7 +704,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#discoverCanadianData" role="button" aria-expanded="false" aria-controls="discoverCanadianData">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">4. Can I still use FRDR to discover Canadian research data?</div>
+                    <div class="card-title" id="4-can-i-still-use-frdr-to-discover-canadian-research-data">4. Can I still use FRDR to discover Canadian research data?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -718,7 +717,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#reuseRedistribute" role="button" aria-expanded="false" aria-controls="reuseRedistribute">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">5. Can I reuse or redistribute data in FRDR?</div>
+                    <div class="card-title" id="5-can-i-reuse-or-redistribute-data-in-frdr">5. Can I reuse or redistribute data in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -737,7 +736,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#citeData" role="button" aria-expanded="false" aria-controls="citeData">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">6. How do I cite data in FRDR?</div>
+                    <div class="card-title" id="6-how-do-i-cite-data-in-frdr">6. How do I cite data in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -753,7 +752,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#datasetImpact" role="button" aria-expanded="false" aria-controls="datasetImpact">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">7. How can I measure the impact of my datasets?</div>
+                    <div class="card-title" id="7-how-can-i-measure-the-impact-of-my-datasets">7. How can I measure the impact of my datasets?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -780,7 +779,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#newVersion" role="button" aria-expanded="false" aria-controls="newVersion">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">1. How do I create a new version of my dataset?</div>
+                    <div class="card-title" id="1-how-do-i-create-a-new-version-of-my-dataset">1. How do I create a new version of my dataset?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -793,7 +792,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#collaboratorVersions" role="button" aria-expanded="false" aria-controls="collaboratorVersions">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">2. Can Collaborators Create Versions?</div>
+                    <div class="card-title" id="2-can-collaborators-create-versions">2. Can Collaborators Create Versions?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -806,7 +805,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#addFiles" role="button" aria-expanded="false" aria-controls="addFiles">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. How do I add new files or changes files in a dataset?</div>
+                    <div class="card-title" id="3-how-do-i-add-new-files-or-changes-files-in-a-dataset">3. How do I add new files or changes files in a dataset?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -819,7 +818,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#cantVersion" role="button" aria-expanded="false" aria-controls="cantVersion">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">4. Why can't I create a new version of my dataset?</div>
+                    <div class="card-title" id="4-why-can't-i-create-a-new-version-of-my-dataset">4. Why can't I create a new version of my dataset?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -835,7 +834,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#updateMetadata" role="button" aria-expanded="false" aria-controls="updateMetadata">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">5. Can I update metadata on a published dataset?</div>
+                    <div class="card-title" id="5-can-i-update-metadata-on-a-published-dataset">5. Can I update metadata on a published dataset?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -848,7 +847,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#uploadFilesAgain" role="button" aria-expanded="false" aria-controls="uploadFilesAgain">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">6. Do I need to upload my files again?</div>
+                    <div class="card-title" id="6-do-i-need-to-upload-my-files-again">6. Do I need to upload my files again?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -864,7 +863,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#versionQuota" role="button" aria-expanded="false" aria-controls="versionQuota">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">7. Will the new version of a dataset count against my quota?</div>
+                    <div class="card-title" id="7-will-the-new-version-of-a-dataset-count-against-my-quota">7. Will the new version of a dataset count against my quota?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -880,7 +879,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#versionDoi" role="button" aria-expanded="false" aria-controls="versionDoi">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">8. Will my new version have the same DOI?</div>
+                    <div class="card-title" id="8-will-my-new-version-have-the-same-doi">8. Will my new version have the same DOI?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
