@@ -15,7 +15,7 @@ This is a list of changes to FRDR, starting with the most recent:
 
 **2025-07-30**:
 
-* Fixed pdf layout for Senstive Data documents
+* Fixed pdf layout for Sensitive Data documents
 
 **2025-06-25**:
 
