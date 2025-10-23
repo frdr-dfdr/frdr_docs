@@ -125,14 +125,14 @@ Vous pouvez également rechercher les données déposées dans le DFDR en utilis
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2 id="page-d’accueil-du-jeu-de-donnees">Page d’accueil du jeu de données</h2>
+        <h2 id="page-daccueil-du-jeu-de-donnees">Page d’accueil du jeu de données</h2>
 
         <div class="mb-3">
             Cliquez sur le titre du jeu de données pour naviguer dans la page d’accueil du jeu de données. À partir de là, vous pouvez afficher l’enregistrement de métadonnées au complet, parcourir le contenu du jeu de données et télécharger des fichiers de données.
         </div>
 
         <div class="mb-3">
-            Pour afficher ou télécharger des fichiers de données, consultez la section « Fichiers dans le jeu de données ». Vous pouvez afficher uniquement le nom des fichiers et dossiers, ou voir tout le contenu des dossiers en cliquant sur l’icône « + ». Vous pouvez consulter ou prévisualiser certains types de fichiers depuis un navigateur Web, selon ses capacités et ses paramètres. Consultez la section « <a href="téléchargement.md">Téléchargement de jeux de données</a> » pour en savoir davantage.
+            Pour afficher ou télécharger des fichiers de données, consultez la section « Fichiers dans le jeu de données ». Vous pouvez afficher uniquement le nom des fichiers et dossiers, ou voir tout le contenu des dossiers en cliquant sur l’icône « + ». Vous pouvez consulter ou prévisualiser certains types de fichiers depuis un navigateur Web, selon ses capacités et ses paramètres. Consultez la section « <a href="/docs/fr/téléchargement/">Téléchargement de jeux de données</a> » pour en savoir davantage.
         </div>
     </div>
 </div>

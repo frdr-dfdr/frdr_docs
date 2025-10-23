@@ -95,15 +95,15 @@ extra:
           url: "#metadonnees-geographiques"
       "Déposer les données":
         "Sélection d’un groupe de stockage":
-            url: "#selection-d’un-groupe-de-stockage"
+            url: "#selection-dun-groupe-de-stockage"
         "Licences d’utilisation des données":
-            url: "#licences-d’utilisation-des-donnees"
+            url: "#licences-dutilisation-des-donnees"
         "Ajout de collaborateurs":
             url: "#ajout-de-collaborateurs"
         "Saisie de métadonnées":
             url: "#saisie-de-metadonnees"
         "Évaluation externe":
-            url: "#évaluation-externe"
+            url: "#evaluation-externe"
         "Indication d’une période d’embargo":
             url: "#indication-dune-periode-dembargo"
         "Demander une préservation à long terme":
@@ -152,7 +152,7 @@ extra:
         "Résultats de recherche":
           url: "#resultats-de-recherche"
         "Page d’accueil du jeu de données":
-          url: "#page-d’accueil-du-jeu-de-donnees"
+          url: "#page-daccueil-du-jeu-de-donnees"
         "Tri":
           url: "#tri"
       "FAQ":

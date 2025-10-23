@@ -12,9 +12,9 @@ showaboutsidebar: true
             <li>Identifiants d’objets numériques (DOI) fournissant un identifiant pérenne (PID) pour la citation de données</li>
             <li>Allocation par défaut de 1 To d’espace de stockage de données</li>
             <li>Embargos facultatifs sur les enregistrements de données et de métadonnées</li>
-            <li><a href="tableau_de_bord.md#orcid">Synchroniser la recherche</a> avec le profil ORCID  (Comment for Jin: Pls link this to ORCID section)</li>
-            <li><a href="évaluation_externe.md">Partager de manière sélective les données</a> avec des rédactrices et rédacteurs en chef de périodiques, des évaluatrices et évaluateurs et des collègues avant leur publication</li>
-            <li>Téléchargez facilement des données grâce à la <a href="téléchargement.md#telechargement-au-format-zip">nouvelle fonctionnalité Zip</a></li>
+            <li><a href="/docs/fr/tableau_de_bord/#orcid">Synchroniser la recherche</a> avec le profil ORCID  (Comment for Jin: Pls link this to ORCID section)</li>
+            <li><a href="/docs/fr/évaluation_externe/">Partager de manière sélective les données</a> avec des rédactrices et rédacteurs en chef de périodiques, des évaluatrices et évaluateurs et des collègues avant leur publication</li>
+            <li>Téléchargez facilement des données grâce à la <a href="/docs/fr/téléchargement/#téléchargement-au-format-zip">nouvelle fonctionnalité Zip</a></li>
             <li>Collaboration avec les autres titulaires d’un compte DFDR pour les soumissions</li>
             <li>Examen des jeux de données et soutien continu offert par l’équipe de curation du DFDR (<a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>)</li>
             <li>Téléchargement et téléversement rapides et efficaces au moyen de Globus File Transfer et transferts depuis un navigateur Web pour les jeux de données de petite taille</li>

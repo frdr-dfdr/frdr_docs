@@ -17,7 +17,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2 id="selection-d’un-groupe-de-stockage">Sélection d’un groupe de stockage</h2>
+        <h2 id="selection-dun-groupe-de-stockage">Sélection d’un groupe de stockage</h2>
 
         <div class="mb-3">
             Les jeux de données du DFDR sont organisés en collections, appelées groupes de stockage. Il existe deux types de groupes de stockage : le groupe de stockage par défaut et les groupes de stockage spéciaux. Le groupe par défaut, <strong>General/Général</strong>, sera présélectionné au commencement d’un dépôt de données.
@@ -32,7 +32,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2 id="licences-d’utilisation-des-donnees">Licences d’utilisation des données</h2>
+        <h2 id="licences-dutilisation-des-donnees">Licences d’utilisation des données</h2>
 
         <div class="mb-3">
             Les usagers qui soumettent des jeux de données peuvent choisir la licence d’utilisation qui s’appliquera aux autres usagers. Les conditions de licence sont indiquées sur la page d’accueil des jeux de données dans le DFDR et font partie intégrante des métadonnées.
@@ -127,7 +127,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            Un formulaire de soumission de métadonnées est fourni pour vous guider dans le processus de saisie des métadonnées. Veuillez consulter la section <a href="description_de_vos_données.md">Description de vos données</a> pour obtenir des renseignements détaillés sur la façon de remplir le contenu de chaque champ. Lorsque vous travaillez au formulaire de soumission, vous pouvez afficher plus d’information sur chaque champ de métadonnées en plaçant le pointeur de votre souris sur l’étiquette.
+            Un formulaire de soumission de métadonnées est fourni pour vous guider dans le processus de saisie des métadonnées. Veuillez consulter la section <a href="/docs/fr/description_de_vos_données/">Description de vos données</a> pour obtenir des renseignements détaillés sur la façon de remplir le contenu de chaque champ. Lorsque vous travaillez au formulaire de soumission, vous pouvez afficher plus d’information sur chaque champ de métadonnées en plaçant le pointeur de votre souris sur l’étiquette.
         </div>
 
         <div class="mb-3">
@@ -188,7 +188,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2 id="évaluation-externe">Évaluation externe</h2>
+        <h2 id="evaluation-externe">Évaluation externe</h2>
 
         <div class="mb-3">
             Tous les jeux de données soumis au Dépôt fédéré de données de recherche (DFDR) font l’objet d’une évaluation interne appelée curation avant d’être approuvés pour la publication. Vous pouvez également choisir de partager votre jeu de données avec une évaluatrice ou un évaluateur externe, tel qu’une rédactrice ou un rédacteur en chef de périodique ou une ou un collègue, avant qu’il ne soit rendu public.
@@ -206,7 +206,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            Votre jeu de données sera placé sous embargo une fois le processus de curation terminé. Vous pourrez alors inviter des évaluatrices ou évaluateurs externes à accéder à votre soumission. Les évaluatrices ou évaluateurs externes n’ont pas besoin d’avoir un compte dans le DFDR. Pour savoir comment les inviter, veuillez consulter la documentation sur <a href="évaluation_externe.md">[l’évaluation externe des jeux de données</a>.
+            Votre jeu de données sera placé sous embargo une fois le processus de curation terminé. Vous pourrez alors inviter des évaluatrices ou évaluateurs externes à accéder à votre soumission. Les évaluatrices ou évaluateurs externes n’ont pas besoin d’avoir un compte dans le DFDR. Pour savoir comment les inviter, veuillez consulter la documentation sur <a href="/docs/fr/évaluation_externe/">l’évaluation externe des jeux de données</a>.
         </div>
     </div>
 </div>

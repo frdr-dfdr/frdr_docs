@@ -93,7 +93,7 @@ If you do not have a direct link to a FRDR-hosted dataset you can browse through
         <h2 id="downloading-datasets-with-globus-transfer">Downloading Datasets with Globus Transfer</h2>
 
         <div class="mb-3">
-            Globus is a free software that allows for reliable, high-speed file transfers. It is the best method for downloading large amounts of data from FRDR. To use Globus, you either need access to a server with Globus pre-installed, such as most Digital Research Alliance of Canada <a href="https://alliancecan.ca/en/services/advanced-research-computing/federation/national-host-sites">national host sites</a>, or you will need to set up your own Globus account and install <a href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</a> on your device.
+            Globus is a free software that allows for reliable, high-speed file transfers. It is the best method for downloading large amounts of data from FRDR. To use Globus, you either need access to a server with Globus pre-installed, such as most Digital Research Alliance of Canada <a href="https://www.alliancecan.ca/en/our-services/advanced-research-computing/national-host-sites">national host sites</a>, or you will need to set up your own Globus account and install <a href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</a> on your device.
         </div>
 
         <div class="mb-3">

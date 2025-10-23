@@ -67,7 +67,7 @@ Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DF
             Pour soumettre une demande pour un autre fichier ZIP du même jeu de données, vous devez d’abord supprimer le fichier ZIP actif ou existant.
         </div>
 
-        <h3>Création de liens de téléchargement individuels</h3>
+        <h3 id="creation-de-liens-de-telechargement-individuels">Création de liens de téléchargement individuels</h3>
 
         <div class="mb-3">
             Le DFDR reproduit les données sur plusieurs serveurs. Afin de générer pour un fichier un lien de téléchargement stable qui fonctionnera indépendamment du serveur concerné, faites un clic droit sur le nom du fichier (Ctrl + clic sur Mac), sélectionnez « Copier l’adresse du lien » et collez le résultat. L’adresse sera similaire à celle-ci : https://www.frdr-dfdr.ca/repo/files/1/published/publication_NNN/submitted_data, où « NNN » sera remplacé par un numéro de publication propre au jeu de données dans le DFDR.
@@ -84,7 +84,7 @@ Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DF
         <h2 id="telecharger-des-jeux-de-donnees-avec-globus-transfer">Télécharger des jeux de données avec Globus Transfer</h2>
 
         <div class="mb-3">
-            Globus est un logiciel gratuit qui permet de transférer des fichiers de façon sûre et à haute vitesse. Il s’agit de la méthode la plus efficace pour télécharger une grande quantité de données dans le DFDR. Pour utiliser Globus, vous devez soit accéder à un serveur sur lequel Globus est déjà installé (c’est le cas pour la plupart des <a href="https://alliancecan.ca/fr/services/calcul-informatique-de-pointe/la-federation/sites-dhebergement-nationaux">sites d’hébergement nationaux</a> de l’Alliance de recherche numérique du Canada), soit créer votre propre compte Globus et installer <a href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</a> sur votre appareil.
+            Globus est un logiciel gratuit qui permet de transférer des fichiers de façon sûre et à haute vitesse. Il s’agit de la méthode la plus efficace pour télécharger une grande quantité de données dans le DFDR. Pour utiliser Globus, vous devez soit accéder à un serveur sur lequel Globus est déjà installé (c’est le cas pour la plupart des <a href="https://www.alliancecan.ca/fr/nos-services/calcul-informatique-de-pointe/sites-dhebergement-nationaux">sites d’hébergement nationaux</a> de l’Alliance de recherche numérique du Canada), soit créer votre propre compte Globus et installer <a href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</a> sur votre appareil.
         </div>
 
         <div class="mb-3">
