@@ -70,10 +70,9 @@ showaboutsidebar: true
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h2 id="discovery-services">Discovery Services</h2>
-
         <ul>
             <li>Discovery interface with text-based search functionality supported by Globus search</li>
-            <li>Openly available OAI-PMH feed of harvested metadata </li>
+            <li>Openly available <a href="https://www.frdr-dfdr.ca/oai/request?verb=Identify">OAI-PMH feed of metadata</a></li>
             <li>Data indexed for discovery in <a href="https://www.lunaris.ca/en">Lunaris</a>, <a href="https://datasetsearch.research.google.com/">Google Dataset Search</a>, <a href="https://explore.openaire.eu/">OpenAIRE</a>, <a href="https://search.datacite.org/">DataCite</a>, ProQuest, and others</li>
         </ul>
     </div>

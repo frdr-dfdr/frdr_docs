@@ -54,6 +54,10 @@ Une fois que vous aurez soumis votre jeu de données, votre soumission sera mise
         <div class="mb-3">
             Pour en savoir davantage au sujet du rôle que joue le DFDR dans la préservation des données de recherche au Canada, consultez le <a href="https://doi.org/10.14288/1.0371946">rapport</a> publié en 2018 par le groupe d’experts sur la préservation (en anglais seulement).
         </div>
+
+        <div class="mb-3">
+            Une fois que le jeu de données a été approuvé par un(e) curateur(-trice), les <a href="https://fr.wikipedia.org/wiki/Somme_de_contr%C3%B4le">sommes de contrôle</a> sont calculées pour chaque fichier du jeu de données, puis enregistrées dans un fichier texte (frdr-dfdr-checksums.txt) avec le nom de chaque fichier. Les chercheur(-se)s peuvent télécharger ces renseignements à partir de la page de le jeux de données dans le DFDR et valider indépendamment l’intégrité des fichiers de données. Les sommes de contrôle sont calculées à l’aide l’algorithme <a href="https://fr.wikipedia.org/wiki/SHA-2">SHA-256</a> , lequel peut être validé au moyen de l’interface graphique <a href="https://www.quickhash-gui.org/">QuickHash GUI</a> .
+        </div>
     </div>
 </div>
 

@@ -15,14 +15,13 @@ They are also accessible via individual collection pages.
         </div>
 
         <ol>
-            <li><strong>Collections:</strong> The total number of non-empty collections hosted by FRDR.</li>
             <li><strong>Datasets Published:</strong> This metric represents the total number of datasets published within the FRDR platform.</li>
             <li><strong>Data Deposited (TB):</strong> The total storage space consumed by all published datasets in FRDR, measured in terabytes.</li>
             <li><strong>Dataset Views:</strong> Total dataset views refer to the number of times published datasets in FRDR have been accessed or viewed by users.</li>
             <li><strong>Files Downloaded:</strong> Total files downloaded represent the number of times individual data files from published datasets in FRDR have been retrieved or copied by users.</li>
         </ol>
         <div class="mb-3">
-            The dashboards are updated on a monthly basis on the last Wednesday of each month.
+            The dashboards are updated every two weeks.
         </div>
     </div>
 </div>
@@ -33,7 +32,7 @@ They are also accessible via individual collection pages.
         <h2 id="navigation">Navigation</h2>
 
         <div class="mb-3">
-            The metric page has three tabs (Views Dashboard, Download Dashboards, and Site Metrics Dashboards) and a dropdown menu for collections with datasets in FRDR.
+            The metric page has four tabs (Views Dashboard, Download Dashboards, Site Metrics Dashboards, File Format Dashboard).
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
@@ -48,7 +47,7 @@ They are also accessible via individual collection pages.
         <h2 id="views-dashboard">Views Dashboard</h2>
 
         <div class="mb-3">
-            This tab is divided into three sections. First, the user will find the total number of dataset views (top left) and the trend over time (top right). Hovering the mouse over the trendline shows the number of views up to the specified date.  Next, the "Top Viewed Datasets" section lists the FRDR datasets from largest to smallest views. Finally, the navigable world map at the bottom shows views per country.  By clicking on a specific dataset, the user can navigate to the dataset’s landing page in FRDR. When the user selects a collection from the drop-down menu, the same information is displayed for that specific collection.
+            This tab is divided into three sections. First, the user will find the total number of dataset views (top left) and the trend over time (top right). Hovering the mouse over the trendline shows the number of views up to the specified date.  Next, the "Top Viewed Datasets" section lists the FRDR datasets from largest to smallest views. Finally, the navigable world map at the bottom shows views per country.  By clicking on a specific dataset, the user can navigate to the dataset’s landing page in FRDR.
         </div>
 
         <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" class="screenshot-lightbox">
@@ -109,6 +108,18 @@ They are also accessible via individual collection pages.
             On this tab, the top row displays the total number of published datasets, or datasets per collection if a collection is selected from the drop-down menu. The bottom row shows the total data deposited in terabytes (TB) for published deposits.  Hovering over the trend graphs shows the evolution of dataset deposits over time.
         </div>
 
+        <h2 id="file-format-dashboard">File Format Dashboard</h2>
+
+        <div class="mb-3">
+            The File Format Statistics dashboard provides an overview of the different file formats in the datasets found in FRDR. The left side of the graph contains the file format categories. The bottom x-axis, <strong>Number of files deposited</strong>, represents the number of files associated with a file format. Hovering over a specific file format will create a box over the count bar. Clicking on the bar will highlight the bar in dark grey and will display the total number of files associated with the specific format. The dashboard also includes an unknown file format category. Sometimes the tools used to identify file formats cannot immediately identify file formats when datasets are deposited. The FRDR Team reviews these file formats and takes action to help with their identification. When the File Format Statistics dashboard is refreshed file formats that were previously identified as unknown will move to the appropriate file format category.
+        </div>
+
+        <h2 id="site-metrics-dashboard">Site Metrics Dashboard</h2>
+
+        <div class="mb-3">
+            On this tab, the top row displays the total number of published datasets, or datasets per collection if a collection is selected from the drop-down menu. The bottom row shows the total data deposited in terabytes (TB) for published deposits.  Hovering over the trend graphs shows the evolution of dataset deposits over time.
+        </div>
+
         <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" alt="Screenshot showing the Site Usage Tab." class="screenshot"/>
@@ -131,12 +142,19 @@ They are also accessible via individual collection pages.
         <ol>
             <li>Click on the <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> icon located just below the dashboard.</li>
             <li>Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.</li>
+            <li>Click on the <strong>Choose a format to download</strong> <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> button at the bottom of the dashboard.</li>
             <li>The Image option downloads a screenshot of the dashboard. </li>
             <li>The Crosstab (Table) option allows the user to select the section of the dashboard to receive the tabular data and the output format (.xlsx or .csv).</li>
             <li>The PDF option allows the user to select what to include in the document ("This view", "Specific sheets from this dashboard" and "Specific sheet from this workbook"). Note that "Dashboard" refers to the tab the user is currently navigating, while "Workbook" allows the user to download a PDF from the other tabs.</li>
             <li>The PowerPoint option has the same settings as PDF, but downloads the content in a .pptx file.</li>
             <li>The Tableau Workbook option allows the user to download a file for viewing in Tableau. Note that the user is prompted to select a Tableau version to download the workbook.</li>
         </ol>
+    </div>
+
+    <h2 id="feedback">Feedback</h2>
+
+    <div class="mb-3">
+        If you encounter any issues while using our metric dashboards or would like to share feedback or request new metrics, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
     </div>
 </div>
 

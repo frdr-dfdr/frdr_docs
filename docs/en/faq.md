@@ -681,7 +681,7 @@
             </a>
             <div id="calculateChecksum" class="reuse collapse">
                 <div class="mb-3">
-                    Users can download a frdr-checksums-and-filetypes.md file from the FRDR interface for each dataset and independently validate data files at any time.
+                    Users can download a frdr-dfdr-checksums.txt file from the FRDR interface for each dataset and independently validate data files at any time.
                 </div>
                 <div class="mb-3">
                     There is a free tool to calculate SHA-256 checksums here: <a href="https://quickhash-gui.org/">https://quickhash-gui.org/</a>

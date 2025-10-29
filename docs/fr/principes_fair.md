@@ -18,8 +18,6 @@ Dans le DFDR, les principes FAIR s’articulent ainsi :
 
         <hr/>
 
-        <strong>F2. Les données sont décrites au moyen de métadonnées riches.</strong>
-
         <div class="mb-3">
             Tout le contenu déposé directement dans le DFDR doit se conformer aux gabarits à partir desquels une description en XML de Dublin Core et de DataCite peut être générée; les champs de métadonnées personnalisés sont supportés avec l’objectif de les mettre en concordance avec des normes existantes.
         </div>
@@ -29,7 +27,7 @@ Dans le DFDR, les principes FAIR s’articulent ainsi :
         <strong>F3. Les (méta)données sont enregistrées et indexées dans une ressource recherchable.</strong>
 
         <div class="mb-3">
-            Le point d’extrémité OAI du DFDR est utilisé pour moissonner les métadonnées aux fins de découvrabilité dans l’index du DFDR des dépôts de données canadiens et ce point d’extrémité est ouvert au public.
+            Le <a href="https://www.frdr-dfdr.ca/oai/request?verb=Identify">point d’extrémité OAI</a> du DFDR est utilisé pour moissonner les métadonnées aux fins de découvrabilité dans l’index du DFDR des dépôts de données canadiens et ce point d’extrémité est ouvert au public.
         </div>
 
         <strong>F4. Les métadonnées précisent l’identifiant des données.</strong>

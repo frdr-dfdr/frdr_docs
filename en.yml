@@ -21,7 +21,8 @@ nav:
   - "Downloading Datasets": downloading.md
   - "Searching for Datasets": searching.md
   - "FAQ": faq.md
-  - "User Metrics": user_metrics.md
+  - "FRDR-DFDR Metrics": FRDR-DFDR_metrics.md
+  - "Collection Metrics": collection_metrics.md
   - "FAIR Principles": fair_principles.md
   - "Style Guide": style_guide.md
   - "Advanced": advanced.md
@@ -58,7 +59,8 @@ extra:
       "Create a New Dataset Version": "fa-code-branch"
       "Advanced": "fa-search-plus"
       "FAQ": "fa-question"
-      "User Metrics": "fa-chart-line"
+      "FRDR-DFDR Metrics": "fa-chart-line"
+      "Collection Metrics": "fa-chart-line"
       "Change Log": "fa-undo"
       "FAIR Principles": "fa-eye"
       "Style Guide": "fa-font"
@@ -173,7 +175,7 @@ extra:
           url: "#data-reuse"
         "Dataset Versioning":
           url: "#dataset-versioning"
-      "User Metrics":
+      "FRDR-DFDR Metrics":
         "Available Metrics":
           url: "#available-metrics"
         "Navigation":
@@ -186,6 +188,17 @@ extra:
           url: "#downloads-dashboard"
         "Site Metrics Dashboard":
           url: "#site-metrics-dashboard"
+        "Downloading the Raw Data":
+          url: "#downloading-the-raw-data"
+        "Feedback":
+          url: "#feedback"
+      "Collection Metrics":
+        "1. Overview Tab":
+          url: "#1-overview-tab"
+        "2. Usage Trends Tab":
+          url: "#2-usage-trends-tab"
+        "3. Geographic Tab":
+          url: "#3-geographic-tab"
         "Downloading the Raw Data":
           url: "#downloading-the-raw-data"
         "Feedback":
@@ -264,7 +277,7 @@ extra:
             "Create a New Dataset Version": fr/créer_une_nouvelle_version/
             "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
-            "User Metrics": fr/indicateurs_d’utilisation/
+            "User Metrics": fr/indicateurs_FRDR-DFDR/
             "FAIR Principles": fr/principes_fair/
             "Style Guide": fr/guide_de_style/
             "Advanced": fr/avancee/
@@ -287,7 +300,7 @@ extra:
             "Créer une nouvelle version d’un jeu de données": en/create_new_version/
             "Téléchargement de jeux de données": /en/downloading/
             "FAQ": en/faq/
-            "Indicateurs d’utilisation": en/user_metrics/
+            "Indicateurs d’utilisation": en/FRDR-DFDR_metrics/
             "Principes FAIR": en/fair_principles/
             "Guide de style": en/style_guide/
             "Avancée": en/advanced/

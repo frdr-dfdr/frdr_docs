@@ -1,8 +1,41 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
-<strong>2025-04-30</strong>:
+<strong>2025-09-24</strong>:
+<ul>
+    <li>Improve collection metrics and put them on their own page</li>
+</ul>
 
+<strong>2025-08-27</strong>:
+<ul>
+    <li>Fixed resolution of external subpath links to: frdr.ca, dfdr.ca and frdr-dfdr.ca domains.</li>
+    <li>Added link to OAI-PMH endpoint in documentation.</li>
+    <li>Re-added file format metrics dashboard with link on front page.</li>
+    <li>Fixed bug preventing collaborators from editing datasets.</li>
+    <li>Update language and translations for French version of sensitive dataset workflows</li>
+    <li>Remove filetypes from frdr checksum files</li>
+</ul>
+
+<strong>2025-07-30</strong>:
+<ul>
+    <li>Fixed pdf layout for Sensitive Data documents</li>
+</ul>
+
+<strong>2025-06-25</strong>:
+<ul>
+    <li>Added collection access request fields to new user application process</li>
+</ul>
+
+<strong>2025-05-28</strong>:
+<ul>
+    <li>Stopped auto updating email address from Google, Orcid and other sources where we don’t get email updates</li>
+    <li>Fix issue with encoding of French-language example README.txt in documents.</li>
+    <li>Fix issue where some file listings for new submissions were not showing the license and citation files.</li>
+    <li>Don’t show version table if only a single version</li>
+</ul>
+
+
+<strong>2025-04-30</strong>:
 <ul>
     <li>New feature: Automatic updating of email address. If you change your email address in your Globus profile, this will be updated in FRDR as well.</li>
 </ul>

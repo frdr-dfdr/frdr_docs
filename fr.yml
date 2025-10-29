@@ -19,7 +19,8 @@ nav:
   - "Téléchargement de jeux de données": téléchargement.md
   - "Recherche de jeux de données": recherche.md
   - "FAQ": faq.md
-  - "Indicateurs d’utilisation": indicateurs_d’utilisation.md
+  - "Indicateurs d’utilisation": indicateurs_FRDR-DFDR.md
+  - "Indicateurs de collecte":  indicateurs_de_collecte.md
   - "Principes FAIR": principes_fair.md
   - "Guide de style": guide_de_style.md
   - "Avancée": avancee.md
@@ -181,6 +182,17 @@ extra:
           url: "#telechargement-des-donnees-brutes"
         "Commentaires":
           url: "#commentaires"
+      "Indicateurs de collecte":
+        "1. Onglet Aperçu":
+          url: "#1-onglet-apercu"
+        "2. Onglet Tendances d’usage":
+          url: "#2-onglet-tendances-dusage"
+        "3. Onglet Répartition géographique":
+          url: "#3-onglet-repartition-geographique"
+        "Téléchargement des données brutes":
+          url: "#telechargement-des-donnees-brutes"
+        "Commentaires":
+          url: "#commentaires"
       "Principes FAIR":
         "Ètre facile à trouver":
           url: "#etre-facile-a-trouver:"
@@ -278,7 +290,7 @@ extra:
             "Créer une nouvelle version d’un jeu de données": en/create_new_version/
             "Téléchargement de jeux de données": /en/downloading/
             "FAQ": en/faq/
-            "Indicateurs d’utilisation": en/user_metrics/
+            "Indicateurs d’utilisation": en/FRDR-DFDR_metrics/
             "Principes FAIR": en/fair_principles/
             "Guide de style": en/style_guide/
             "Avancée": en/advanced/

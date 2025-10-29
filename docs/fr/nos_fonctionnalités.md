@@ -41,6 +41,7 @@ showaboutsidebar: true
 
 
 
+<<<<<<< HEAD
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h2 id="services-de-curation">Services de curation</h2>
@@ -82,7 +83,7 @@ showaboutsidebar: true
 
         <ul>
             <li>Interface de découverte comprenant une fonction de recherche textuelle s’appuyant sur Globus Search</li>
-            <li>Libre accès aux métadonnées moissonnées conformément au protocole pour la collecte de métadonnées de l’Initiative pour les archives ouvertes (OAI-PMH)</li>
+            <li>Libre accès aux métadonnées moissonnées conformément au protocole pour la collecte de métadonnées de l’Initiative pour les archives ouvertes <a href="https://www.frdr-dfdr.ca/oai/request?verb=Identify">OAI-PMH</a></li>
             <li>Données répertoriées aux fins de découverte dans <a href="https://www.lunaris.ca/fr">Lunaris</a>, <a href="https://datasetsearch.research.google.com/">Dataset Search de Google</a>, <a href="https://explore.openaire.eu/">OpenAIRE</a>, <a href="https://search.datacite.org/">DataCite</a>, ProQuest, etc.</li>
         </ul>
     </div>

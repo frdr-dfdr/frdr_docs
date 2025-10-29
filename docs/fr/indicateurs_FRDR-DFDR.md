@@ -3,8 +3,7 @@
 Le Dépôt fédéré de données de recherche (DFDR) utilise le [logiciel Tableau](https://www.tableau.com/fr-ca/why-tableau/what-is-tableau)
 pour regrouper et présenter les statistiques de la plateforme.
 
-Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <strong>Métriques</strong>, accessible à partir de
-l’en-tête du site Web. Il est également possible d’y accéder par les pages de collection.
+Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <strong>Métriques</strong>, accessible à partir de l’en-tête du site Web. Il est également possible d’y accéder par les pages de collection.
 
 <hr />
 
@@ -17,7 +16,6 @@ l’en-tête du site Web. Il est également possible d’y accéder par les page
         </div>
 
         <ol>
-             <li><strong>Collections :</strong> Nombre total de collections non vides hébergées par le DFDR.</li>
              <li><strong>Jeux de données publiés :</strong> Nombre total de jeux de données publiés sur la plateforme du DFDR.</li>
              <li><strong>Données publiées (To) :</strong> Espace de stockage total utilisé pour tous les jeux de données publiés dans le DFDR, en téraoctets.</li>
              <li><strong>Vues des jeux de données :</strong> Nombre total de reprises auxquelles les utilisatrices et utilisateurs ont accédé aux jeux de données publiés dans le DFDR ou les ont consultés.</li>
@@ -35,13 +33,18 @@ l’en-tête du site Web. Il est également possible d’y accéder par les page
         <h2 id="navigation">Navigation</h2>
 
         <div class="mb-3">
-            La page <strong>Métriques</strong> présente trois onglets : <strong>Views Dashboard (Tableau de bord des vues)</strong> <strong>Download Dashboard (Tableau de bord des téléchargements)</strong> et <strong>Site Metrics Dashboard (Tableau de bord des indicateurs du site)</strong>. On y trouve également un menu déroulant pour les collections de jeux de données du DFDR.
+            La page <strong>Métriques</strong> présente trois onglets : <strong>Views Dashboard (Tableau de bord des vues)</strong>, <strong>Download Dashboard (Tableau de bord des téléchargements)</strong>, <strong>File Format Dashboard (Tableau de bord de file format)</strong> et <strong>Site Metrics Dashboard (Tableau de bord des indicateurs du site)</strong>.
         </div>
 
 
         <a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Capture d'écran montrant l'onglet de navigation supérieur." class="screenshot"/>
+        </a>
+
+        <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+            <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -83,6 +86,15 @@ l’en-tête du site Web. Il est également possible d’y accéder par les page
             <img src="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" alt="Capture d'écran montrant la vue de la carte." class="screenshot"/>
         </a>
 
+        <h2 id="tableau-de-bord-des-formats-de-fichiers">Tableau de bord des formats de fichiers</h2>
+
+        <div class="mb-3">
+            Le tableau de bord Statistiques des formats de fichiers fournit un aperçu des différents formats de fichiers des jeux de données du DRDR. Le côté gauche du graphique contient les catégories des formats de fichiers. L’axe horizontal en bas du graphique (l’axe X), Nombre de fichiers déposés, représente le nombre de fichiers associés à un format de fichier. Lorsque vous passez le curseur sur un format de fichier particulier, une boîte s’affichera au-dessus de la barre de comptage. En cliquant sur la barre, celle-ci apparaîtra en gris foncé et affichera le nombre total de fichiers associés au format particulier. Le tableau de bord comprend également une catégorie de format de fichier inconnu. Parfois, les outils dont on se sert pour identifier les formats de fichiers ne permettent pas d’identifier immédiatement ceux-ci au moment du dépôt des jeux de données. L’équipe du DFDR examine ces formats de fichier et prend des mesures pour en faciliter l’identification. Lorsque le tableau de bord Statistiques des formats de fichiers est actualisé, tous les types de fichiers qui n’avaient pas été reconnus auparavant seront automatiquement classés sous la catégorie qui leur est propre.
+        </div>
+
+
+        <h2 id="tableau-de-bord-des-téléchargements">Tableau de bord des téléchargements</h2>
+
         <div class="mb-3">
             Pour rétablir les réglages par défaut des graphiques, cliquer sur l’icône de réinitialisation <img alt="Alt" src="/docs/img/screenshots/user_metrics/RevertIcon.png" title="Revert Icon"> qui se trouve sous le tableau de bord.
         </div>
@@ -101,6 +113,11 @@ l’en-tête du site Web. Il est également possible d’y accéder par les page
         <div class="mb-3">
             Cet onglet fonctionne comme celui du tableau de bord des vues. Il est à noter que cette page indique le nombre de fichiers téléchargés, et non le nombre de téléchargements d’un dossier.
         </div>
+
+        <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" class="screenshot-lightbox">
+            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+            <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
+        </a>
     </div>
 </div>
 
@@ -141,7 +158,23 @@ l’en-tête du site Web. Il est également possible d’y accéder par les page
             <li>Avec l’option PowerPoint, les réglages sont les mêmes que pour le PDF, mais le fichier téléchargé est en format .pptx. </li>
             <li>Avec l’option Classeur Tableau, on télécharge un fichier à consulter dans l’application Tableau. Il est à noter qu’il faut d’abord sélectionner une version de Tableau. </li>
         </ol>
+
+        <div class="mb-3">
+            Pour télécharger les données du tableau de bord Statistiques des formats de fichiers, voici ce que vous devez faire :
+        </div>
+
+         <ol>
+             <li>Cliquez sur <strong>Choisir un format de téléchargement</strong> <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> au bas du tableau de bord</li>
+             <li>Choisissez le format de fichier que vous désirez parmi les options proposées, notamment Image, Tableau croisé dynamique, PDF, Présentation PowerPoint ou Classeur Excel</li>
+             <li>L’option Image permet de télécharger une capture d’écran du tableau de bord</li>
+             <li>L’option Tableau croisé permet à l’utilisateur de sélectionner la section du tableau de bord qui recevra les données tabulaires et le format de sortie (.xlsx ou .csv)</li>
+             <li>L’option PDF permet à l’utilisateur de sélectionner les éléments à inclure dans le document (« cette vue », « Feuilles précises de ce tableau de bord » et « Feuille précise de ce classeur »). Notez que « Tableau de bord » fait référence à l’onglet dans lequel se trouve l’utilisateur à ce moment de la navigation, tandis que « Classeur » permet à l’utilisateur de télécharger un fichier PDF depuis n’importe quel autre onglet.</li>
+             <li>L’option PowerPoint propose des réglages similaires à ceux de PDF, mais elle stocke les données sous forme de fichier pptx.</li>
+             <li>L’option Classeur du Tableau permet à l’utilisateur de télécharger un fichier pour l’afficher dans Tableau. Notez que l’utilisateur est invité à sélectionner une version Tableau lui permettant de télécharger le classeur.</li>
+         </ol>
+
     </div>
+
 </div>
 
 <div class="card-shadow mb-3">

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #FAQ
 
 <div class="d-flex">
@@ -680,7 +681,7 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
             </a>
             <div id="calculateChecksum" class="reuse collapse">
                 <div class="mb-3">
-                    Les utilisateur(-trice)s peuvent télécharger le fichier « frdr-checksums-and-filetypes.md » à partir de l’interface du DFDR pour chaque jeu de données et valider les fichiers de données individuellement à tout moment.
+                    Les utilisateur(-trice)s peuvent télécharger le fichier « frdr-dfdr-checksums.txt » à partir de l’interface du DFDR pour chaque jeu de données et valider les fichiers de données individuellement à tout moment.
                 </div>
                 <div class="mb-3">
                     Voici un outil gratuit pour calculer les sommes de contrôle SHA-256 : https://quickhash-gui.org/.

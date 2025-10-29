@@ -25,7 +25,7 @@ FRDR supports the FAIR Principles in the following ways:
 
         <div class="card-title">F3. (meta)data are registered or indexed in a searchable resource.</div>
         <div class="mb-3">
-            FRDR's own OAI endpoint is used to harvest metadata for discovery in FRDR's index of Canadian data repositories, and this OAI endpoint is open to the public.
+            FRDR's own <a href="https://www.frdr-dfdr.ca/oai/request?verb=Identify">OAI endpoint</a> is used to harvest metadata for discovery in FRDR's index of Canadian data repositories, and this OAI endpoint is open to the public.
         </div>
 
         <hr/>
