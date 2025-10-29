@@ -3,15 +3,16 @@ This is a list of changes to FRDR, starting with the most recent:
 
 <strong>2025-10-29</strong>:
 <ul>
-    <li>Show all versioned items in searches with version badges / tags</li>
+    <li>Displayed versioned datasets separately and added version tags on public search page</li>
     <li>Fix quota display to show quotas for all users</li>
     <li>Show collection links in quota panel on publication dashboard</li>
-    <li>Prevent double counting of previous version files for quota</li>
+    <li>Improved file cache generation to prevent double counting of previous version files in quota calculation.</li>
     <li>Readme file now required for submission</li>
     <li>Improved help text for adding collaborators</li>
-    <li>Improve new user submitter applications</li>
-    <li>Improve sensitive data email templates for submission workflow</li>
-    <li>If more information requested for access to sensitive data, make message required</li>
+    <li>Streamlined new user submitter email</li>
+    <li>Updated and fixed issues related to sensitive data, including improved workflows, messaging, and email templates</li>
+    <li>Applied redesigned UI to documentation, policy and about pages</li>
+    <li>Added search functionality to documentation, policy and about pages</li>
 </ul>
 
 <strong>2025-09-24</strong>:
