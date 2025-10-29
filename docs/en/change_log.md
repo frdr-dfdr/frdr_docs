@@ -11,7 +11,7 @@ This is a list of changes to FRDR, starting with the most recent:
     <li>Improved help text for adding collaborators</li>
     <li>Improve new user submitter applications</li>
     <li>Improve sensitive data email templates for submission workflow</li>
-    <li>Message field required for submitter if request for more information sent back.</li>
+    <li>If more information requested for access to sensitive data, make message required</li>
 </ul>
 
 <strong>2025-09-24</strong>:
