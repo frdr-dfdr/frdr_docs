@@ -102,18 +102,16 @@ They are also accessible via individual collection pages.
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2 id="site-metrics-dashboard">Site Metrics Dashboard</h2>
-
-        <div class="mb-3">
-            On this tab, the top row displays the total number of published datasets, or datasets per collection if a collection is selected from the drop-down menu. The bottom row shows the total data deposited in terabytes (TB) for published deposits.  Hovering over the trend graphs shows the evolution of dataset deposits over time.
-        </div>
-
         <h2 id="file-format-dashboard">File Format Dashboard</h2>
 
         <div class="mb-3">
             The File Format Statistics dashboard provides an overview of the different file formats in the datasets found in FRDR. The left side of the graph contains the file format categories. The bottom x-axis, <strong>Number of files deposited</strong>, represents the number of files associated with a file format. Hovering over a specific file format will create a box over the count bar. Clicking on the bar will highlight the bar in dark grey and will display the total number of files associated with the specific format. The dashboard also includes an unknown file format category. Sometimes the tools used to identify file formats cannot immediately identify file formats when datasets are deposited. The FRDR Team reviews these file formats and takes action to help with their identification. When the File Format Statistics dashboard is refreshed file formats that were previously identified as unknown will move to the appropriate file format category.
         </div>
+    </div>
+</div>
 
+<div class="card-shadow mb-3">
+    <div class="card-body">
         <h2 id="site-metrics-dashboard">Site Metrics Dashboard</h2>
 
         <div class="mb-3">
@@ -139,7 +137,7 @@ They are also accessible via individual collection pages.
             <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
         </a>
 
-        <ol>
+        <ol class="mt-3">
             <li>Click on the <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> icon located just below the dashboard.</li>
             <li>Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.</li>
             <li>Click on the <strong>Choose a format to download</strong> <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> button at the bottom of the dashboard.</li>
@@ -150,17 +148,12 @@ They are also accessible via individual collection pages.
             <li>The Tableau Workbook option allows the user to download a file for viewing in Tableau. Note that the user is prompted to select a Tableau version to download the workbook.</li>
         </ol>
     </div>
-
-    <h2 id="feedback">Feedback</h2>
-
-    <div class="mb-3">
-        If you encounter any issues while using our metric dashboards or would like to share feedback or request new metrics, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca).
-    </div>
 </div>
 
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h2 id="feedback">Feedback</h2>
+
         <div class="mb-3">
             If you encounter any issues while using our metric dashboards or would like to share feedback or request new metrics, please contact us at <a href="(mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
         </div>

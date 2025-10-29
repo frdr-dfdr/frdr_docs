@@ -277,34 +277,12 @@ extra:
             "Create a New Dataset Version": fr/créer_une_nouvelle_version/
             "Downloading": fr/téléchargement/
             "FAQ": fr/faq/
-            "User Metrics": fr/indicateurs_FRDR-DFDR/
+            "FRDR-DFDR Metrics": fr/indicateurs_FRDR-DFDR/
+            "Collection Metrics": fr/indicateurs_de_collecte/
             "FAIR Principles": fr/principes_fair/
             "Style Guide": fr/guide_de_style/
             "Advanced": fr/avancee/
             "Accessibility": fr/accessibilité
-        fr:
-            "Notre mission": en/our_mission/
-            "Nos fonctionnalités": en/our_features/
-            "Notre gouvernance": en/our_governance/
-            "Notre équipe": en/our_team/
-            "Nos partenaires": en/our_partners/
-            "Notre parcours": en/our_journey/
-            "Recherche de jeux de données": en/searching/
-            "Préparation de vos données": en/preparing_your_data/
-            "Avant de déposer": en/before_depositing/
-            "Tableau de bord et paramètres": en/dashboard/
-            "Description de vos données": en/describing_your_data/
-            "Déposer les données": en/depositing_data/
-            "Évaluation externe": en/external_review/
-            "Après le dépôt": en/after_depositing/
-            "Créer une nouvelle version d’un jeu de données": en/create_new_version/
-            "Téléchargement de jeux de données": /en/downloading/
-            "FAQ": en/faq/
-            "Indicateurs d’utilisation": en/FRDR-DFDR_metrics/
-            "Principes FAIR": en/fair_principles/
-            "Guide de style": en/style_guide/
-            "Avancée": en/advanced/
-            "Accessibilité": en/accessibility
 
 markdown_extensions:
     - pymdownx.extra

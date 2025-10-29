@@ -33,19 +33,19 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
         <h2 id="navigation">Navigation</h2>
 
         <div class="mb-3">
-            La page <strong>Métriques</strong> présente trois onglets : <strong>Views Dashboard (Tableau de bord des vues)</strong>, <strong>Download Dashboard (Tableau de bord des téléchargements)</strong>, <strong>File Format Dashboard (Tableau de bord de file format)</strong> et <strong>Site Metrics Dashboard (Tableau de bord des indicateurs du site)</strong>.
+            La page Métriques présente trois onglets : Views Dashboard (Tableau de bord des vues), Download Dashboard (Tableau de bord des téléchargements), File Format Dashboard (Tableau de bord de file format) et Site Metrics Dashboard (Tableau de bord des indicateurs du site).
         </div>
-
 
         <a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Capture d'écran montrant l'onglet de navigation supérieur." class="screenshot"/>
         </a>
+    </div>
+</div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" class="screenshot-lightbox">
-            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
-        </a>
+<div class="card-shadow mb-3">
+    <div class="card-body">
+
     </div>
 </div>
 
@@ -57,9 +57,9 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             Cet onglet est divisé en trois sections. Tout d’abord, on peut voir le nombre total de vues des jeux de données (coin supérieur gauche) ainsi que les tendances au fil du temps (coin supérieur droit). En passant la souris sur la courbe de tendance, on peut voir le nombre de vues jusqu’à la date choisie. Ensuite, dans la section Jeux de données les plus consultés se trouve une liste des jeux de données du DFDR en nombre décroissant de vues. Enfin, la carte du monde interactive au bas de la page indique les vues par pays. En cliquant sur un jeu de données, on peut accéder à la page de renvoi du jeu de données dans le DFDR. Les mêmes renseignements s’affichent lorsque l’on sélectionne une collection du menu déroulant.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" class="screenshot-lightbox">
+        <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
+            <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -85,24 +85,6 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
             <img src="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" alt="Capture d'écran montrant la vue de la carte." class="screenshot"/>
         </a>
-
-        <h2 id="tableau-de-bord-des-formats-de-fichiers">Tableau de bord des formats de fichiers</h2>
-
-        <div class="mb-3">
-            Le tableau de bord Statistiques des formats de fichiers fournit un aperçu des différents formats de fichiers des jeux de données du DRDR. Le côté gauche du graphique contient les catégories des formats de fichiers. L’axe horizontal en bas du graphique (l’axe X), Nombre de fichiers déposés, représente le nombre de fichiers associés à un format de fichier. Lorsque vous passez le curseur sur un format de fichier particulier, une boîte s’affichera au-dessus de la barre de comptage. En cliquant sur la barre, celle-ci apparaîtra en gris foncé et affichera le nombre total de fichiers associés au format particulier. Le tableau de bord comprend également une catégorie de format de fichier inconnu. Parfois, les outils dont on se sert pour identifier les formats de fichiers ne permettent pas d’identifier immédiatement ceux-ci au moment du dépôt des jeux de données. L’équipe du DFDR examine ces formats de fichier et prend des mesures pour en faciliter l’identification. Lorsque le tableau de bord Statistiques des formats de fichiers est actualisé, tous les types de fichiers qui n’avaient pas été reconnus auparavant seront automatiquement classés sous la catégorie qui leur est propre.
-        </div>
-
-
-        <h2 id="tableau-de-bord-des-téléchargements">Tableau de bord des téléchargements</h2>
-
-        <div class="mb-3">
-            Pour rétablir les réglages par défaut des graphiques, cliquer sur l’icône de réinitialisation <img alt="Alt" src="/docs/img/screenshots/user_metrics/RevertIcon.png" title="Revert Icon"> qui se trouve sous le tableau de bord.
-        </div>
-
-        <a href="/docs/img/screenshots/user_metrics/metrics_reset_map_button.png" class="screenshot-lightbox">
-            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_reset_map_button.png" alt="Capture d'écran montrant le bouton de réinitialisation de la carte." class="screenshot"/>
-        </a>
     </div>
 </div>
 
@@ -114,12 +96,19 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             Cet onglet fonctionne comme celui du tableau de bord des vues. Il est à noter que cette page indique le nombre de fichiers téléchargés, et non le nombre de téléchargements d’un dossier.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" class="screenshot-lightbox">
-            <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
-        </a>
     </div>
 </div>
+
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="tableau-de-bord-des-formats-de-fichiers">Tableau de bord des formats de fichiers</h2>
+
+        <div class="mb-3">
+            Le tableau de bord Statistiques des formats de fichiers fournit un aperçu des différents formats de fichiers des jeux de données du DRDR. Le côté gauche du graphique contient les catégories des formats de fichiers. L’axe horizontal en bas du graphique (l’axe X), Nombre de fichiers déposés, représente le nombre de fichiers associés à un format de fichier. Lorsque vous passez le curseur sur un format de fichier particulier, une boîte s’affichera au-dessus de la barre de comptage. En cliquant sur la barre, celle-ci apparaîtra en gris foncé et affichera le nombre total de fichiers associés au format particulier. Le tableau de bord comprend également une catégorie de format de fichier inconnu. Parfois, les outils dont on se sert pour identifier les formats de fichiers ne permettent pas d’identifier immédiatement ceux-ci au moment du dépôt des jeux de données. L’équipe du DFDR examine ces formats de fichier et prend des mesures pour en faciliter l’identification. Lorsque le tableau de bord Statistiques des formats de fichiers est actualisé, tous les types de fichiers qui n’avaient pas été reconnus auparavant seront automatiquement classés sous la catégorie qui leur est propre.
+        </div>
+    </div>
+</div>
+
 
 <div class="card-shadow mb-3">
     <div class="card-body">
@@ -129,9 +118,9 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             Sous cet onglet, la rangée supérieure affiche le nombre total de jeux de données publiés, ou encore les jeux de données par collection, si on a sélectionné une collection dans le menu déroulant. La rangée inférieure montre la somme en téraoctet (To) des données déposées pour les dépôts publiés. En passant la souris sur les graphiques de tendance, on peut voir l’évolution des dépôts de jeux de données au fil du temps.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" class="screenshot-lightbox">
+        <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
+            <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -149,21 +138,11 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
         </a>
 
-        <ol>
-             <li>Cliquer sur l’icône <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> sous le tableau de bord. </li>
-             <li>Sélectionner le format de fichier du téléchargement : image, tableau croisé, PDF, PowerPoint ou classeur Tableau. </li>
-            <li>Avec l’option Image, on télécharge une capture d’écran du tableau de bord. </li>
-             <li>Avec l’option Tableau croisé, on peut sélectionner la section du tableau de bord de laquelle tirer les données tabulaires ainsi que le format de sortie (.xlsx ou .csv). </li>
-             <li>Avec l’option PDF, on peut sélectionner les éléments à inclure dans le document (« Cette vue », « Feuilles spécifiques de ce tableau de bord » ou « Feuilles spécifiques de ce classeur »). Il est à noter qu’avec l’option de « tableau de bord », on télécharge le tableau actif, alors qu’avec l’option « classeur », on télécharge les autres onglets vers un fichier PDF. </li>
-            <li>Avec l’option PowerPoint, les réglages sont les mêmes que pour le PDF, mais le fichier téléchargé est en format .pptx. </li>
-            <li>Avec l’option Classeur Tableau, on télécharge un fichier à consulter dans l’application Tableau. Il est à noter qu’il faut d’abord sélectionner une version de Tableau. </li>
-        </ol>
-
         <div class="mb-3">
             Pour télécharger les données du tableau de bord Statistiques des formats de fichiers, voici ce que vous devez faire :
         </div>
 
-         <ol>
+         <ol class="mt-3">
              <li>Cliquez sur <strong>Choisir un format de téléchargement</strong> <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> au bas du tableau de bord</li>
              <li>Choisissez le format de fichier que vous désirez parmi les options proposées, notamment Image, Tableau croisé dynamique, PDF, Présentation PowerPoint ou Classeur Excel</li>
              <li>L’option Image permet de télécharger une capture d’écran du tableau de bord</li>
