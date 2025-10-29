@@ -1,6 +1,19 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
+<strong>2025-10-29</strong>:
+<ul>
+    <li>Show all versioned items in searches with version badges / tags</li>
+    <li>Fix quota display to show quotas for all users</li>
+    <li>Show collection links in quota panel on publication dashboard</li>
+    <li>Prevent double counting of previous version files for quota</li>
+    <li>Readme file now required for submission</li>
+    <li>Improved help text for adding collaborators</li>
+    <li>Improve new user submitter applications</li>
+    <li>Improve sensitive data email templates for submission workflow</li>
+    <li>Message field required for submitter if request for more information sent back.</li>
+</ul>
+
 <strong>2025-09-24</strong>:
 <ul>
     <li>Improve collection metrics and put them on their own page</li>
