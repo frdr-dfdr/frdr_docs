@@ -236,8 +236,6 @@ extra:
           url: "#service-team"
         "Development Team":
           url: "#development-team"
-        "Communications Team":
-          url: "#communications-team"
     about:
       - "Our Mission":
         title: "Our Mission"
