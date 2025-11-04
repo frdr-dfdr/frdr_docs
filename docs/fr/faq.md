@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #FAQ
 
 <div class="d-flex">
@@ -272,10 +271,10 @@
             </a>
             <div id="readme" class="submission collapse">
                 <div class="mb-3">
-                    Les documents fournissent un contexte pour vos données, de sorte que nous vous recommandons fortement d’inclure un fichier Lisez-moi, un livre de codes ou tout autre document nécessaire pour garantir que vos données pourront être comprises et interprétées correctement au fil du temps!
+                    La documentation fournit un contexte essentiel à vos données. Dans le DFDR, vous devez obligatoirement inclure un fichier Lisez-moi. De plus, nous vous suggérons fortement recommandé d’ajouter un répertoire de codes (codebook) ou tout autre ressource didactique pour assurer la compréhension et l’interprétation adéquates de vos données dans les années à venir.
                 </div>
                 <div class="mb-3">
-                    Pour obtenir d’autres conseils ou voir un modèle de fichier Lisez-moi, consultez la section <a href="/docs/fr/préparation_de_vos_données/#documentation-de-votre-soumission">Documentation de votre soumission</a>. Notre équipe de curation se fait également un plaisir de vous aider à créer des documents pour votre jeu de données. Si vous avez besoin d’aide, n’hésitez pas à nous écrire à <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a>.
+                    Vous pouvez concevoir votre propre fichier Lisez-moi ou bien utiliser le modèle de fichier Lisez-moi du DFDR — adapté de celui de Cornell — disponible en <a target="_blank" href="/docs/txt/README-fr.txt">français</a> et en <a target="_blank" href="/docs/txt/README.txt">anglais</a>. Notre équipe de curation se fera un plaisir de vous aider à mettre au point la documentation de votre jeu de données. N’hésitez pas à nous écrire à l’adresse <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> si vous souhaitez obtenir de l’aide.
                 </div>
             </div>
         </div>

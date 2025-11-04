@@ -269,10 +269,10 @@
             </a>
             <div id="readme" class="submission collapse">
                 <div class="mb-3">
-                    Documentation will provide context for your data, and we strongly recommend that you include a README, acodebook or other documentation to ensure your data can be understood and interpreted correctly over time!
+                    Documentation will provide context for your data. In FRDR, including a README file is mandatory. We also strongly recommend adding a codebook or other supporting documentation to ensure your data can be accurately understood and interpreted over time.
                 </div>
                 <div class="mb-3">
-                    For further guidance and a README template, please see <a href="/docs/en/preparing_your_data/#documenting-your-submission">Documenting Your Submission</a> . Our curation team is also happy to work with you to create documentation for your dataset. Please reach out to <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> if you would like assistance.
+                    You’re welcome to create your own README, or you may use the FRDR README template—adapted from Cornell—available in both <a target="_blank" href="/docs/txt/README.txt">English</a> and <a target="_blank" href="/docs/txt/README-fr.txt">French</a>. Our curation team is also happy to work with you to develop documentation for your dataset. Please reach out to <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> if you would like assistance.
                 </div>
             </div>
         </div>
