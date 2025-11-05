@@ -44,7 +44,7 @@ Once you submit your dataset, your deposit will be queued for review by a curato
         </div>
 
         <div class="mb-3">
-            After a dataset is approved by a curator, <a href="https://en.wikipedia.org/wiki/Checksum">checksums</a> are calculated for each file in the dataset and recorded in a text file (frdr-checksums-and-filetypes.md) along with file name and format information. Researchers can download this information from the dataset page on FRDR and independently validate the integrity of the data files. Checksums are calculated using the <a href="https://en.wikipedia.org/wiki/SHA-2">SHA-256</a> algorithm, which can be validated using <a href="https://www.quickhash-gui.org/">QuickHash GUI</a> .
+            After a dataset is approved by a curator, <a href="https://en.wikipedia.org/wiki/Checksum">checksums</a> are calculated for each file in the dataset and recorded in a text file (frdr-dfdr-checksums.txt) along with the file name. Researchers can download this information from the dataset page on FRDR and independently validate the integrity of the data files. Checksums are calculated using the <a href="https://en.wikipedia.org/wiki/SHA-2">SHA-256</a> algorithm, which can be validated using <a href="https://www.quickhash-gui.org/">QuickHash GUI</a> .
         </div>
 
         <div class="mb-3">
@@ -55,9 +55,6 @@ Once you submit your dataset, your deposit will be queued for review by a curato
             To learn more about FRDR’s role in research data preservation in Canada, please see this 2018 <a href="https://doi.org/10.14288/1.0371946">report</a> published by the Preservation Expert Group.
         </div>
 
-        <div class="mb-3">
-            After a dataset is approved by a curator, <a href="https://en.wikipedia.org/wiki/Checksum">checksums</a> are calculated for each file in the dataset and recorded in a text file (frdr-dfdr-checksums.txt) along with the file name. Researchers can download this information from the dataset page on FRDR and independently validate the integrity of the data files. Checksums are calculated using the <a href="https://en.wikipedia.org/wiki/SHA-2">SHA-256</a> algorithm, which can be validated using <a href="https://www.quickhash-gui.org/">QuickHash GUI</a> .
-        </div>
     </div>
 </div>
 
