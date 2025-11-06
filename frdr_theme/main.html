@@ -417,6 +417,9 @@
                 this.style.setProperty( 'padding-top', '0px', 'important' );
                 this.style.setProperty( 'margin-top', '0px', 'important' );
             });
+            $(".docs-card-search").hide();
+            // Move the header down so it looks better in iframe
+            $("h1").addClass("mt-5");
         }
 
         if (window.location.href.includes("hidesidebar")) {
@@ -424,7 +427,10 @@
         }
 
         if (window.location.href.includes("hidefooter")) {
-            $(".frdr-jumbo-footer").hide();
+            $(".site-footer").hide();
+            $(".feedback").hide();
+            // Class d-flex preventing hiding of feedback
+            $(".feedback").removeClass("d-flex");
         }
 
         // Always show a way for the user to close the lightbox.
