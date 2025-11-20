@@ -5,7 +5,7 @@ FRDR will assign a DOI to your new version, but your original DOI will continue 
 
 **If only metadata changes are required (e.g., to link to a published article, change author order, or augment the dataset description), or if there is an issue that necessitates completely removing a file from all versions, please contact us at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca)**. If you need to change the files in a dataset that is under embargo or in external review (i.e., not yet publicly available), we also ask you to contact us.
 
-If you have a very large dataset and a substantial number of changes, please contact the FRDR service team at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca). We are happy to consult with you about the best path forward.
+For datasets larger than 25 TB, submitters will not be able to initiate a new version themselves. Please contact the FRDR support team at [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) for assistance with creating a new version.
 
 <div class="card-shadow mb-5">
     <div class="card-body" style="padding: 0em;">

@@ -6,7 +6,7 @@ Le DFDR attribue un identifiant numérique d’objet (DOI) à votre nouvelle ver
 
 <strong>Si les changements ne concernent que les métadonnées (ex. : lien vers un article publié, ordre des auteurs, amélioration de la description du jeu de données), ou si un problème nécessite le retrait total d’un fichier dans toutes les versions, veuillez nous écrire à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca)</strong>. Nous vous demandons aussi de communiquer avec nous s’il faut modifier les fichiers dans un jeu de données sous embargo ou en évaluation à l’externe (autrement dit, si le jeu de données n’est pas encore publié).
 
-Avant d’apporter un nombre important de changements dans un jeu de données massif, veuillez écrire à l’équipe de service du DFDR à [support@frdr-dfdr.ca;](mailto:support@frdr-dfdr.ca) elle se fera un plaisir de vous conseiller sur la meilleure façon de s’y prendre.
+Pour les jeux de données supérieurs à 25 To, les auteurs ne pourront pas créer eux-mêmes une nouvelle version. Veuillez contacter l'équipe d'assistance DFDR à l'adresse [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour obtenir de l'aide afin de créer une nouvelle version.
 
 <div class="card-shadow mb-5">
     <div class="card-body" style="padding: 0em;">
