@@ -1,6 +1,16 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
+<strong>2025-11-26</strong>:
+<ul>
+    <li>Added version tags to the item list on collection home pages where appropriate.</li>
+    <li>Create a new version of datasets limited to 25 TB or less. Contact support to create a new version for a large dataset.</li>
+    <li>Fix readme upload causing internal server error.</li>
+    <li>Fix error when trying to set or update Orcid ID on user profile page.</li>
+    <li>Advanced curator search.</li>
+</ul>
+
+
 <strong>2025-10-29</strong>:
 <ul>
     <li>Displayed versioned datasets separately and added version tags on public search page</li>
