@@ -70,6 +70,7 @@ extra:
       "Our Team": "fa-users"
       "Our Partners": "fa-handshake"
       "Our Journey": "fa-map-marked-alt"
+      "Why Publish on FRDR?": "fa-question"
 
     toc_items:
       "Preparing Your Data":
@@ -236,6 +237,15 @@ extra:
           url: "#service-team"
         "Development Team":
           url: "#development-team"
+      "Why Publish on FRDR?":
+        "Common Criteria for Data Repositories from Journals":
+          url: "#common-criteria-for-data-repositories-from-journals"
+        "Additional features that make your datasets as FAIR and open as possible":
+          url: "#additional-features-that-make-your-datasets-as-fair-and-open-as-possible"
+        "Restrictions on submission":
+          url: "#restrictions-on-submission"
+        "Final comments":
+          url: "#final-comments"
     about:
       - "Our Mission":
         title: "Our Mission"
@@ -255,6 +265,9 @@ extra:
       - "Our Journey": our_journey.md
         title: "Our Journey"
         url: "our_journey"
+      - "Why Publish on FRDR?": why_publish_on_frdr.md
+        title: "Why Publish on FRDR?"
+        url: "why_publish_on_frdr"
 
     language_map:
         en:
@@ -264,6 +277,7 @@ extra:
             "Our team": fr/notre_équipe/
             "Our partners": fr/nos_partenaires/
             "Our journey": fr/notre_parcours/
+            "Why Publish on FRDR?": fr/pourquoi_publier_sur_le_DFDR/
             "Searching for Datasets": fr/recherche/
             "Preparing Your Data": fr/préparation_de_vos_données/
             "Before Depositing": fr/avant_de_déposer/

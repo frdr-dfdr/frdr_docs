@@ -65,6 +65,7 @@ extra:
       "Notre équipe": "fa-users"
       "Nos partenaires": "fa-handshake"
       "Notre parcours": "fa-map-marked-alt"
+      "Pourquoi publier sur le DFDR ?": "fa-question"
     toc_items:
       "Préparation de vos données":
         "Sélection des types de données à déposer":
@@ -226,6 +227,15 @@ extra:
           url: "#équipe-des-services"
         "Équipe de développement":
           url: "#équipe-de-developpement"
+      "Pourquoi publier sur le DFDR ?":
+        "Critères généralement exigés par les revues en matière de dépôts de données":
+          url: "#critères-généralement-exigés-par-les-revues-en-matière-de-dépôts-de-données"
+        "Fonctionnalités supplémentaires pour rendre vos données FAIR et ouvertes":
+          url: "#fonctionnalités-supplémentaires-pour-rendre-vos-données-fair-et-ouvertes"
+        "Restrictions relatives à la soumission":
+          url: "#restrictions-relatives-à-la-soumission"
+        "Remarques finales":
+          url: "#remarques-finales"
     about:
       - "Notre mission":
         title: "Notre mission"
@@ -245,6 +255,9 @@ extra:
       - "Notre parcours":
         title: "Notre parcours"
         url: "notre_parcours"
+      - "Pourquoi publier sur le DFDR ?":
+        title: "Pourquoi publier sur le DFDR ?"
+        url: "pourquoi_publier_sur_le_DFDR"
 
     language_map:
         fr:
@@ -254,6 +267,7 @@ extra:
             "Notre équipe": en/our_team/
             "Nos partenaires": en/our_partners/
             "Notre parcours": en/our_journey/
+            "Pourquoi publier sur le DFDR ?": en/why_publish_on_frdr/
             "Recherche de jeux de données": en/searching/
             "Préparation de vos données": en/preparing_your_data/
             "Avant de déposer": en/before_depositing/
