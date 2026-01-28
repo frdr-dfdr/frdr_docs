@@ -1,6 +1,14 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
+<strong>2025-01-28</strong>:
+<ul>
+    <li>Improved documentation and added details to new user applications</li>
+    <li>Improved external review process</li>
+    <li>Curator search report</li>
+    <li>Disable collection metrics when no datasets in collection</li>
+</ul>
+
 <strong>2025-11-26</strong>:
 <ul>
     <li>Added version tags to the item list on collection home pages where appropriate.</li>
