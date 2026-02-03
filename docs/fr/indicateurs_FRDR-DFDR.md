@@ -36,9 +36,9 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             La page Métriques présente trois onglets : Views Dashboard (Tableau de bord des vues), Download Dashboard (Tableau de bord des téléchargements), File Format Dashboard (Tableau de bord de file format) et Site Metrics Dashboard (Tableau de bord des indicateurs du site).
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Capture d'écran montrant l'onglet de navigation supérieur." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Capture d'écran montrant l'onglet de navigation supérieur." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -57,9 +57,9 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             Cet onglet est divisé en trois sections. Tout d’abord, on peut voir le nombre total de vues des jeux de données (coin supérieur gauche) ainsi que les tendances au fil du temps (coin supérieur droit). En passant la souris sur la courbe de tendance, on peut voir le nombre de vues jusqu’à la date choisie. Ensuite, dans la section Jeux de données les plus consultés se trouve une liste des jeux de données du DFDR en nombre décroissant de vues. Enfin, la carte du monde interactive au bas de la page indique les vues par pays. En cliquant sur un jeu de données, on peut accéder à la page de renvoi du jeu de données dans le DFDR. Les mêmes renseignements s’affichent lorsque l’on sélectionne une collection du menu déroulant.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_view_tab_1_fr.png" alt="écran montrant dans l'onglet d'affichage." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -72,18 +72,18 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             Le tableau de bord des vues comporte une carte du monde indiquant le nombre de vues par pays. À gauche, la barre de recherche permet de chercher n’importe quel pays pour y centrer la carte. Le nombre total de vues d’un jeu de données apparaît lorsque le curseur passe sur la carte. De plus, les icônes de signes plus et moins, à gauche, permettent de faire un zoom avant ou arrière, l’icône de maison rétablit la vue par défaut (Canada) et l’icône de lecture propose des fonctions interactives pour la carte.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_map_view.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_map_view.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_map_view.png" alt="Capture d'écran montrant la vue de la carte." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_map_view.png" alt="Capture d'écran montrant la vue de la carte." class="screenshot"/>
         </a>
 
         <div class="mb-3">
             Il est possible de sélectionner plusieurs pays avec la touche de contrôle (Windows) ou la touche de commande (Mac), auquel cas une nouvelle fenêtre présente la somme des vues (surlignement jaune) dans les pays sélectionnés.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_map_view_2.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" alt="Capture d'écran montrant la vue de la carte." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_map_view_2.png" alt="Capture d'écran montrant la vue de la carte." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -118,9 +118,9 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             Sous cet onglet, la rangée supérieure affiche le nombre total de jeux de données publiés, ou encore les jeux de données par collection, si on a sélectionné une collection dans le menu déroulant. La rangée inférieure montre la somme en téraoctet (To) des données déposées pour les dépôts publiés. En passant la souris sur les graphiques de tendance, on peut voir l’évolution des dépôts de jeux de données au fil du temps.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_site_usage_tab_fr.png" alt="Capture d'écran montrant l'onglet Utilisation du site." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -133,9 +133,9 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
             On peut facilement accéder aux données présentées dans les tableaux de bord en suivant les étapes ci-dessous :
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
         </a>
 
         <div class="mb-3">
@@ -143,7 +143,7 @@ Les utilisatrices et utilisateurs peuvent consulter ces dernières sur la page <
         </div>
 
          <ol class="mt-3">
-             <li>Cliquez sur <strong>Choisir un format de téléchargement</strong> <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> au bas du tableau de bord</li>
+             <li>Cliquez sur <strong>Choisir un format de téléchargement</strong> <img alt="Alt" src="/docs/en/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> au bas du tableau de bord</li>
              <li>Choisissez le format de fichier que vous désirez parmi les options proposées, notamment Image, Tableau croisé dynamique, PDF, Présentation PowerPoint ou Classeur Excel</li>
              <li>L’option Image permet de télécharger une capture d’écran du tableau de bord</li>
              <li>L’option Tableau croisé permet à l’utilisateur de sélectionner la section du tableau de bord qui recevra les données tabulaires et le format de sortie (.xlsx ou .csv)</li>

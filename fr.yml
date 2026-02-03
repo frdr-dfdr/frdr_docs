@@ -130,6 +130,8 @@ extra:
       "Après le dépôt":
         "Curation":
           url: "#curation"
+        "Comment soumettre de nouveau votre jeu de données après la curation":
+          url: "#comment-soumettre-de-nouveau-votre-jeu-de-données-après-la-curation"
         "Préservation":
           url: "#preservation"
       "Créer une nouvelle version d’un jeu de données":

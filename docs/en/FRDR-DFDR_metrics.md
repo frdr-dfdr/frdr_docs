@@ -35,9 +35,9 @@ They are also accessible via individual collection pages.
             The metric page has four tabs (Views Dashboard, Download Dashboards, Site Metrics Dashboards, File Format Dashboard).
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_nav_tab.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Screenshot showing the top navigation tab." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_nav_tab.png" alt="Screenshot showing the top navigation tab." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -50,9 +50,9 @@ They are also accessible via individual collection pages.
             This tab is divided into three sections. First, the user will find the total number of dataset views (top left) and the trend over time (top right). Hovering the mouse over the trendline shows the number of views up to the specified date.  Next, the "Top Viewed Datasets" section lists the FRDR datasets from largest to smallest views. Finally, the navigable world map at the bottom shows views per country.  By clicking on a specific dataset, the user can navigate to the dataset’s landing page in FRDR.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_view_tab_1.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_view_tab_1.png" alt="Screenshot showing the views tab." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_view_tab_1.png" alt="Screenshot showing the views tab." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -65,27 +65,27 @@ They are also accessible via individual collection pages.
             The Views dashboard displays a map of the world showing views by country.  On the left, the search bar allows the user to search for any country worldwide. This will redirect the map to the country of interest. Hovering over the map will show the total number of dataset views. In addition, the plus and minus icons on the left-hand panel allow the user to zoom in and out of the map. The home icons return to the default view of Canada. By hovering over the play icon, the user can select the pan tool to interactively navigate the map.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_map_view.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_map_view.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_map_view.png" alt="Screenshot showing the view map." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_map_view.png" alt="Screenshot showing the view map." class="screenshot"/>
         </a>
 
         <div class="mb-3">
             The user can press the control key (Windows) or command key (Mac) to interactively select different countries on the map. A new window opens with information about the sum of views (yellow highlighting) within the selected countries.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_map_view_2.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_map_view_2.png" alt="Screenshot showing the view map." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_map_view_2.png" alt="Screenshot showing the view map." class="screenshot"/>
         </a>
 
         <div class="mb-3">
-            To revert graphs to their default settings, click the reset view icon <img alt="Alt" src="/docs/img/screenshots/user_metrics/RevertIcon.png" title="Revert Icon"> just below the dashboard.
+            To revert graphs to their default settings, click the reset view icon <img alt="Alt" src="/docs/en/img/screenshots/user_metrics/RevertIcon.png" title="Revert Icon"> just below the dashboard.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_reset_map_button.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_reset_map_button.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_reset_map_button.png" alt="Screenshot showing the reset map button." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_reset_map_button.png" alt="Screenshot showing the reset map button." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -118,9 +118,9 @@ They are also accessible via individual collection pages.
             On this tab, the top row displays the total number of published datasets, or datasets per collection if a collection is selected from the drop-down menu. The bottom row shows the total data deposited in terabytes (TB) for published deposits.  Hovering over the trend graphs shows the evolution of dataset deposits over time.
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/metrics_site_usage_tab.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/metrics_site_usage_tab.png" alt="Screenshot showing the Site Usage Tab." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/metrics_site_usage_tab.png" alt="Screenshot showing the Site Usage Tab." class="screenshot"/>
         </a>
     </div>
 </div>
@@ -132,15 +132,15 @@ They are also accessible via individual collection pages.
             Users can easily access the data presented on the dashboards by following these steps:
         </div>
 
-        <a href="/docs/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/user_metrics/MenuBar.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/user_metrics/MenuBar.png" alt="Screenshot showing where to find the download icon." class="screenshot"/>
         </a>
 
         <ol class="mt-3">
-            <li>Click on the <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> icon located just below the dashboard.</li>
+            <li>Click on the <img alt="Alt" src="/docs/en/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> icon located just below the dashboard.</li>
             <li>Select your preferred file format for downloading, which includes options such as Image, Crosstab, PDF, PowerPoint, and Tableau Workbook.</li>
-            <li>Click on the <strong>Choose a format to download</strong> <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> button at the bottom of the dashboard.</li>
+            <li>Click on the <strong>Choose a format to download</strong> <img alt="Alt" src="/docs/en/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> button at the bottom of the dashboard.</li>
             <li>The Image option downloads a screenshot of the dashboard. </li>
             <li>The Crosstab (Table) option allows the user to select the section of the dashboard to receive the tabular data and the output format (.xlsx or .csv).</li>
             <li>The PDF option allows the user to select what to include in the document ("This view", "Specific sheets from this dashboard" and "Specific sheet from this workbook"). Note that "Dashboard" refers to the tab the user is currently navigating, while "Workbook" allows the user to download a PDF from the other tabs.</li>

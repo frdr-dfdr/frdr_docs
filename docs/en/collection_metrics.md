@@ -107,7 +107,7 @@ Users can filter by collection and select a desired time range to explore trends
         </div>
 
         <div class="mb-3">
-            To download the raw data, click on the <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> icon located just below the dashboard.
+            To download the raw data, click on the <img alt="Alt" src="/docs/en/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> icon located just below the dashboard.
         </div>
 
         <ol>

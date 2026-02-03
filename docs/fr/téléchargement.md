@@ -14,8 +14,8 @@ Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DF
 
         <div>
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <a href="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" class="screenshot-lightbox">
-                <img src="/docs/img/screenshots/téléchargement_données/toile_télécharger.png" alt="Capture d'écran montrant le widget de navigation de fichiers sur la page d'accueil de l'élément FRDR." class="screenshot"/>
+            <a href="/docs/fr/img/screenshots/téléchargement_données/toile_télécharger.png" class="screenshot-lightbox">
+                <img src="/docs/fr/img/screenshots/téléchargement_données/toile_télécharger.png" alt="Capture d'écran montrant le widget de navigation de fichiers sur la page d'accueil de l'élément FRDR." class="screenshot"/>
             </a>
         </div>
 
@@ -99,7 +99,7 @@ Si vous n’avez pas le lien direct vers un jeu de données hébergé dans le DF
                     <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
                 </svg>
               </div>
-              <img class="video-placeholder" src="/docs/img/video_placeholders/fr/téléchargement_youtube.png" alt="Aperçu vidéo: comment télécharger et installer Globus Connect Personal.">
+              <img class="video-placeholder" src="/docs/fr/img/video_placeholders/téléchargement_youtube.png" alt="Aperçu vidéo: comment télécharger et installer Globus Connect Personal.">
             </a>
         </div>
     </div>

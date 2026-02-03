@@ -30,13 +30,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-EN.png" alt="Logo"/>
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-EN.png" alt="Logo"/>
                     <div style="max-width: 426px; text-align: center;">English only, for use over white or light colours, transparent background</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-EN-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-EN-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">English only, for use over black or dark colours, transparent background</div>
                 </div>
             </div>
@@ -44,13 +44,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-FR.png" alt="Logo" />
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-FR.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">French only, for use over white or light colours, transparent background</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-FR-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-FR-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">French only, for use over black or dark colours, transparent background</div>
                 </div>
             </div>
@@ -60,13 +60,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-EN-FR.png" alt="Logo"/>
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-EN-FR.png" alt="Logo"/>
                     <div style="max-width: 426px; text-align: center;">Both languages, English first, for use over white or light colours, transparent background</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-EN-FR-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-EN-FR-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">Both languages, English first, for use over black or dark colours, transparent background</div>
                 </div>
             </div>
@@ -74,13 +74,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-FR-EN.png" alt="Logo"/>
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-FR-EN.png" alt="Logo"/>
                     <div style="max-width: 426px; text-align: center;">Both languages, French first, for use over white or light colours, transparent background</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-FR-EN-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-FR-EN-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">Both languages, French first, for use over black or dark colours, transparent background</div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/frdr_80x80.png" alt="Logo" />
+                    <img style="margin:40px;max-width: 600px" src="/docs/en/img/styleguide/frdr_80x80.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">No language designation, for use as a square icon, transparent background</div>
                 </div>
             </div>

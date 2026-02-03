@@ -21,7 +21,7 @@ FRDR uses [Globus](https://www.globus.org/data-transfer) to facilitate data tran
         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
     </svg>
   </div>
-  <img class="video-placeholder" src="/docs/img/video_placeholders/en/get_globus_account.png" alt="Video preview: Get a Globus Account">
+  <img class="video-placeholder" src="/docs/en/img/video_placeholders/en/get_globus_account.png" alt="Video preview: Get a Globus Account">
 </a>
 </div>
 
@@ -45,7 +45,7 @@ Small datasets can be uploaded directly through the submission interface, but da
         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
     </svg>
   </div>
-  <img class="video-placeholder" src="/docs/img/video_placeholders/en/install_globus.png" alt="Video preview: Install Globus Connect Personal">
+  <img class="video-placeholder" src="/docs/en/img/video_placeholders/en/install_globus.png" alt="Video preview: Install Globus Connect Personal">
 </a>
 </div>
 

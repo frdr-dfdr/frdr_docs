@@ -114,9 +114,9 @@
                 </div>
                 <div class="mb-3">
                     Votre DOI se trouve sous le titre de du jeu de données dans votre tableau de bord de publication.
-                    <a href="/docs/img/screenshots/faq/DashboardDOI_fr.png" class="screenshot-lightbox">
+                    <a href="/docs/fr/img/screenshots/faq/DashboardDOI_fr.png" class="screenshot-lightbox">
                         <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                        <img src="/docs/img/screenshots/faq/DashboardDOI_fr.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
+                        <img src="/docs/fr/img/screenshots/faq/DashboardDOI_fr.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
                     </a>
                 </div>
                 <div class="mb-3">
@@ -274,7 +274,7 @@
                     La documentation fournit un contexte essentiel à vos données. Dans le DFDR, vous devez obligatoirement inclure un fichier Lisez-moi. De plus, nous vous suggérons fortement recommandé d’ajouter un répertoire de codes (codebook) ou tout autre ressource didactique pour assurer la compréhension et l’interprétation adéquates de vos données dans les années à venir.
                 </div>
                 <div class="mb-3">
-                    Vous pouvez concevoir votre propre fichier Lisez-moi ou bien utiliser le modèle de fichier Lisez-moi du DFDR — adapté de celui de Cornell — disponible en <a target="_blank" href="/docs/txt/README-fr.txt">français</a> et en <a target="_blank" href="/docs/txt/README.txt">anglais</a>. Notre équipe de curation se fera un plaisir de vous aider à mettre au point la documentation de votre jeu de données. N’hésitez pas à nous écrire à l’adresse <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> si vous souhaitez obtenir de l’aide.
+                    Vous pouvez concevoir votre propre fichier Lisez-moi ou bien utiliser le modèle de fichier Lisez-moi du DFDR — adapté de celui de Cornell — disponible en <a target="_blank" href="/docs/fr/txt/README-fr.txt">français</a> et en <a target="_blank" href="/docs/en/txt/README.txt">anglais</a>. Notre équipe de curation se fera un plaisir de vous aider à mettre au point la documentation de votre jeu de données. N’hésitez pas à nous écrire à l’adresse <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> si vous souhaitez obtenir de l’aide.
                 </div>
             </div>
         </div>

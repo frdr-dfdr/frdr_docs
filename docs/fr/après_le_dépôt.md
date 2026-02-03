@@ -25,11 +25,73 @@ Une fois que vous aurez soumis votre jeu de données, votre soumission sera mise
         </ul>
 
         <div class="mb-3">
-            Les curateur(-trice)s pourraient communiquer avec le (la) déposant(e) ou lui renvoyer sa soumission si celle-ci doit être mieux préparée ou ne répond pas aux critères de publication dans le DFDR décrits ci-dessus et dans les <a href="https://www.frdr-dfdr.ca/policies/fr/conditions_d'utilisation/">Conditions d’utilisation</a> du DFDR. Si les curateur(-trice)s renvoient une soumission, ils (elles) en préciseront la raison et proposeront des façons de corriger le jeu de données avant de le soumettre de nouveau.
+            Les curateur(-trice)s pourraient communiquer avec le (la) déposant(e) ou lui renvoyer sa soumission si celle-ci doit être mieux préparée ou ne répond pas aux critères de publication dans le DFDR décrits ci-dessus et dans les <a href="https://www.frdr-dfdr.ca/policies/fr/conditions_d'utilisation/">Conditions d’utilisation</a> du DFDR. Si les curateur(-trice)s renvoient une soumission, ils (elles) en préciseront la raison et proposeront des façons de corriger le jeu de données avant de le soumettre de nouveau. À moins qu’un dépôt n’ait été retourné par une personne chargée de la curation, aucune modification du jeu de données n’est possible.
         </div>
 
         <div class="mb-3">
             Remarque : Les modifications proposées par les curateur(-trice)s ne sont apportées qu’avec l’approbation du (de la) déposant(e).
+        </div>
+    </div>
+</div>
+
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="comment-soumettre-de-nouveau-votre-jeu-de-données-après-la-curation">Comment soumettre de nouveau votre jeu de données après la curation</h2>
+
+        <div class="mb-3">
+            Si la personne chargée de la curation retourne votre jeu de données, son état repassera à <strong>« En cours »</strong>, et il apparaîtra dans la file En cours de votre tableau de bord ou dans le tableau complet des jeux de données au bas de la page du tableau de bord. Cliquez sur le bouton <strong>Actions</strong> à côté du jeu de données, puis sélectionnez <strong>Modifier</strong> pour rouvrir le formulaire de soumission et effectuer les mises à jour requises. Vous pouvez réviser les métadonnées, la documentation, les fichiers ou tout autre élément signalé par la curation.
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/fr/img/screenshots/apres_le_depot/resubmit-dashboard.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/fr/img/screenshots/apres_le_depot/resubmit-dashboard.png" alt="Capture d'écran du tableau de bord" class="screenshot"/>
+            </a>
+        </div>
+
+        <h3>Récupération des fichiers mis à jour par le curateur</h3>
+
+        <div class="mb-3">
+            Lorsque le jeu de données vous est retourné, le curateur vous indiquera s’il a apporté des modifications aux fichiers. Afin de vous assurer de travailler avec les versions les plus récentes de votre dépôt — et non avec les fichiers locaux initialement soumis —, vous devrez télécharger les fichiers mis à jour fournis par le curateur afin d’examiner les changements déjà effectués et de poursuivre les mises à jour.
+        </div>
+
+        <div class="mb-3">
+            Les curateurs peuvent transmettre des fichiers mis à jour dans leurs échanges avec vous ou les téléverser directement dans le jeu de données. Pour récupérer les fichiers mis à jour, modifiez votre soumission et accédez à l’onglet <strong>Transfert des données</strong>. Si vous n’avez besoin de récupérer qu’un ou deux fichiers, vous pouvez y accéder à partir de la section <strong>« Fichiers téléversés »</strong> en cliquant sur le nom du fichier (lien hypertexte). Si votre jeu de données comprend plusieurs fichiers ou des fichiers volumineux, cliquez sur le bouton <strong>Transfert de fichiers Globus</strong> et suivez les instructions pour <a href="/docs/fr/d%C3%A9poser_les_donn%C3%A9es/">transférer les fichiers à l’aide de Globus.</a>
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/fr/img/screenshots/apres_le_depot/resubmit-file-list.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/fr/img/screenshots/apres_le_depot/resubmit-file-list.png" alt="Capture d'écran de la liste des fichiers et du bouton Globus" class="screenshot"/>
+            </a>
+        </div>
+
+        <div class="mb-3">
+            Dans ce cas, le point d’accès source est le DFDR et le point d’accès de destination se trouve de votre côté. Si vous avez utilisé Globus lors du transfert initial, les points d’accès devraient déjà être configurés. <strong>Il est recommandé de créer un sous-dossier distinct pour les fichiers mis à jour afin d’éviter tout risque d’écrasement des fichiers d’origine.</strong>
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/fr/img/screenshots/apres_le_depot/resubmit-globus.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/fr/img/screenshots/apres_le_depot/resubmit-globus.png" alt="Capture d'écran du Globus" class="screenshot"/>
+            </a>
+        </div>
+
+        <h3>Mise à jour et nouvelle soumission des fichiers dans le DFDR</h3>
+
+        <div class="mb-3">
+            Une fois les fichiers transférés vers votre point d’accès local, examinez les fichiers mis à jour et traitez les commentaires formulés par le curateur. Si vous apportez d’autres modifications à ces fichiers ou à d’autres fichiers localement, <a href="/docs/fr/d%C3%A9poser_les_donn%C3%A9es/">téléversez les versions nouvelles ou mises à jour dans le DFDR</a>. Lorsque toutes les modifications ont été effectuées et que les fichiers mis à jour ont été retransférés vers le DFDR, vérifiez le résumé de l’information affichée, puis cliquez sur <strong>« Terminer »</strong> dans l’onglet de vérification afin de soumettre de nouveau le jeu de données et de permettre la poursuite du processus de curation.
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/fr/img/screenshots/apres_le_depot/resubmit-finish.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/fr/img/screenshots/apres_le_depot/resubmit-finish.png" alt="Capture d'écran du terminer" class="screenshot"/>
+            </a>
+        </div>
+
+        <div class="mb-3">
+            Une fois le jeu de données soumis de nouveau, son état repassera à <strong>« En cours de curation »</strong>, confirmant ainsi qu’il a été resoumis et qu’il est entré dans la file de curation du DFDR. Le curateur ayant précédemment examiné votre jeu de données poursuivra la curation de la version mise à jour en tenant compte des changements apportés. <strong>Après la nouvelle soumission, veuillez répondre au courriel du curateur afin de décrire les modifications effectuées, ce qui permettra d’en vérifier la prise en compte complète.</strong>
         </div>
     </div>
 </div>

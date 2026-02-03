@@ -30,13 +30,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-FR.png" alt="Logo"/>
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-FR.png" alt="Logo"/>
                     <div style="max-width: 426px; text-align: center;">En français seulement, pour utilisation sur un fond blanc ou de couleur pale, fond transparent</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-FR-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-FR-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">En français seulement, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:</div>
                 </div>
             </div>
@@ -44,13 +44,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-EN.png" alt="Logo" />
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-EN.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">En anglais seulement, pour utilisation sur un fond blanc ou de couleur pale, fond transparent:</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-EN-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-EN-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">En anglais seulement, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:</div>
                 </div>
             </div>
@@ -60,13 +60,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-FR-EN.png" alt="Logo"/>
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-FR-EN.png" alt="Logo"/>
                     <div style="max-width: 426px; text-align: center;">Bilingue, le français d’abord, pour utilisation sur un fond blanc ou de couleur pale, fond transparent:</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-FR-EN-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-FR-EN-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">Bilingue, le français d’abord, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:</div>
                 </div>
             </div>
@@ -74,13 +74,13 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="max-width: 259px;" src="/docs/img/styleguide/FRDR-EN-FR.png" alt="Logo"/>
+                    <img style="max-width: 259px;" src="/docs/en/img/styleguide/FRDR-EN-FR.png" alt="Logo"/>
                     <div style="max-width: 426px; text-align: center;">Bilingue, l’anglais  d’abord, pour utilisation sur un fond blanc ou de couleur pale, fond transparent:</div>
                 </div>
             </div>
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/img/styleguide/FRDR-EN-FR-WHITE.png" alt="Logo" />
+                    <img class="p-3" style="max-width: 259px; background-color: var(--alliance-dark);" src="/docs/en/img/styleguide/FRDR-EN-FR-WHITE.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">Bilingue, l’anglais d’abord, pour utilisation sur un fond noir ou de couleur foncée, fond transparent:</div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
         <div class="d-flex mb-3" style="justify-content: space-evenly;">
             <div style="flex-grow: 1;">
                 <div class="d-flex" style="flex-direction: column; align-items: center; justify-content: center;">
-                    <img style="margin:40px;max-width: 600px" src="/docs/img/styleguide/frdr_80x80.png" alt="Logo" />
+                    <img style="margin:40px;max-width: 600px" src="/docs/en/img/styleguide/frdr_80x80.png" alt="Logo" />
                     <div style="max-width: 426px; text-align: center;">Aucune désignation de langue, à utiliser comme icône carrée, fond blanc:</div>
                 </div>
             </div>

@@ -26,11 +26,69 @@ Once you submit your dataset, your deposit will be queued for review by a curato
         </div>
 
         <div class="mb-3">
-            Curators may contact you or return a submission if it needs additional preparation or does not meet the criteria for publication in FRDR as outlined above and in the FRDR <a href="/policies/en/terms_of_use/">Terms of Use</a> . If curators do return a submission, they will provide comments indicating their reasons and suggest what you can do to revise the dataset before resubmitting.
+            Curators may contact you or return a submission if it needs additional preparation or does not meet the criteria for publication in FRDR as outlined above and in the FRDR <a href="/policies/en/terms_of_use/">Terms of Use</a> . If curators do return a submission, they will provide comments indicating their reasons and suggest what you can do to revise the dataset before resubmitting. Unless a curator has returned your submission, you are unable to make edits to the dataset.
         </div>
 
         <div class="mb-3">
             Note: Curator suggested changes are only implemented with the approval of the depositor.
+        </div>
+    </div>
+</div>
+
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="how-to-resubmit-your-dataset-after-curation">How to resubmit your dataset after curation</h2>
+
+        <div class="mb-3">
+            If the curator returns your dataset, the status of the dataset will revert to <strong>“In Progress”</strong>, and you will find it in the In Progress Queue on your dashboard or the full dataset table at the bottom of the dashboard page. Click on the Actions button next to the dataset and select <strong>Edit</strong> to re-open the submission form to make the required updates. You can revise metadata, documentation, files, or any other aspects flagged by the curator.
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/en/img/screenshots/after_depositing/resubmit-dashboard.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/en/img/screenshots/after_depositing/resubmit-dashboard.png" alt="Screenshot of showing how to edit returned dataset" class="screenshot"/>
+            </a>
+        </div>
+
+        <h3>Retrieving files updated by the curator</h3>
+
+        <div class="mb-3">
+            When the dataset is returned to you, the curator will tell you if they made changes to your files.To ensure that you are working with the latest versions of your deposit, not the local files you submitted, you will need to download any updated files provided by the curator to review existing changes and continue with the updates. Curators may provide updated files in their conversation with you, or upload the files to the dataset directly. To retrieve the updated files for your deposit, edit your submission and go to the <strong>Transfer Data</strong> tab. If you need to retrieve only one or two files, you can access your files from the Files Uploaded box by clicking on the hyperlinked filename. If you have multiple files or your dataset is large (many files or large files), then you can click on the Globus File Transfer button and follow the <a href="/docs/en/depositing_data/#using-globus-to-upload-dataset">instructions to use Globus to transfer files</a>.
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/en/img/screenshots/after_depositing/resubmit-file-list.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/en/img/screenshots/after_depositing/resubmit-file-list.png" alt="Screenshot of showing file list and how to show Globus transfer" class="screenshot"/>
+            </a>
+        </div>
+
+        <div class="mb-3">
+            This time, the source endpoint is FRDR, and the destination endpoint is on your end. If you used Globus to transfer the files initially, then the endpoints should already be in place. <strong>Consider creating a subfolder for the updated files in your endpoint, so you do not risk overwriting the original files</strong>.
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/en/img/screenshots/after_depositing/resubmit-globus.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/en/img/screenshots/after_depositing/resubmit-globus.png" alt="Screenshot of showing Globus transfer interface" class="screenshot"/>
+            </a>
+        </div>
+
+        <h3>Updating and resubmitting files to FRDR</h3>
+
+        <div class="mb-3">
+            Once the files are transferred to your local endpoint, review the updated files and address the curator’s comments. If you make additional changes to these or other files locally, <a href="/docs/en/depositing_data/#transferring-the-dataset">upload the new or updated files to FRDR</a>. Once all changes have been made and updated files have been transferred back to FRDR, verify the summary information displayed and click <strong>“Finish”</strong> in the verify tab to resubmit the dataset so the curation process can continue.
+        </div>
+
+        <div class="mb-3">
+            <a href="/docs/en/img/screenshots/after_depositing/resubmit-finish.png" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/en/img/screenshots/after_depositing/resubmit-finish.png" alt="Screenshot of showing Finish button to complete resubmitting dataset" class="screenshot"/>
+            </a>
+        </div>
+
+        <div class="mb-3">
+            Once you have re-submitted the dataset, the status will return to <strong>“In curation.”</strong> This confirms your dataset has been resubmitted and has entered the curation queue in FRDR. The curator who previously curated your dataset will continue to curate the updated dataset with the provided changes. <strong>Once the dataset is resubmitted, please reply to the curator’s email to describe the changes made to the dataset, so they can verify all changes made.</strong>
         </div>
     </div>
 </div>

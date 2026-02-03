@@ -114,8 +114,8 @@ Mettez à jour les paramètres de votre compte pour adapter votre expérience du
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/tableau_de_bord/orcid.png" class="screenshot-lightbox">
-                <img src="/docs/img/screenshots/tableau_de_bord/orcid.png" alt="Screenshot of setting ORCID" style="max-width: 100%"/>
+            <a href="/docs/fr/img/screenshots/tableau_de_bord/orcid.png" class="screenshot-lightbox">
+                <img src="/docs/fr/img/screenshots/tableau_de_bord/orcid.png" alt="Screenshot of setting ORCID" style="max-width: 100%"/>
             </a>
         </div>
 

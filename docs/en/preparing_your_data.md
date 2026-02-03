@@ -15,7 +15,7 @@ Gather your data files, documentation, and any information necessary to reuse yo
             Gather your data files, documentation, and any information necessary to reuse your dataset. You may choose to provide processed data, ‘raw’ unprocessed data, or both, as well as the scripts, code or software needed to generate or reanalyze your data.
         </div>
         <div>
-            You may choose to upload a version of your analysis scripts alongside your data, but we recommend that you deposit models, source code or research software in purpose-built repositories such as GitHub, GitLab or Bitbucket. These can be preserved in the <a href="https://www.softwareheritage.org/save-reference-research-software/">Software Heritage Archive</a> or <a href="https://guides.github.com/activities/citable-code/">Zenodo</a>. You can link directly to these and other research outputs from your <a href="/docs/en/describing_your_data/#recommended-metadata">FRDR metadata</a> using the ‘related identifier’ field and reference them in your README <a href="/docs/txt/README.txt">template here</a>).
+            You may choose to upload a version of your analysis scripts alongside your data, but we recommend that you deposit models, source code or research software in purpose-built repositories such as GitHub, GitLab or Bitbucket. These can be preserved in the <a href="https://www.softwareheritage.org/save-reference-research-software/">Software Heritage Archive</a> or <a href="https://guides.github.com/activities/citable-code/">Zenodo</a>. You can link directly to these and other research outputs from your <a href="/docs/en/describing_your_data/#recommended-metadata">FRDR metadata</a> using the ‘related identifier’ field and reference them in your README <a href="/docs/en/txt/README.txt">template here</a>).
         </div>
     </div>
 </div>
@@ -138,7 +138,7 @@ Gather your data files, documentation, and any information necessary to reuse yo
 
 ## Documenting your submission
 
-Data will only be useful (and beneficial) in the long-term if they are thoroughly described. To ensure your data are interpreted correctly, it is important to include a codebook and/or a README file with your data, and to document your data collection methods. For this reason, a FRDR curator will ask that a README file is provided with your submission. You are welcome to draft your own, or you may use the [FRDR README template](/docs/txt/README.txt) (adapted from Cornell), available in English or in French.
+Data will only be useful (and beneficial) in the long-term if they are thoroughly described. To ensure your data are interpreted correctly, it is important to include a codebook and/or a README file with your data, and to document your data collection methods. For this reason, a FRDR curator will ask that a README file is provided with your submission. You are welcome to draft your own, or you may use the [FRDR README template](/docs/en/txt/README.txt) (adapted from Cornell), available in English or in French.
 
 Tips for writing READMEs:
 

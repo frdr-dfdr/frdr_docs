@@ -136,6 +136,8 @@ extra:
       "After Depositing":
         "Curation":
           url: "#curation"
+        "How to resubmit your dataset after curation":
+          url: "#how-to-resubmit-your-dataset-after-curation"
         "Preservation":
           url: "#preservation"
       "Create a New Dataset Version":

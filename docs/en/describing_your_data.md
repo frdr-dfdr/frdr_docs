@@ -118,9 +118,9 @@
             </ul>
         </div>
         <div class="mb-3">
-            <a href="/docs/img/screenshots/describing_your_data/ExampleAuthor.png" class="screenshot-lightbox">
+            <a href="/docs/en/img/screenshots/describing_your_data/ExampleAuthor.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/describing_your_data/ExampleAuthor.png" alt="Screenshot showing given name, family name, author affiliations and orcid id filled in for deposit interface" class="screenshot"/>
+                <img src="/docs/en/img/screenshots/describing_your_data/ExampleAuthor.png" alt="Screenshot showing given name, family name, author affiliations and orcid id filled in for deposit interface" class="screenshot"/>
             </a>
         </div>
     </div>

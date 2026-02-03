@@ -13,9 +13,9 @@ If you do not have a direct link to a FRDR-hosted dataset you can browse through
             The file browsing widget for each dataset is located near the bottom of the data landing page.
         </div>
 
-        <a href="/docs/img/screenshots/downloading_data/WebDownload.png" class="screenshot-lightbox">
+        <a href="/docs/en/img/screenshots/downloading_data/WebDownload.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/downloading_data/WebDownload.png" alt="Screenshot showing file browsing widget on FRDR item landing page." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/downloading_data/WebDownload.png" alt="Screenshot showing file browsing widget on FRDR item landing page." class="screenshot"/>
         </a>
 
         <div class="mb-3">
@@ -109,7 +109,7 @@ If you do not have a direct link to a FRDR-hosted dataset you can browse through
                     <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
                 </svg>
               </div>
-              <img class="video-placeholder" src="/docs/img/video_placeholders/en/download_dataset.png" alt="Video preview: How to download Datasets from FRDR.">
+              <img class="video-placeholder" src="/docs/en/img/video_placeholders/en/download_dataset.png" alt="Video preview: How to download Datasets from FRDR.">
             </a>
         </div>
 </div>

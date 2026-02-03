@@ -111,9 +111,9 @@ Update your Account Settings to tailor your FRDR experience to your preferences.
             An <a href="https://orcid.org/">ORCID iD</a> is a persistent digital identifier that is unique to you. FRDR is integrated with ORCID, which allows you to automatically add your ORCID iD to new dataset submissions and push a record of published items to your ORCID profile. To get started, click the “Create or connect your ORCID iD” link, then click “Sign in” and follow prompts to log in via the ORCID authentication screen. If you don't have an ORCID account you can create one directly from FRDR by clicking the same “Create or connect your ORCID iD” link and filling out the form.
         </div>
         <div class="mb-3">
-            <a href="/docs/img/screenshots/dashboard/orcid.png" class="screenshot-lightbox">
+            <a href="/docs/en/img/screenshots/dashboard/orcid.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/dashboard/orcid.png" alt="Screenshot of setting ORCID" class="screenshot"/>
+                <img src="/docs/en/img/screenshots/dashboard/orcid.png" alt="Screenshot of setting ORCID" class="screenshot"/>
             </a>
         </div>
         <div class="mb-3">

@@ -73,9 +73,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/MonProfil.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/MonProfil.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/MonProfil.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/MonProfil.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -84,9 +84,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/InviterAjouter.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/InviterAjouter.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/InviterAjouter.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/InviterAjouter.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -95,9 +95,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/InviterAccepter.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/InviterAccepter.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/InviterAccepter.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/InviterAccepter.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -110,9 +110,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/InviterRetour.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/InviterRetour.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/InviterRetour.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/InviterRetour.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
     </div>
@@ -135,16 +135,16 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/Navbar.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/Navbar.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/Navbar.png" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/Navbar.png" class="screenshot"/>
             </a>
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/PrecedentAnnulerSuivant.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/PrecedentAnnulerSuivant.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/PrecedentAnnulerSuivant.png" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/PrecedentAnnulerSuivant.png" class="screenshot"/>
             </a>
         </div>
 
@@ -157,9 +157,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/Repeatable.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/Repeatable.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/Repeatable.png" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/Repeatable.png" class="screenshot"/>
             </a>
         </div>
 
@@ -168,9 +168,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/Tags.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/Tags.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/Tags.png" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/Tags.png" class="screenshot"/>
             </a>
         </div>
     </div>
@@ -199,9 +199,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/ExternalReview.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/ExternalReview.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/ExternalReview.png" alt="Évaluation externe" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/ExternalReview.png" alt="Évaluation externe" class="screenshot"/>
             </a>
         </div>
 
@@ -289,8 +289,8 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </ul>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/ClickToUpload.png" class="screenshot-lightbox">
-                <img src="/docs/img/screenshots/deposer_les_donees/ClickToUpload.png" alt="Screenshot" style="max-width: 160px"/>
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/ClickToUpload.png" class="screenshot-lightbox">
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/ClickToUpload.png" alt="Screenshot" style="max-width: 160px"/>
             </a>
         </div>
 
@@ -299,9 +299,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </ul>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/Uploading.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/Uploading.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/Uploading.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/Uploading.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -312,9 +312,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </div>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/UploadProcessing.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/UploadProcessing.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/UploadProcessing.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/UploadProcessing.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -323,9 +323,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </ul>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/UploadFinished.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/UploadFinished.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/UploadFinished.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/UploadFinished.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -351,7 +351,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
                         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
                     </svg>
                   </div>
-                  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/televerser_jeu_de_donnees.png" alt="aperçu vidéo: Téléverser un jeu de données">
+                  <img class="video-placeholder" src="/docs/fr/img/video_placeholders/televerser_jeu_de_donnees.png" alt="aperçu vidéo: Téléverser un jeu de données">
                 </a>
             </div>
         </div>
@@ -363,9 +363,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </ul>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/DragAndDrop.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/DragAndDrop.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/DragAndDrop.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/DragAndDrop.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -374,9 +374,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </ul>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/Uploading.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/Uploading.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/Uploading.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/Uploading.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -385,9 +385,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </ul>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/UploadProcessing.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/UploadProcessing.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/UploadProcessing.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/UploadProcessing.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -396,9 +396,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         </ul>
 
         <div class="mb-3">
-            <a href="/docs/img/screenshots/deposer_les_donees/UploadFinished.png" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/UploadFinished.png" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/img/screenshots/deposer_les_donees/UploadFinished.png" alt="Screenshot" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/UploadFinished.png" alt="Screenshot" class="screenshot"/>
             </a>
         </div>
 
@@ -417,67 +417,67 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
         <ol>
             <li>Sous l’onglet « Transfert des données » cliquez sur le bouton « transfert de fichiers Globus » pour accéder à la page de transfert de fichiers Globus.  <br/>
-                <a href="/docs/img/screenshots/deposer_les_donees/GlobusFileTransferButton.png" class="screenshot-lightbox">
+                <a href="/docs/fr/img/screenshots/deposer_les_donees/GlobusFileTransferButton.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                    <img src="/docs/img/screenshots/deposer_les_donees/GlobusFileTransferButton.png" alt="Screenshot" class="screenshot"/>
+                    <img src="/docs/fr/img/screenshots/deposer_les_donees/GlobusFileTransferButton.png" alt="Screenshot" class="screenshot"/>
                 </a>
             </li>
 
              <li>Cliquez sur le lien «  Transfert ou sync à... » situé à droite de l'écran.<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/TransferToButton.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/TransferToButton.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/TransferToButton.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/TransferToButton.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
 
              <li>Le DFDR est à gauche, nous devons choisir une source pour les fichiers à droite. Cliquez sur la zone de texte en haut à droite (à côté de la loupe) pour rechercher le point d’extrémité où se trouvent vos fichiers actuellement.<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/ChooseEndpointTextbox.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/ChooseEndpointTextbox.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/ChooseEndpointTextbox.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/ChooseEndpointTextbox.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
 
              <li>Commencez à saisir le nom du point d’extrémité Globus contenant vos fichiers. Il peut s'agir du nom que vous avez donné à votre ordinateur portable ou à votre ordinateur, à un site d'hébergement de Calcul Canada (Cedar, Graham, Niagra ou Beluga, par exemple) ou à un autre emplacement de point d’extrémité Globus (par exemple, un serveur institutionnel ou de laboratoire).<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/ChooseEndpoint.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/ChooseEndpoint.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/ChooseEndpoint.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/ChooseEndpoint.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
 
              <li>Sélectionnez les fichiers nécessaires pour votre jeu de données. Vous pouvez appuyer sur Maj ou Ctrl pour choisir des fichiers séparés.<br/>
-                <a href="/docs/img/screenshots/deposer_les_donees/FileHighlighted.png" class="screenshot-lightbox">
+                <a href="/docs/fr/img/screenshots/deposer_les_donees/FileHighlighted.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                    <img src="/docs/img/screenshots/deposer_les_donees/FileHighlighted.png" alt="Screenshot" class="screenshot"/></li>
+                    <img src="/docs/fr/img/screenshots/deposer_les_donees/FileHighlighted.png" alt="Screenshot" class="screenshot"/></li>
                 </a>
             </li>
 
              <li>Cliquez sur le bouton « Transfert & options de sync.  » en bas au centre de l'écran.<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/TransferAndSyncButton.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/TransferAndSyncButton.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/TransferAndSyncButton.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/TransferAndSyncButton.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
 
              <li>Étiquetez ce transfert : entrez un nom de transfert qui vous permettra de le reconnaître facilement.<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/TransferAndSync.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/TransferAndSync.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/TransferAndSync.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/TransferAndSync.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
 
              <li>Sélectionnez les paramètres de transfert : vous avez diverses options pour contrôler le sort et la sécurité des fichiers. La plupart du temps, les paramètres par défaut seront suffisants. Écrivez à [support@frdr-dfdr.ca](mailto:support@frdr-dfdr.ca) pour toute question sur les paramètres de transferts additionnels dont vous pourriez avoir besoin pour votre jeu de données.</li>
 
              <li>Initiez le transfert en cliquant sur le bouton bleu de démarrage en bas de la page. Vous pouvez initier autant de transferts que nécessaire lors d’une même session. Ceci pourrait être requis si, par exemple, vous souhaitez transférer des fichiers dans différents dossiers ou points d’extrémité de la source.<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/StartTransfer.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/StartTransfer.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/StartTransfer.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/StartTransfer.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
 
             <li>.	Le statut du transfert sera indiqué à gauche sous « Activité  », mais le transfert se poursuivra indépendamment. Vous pouvez fermer cette fenêtre et revenir au DFDR pour vérifier et compléter votre soumission.<br/>
-                <a href="/docs/img/screenshots/deposer_les_donees/Activity.png" class="screenshot-lightbox">
+                <a href="/docs/fr/img/screenshots/deposer_les_donees/Activity.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                    <img src="/docs/img/screenshots/deposer_les_donees/Activity.png" alt="Screenshot" class="screenshot"/>
+                    <img src="/docs/fr/img/screenshots/deposer_les_donees/Activity.png" alt="Screenshot" class="screenshot"/>
                 </a>
             </li>
         </ol>
@@ -489,9 +489,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
              <li>Cliquez sur le transfert dans la liste (si vous lui avez attribué un titre, celui-ci sera étiqueté comme tel).</li>
              <li>Cette page vous indiquera l'état actuel du transfert (c'est-à-dire le nombre de fichiers transférés, la quantité de données transférée ou si une erreur s'est produite).</li>
              <li>Pour une chronologie, cliquez sur l'onglet « Journal des événements  ».<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/EventLog.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/EventLog.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/EventLog.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/EventLog.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
         </ol>
@@ -502,9 +502,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
              <li>Rendez-vous <a href="https://globus.frdr.ca/activity?locale=fr-ca">à la page d'activité.</a>.</li>
              <li>Localisez le transfert que vous voulez annulez dans la liste des transferts, en fonction de l'étiquette.</li>
              <li>Cliquez sur le bouton X<br/>
-                 <a href="/docs/img/screenshots/deposer_les_donees/CancelTransfer.png" class="screenshot-lightbox">
+                 <a href="/docs/fr/img/screenshots/deposer_les_donees/CancelTransfer.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                     <img src="/docs/img/screenshots/deposer_les_donees/CancelTransfer.png" alt="Screenshot" class="screenshot"/>
+                     <img src="/docs/fr/img/screenshots/deposer_les_donees/CancelTransfer.png" alt="Screenshot" class="screenshot"/>
                  </a>
              </li>
              <li>Cliquez sur le bouton rouge de terminaison du transfert.</li>
@@ -523,9 +523,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
              <li>Cliquez sur le bouton « Supprimer la sélection » sur le côté droit de l'écran (ou au centre si la source et la destination sont toutes les deux ouvertes) et confirmez-le en cliquant sur le bouton « Supprimer » de l'écran résultant.  <br/>
 
-                <a href="/docs/img/screenshots/deposer_les_donees/DeleteSelected.png" class="screenshot-lightbox">
+                <a href="/docs/fr/img/screenshots/deposer_les_donees/DeleteSelected.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                    <img src="/docs/img/screenshots/deposer_les_donees/DeleteSelected.png" alt="Screenshot" class="screenshot"/>
+                    <img src="/docs/fr/img/screenshots/deposer_les_donees/DeleteSelected.png" alt="Screenshot" class="screenshot"/>
                 </a>
             </li>
              <li>Répétez jusqu’à ce que tous les fichiers ou répertoires soient supprimés.</li>

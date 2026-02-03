@@ -93,7 +93,7 @@ ___
         <p>Les utilisateurs et utilisatrices peuvent facilement accéder aux données présentées dans les tableaux de bord en suivant les étapes suivantes :</p>
 
 
-        <p>Cliquez sur l’icône <img alt="Alt" src="/docs/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> située sous le tableau de bord pour télécharger les données brutes.</p>
+        <p>Cliquez sur l’icône <img alt="Alt" src="/docs/en/img/screenshots/user_metrics/DownloadIcon.png" title="Download Icon"> située sous le tableau de bord pour télécharger les données brutes.</p>
 
         <ol>
             <li>Choisissez le format de fichier souhaité — options disponibles : image, tableau croisé, PDF, PowerPoint ou classeur Tableau.</li>

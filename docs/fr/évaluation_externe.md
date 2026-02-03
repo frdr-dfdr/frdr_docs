@@ -12,9 +12,9 @@ Tous les jeux de données soumis au Dépôt fédéré de données de recherche (
 
         <div class="mb-3">Pour envoyer des invitations, connectez-vous au DFDR et trouvez le jeu de données dans l’onglet « Sous embargo » de votre tableau de bord de publication. Cliquez sur « Gérer les évaluatrices ou évaluateurs », remplissez le formulaire d’invitation et cliquez sur le bouton « Inviter ». Le DFDR enverra à l’évaluatrice ou évaluateur un courriel contenant un lien pour accéder à votre jeu de données.</div>
 
-        <a href="/docs/img/screenshots/external_review/inviting_fr.png" class="screenshot-lightbox">
+        <a href="/docs/fr/img/screenshots/evaluation_externe/inviting_fr.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/external_review/inviting_fr.png" alt="Invitation des évaluatrices ou évaluateurs" class="screenshot"/>
+            <img src="/docs/fr/img/screenshots/evaluation_externe/inviting_fr.png" alt="Invitation des évaluatrices ou évaluateurs" class="screenshot"/>
         </a>
 
         <div class="mt-3 mb-3">
@@ -29,9 +29,9 @@ Tous les jeux de données soumis au Dépôt fédéré de données de recherche (
 
         <div class="mb-3">Le formulaire d’invitation contient la case à cocher « Évaluation anonyme ». Si cette option est sélectionnée, une nouvelle partie du formulaire s’ouvrira. Il vous sera demandé de fournir un titre et un numéro de manuscrit, qui permettront à votre rédactrice ou rédacteur en chef de faire correspondre votre jeu de données au manuscrit qui lui est associé. Vous verrez également une liste de champs de métadonnées qui peuvent être cachés à l’évaluatrice ou évaluateur.</div>
 
-        <a href="/docs/img/screenshots/external_review/anonymous_fr.png" class="screenshot-lightbox">
+        <a href="/docs/fr/img/screenshots/evaluation_externe/anonymous_fr.png" class="screenshot-lightbox">
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/external_review/anonymous_fr.png" alt="Évaluation anonyme" class="screenshot"/>
+            <img src="/docs/fr/img/screenshots/evaluation_externe/anonymous_fr.png" alt="Évaluation anonyme" class="screenshot"/>
         </a>
 
         <div class="mb-3">Certains champs de métadonnées seront masqués par défaut, comme ceux des noms et des affiliations des autrices ou auteurs, et vous pourrez choisir de masquer d’autres champs susceptibles de vous identifier, comme celui du numéro d’attribution du bailleur de fonds. Vous devrez également supprimer les renseignements d’identification de votre fichier README ou de vos fichiers de données pendant que votre jeu de données est en cours d’évaluation. Il est à noter que les métadonnées disponibles sur la page de renvoi publique du jeu de données sont limitées au titre lorsque ce dernier est sous embargo.</div>

@@ -51,7 +51,7 @@ For datasets larger than 25 TB, submitters will not be able to initiate a new ve
 
         <div>
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/create_new_version/create-new-version-publication-dashboard.png" alt="Screenshot showing button to create a new version of a dataset on the Publication Dashboard" class="screenshot"/>
+            <img src="/docs/en/img/screenshots/create_new_version/create-new-version-publication-dashboard.png" alt="Screenshot showing button to create a new version of a dataset on the Publication Dashboard" class="screenshot"/>
         </div>
 
         <div class="mb-3">
@@ -60,7 +60,7 @@ For datasets larger than 25 TB, submitters will not be able to initiate a new ve
 
         <div>
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/create_new_version/create-new-version-landing-page.png" alt="Screenshot showing button to create a new version of a dataset on the landing page." class="screenshot"/>
+            <img src="/docs/en/img/screenshots/create_new_version/create-new-version-landing-page.png" alt="Screenshot showing button to create a new version of a dataset on the landing page." class="screenshot"/>
         </div>
     </div>
 </div>

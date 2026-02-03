@@ -21,7 +21,7 @@ Le DFDR utilise [Globus](https://www.globus.org/data-transfer) pour faciliter le
         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
     </svg>
   </div>
-  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/obtenir_compte_globus.png" alt="aperçu vidéo: Obtenir un compte Globus">
+  <img class="video-placeholder" src="/docs/fr/img/video_placeholders/obtenir_compte_globus.png" alt="aperçu vidéo: Obtenir un compte Globus">
 </a>
 </div>
 
@@ -45,7 +45,7 @@ Les petits jeux de données peuvent être téléversés directement au moyen de 
         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
     </svg>
   </div>
-  <img class="video-placeholder" src="/docs/img/video_placeholders/fr/installer_globus.png" alt="aperçu vidéo: Télécharger et installer Globus Connect Personal">
+  <img class="video-placeholder" src="/docs/fr/img/video_placeholders/installer_globus.png" alt="aperçu vidéo: Télécharger et installer Globus Connect Personal">
 </a>
 </div>
 

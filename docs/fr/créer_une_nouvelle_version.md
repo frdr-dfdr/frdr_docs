@@ -53,7 +53,7 @@ Pour les jeux de données supérieurs à 25 To, les auteurs ne pourront pas cré
 
         <div>
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/creer_une_nouvelle_version/create-new-version-publication-dashboard-fr.png" alt="Screenshot showing button to create a new version of a dataset on the Publication Dashboard" class="screenshot"/>
+            <img src="/docs/fr/img/screenshots/creer_une_nouvelle_version/create-new-version-publication-dashboard-fr.png" alt="Screenshot showing button to create a new version of a dataset on the Publication Dashboard" class="screenshot"/>
         </div>
 
         <div class="mb-3">
@@ -62,7 +62,7 @@ Pour les jeux de données supérieurs à 25 To, les auteurs ne pourront pas cré
 
         <div>
             <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-            <img src="/docs/img/screenshots/creer_une_nouvelle_version/create-new-version-landing-page-fr.png" alt="Screenshot showing button to create a new version of a dataset on the landing page." class="screenshot"/>
+            <img src="/docs/fr/img/screenshots/creer_une_nouvelle_version/create-new-version-landing-page-fr.png" alt="Screenshot showing button to create a new version of a dataset on the landing page." class="screenshot"/>
         </div>
     </div>
 </div>

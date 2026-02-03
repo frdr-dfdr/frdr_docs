@@ -111,9 +111,9 @@
                     Your DOI is listed under the dataset title in your publication dashboard.
                 </div>
                 <div class="mb-3">
-                    <a href="/docs/img/screenshots/faq/DashboardDOI.png" class="screenshot-lightbox">
+                    <a href="/docs/en/img/screenshots/faq/DashboardDOI.png" class="screenshot-lightbox">
                         <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                        <img src="/docs/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
+                        <img src="/docs/en/img/screenshots/faq/DashboardDOI.png" alt="Screenshot showing Publication Dashboard page with DOI listed under the dataset title" class="screenshot"/>
                     </a>
                 </div>
                 <div class="mb-3">
@@ -272,7 +272,7 @@
                     Documentation will provide context for your data. In FRDR, including a README file is mandatory. We also strongly recommend adding a codebook or other supporting documentation to ensure your data can be accurately understood and interpreted over time.
                 </div>
                 <div class="mb-3">
-                    You’re welcome to create your own README, or you may use the FRDR README template—adapted from Cornell—available in both <a target="_blank" href="/docs/txt/README.txt">English</a> and <a target="_blank" href="/docs/txt/README-fr.txt">French</a>. Our curation team is also happy to work with you to develop documentation for your dataset. Please reach out to <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> if you would like assistance.
+                    You’re welcome to create your own README, or you may use the FRDR README template—adapted from Cornell—available in both <a target="_blank" href="/docs/en/txt/README.txt">English</a> and <a target="_blank" href="/docs/fr/txt/README-fr.txt">French</a>. Our curation team is also happy to work with you to develop documentation for your dataset. Please reach out to <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> if you would like assistance.
                 </div>
             </div>
         </div>
