@@ -1,6 +1,12 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
+2026-03-25:
+<ul>
+    <li>Added optional DMP upload</li>
+</ul>
+
+
 <strong>2025-01-28</strong>:
 <ul>
     <li>Improved documentation and added details to new user applications</li>
