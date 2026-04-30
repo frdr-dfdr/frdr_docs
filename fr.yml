@@ -13,7 +13,7 @@ nav:
   - "Tableau de bord et paramètres": tableau_de_bord.md
   - "Description de vos données": description_de_vos_données.md
   - "Déposer les données": déposer_les_données.md
-  - "Évaluation externe": évaluation_externe.md
+  - "Évaluation externe des jeux de données": évaluation_externe.md
   - "Après le dépôt": après_le_dépôt.md
   - "Créer une nouvelle version d’un jeu de données": créer_une_nouvelle_version.md
   - "Téléchargement de jeux de données": téléchargement.md
@@ -49,7 +49,7 @@ extra:
       "Avant de déposer": "fa-cog"
       "Description de vos données": "fa-pen-square"
       "Déposer les données": "fa-upload"
-      "Évaluation externe": "fa-user-check"
+      "Évaluation externe des jeux de données": "fa-user-check"
       "Après le dépôt": "fa-file-upload"
       "Recherche de jeux de données": "fa-search"
       "Téléchargement de jeux de données": "fa-download"
@@ -116,17 +116,11 @@ extra:
             url: "#finaliser-de-la-soumission"
         "DOI":
             url: "#doi"
-      "Évaluation externe":
-        "Invitation des évaluatrices ou évaluateurs":
-          url: "#invitation-des-evaluatrices-ou-evaluateurs"
-        "Évaluation anonyme":
-          url: "#evaluation-anonyme"
-        "Lignes directrices à l’intention des évaluatrices ou évaluateurs":
-          url: "#lignes-directrices-a-lintention-des-evaluatrices-ou-evaluateurs"
-        "Modification du jeu de données":
-          url: "#modification-du-jeu-de-donnees"
-        "Finalisation du processus d’évaluation":
-          url: "#finalisation-du-processus-devaluation"
+      "Évaluation externe des jeux de données":
+        "Pour les déposants":
+          url: "#pour-les-deposants"
+        "Aux évaluateurs de revues":
+          url: "#aux-evaluateurs-de-revues"
       "Après le dépôt":
         "Curation":
           url: "#curation"
@@ -276,7 +270,7 @@ extra:
             "Tableau de bord et paramètres": en/dashboard/
             "Description de vos données": en/describing_your_data/
             "Déposer les données": en/depositing_data/
-            "Évaluation externe": en/external_review/
+            "Évaluation externe des jeux de données": en/external_review/
             "Après le dépôt": en/after_depositing/
             "Créer une nouvelle version d’un jeu de données": en/create_new_version/
             "Téléchargement de jeux de données": /en/downloading/

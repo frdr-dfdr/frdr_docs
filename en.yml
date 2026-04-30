@@ -123,16 +123,10 @@ extra:
         "DOIs":
           url: "#dois"
       "External Dataset Review":
-        "Inviting Reviewers":
-          url: "#inviting-reviewers"
-        "Anonymous Review":
-          url: "#anonymous-review"
-        "Reviewer Guidelines":
-          url: "#reviewer-guidelines"
-        "Editing Your Dataset":
-          url: "#editing-your-dataset"
-        "Finalizing the Review Process":
-          url: "#finalizing-the-review-process"
+        "For Depositors":
+          url: "#for-depositors"
+        "For Journal Reviewers":
+          url: "#for-journal-reviewers"
       "After Depositing":
         "Curation":
           url: "#curation"
