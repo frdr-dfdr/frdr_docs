@@ -8,7 +8,7 @@ Once you submit your dataset, your deposit will be queued for review by a curato
         <h2 id="curation">Curation</h2>
 
         <div class="mb-3">
-            All data deposited in FRDR will undergo review by a member of our curation team. Curators work with depositors to enhance the overall findability, accessibility, interoperability and reusability (or <a href="https://doi.org/10.1038/sdata.2016.18">FAIR</a> ness) of their datasets. Our curation team uses the Data Curation Network's <a href="https://datacurationnetwork.org/outputs/workflows/">CURATED</a> steps as a framework for reviewing new deposits.
+            All data deposited in FRDR will undergo review by a member of our curation team. Curators work with depositors to enhance the overall findability, accessibility, interoperability and reusability (or <a href="https://doi.org/10.1038/sdata.2016.18">FAIR</a>ness) of their datasets. Our curation team uses the Data Curation Network's <a href="https://datacurationnetwork.org/outputs/workflows/">CURATED</a> steps as a framework for reviewing new deposits.
         </div>
 
         <div class="mb-3">
@@ -26,7 +26,7 @@ Once you submit your dataset, your deposit will be queued for review by a curato
         </div>
 
         <div class="mb-3">
-            Curators may contact you or return a submission if it needs additional preparation or does not meet the criteria for publication in FRDR as outlined above and in the FRDR <a href="/policies/en/terms_of_use/">Terms of Use</a> . If curators do return a submission, they will provide comments indicating their reasons and suggest what you can do to revise the dataset before resubmitting. Unless a curator has returned your submission, you are unable to make edits to the dataset.
+            Curators may contact you or return a submission if it needs additional preparation or does not meet the criteria for publication in FRDR as outlined above and in the FRDR <a href="/policies/en/terms_of_use/">Terms of Use</a>. If curators do return a submission, they will provide comments indicating their reasons and suggest what you can do to revise the dataset before resubmitting. Unless a curator has returned your submission, you are unable to make edits to the dataset.
         </div>
 
         <div class="mb-3">

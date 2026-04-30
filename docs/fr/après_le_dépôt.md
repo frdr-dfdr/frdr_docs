@@ -49,14 +49,14 @@ Une fois que vous aurez soumis votre jeu de données, votre soumission sera mise
             </a>
         </div>
 
-        <h3>Récupération des fichiers mis à jour par le curateur</h3>
+        <h3>Récupération des fichiers mis à jour par le curateur(-trice)</h3>
 
         <div class="mb-3">
-            Lorsque le jeu de données vous est retourné, le curateur vous indiquera s’il a apporté des modifications aux fichiers. Afin de vous assurer de travailler avec les versions les plus récentes de votre dépôt — et non avec les fichiers locaux initialement soumis —, vous devrez télécharger les fichiers mis à jour fournis par le curateur afin d’examiner les changements déjà effectués et de poursuivre les mises à jour.
+            Lorsque le jeu de données vous est retourné, le curateur(-trice) vous indiquera s’il a apporté des modifications aux fichiers. Afin de vous assurer de travailler avec les versions les plus récentes de votre dépôt — et non avec les fichiers locaux initialement soumis —, vous devrez télécharger les fichiers mis à jour fournis par le curateur(-trice) afin d’examiner les changements déjà effectués et de poursuivre les mises à jour.
         </div>
 
         <div class="mb-3">
-            Les curateurs peuvent transmettre des fichiers mis à jour dans leurs échanges avec vous ou les téléverser directement dans le jeu de données. Pour récupérer les fichiers mis à jour, modifiez votre soumission et accédez à l’onglet <strong>Transfert des données</strong>. Si vous n’avez besoin de récupérer qu’un ou deux fichiers, vous pouvez y accéder à partir de la section <strong>« Fichiers téléversés »</strong> en cliquant sur le nom du fichier (lien hypertexte). Si votre jeu de données comprend plusieurs fichiers ou des fichiers volumineux, cliquez sur le bouton <strong>Transfert de fichiers Globus</strong> et suivez les instructions pour <a href="/docs/fr/d%C3%A9poser_les_donn%C3%A9es/">transférer les fichiers à l’aide de Globus.</a>
+            Les curateur(-trice)s peuvent transmettre des fichiers mis à jour dans leurs échanges avec vous ou les téléverser directement dans le jeu de données. Pour récupérer les fichiers mis à jour, modifiez votre soumission et accédez à l’onglet <strong>Transfert des données</strong>. Si vous n’avez besoin de récupérer qu’un ou deux fichiers, vous pouvez y accéder à partir de la section <strong>« Fichiers téléversés »</strong> en cliquant sur le nom du fichier (lien hypertexte). Si votre jeu de données comprend plusieurs fichiers ou des fichiers volumineux, cliquez sur le bouton <strong>Transfert de fichiers Globus</strong> et suivez les instructions pour <a href="/docs/fr/d%C3%A9poser_les_donn%C3%A9es/">transférer les fichiers à l’aide de Globus.</a>
         </div>
 
         <div class="mb-3">
@@ -80,7 +80,7 @@ Une fois que vous aurez soumis votre jeu de données, votre soumission sera mise
         <h3>Mise à jour et nouvelle soumission des fichiers dans le DFDR</h3>
 
         <div class="mb-3">
-            Une fois les fichiers transférés vers votre point d’accès local, examinez les fichiers mis à jour et traitez les commentaires formulés par le curateur. Si vous apportez d’autres modifications à ces fichiers ou à d’autres fichiers localement, <a href="/docs/fr/d%C3%A9poser_les_donn%C3%A9es/">téléversez les versions nouvelles ou mises à jour dans le DFDR</a>. Lorsque toutes les modifications ont été effectuées et que les fichiers mis à jour ont été retransférés vers le DFDR, vérifiez le résumé de l’information affichée, puis cliquez sur <strong>« Terminer »</strong> dans l’onglet de vérification afin de soumettre de nouveau le jeu de données et de permettre la poursuite du processus de curation.
+            Une fois les fichiers transférés vers votre point d’accès local, examinez les fichiers mis à jour et traitez les commentaires formulés par le curateur(-trice). Si vous apportez d’autres modifications à ces fichiers ou à d’autres fichiers localement, <a href="/docs/fr/d%C3%A9poser_les_donn%C3%A9es/">téléversez les versions nouvelles ou mises à jour dans le DFDR</a>. Lorsque toutes les modifications ont été effectuées et que les fichiers mis à jour ont été retransférés vers le DFDR, vérifiez le résumé de l’information affichée, puis cliquez sur <strong>« Terminer »</strong> dans l’onglet de vérification afin de soumettre de nouveau le jeu de données et de permettre la poursuite du processus de curation.
         </div>
 
         <div class="mb-3">
@@ -91,7 +91,7 @@ Une fois que vous aurez soumis votre jeu de données, votre soumission sera mise
         </div>
 
         <div class="mb-3">
-            Une fois le jeu de données soumis de nouveau, son état repassera à <strong>« En cours de curation »</strong>, confirmant ainsi qu’il a été resoumis et qu’il est entré dans la file de curation du DFDR. Le curateur ayant précédemment examiné votre jeu de données poursuivra la curation de la version mise à jour en tenant compte des changements apportés. <strong>Après la nouvelle soumission, veuillez répondre au courriel du curateur afin de décrire les modifications effectuées, ce qui permettra d’en vérifier la prise en compte complète.</strong>
+            Une fois le jeu de données soumis de nouveau, son état repassera à <strong>« En cours de curation »</strong>, confirmant ainsi qu’il a été resoumis et qu’il est entré dans la file de curation du DFDR. Le curateur(-trice) ayant précédemment examiné votre jeu de données poursuivra la curation de la version mise à jour en tenant compte des changements apportés. <strong>Après la nouvelle soumission, veuillez répondre au courriel du curateur(-trice) afin de décrire les modifications effectuées, ce qui permettra d’en vérifier la prise en compte complète.</strong>
         </div>
     </div>
 </div>
