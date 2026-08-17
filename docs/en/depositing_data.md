@@ -215,7 +215,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h2 id="transferring-the-dataset">Transferring the dataset and supporting documents</h2>
-        <h3 id="transferring-the-dataset_readme"><a href="#transferring-the-dataset_readme">README</a></h3>
+        <h3 class="header-link" id="transferring-the-dataset_readme"><a href="#transferring-the-dataset_readme">README<i class="fa-solid fa-link link-icon"></i></a></h3>
         <p>Clear and thorough documentation helps others understand and reuse your data accurately. In FRDR, uploading a 
             README file is mandatory for all submissions.</p>
         <p>You may create your own README or use the FRDR README Template, adapted from Cornell University, available 
