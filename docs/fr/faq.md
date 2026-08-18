@@ -30,7 +30,6 @@
                 </div>
             </div>
         </div>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#howFunded" role="button" aria-expanded="false" aria-controls="howFunded">
                 <div class="d-flex justify-content-between">
@@ -44,7 +43,6 @@
                 </div>
             </div>
         </div>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#dataOwn" role="button" aria-expanded="false" aria-controls="dataOwn">
                 <div class="d-flex justify-content-between">
@@ -58,7 +56,6 @@
                 </div>
             </div>
         </div>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#searchable" role="button" aria-expanded="false" aria-controls="searchable">
                 <div class="d-flex justify-content-between">
@@ -72,7 +69,6 @@
                 </div>
             </div>
         </div>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#storedProvinceInstitution" role="button" aria-expanded="false" aria-controls="storedProvinceInstitution">
                 <div class="d-flex justify-content-between">
@@ -203,7 +199,6 @@
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h3 id="compte-utilisateur">Compte utilisateur</h3>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#frdrAccount" role="button" aria-expanded="false" aria-controls="frdrAccount">
                 <div class="d-flex justify-content-between">
@@ -242,7 +237,6 @@
         </div>
     </div>
 </div>
-
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h3>Processus de dépôt</h3>
@@ -279,9 +273,22 @@
             </div>
         </div>
         <div class="faq">
+            <a class="faq-question collapsed" data-toggle="collapse" href="#dmp" role="button" aria-expanded="false" aria-controls="dmp">
+                <div class="d-flex justify-content-between">
+                    <div class="card-title">3. Pourquoi me demande-t-on de téléverser un Plan de gestion des données (PGD) lors du dépôt de mon jeu de données?</div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+            <div id="dmp" class="submission collapse">
+                <div class="mb-3">
+                    Les Plans de gestion des données (PGD) contiennent des renseignements et un contexte précieux sur vos travaux de recherche. Ces informations peuvent aider l’équipe de curation à formuler des recommandations qui amélioreront la découvrabilité et la réutilisation de vos données. Le PGD peut également fournir un contexte utile pour déterminer les activités de conservation des données et de préservation à long terme nécessaires pour en faciliter la réutilisation future. Si vous avez besoin d'aide pour créer un PGD, veuillez utiliser <a target="_blank" href="https://www.alliancecan.ca/en/services/research-data-management/dmp-assistant">l'Assistant PGD</a>.
+                </div>
+            </div>
+        </div>
+        <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#code" role="button" aria-expanded="false" aria-controls="code">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">3. Puis-je déposer mon code dans le DFDR?</div>
+                    <div class="card-title">4. Puis-je déposer mon code dans le DFDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -300,7 +307,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#codeMetadata" role="button" aria-expanded="false" aria-controls="codeMetadata">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">4. Quels renseignements devrais-je joindre à mon code?</div>
+                    <div class="card-title">5. Quels renseignements devrais-je joindre à mon code?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -325,7 +332,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#addCollaborators" role="button" aria-expanded="false" aria-controls="addCollaborators">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">5. Comment puis-je ajouter des collègues comme personnes collaborant à mon jeu de données?</div>
+                    <div class="card-title">6. Comment puis-je ajouter des collègues comme personnes collaborant à mon jeu de données?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -344,7 +351,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#shareRestrictedData" role="button" aria-expanded="false" aria-controls="shareRestrictedData">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">6. Puis-je partager des données à accès restreint dans le DFDR?</div>
+                    <div class="card-title">7. Puis-je partager des données à accès restreint dans le DFDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -360,7 +367,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#updateMetadata" role="button" aria-expanded="false" aria-controls="updateMetadata">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title">7. Comment puis-je modifier mes (méta)données après ma soumission?</div>
+                    <div class="card-title">8. Comment puis-je modifier mes (méta)données après ma soumission?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -376,7 +383,6 @@
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h3 id="quota-d’utilisation">Quota d’utilisation</h3>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#storageDefault" role="button" aria-expanded="false" aria-controls="storageDefault">
                 <div class="d-flex justify-content-between">
@@ -462,7 +468,6 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h3 id="evaluation-externe">Évaluation externe</h3>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#anonymousReview" role="button" aria-expanded="false" aria-controls="anonymousReview">
                 <div class="d-flex justify-content-between">
@@ -670,7 +675,6 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
                 </div>
             </div>
         </div>
-
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#calculateChecksum" role="button" aria-expanded="false" aria-controls="calculateChecksum">
                 <div class="d-flex justify-content-between">
@@ -766,7 +770,6 @@ Si vous avez atteint votre quota ou prévoyez que le quota devra être augmenté
 
 <div class="mt-5 d-flex">
     <h2 class="flex-grow-1" id="versionnage-des-jeux-de-donnees">Versionnage des jeux de données</h2>
-
     <div class="flex-grow-0">
         <button type="button" data-toggle="collapse" data-target=".versioning" class="btn alliance-btn-secondary expand-all"><span class="fas fa-plus mr-1"></span>Expand All</button>
     </div>

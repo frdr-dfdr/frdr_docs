@@ -285,7 +285,7 @@
             </a>
             <div id="dmp" class="submission collapse">
                 <div class="mb-3">
-                    Data Management Plans (DMP) contain valuable information and context about your research. This information can help the team of curators make suggestions that can increase the discoverability and the reuse of your data. The DMP can also provide context that can play a role in determining data retention and long-term preservation activities that need to be undertaken on our data to facilitate future reuse.
+                    Data Management Plans (DMP) contain valuable information and context about your research. This information can help the team of curators make suggestions that can increase the discoverability and the reuse of your data. The DMP can also provide context that can play a role in determining data retention and long-term preservation activities that need to be undertaken on our data to facilitate future reuse. If you need help creating a DMP, please use the <a target="_blank" href="https://www.alliancecan.ca/en/services/research-data-management/dmp-assistant">DMP Assistant</a>.
                 </div>
             </div>
         </div>
@@ -325,7 +325,7 @@
                         <li>Information about the function or purpose of the code</li>
                         <li>Information about how to run the code, the required input and expected output. If there are multiple script files, the order in which they are run should be clear.</li>
                         <li>A list of required software packages and dependencies</li>
-                        <li>Information about the environment in which the code was developed and/or can be run</li
+                        <li>Information about the environment in which the code was developed and/or can be run</li>
                     </ul>
                 </div>
                 <div class="mb-3">
