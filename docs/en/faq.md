@@ -277,9 +277,22 @@
             </div>
         </div>
         <div class="faq">
+            <a class="faq-question collapsed" data-toggle="collapse" href="#dmp" role="button" aria-expanded="false" aria-controls="dmp">
+                <div class="d-flex justify-content-between">
+                    <div class="card-title" id="3-why-am-i-being-asked-to-upload-a-dmp">3. Why am I being asked to upload a Data Management Plan (DMP) when submitting my dataset?</div>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+            <div id="dmp" class="submission collapse">
+                <div class="mb-3">
+                    Data Management Plans (DMP) contain valuable information and context about your research. This information can help the team of curators make suggestions that can increase the discoverability and the reuse of your data. The DMP can also provide context that can play a role in determining data retention and long-term preservation activities that need to be undertaken on our data to facilitate future reuse.
+                </div>
+            </div>
+        </div>
+        <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#code" role="button" aria-expanded="false" aria-controls="code">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title" id="3-can-i-deposit-my-code-in-frdr">3. Can I deposit my code in FRDR?</div>
+                    <div class="card-title" id="4-can-i-deposit-my-code-in-frdr">4. Can I deposit my code in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -298,7 +311,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#codeMetadata" role="button" aria-expanded="false" aria-controls="codeMetadata">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title" id="4-what-information-should-i-include-with-my-code">4. What information should I include with my code?</div>
+                    <div class="card-title" id="5-what-information-should-i-include-with-my-code">5. What information should I include with my code?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -323,7 +336,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#addCollaborators" role="button" aria-expanded="false" aria-controls="addCollaborators">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title" id="5-how-do-i-add-colleagues-as-collaborators-to-my-dataset">5. How do I add colleagues as collaborators to my dataset?</div>
+                    <div class="card-title" id="6-how-do-i-add-colleagues-as-collaborators-to-my-dataset">6. How do I add colleagues as collaborators to my dataset?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -342,7 +355,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#shareRestrictedData" role="button" aria-expanded="false" aria-controls="shareRestrictedData">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title" id="6-can-i-share-restricted-access-data-in-frdr">6. Can I share restricted access data in FRDR?</div>
+                    <div class="card-title" id="7-can-i-share-restricted-access-data-in-frdr">7. Can I share restricted access data in FRDR?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
@@ -358,7 +371,7 @@
         <div class="faq">
             <a class="faq-question collapsed" data-toggle="collapse" href="#updateMetadata" role="button" aria-expanded="false" aria-controls="updateMetadata">
                 <div class="d-flex justify-content-between">
-                    <div class="card-title" id="7-how-can-i-update-my-(meta)data-after-i-submit">7. How can I update my (meta)data after I submit?</div>
+                    <div class="card-title" id="8-how-can-i-update-my-(meta)data-after-i-submit">8. How can I update my (meta)data after I submit?</div>
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
