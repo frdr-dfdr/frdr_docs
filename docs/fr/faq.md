@@ -281,7 +281,7 @@
             </a>
             <div id="dmp" class="submission collapse">
                 <div class="mb-3">
-                    Les Plans de gestion des données (PGD) contiennent des renseignements et un contexte précieux sur vos travaux de recherche. Ces informations peuvent aider l’équipe de curation à formuler des recommandations qui amélioreront la découvrabilité et la réutilisation de vos données. Le PGD peut également fournir un contexte utile pour déterminer les activités de conservation des données et de préservation à long terme nécessaires pour en faciliter la réutilisation future. Si vous avez besoin d'aide pour créer un PGD, veuillez utiliser <a target="_blank" href="https://www.alliancecan.ca/fr/services/gestion-des-donn-es-de-recherche/assistant-pgd">l'Assistant PGD</a>.
+                    Les Plans de gestion des données (PGD) contiennent des renseignements et un contexte précieux sur vos travaux de recherche. Ces informations peuvent aider l’équipe de curation à formuler des recommandations qui amélioreront la découvrabilité et la réutilisation de vos données. Le PGD peut également fournir un contexte utile pour déterminer les activités de conservation des données et de préservation à long terme nécessaires pour en faciliter la réutilisation future. Si vous avez besoin d'aide pour créer un PGD, veuillez utiliser <a target="_blank" href="https://dmp-pgd.ca/">l'Assistant PGD</a>.
                 </div>
             </div>
         </div>

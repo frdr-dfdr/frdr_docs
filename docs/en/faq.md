@@ -285,7 +285,7 @@
             </a>
             <div id="dmp" class="submission collapse">
                 <div class="mb-3">
-                    Data Management Plans (DMP) contain valuable information and context about your research. This information can help the team of curators make suggestions that can increase the discoverability and the reuse of your data. The DMP can also provide context that can play a role in determining data retention and long-term preservation activities that need to be undertaken on our data to facilitate future reuse. If you need help creating a DMP, please use the <a target="_blank" href="https://www.alliancecan.ca/en/services/research-data-management/dmp-assistant">DMP Assistant</a>.
+                    Data Management Plans (DMP) contain valuable information and context about your research. This information can help the team of curators make suggestions that can increase the discoverability and the reuse of your data. The DMP can also provide context that can play a role in determining data retention and long-term preservation activities that need to be undertaken on our data to facilitate future reuse. If you need help creating a DMP, please use the <a target="_blank" href="https://dmp-pgd.ca/">DMP Assistant</a>.
                 </div>
             </div>
         </div>
