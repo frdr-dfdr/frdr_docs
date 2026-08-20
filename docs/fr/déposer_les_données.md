@@ -250,8 +250,8 @@ vos fichiers dans la zone en pointillés intitulée « Glissez-déposez les fi
 instructions détaillées, voir Téléverser un jeu de données dans le navigateur.</li>
 <li>Les jeux de données volumineux, qui comportent des fichiers individuels de plus de 10 Go ou   
 plus de 300 fichiers, doivent être téléversés à l’aide de Globus Transfer, qui offre une meilleure   
-fiabilité et des performances optimales. Pour des instructions détaillées, voir Téléverser un jeu de   
-données avec Globus.</li>
+fiabilité et des performances optimales. Pour des instructions détaillées, voir <a href="#transferer-des-fichiers-a-laide-de-globus">Téléverser un jeu de   
+données avec Globus.</a></li>
 </ul>
         <h4>Téléversement à partir d’un navigateur (petits jeux de données)</h4>
         <div class="mb-3">
