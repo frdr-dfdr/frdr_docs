@@ -225,8 +225,35 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
 
 <div class="card-shadow mb-3">
     <div class="card-body">
-        <h2 id="transfert-de-jeux-de-donnees">Transfert de jeux de données</h2>
-        <h3>Téléversement à partir d’un navigateur (petits jeux de données)</h3>
+        <h2 id="transfert-de-jeux-de-donnees">Transfert du jeu de données et des documents d’accompagnement</h2>
+        <h3 id="transferring-the-dataset_readme">README</h3>
+        <p>Une documentation claire et complète permet aux autres utilisateurs de comprendre et de réutiliser vos   
+données avec exactitude. Dans le DFDR, le téléversement d’un fichier README est obligatoire pour toutes les   
+soumissions.</p>
+<p>Vous pouvez créer votre propre README ou utiliser le modèle de README du DFDR, adapté de l’Université   
+Cornell, disponible en <a href="https://www.frdr-dfdr.ca/docs/txt/README.txt">anglais</a> et en <a href="https://www.frdr-dfdr.ca/docs/txt/README-fr.txt">français</a>.</p>
+<p>Si vous avez besoin d’aide pour préparer votre documentation, notre équipe de curation peut vous   
+accompagner dans l’élaboration d’un fichier README clair et complet pour votre jeu de données. Veuillez   
+communiquer avec nous à <strong>support@frdr-dfdr.ca</strong>.</p>
+<h3 id="transferring-the-dataset_dmp">Plan de gestion des données (PGD)</h3>
+<p>Nous encourageons les chercheurs et chercheuses à inclure leur PGD lorsqu’ils déposent leur jeu de   
+données dans le DFDR. Le PGD fournit aux curateurs et aux spécialistes de la préservation un contexte   
+supplémentaire pouvant améliorer la découvrabilité et la réutilisation du jeu de données. Les   
+renseignements contenus dans le PGD peuvent également contribuer à déterminer les besoins en matière   
+de conservation et de préservation à long terme. Le PGD ne sera pas rendu public.</p>
+<h3 id="transferring-the-dataset_dataset">Jeu de données</h3>
+<p>Vous pouvez téléverser votre jeu de données dans le DFDR de différentes façons selon sa taille:</p>
+<ul>
+<li>Les jeux de données plus petits peuvent être téléversés directement dans votre navigateur   
+Web. Vous pouvez cliquer sur « Choisir des fichiers » dans le navigateur de fichiers ou faire glisser   
+vos fichiers dans la zone en pointillés intitulée « Glissez-déposez les fichiers ici ». Pour des   
+instructions détaillées, voir Téléverser un jeu de données dans le navigateur.</li>
+<li>Les jeux de données volumineux, qui comportent des fichiers individuels de plus de 10 Go ou   
+plus de 300 fichiers, doivent être téléversés à l’aide de Globus Transfer, qui offre une meilleure   
+fiabilité et des performances optimales. Pour des instructions détaillées, voir Téléverser un jeu de   
+données avec Globus.</li>
+</ul>
+        <h4>Téléversement à partir d’un navigateur (petits jeux de données)</h4>
         <div class="mb-3">
             La présente section couvre les activités suivantes :
         </div>
@@ -234,8 +261,8 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
             <li>Comment téléverser des fichiers à l’aide d’un navigateur web</li>
             <li>Comment supprimer des fichiers</li>
         </ul>
-        <h4>Comment téléverser des fichiers à l’aide d’un navigateur web</h4>
-        <h5>Téléverser avec un gestionnaire de fichiers</h5>
+        <h5>Comment téléverser des fichiers à l’aide d’un navigateur web</h5>
+        <h6>Téléverser avec un gestionnaire de fichiers</h6>
         <ul>
             <li>Cliquez sur le bouton « Cliquez pour choisir le fichier » et utilisez le gestionnaire de fichiers pour trouver le fichier que vous voulez téléverser.</li>
             <li>Cliquez sur le bouton choisir pour démarrer le téléversement.</li>
@@ -278,19 +305,12 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         <ul>
             <li>Si tous les fichiers ont été téléversés, vous pourrez passer à l’étape suivante.</li>
         </ul>
-    </div>
-</div>
-
-<hr />
-
-<div class="card-shadow mb-3">
-    <div class="card-body">
-        <h3>Téléverser des dossiers ou plusieurs fichiers à l’aide de la fonction glisser-déposer</h3>
+        <h6>Téléverser des dossiers ou plusieurs fichiers à l’aide de la fonction glisser-déposer</h6>
         <div class="mb-3">
             <div class="video-wrap">
                 <a href="https://www.youtube.com/watch?v=ewhEezAObqs&list=PLX9EpizS4A0suoSV2N0nn9parl96xHPkz&cc_lang_pref=fr&cc_load_policy=1" target="_blank">
                   <div class="video-play-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150" version="1.1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewbox="0 0 150 150">
                         <path stroke="#cccccc" stroke-width="2px" d="M150,0A150,150,0,1,0,300,150,150,150,0,0,0,150,0Zm0,290A140,140,0,1,1,290,150,140,140,0,0,1,150,290Z" transform="matrix(0.5,0,0,0.5,0,0)"></path>
                         <polygon stroke="#cccccc" stroke-width="2px" points="225 150 110 80 110 225 225 150" transform="matrix(0.5,0,0,0.5,0,0)"></polygon>
                     </svg>
@@ -340,14 +360,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         <ul>
             <li>Si tous les fichiers ont été téléversés, vous pourrez passer à l’étape suivante.</li>
         </ul>
-    </div>
-</div>
-
-<hr />
-
-<div class="card-shadow mb-3">
-    <div class="card-body">
-        <h3 id="transferer-des-fichiers-a-laide-de-globus">Transférer des fichiers à l’aide de Globus</h3>
+        <h4 id="transferer-des-fichiers-a-laide-de-globus">Transférer des fichiers à l’aide de Globus</h4>
         <ol>
             <li>Sous l’onglet « Transfert des données » cliquez sur le bouton « transfert de fichiers Globus » pour accéder à la page de transfert de fichiers Globus.  <br/>
                 <a href="/docs/fr/img/screenshots/deposer_les_donees/TransferDatasetToFRDR_GlobusFileTransfer_highlight.png" class="screenshot-lightbox">
@@ -405,7 +418,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
                 </a>
             </li>
         </ol>
-        <h4>Vérifier l'état du transfert</h4>
+        <h5>Vérifier l'état du transfert</h5>
         <ol>
              <li>Rendez-vous <a href="https://globus.frdr.ca/activity?locale=fr-ca">à la page d'activité.</a>.</li>
              <li>Cliquez sur le transfert dans la liste (si vous lui avez attribué un titre, celui-ci sera étiqueté comme tel).</li>
@@ -417,7 +430,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
                  </a>
              </li>
         </ol>
-        <h4>Annuler un transfert en cours</h4>
+        <h5>Annuler un transfert en cours</h5>
         <ol>
              <li>Rendez-vous <a href="https://globus.frdr.ca/activity?locale=fr-ca">à la page d'activité.</a>.</li>
              <li>Localisez le transfert que vous voulez annulez dans la liste des transferts, en fonction de l'étiquette.</li>
@@ -429,7 +442,7 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
              </li>
              <li>Cliquez sur le bouton rouge de terminaison du transfert.</li>
         </ol>
-        <h4>Supprimer un fichier déjà transféré</h4>
+        <h5>Supprimer un fichier déjà transféré</h5>
         <ol>
              <li>Rendez-vous à la soumission du jeu de données, sous l’onglet « En cours » dans <a href="/repo/PublishDashboard?locale=fr" target="_blank">le tableau de bord de publication des données.</a> Cliquez sur « Continuer » pour entrer dans la soumission.</li>
              <li>Cliquez sur l’onglet « Transfert des données »</li>
