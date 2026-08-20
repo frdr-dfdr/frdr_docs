@@ -354,9 +354,9 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         <h4>How to transfer files using Globus</h4>
         <ol>
             <li>On the "Transfer Data" tab, click "Globus File Transfer" button to access the Globus file transfer page<br/>
-                <a href="/docs/en/img/screenshots/depositing_data/GlobusFileTransferButton.png" class="screenshot-lightbox">
+                    <a href="/docs/en/img/screenshots/depositing_data/TransferDatasetToFRDR_GlobusFileTransfer_highlight.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                    <img src="/docs/en/img/screenshots/depositing_data/GlobusFileTransferButton.png" alt="Screenshot of highlighting Globus File Transfer button on Transfer Data tab" class="screenshot"/>
+                    <img src="/docs/en/img/screenshots/depositing_data/TransferDatasetToFRDR_GlobusFileTransfer_highlight.png" alt="Screenshot of highlighting Globus File Transfer button on Transfer Data tab" class="screenshot"/>
                 </a>
             </li>
             <li>Click on the "Transfer or Sync to" link on the right side of the screen. <br/>
