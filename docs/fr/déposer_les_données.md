@@ -350,9 +350,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         <h3 id="transferer-des-fichiers-a-laide-de-globus">Transférer des fichiers à l’aide de Globus</h3>
         <ol>
             <li>Sous l’onglet « Transfert des données » cliquez sur le bouton « transfert de fichiers Globus » pour accéder à la page de transfert de fichiers Globus.  <br/>
-                <a href="/docs/fr/img/screenshots/deposer_les_donees/GlobusFileTransferButton.png" class="screenshot-lightbox">
+                <a href="/docs/fr/img/screenshots/deposer_les_donees/TransferDatasetToFRDR_GlobusFileTransfer_highlight.png" class="screenshot-lightbox">
                     <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                    <img src="/docs/fr/img/screenshots/deposer_les_donees/GlobusFileTransferButton.png" alt="Screenshot" class="screenshot"/>
+                    <img src="/docs/fr/img/screenshots/deposer_les_donees/TransferDatasetToFRDR_GlobusFileTransfer_highlight.png" alt="Screenshot" class="screenshot"/>
                 </a>
             </li>
              <li>Cliquez sur le lien «  Transfert ou sync à... » situé à droite de l'écran.<br/>
