@@ -228,30 +228,30 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         <h2 id="transfert-de-jeux-de-donnees">Transfert du jeu de données et des documents d’accompagnement</h2>
         <h3 id="transferring-the-dataset_readme">README</h3>
         <p>Une documentation claire et complète permet aux autres utilisateurs de comprendre et de réutiliser vos   
-données avec exactitude. Dans le DFDR, le téléversement d’un fichier README est obligatoire pour toutes les   
-soumissions.</p>
-<p>Vous pouvez créer votre propre README ou utiliser le modèle de README du DFDR, adapté de l’Université   
-Cornell, disponible en <a href="https://www.frdr-dfdr.ca/docs/txt/README.txt">anglais</a> et en <a href="https://www.frdr-dfdr.ca/docs/txt/README-fr.txt">français</a>.</p>
-<p>Si vous avez besoin d’aide pour préparer votre documentation, notre équipe de curation peut vous   
-accompagner dans l’élaboration d’un fichier README clair et complet pour votre jeu de données. Veuillez   
-communiquer avec nous à <strong>support@frdr-dfdr.ca</strong>.</p>
-<h3 id="transferring-the-dataset_dmp">Plan de gestion des données (PGD)</h3>
-<p>Nous encourageons les chercheurs et chercheuses à inclure leur PGD lorsqu’ils déposent leur jeu de   
-données dans le DFDR. Le PGD fournit aux curateurs et aux spécialistes de la préservation un contexte   
-supplémentaire pouvant améliorer la découvrabilité et la réutilisation du jeu de données. Les   
-renseignements contenus dans le PGD peuvent également contribuer à déterminer les besoins en matière   
-de conservation et de préservation à long terme. Le PGD ne sera pas rendu public.</p>
-<h3 id="transferring-the-dataset_dataset">Jeu de données</h3>
-<p>Vous pouvez téléverser votre jeu de données dans le DFDR de différentes façons selon sa taille:</p>
-<ul>
-<li>Les jeux de données plus petits peuvent être téléversés directement dans votre navigateur   
-Web. Vous pouvez cliquer sur « Choisir des fichiers » dans le navigateur de fichiers ou faire glisser   
-vos fichiers dans la zone en pointillés intitulée « Glissez-déposez les fichiers ici ». Pour des   
-instructions détaillées, voir Téléverser un jeu de données dans le navigateur.</li>
-<li>Les jeux de données volumineux, qui comportent des fichiers individuels de plus de 10 Go ou   
-plus de 300 fichiers, doivent être téléversés à l’aide de Globus Transfer, qui offre une meilleure   
-fiabilité et des performances optimales. Pour des instructions détaillées, voir <a href="#transferer-des-fichiers-a-laide-de-globus">Transférer des fichiers à l’aide de Globus</a>.</li>
-</ul>
+            données avec exactitude. Dans le DFDR, le téléversement d’un fichier README est obligatoire pour toutes les   
+            soumissions.</p>
+        <p>Vous pouvez créer votre propre README ou utiliser le modèle de README du DFDR, adapté de l’Université   
+        Cornell, disponible en <a href="https://www.frdr-dfdr.ca/docs/txt/README.txt">anglais</a> et en <a href="https://www.frdr-dfdr.ca/docs/txt/README-fr.txt">français</a>.</p>
+        <p>Si vous avez besoin d’aide pour préparer votre documentation, notre équipe de curation peut vous   
+        accompagner dans l’élaboration d’un fichier README clair et complet pour votre jeu de données. Veuillez   
+        communiquer avec nous à <strong>support@frdr-dfdr.ca</strong>.</p>
+        <h3 id="transferring-the-dataset_dmp">Plan de gestion des données (PGD)</h3>
+        <p>Nous encourageons les chercheurs et chercheuses à inclure leur PGD lorsqu’ils déposent leur jeu de   
+        données dans le DFDR. Le PGD fournit aux curateurs et aux spécialistes de la préservation un contexte   
+        supplémentaire pouvant améliorer la découvrabilité et la réutilisation du jeu de données. Les   
+        renseignements contenus dans le PGD peuvent également contribuer à déterminer les besoins en matière   
+        de conservation et de préservation à long terme. Le PGD ne sera pas rendu public.</p>
+        <h3 id="transferring-the-dataset_dataset">Jeu de données</h3>
+        <p>Vous pouvez téléverser votre jeu de données dans le DFDR de différentes façons selon sa taille:</p>
+        <ul>
+            <li>Les jeux de données plus petits peuvent être téléversés directement dans votre navigateur   
+            Web. Vous pouvez cliquer sur « Choisir des fichiers » dans le navigateur de fichiers ou faire glisser   
+            vos fichiers dans la zone en pointillés intitulée « Glissez-déposez les fichiers ici ». Pour des   
+            instructions détaillées, voir Téléverser un jeu de données dans le navigateur.</li>
+            <li>Les jeux de données volumineux, qui comportent des fichiers individuels de plus de 10 Go ou   
+            plus de 300 fichiers, doivent être téléversés à l’aide de Globus Transfer, qui offre une meilleure   
+            fiabilité et des performances optimales. Pour des instructions détaillées, voir <a href="#transferer-des-fichiers-a-laide-de-globus">Transférer des fichiers à l’aide de Globus</a>.</li>
+        </ul>
         <h4>Téléversement à partir d’un navigateur (petits jeux de données)</h4>
         <div class="mb-3">
             La présente section couvre les activités suivantes :
