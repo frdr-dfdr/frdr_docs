@@ -5,3 +5,7 @@ mkdocs.yml
 *.swo
 .DS_Store
 .idea
+
+# downloaded resources for local display
+local_resources
+static
