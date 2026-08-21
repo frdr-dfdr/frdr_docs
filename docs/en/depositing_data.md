@@ -69,7 +69,7 @@ Once submitted, you will not be able to make changes to the data or metadata. An
             email address they used to register with FRDR, which they can find on their profile page.
         </div>
         <div class="mb-3">
-            <a href="../../docs/en/img/screenshots/depositing_data/ProfilePage.png" class="screenshot-lightbox">
+            <a href="/docs/en/img/screenshots/depositing_data/ProfilePage.png" class="screenshot-lightbox">
 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
 <img src="/docs/en/img/screenshots/depositing_data/ProfilePage.png" alt="Screenshot showing Profile page under Account at top of page and where email is on the profile page" class="screenshot"/>
             </a>
