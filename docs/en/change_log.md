@@ -1,11 +1,16 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
+<strong>2026-08-26:</strong>
+<ul>
+    <li>Increase zip download limit from 20 GB to 160 GB</li>
+    <li>Additional sponsor email validation</li>
+</ul>
+
 <strong>2026-03-25:</strong>
 <ul>
     <li>Added optional DMP upload</li>
 </ul>
-
 
 <strong>2025-01-28</strong>:
 <ul>
