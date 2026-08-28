@@ -7,7 +7,6 @@
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
         <link rel="stylesheet" href="/static/js/jquery-ui-1.12.1/jquery-ui.min.css" type="text/css"/>
         <link rel="stylesheet" href="/static/css/boostrap-4.6.0/bootstrap.min.css" type="text/css"/>
-        <link rel="stylesheet" href="/static/css/latest/frdr-theme.css" type="text/css"/>
         <link rel="stylesheet" href="/static/css/latest/frdr-redesign-2025.css" type="text/css"/>
         <link rel="stylesheet" href="/static/fonts/latest/fontawesome-5.15.4/css/all.min.css" type="text/css" />
         <script type="text/javascript" src="/static/js/jquery/jquery-1.12.4.min.js"></script>
@@ -48,9 +47,9 @@
 
                         <!-- Locale on larger screen -->
                         {% if 'en' == config.theme.language %}
-                            <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
+                            <a class="btn lang-btn d-none d-lg-block" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
                         {% else %}
-                            <a class="btn alliance-btn-secondary lang-btn d-none d-lg-block" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
+                            <a class="btn lang-btn d-none d-lg-block" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
                         {% endif %}
                     </div>
                     <ul class="nav navbar-nav">
@@ -73,9 +72,9 @@
                         <!-- Locale on smaller screen -->
                         <li class="nav-item d-lg-none">
                             {% if 'en' == config.theme.language %}
-                                <a class="btn alliance-btn-secondary lang-btn d-block mt-2 mb-2" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
+                                <a class="btn lang-btn d-block mt-2 mb-2" href="{% if config.extra.language_map.en[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.en[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_fr}}{% endif %}" >Français</a>
                             {% else %}
-                                <a class="btn alliance-btn-secondary lang-btn d-block mt-2 mb-2" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
+                                <a class="btn lang-btn d-block mt-2 mb-2" href="{% if config.extra.language_map.fr[page.title] is defined %}{{ config.site_url }}{{ config.extra.language_map.fr[page.title] }}{% else %}{{ config.site_url }}{{config.extra.default_page_en}}{% endif %}" >English</a>
                             {% endif %}
                         </li>
 
@@ -159,14 +158,14 @@
 
         <div style="height: 1px;"></div>
 
-        <div class="card docs-card docs-card-search">
+        <div class="card page-banner-card">
             <div class="card-body">
                 <div class="row">
-                    <div class="docs-headline-text">
-                        <div class="large-headline">Documentation</div>
-                        <h3 class="on-dark">{% if 'en' == config.theme.language %}Welcome to the service documentation for the Federated Research Data Repository! Here you will find guidance to help walk you through all aspects of the FRDR service. The following topics are covered in this documentation:{% else %}Bienvenue dans la documentation de service du Dépôt fédéré de données de recherche (DFDR)! Vous y trouverez des conseils pour mieux comprendre tous les éléments du DFDR. La documentation couvre les sujets suivants :{% endif %}</h3>
+                    <div class="page-banner-text">
+                        <div class="page-banner-title">Documentation</div>
+                        <h3 class="page-banner-subtitle">{% if 'en' == config.theme.language %}Welcome to the service documentation for the Federated Research Data Repository! Here you will find guidance to help walk you through all aspects of the FRDR service. The following topics are covered in this documentation:{% else %}Bienvenue dans la documentation de service du Dépôt fédéré de données de recherche (DFDR)! Vous y trouverez des conseils pour mieux comprendre tous les éléments du DFDR. La documentation couvre les sujets suivants :{% endif %}</h3>
                     </div>
-                    <div class="docs-headline-icon">
+                    <div class="page-banner-icon">
                         <i class="fas fa-folder float-right"></i>
                     </div>
                     <form action="/docs/{% if 'en' == config.theme.language %}en{% else %}fr{% endif %}/search/" method="get">
@@ -417,7 +416,7 @@
                 this.style.setProperty( 'padding-top', '0px', 'important' );
                 this.style.setProperty( 'margin-top', '0px', 'important' );
             });
-            $(".docs-card-search").hide();
+            $(".page-banner-card").hide();
             // Move the header down so it looks better in iframe
             $("h1").addClass("mt-5");
         }
