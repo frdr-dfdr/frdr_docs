@@ -214,9 +214,9 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
             Le temps nécessaire à la curation varie en fonction de plusieurs facteurs, notamment l’exhaustivité et la qualité de la documentation et des métadonnées, la taille et la complexité du jeu de données ainsi que la nature et l’organisation des fichiers.
         </div>
                 <div class="mb-3">
-            <a href="/docs/en/img/screenshots/depositing_data/DataCurationUrgency.jpg" class="screenshot-lightbox">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/DataCurationUrgency.jpg" class="screenshot-lightbox">
                 <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
-                <img src="/docs/en/img/screenshots/depositing_data/DataCurationUrgency.jpg" alt="Urgence de la curation des données" class="screenshot"/>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/DataCurationUrgency.jpg" alt="Urgence de la curation des données" class="screenshot"/>
             </a>
         </div>
         <div class="mb-3">
