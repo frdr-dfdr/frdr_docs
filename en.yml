@@ -114,6 +114,8 @@ extra:
           url: "#external-dataset-review"
         "Specifying an embargo period":
           url: "#specifying-an-embargo-period"
+          "Data Curation Urgency":
+          url: "#data-curation-urgency"
         "Requesting Long-Term Preservation":
           url: "#requesting-long-term-preservation"
         "Transferring the dataset":

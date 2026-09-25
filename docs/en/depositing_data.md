@@ -197,6 +197,26 @@ Once submitted, you will not be able to make changes to the data or metadata. An
         </div>
     </div>
 </div>
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="data-curation-urgency">Data Curation Urgency</h2>
+        <div class="mb-3">
+           The time required for curation varies depending on several factors, including the completeness and quality of the documentation and metadata, the size and complexity of the dataset, and the types and organization of the files.
+        </div>
+         <div class="mb-3">
+            <a href="/docs/en/img/screenshots/depositing_data/DataCurationUrgency.jpg" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/en/img/screenshots/depositing_data/DataCurationUrgency.jpg" alt="Data Curation Urgency" class="screenshot"/>
+            </a>
+        </div>
+        <div class="mb-3">
+            If your dataset is associated with a specific deadline (e.g., a journal publication or grant requirement), please indicate this by selecting the option below and provide the relevant date and context. Please note we cannot guarantee review completion by a particular date; however, we will take deadlines into consideration and may be able to prioritize the dataset where capacity permits. 
+        </div>
+        <div class="mb-3">
+            Depositors can help minimize curation time by providing complete, accurate, and well-organized documentation and metadata at the time of submission and by responding promptly to any questions or requests for clarification from the FRDR team.
+        </div>
+    </div>
+</div>
 
 <div class="card-shadow mb-3">
     <div class="card-body">
