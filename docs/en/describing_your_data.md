@@ -42,6 +42,22 @@
 <div class="card-shadow mb-3">
     <div class="card-body">
         <div class="mb-3">
+            <strong>Methods</strong>: Provide a summary of the methods employed for the study or research of the dataset.
+        </div>
+        <div class="mb-3">
+            <ins>Example</ins>:
+        </div>
+        <div class="mb-3">
+            <ul>
+                <li>“Graphical representation of the steps used to reconstruct sequence alignments of the Nudix superfamily, as described in the Materials and Methods section. (A) The pipeline to build the 78-PDB structure guided sequence alignment. (B) The pipeline to build the 324-core sequence alignment guided by the 78-PDB sequence alignment. (C) The pipeline to build the alignment of the complete Nudix clan (38,950 sequences). (D) Illustration of how to combine two alignment into one guided by a scaffold alignment.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="mb-3">
             <strong>Keywords</strong>: List subjects, keywords, classification codes, and/or key phrases describing the dataset. You may include any terms, which may be taken from a controlled vocabulary (e.g.  <a href="http://fast.oclc.org/searchfast/">OCLC FAST</a>). Geographic locations should be placed under Geographical Metadata.
         </div>
         <div class="mb-3">
