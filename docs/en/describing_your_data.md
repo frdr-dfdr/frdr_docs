@@ -26,7 +26,7 @@
 <div class="card-shadow mb-3">
     <div class="card-body">
         <div class="mb-3">
-            <strong>Description</strong>: Provide a summary describing the purpose, nature, and scope of the dataset.
+            <strong>Abstract</strong>: Provide a summary describing the purpose, nature, and scope of the dataset.
         </div>
         <div class="mb-3">
             <ins>Example</ins>:
