@@ -1,6 +1,15 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
+<strong>2026-09-29:</strong>
+<ul>
+    <li>Add ability to signal if dataset needs to be curated urgently</li>
+    <li>Add Methods as required metadata field</li>
+    <li>Fix name type as Organizational for contributor Research Groups in Datacite metadata export</li>
+    <li>Show the published date instead of the original version date when showing versions</li>
+    <li>Fix translation keys in revise dataset modal</li>
+</ul>
+
 <strong>2026-08-26:</strong>
 <ul>
     <li>Increase zip download limit from 20 GB to 160 GB</li>
