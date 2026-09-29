@@ -9,8 +9,8 @@ Steps involved in submitting a dataset to FRDR:
 * [Add Collaborators to contribute to submission](#add-collaborators)
 * [Enter metadata for your data](#entering-metadata)
 * [Specify if External Review is needed](#external-dataset-review)
-* [Specify an embargo period (if appropriate)](#data-curation-urgency)
-* [Data Curation Urgency](#specifying-an-embargo-period)
+* [Specify an embargo period (if appropriate)](#specifying-an-embargo-period)
+* [Data Curation Urgency](#data-curation-urgency)
 * [Transfer dataset to FRDR](#transferring-the-dataset)
 * [Review and finalize the submission](#finalizing-the-submission)
 
