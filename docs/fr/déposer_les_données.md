@@ -10,6 +10,7 @@ Voici les étapes requises pour initier une soumission dans le DFDR :
 * [Saisie de métadonnées relatives à vos données](déposer_les_données.md#saisie-de-metadonnees)
 * [Évaluation externe](déposer_les_données.md#evaluation-externe)
 * [Indication d'une période d’embargo (le cas échéant)](déposer_les_données.md#indication-dune-periode-dembargo)
+* [Urgence de la curation des données](déposer_les_données.md#Urgence-de-la-curation-des-données)
 * [Transfert de jeu de données dans le DFDR](déposer_les_données.md#transfert-de-jeux-de-donnees)
 * [Finalisation de la soumission](déposer_les_données.md#finaliser-de-la-soumission)
 
@@ -204,6 +205,27 @@ Vous pouvez arrêter le processus de soumission en tout temps, enregistrer l’i
         <div class="mb-3">
             Le DFDR permet des embargos pouvant aller jusqu’à un an. Toutes les autres demandes d’embargo doivent être approuvées par le gestionnaire de services du DFDR. Veuillez communiquer avec <a href="mailto:support@frdr-dfdr.ca">support@frdr-dfdr.ca</a> si vous avez besoin de demander un embargo prolongé.
         </div>
+    </div>
+</div>
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <h2 id="Urgence-de-la-curation-des-données">Urgence de la curation des données</h2>
+        <div class="mb-3">
+            Le temps nécessaire à la curation varie en fonction de plusieurs facteurs, notamment l’exhaustivité et la qualité de la documentation et des métadonnées, la taille et la complexité du jeu de données ainsi que la nature et l’organisation des fichiers.
+        </div>
+                <div class="mb-3">
+            <a href="/docs/fr/img/screenshots/deposer_les_donees/DataCurationUrgency.jpg" class="screenshot-lightbox">
+                <div class="fake-browser"><span class="fake-controls"><i class="fas fa-circle mac-close"></i><i class="fas fa-circle mac-minimize"></i><i class="fas fa-circle mac-maximize"></i></span></div>
+                <img src="/docs/fr/img/screenshots/deposer_les_donees/DataCurationUrgency.jpg" alt="Urgence de la curation des données" class="screenshot"/>
+            </a>
+        </div>
+        <div class="mb-3">
+            Si la curation de votre jeu de données est soumise à une échéance précise (p. ex. en raison d’une publication dans une revue ou d’une exigence liée à une subvention), veuillez l’indiquer en sélectionnant l’option ci-dessous et préciser la date ainsi que le contexte. Veuillez toutefois noter que nous ne pouvons garantir que la curation sera achevée dans le délai indiqué. Nous tiendrons néanmoins compte de votre échéance et, selon nos capacités, pourrons traiter votre jeu de données en priorité.
+        </div>
+        <div class="mb-3">
+            Il est possible de réduire le temps nécessaire à la curation en fournissant, dès le dépôt, une documentation et des métadonnées complètes, exactes et bien organisées, et en répondant rapidement aux questions ou aux demandes de précisions de l’équipe du DFDR.
+        </div>
+        
     </div>
 </div>
 
