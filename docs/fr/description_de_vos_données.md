@@ -24,7 +24,7 @@
 <div class="card-shadow mb-3">
     <div class="card-body">
         <div class="mb-3">
-            <strong>Description</strong> : Présentez un résumé décrivant l’objet, la nature et la portée du jeu de données.
+            <strong>Résumé</strong> : Présentez un résumé décrivant l’objet, la nature et la portée du jeu de données.
         </div>
 
         <div class="mb-3">
@@ -36,7 +36,22 @@
         </ul>
     </div>
 </div>
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="mb-3">
+            <strong>Méthodes</strong> : Présentez un résumé des méthodes utilisées dans le cadre de l’étude ou de la recherche ayant produit le jeu de données.
+        </div>
 
+        <div class="mb-3">
+            <ins>Exemple</ins> :
+        </div>
+
+        <ul>
+             Représentation graphique des étapes suivies pour reconstruire les alignements de séquences de la superfamille Nudix, comme décrit dans la section « Matériel et méthodes ».
+ (A) Chaîne de traitement utilisée pour construire l’alignement de séquences guidé par les structures de 78 PDB. (B) Chaîne de traitement utilisée pour construire l’alignement des 324 séquences centrales à partir de l’alignement de séquences des 78 PDB. (C) Chaîne de traitement utilisée pour construire l’alignement de l’ensemble du clan Nudix (38 950 séquences). (D) Illustration de la méthode permettant de combiner deux alignements en un seul à l’aide d’un alignement servant de canevas.
+        </ul>
+    </div>
+</div>
 <div class="card-shadow mb-3">
     <div class="card-body">
         <div class="mb-3">

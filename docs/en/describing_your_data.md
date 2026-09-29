@@ -26,7 +26,7 @@
 <div class="card-shadow mb-3">
     <div class="card-body">
         <div class="mb-3">
-            <strong>Description</strong>: Provide a summary describing the purpose, nature, and scope of the dataset.
+            <strong>Abstract</strong>: Provide a summary describing the purpose, nature, and scope of the dataset.
         </div>
         <div class="mb-3">
             <ins>Example</ins>:
@@ -34,6 +34,22 @@
         <div class="mb-3">
             <ul>
                 <li>“This file contains collated data of the AHR1 ligand binding domain subtypes, embryonic dioxin EC50 values, and 17 life history traits for 89 avian species. The traits included in this dataset are indicative of each species's developmental rate, fecundity, level of contaminant depuration into the egg, body size, longevity, migration strategy, range, habitat type, trophic level, and degree of sociality and sexual competition. Most birds in this dataset are North American species. These data are associated with the article, "Species traits predict the aryl hydrocarbon receptor 1 (AHR1) subtypes responsible for dioxin sensitivity in birds" by Bianchini and Morrissey (2020). The data were used to investigate the relationship between species traits, phylogeny, and AHR1 subtypes in birds.” (doi:10.20383/101.0257)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="card-shadow mb-3">
+    <div class="card-body">
+        <div class="mb-3">
+            <strong>Methods</strong>: Provide a summary of the methods employed for the study or research of the dataset.
+        </div>
+        <div class="mb-3">
+            <ins>Example</ins>:
+        </div>
+        <div class="mb-3">
+            <ul>
+                <li>“Graphical representation of the steps used to reconstruct sequence alignments of the Nudix superfamily, as described in the Materials and Methods section. (A) The pipeline to build the 78-PDB structure guided sequence alignment. (B) The pipeline to build the 324-core sequence alignment guided by the 78-PDB sequence alignment. (C) The pipeline to build the alignment of the complete Nudix clan (38,950 sequences). (D) Illustration of how to combine two alignment into one guided by a scaffold alignment.</li>
             </ul>
         </div>
     </div>
