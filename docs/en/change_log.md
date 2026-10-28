@@ -1,6 +1,18 @@
 <h1>Change Log</h1>
 This is a list of changes to FRDR, starting with the most recent:
 
+<strong>2026-10-28</strong>:
+<ul>
+    <li>Add moderated contact dataset adminstrator button to datasets</li>
+    <li>Allow collaborators to be able to edit versioned datasets</li>
+    <li>Remove duplicate descriptions on landing pages</li>
+    <li>Fix wrong label for descriptions on landing pages</li>
+    <li>Fix missing submit to collection button on empty collections</li>
+    <li>Re-add description to JSON LD export on landing pages</li>
+    <li>Re-add description to CSV export of datasets</li>
+    <li>Fix external review of datasets to include description</li>
+</ul>
+
 <strong>2026-09-29:</strong>
 <ul>
     <li>Add ability to signal if dataset needs to be curated urgently</li>
