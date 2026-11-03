@@ -24,15 +24,7 @@ This documentation is for users who want to develop applications or web sites th
             Obtain a copy of the REST API Client code by <a href="/repo/contactus">contacting us</a>.  This code is currently not publicly released.
         </div>
         <div class="mb-3">
-            Change directory to where the REST API Client code was downloaded, and then install it:
-        </div>
-        <div class="mb-3">
-            <div class="code-panel mb-3">
-                <div class="dark-header">Code</div>
-                <div class="code-body">
-                    uv sync
-                </div>
-            </div>
+            Change directory to where the REST API Client code was downloaded.
         </div>
         <div class="mb-3">
             To see the commands available to you, you can execute:
