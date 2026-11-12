@@ -19,26 +19,9 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
             Installez <a href="https://www.python.org/downloads/">Python</a>
         </div>
 
-        <div class="mb-3">
-            Installez Virtualenv :
-        </div>
 
         <div class="code-panel mb-3">
-            <div class="dark-header">Code</div>
-            <div class="code-body">
-                sudo pip install virtualenv
-            </div>
-        </div>
-
-        <div class="mb-3">
-            Installez le module Globus SDK python :
-        </div>
-
-        <div class="code-panel mb-3">
-            <div class="dark-header">Code</div>
-            <div class="code-body">
-                sudo pip install globus-sdk
-            </div>
+            Installez <a href="https://docs.astral.sh/uv/getting-started/installation/">uv</a>
         </div>
 
         <div class="mb-3">
@@ -46,14 +29,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
         </div>
 
         <div class="mb-3">
-            Changez le répertoire où le code client REST API a été téléchargé, puis installez-le :
-        </div>
-
-        <div class="code-panel mb-3">
-            <div class="dark-header">Code</div>
-            <div class="code-body">
-                make install
-            </div>
+            Changez le répertoire où le code client REST API a été téléchargé.
         </div>
 
         <div class="mb-3">
@@ -63,7 +39,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
         <div class="code-panel mb-3">
             <div class="dark-header">Code</div>
             <div class="code-body">
-                ./globus-publish-client --help
+                uv run frdr-python-client --help
             </div>
         </div>
 
@@ -74,7 +50,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
         <div class="code-panel mb-3">
             <div class="dark-header">Code</div>
             <div class="code-body">
-                ./globus-publish-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --list-schemas
+                uv run frdr-python-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --list-schemas
             </div>
         </div>
 
@@ -93,7 +69,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
         <div class="code-panel mb-3">
             <div class="dark-header">Code</div>
             <div class="code-body">
-                ./globus-publish-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --list-collections
+                uv run frdr-python-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --list-collections
             </div>
         </div>
 
@@ -128,7 +104,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
         <div class="code-panel mb-3">
             <div class="dark-header">Code</div>
             <div class="code-body">
-                <div>./globus-publish-client \</div>
+                <div>uv run frdr-python-client \</div>
                   <div class="ml-5">--service-url "https://demo.frdr-dfdr.ca/v1/api" \                   </div>
                   <div class="ml-5">--create-submission --collection-id 3 \                              </div>
                   <div class="ml-5">--metadata-file item.json \                                          </div>
@@ -195,7 +171,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
         <div class="code-panel mb-3">
             <div class="dark-header">Code</div>
             <div class="code-body">
-                ./globus-publish-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --submission-id 64 --submit --wait
+                uv run frdr-python-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --submission-id 64 --submit --wait
             </div>
         </div>
 
@@ -210,7 +186,7 @@ La présente documentation s’adresse aux utilisateurs qui souhaitent développ
         <div class="code-panel mb-3">
             <div class="dark-header">Code</div>
             <div class="code-body">
-                ./globus-publish-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --dataset-id 64 --display-dataset
+                uv run frdr-python-client --service-url "https://demo.frdr-dfdr.ca/v1/api" --dataset-id 64 --display-dataset
             </div>
         </div>
 

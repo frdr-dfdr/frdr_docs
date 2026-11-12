@@ -12,7 +12,7 @@ This documentation is for users who want to develop applications or web sites th
             <b>Note: these instructions are for Linux and Mac.</b>
         </div>
         <div class="mb-3">
-            You can use the <a href="https://github.com/frdr-dfdr/frdr_python_client">FRDR Data Publication API Python Client</a> to interact with FRDR. Before starting, you must log into FRDR with the user account that you will use for deposit, and you should also make sure you have been given permission to deposit.
+            You can use the <a href=""http://globus-sdk-python.readthedocs.io/en/stable/>FRDR Data Publication API Python Client</a> to interact with FRDR. Before starting, you must log into FRDR with the user account that you will use for deposit, and you should also make sure you have been given permission to deposit.
         </div>
         <div class="mb-3">
             Install <a href="https://www.python.org/downloads/">Python</a>.
