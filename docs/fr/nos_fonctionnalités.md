@@ -41,7 +41,6 @@ showaboutsidebar: true
 
 
 
-<<<<<<< HEAD
 <div class="card-shadow mb-3">
     <div class="card-body">
         <h2 id="services-de-curation">Services de curation</h2>
